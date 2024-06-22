@@ -121,29 +121,42 @@
         const dropzones = document.querySelectorAll('.dropzone, .initial-zone');
         const draggables = ['draggable1', 'draggable2', 'draggable3', 'draggable4'];
 
+        /**
+         * 创建一个可拖拽的元素
+         * @param {string} id - 可拖拽元素的 ID
+         * @returns {HTMLElement} - 创建的可拖拽元素
+         */
         function createDraggable(id) {
             const div = document.createElement('div');
             div.id = id;
             div.className = 'draggable';
             div.draggable = true;
             div.textContent = `Drag me ${id.slice(-1)}`;
+            // 为拖拽开始事件添加监听器
             div.addEventListener('dragstart', (e) => {
+                // 设置拖拽的数据为元素的 ID
                 e.dataTransfer.setData('text/plain', e.target.id);
             });
             return div;
         }
 
-        // Create and append draggable elements to the initial zone
+        /**
+         * 初始化初始区中的可拖拽元素
+         */
         function initializeDraggables() {
+            // 清空初始区
             initialZone.innerHTML = '';
+            // 为每个可拖拽元素创建并添加到初始区
             draggables.forEach(id => {
                 const draggableElement = createDraggable(id);
                 initialZone.appendChild(draggableElement);
             });
         }
 
+        // 添加拖拽功能的事件监听器
         dropzones.forEach(dropzone => {
             dropzone.addEventListener('dragover', (e) => {
+                // 阻止默认行为以允许放置
                 e.preventDefault();
                 dropzone.classList.add('dragover');
             });
@@ -153,15 +166,20 @@
             });
 
             dropzone.addEventListener('drop', (e) => {
+                // 阻止默认行为并移除拖拽样式
                 e.preventDefault();
                 dropzone.classList.remove('dragover');
+                // 获取被拖拽元素的 ID
                 const id = e.dataTransfer.getData('text/plain');
                 const draggable = document.getElementById(id);
+                // 将被拖拽元素添加到放置区域
                 dropzone.appendChild(draggable);
             });
         });
 
+        // 为删除区添加拖拽功能的事件监听器
         deleteZone.addEventListener('dragover', (e) => {
+            // 阻止默认行为以允许放置
             e.preventDefault();
             deleteZone.classList.add('dragover');
         });
@@ -171,35 +189,50 @@
         });
 
         deleteZone.addEventListener('drop', (e) => {
+            // 阻止默认行为并移除拖拽样式
             e.preventDefault();
             deleteZone.classList.remove('dragover');
+            // 获取被拖拽元素的 ID
             const id = e.dataTransfer.getData('text/plain');
             const draggable = document.getElementById(id);
+            // 删除被拖拽的元素
             draggable.remove();
+            // 显示通知消息
             showNotification('Element deleted!');
         });
 
-        // Reset function to restore initial state
+        /**
+         * 重置函数，恢复到初始状态
+         */
         function reset() {
+            // 初始化初始区中的可拖拽元素
             initializeDraggables();
+            // 恢复 Drop here 区域的文本
             dropzone1.innerHTML = '<span>Drop here 1</span>';
             dropzone2.innerHTML = '<span>Drop here 2</span>';
+            // 隐藏通知消息
             hideNotification();
         }
 
-        // Show notification
+        /**
+         * 显示通知消息
+         * @param {string} message - 要显示的消息
+         */
         function showNotification(message) {
             notification.textContent = message;
             notification.style.display = 'block';
-            setTimeout(hideNotification, 2000); // Hide notification after 2 seconds
+            // 2 秒后隐藏通知消息
+            setTimeout(hideNotification, 2000);
         }
 
-        // Hide notification
+        /**
+         * 隐藏通知消息
+         */
         function hideNotification() {
             notification.style.display = 'none';
         }
 
-        // Initialize the draggables on page load
+        // 页面加载完毕后初始化可拖拽元素
         document.addEventListener('DOMContentLoaded', initializeDraggables);
     </script>
 </body>
