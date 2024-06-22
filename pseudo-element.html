@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        <p>与伪类选择器不同，伪元素选择器是用来选择DOM元素的特定部分，而不是整个元素。它们通常用于处理那些不是由HTML标签直接表示的内容，比如首行文字、首字母或者生成的内容（如内容前面的编号）。
+
+            伪元素选择器允许我们对页面上的某些部分进行精确的样式控制，而这些部分在HTML结构中并不存在</p>
+    </div>
+</body>
+<style>
+    p::first-line {
+        background-color: rgb(186, 186, 225);
+    }
+
+    p::first-letter {
+        color: rgb(98, 251, 251);
+        font-size: 24px;
+    }
+
+    p::after {
+        content: "hahaha";
+        color: red;
+    }
+
+    p::before {
+        content: "hehehe";
+        color: coral;
+    }
+</style>
+
+</html>

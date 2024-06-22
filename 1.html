@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .triangle-container {
+            position: relative;
+            width: 200px;
+            /* 容器的宽度 */
+            height: 200px;
+            /* 容器的高度 */
+            overflow: hidden;
+        }
+
+        .triangle {
+            width: 0;
+            height: 0;
+            border-top: 100px solid red;
+            /* 三角形的左边框 */
+            border-right: 100px solid red;
+            /* 三角形的右边框 */
+            border-bottom: 100px solid transparent;
+            border-left: 100px solid transparent;
+            /* 三角形的底边框 */
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+
+        .content {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: white;
+            /* 内部内容的背景色 */
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="triangle-container">
+        <div class="triangle"></div>
+        <div class="content">
+            保持角度的内容
+        </div>
+    </div>
+</body>
+
+</html>

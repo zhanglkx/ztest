@@ -1,0 +1,562 @@
+{
+    "qrcode_compontent": [
+        {
+            "id": 3693534,
+            "qrcode_id": 3934557,
+            "component_code": "category",
+            "identity_id": 0,
+            "sort": 0,
+            "status": 0,
+            "tpl_com_id": 517265,
+            "org_id": 94911424,
+            "batch_id": 0,
+            "real_group_id": 0,
+            "component_status": 0,
+            "template_component_id": 0,
+            "template_component_info": "",
+            "form_component_id": 0,
+            "form_component_title": "",
+            "attribute_list": [
+                {
+                    "category_id": {
+                        "id": 226,
+                        "value": "46275800",
+                        "status": 0,
+                        "attribute_id": 165,
+                        "group_id": 0,
+                        "real_group_id": 1,
+                        "tpl_com_id": 517265,
+                        "name": "目录id",
+                        "is_default_value": 0
+                    },
+                    "display_style": {
+                        "id": 227,
+                        "value": "0",
+                        "status": 0,
+                        "attribute_id": 166,
+                        "group_id": 0,
+                        "real_group_id": 1,
+                        "tpl_com_id": 517265,
+                        "name": "展示样式",
+                        "is_default_value": 0
+                    },
+                    "size": {
+                        "id": 228,
+                        "value": "-1",
+                        "status": 0,
+                        "attribute_id": 167,
+                        "group_id": 0,
+                        "real_group_id": 1,
+                        "tpl_com_id": 517265,
+                        "name": "数量",
+                        "is_default_value": 0
+                    },
+                    "sort": {
+                        "id": 229,
+                        "value": "7",
+                        "status": 0,
+                        "attribute_id": 168,
+                        "group_id": 0,
+                        "real_group_id": 1,
+                        "tpl_com_id": 517265,
+                        "name": "排序",
+                        "is_default_value": 0
+                    },
+                    "title": {
+                        "id": 230,
+                        "value": "很多很多子码的目录",
+                        "status": 0,
+                        "attribute_id": 169,
+                        "group_id": 0,
+                        "real_group_id": 1,
+                        "tpl_com_id": 517265,
+                        "name": "目录标题",
+                        "is_default_value": 0
+                    },
+                    "show_cover": {
+                        "id": 231,
+                        "value": "1",
+                        "status": 0,
+                        "attribute_id": 170,
+                        "group_id": 0,
+                        "real_group_id": 1,
+                        "tpl_com_id": 517265,
+                        "name": "封面图片",
+                        "is_default_value": 0
+                    },
+                    "list_type": {
+                        "id": 232,
+                        "value": "0",
+                        "status": 0,
+                        "attribute_id": 171,
+                        "group_id": 0,
+                        "real_group_id": 1,
+                        "tpl_com_id": 517265,
+                        "name": "展示内容",
+                        "is_default_value": 0
+                    }
+                }
+            ],
+            "group_count": 1,
+            "encryption": "2bfb4a2a701aecc95a275c884f145096"
+        },
+        {
+            "id": 3693537,
+            "qrcode_id": 3934557,
+            "component_code": "address",
+            "identity_id": 0,
+            "sort": 1,
+            "status": 1,
+            "tpl_com_id": 517268,
+            "org_id": 94911424,
+            "batch_id": 0,
+            "real_group_id": 0,
+            "component_status": 0,
+            "template_component_id": 0,
+            "template_component_info": "",
+            "form_component_id": 0,
+            "form_component_title": "",
+            "attribute_list": [
+                {
+                    "title": {
+                        "id": 1897,
+                        "value": "宁波市翰香小学",
+                        "status": 0,
+                        "attribute_id": 144,
+                        "group_id": 1,
+                        "real_group_id": 1,
+                        "tpl_com_id": 517268,
+                        "name": "标题",
+                        "is_default_value": 0
+                    },
+                    "address": {
+                        "id": 1898,
+                        "value": "浙江省宁波市海曙区小沙泥街52号",
+                        "status": 0,
+                        "attribute_id": 145,
+                        "group_id": 1,
+                        "real_group_id": 1,
+                        "tpl_com_id": 517268,
+                        "name": "地址",
+                        "is_default_value": 0
+                    },
+                    "longitude": {
+                        "id": 1899,
+                        "value": "121.55225599518",
+                        "status": 0,
+                        "attribute_id": 146,
+                        "group_id": 1,
+                        "real_group_id": 1,
+                        "tpl_com_id": 517268,
+                        "name": "经度",
+                        "is_default_value": 0
+                    },
+                    "latitude": {
+                        "id": 1900,
+                        "value": "29.863886580361",
+                        "status": 0,
+                        "attribute_id": 147,
+                        "group_id": 1,
+                        "real_group_id": 1,
+                        "tpl_com_id": 517268,
+                        "name": "纬度",
+                        "is_default_value": 0
+                    },
+                    "show_type": {
+                        "id": 1901,
+                        "value": "1",
+                        "status": 0,
+                        "attribute_id": 148,
+                        "group_id": 1,
+                        "real_group_id": 1,
+                        "tpl_com_id": 517268,
+                        "name": "展示方式",
+                        "is_default_value": 0,
+                        "enum_encryption": "c134f84b945cfbc3b6216ee52012d60e",
+                        "enum_msg": [
+                            {
+                                "id": 496364,
+                                "attribute_value_id": 1901,
+                                "enum_text": "文字",
+                                "enum_value": 0,
+                                "sort": 0,
+                                "status": 0,
+                                "create_time": 0,
+                                "update_time": 0,
+                                "component_code": "address"
+                            },
+                            {
+                                "id": 496365,
+                                "attribute_value_id": 1901,
+                                "enum_text": "地图卡片",
+                                "enum_value": 1,
+                                "sort": 1,
+                                "status": 0,
+                                "create_time": 0,
+                                "update_time": 0,
+                                "component_code": "address"
+                            },
+                            {
+                                "id": 496366,
+                                "attribute_value_id": 1901,
+                                "enum_text": "简易卡片",
+                                "enum_value": 2,
+                                "sort": 2,
+                                "status": 0,
+                                "create_time": 0,
+                                "update_time": 0,
+                                "component_code": "address"
+                            }
+                        ]
+                    },
+                    "locate_image": {
+                        "id": 1902,
+                        "value": "https://ncstatic.clewm.net/rsrc/2024/0617/20/ac551469921689e13a8ef6dc5ccb02fd.png",
+                        "status": 0,
+                        "attribute_id": 149,
+                        "group_id": 1,
+                        "real_group_id": 1,
+                        "tpl_com_id": 517268,
+                        "name": "地图图片路径",
+                        "is_default_value": 0,
+                        "source_id": 7848709
+                    }
+                }
+            ],
+            "group_count": 1,
+            "encryption": "dc5aa08d99a21396437e261643168437"
+        }
+    ],
+    "qrcode_record": {
+        "id": 3934557,
+        "coding": "qImStGP",
+        "wx_url": "",
+        "web_url": "https://qr46.cn/oQL9HR/qImStGP",
+        "wxcode_url": "",
+        "qrcode_url": "https://qrapi.cliim.net/newqr/create?data=https%3A%2F%2Fqr46.cn%2FoQL9HR%2FqImStGP&level=H&transparent=&bgcolor=%23ffffff&forecolor=%23000000&blockpixel=12&marginblock=2&logourl=&size=220&kid=bizcliim&time=1718626106&key=3a3b8b74f2d9b81249163053366b443a",
+        "list_name": "2024-06-17",
+        "qrcode_name": "",
+        "scene_module_id": 0,
+        "desc": "",
+        "category_id": 46274819,
+        "tpl_id": 85510,
+        "identity_id": 0,
+        "org_id": 94911424,
+        "update_time": 1718625763,
+        "create_time": 1718625008,
+        "status": 0,
+        "preset_case": 0,
+        "show_org_dest": 0,
+        "can_scan_update": 0,
+        "is_mobile_updated": 0,
+        "create_from": 126,
+        "tpl_qrcode_status": 0,
+        "tpl_qrcode_updated": 0,
+        "batch_id": 0,
+        "log_status": 0,
+        "excel_status": 0,
+        "tpl_name": "",
+        "batch_name": "",
+        "route_type": 3,
+        "project_id": 85,
+        "share_qrcode_url": "",
+        "qrstyle_url": "",
+        "top_style": [],
+        "component_value_empty": 0,
+        "show_homepage": 2,
+        "log_name": "",
+        "reset_limit_log": 0,
+        "img_name": "",
+        "bottom_setting": {
+            "show_collect": 1,
+            "show_share": 0,
+            "share_style": 0,
+            "show_manage": 1
+        }
+    },
+    "qrcode_top_component": [
+        {
+            "id": 3693535,
+            "qrcode_id": 3934557,
+            "component_code": "text",
+            "identity_id": 0,
+            "sort": 0,
+            "status": 0,
+            "tpl_com_id": 517266,
+            "org_id": 94911424,
+            "batch_id": 0,
+            "real_group_id": 0,
+            "component_status": 1,
+            "template_component_id": 0,
+            "template_component_info": "",
+            "form_component_id": 0,
+            "form_component_title": "",
+            "attribute_list": [
+                {
+                    "content_html": {
+                        "id": 3244067,
+                        "value": "2024-06-17",
+                        "status": 0,
+                        "attribute_id": 10,
+                        "group_id": 1,
+                        "real_group_id": 1,
+                        "tpl_com_id": 517266,
+                        "name": "文本 html 片段",
+                        "is_default_value": 0,
+                        "multiple_id": "244465",
+                        "attribute_multiple_id": 5
+                    }
+                }
+            ],
+            "group_count": 1,
+            "encryption": "d6ae450f689c04f2cd37d188b3d2ca92"
+        },
+        {
+            "component_code": "recordlog",
+            "attribute_list": [],
+            "status": 2,
+            "sort": 1
+        }
+    ],
+    "debug_data": {
+        "uniqueId": "saveQrcodeMsg_3",
+        "timestamp": 1718626114639,
+        "userId": "831891",
+        "cvid": "",
+        "url": "http://console.cli.me:8000/nedit/3934557?create_from=126&categoryId=46274819&fromTplid=nedit",
+        "referrer": "http://console.cli.me:8000/nedit/3934557?create_from=126&categoryId=46274819&fromTplid=nedit",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0"
+    },
+    "qrcode_old_component": [
+        {
+            "id": 3693534,
+            "qrcode_id": 3934557,
+            "component_code": "category",
+            "identity_id": 0,
+            "sort": 0,
+            "status": 0,
+            "tpl_com_id": 517265,
+            "org_id": 94911424,
+            "batch_id": 0,
+            "real_group_id": 0,
+            "component_status": 0,
+            "template_component_id": 0,
+            "template_component_info": "",
+            "form_component_id": 0,
+            "form_component_title": "",
+            "attribute_list": [
+                {
+                    "category_id": {
+                        "id": 226,
+                        "value": "46275800",
+                        "status": 0,
+                        "attribute_id": 165,
+                        "group_id": 0,
+                        "real_group_id": 1,
+                        "tpl_com_id": 517265,
+                        "name": "目录id",
+                        "is_default_value": 0
+                    },
+                    "display_style": {
+                        "id": 227,
+                        "value": "0",
+                        "status": 0,
+                        "attribute_id": 166,
+                        "group_id": 0,
+                        "real_group_id": 1,
+                        "tpl_com_id": 517265,
+                        "name": "展示样式",
+                        "is_default_value": 0
+                    },
+                    "size": {
+                        "id": 228,
+                        "value": "-1",
+                        "status": 0,
+                        "attribute_id": 167,
+                        "group_id": 0,
+                        "real_group_id": 1,
+                        "tpl_com_id": 517265,
+                        "name": "数量",
+                        "is_default_value": 0
+                    },
+                    "sort": {
+                        "id": 229,
+                        "value": "7",
+                        "status": 0,
+                        "attribute_id": 168,
+                        "group_id": 0,
+                        "real_group_id": 1,
+                        "tpl_com_id": 517265,
+                        "name": "排序",
+                        "is_default_value": 0
+                    },
+                    "title": {
+                        "id": 230,
+                        "value": "很多很多子码的目录",
+                        "status": 0,
+                        "attribute_id": 169,
+                        "group_id": 0,
+                        "real_group_id": 1,
+                        "tpl_com_id": 517265,
+                        "name": "目录标题",
+                        "is_default_value": 0
+                    },
+                    "show_cover": {
+                        "id": 231,
+                        "value": "1",
+                        "status": 0,
+                        "attribute_id": 170,
+                        "group_id": 0,
+                        "real_group_id": 1,
+                        "tpl_com_id": 517265,
+                        "name": "封面图片",
+                        "is_default_value": 0
+                    },
+                    "list_type": {
+                        "id": 232,
+                        "value": "0",
+                        "status": 0,
+                        "attribute_id": 171,
+                        "group_id": 0,
+                        "real_group_id": 1,
+                        "tpl_com_id": 517265,
+                        "name": "展示内容",
+                        "is_default_value": 0
+                    }
+                }
+            ],
+            "group_count": 1,
+            "encryption": "2bfb4a2a701aecc95a275c884f145096",
+            "type": "category",
+            "uniqueId": 0
+        },
+        {
+            "id": 3693537,
+            "qrcode_id": 3934557,
+            "component_code": "address",
+            "identity_id": 0,
+            "sort": 1,
+            "status": 0,
+            "tpl_com_id": 517268,
+            "org_id": 94911424,
+            "batch_id": 0,
+            "real_group_id": 0,
+            "component_status": 0,
+            "template_component_id": 0,
+            "template_component_info": "",
+            "form_component_id": 0,
+            "form_component_title": "",
+            "attribute_list": [
+                {
+                    "title": {
+                        "id": 1897,
+                        "value": "宁波市翰香小学",
+                        "status": 0,
+                        "attribute_id": 144,
+                        "group_id": 1,
+                        "real_group_id": 1,
+                        "tpl_com_id": 517268,
+                        "name": "标题",
+                        "is_default_value": 0
+                    },
+                    "address": {
+                        "id": 1898,
+                        "value": "浙江省宁波市海曙区小沙泥街52号",
+                        "status": 0,
+                        "attribute_id": 145,
+                        "group_id": 1,
+                        "real_group_id": 1,
+                        "tpl_com_id": 517268,
+                        "name": "地址",
+                        "is_default_value": 0
+                    },
+                    "longitude": {
+                        "id": 1899,
+                        "value": "121.55225599518",
+                        "status": 0,
+                        "attribute_id": 146,
+                        "group_id": 1,
+                        "real_group_id": 1,
+                        "tpl_com_id": 517268,
+                        "name": "经度",
+                        "is_default_value": 0
+                    },
+                    "latitude": {
+                        "id": 1900,
+                        "value": "29.863886580361",
+                        "status": 0,
+                        "attribute_id": 147,
+                        "group_id": 1,
+                        "real_group_id": 1,
+                        "tpl_com_id": 517268,
+                        "name": "纬度",
+                        "is_default_value": 0
+                    },
+                    "show_type": {
+                        "id": 1901,
+                        "value": "1",
+                        "status": 0,
+                        "attribute_id": 148,
+                        "group_id": 1,
+                        "real_group_id": 1,
+                        "tpl_com_id": 517268,
+                        "name": "展示方式",
+                        "is_default_value": 0,
+                        "enum_encryption": "c134f84b945cfbc3b6216ee52012d60e",
+                        "enum_msg": [
+                            {
+                                "id": 496364,
+                                "attribute_value_id": 1901,
+                                "enum_text": "文字",
+                                "enum_value": 0,
+                                "sort": 0,
+                                "status": 0,
+                                "create_time": 0,
+                                "update_time": 0,
+                                "component_code": "address"
+                            },
+                            {
+                                "id": 496365,
+                                "attribute_value_id": 1901,
+                                "enum_text": "地图卡片",
+                                "enum_value": 1,
+                                "sort": 1,
+                                "status": 0,
+                                "create_time": 0,
+                                "update_time": 0,
+                                "component_code": "address"
+                            },
+                            {
+                                "id": 496366,
+                                "attribute_value_id": 1901,
+                                "enum_text": "简易卡片",
+                                "enum_value": 2,
+                                "sort": 2,
+                                "status": 0,
+                                "create_time": 0,
+                                "update_time": 0,
+                                "component_code": "address"
+                            }
+                        ]
+                    },
+                    "locate_image": {
+                        "id": 1902,
+                        "value": "https://ncstatic.clewm.net/rsrc/2024/0617/20/ac551469921689e13a8ef6dc5ccb02fd.png",
+                        "status": 0,
+                        "attribute_id": 149,
+                        "group_id": 1,
+                        "real_group_id": 1,
+                        "tpl_com_id": 517268,
+                        "name": "地图图片路径",
+                        "is_default_value": 0,
+                        "source_id": 7848709
+                    }
+                }
+            ],
+            "group_count": 1,
+            "encryption": "dc5aa08d99a21396437e261643168437",
+            "type": "address",
+            "uniqueId": 1
+        }
+    ]
+}

@@ -1,0 +1,254 @@
+{
+    "auth_set_info": {
+        "auth_set_info": [
+            {
+                "privi_type": "edit",
+                "auth_type": 5
+            },
+            {
+                "data_type": 7,
+                "privi_type": "visible",
+                "auth_type": 1,
+                "is_front_default": 1,
+                "groups": [
+                    87317,
+                    87320
+                ],
+                "group_list": [
+                    {
+                        "id": 87315,
+                        "org_id": 94911424,
+                        "group_name": "所有成员",
+                        "group_type": 4,
+                        "status": 0,
+                        "is_default": 1,
+                        "add_time": 1716258364,
+                        "category_id": 0,
+                        "target_id": 0,
+                        "web_url": "",
+                        "coding": "",
+                        "group_memo": "",
+                        "qrcode_id": 0,
+                        "need_send_tip": 1,
+                        "tpl_id": 0,
+                        "member_num": 1,
+                        "auth_member_num": 0,
+                        "valid_msg": {
+                            "group_time": 1717133324,
+                            "group_id": 87315,
+                            "group_publickey": "054b4f8b9e3b01646a577bb5f6ada844"
+                        },
+                        "target_token": {
+                            "target_id": 0,
+                            "time": 1717133324,
+                            "publickey": "2bc16eb6753be47ed760247b2ae4f953"
+                        }
+                    },
+                    {
+                        "id": 87316,
+                        "org_id": 94911424,
+                        "group_name": "高级成员",
+                        "group_type": 1,
+                        "status": 0,
+                        "is_default": 1,
+                        "add_time": 1716258364,
+                        "category_id": 0,
+                        "target_id": 0,
+                        "web_url": "https://qr46.cn/oQL9HR/gn0YOBW",
+                        "coding": "gn0YOBW",
+                        "group_memo": "",
+                        "qrcode_id": 0,
+                        "need_send_tip": 0,
+                        "tpl_id": 0,
+                        "member_num": 0,
+                        "auth_member_num": 0,
+                        "valid_msg": {
+                            "group_time": 1717133324,
+                            "group_id": 87316,
+                            "group_publickey": "43a598e30950ca87425e75549ba7957d"
+                        },
+                        "target_token": {
+                            "target_id": 0,
+                            "time": 1717133324,
+                            "publickey": "2bc16eb6753be47ed760247b2ae4f953"
+                        }
+                    },
+                    {
+                        "id": 87317,
+                        "org_id": 94911424,
+                        "group_name": "管理组",
+                        "group_type": 6,
+                        "status": 0,
+                        "is_default": 6,
+                        "add_time": 1716258364,
+                        "category_id": 0,
+                        "target_id": 0,
+                        "web_url": "",
+                        "coding": "",
+                        "group_memo": "",
+                        "qrcode_id": 0,
+                        "need_send_tip": 0,
+                        "tpl_id": 0,
+                        "member_num": 1,
+                        "auth_member_num": 1,
+                        "valid_msg": {
+                            "group_time": 1717133324,
+                            "group_id": 87317,
+                            "group_publickey": "4c7ceb76b2df2fb6f702b658ade9a817"
+                        },
+                        "target_token": {
+                            "target_id": 0,
+                            "time": 1717133324,
+                            "publickey": "2bc16eb6753be47ed760247b2ae4f953"
+                        }
+                    },
+                    {
+                        "id": 87320,
+                        "org_id": 94911424,
+                        "group_name": "码负责人",
+                        "group_type": 100,
+                        "status": 0,
+                        "is_default": 10,
+                        "add_time": 1716258364,
+                        "category_id": 0,
+                        "target_id": 0,
+                        "web_url": "",
+                        "coding": "",
+                        "group_memo": "",
+                        "qrcode_id": 0,
+                        "need_send_tip": 0,
+                        "tpl_id": 0,
+                        "member_num": 0,
+                        "auth_member_num": 0,
+                        "valid_msg": {
+                            "group_time": 1717133324,
+                            "group_id": 87320,
+                            "group_publickey": "05e87158d4d8d55f894762b39a5e9385"
+                        },
+                        "target_token": {
+                            "target_id": 0,
+                            "time": 1717133324,
+                            "publickey": "2bc16eb6753be47ed760247b2ae4f953"
+                        }
+                    }
+                ],
+                "hide_nopower": 1
+            }
+        ]
+    },
+    "create_from": 127,
+    "is_new": 1,
+    "open_codereview": 0,
+    "open_direct_preview": 1,
+    "open_readregister": 0,
+    "qrcode_msg": {
+        "qrcode_compontent": [
+            {
+                "sort": 0,
+                "component_code": "category",
+                "attribute_list": [
+                    {
+                        "category_id": {
+                            "value": "46274819",
+                            "name": "目录id",
+                            "attribute_id": 165,
+                            "is_multiple": 0,
+                            "is_enum": 0
+                        },
+                        "display_style": {
+                            "value": "category",
+                            "name": "展示样式",
+                            "attribute_id": 166,
+                            "is_multiple": 0,
+                            "is_enum": 0
+                        },
+                        "size": {
+                            "value": 5,
+                            "name": "数量",
+                            "attribute_id": 167,
+                            "is_multiple": 0,
+                            "is_enum": 0
+                        },
+                        "sort": {
+                            "value": 1,
+                            "name": "排序",
+                            "attribute_id": 168,
+                            "is_multiple": 0,
+                            "is_enum": 0
+                        }
+                    }
+                ]
+            }
+        ],
+        "qrcode_record": {
+            "list_name": "",
+            "category_id": 46274899,
+            "top_style": {},
+            "show_homepage": 2,
+            "log_name": "",
+            "reset_limit_log": 0,
+            "img_name": "",
+            "log_status": 0,
+            "bottom_setting": {
+                "show_collect": 1,
+                "show_share": 0,
+                "share_style": 0,
+                "show_manage": 1
+            }
+        },
+        "qrcode_top_component": [
+            {
+                "component_code": "text",
+                "sort": 0,
+                "attribute_list": [
+                    {
+                        "content_html": {
+                            "value": "",
+                            "name": "文本 html 片段",
+                            "attribute_id": 10,
+                            "attribute_multiple_id": 5
+                        }
+                    }
+                ]
+            },
+            {
+                "component_code": "recordlog",
+                "attribute_list": [],
+                "status": 2,
+                "sort": 1
+            }
+        ],
+        "debug_data": {
+            "uniqueId": "saveQrcodeMsg_3",
+            "timestamp": 1717133334803,
+            "userId": "831891",
+            "cvid": "100990729",
+            "url": "https://console.cliim.net/nedit?categoryId=46274899&org_module_id=38332&p=1&create_from=127",
+            "referrer": "https://console.cliim.net/active/activecode?categoryId=46274899&org_module_id=38332",
+            "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0"
+        }
+    },
+    "qrcode_setting_msg": {
+        "route_type": {
+            "route_type": 1,
+            "default_route_type": 1
+        },
+        "open_methods": {
+            "scan": 1,
+            "press": 1,
+            "share": 1,
+            "other_app": 1
+        },
+        "bottom_setting": {
+            "show_collect": 1,
+            "show_share": 0,
+            "share_style": 0,
+            "show_manage": 1
+        },
+        "org_bottom_setting": {
+            "show_collect": 1,
+            "show_share": 0
+        },
+        "show_tabbar": 0
+    }
+}

@@ -1,0 +1,74 @@
+{
+    "code": 1,
+    "msg": {
+        "text": "操作成功",
+        "code": 0
+    },
+    "data": {
+        "page": {
+            "current_page": 1,
+            "list_size": 7,
+            "lasted_page": 1,
+            "record_total": 5,
+            "qrcode_count": 5,
+            "category_count": 0
+        },
+        "list": [
+            {
+                "id": 3934567,
+                "web_url": "https:\/\/qr46.cn\/oQL9HR\/qvgxOYk",
+                "list_name": "目录-list-仅二维码\n",
+                "org_id": 94911424,
+                "list_type": "qrcode",
+                "first_images": [
+                    ""
+                ]
+            },
+            {
+                "id": 3934565,
+                "web_url": "https:\/\/qr46.cn\/oQL9HR\/qMFmAOx",
+                "list_name": "目录-list-black-全部",
+                "org_id": 94911424,
+                "list_type": "qrcode",
+                "first_images": [
+                    ""
+                ]
+            },
+            {
+                "id": 3934563,
+                "web_url": "https:\/\/qr46.cn\/oQL9HR\/qpVXxxC",
+                "list_name": "目录-list-white-全部",
+                "org_id": 94911424,
+                "list_type": "qrcode",
+                "first_images": [
+                    ""
+                ]
+            },
+            {
+                "id": 3934560,
+                "web_url": "https:\/\/qr46.cn\/oQL9HR\/qq0l0LM",
+                "list_name": "目录-card-black-全部",
+                "org_id": 94911424,
+                "list_type": "qrcode",
+                "first_images": [
+                    ""
+                ]
+            },
+            {
+                "id": 3934557,
+                "web_url": "https:\/\/qr46.cn\/oQL9HR\/qImStGP",
+                "list_name": "目录-card-white-41",
+                "org_id": 94911424,
+                "list_type": "qrcode",
+                "first_images": [
+                    ""
+                ]
+            }
+        ],
+        "qrcode_count": 5,
+        "category_name": "目录-case",
+        "category_web_url": "https:\/\/qr46.cn\/sy\/oQL9HR\/s9xbdzj"
+    },
+    "url": "http:\/\/console.cli.me:8000\/nedit\/3934567?categoryId=46276268&pageFrom=activeCodeList&c=qvgxOYk",
+    "wait": 3
+}

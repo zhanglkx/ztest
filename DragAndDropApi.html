@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Drag and Drop Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+
+        .container {
+            display: flex;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .draggable {
+            width: 100px;
+            height: 100px;
+            background-color: #4CAF50;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 10px;
+            cursor: grab;
+            transition: transform 0.2s, background-color 0.2s;
+        }
+
+        .draggable:active {
+            cursor: grabbing;
+            transform: scale(1.1);
+            background-color: #45a049;
+        }
+
+        .dropzone,
+        .initial-zone,
+        .delete-zone {
+            width: 200px;
+            height: 200px;
+            border: 2px dashed #ccc;
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #fff;
+            transition: border-color 0.2s, background-color 0.2s;
+            position: relative;
+        }
+
+        .dropzone.dragover,
+        .initial-zone.dragover,
+        .delete-zone.dragover {
+            border-color: #4CAF50;
+            background-color: #e8ffe8;
+        }
+
+        .delete-zone {
+            border-color: #f44336;
+            background-color: #ffebee;
+        }
+
+        .delete-zone.dragover {
+            border-color: #f44336;
+            background-color: #ff8a80;
+        }
+
+        .reset-button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.2s;
+        }
+
+        .reset-button:hover {
+            background-color: #45a049;
+        }
+
+        .notification {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #f44336;
+            color: white;
+            border-radius: 5px;
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div id="initialZone" class="initial-zone">Initial Zone</div>
+    </div>
+    <div class="container">
+        <div id="dropzone1" class="dropzone"><span>Drop here 1</span></div>
+        <div id="dropzone2" class="dropzone"><span>Drop here 2</span></div>
+        <div id="deleteZone" class="delete-zone">Delete Zone</div>
+    </div>
+    <button class="reset-button" onclick="reset()">Reset</button>
+    <div id="notification" class="notification">Element deleted!</div>
+
+    <script>
+        const initialZone = document.getElementById('initialZone');
+        const deleteZone = document.getElementById('deleteZone');
+        const notification = document.getElementById('notification');
+        const dropzone1 = document.getElementById('dropzone1');
+        const dropzone2 = document.getElementById('dropzone2');
+        const dropzones = document.querySelectorAll('.dropzone, .initial-zone');
+        const draggables = ['draggable1', 'draggable2', 'draggable3', 'draggable4'];
+
+        function createDraggable(id) {
+            const div = document.createElement('div');
+            div.id = id;
+            div.className = 'draggable';
+            div.draggable = true;
+            div.textContent = `Drag me ${id.slice(-1)}`;
+            div.addEventListener('dragstart', (e) => {
+                e.dataTransfer.setData('text/plain', e.target.id);
+            });
+            return div;
+        }
+
+        // Create and append draggable elements to the initial zone
+        function initializeDraggables() {
+            initialZone.innerHTML = '';
+            draggables.forEach(id => {
+                const draggableElement = createDraggable(id);
+                initialZone.appendChild(draggableElement);
+            });
+        }
+
+        dropzones.forEach(dropzone => {
+            dropzone.addEventListener('dragover', (e) => {
+                e.preventDefault();
+                dropzone.classList.add('dragover');
+            });
+
+            dropzone.addEventListener('dragleave', () => {
+                dropzone.classList.remove('dragover');
+            });
+
+            dropzone.addEventListener('drop', (e) => {
+                e.preventDefault();
+                dropzone.classList.remove('dragover');
+                const id = e.dataTransfer.getData('text/plain');
+                const draggable = document.getElementById(id);
+                dropzone.appendChild(draggable);
+            });
+        });
+
+        deleteZone.addEventListener('dragover', (e) => {
+            e.preventDefault();
+            deleteZone.classList.add('dragover');
+        });
+
+        deleteZone.addEventListener('dragleave', () => {
+            deleteZone.classList.remove('dragover');
+        });
+
+        deleteZone.addEventListener('drop', (e) => {
+            e.preventDefault();
+            deleteZone.classList.remove('dragover');
+            const id = e.dataTransfer.getData('text/plain');
+            const draggable = document.getElementById(id);
+            draggable.remove();
+            showNotification('Element deleted!');
+        });
+
+        // Reset function to restore initial state
+        function reset() {
+            initializeDraggables();
+            dropzone1.innerHTML = '<span>Drop here 1</span>';
+            dropzone2.innerHTML = '<span>Drop here 2</span>';
+            hideNotification();
+        }
+
+        // Show notification
+        function showNotification(message) {
+            notification.textContent = message;
+            notification.style.display = 'block';
+            setTimeout(hideNotification, 2000); // Hide notification after 2 seconds
+        }
+
+        // Hide notification
+        function hideNotification() {
+            notification.style.display = 'none';
+        }
+
+        // Initialize the draggables on page load
+        document.addEventListener('DOMContentLoaded', initializeDraggables);
+    </script>
+</body>
+
+</html>
