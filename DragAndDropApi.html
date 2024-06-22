@@ -126,7 +126,7 @@
          * @param {string} id - 可拖拽元素的 ID
          * @returns {HTMLElement} - 创建的可拖拽元素
          */
-        function createDraggable(id) {
+        const createDraggable = (id) => {
             const div = document.createElement('div');
             div.id = id;
             div.className = 'draggable';
@@ -138,99 +138,73 @@
                 e.dataTransfer.setData('text/plain', e.target.id);
             });
             return div;
-        }
+        };
 
         /**
          * 初始化初始区中的可拖拽元素
          */
-        function initializeDraggables() {
+        const initializeDraggables = () => {
             // 清空初始区
             initialZone.innerHTML = '';
             // 为每个可拖拽元素创建并添加到初始区
-            draggables.forEach(id => {
-                const draggableElement = createDraggable(id);
-                initialZone.appendChild(draggableElement);
-            });
-        }
+            draggables.forEach(id => initialZone.appendChild(createDraggable(id)));
+        };
 
-        // 添加拖拽功能的事件监听器
-        dropzones.forEach(dropzone => {
-            dropzone.addEventListener('dragover', (e) => {
-                // 阻止默认行为以允许放置
+        /**
+         * 处理拖拽事件的辅助函数
+         */
+        const handleDragEvents = (zone) => {
+            zone.addEventListener('dragover', (e) => {
                 e.preventDefault();
-                dropzone.classList.add('dragover');
+                zone.classList.add('dragover');
             });
 
-            dropzone.addEventListener('dragleave', () => {
-                dropzone.classList.remove('dragover');
-            });
+            zone.addEventListener('dragleave', () => zone.classList.remove('dragover'));
 
-            dropzone.addEventListener('drop', (e) => {
-                // 阻止默认行为并移除拖拽样式
+            zone.addEventListener('drop', (e) => {
                 e.preventDefault();
-                dropzone.classList.remove('dragover');
-                // 获取被拖拽元素的 ID
+                zone.classList.remove('dragover');
                 const id = e.dataTransfer.getData('text/plain');
                 const draggable = document.getElementById(id);
-                // 将被拖拽元素添加到放置区域
-                dropzone.appendChild(draggable);
+                zone.appendChild(draggable);
             });
-        });
+        };
 
-        // 为删除区添加拖拽功能的事件监听器
-        deleteZone.addEventListener('dragover', (e) => {
-            // 阻止默认行为以允许放置
-            e.preventDefault();
-            deleteZone.classList.add('dragover');
-        });
-
-        deleteZone.addEventListener('dragleave', () => {
-            deleteZone.classList.remove('dragover');
-        });
+        // 为所有放置区、初始区和删除区添加拖拽功能的事件监听器
+        dropzones.forEach(handleDragEvents);
 
         deleteZone.addEventListener('drop', (e) => {
-            // 阻止默认行为并移除拖拽样式
             e.preventDefault();
             deleteZone.classList.remove('dragover');
-            // 获取被拖拽元素的 ID
             const id = e.dataTransfer.getData('text/plain');
-            const draggable = document.getElementById(id);
-            // 删除被拖拽的元素
-            draggable.remove();
-            // 显示通知消息
+            document.getElementById(id).remove();
             showNotification('Element deleted!');
         });
 
         /**
          * 重置函数，恢复到初始状态
          */
-        function reset() {
-            // 初始化初始区中的可拖拽元素
+        const reset = () => {
             initializeDraggables();
-            // 恢复 Drop here 区域的文本
             dropzone1.innerHTML = '<span>Drop here 1</span>';
             dropzone2.innerHTML = '<span>Drop here 2</span>';
-            // 隐藏通知消息
             hideNotification();
-        }
+        };
 
         /**
          * 显示通知消息
          * @param {string} message - 要显示的消息
          */
-        function showNotification(message) {
+        const showNotification = (message) => {
             notification.textContent = message;
             notification.style.display = 'block';
-            // 2 秒后隐藏通知消息
             setTimeout(hideNotification, 2000);
-        }
+        };
 
         /**
          * 隐藏通知消息
          */
-        function hideNotification() {
-            notification.style.display = 'none';
-        }
+        const hideNotification = () => notification.style.display = 'none';
 
         // 页面加载完毕后初始化可拖拽元素
         document.addEventListener('DOMContentLoaded', initializeDraggables);
