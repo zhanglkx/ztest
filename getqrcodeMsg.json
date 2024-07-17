@@ -1,0 +1,573 @@
+{
+    "code": 1,
+    "msg": {
+        "text": "操作成功",
+        "code": "0"
+    },
+    "data": {
+        "qrcode_record": {
+            "id": 3962064,
+            "coding": "qw8F8IB",
+            "wx_url": "",
+            "web_url": "https:\/\/qr46.cn\/oQL9HR\/qw8F8IB",
+            "wxcode_url": "",
+            "qrcode_url": "https:\/\/qrapi.cliim.net\/newqr\/create?data=https%3A%2F%2Fqr46.cn%2FoQL9HR%2Fqw8F8IB&level=H&transparent=&bgcolor=%23ffffff&forecolor=%23000000&blockpixel=12&marginblock=2&logourl=&size=220&kid=bizcliim&time=1720677255&key=80cafa2d15d307e92ea87a1d28f957cb",
+            "list_name": "未命名码",
+            "qrcode_name": "",
+            "scene_module_id": 0,
+            "desc": "",
+            "category_id": 46274819,
+            "tpl_id": 86905,
+            "identity_id": 0,
+            "org_id": 94911424,
+            "update_time": 1720677254,
+            "create_time": 1720675149,
+            "status": 0,
+            "preset_case": 0,
+            "show_org_dest": 0,
+            "can_scan_update": 0,
+            "is_mobile_updated": 0,
+            "create_from": 126,
+            "tpl_qrcode_status": 0,
+            "tpl_qrcode_updated": 0,
+            "batch_id": 0,
+            "log_status": 0,
+            "excel_status": 0,
+            "tpl_name": "",
+            "batch_name": "",
+            "route_type": 3,
+            "record_summary_status": 1,
+            "project_id": 85,
+            "share_qrcode_url": "",
+            "qrstyle_url": "",
+            "top_style": [],
+            "record_add_status": 0,
+            "component_value_empty": 1
+        },
+        "qrcode_compontent": [
+            {
+                "id": 3702523,
+                "qrcode_id": 3962064,
+                "component_code": "category",
+                "identity_id": 0,
+                "sort": 0,
+                "status": 0,
+                "tpl_com_id": 526241,
+                "org_id": 94911424,
+                "batch_id": 0,
+                "real_group_id": 0,
+                "component_status": 0,
+                "template_component_id": 0,
+                "template_component_info": "",
+                "form_component_id": 0,
+                "form_component_title": "",
+                "attribute_list": [
+                    {
+                        "category_id": {
+                            "id": 1951,
+                            "value": "46275792",
+                            "status": 0,
+                            "attribute_id": 165,
+                            "group_id": 1,
+                            "real_group_id": 1,
+                            "tpl_com_id": 526241,
+                            "name": "目录id",
+                            "is_default_value": 0
+                        },
+                        "display_style": {
+                            "id": 1952,
+                            "value": "1",
+                            "status": 0,
+                            "attribute_id": 166,
+                            "group_id": 1,
+                            "real_group_id": 1,
+                            "tpl_com_id": 526241,
+                            "name": "展示样式",
+                            "is_default_value": 0
+                        },
+                        "size": {
+                            "id": 1953,
+                            "value": "4",
+                            "status": 0,
+                            "attribute_id": 167,
+                            "group_id": 1,
+                            "real_group_id": 1,
+                            "tpl_com_id": 526241,
+                            "name": "数量",
+                            "is_default_value": 0
+                        },
+                        "sort": {
+                            "id": 1954,
+                            "value": "7",
+                            "status": 0,
+                            "attribute_id": 168,
+                            "group_id": 1,
+                            "real_group_id": 1,
+                            "tpl_com_id": 526241,
+                            "name": "排序",
+                            "is_default_value": 0
+                        },
+                        "title": {
+                            "id": 1955,
+                            "value": "全部活码",
+                            "status": 0,
+                            "attribute_id": 169,
+                            "group_id": 1,
+                            "real_group_id": 1,
+                            "tpl_com_id": 526241,
+                            "name": "目录标题",
+                            "is_default_value": 0
+                        },
+                        "show_cover": {
+                            "id": 1956,
+                            "value": "1",
+                            "status": 0,
+                            "attribute_id": 170,
+                            "group_id": 1,
+                            "real_group_id": 1,
+                            "tpl_com_id": 526241,
+                            "name": "封面图片",
+                            "is_default_value": 0
+                        },
+                        "list_type": {
+                            "id": 1957,
+                            "value": "0",
+                            "status": 0,
+                            "attribute_id": 171,
+                            "group_id": 1,
+                            "real_group_id": 1,
+                            "tpl_com_id": 526241,
+                            "name": "展示内容",
+                            "is_default_value": 0
+                        },
+                        "hidden_more": {
+                            "id": 1958,
+                            "value": "0",
+                            "status": 0,
+                            "attribute_id": 179,
+                            "group_id": 1,
+                            "real_group_id": 1,
+                            "tpl_com_id": 526241,
+                            "name": "隐藏查看全部入口",
+                            "is_default_value": 0
+                        }
+                    }
+                ],
+                "group_count": 1,
+                "encryption": "d02cd29b5bc1891c5f167e77e2a216e9"
+            },
+            {
+                "id": 3702524,
+                "qrcode_id": 3962064,
+                "component_code": "category",
+                "identity_id": 0,
+                "sort": 1,
+                "status": 0,
+                "tpl_com_id": 526242,
+                "org_id": 94911424,
+                "batch_id": 0,
+                "real_group_id": 0,
+                "component_status": 0,
+                "template_component_id": 0,
+                "template_component_info": "",
+                "form_component_id": 0,
+                "form_component_title": "",
+                "attribute_list": [
+                    {
+                        "category_id": {
+                            "id": 1959,
+                            "value": "46275792",
+                            "status": 0,
+                            "attribute_id": 165,
+                            "group_id": 0,
+                            "real_group_id": 1,
+                            "tpl_com_id": 526242,
+                            "name": "目录id",
+                            "is_default_value": 0
+                        },
+                        "display_style": {
+                            "id": 1960,
+                            "value": "1",
+                            "status": 0,
+                            "attribute_id": 166,
+                            "group_id": 0,
+                            "real_group_id": 1,
+                            "tpl_com_id": 526242,
+                            "name": "展示样式",
+                            "is_default_value": 0
+                        },
+                        "size": {
+                            "id": 1961,
+                            "value": "4",
+                            "status": 0,
+                            "attribute_id": 167,
+                            "group_id": 0,
+                            "real_group_id": 1,
+                            "tpl_com_id": 526242,
+                            "name": "数量",
+                            "is_default_value": 0
+                        },
+                        "sort": {
+                            "id": 1962,
+                            "value": "7",
+                            "status": 0,
+                            "attribute_id": 168,
+                            "group_id": 0,
+                            "real_group_id": 1,
+                            "tpl_com_id": 526242,
+                            "name": "排序",
+                            "is_default_value": 0
+                        },
+                        "title": {
+                            "id": 1963,
+                            "value": "全部活码",
+                            "status": 0,
+                            "attribute_id": 169,
+                            "group_id": 0,
+                            "real_group_id": 1,
+                            "tpl_com_id": 526242,
+                            "name": "目录标题",
+                            "is_default_value": 0
+                        },
+                        "show_cover": {
+                            "id": 1964,
+                            "value": "1",
+                            "status": 0,
+                            "attribute_id": 170,
+                            "group_id": 0,
+                            "real_group_id": 1,
+                            "tpl_com_id": 526242,
+                            "name": "封面图片",
+                            "is_default_value": 0
+                        },
+                        "list_type": {
+                            "id": 1965,
+                            "value": "1",
+                            "status": 0,
+                            "attribute_id": 171,
+                            "group_id": 0,
+                            "real_group_id": 1,
+                            "tpl_com_id": 526242,
+                            "name": "展示内容",
+                            "is_default_value": 0
+                        },
+                        "hidden_more": {
+                            "id": 1966,
+                            "value": "0",
+                            "status": 0,
+                            "attribute_id": 179,
+                            "group_id": 0,
+                            "real_group_id": 1,
+                            "tpl_com_id": 526242,
+                            "name": "隐藏查看全部入口",
+                            "is_default_value": 0
+                        }
+                    }
+                ],
+                "group_count": 1,
+                "encryption": "09cbcbe6fe320e9f095ddfb653f4fc61"
+            },
+            {
+                "id": 3702525,
+                "qrcode_id": 3962064,
+                "component_code": "category",
+                "identity_id": 0,
+                "sort": 2,
+                "status": 0,
+                "tpl_com_id": 526243,
+                "org_id": 94911424,
+                "batch_id": 0,
+                "real_group_id": 0,
+                "component_status": 0,
+                "template_component_id": 0,
+                "template_component_info": "",
+                "form_component_id": 0,
+                "form_component_title": "",
+                "attribute_list": [
+                    {
+                        "category_id": {
+                            "id": 1967,
+                            "value": "46275792",
+                            "status": 0,
+                            "attribute_id": 165,
+                            "group_id": 1,
+                            "real_group_id": 1,
+                            "tpl_com_id": 526243,
+                            "name": "目录id",
+                            "is_default_value": 0
+                        },
+                        "display_style": {
+                            "id": 1968,
+                            "value": "1",
+                            "status": 0,
+                            "attribute_id": 166,
+                            "group_id": 1,
+                            "real_group_id": 1,
+                            "tpl_com_id": 526243,
+                            "name": "展示样式",
+                            "is_default_value": 0
+                        },
+                        "size": {
+                            "id": 1969,
+                            "value": "4",
+                            "status": 0,
+                            "attribute_id": 167,
+                            "group_id": 1,
+                            "real_group_id": 1,
+                            "tpl_com_id": 526243,
+                            "name": "数量",
+                            "is_default_value": 0
+                        },
+                        "sort": {
+                            "id": 1970,
+                            "value": "7",
+                            "status": 0,
+                            "attribute_id": 168,
+                            "group_id": 1,
+                            "real_group_id": 1,
+                            "tpl_com_id": 526243,
+                            "name": "排序",
+                            "is_default_value": 0
+                        },
+                        "title": {
+                            "id": 1971,
+                            "value": "全部活码",
+                            "status": 0,
+                            "attribute_id": 169,
+                            "group_id": 1,
+                            "real_group_id": 1,
+                            "tpl_com_id": 526243,
+                            "name": "目录标题",
+                            "is_default_value": 0
+                        },
+                        "show_cover": {
+                            "id": 1972,
+                            "value": "1",
+                            "status": 0,
+                            "attribute_id": 170,
+                            "group_id": 1,
+                            "real_group_id": 1,
+                            "tpl_com_id": 526243,
+                            "name": "封面图片",
+                            "is_default_value": 0
+                        },
+                        "list_type": {
+                            "id": 1973,
+                            "value": "0",
+                            "status": 0,
+                            "attribute_id": 171,
+                            "group_id": 1,
+                            "real_group_id": 1,
+                            "tpl_com_id": 526243,
+                            "name": "展示内容",
+                            "is_default_value": 0
+                        },
+                        "hidden_more": {
+                            "id": 1974,
+                            "value": "0",
+                            "status": 0,
+                            "attribute_id": 179,
+                            "group_id": 1,
+                            "real_group_id": 1,
+                            "tpl_com_id": 526243,
+                            "name": "隐藏查看全部入口",
+                            "is_default_value": 0
+                        }
+                    }
+                ],
+                "group_count": 1,
+                "encryption": "a93c1a5b792844dad735d927e940237f"
+            }
+        ],
+        "qrcode_top_component": [
+            {
+                "id": 3702502,
+                "qrcode_id": 3962064,
+                "component_code": "text",
+                "identity_id": 0,
+                "sort": 3,
+                "status": 0,
+                "tpl_com_id": 526220,
+                "org_id": 94911424,
+                "batch_id": 0,
+                "real_group_id": 0,
+                "component_status": 1,
+                "template_component_id": 0,
+                "template_component_info": "",
+                "form_component_id": 0,
+                "form_component_title": "",
+                "attribute_list": [
+                    {
+                        "content_html": {
+                            "id": 3247958,
+                            "value": "",
+                            "status": 0,
+                            "attribute_id": 10,
+                            "group_id": 1,
+                            "real_group_id": 1,
+                            "tpl_com_id": 526220,
+                            "name": "文本 html 片段",
+                            "is_default_value": 0,
+                            "multiple_id": "248355",
+                            "attribute_multiple_id": 5
+                        }
+                    }
+                ],
+                "group_count": 1,
+                "encryption": "18d6150ebbdb5760cf6d1de72823d714"
+            },
+            {
+                "id": 3702536,
+                "qrcode_id": 3962064,
+                "component_code": "recordlog",
+                "identity_id": 0,
+                "sort": 4,
+                "status": 2,
+                "tpl_com_id": 526254,
+                "org_id": 94911424,
+                "batch_id": 0,
+                "real_group_id": 0,
+                "component_status": 1,
+                "template_component_id": 0,
+                "template_component_info": "",
+                "form_component_id": 0,
+                "form_component_title": ""
+            }
+        ],
+        "used_form_fields": [],
+        "show_collect": 1,
+        "show_manage": 1,
+        "show_font_size": 2,
+        "show_share": 0,
+        "share_style": 0,
+        "show_homepage": 2,
+        "show_powered_by": 0,
+        "show_complain": 0,
+        "is_org_dest_qrcode": 0,
+        "log_msg": [],
+        "log_msg_tag": "",
+        "expand_log": 4,
+        "open_codereview": 0,
+        "open_readregister": 0,
+        "open_direct_preview": 1,
+        "show_record_editlog": 0,
+        "recordview_position": 4,
+        "record_summary_title": "",
+        "state_show_mode": 4,
+        "record_summary_status": 1,
+        "default_qrlabel_show_type": 0,
+        "visible_auth_info": [],
+        "qrcode_setting_msg": {
+            "valid_time": {
+                "start_time": "",
+                "end_time": "",
+                "valid_days_num": -2
+            },
+            "route_type": 3,
+            "subscribe_status": 0,
+            "show_tabbar": 0,
+            "open_methods": {
+                "scan": true,
+                "press": true,
+                "share": true,
+                "other_app": true
+            },
+            "org_bottom_setting": {
+                "show_collect": 1,
+                "show_manage": 1,
+                "show_font_size": 2,
+                "show_share": 0,
+                "show_homepage": 1,
+                "show_powered_by": 0,
+                "dest_qrcode_msg": {
+                    "can_show_dest_qrcode": 1,
+                    "org_dest_qrcode": 0,
+                    "show_dest_qrcode": 0,
+                    "homepage_qrcode_name": "",
+                    "tpl_qrcode_status": 0,
+                    "homepage_qrcode_url": "",
+                    "homepage_qrcode_id": 0
+                }
+            },
+            "show_font_size": 2,
+            "auth_set_info": [
+                {
+                    "privi_type": "edit",
+                    "auth_type": 5
+                },
+                {
+                    "id": 976164,
+                    "data_id": 3962064,
+                    "data_type": 7,
+                    "privi_type": "visible",
+                    "auth_type": 1,
+                    "code_id": 3962064,
+                    "org_id": 94911424,
+                    "limit_id": 0,
+                    "update_time": 1720675149,
+                    "hide_nopower": 1,
+                    "has_detail": true,
+                    "groups": [
+                        87317,
+                        87320
+                    ],
+                    "group_list": [
+                        {
+                            "id": 87317,
+                            "org_id": 94911424,
+                            "group_name": "管理组",
+                            "group_type": 6,
+                            "status": 0,
+                            "is_default": 6,
+                            "add_time": 1716258364,
+                            "category_id": 0,
+                            "target_id": 0,
+                            "web_url": "",
+                            "coding": "",
+                            "group_memo": "",
+                            "qrcode_id": 0,
+                            "need_send_tip": 0,
+                            "tpl_id": 0
+                        },
+                        {
+                            "id": 87320,
+                            "org_id": 94911424,
+                            "group_name": "负责人",
+                            "group_type": 100,
+                            "status": 0,
+                            "is_default": 10,
+                            "add_time": 1716258364,
+                            "category_id": 0,
+                            "target_id": 0,
+                            "web_url": "",
+                            "coding": "",
+                            "group_memo": "",
+                            "qrcode_id": 0,
+                            "need_send_tip": 0,
+                            "tpl_id": 0
+                        }
+                    ],
+                    "encryption": "d044119325659de72d0eba852b3c4572"
+                }
+            ],
+            "review_set": [],
+            "bgimage_set": [],
+            "common_set": []
+        },
+        "scan_msg": [],
+        "ssid": "225u7u9mfnqkc13o2g1du94835",
+        "preview_token": {
+            "time": 1720677255,
+            "signature": "045f0eced833af0012985e0d816ea230"
+        },
+        "case_bg_path": "",
+        "is_special_code": 0,
+        "mobilebuild_qr_edited": 1,
+        "origin_template": [],
+        "is_preset_case": 0,
+        "low_quality": 0,
+        "encoded_user_id": "oQL9HR"
+    },
+    "url": "",
+    "wait": 3
+}

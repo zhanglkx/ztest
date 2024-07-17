@@ -1,0 +1,633 @@
+[
+  {
+    "state_record": {
+      "id": 7612,
+      "name": "测试状态设置继承",
+      "status": 0,
+      "org_id": 94911424,
+      "create_time": 1720415227,
+      "update_time": 1720415227,
+      "is_default": 0,
+      "create_from_time": 0,
+      "create_from": 0,
+      "project_id": 85
+    },
+    "state_option_record": [
+      {
+        "id": 25383,
+        "text": "正常",
+        "color": "#07C160",
+        "value": 1,
+        "status": 0,
+        "org_id": 94911424,
+        "state_id": 7612,
+        "sort": 0,
+        "create_time": 1720415227,
+        "update_time": 1720415227,
+        "is_default": 1
+      },
+      {
+        "id": 25384,
+        "text": "异常",
+        "color": "#D94441",
+        "value": 2,
+        "status": 0,
+        "org_id": 94911424,
+        "state_id": 7612,
+        "sort": 1,
+        "create_time": 1720415227,
+        "update_time": 1720415227,
+        "is_default": 0
+      },
+      {
+        "id": 25385,
+        "text": "暂停",
+        "color": "#E3AA00",
+        "value": 2,
+        "status": 0,
+        "org_id": 94911424,
+        "state_id": 7612,
+        "sort": 2,
+        "create_time": 1720415227,
+        "update_time": 1720415227,
+        "is_default": 0
+      },
+      {
+        "id": 25386,
+        "text": "恢复",
+        "color": "#6467F0",
+        "value": 3,
+        "status": 0,
+        "org_id": 94911424,
+        "state_id": 7612,
+        "sort": 3,
+        "create_time": 1720415227,
+        "update_time": 1720415227,
+        "is_default": 0
+      }
+    ],
+    "auth_set_info": {
+      "auth_set_info": [
+        {
+          "id": 973980,
+          "data_id": 7612,
+          "data_type": 8,
+          "privi_type": "visible",
+          "auth_type": 1,
+          "code_id": 0,
+          "org_id": 94911424,
+          "limit_id": 0,
+          "update_time": 1720415228,
+          "hide_nopower": 0,
+          "has_detail": true,
+          "groups": [
+            87317,
+            87320
+          ],
+          "group_list": [
+            {
+              "id": 87317,
+              "org_id": 94911424,
+              "group_name": "管理组",
+              "group_type": 6,
+              "status": 0,
+              "is_default": 6,
+              "add_time": 1716258364,
+              "category_id": 0,
+              "target_id": 0,
+              "web_url": "",
+              "coding": "",
+              "group_memo": "",
+              "qrcode_id": 0,
+              "need_send_tip": 0,
+              "tpl_id": 0
+            },
+            {
+              "id": 87320,
+              "org_id": 94911424,
+              "group_name": "负责人",
+              "group_type": 100,
+              "status": 0,
+              "is_default": 10,
+              "add_time": 1716258364,
+              "category_id": 0,
+              "target_id": 0,
+              "web_url": "",
+              "coding": "",
+              "group_memo": "",
+              "qrcode_id": 0,
+              "need_send_tip": 0,
+              "tpl_id": 0
+            }
+          ],
+          "encryption": "08898e1586de369854f0ced77b33471d"
+        }
+      ],
+      "encryption": "1020a5206fa038ddec3f89c50530368b"
+    },
+    "qrcode_state_set": [],
+    "state_config_data": {
+      "option_config": [
+        {
+          "switch_mode": 1,
+          "required_fields": "",
+          "imagewater_mark": 0,
+          "imagewater_extra_msg": {
+            "bottom_tag": ""
+          },
+          "state_option_id": 25383
+        },
+        {
+          "switch_mode": 1,
+          "required_fields": "",
+          "imagewater_mark": 0,
+          "imagewater_extra_msg": {
+            "bottom_tag": ""
+          },
+          "state_option_id": 25384
+        },
+        {
+          "switch_mode": 1,
+          "required_fields": "",
+          "imagewater_mark": 0,
+          "imagewater_extra_msg": {
+            "bottom_tag": ""
+          },
+          "state_option_id": 25385
+        },
+        {
+          "switch_mode": 1,
+          "required_fields": "",
+          "imagewater_mark": 0,
+          "imagewater_extra_msg": {
+            "bottom_tag": ""
+          },
+          "state_option_id": 25386
+        }
+      ]
+    }
+  },
+  {
+    "state_record": {
+      "id": 7091,
+      "name": "巡逻结果",
+      "status": 0,
+      "org_id": 94911424,
+      "create_time": 1718196853,
+      "update_time": 1718196853,
+      "is_default": 0,
+      "create_from_time": 1718196853,
+      "create_from": 0,
+      "project_id": 85,
+      "is_preset": 0
+    },
+    "state_option_record": [
+      {
+        "id": 23806,
+        "text": "正常",
+        "color": "#07C160",
+        "value": 1,
+        "status": 0,
+        "org_id": 94911424,
+        "state_id": 7091,
+        "sort": 1,
+        "create_time": 1718196853,
+        "update_time": 1718196853,
+        "is_default": 1
+      },
+      {
+        "id": 23807,
+        "text": "异常",
+        "color": "#D94441",
+        "value": 2,
+        "status": 0,
+        "org_id": 94911424,
+        "state_id": 7091,
+        "sort": 2,
+        "create_time": 1718196853,
+        "update_time": 1718196853,
+        "is_default": 0
+      }
+    ],
+    "auth_set_info": {
+      "auth_set_info": [
+        {
+          "id": 966152,
+          "data_id": 7091,
+          "data_type": 8,
+          "privi_type": "visible",
+          "auth_type": 1,
+          "code_id": 0,
+          "org_id": 94911424,
+          "limit_id": 0,
+          "update_time": 1718676081,
+          "hide_nopower": 0,
+          "has_detail": true,
+          "groups": [
+            87317
+          ],
+          "group_list": [
+            {
+              "id": 87317,
+              "org_id": 94911424,
+              "group_name": "管理组",
+              "group_type": 6,
+              "status": 0,
+              "is_default": 6,
+              "add_time": 1716258364,
+              "category_id": 0,
+              "target_id": 0,
+              "web_url": "",
+              "coding": "",
+              "group_memo": "",
+              "qrcode_id": 0,
+              "need_send_tip": 0,
+              "tpl_id": 0
+            }
+          ],
+          "encryption": "1110d2566ca91cf465aed37d804d8e5b"
+        }
+      ],
+      "encryption": "04c368bf0c8b4b467eff77d0a70841b5"
+    },
+    "qrcode_state_set": [],
+    "state_config_data": {
+      "option_config": [
+        {
+          "switch_mode": 1,
+          "required_fields": "",
+          "imagewater_mark": 0,
+          "imagewater_extra_msg": {
+            "bottom_tag": ""
+          },
+          "state_option_id": 23806
+        },
+        {
+          "switch_mode": 1,
+          "required_fields": "",
+          "imagewater_mark": 0,
+          "imagewater_extra_msg": {
+            "bottom_tag": ""
+          },
+          "state_option_id": 23807
+        }
+      ]
+    }
+  },
+  {
+    "state_record": {
+      "id": 6935,
+      "name": "设备运行状态(2)",
+      "status": 0,
+      "org_id": 94911424,
+      "create_time": 1717464823,
+      "update_time": 1717464823,
+      "is_default": 0,
+      "create_from_time": 1717464823,
+      "create_from": 6933,
+      "project_id": 85,
+      "is_preset": 0
+    },
+    "state_option_record": [
+      {
+        "id": 23448,
+        "text": "正常",
+        "color": "#07C160",
+        "value": 0,
+        "status": 0,
+        "org_id": 94911424,
+        "state_id": 6935,
+        "sort": 0,
+        "create_time": 1717464823,
+        "update_time": 1717464823,
+        "is_default": 1
+      },
+      {
+        "id": 23449,
+        "text": "异常",
+        "color": "#D94441",
+        "value": 1,
+        "status": 0,
+        "org_id": 94911424,
+        "state_id": 6935,
+        "sort": 1,
+        "create_time": 1717464823,
+        "update_time": 1717464823,
+        "is_default": 0
+      }
+    ],
+    "auth_set_info": {
+      "auth_set_info": [
+        {
+          "id": 959855,
+          "data_id": 6935,
+          "data_type": 8,
+          "privi_type": "visible",
+          "auth_type": 1,
+          "code_id": 0,
+          "org_id": 94911424,
+          "limit_id": 0,
+          "update_time": 1717464823,
+          "hide_nopower": 0,
+          "has_detail": true,
+          "groups": [
+            87316,
+            87317
+          ],
+          "group_list": [
+            {
+              "id": 87316,
+              "org_id": 94911424,
+              "group_name": "高级成员",
+              "group_type": 1,
+              "status": 0,
+              "is_default": 1,
+              "add_time": 1716258364,
+              "category_id": 0,
+              "target_id": 0,
+              "web_url": "https://qr46.cn/oQL9HR/gn0YOBW",
+              "coding": "gn0YOBW",
+              "group_memo": "",
+              "qrcode_id": 0,
+              "need_send_tip": 0,
+              "tpl_id": 0
+            },
+            {
+              "id": 87317,
+              "org_id": 94911424,
+              "group_name": "管理组",
+              "group_type": 6,
+              "status": 0,
+              "is_default": 6,
+              "add_time": 1716258364,
+              "category_id": 0,
+              "target_id": 0,
+              "web_url": "",
+              "coding": "",
+              "group_memo": "",
+              "qrcode_id": 0,
+              "need_send_tip": 0,
+              "tpl_id": 0
+            }
+          ],
+          "encryption": "fc574c82ca5b35b920c8221b0ff1d384"
+        }
+      ],
+      "encryption": "775149b2053036e6c65b2a6085eab7a5"
+    },
+    "qrcode_state_set": [],
+    "state_config_data": {
+      "option_config": [
+        {
+          "switch_mode": 1,
+          "required_fields": "",
+          "imagewater_mark": 0,
+          "imagewater_extra_msg": {
+            "bottom_tag": ""
+          },
+          "state_option_id": 23448
+        },
+        {
+          "switch_mode": 1,
+          "required_fields": "",
+          "imagewater_mark": 0,
+          "imagewater_extra_msg": {
+            "bottom_tag": ""
+          },
+          "state_option_id": 23449
+        }
+      ]
+    }
+  },
+  {
+    "state_record": {
+      "id": 6934,
+      "name": "设备运行状态(1)",
+      "status": 0,
+      "org_id": 94911424,
+      "create_time": 1717464823,
+      "update_time": 1717464823,
+      "is_default": 0,
+      "create_from_time": 1717464823,
+      "create_from": 6933,
+      "project_id": 85,
+      "is_preset": 0
+    },
+    "state_option_record": [
+      {
+        "id": 23446,
+        "text": "正常",
+        "color": "#07C160",
+        "value": 0,
+        "status": 0,
+        "org_id": 94911424,
+        "state_id": 6934,
+        "sort": 0,
+        "create_time": 1717464823,
+        "update_time": 1717464823,
+        "is_default": 1
+      },
+      {
+        "id": 23447,
+        "text": "异常",
+        "color": "#D94441",
+        "value": 1,
+        "status": 0,
+        "org_id": 94911424,
+        "state_id": 6934,
+        "sort": 1,
+        "create_time": 1717464823,
+        "update_time": 1717464823,
+        "is_default": 0
+      }
+    ],
+    "auth_set_info": {
+      "auth_set_info": [
+        {
+          "id": 959854,
+          "data_id": 6934,
+          "data_type": 8,
+          "privi_type": "visible",
+          "auth_type": 1,
+          "code_id": 0,
+          "org_id": 94911424,
+          "limit_id": 0,
+          "update_time": 1717464823,
+          "hide_nopower": 0,
+          "has_detail": true,
+          "groups": [
+            87316,
+            87317
+          ],
+          "group_list": [
+            {
+              "id": 87316,
+              "org_id": 94911424,
+              "group_name": "高级成员",
+              "group_type": 1,
+              "status": 0,
+              "is_default": 1,
+              "add_time": 1716258364,
+              "category_id": 0,
+              "target_id": 0,
+              "web_url": "https://qr46.cn/oQL9HR/gn0YOBW",
+              "coding": "gn0YOBW",
+              "group_memo": "",
+              "qrcode_id": 0,
+              "need_send_tip": 0,
+              "tpl_id": 0
+            },
+            {
+              "id": 87317,
+              "org_id": 94911424,
+              "group_name": "管理组",
+              "group_type": 6,
+              "status": 0,
+              "is_default": 6,
+              "add_time": 1716258364,
+              "category_id": 0,
+              "target_id": 0,
+              "web_url": "",
+              "coding": "",
+              "group_memo": "",
+              "qrcode_id": 0,
+              "need_send_tip": 0,
+              "tpl_id": 0
+            }
+          ],
+          "encryption": "aa0ddc411381f2487cd45998de0ca47f"
+        }
+      ],
+      "encryption": "2c1363ea83c7c996de6957a3019c8ea7"
+    },
+    "qrcode_state_set": [],
+    "state_config_data": {
+      "option_config": [
+        {
+          "switch_mode": 1,
+          "required_fields": "",
+          "imagewater_mark": 0,
+          "imagewater_extra_msg": {
+            "bottom_tag": ""
+          },
+          "state_option_id": 23446
+        },
+        {
+          "switch_mode": 1,
+          "required_fields": "",
+          "imagewater_mark": 0,
+          "imagewater_extra_msg": {
+            "bottom_tag": ""
+          },
+          "state_option_id": 23447
+        }
+      ]
+    }
+  },
+  {
+    "state_record": {
+      "id": 6933,
+      "name": "设备运行状态",
+      "status": 0,
+      "org_id": 94911424,
+      "create_time": 1717464823,
+      "update_time": 1720425170,
+      "is_default": 0,
+      "create_from_time": 1717464823,
+      "create_from": 0,
+      "project_id": 85
+    },
+    "state_option_record": [
+      {
+        "id": 23444,
+        "text": "正常",
+        "color": "#07C160",
+        "value": 0,
+        "status": 0,
+        "org_id": 94911424,
+        "state_id": 6933,
+        "sort": 0,
+        "create_time": 1717464823,
+        "update_time": 1720425170,
+        "is_default": 0
+      },
+      {
+        "id": 23445,
+        "text": "异常",
+        "color": "#D94441",
+        "value": 1,
+        "status": 0,
+        "org_id": 94911424,
+        "state_id": 6933,
+        "sort": 1,
+        "create_time": 1717464823,
+        "update_time": 1720425170,
+        "is_default": 1
+      }
+    ],
+    "auth_set_info": {
+      "auth_set_info": [
+        {
+          "id": 960120,
+          "data_id": 6933,
+          "data_type": 8,
+          "privi_type": "visible",
+          "auth_type": 1,
+          "code_id": 0,
+          "org_id": 94911424,
+          "limit_id": 0,
+          "update_time": 1717491384,
+          "hide_nopower": 0,
+          "has_detail": true,
+          "groups": [
+            87317
+          ],
+          "group_list": [
+            {
+              "id": 87317,
+              "org_id": 94911424,
+              "group_name": "管理组",
+              "group_type": 6,
+              "status": 0,
+              "is_default": 6,
+              "add_time": 1716258364,
+              "category_id": 0,
+              "target_id": 0,
+              "web_url": "",
+              "coding": "",
+              "group_memo": "",
+              "qrcode_id": 0,
+              "need_send_tip": 0,
+              "tpl_id": 0
+            }
+          ],
+          "encryption": "07166f21c6aa7642a8eea16970e22a5f"
+        }
+      ],
+      "encryption": "0cc78e686895baaefc861345dcbd8925"
+    },
+    "qrcode_state_set": [],
+    "state_config_data": {
+      "option_config": [
+        {
+          "switch_mode": 1,
+          "required_fields": "",
+          "imagewater_mark": 0,
+          "imagewater_extra_msg": {
+            "bottom_tag": ""
+          },
+          "state_option_id": 23444
+        },
+        {
+          "switch_mode": 1,
+          "required_fields": "",
+          "imagewater_mark": 0,
+          "imagewater_extra_msg": {
+            "bottom_tag": ""
+          },
+          "state_option_id": 23445
+        }
+      ]
+    }
+  }
+]

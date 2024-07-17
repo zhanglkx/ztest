@@ -1,0 +1,120 @@
+{
+  "code": 1,
+  "msg": {
+    "text": "操作成功",
+    "code": 0
+  },
+  "data": {
+    "list": [
+      {
+        "state_record": {
+          "id": 7192,
+          "name": "检查状态",
+          "status": 0,
+          "org_id": 194459,
+          "create_time": 1718786903,
+          "update_time": 1720069125,
+          "is_default": 0,
+          "create_from_time": 1718786903,
+          "create_from": 0,
+          "project_id": 0
+        },
+        "state_option_record": [
+          {
+            "id": 24023,
+            "text": "正常",
+            "color": "#07C160",
+            "value": 0,
+            "status": 0,
+            "org_id": 194459,
+            "state_id": 7192,
+            "sort": 0,
+            "create_time": 1718786903,
+            "update_time": 1720069125,
+            "is_default": 1
+          },
+          {
+            "id": 24024,
+            "text": "异常",
+            "color": "#D94441",
+            "value": 0,
+            "status": 0,
+            "org_id": 194459,
+            "state_id": 7192,
+            "sort": 1,
+            "create_time": 1718786903,
+            "update_time": 1720069125,
+            "is_default": 0
+          }
+        ],
+        "auth_set_info": {
+          "auth_set_info": [
+            {
+              "id": 972730,
+              "data_id": 7192,
+              "data_type": 8,
+              "privi_type": "visible",
+              "auth_type": 1,
+              "code_id": 0,
+              "org_id": 194459,
+              "limit_id": 0,
+              "update_time": 1719973229,
+              "hide_nopower": 0,
+              "has_detail": true,
+              "groups": [
+                49194,
+                76812
+              ],
+              "group_list": [
+                {
+                  "id": 49194,
+                  "org_id": 194459,
+                  "group_name": "管理组",
+                  "group_type": 6,
+                  "status": 0,
+                  "is_default": 6,
+                  "add_time": 1648681200,
+                  "category_id": 0,
+                  "target_id": 0,
+                  "web_url": "",
+                  "coding": "",
+                  "group_memo": "",
+                  "qrcode_id": 0,
+                  "need_send_tip": 0,
+                  "tpl_id": 0
+                },
+                {
+                  "id": 76812,
+                  "org_id": 194459,
+                  "group_name": "负责人",
+                  "group_type": 100,
+                  "status": 0,
+                  "is_default": 10,
+                  "add_time": 1663296847,
+                  "category_id": 0,
+                  "target_id": 0,
+                  "web_url": "",
+                  "coding": "",
+                  "group_memo": "",
+                  "qrcode_id": 0,
+                  "need_send_tip": 0,
+                  "tpl_id": 0
+                }
+              ],
+              "encryption": "404942088d6f70652232bb94769e67a9"
+            }
+          ],
+          "encryption": "9f962d57d38352fa4d380ddf17d702ce"
+        }
+      }
+    ],
+    "page": {
+      "current_page": 1,
+      "lasted_page": 1,
+      "record_total": 1,
+      "list_size": 20
+    }
+  },
+  "url": "",
+  "wait": 3
+}

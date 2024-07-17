@@ -1,0 +1,327 @@
+{
+    "code": 1,
+    "msg": {
+        "text": "操作成功",
+        "code": "0"
+    },
+    "data": {
+        "show_font_size": 2,
+        "show_complain": 0,
+        "show_homepage": 2,
+        "show_powered_by": 0,
+        "is_org_dest_qrcode": 0,
+        "log_msg": [],
+        "is_special_code": 0,
+        "mobilebuild_qr_edited": 1,
+        "scan_msg": [],
+        "case_bg_path": "",
+        "ssid": "225u7u9mfnqkc13o2g1du94835",
+        "is_preset_case": 1,
+        "qrcode_setting_msg": {
+            "auth_set_info": [
+                {
+                    "data_type": 7,
+                    "privi_type": "visible",
+                    "auth_type": 1,
+                    "hide_nopower": 1,
+                    "group_list": [
+                        {
+                            "id": 49176,
+                            "org_id": 11,
+                            "group_name": "管理组",
+                            "group_type": 6,
+                            "status": 0,
+                            "is_default": 6,
+                            "add_time": 1648681200,
+                            "category_id": 0,
+                            "target_id": 0,
+                            "web_url": "",
+                            "coding": "",
+                            "group_memo": "",
+                            "qrcode_id": 0,
+                            "need_send_tip": 0,
+                            "tpl_id": 0
+                        },
+                        {
+                            "id": 76851,
+                            "org_id": 11,
+                            "group_name": "负责人",
+                            "group_type": 100,
+                            "status": 0,
+                            "is_default": 10,
+                            "add_time": 1663571933,
+                            "category_id": 0,
+                            "target_id": 0,
+                            "web_url": "",
+                            "coding": "",
+                            "group_memo": "",
+                            "qrcode_id": 0,
+                            "need_send_tip": 0,
+                            "tpl_id": 0
+                        }
+                    ],
+                    "groups": [
+                        49176,
+                        76851
+                    ]
+                },
+                {
+                    "privi_type": "edit",
+                    "auth_type": 5,
+                    "hide_nopower": 0
+                }
+            ],
+            "open_methods": {
+                "scan": true,
+                "press": true,
+                "share": true,
+                "other_app": true
+            },
+            "org_bottom_setting": {
+                "show_collect": 1,
+                "show_manage": 1,
+                "show_font_size": 2,
+                "show_share": 1,
+                "show_homepage": 0,
+                "show_powered_by": 0,
+                "dest_qrcode_msg": {
+                    "can_show_dest_qrcode": 1,
+                    "org_dest_qrcode": 2089,
+                    "show_dest_qrcode": 0,
+                    "homepage_qrcode_name": "这是企业介绍模板案例",
+                    "tpl_qrcode_status": 0,
+                    "homepage_qrcode_url": "http://wxa.cliim.net/qr/huoma/C_FEI4F1/S_1/q2dptFX/dd",
+                    "homepage_qrcode_id": 2089
+                }
+            },
+            "route_type": 3,
+            "show_font_size": 2,
+            "subscribe_status": 0,
+            "valid_time": {
+                "start_time": "",
+                "end_time": "",
+                "valid_days_num": -2
+            },
+            "master_name_rules": [],
+            "master_form_rules": {
+                "notary_config": []
+            },
+            "review_set": [],
+            "bgimage_set": [],
+            "common_set": []
+        },
+        "qrcode_record": {
+            "id": 3584882,
+            "coding": "q4oQsoP",
+            "web_url": "http://qr46.cn/FEI4F1/q4oQsoP",
+            "qrcode_name": "所有沙发",
+            "create_time": 1720524442,
+            "update_time": 1720524442,
+            "status": 0,
+            "route_type": 3,
+            "tpl_id": 75486,
+            "tpl_name": "",
+            "batch_id": 0,
+            "batch_name": "",
+            "is_mobile_updated": 0,
+            "can_scan_update": 0,
+            "category_id": 0,
+            "preset_case": 1,
+            "scene_module_id": 0,
+            "show_org_dest": 0,
+            "tpl_qrcode_updated": 0,
+            "create_from": 0,
+            "desc": "",
+            "excel_status": 0,
+            "identity_id": 0,
+            "record_summary_status": 0,
+            "list_name": "所有沙发",
+            "tpl_qrcode_status": 0,
+            "log_status": 0,
+            "uuid": "b9674b31-fb79-d30a-c350-d0a28426608d",
+            "org_id": 11,
+            "top_style": []
+        },
+        "qrcode_compontent": [
+            {
+                "component_code": "text",
+                "sort": 0,
+                "status": 0,
+                "component_status": 0,
+                "form_component_title": "",
+                "attribute_list": [
+                    {
+                        "content_html": {
+                            "value": "<section data-is-vip=\"false\" data-type=\"title\" data-change-color=\"on\" data-theme-color=\"#0B0D0F\" data-key=\"title-tpl109\" class=\"stylelib-wrapper\" data-contenteditable=\"false\"><section class=\"x-vipIcon\"><section style=\"display:none;\"><br></section></section><section style=\"position:relative;display: flex;flex-direction: column;\"><section data-stylelib-stylename=\"color\" style=\"min-width: 36px; max-width: 100%; flex-shrink: 0; position: relative; display: inline-block; color: rgb(11, 13, 15); border-radius: 4px; font-size: 24px; line-height: 150%;\" data-contenteditable=\"true\"><p><span style=\"font-size:22px\"><strong>所有沙发</strong></span></p></section><section data-stylelib-tpl-stylename=\"color\" data-stylelib-tpl-stylevalue=\"&lt;?=parseColor(themeColor, 0.5)?&gt;\" style=\"min-width: 36px; max-width: 100%; flex-shrink: 0; position: relative; display: inline-block; color: rgba(11, 13, 15, 0.5); border-radius: 4px; font-size: 18px; line-height: 150%;\" data-contenteditable=\"true\"><p><span style=\"font-size:16px\">PRODUCT LIST</span></p></section></section></section>",
+                            "status": 0,
+                            "attribute_id": 10,
+                            "name": "文本 html 片段",
+                            "attribute_multiple_id": 5
+                        }
+                    }
+                ],
+                "form_field_id": 0
+            },
+            {
+                "component_code": "text",
+                "sort": 1,
+                "status": 0,
+                "component_status": 0,
+                "form_component_title": "",
+                "attribute_list": [
+                    {
+                        "content_html": {
+                            "value": "<section data-theme-color=\"#205792\" data-is-vip=\"false\" data-change-color=\"on\" data-hide-change-color-btn=\"true\" data-is-full=\"true\" data-original-is-full=\"true\" data-key=\"navigator-tpl13\" data-stylelib-tpl-attrname=\"data-is-full\" data-stylelib-tpl-attrvalue=\"&lt;?=isFull && !isColorExtend?&gt;\" data-stylelib-tpl-attrname-1=\"class\" data-stylelib-tpl-attrvalue-1=\"stylelib-wrapper &lt;?=isFull && !isColorExtend ? 'full-stylelib-wrapper' : ''?&gt; stylelib-list\" class=\"full-stylelib-wrapper stylelib-list stylelib-wrapper\" data-contenteditable=\"false\"><section class=\"x-vipIcon\"><section style=\"display:none;\"><br></section></section><section style=\"position: relative;\"><section data-stylelib-tpl-stylename=\"background-color\" data-stylelib-tpl-stylevalue=\"&lt;?= isDarkBgColor ? parseColor(themeColor, 0.12) : '#fff' ?&gt;\" style=\"background-color:#fff;border-radius:6px;\"><section class=\"stylelib-list-item\"><a data-cke-saved-href=\"navLink:http://qr46.cn/FEI4F1/qCnalEk?type%3D16%26list_name%3DEKTORP%20%E7%88%B1%E5%85%8B%E6%89%98%E5%BA%A7%E6%A4%85%20%E8%B5%84%E6%96%99%E7%A0%81%26package_id%3D3393%26qrcode_id%3D3584881\" href=\"navLink:http://qr46.cn/FEI4F1/qCnalEk?type%3D16%26list_name%3DEKTORP%20%E7%88%B1%E5%85%8B%E6%89%98%E5%BA%A7%E6%A4%85%20%E8%B5%84%E6%96%99%E7%A0%81%26package_id%3D3393%26qrcode_id%3D3584881\" data-link-no-cancel=\"true\" target=\"_blank\" style=\"display: block;padding: 0 20px;\"><section data-stylelib-tpl-stylename-1=\"border-color\" data-stylelib-tpl-stylevalue-1=\"&lt;?= isDarkBgColor ? 'rgba(255, 255, 255, 0.17)' : 'rgba(151, 151, 151, 0.2)' ?&gt;\" style=\"padding: 8px 0;display: flex;align-items: center;border-bottom-width: 1px;border-bottom-style: solid;border-color: rgba(151, 151, 151, 0.2);\"><section data-stylelib-stylename=\"border-radius\" data-stylelib-backgroundimage=\"image\" data-stylelib-background-default-size=\"cover\" data-file-uid=\"rc-upload-1701246383678-24\" data-image-url-info=\"{&quot;filename&quot;:&quot;EKTORP 爱克托.jpg&quot;,&quot;filesize_byte&quot;:&quot;379951&quot;,&quot;filesize&quot;:&quot;371.05 KB&quot;,&quot;info&quot;:[900,900],&quot;url&quot;:&quot;https:\\/\\/ncstatic.clewm.net\\/rsrc\\/2023\\/1129\\/16\\/ae8d517423bc71f41df35b00f37c7476.jpg&quot;,&quot;path&quot;:&quot;https:\\/\\/ncstatic.clewm.net\\/rsrc\\/2023\\/1129\\/16\\/ae8d517423bc71f41df35b00f37c7476.jpg&quot;,&quot;image_resolution&quot;:[],&quot;image_width&quot;:900,&quot;image_height&quot;:900}\" style=\"width: 46px; height: 46px; border-radius: 2px; background-image: url(&quot;https://ncstatic.clewm.net/rsrc/2023/1129/16/ae8d517423bc71f41df35b00f37c7476.jpg&quot;); background-repeat: no-repeat; background-position: center center; background-size: cover; position: relative;\"><section style=\"display:none;\"><br></section></section><section style=\"flex: 1;margin: 0 16px;\"><section data-stylelib-tpl-stylename-1=\"color\" data-stylelib-tpl-stylevalue-1=\"&lt;?= isDarkBgColor ? 'rgba(255, 255, 255, 0.8)' : 'rgba(0, 0, 0, 0.87)' ?&gt;\" style=\"color: rgba(0, 0, 0, 0.87);font-size: 14px;\" data-contenteditable=\"true\"><span style=\"font-size:14px\">EKTORP 爱克托</span></section></section><section data-stylelib-tpl-stylename=\"border-color\" data-stylelib-tpl-stylevalue=\"&lt;?= isDarkBgColor ? 'rgba(255, 255, 255, 0.5)' : 'rgba(0, 0, 0, 0.5)' ?&gt;\" style=\"border-color: rgba(0, 0, 0, 0.5);width:8px;height:8px;display: inline-block;border-top-width: 1px;border-top-style: solid;border-right-width: 1px;border-right-style:solid;transform: rotate(45deg);margin-right: 8px;\"><section style=\"display:none;\"><br></section></section></section> </a></section><section class=\"stylelib-list-item\"><a data-cke-saved-href=\"navLink:\" href=\"navLink:\" data-link-no-cancel=\"true\" target=\"_blank\" style=\"display: block;padding: 0 20px;\"><section data-stylelib-tpl-stylename-1=\"border-color\" data-stylelib-tpl-stylevalue-1=\"&lt;?= isDarkBgColor ? 'rgba(255, 255, 255, 0.17)' : 'rgba(151, 151, 151, 0.2)' ?&gt;\" style=\"padding: 8px 0;display: flex;align-items: center;border-bottom-width: 1px;border-bottom-style: solid;border-color: rgba(151, 151, 151, 0.2);\"><section data-stylelib-stylename=\"border-radius\" data-stylelib-backgroundimage=\"image\" data-stylelib-background-default-size=\"cover\" data-file-uid=\"rc-upload-1701246383678-22\" data-image-url-info=\"{&quot;filename&quot;:&quot;SÖDERHAMN 索德汉.jpg&quot;,&quot;filesize_byte&quot;:&quot;594199&quot;,&quot;filesize&quot;:&quot;580.27 KB&quot;,&quot;info&quot;:[900,900],&quot;url&quot;:&quot;https:\\/\\/ncstatic.clewm.net\\/rsrc\\/2023\\/1129\\/16\\/f3b166750e7c26421e9d526948e9ef0d.jpg&quot;,&quot;path&quot;:&quot;https:\\/\\/ncstatic.clewm.net\\/rsrc\\/2023\\/1129\\/16\\/f3b166750e7c26421e9d526948e9ef0d.jpg&quot;,&quot;image_resolution&quot;:[],&quot;image_width&quot;:900,&quot;image_height&quot;:900}\" style=\"width: 46px; height: 46px; border-radius: 2px; background-image: url(&quot;https://ncstatic.clewm.net/rsrc/2023/1129/16/f3b166750e7c26421e9d526948e9ef0d.jpg&quot;); background-repeat: no-repeat; background-position: center center; background-size: cover; position: relative;\"><section style=\"display:none;\"><br></section></section><section style=\"flex: 1;margin: 0 16px;\"><section data-stylelib-tpl-stylename-1=\"color\" data-stylelib-tpl-stylevalue-1=\"&lt;?= isDarkBgColor ? 'rgba(255, 255, 255, 0.8)' : 'rgba(0, 0, 0, 0.87)' ?&gt;\" style=\"color: rgba(0, 0, 0, 0.87);font-size: 14px;\" data-contenteditable=\"true\"><span style=\"font-size:14px\">FRIHETHEN 弗瑞顿</span></section></section><section data-stylelib-tpl-stylename=\"border-color\" data-stylelib-tpl-stylevalue=\"&lt;?= isDarkBgColor ? 'rgba(255, 255, 255, 0.5)' : 'rgba(0, 0, 0, 0.5)' ?&gt;\" style=\"border-color: rgba(0, 0, 0, 0.5);width:8px;height:8px;display: inline-block;border-top-width: 1px;border-top-style: solid;border-right-width: 1px;border-right-style:solid;transform: rotate(45deg);margin-right: 8px;\"><section style=\"display:none;\"><br></section></section></section> </a></section><section class=\"stylelib-list-item\"><a data-cke-saved-href=\"navLink:\" href=\"navLink:\" data-link-no-cancel=\"true\" target=\"_blank\" style=\"display: block;padding: 0 20px;\"><section data-stylelib-tpl-stylename-1=\"border-color\" data-stylelib-tpl-stylevalue-1=\"&lt;?= isDarkBgColor ? 'rgba(255, 255, 255, 0.17)' : 'rgba(151, 151, 151, 0.2)' ?&gt;\" style=\"padding: 8px 0;display: flex;align-items: center;border-bottom-width: 1px;border-bottom-style: solid;border-color: rgba(151, 151, 151, 0.2);\"><section data-stylelib-stylename=\"border-radius\" data-stylelib-backgroundimage=\"image\" data-stylelib-background-default-size=\"cover\" data-file-uid=\"rc-upload-1701246383678-20\" data-image-url-info=\"{&quot;filename&quot;:&quot;VIMLE 维姆勒.jpg&quot;,&quot;filesize_byte&quot;:&quot;172266&quot;,&quot;filesize&quot;:&quot;168.23 KB&quot;,&quot;info&quot;:[900,900],&quot;url&quot;:&quot;https:\\/\\/ncstatic.clewm.net\\/rsrc\\/2023\\/1129\\/16\\/2584af424ac85532f73cf46af7e51905.jpg&quot;,&quot;path&quot;:&quot;https:\\/\\/ncstatic.clewm.net\\/rsrc\\/2023\\/1129\\/16\\/2584af424ac85532f73cf46af7e51905.jpg&quot;,&quot;image_resolution&quot;:[],&quot;image_width&quot;:900,&quot;image_height&quot;:900}\" style=\"width: 46px; height: 46px; border-radius: 2px; background-image: url(&quot;https://ncstatic.clewm.net/rsrc/2023/1129/16/2584af424ac85532f73cf46af7e51905.jpg&quot;); background-repeat: no-repeat; background-position: center center; background-size: cover; position: relative;\"><section style=\"display:none;\"><br></section></section><section style=\"flex: 1;margin: 0 16px;\"><section data-stylelib-tpl-stylename-1=\"color\" data-stylelib-tpl-stylevalue-1=\"&lt;?= isDarkBgColor ? 'rgba(255, 255, 255, 0.8)' : 'rgba(0, 0, 0, 0.87)' ?&gt;\" style=\"color: rgba(0, 0, 0, 0.87);font-size: 14px;\" data-contenteditable=\"true\"><span style=\"font-size:14px\">GRONLID 格罗恩里德</span></section></section><section data-stylelib-tpl-stylename=\"border-color\" data-stylelib-tpl-stylevalue=\"&lt;?= isDarkBgColor ? 'rgba(255, 255, 255, 0.5)' : 'rgba(0, 0, 0, 0.5)' ?&gt;\" style=\"border-color: rgba(0, 0, 0, 0.5);width:8px;height:8px;display: inline-block;border-top-width: 1px;border-top-style: solid;border-right-width: 1px;border-right-style:solid;transform: rotate(45deg);margin-right: 8px;\"><section style=\"display:none;\"><br></section></section></section> </a></section><section class=\"stylelib-list-item\"><a data-cke-saved-href=\"navLink:\" href=\"navLink:\" data-link-no-cancel=\"true\" target=\"_blank\" style=\"display: block;padding: 0 20px;\"><section data-stylelib-tpl-stylename-1=\"border-color\" data-stylelib-tpl-stylevalue-1=\"&lt;?= isDarkBgColor ? 'rgba(255, 255, 255, 0.17)' : 'rgba(151, 151, 151, 0.2)' ?&gt;\" style=\"padding: 8px 0;display: flex;align-items: center;border-bottom-width: 1px;border-bottom-style: solid;border-color: rgba(151, 151, 151, 0.2);\"><section data-stylelib-stylename=\"border-radius\" data-stylelib-backgroundimage=\"image\" data-stylelib-background-default-size=\"cover\" data-file-uid=\"rc-upload-1701246383678-18\" data-image-url-info=\"{&quot;filename&quot;:&quot;FRIHETEN 弗瑞顿.jpg&quot;,&quot;filesize_byte&quot;:&quot;417445&quot;,&quot;filesize&quot;:&quot;407.66 KB&quot;,&quot;info&quot;:[900,900],&quot;url&quot;:&quot;https:\\/\\/ncstatic.clewm.net\\/rsrc\\/2023\\/1129\\/16\\/ee8ca17a412b4f33ee499bda67196645.jpg&quot;,&quot;path&quot;:&quot;https:\\/\\/ncstatic.clewm.net\\/rsrc\\/2023\\/1129\\/16\\/ee8ca17a412b4f33ee499bda67196645.jpg&quot;,&quot;image_resolution&quot;:[],&quot;image_width&quot;:900,&quot;image_height&quot;:900}\" style=\"width: 46px; height: 46px; border-radius: 2px; background-image: url(&quot;https://ncstatic.clewm.net/rsrc/2023/1129/16/ee8ca17a412b4f33ee499bda67196645.jpg&quot;); background-repeat: no-repeat; background-position: center center; background-size: cover; position: relative;\"><section style=\"display:none;\"><br></section></section><section style=\"flex: 1;margin: 0 16px;\"><section data-stylelib-tpl-stylename-1=\"color\" data-stylelib-tpl-stylevalue-1=\"&lt;?= isDarkBgColor ? 'rgba(255, 255, 255, 0.8)' : 'rgba(0, 0, 0, 0.87)' ?&gt;\" style=\"color: rgba(0, 0, 0, 0.87);font-size: 14px;\" data-contenteditable=\"true\"><span style=\"font-size:14px\">HAMMARN 哈马德</span></section></section><section data-stylelib-tpl-stylename=\"border-color\" data-stylelib-tpl-stylevalue=\"&lt;?= isDarkBgColor ? 'rgba(255, 255, 255, 0.5)' : 'rgba(0, 0, 0, 0.5)' ?&gt;\" style=\"border-color: rgba(0, 0, 0, 0.5);width:8px;height:8px;display: inline-block;border-top-width: 1px;border-top-style: solid;border-right-width: 1px;border-right-style:solid;transform: rotate(45deg);margin-right: 8px;\"><section style=\"display:none;\"><br></section></section></section> </a></section><section class=\"stylelib-list-item\"><a data-cke-saved-href=\"navLink:\" href=\"navLink:\" data-link-no-cancel=\"true\" target=\"_blank\" style=\"display: block;padding: 0 20px;\"><section data-stylelib-tpl-stylename-1=\"border-color\" data-stylelib-tpl-stylevalue-1=\"&lt;?= isDarkBgColor ? 'rgba(255, 255, 255, 0.17)' : 'rgba(151, 151, 151, 0.2)' ?&gt;\" style=\"padding: 8px 0;display: flex;align-items: center;border-bottom-width: 1px;border-bottom-style: solid;border-color: rgba(151, 151, 151, 0.2);\"><section data-stylelib-stylename=\"border-radius\" data-stylelib-backgroundimage=\"image\" data-stylelib-background-default-size=\"cover\" data-file-uid=\"rc-upload-1701246383678-16\" data-image-url-info=\"{&quot;filename&quot;:&quot;GRÖNLID 格罗恩里德.jpg&quot;,&quot;filesize_byte&quot;:&quot;186641&quot;,&quot;filesize&quot;:&quot;182.27 KB&quot;,&quot;info&quot;:[900,900],&quot;url&quot;:&quot;https:\\/\\/ncstatic.clewm.net\\/rsrc\\/2023\\/1129\\/16\\/f1351a540c7118f2dfcd590786e6c581.jpg&quot;,&quot;path&quot;:&quot;https:\\/\\/ncstatic.clewm.net\\/rsrc\\/2023\\/1129\\/16\\/f1351a540c7118f2dfcd590786e6c581.jpg&quot;,&quot;image_resolution&quot;:[],&quot;image_width&quot;:900,&quot;image_height&quot;:900}\" style=\"width: 46px; height: 46px; border-radius: 2px; background-image: url(&quot;https://ncstatic.clewm.net/rsrc/2023/1129/16/f1351a540c7118f2dfcd590786e6c581.jpg&quot;); background-repeat: no-repeat; background-position: center center; background-size: cover; position: relative;\"><section style=\"display:none;\"><br></section></section><section style=\"flex: 1;margin: 0 16px;\"><section data-stylelib-tpl-stylename-1=\"color\" data-stylelib-tpl-stylevalue-1=\"&lt;?= isDarkBgColor ? 'rgba(255, 255, 255, 0.8)' : 'rgba(0, 0, 0, 0.87)' ?&gt;\" style=\"color: rgba(0, 0, 0, 0.87);font-size: 14px;\" data-contenteditable=\"true\"><span style=\"font-size:14px\">HEMLINGBY 汉林比</span></section></section><section data-stylelib-tpl-stylename=\"border-color\" data-stylelib-tpl-stylevalue=\"&lt;?= isDarkBgColor ? 'rgba(255, 255, 255, 0.5)' : 'rgba(0, 0, 0, 0.5)' ?&gt;\" style=\"border-color: rgba(0, 0, 0, 0.5);width:8px;height:8px;display: inline-block;border-top-width: 1px;border-top-style: solid;border-right-width: 1px;border-right-style:solid;transform: rotate(45deg);margin-right: 8px;\"><section style=\"display:none;\"><br></section></section></section> </a></section><section class=\"stylelib-list-item\"><a data-cke-saved-href=\"navLink:\" href=\"navLink:\" data-link-no-cancel=\"true\" target=\"_blank\" style=\"display: block;padding: 0 20px;\"><section data-stylelib-tpl-stylename-1=\"border-color\" data-stylelib-tpl-stylevalue-1=\"&lt;?= isDarkBgColor ? 'rgba(255, 255, 255, 0.17)' : 'rgba(151, 151, 151, 0.2)' ?&gt;\" style=\"padding: 8px 0;display: flex;align-items: center;border-bottom-width: 1px;border-bottom-style: solid;border-color: rgba(151, 151, 151, 0.2);\"><section data-stylelib-stylename=\"border-radius\" data-stylelib-backgroundimage=\"image\" data-stylelib-background-default-size=\"cover\" data-file-uid=\"rc-upload-1701246383678-14\" data-image-url-info=\"{&quot;filename&quot;:&quot;HAMMARN 哈马恩.jpg&quot;,&quot;filesize_byte&quot;:&quot;396027&quot;,&quot;filesize&quot;:&quot;386.75 KB&quot;,&quot;info&quot;:[900,900],&quot;url&quot;:&quot;https:\\/\\/ncstatic.clewm.net\\/rsrc\\/2023\\/1129\\/16\\/56052940a982156b772a1b4670359ec2.jpg&quot;,&quot;path&quot;:&quot;https:\\/\\/ncstatic.clewm.net\\/rsrc\\/2023\\/1129\\/16\\/56052940a982156b772a1b4670359ec2.jpg&quot;,&quot;image_resolution&quot;:[],&quot;image_width&quot;:900,&quot;image_height&quot;:900}\" style=\"width: 46px; height: 46px; border-radius: 2px; background-image: url(&quot;https://ncstatic.clewm.net/rsrc/2023/1129/16/56052940a982156b772a1b4670359ec2.jpg&quot;); background-repeat: no-repeat; background-position: center center; background-size: cover; position: relative;\"><section style=\"display:none;\"><br></section></section><section style=\"flex: 1;margin: 0 16px;\"><section data-stylelib-tpl-stylename-1=\"color\" data-stylelib-tpl-stylevalue-1=\"&lt;?= isDarkBgColor ? 'rgba(255, 255, 255, 0.8)' : 'rgba(0, 0, 0, 0.87)' ?&gt;\" style=\"color: rgba(0, 0, 0, 0.87);font-size: 14px;\" data-contenteditable=\"true\"><span style=\"font-size:14px\">HEMMES 汉尼斯</span></section></section><section data-stylelib-tpl-stylename=\"border-color\" data-stylelib-tpl-stylevalue=\"&lt;?= isDarkBgColor ? 'rgba(255, 255, 255, 0.5)' : 'rgba(0, 0, 0, 0.5)' ?&gt;\" style=\"border-color: rgba(0, 0, 0, 0.5);width:8px;height:8px;display: inline-block;border-top-width: 1px;border-top-style: solid;border-right-width: 1px;border-right-style:solid;transform: rotate(45deg);margin-right: 8px;\"><section style=\"display:none;\"><br></section></section></section> </a></section><section class=\"stylelib-list-item\"><a data-cke-saved-href=\"navLink:\" href=\"navLink:\" data-link-no-cancel=\"true\" target=\"_blank\" style=\"display: block;padding: 0 20px;\"><section data-stylelib-tpl-stylename-1=\"border-color\" data-stylelib-tpl-stylevalue-1=\"&lt;?= isDarkBgColor ? 'rgba(255, 255, 255, 0.17)' : 'rgba(151, 151, 151, 0.2)' ?&gt;\" style=\"padding: 8px 0;display: flex;align-items: center;border-bottom-width: 1px;border-bottom-style: solid;border-color: rgba(151, 151, 151, 0.2);\"><section data-stylelib-stylename=\"border-radius\" data-stylelib-backgroundimage=\"image\" data-stylelib-background-default-size=\"cover\" data-file-uid=\"rc-upload-1701246383678-12\" data-image-url-info=\"{&quot;filename&quot;:&quot;KIVIK 奇维.jpg&quot;,&quot;filesize_byte&quot;:&quot;370108&quot;,&quot;filesize&quot;:&quot;361.43 KB&quot;,&quot;info&quot;:[900,900],&quot;url&quot;:&quot;https:\\/\\/ncstatic.clewm.net\\/rsrc\\/2023\\/1129\\/16\\/e2da20ef33a06a1615bd8de8dd910778.jpg&quot;,&quot;path&quot;:&quot;https:\\/\\/ncstatic.clewm.net\\/rsrc\\/2023\\/1129\\/16\\/e2da20ef33a06a1615bd8de8dd910778.jpg&quot;,&quot;image_resolution&quot;:[],&quot;image_width&quot;:900,&quot;image_height&quot;:900}\" style=\"width: 46px; height: 46px; border-radius: 2px; background-image: url(&quot;https://ncstatic.clewm.net/rsrc/2023/1129/16/e2da20ef33a06a1615bd8de8dd910778.jpg&quot;); background-repeat: no-repeat; background-position: center center; background-size: cover; position: relative;\"><section style=\"display:none;\"><br></section></section><section style=\"flex: 1;margin: 0 16px;\"><section data-stylelib-tpl-stylename-1=\"color\" data-stylelib-tpl-stylevalue-1=\"&lt;?= isDarkBgColor ? 'rgba(255, 255, 255, 0.8)' : 'rgba(0, 0, 0, 0.87)' ?&gt;\" style=\"color: rgba(0, 0, 0, 0.87);font-size: 14px;\" data-contenteditable=\"true\"><span style=\"font-size:14px\">KIVIK 奇维</span></section></section><section data-stylelib-tpl-stylename=\"border-color\" data-stylelib-tpl-stylevalue=\"&lt;?= isDarkBgColor ? 'rgba(255, 255, 255, 0.5)' : 'rgba(0, 0, 0, 0.5)' ?&gt;\" style=\"border-color: rgba(0, 0, 0, 0.5);width:8px;height:8px;display: inline-block;border-top-width: 1px;border-top-style: solid;border-right-width: 1px;border-right-style:solid;transform: rotate(45deg);margin-right: 8px;\"><section style=\"display:none;\"><br></section></section></section> </a></section><section class=\"stylelib-list-item\"><a data-cke-saved-href=\"navLink:\" href=\"navLink:\" data-link-no-cancel=\"true\" target=\"_blank\" style=\"display: block;padding: 0 20px;\"><section data-stylelib-tpl-stylename-1=\"border-color\" data-stylelib-tpl-stylevalue-1=\"&lt;?= isDarkBgColor ? 'rgba(255, 255, 255, 0.17)' : 'rgba(151, 151, 151, 0.2)' ?&gt;\" style=\"padding: 8px 0;display: flex;align-items: center;border-bottom-width: 1px;border-bottom-style: solid;border-color: rgba(151, 151, 151, 0.2);\"><section data-stylelib-stylename=\"border-radius\" data-stylelib-backgroundimage=\"image\" data-stylelib-background-default-size=\"cover\" data-file-uid=\"rc-upload-1701246383678-10\" data-image-url-info=\"{&quot;filename&quot;:&quot;SÖDERHAMN 索德汉.jpg&quot;,&quot;filesize_byte&quot;:&quot;594199&quot;,&quot;filesize&quot;:&quot;580.27 KB&quot;,&quot;info&quot;:[900,900],&quot;url&quot;:&quot;https:\\/\\/ncstatic.clewm.net\\/rsrc\\/2023\\/1129\\/16\\/692249cdea09ea06ac1e2957a664f6a2.jpg&quot;,&quot;path&quot;:&quot;https:\\/\\/ncstatic.clewm.net\\/rsrc\\/2023\\/1129\\/16\\/692249cdea09ea06ac1e2957a664f6a2.jpg&quot;,&quot;image_resolution&quot;:[],&quot;image_width&quot;:900,&quot;image_height&quot;:900}\" style=\"width: 46px; height: 46px; border-radius: 2px; background-image: url(&quot;https://ncstatic.clewm.net/rsrc/2023/1129/16/692249cdea09ea06ac1e2957a664f6a2.jpg&quot;); background-repeat: no-repeat; background-position: center center; background-size: cover; position: relative;\"><section style=\"display:none;\"><br></section></section><section style=\"flex: 1;margin: 0 16px;\"><section data-stylelib-tpl-stylename-1=\"color\" data-stylelib-tpl-stylevalue-1=\"&lt;?= isDarkBgColor ? 'rgba(255, 255, 255, 0.8)' : 'rgba(0, 0, 0, 0.87)' ?&gt;\" style=\"color: rgba(0, 0, 0, 0.87);font-size: 14px;\" data-contenteditable=\"true\"><span style=\"font-size:14px\">SODERHARM 索德汉</span></section></section><section data-stylelib-tpl-stylename=\"border-color\" data-stylelib-tpl-stylevalue=\"&lt;?= isDarkBgColor ? 'rgba(255, 255, 255, 0.5)' : 'rgba(0, 0, 0, 0.5)' ?&gt;\" style=\"border-color: rgba(0, 0, 0, 0.5);width:8px;height:8px;display: inline-block;border-top-width: 1px;border-top-style: solid;border-right-width: 1px;border-right-style:solid;transform: rotate(45deg);margin-right: 8px;\"><section style=\"display:none;\"><br></section></section></section> </a></section><section class=\"stylelib-list-item\"><a data-cke-saved-href=\"navLink:\" href=\"navLink:\" data-link-no-cancel=\"true\" target=\"_blank\" style=\"display: block;padding: 0 20px;\"><section data-stylelib-tpl-stylename-1=\"border-color\" data-stylelib-tpl-stylevalue-1=\"&lt;?= isDarkBgColor ? 'rgba(255, 255, 255, 0.17)' : 'rgba(151, 151, 151, 0.2)' ?&gt;\" style=\"padding: 8px 0;display: flex;align-items: center;border-bottom-width: 1px;border-bottom-style: solid;border-color: rgba(151, 151, 151, 0.2);\"><section data-stylelib-stylename=\"border-radius\" data-stylelib-backgroundimage=\"image\" data-stylelib-background-default-size=\"cover\" data-file-uid=\"rc-upload-1701246383678-8\" data-image-url-info=\"{&quot;filename&quot;:&quot;VIMLE 维姆勒.jpg&quot;,&quot;filesize_byte&quot;:&quot;172266&quot;,&quot;filesize&quot;:&quot;168.23 KB&quot;,&quot;info&quot;:[900,900],&quot;url&quot;:&quot;https:\\/\\/ncstatic.clewm.net\\/rsrc\\/2023\\/1129\\/16\\/d426df415a3690078c1210f64a5d7cb3.jpg&quot;,&quot;path&quot;:&quot;https:\\/\\/ncstatic.clewm.net\\/rsrc\\/2023\\/1129\\/16\\/d426df415a3690078c1210f64a5d7cb3.jpg&quot;,&quot;image_resolution&quot;:[],&quot;image_width&quot;:900,&quot;image_height&quot;:900}\" style=\"width: 46px; height: 46px; border-radius: 2px; background-image: url(&quot;https://ncstatic.clewm.net/rsrc/2023/1129/16/d426df415a3690078c1210f64a5d7cb3.jpg&quot;); background-repeat: no-repeat; background-position: center center; background-size: cover; position: relative;\"><section style=\"display:none;\"><br></section></section><section style=\"flex: 1;margin: 0 16px;\"><section data-stylelib-tpl-stylename-1=\"color\" data-stylelib-tpl-stylevalue-1=\"&lt;?= isDarkBgColor ? 'rgba(255, 255, 255, 0.8)' : 'rgba(0, 0, 0, 0.87)' ?&gt;\" style=\"color: rgba(0, 0, 0, 0.87);font-size: 14px;\" data-contenteditable=\"true\"><span style=\"font-size:14px\">VIMLE 维姆勒</span></section></section><section data-stylelib-tpl-stylename=\"border-color\" data-stylelib-tpl-stylevalue=\"&lt;?= isDarkBgColor ? 'rgba(255, 255, 255, 0.5)' : 'rgba(0, 0, 0, 0.5)' ?&gt;\" style=\"border-color: rgba(0, 0, 0, 0.5);width:8px;height:8px;display: inline-block;border-top-width: 1px;border-top-style: solid;border-right-width: 1px;border-right-style:solid;transform: rotate(45deg);margin-right: 8px;\"><section style=\"display:none;\"><br></section></section></section> </a></section></section></section></section>",
+                            "status": 0,
+                            "attribute_id": 10,
+                            "name": "文本 html 片段",
+                            "attribute_multiple_id": 5
+                        }
+                    }
+                ],
+                "form_field_id": 0
+            },
+            {
+                "component_code": "category",
+                "sort": 2,
+                "status": 0,
+                "component_status": 0,
+                "form_component_id": 0,
+                "form_component_title": "",
+                "attribute_list": [
+                    {
+                        "category_id": {
+                            "value": "218625",
+                            "status": 0,
+                            "attribute_id": 165,
+                            "name": "目录id"
+                        },
+                        "display_style": {
+                            "value": "1",
+                            "status": 0,
+                            "attribute_id": 166,
+                            "name": "展示样式"
+                        },
+                        "size": {
+                            "value": "4",
+                            "status": 0,
+                            "attribute_id": 167,
+                            "name": "数量"
+                        },
+                        "sort": {
+                            "value": "7",
+                            "status": 0,
+                            "attribute_id": 168,
+                            "name": "排序"
+                        },
+                        "title": {
+                            "value": "默认目录",
+                            "status": 0,
+                            "attribute_id": 169,
+                            "name": "目录标题"
+                        },
+                        "show_cover": {
+                            "value": "1",
+                            "status": 0,
+                            "attribute_id": 170,
+                            "name": "封面图片"
+                        },
+                        "list_type": {
+                            "value": "0",
+                            "status": 0,
+                            "attribute_id": 171,
+                            "name": "展示内容"
+                        },
+                        "hidden_more": {
+                            "value": "0",
+                            "status": 0,
+                            "attribute_id": 179,
+                            "name": "隐藏查看全部入口"
+                        }
+                    }
+                ],
+                "form_field_id": 0
+            }
+        ],
+        "qrcode_top_component": [
+            {
+                "component_code": "text",
+                "sort": 3,
+                "status": 0,
+                "component_status": 1,
+                "form_component_title": "",
+                "attribute_list": [
+                    {
+                        "content_html": {
+                            "value": "",
+                            "status": 0,
+                            "attribute_id": 10,
+                            "name": "文本 html 片段",
+                            "attribute_multiple_id": 5
+                        }
+                    }
+                ],
+                "form_field_id": 0
+            },
+            {
+                "component_code": "recordlog",
+                "sort": 4,
+                "status": 2,
+                "component_status": 1,
+                "form_component_id": 0,
+                "form_component_title": "",
+                "attribute_list": null,
+                "form_field_id": 0
+            }
+        ],
+        "visible_auth_info": {
+            "auth_limit": [],
+            "edit_need_audit": 0,
+            "first_edituser_ass_id": [],
+            "has_power_comps": [],
+            "need_join_member": 0,
+            "need_user_auth": 0,
+            "open_auth": 0,
+            "open_location_info": [],
+            "open_password_info": [],
+            "open_time_info": [],
+            "power_status": 15,
+            "user_info": {
+                "member_id": 0,
+                "user_id": 0
+            },
+            "auth_list": [],
+            "data_authtype": 0
+        },
+        "log_msg_tag": "",
+        "expand_log": 4,
+        "disabled_open_methods": 0,
+        "start_time": 0,
+        "end_time": 0,
+        "valid_days_num": -2,
+        "expand_btn": "",
+        "show_collect": 1,
+        "show_share": 1,
+        "show_record_editlog": 0,
+        "recordview_position": 4,
+        "record_summary_title": "",
+        "open_codereview": 0,
+        "default_qrlabel_show_type": 0,
+        "share_style": 0,
+        "open_readregister": 0,
+        "open_direct_preview": 1,
+        "soncode_edit_position": 0,
+        "open_workorder": 0,
+        "state_show_mode": 4,
+        "record_summary_status": 1,
+        "subscribe_status": 0,
+        "show_manage": 1,
+        "show_footer": 3,
+        "preview_token": {
+            "signature": "",
+            "time": 1720524442
+        }
+    },
+    "url": "",
+    "wait": 3
+}

@@ -45,7 +45,7 @@
         }
 
         .dropzone.dragover {
-            border-color: #4CAF50;
+            border-color: #f50404;
         }
     </style>
 </head>
@@ -63,6 +63,7 @@
 
         draggables.forEach(draggable => {
             draggable.addEventListener('dragstart', (e) => {
+                console.log(e);
                 e.dataTransfer.setData('text/plain', e.target.id);
             });
         });
@@ -82,6 +83,7 @@
             const id = e.dataTransfer.getData('text/plain');
             const draggable = document.getElementById(id);
             dropzone.appendChild(draggable);
+            console.log(1111);
         });
     </script>
 </body>

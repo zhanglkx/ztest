@@ -41,6 +41,7 @@
             background-color: #45a049;
         }
 
+        /* Styling for drop zones */
         .dropzone,
         .initial-zone,
         .delete-zone {
@@ -56,6 +57,7 @@
             position: relative;
         }
 
+        /* Styling for drop zones when dragging over them */
         .dropzone.dragover,
         .initial-zone.dragover,
         .delete-zone.dragover {
@@ -63,6 +65,7 @@
             background-color: #e8ffe8;
         }
 
+        /* Specific styling for delete zone */
         .delete-zone {
             border-color: #f44336;
             background-color: #ffebee;
@@ -73,6 +76,7 @@
             background-color: #ff8a80;
         }
 
+        /* Styling for reset button */
         .reset-button {
             margin-top: 20px;
             padding: 10px 20px;
@@ -89,6 +93,7 @@
             background-color: #45a049;
         }
 
+        /* Styling for notification message */
         .notification {
             margin-top: 20px;
             padding: 10px 20px;
@@ -96,6 +101,7 @@
             color: white;
             border-radius: 5px;
             display: none;
+            /* Hidden by default */
         }
     </style>
 </head>
@@ -114,11 +120,16 @@
 
     <script>
         const initialZone = document.getElementById('initialZone');
+
         const deleteZone = document.getElementById('deleteZone');
+
         const notification = document.getElementById('notification');
+
         const dropzone1 = document.getElementById('dropzone1');
         const dropzone2 = document.getElementById('dropzone2');
+
         const dropzones = document.querySelectorAll('.dropzone, .initial-zone');
+        
         const draggables = ['draggable1', 'draggable2', 'draggable3', 'draggable4'];
 
         /**
@@ -126,7 +137,7 @@
          * @param {string} id - 可拖拽元素的 ID
          * @returns {HTMLElement} - 创建的可拖拽元素
          */
-        const createDraggable = (id) => {
+        function createDraggable(id) {
             const div = document.createElement('div');
             div.id = id;
             div.className = 'draggable';
@@ -138,73 +149,99 @@
                 e.dataTransfer.setData('text/plain', e.target.id);
             });
             return div;
-        };
+        }
 
         /**
          * 初始化初始区中的可拖拽元素
          */
-        const initializeDraggables = () => {
+        function initializeDraggables() {
             // 清空初始区
             initialZone.innerHTML = '';
             // 为每个可拖拽元素创建并添加到初始区
-            draggables.forEach(id => initialZone.appendChild(createDraggable(id)));
-        };
+            draggables.forEach(id => {
+                const draggableElement = createDraggable(id);
+                initialZone.appendChild(draggableElement);
+            });
+        }
 
-        /**
-         * 处理拖拽事件的辅助函数
-         */
-        const handleDragEvents = (zone) => {
-            zone.addEventListener('dragover', (e) => {
+        // 添加拖拽功能的事件监听器
+        dropzones.forEach(dropzone => {
+            dropzone.addEventListener('dragover', (e) => {
+                // 阻止默认行为以允许放置
                 e.preventDefault();
-                zone.classList.add('dragover');
+                dropzone.classList.add('dragover');
             });
 
-            zone.addEventListener('dragleave', () => zone.classList.remove('dragover'));
+            dropzone.addEventListener('dragleave', () => {
+                dropzone.classList.remove('dragover');
+            });
 
-            zone.addEventListener('drop', (e) => {
+            dropzone.addEventListener('drop', (e) => {
+                // 阻止默认行为并移除拖拽样式
                 e.preventDefault();
-                zone.classList.remove('dragover');
+                dropzone.classList.remove('dragover');
+                // 获取被拖拽元素的 ID
                 const id = e.dataTransfer.getData('text/plain');
                 const draggable = document.getElementById(id);
-                zone.appendChild(draggable);
+                // 将被拖拽元素添加到放置区域
+                dropzone.appendChild(draggable);
             });
-        };
+        });
 
-        // 为所有放置区、初始区和删除区添加拖拽功能的事件监听器
-        dropzones.forEach(handleDragEvents);
+        // 为删除区添加拖拽功能的事件监听器
+        deleteZone.addEventListener('dragover', (e) => {
+            // 阻止默认行为以允许放置
+            e.preventDefault();
+            deleteZone.classList.add('dragover');
+        });
+
+        deleteZone.addEventListener('dragleave', () => {
+            deleteZone.classList.remove('dragover');
+        });
 
         deleteZone.addEventListener('drop', (e) => {
+            // 阻止默认行为并移除拖拽样式
             e.preventDefault();
             deleteZone.classList.remove('dragover');
+            // 获取被拖拽元素的 ID
             const id = e.dataTransfer.getData('text/plain');
-            document.getElementById(id).remove();
+            const draggable = document.getElementById(id);
+            // 删除被拖拽的元素
+            draggable.remove();
+            // 显示通知消息
             showNotification('Element deleted!');
         });
 
         /**
          * 重置函数，恢复到初始状态
          */
-        const reset = () => {
+        function reset() {
+            // 初始化初始区中的可拖拽元素
             initializeDraggables();
+            // 恢复 Drop here 区域的文本
             dropzone1.innerHTML = '<span>Drop here 1</span>';
             dropzone2.innerHTML = '<span>Drop here 2</span>';
+            // 隐藏通知消息
             hideNotification();
-        };
+        }
 
         /**
          * 显示通知消息
          * @param {string} message - 要显示的消息
          */
-        const showNotification = (message) => {
+        function showNotification(message) {
             notification.textContent = message;
             notification.style.display = 'block';
+            // 2 秒后隐藏通知消息
             setTimeout(hideNotification, 2000);
-        };
+        }
 
         /**
          * 隐藏通知消息
          */
-        const hideNotification = () => notification.style.display = 'none';
+        function hideNotification() {
+            notification.style.display = 'none';
+        }
 
         // 页面加载完毕后初始化可拖拽元素
         document.addEventListener('DOMContentLoaded', initializeDraggables);
