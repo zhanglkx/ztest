@@ -1,0 +1,143 @@
+{
+    "sort": 4,
+    "component_code": "audio",
+    "attribute_list": {
+        "audio_url": {
+            "value": "",
+            "name": "音频地址",
+            "attribute_id": 6,
+            "is_multiple": 0,
+            "is_enum": 0,
+            "save_key": ""
+        },
+        "audio_size": {
+            "value": "",
+            "name": "音频大小",
+            "attribute_id": 14,
+            "is_multiple": 0,
+            "is_enum": 0
+        },
+        "audio_long": {
+            "value": "",
+            "name": "音频时长",
+            "attribute_id": 15,
+            "is_multiple": 0,
+            "is_enum": 0 
+        },
+        "audio_name": {
+            "value": "",
+            "name": "音频名称",
+            "attribute_id": 19,
+            "is_multiple": 0,
+            "is_enum": 0
+        },
+        "audio_expires": {
+            "value": "",
+            "name": "音频到期时间",
+            "attribute_id": 134,
+            "is_multiple": 0,
+            "is_enum": 0
+        }
+    }
+}
+
+{
+    "sort": 4,
+    "component_code": "audio",
+    "attribute_list": [
+        {
+            "video_url": {
+                "value": "https://qiniu-nc.clewm.net/free/6a5ecfd46fc48f56a2619cd6357c1cdd.mp4",
+                "name": "视频地址",
+                "attribute_id": 7,
+                "is_multiple": 0,
+                "is_enum": 0,
+                "save_key": "free/6a5ecfd46fc48f56a2619cd6357c1cdd.mp4",
+                "source_id": null
+            },
+            "preview_url": {
+                "value": "",
+                "name": "视频预览图",
+                "attribute_id": 8,
+                "is_multiple": 0,
+                "is_enum": 0,
+                "save_key": ""
+            },
+            "video_size": {
+                "value": "37KB",
+                "name": "视频大小",
+                "attribute_id": 16,
+                "is_multiple": 0,
+                "is_enum": 0
+            },
+            "video_long": {
+                "value": "00:01",
+                "name": "视频时长",
+                "attribute_id": 17,
+                "is_multiple": 0,
+                "is_enum": 0
+            },
+            "video_name": {
+                "value": "iShot_2024-07-17_09.41.43",
+                "name": "视频名称",
+                "attribute_id": 20,
+                "is_multiple": 0,
+                "is_enum": 0
+            },
+            "video_expires": {
+                "value": "",
+                "name": "视频到期时间",
+                "attribute_id": 135,
+                "is_multiple": 0,
+                "is_enum": 0
+            },
+            "convert_status": {
+                "value": "3",
+                "name": "视频转码状态",
+                "attribute_id": 139,
+                "is_multiple": 0,
+                "is_enum": 0
+            },
+            "draggable": {
+                "value": "1",
+                "name": "是否可拖动进度",
+                "attribute_id": 151,
+                "is_multiple": 0,
+                "is_enum": 1,
+                "enum_msg": [
+                    {
+                        "enum_text": "允许",
+                        "enum_value": 1
+                    },
+                    {
+                        "enum_text": "不允许",
+                        "enum_value": 0
+                    }
+                ]
+            },
+            "cover_url": {
+                "value": "",
+                "name": "封面图",
+                "attribute_id": 152,
+                "is_multiple": 0,
+                "is_enum": 0
+            },
+            "cover_filename": {
+                "value": "",
+                "name": "封面文件名",
+                "attribute_id": 153,
+                "is_multiple": 0,
+                "is_enum": 0
+            },
+            "show_flow": {
+                "value": "",
+                "name": "显示流量",
+                "attribute_id": 181,
+                "is_multiple": 0,
+                "is_enum": 0
+            }
+        }
+    ],
+    "type": "audio",
+    "uniqueId": 0
+}
