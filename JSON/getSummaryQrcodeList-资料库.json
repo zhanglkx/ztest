@@ -1,0 +1,194 @@
+{
+    "code": 1,
+    "msg": {
+        "text": "操作成功",
+        "code": 0
+    },
+    "data": {
+        "page": {
+            "current_page": "1",
+            "list_size": "20",
+            "category_count": 4,
+            "qrcode_count": 10,
+            "record_total": 14,
+            "lasted_page": 1
+        },
+        "list": [
+            {
+                "id": 5,
+                "org_id": 11,
+                "list_name": "cyctest-<>",
+                "list_type": "category",
+                "web_url": "http:\/\/qr46.cn\/sy\/FEI4F1\/spPcyqi",
+                "category_count": 0,
+                "qrcode_count": 1,
+                "first_images": [
+                    "https:\/\/gstatic.clewm.net\/caoliao-resource\/240712\/captures-dev\/38bec30e-3e9e-4b8d-a47d-fb23d2119057.png"
+                ]
+            },
+            {
+                "id": 2,
+                "org_id": 11,
+                "list_name": "消防安全",
+                "list_type": "category",
+                "web_url": "http:\/\/qr46.cn\/sy\/FEI4F1\/salUCEl",
+                "category_count": 2,
+                "qrcode_count": 8,
+                "first_images": [
+                    "https:\/\/gstatic.clewm.net\/caoliao-resource\/240430\/captures\/fe70a51d-9dba-4692-8a05-d777429f830b.png",
+                    "https:\/\/gstatic.clewm.net\/caoliao-resource\/240305\/captures\/f04e0bb4-858a-4ada-baa9-aa1f75a0eafa.png"
+                ]
+            },
+            {
+                "id": 4,
+                "org_id": 11,
+                "list_name": "建筑设备",
+                "list_type": "category",
+                "web_url": "http:\/\/qr46.cn\/sy\/FEI4F1\/su1ymoZ",
+                "category_count": 2,
+                "qrcode_count": 1,
+                "first_images": [
+                    "https:\/\/gstatic.clewm.net\/caoliao-resource\/240701\/captures-dev\/36427299-2e64-441b-8e22-cb37e26bf639.png"
+                ]
+            },
+            {
+                "id": 8,
+                "org_id": 11,
+                "list_name": "报表示例",
+                "list_type": "category",
+                "web_url": "http:\/\/qr46.cn\/sy\/FEI4F1\/sV3K7aw",
+                "category_count": 0,
+                "qrcode_count": 1,
+                "first_images": [
+                    "https:\/\/gstatic.clewm.net\/caoliao-resource\/240627\/captures-dev\/732175d4-9ed0-4998-8468-f7a234af6a05.png"
+                ]
+            },
+            {
+                "id": 121500200,
+                "org_id": 11,
+                "list_name": "园区管理（带表单状态）",
+                "long_desc": "",
+                "latest_published_at": 1720577683,
+                "list_type": "qrcode",
+                "web_url": "https:\/\/qr46.cn\/FEI4F1\/qvL7uSZ%3Fpkg%3D3456",
+                "first_images": [
+                    "https:\/\/gstatic.clewm.net\/caoliao-resource\/240710\/captures-dev\/26696384-1491-4a33-8739-28c7a18f670b.png"
+                ]
+            },
+            {
+                "id": 121500196,
+                "org_id": 11,
+                "list_name": "带表单状态资料码",
+                "long_desc": "",
+                "latest_published_at": 1719886449,
+                "list_type": "qrcode",
+                "web_url": "https:\/\/qr46.cn\/FEI4F1\/qmPgDdI%3Fpkg%3D3419",
+                "first_images": [
+                    "https:\/\/gstatic.clewm.net\/caoliao-resource\/240702\/captures-dev\/4cc2df6f-2d23-4566-9345-4b772cda2f06.png"
+                ]
+            },
+            {
+                "id": 121500194,
+                "org_id": 11,
+                "list_name": "资料库表单九宫格正文下方",
+                "long_desc": "",
+                "latest_published_at": 1719814842,
+                "list_type": "qrcode",
+                "web_url": "https:\/\/qr46.cn\/FEI4F1\/qMu3fZe%3Fpkg%3D3401",
+                "first_images": [
+                    "https:\/\/gstatic.clewm.net\/caoliao-resource\/240701\/captures-dev\/95a19ec6-088c-4057-aa8a-850ee9e6a05d.png"
+                ]
+            },
+            {
+                "id": 121500193,
+                "org_id": 11,
+                "list_name": "资料库头部按钮列表",
+                "long_desc": "",
+                "latest_published_at": 1719814820,
+                "list_type": "qrcode",
+                "web_url": "https:\/\/qr46.cn\/FEI4F1\/qTDGKzo%3Fpkg%3D3400",
+                "first_images": [
+                    "https:\/\/gstatic.clewm.net\/caoliao-resource\/240701\/captures-dev\/07431257-7dcd-4399-a23d-a3325d549ff9.png"
+                ]
+            },
+            {
+                "id": 121500192,
+                "org_id": 11,
+                "list_name": "资料库底部单表单",
+                "long_desc": "",
+                "latest_published_at": 1719814793,
+                "list_type": "qrcode",
+                "web_url": "https:\/\/qr46.cn\/FEI4F1\/qRcD2cg%3Fpkg%3D3399",
+                "first_images": [
+                    "https:\/\/gstatic.clewm.net\/caoliao-resource\/240701\/captures-dev\/6b1815a3-10ec-41ab-a4e4-ea1f6297fde9.png"
+                ]
+            },
+            {
+                "id": 121500191,
+                "org_id": 11,
+                "list_name": "资料库头部单表单",
+                "long_desc": "",
+                "latest_published_at": 1719814771,
+                "list_type": "qrcode",
+                "web_url": "https:\/\/qr46.cn\/FEI4F1\/qi2TQzN%3Fpkg%3D3398",
+                "first_images": [
+                    "https:\/\/gstatic.clewm.net\/caoliao-resource\/240701\/captures-dev\/1a0ed6b1-850a-4df9-8fea-95580c4dc6ab.png"
+                ]
+            },
+            {
+                "id": 121500187,
+                "org_id": 11,
+                "list_name": "资料库支持表单状态测试数据",
+                "long_desc": "",
+                "latest_published_at": 1719544911,
+                "list_type": "qrcode",
+                "web_url": "https:\/\/qr46.cn\/FEI4F1\/q8Zz2lM%3Fpkg%3D3387",
+                "first_images": [
+                    "https:\/\/gstatic.clewm.net\/caoliao-resource\/240628\/captures-dev\/c9cfe70c-5591-4f3c-aa4f-1c784cd36697.png"
+                ]
+            },
+            {
+                "id": 121500176,
+                "org_id": 11,
+                "list_name": "xyj资料库测试",
+                "long_desc": "",
+                "latest_published_at": 1714808437,
+                "list_type": "qrcode",
+                "web_url": "https:\/\/qr52.cn\/FEI4F1\/qhHXKdr%3Fpkg%3D3296",
+                "first_images": [
+                    "https:\/\/gstatic.clewm.net\/caoliao-resource\/240504\/captures\/97f50b0b-15b3-4ba6-be2f-8ed869646a66.png"
+                ]
+            },
+            {
+                "id": 121500006,
+                "org_id": 11,
+                "list_name": "一日三餐怎么吃才健康",
+                "long_desc": "一日三餐怎么吃才健康一日三餐怎么吃才健康一日三餐怎么吃才健康一日三餐怎么吃才健康一日三餐怎么吃才健康",
+                "latest_published_at": 1701668162,
+                "list_type": "qrcode",
+                "web_url": "http:\/\/qr71.cn\/FEI4F1\/qNJHkn6%3Fpkg%3D2343",
+                "first_images": [
+                    "https:\/\/gstatic.clewm.net\/caoliao-resource\/231204\/captures\/ccee2bfa-db31-44b3-8b0d-c436590fddb6.png"
+                ]
+            },
+            {
+                "id": 121500007,
+                "org_id": 11,
+                "list_name": "资料库码（11月）",
+                "long_desc": "介绍企业基本情况和经营战略的文案。主要介绍企业名称、企业的法律性质、开办地址、设立时间、所属行业、注册资金、建筑面积、技术装备条件；生产经营范围、主要产品结构；企业发展战略、经营理念等情况",
+                "latest_published_at": 1701668134,
+                "list_type": "qrcode",
+                "web_url": "http:\/\/qr46.cn\/FEI4F1\/qPhZfGI%3Fpkg%3D2340",
+                "first_images": [
+                    "https:\/\/gstatic.clewm.net\/caoliao-resource\/240305\/captures\/ce4f6430-cd29-4e5b-85d9-f5317b8d3a7a.png"
+                ]
+            }
+        ],
+        "qrcode_count": 21,
+        "org_id": 11,
+        "category_name": "全部资料",
+        "category_web_url": "http:\/\/qr46.cn\/sy\/FEI4F1\/sqMbHlH"
+    },
+    "url": "http:\/\/console.cli.me:8000\/nedit?create_from=127&categoryId=46274819&org_module_id=38256&p=1",
+    "wait": 3
+}

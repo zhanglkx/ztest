@@ -1,0 +1,95 @@
+{
+    "code": 1,
+    "msg": {
+        "text": "操作成功",
+        "code": 0
+    },
+    "data": [
+        {
+            "id": 1,
+            "name": "全部资料",
+            "parent_id": 0,
+            "count": 21,
+            "web_url": "http:\/\/qr46.cn\/sy\/FEI4F1\/sqMbHlH",
+            "node_type": "category",
+            "children": [
+                {
+                    "id": 5,
+                    "name": "cyctest-<>",
+                    "parent_id": 1,
+                    "count": 1,
+                    "web_url": "http:\/\/qr46.cn\/sy\/FEI4F1\/spPcyqi",
+                    "node_type": "category",
+                    "children": null
+                },
+                {
+                    "id": 2,
+                    "name": "消防安全",
+                    "parent_id": 1,
+                    "count": 8,
+                    "web_url": "http:\/\/qr46.cn\/sy\/FEI4F1\/salUCEl",
+                    "node_type": "category",
+                    "children": [
+                        {
+                            "id": 9,
+                            "name": "灭火器",
+                            "parent_id": 2,
+                            "count": 0,
+                            "web_url": "http:\/\/qr46.cn\/sy\/FEI4F1\/swGZC6C",
+                            "node_type": "category",
+                            "children": null
+                        },
+                        {
+                            "id": 3,
+                            "name": "消火栓",
+                            "parent_id": 2,
+                            "count": 6,
+                            "web_url": "http:\/\/qr46.cn\/sy\/FEI4F1\/sCbvlp3",
+                            "node_type": "category",
+                            "children": null
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "name": "建筑设备",
+                    "parent_id": 1,
+                    "count": 1,
+                    "web_url": "http:\/\/qr46.cn\/sy\/FEI4F1\/su1ymoZ",
+                    "node_type": "category",
+                    "children": [
+                        {
+                            "id": 6,
+                            "name": "配电箱",
+                            "parent_id": 4,
+                            "count": 0,
+                            "web_url": "http:\/\/qr46.cn\/sy\/FEI4F1\/stgt4uI",
+                            "node_type": "category",
+                            "children": null
+                        },
+                        {
+                            "id": 7,
+                            "name": "龙门架",
+                            "parent_id": 4,
+                            "count": 0,
+                            "web_url": "http:\/\/qr46.cn\/sy\/FEI4F1\/sFGy79V",
+                            "node_type": "category",
+                            "children": null
+                        }
+                    ]
+                },
+                {
+                    "id": 8,
+                    "name": "报表示例",
+                    "parent_id": 1,
+                    "count": 1,
+                    "web_url": "http:\/\/qr46.cn\/sy\/FEI4F1\/sV3K7aw",
+                    "node_type": "category",
+                    "children": null
+                }
+            ]
+        }
+    ],
+    "url": "",
+    "wait": 3
+}
