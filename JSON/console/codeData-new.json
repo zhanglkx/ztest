@@ -1,0 +1,5863 @@
+{
+  "qrcode_msg": {
+    "qrcode_record": {
+      "id": 3974499,
+      "coding": "qAdclkt",
+      "wx_url": "",
+      "web_url": "https://qr46.cn/oQL9HR/qAdclkt",
+      "wxcode_url": "",
+      "qrcode_url": "https://ncstatic.clewm.net/qrcodeurl/2024/08/12/3e3197b903f9f28674bd8fe14e90b080.png",
+      "list_name": "异常上报",
+      "qrcode_name": "",
+      "scene_module_id": 0,
+      "desc": "",
+      "category_id": 46274819,
+      "tpl_id": 93905,
+      "identity_id": 0,
+      "org_id": 94911424,
+      "update_time": 1723424462,
+      "create_time": 1723424462,
+      "status": 0,
+      "preset_case": 0,
+      "show_org_dest": 0,
+      "can_scan_update": 0,
+      "is_mobile_updated": 0,
+      "create_from": 126,
+      "tpl_qrcode_status": 0,
+      "tpl_qrcode_updated": 0,
+      "batch_id": 0,
+      "log_status": 1,
+      "excel_status": 0,
+      "tpl_name": "",
+      "batch_name": "",
+      "route_type": 3,
+      "record_summary_status": 0,
+      "project_id": 85,
+      "share_qrcode_url": "https://ncstatic.clewm.net/qrcodeurl/2024/08/12/5d86efcd8be19c8d343ae72d3f2dcc7f.png",
+      "qrstyle_url": "",
+      "top_style": {
+        "bg_path": "",
+        "color_style": 1,
+        "font_color": "000",
+        "theme_color": "F4F4F4"
+      },
+      "record_add_status": 0,
+      "component_value_empty": 0,
+      "user_id": 831891,
+      "media_flow_limited": 1,
+      "media_flow_total": "20480000.00000000",
+      "media_flow_used": "0.00000000"
+    },
+    "qrcode_compontent": [
+      {
+        "id": 3726689,
+        "qrcode_id": 3974499,
+        "component_code": "recordlog",
+        "identity_id": 0,
+        "sort": 0,
+        "status": 0,
+        "tpl_com_id": 550530,
+        "org_id": 94911424,
+        "batch_id": 0,
+        "real_group_id": 0,
+        "component_status": 0,
+        "template_component_id": 0,
+        "template_component_info": "",
+        "form_component_id": 0,
+        "form_component_title": ""
+      }
+    ],
+    "qrcode_top_component": [
+      {
+        "id": 3726690,
+        "qrcode_id": 3974499,
+        "component_code": "text",
+        "identity_id": 0,
+        "sort": 1,
+        "status": 0,
+        "tpl_com_id": 550531,
+        "org_id": 94911424,
+        "batch_id": 0,
+        "real_group_id": 0,
+        "component_status": 1,
+        "template_component_id": 0,
+        "template_component_info": "",
+        "form_component_id": 0,
+        "form_component_title": "",
+        "attribute_list": [
+          {
+            "content_html": {
+              "id": 3257642,
+              "value": "",
+              "status": 0,
+              "attribute_id": 10,
+              "group_id": 1,
+              "real_group_id": 1,
+              "tpl_com_id": 550531,
+              "name": "文本 html 片段",
+              "is_default_value": 0,
+              "multiple_id": "258065",
+              "attribute_multiple_id": 5
+            }
+          }
+        ],
+        "group_count": 1,
+        "encryption": "b15d4664dc83820a2de626e79d44e820"
+      },
+      {
+        "id": 3726691,
+        "qrcode_id": 3974499,
+        "component_code": "recordview",
+        "identity_id": 0,
+        "sort": 2,
+        "status": 0,
+        "tpl_com_id": 550532,
+        "org_id": 94911424,
+        "batch_id": 0,
+        "real_group_id": 0,
+        "component_status": 1,
+        "template_component_id": 0,
+        "template_component_info": "",
+        "form_component_id": 0,
+        "form_component_title": ""
+      }
+    ],
+    "redis_edition": 3,
+    "record_tpl_token": [],
+    "direct_preview_file_url": "",
+    "visible_auth_info": {
+      "open_auth": 0,
+      "user_info": {
+        "user_id": 0,
+        "member_id": 0
+      },
+      "has_power_comps": [],
+      "edit_need_audit": 0,
+      "open_password_info": [],
+      "open_location_info": [],
+      "open_time_info": [],
+      "data_authtype": 0,
+      "auth_list": [],
+      "first_edituser_ass_id": [],
+      "power_status": 16,
+      "need_user_auth": 0,
+      "auth_limit": [],
+      "need_join_member": 0,
+      "need_join_auth_member": 0
+    },
+    "open_methods": {
+      "scan": true,
+      "press": true,
+      "share": true,
+      "other_app": true
+    },
+    "valid_time": {
+      "start_time": "",
+      "end_time": "",
+      "valid_days_num": -2
+    },
+    "auth_info": [],
+    "is_collect": 0,
+    "case_bg_path": "",
+    "is_special_code": 0,
+    "is_org_dest_qrcode": 0,
+    "show_collect": 1,
+    "show_manage": 1,
+    "show_font_size": 2,
+    "show_share": 0,
+    "show_homepage": 1,
+    "show_bottom_homepage": 1,
+    "show_powered_by": 0,
+    "share_style": 0,
+    "log_status": 1,
+    "powered_by_style_version": "",
+    "powered_by_style_versions": {
+      "powerby_style_20240717": ""
+    },
+    "show_complain": 0,
+    "soncode_edit_position": 0,
+    "state_show_mode": 4,
+    "record_summary_status": 0,
+    "show_org_card": 0
+  },
+  "need_check": 0,
+  "status_code": "qrcode_0_success",
+  "org_msg": {
+    "id": 94911424,
+    "user_id": 831891,
+    "name": "但是，有一点，你打开开发者工具之后，debugger下了断点，程序就停到那里了，如果你不打开开发者工具，程序是不会停止到断点的。",
+    "coding": "oQL9HR",
+    "org_dest_qrcode": 0,
+    "status": 0,
+    "is_auth": 1,
+    "show_dest_qrcode": 0,
+    "logo_path": "https://ncstatic.clewm.net/rsrc/2024/0808/17/61ea74df745b0771057c1546c5df976d.png",
+    "memo": "",
+    "auth_type": 0,
+    "auth_used": "",
+    "auth_message": "",
+    "auth_request_time": 0,
+    "auth_file_prove": "",
+    "auth_file_other": "",
+    "open_id": "",
+    "auth_deal_time": 0,
+    "auth_status": 1,
+    "social_code": "",
+    "target_record_id": 0,
+    "route_type": 3,
+    "private_xcx_status": 0,
+    "custom_route_type": 1,
+    "subscribe_wxacode": "",
+    "capacity_time": 1723432087,
+    "capacity_publickey": "0f332344b910924cf1cd07a0c3c20041",
+    "build_module_weburl_time": 1723432087,
+    "build_module_weburl_publickey": "4a8950aa2788e5b0e602a9083ef88d79",
+    "for_external_name": "但是，有一点，你打开开发者工具之后，debugger下了断点，程序就停到那里了，如果你不打开开发者工具，程序是不会停止到断点的。",
+    "org_manger_name": "admin",
+    "edition_id": 44,
+    "from_edition_id": 44,
+    "is_paid_user": 1,
+    "media_flow_limited": 1,
+    "media_flow_total": "20480000.00000000",
+    "media_flow_used": "0.00000000",
+    "org_dest_qrcode_route": "",
+    "homepage_qrcode_url": "https://qr46.cn/oQL9HR/qGtinpr"
+  },
+  "qrcode_addition_msg": {
+    "qrcode_id": 3974499,
+    "auth_set_subject": 1,
+    "is_mobile_updated": 0,
+    "log_msg_tag": "操作面板",
+    "expand_log": 2,
+    "disabled_open_methods": 0,
+    "start_time": 0,
+    "end_time": 0,
+    "valid_days_num": 0,
+    "expand_btn": "操作入口",
+    "cvid": 100991496,
+    "show_collect": 1,
+    "show_share": 0,
+    "show_record_editlog": 0,
+    "recordview_position": 4,
+    "record_summary_title": "最新记录",
+    "show_homepage": 1,
+    "show_bottom_homepage": 1,
+    "open_codereview": 0,
+    "default_qrlabel_show_type": 0,
+    "share_style": 0,
+    "open_readregister": 0,
+    "open_direct_preview": 0,
+    "soncode_edit_position": 0,
+    "open_workorder": 0,
+    "state_show_mode": 4,
+    "record_summary_status": 0,
+    "subscribe_status": 0,
+    "show_manage": 1,
+    "show_font_size": 0,
+    "show_footer": 3,
+    "show_tabbar": 0,
+    "has_subscribed": 0,
+    "can_subscribe": 0
+  },
+  "subscribe_auth_info": {
+    "auth_list": [
+      {
+        "data_id": 3974499,
+        "org_id": 94911424,
+        "data_type": 13,
+        "auth_type": 1,
+        "privi_type": "edit",
+        "group_list": [
+          {
+            "id": 87315,
+            "org_id": 94911424,
+            "group_name": "所有成员",
+            "group_type": 4,
+            "status": 0,
+            "is_default": 1,
+            "add_time": 1716258364,
+            "category_id": 0,
+            "target_id": 0,
+            "web_url": "",
+            "coding": "",
+            "group_memo": "",
+            "qrcode_id": 0,
+            "need_send_tip": 1,
+            "tpl_id": 0
+          }
+        ]
+      }
+    ],
+    "data_authtype": 1,
+    "need_join_member": 1,
+    "need_user_auth": 1,
+    "power_status": 16
+  },
+  "preview_token": {
+    "time": 1723432087,
+    "signature": "6478bdef869b20ec1fcdc7aea61e12cd"
+  },
+  "code": "0",
+  "errorTips": "操作成功",
+  "low_quality": 0,
+  "encoded_user_id": "oQL9HR",
+  "bgimage_set": [],
+  "common_set": [],
+  "qrcode_record": {
+    "id": 3974499,
+    "coding": "qAdclkt",
+    "wx_url": "",
+    "web_url": "https://qr46.cn/oQL9HR/qAdclkt",
+    "wxcode_url": "",
+    "qrcode_url": "https://ncstatic.clewm.net/qrcodeurl/2024/08/12/3e3197b903f9f28674bd8fe14e90b080.png",
+    "list_name": "异常上报",
+    "qrcode_name": "",
+    "scene_module_id": 0,
+    "desc": "",
+    "category_id": 46274819,
+    "tpl_id": 93905,
+    "identity_id": 0,
+    "org_id": 94911424,
+    "update_time": 1723424462,
+    "create_time": 1723424462,
+    "status": 0,
+    "preset_case": 0,
+    "show_org_dest": 0,
+    "can_scan_update": 0,
+    "is_mobile_updated": 0,
+    "create_from": 126,
+    "tpl_qrcode_status": 0,
+    "tpl_qrcode_updated": 0,
+    "batch_id": 0,
+    "log_status": 1,
+    "excel_status": 0,
+    "tpl_name": "",
+    "batch_name": "",
+    "route_type": 3,
+    "record_summary_status": 0,
+    "project_id": 85,
+    "share_qrcode_url": "https://ncstatic.clewm.net/qrcodeurl/2024/08/12/5d86efcd8be19c8d343ae72d3f2dcc7f.png",
+    "qrstyle_url": "",
+    "top_style": {
+      "bg_path": "",
+      "color_style": 1,
+      "font_color": "000",
+      "theme_color": "F4F4F4"
+    },
+    "record_add_status": 0,
+    "component_value_empty": 0,
+    "user_id": 831891,
+    "media_flow_limited": 1,
+    "media_flow_total": "20480000.00000000",
+    "media_flow_used": "0.00000000"
+  },
+  "qrcode_compontent": [
+    {
+      "id": 3726689,
+      "qrcode_id": 3974499,
+      "component_code": "recordlog",
+      "identity_id": 0,
+      "sort": 0,
+      "status": 0,
+      "tpl_com_id": 550530,
+      "org_id": 94911424,
+      "batch_id": 0,
+      "real_group_id": 0,
+      "component_status": 0,
+      "template_component_id": 0,
+      "template_component_info": "",
+      "form_component_id": 0,
+      "form_component_title": ""
+    }
+  ],
+  "qrcode_top_component": [
+    {
+      "id": 3726690,
+      "qrcode_id": 3974499,
+      "component_code": "text",
+      "identity_id": 0,
+      "sort": 1,
+      "status": 0,
+      "tpl_com_id": 550531,
+      "org_id": 94911424,
+      "batch_id": 0,
+      "real_group_id": 0,
+      "component_status": 1,
+      "template_component_id": 0,
+      "template_component_info": "",
+      "form_component_id": 0,
+      "form_component_title": "",
+      "attribute_list": [
+        {
+          "content_html": {
+            "id": 3257642,
+            "value": "",
+            "status": 0,
+            "attribute_id": 10,
+            "group_id": 1,
+            "real_group_id": 1,
+            "tpl_com_id": 550531,
+            "name": "文本 html 片段",
+            "is_default_value": 0,
+            "multiple_id": "258065",
+            "attribute_multiple_id": 5
+          }
+        }
+      ],
+      "group_count": 1,
+      "encryption": "b15d4664dc83820a2de626e79d44e820"
+    },
+    {
+      "id": 3726691,
+      "qrcode_id": 3974499,
+      "component_code": "recordview",
+      "identity_id": 0,
+      "sort": 2,
+      "status": 0,
+      "tpl_com_id": 550532,
+      "org_id": 94911424,
+      "batch_id": 0,
+      "real_group_id": 0,
+      "component_status": 1,
+      "template_component_id": 0,
+      "template_component_info": "",
+      "form_component_id": 0,
+      "form_component_title": ""
+    }
+  ],
+  "redis_edition": 3,
+  "record_tpl_token": [],
+  "direct_preview_file_url": "",
+  "visible_auth_info": {
+    "open_auth": 0,
+    "user_info": {
+      "user_id": 0,
+      "member_id": 0
+    },
+    "has_power_comps": [],
+    "edit_need_audit": 0,
+    "open_password_info": [],
+    "open_location_info": [],
+    "open_time_info": [],
+    "data_authtype": 0,
+    "auth_list": [],
+    "first_edituser_ass_id": [],
+    "power_status": 16,
+    "need_user_auth": 0,
+    "auth_limit": [],
+    "need_join_member": 0,
+    "need_join_auth_member": 0
+  },
+  "open_methods": {
+    "scan": true,
+    "press": true,
+    "share": true,
+    "other_app": true
+  },
+  "valid_time": {
+    "start_time": "",
+    "end_time": "",
+    "valid_days_num": -2
+  },
+  "auth_info": [],
+  "is_collect": 0,
+  "case_bg_path": "",
+  "is_special_code": 0,
+  "is_org_dest_qrcode": 0,
+  "show_collect": 1,
+  "show_manage": 1,
+  "show_font_size": 2,
+  "show_share": 0,
+  "show_homepage": 1,
+  "show_bottom_homepage": 1,
+  "show_powered_by": 0,
+  "share_style": 0,
+  "log_status": 1,
+  "powered_by_style_version": "",
+  "powered_by_style_versions": {
+    "powerby_style_20240717": ""
+  },
+  "show_complain": 0,
+  "soncode_edit_position": 0,
+  "state_show_mode": 4,
+  "record_summary_status": 0,
+  "show_org_card": 0,
+  "log_msg_tag": "操作面板",
+  "expand_log": 2,
+  "show_record_editlog": 0,
+  "recordview_position": 4,
+  "open_codereview": 0,
+  "open_readregister": 0,
+  "edition_msg": {
+    "edition_id": 44,
+    "from_edition_id": 44
+  },
+  "qrcode_setting_msg": {
+    "review_set": [],
+    "bgimage_set": [],
+    "common_set": [],
+    "bottom_warn": {
+      "type": 0
+    }
+  },
+  "log_msg": {
+    "data_list": [
+      {
+        "id": 9054,
+        "org_id": 94911424,
+        "user_id": 831891,
+        "code_id": 0,
+        "name": "异常上报",
+        "type": 0,
+        "status": 0,
+        "is_del": 0,
+        "remark": "请详细描述异常情况后提交",
+        "icon": "",
+        "add_time": "2024-06-12 20:54:12",
+        "create_from": 4,
+        "note": "",
+        "btn_title": "提交",
+        "update_time": 1723423092,
+        "active_time": 1718196852,
+        "owner_tpl_number": "D20",
+        "privacy_status": 1,
+        "is_global": 0,
+        "project_id": 85,
+        "tpl_id": 9054,
+        "tip_msg": {
+          "id": 10672,
+          "tpl_id": 9054,
+          "code_id": 0,
+          "org_id": 94911424,
+          "user_id": 831891,
+          "edition_id": 44,
+          "tip_text": "故障已上报，感谢你的认真巡检",
+          "has_jump": 0,
+          "jump_url": "",
+          "jump_text": "",
+          "jump_text_custom": "",
+          "create_time": 1718196852,
+          "update_time": 1723423092,
+          "tip_text_status": 1,
+          "scan_status": 0,
+          "scan_auto_status": 0,
+          "share_button_status": 1
+        },
+        "data_id": 39386,
+        "rule_status": 0,
+        "sort": 1,
+        "voice_data": {
+          "id": 30966,
+          "tpl_id": 9054,
+          "code_id": 0,
+          "org_id": 94911424,
+          "user_id": 831891,
+          "edition_id": 44,
+          "open_status": 0,
+          "auto_status": 0,
+          "tpl_name_status": 0,
+          "record_number_status": 0,
+          "success_text_status": 0,
+          "record_time_status": 0,
+          "create_time": 1718196852,
+          "update_time": 1723423092
+        },
+        "audit_reply_record": [],
+        "notary_config": [],
+        "tpl_number": [],
+        "tpl_record_operate": [],
+        "rule_msg": [
+          {
+            "id": 50072,
+            "org_id": 94911424,
+            "code_id": 0,
+            "tpl_id": 9054,
+            "type": "jump_tip",
+            "operator": "add",
+            "value": "2",
+            "result": {
+              "tpl_field_id": 0,
+              "tpl_field_title": "",
+              "tpl_field_option_id": 0,
+              "tpl_field_option_title": "",
+              "jump_url": "",
+              "jump_text": "",
+              "jump_text_custom": ""
+            },
+            "status": 0,
+            "add_time": "2024-06-12 20:54:12",
+            "update_time": "2024-06-12 20:54:12",
+            "group_id": 1
+          },
+          {
+            "id": 50073,
+            "org_id": 94911424,
+            "code_id": 0,
+            "tpl_id": 9054,
+            "type": "new_msg",
+            "operator": "add",
+            "value": "1",
+            "result": null,
+            "status": 0,
+            "add_time": "2024-06-12 20:54:12",
+            "update_time": "2024-06-12 20:54:12",
+            "group_id": 1
+          },
+          {
+            "id": 50074,
+            "org_id": 94911424,
+            "code_id": 0,
+            "tpl_id": 9054,
+            "type": "state_event",
+            "operator": "add",
+            "value": "1",
+            "result": {
+              "default_option_id": 0,
+              "state_id": 7091,
+              "state_option_id": 23807,
+              "state_map_id": 35581,
+              "state_option_rule_id": 26813,
+              "state_default_option_record": {
+                "id": 23806,
+                "text": "正常",
+                "color": "#07C160",
+                "value": 1,
+                "status": 0,
+                "org_id": 94911424,
+                "state_id": 7091,
+                "sort": 1,
+                "create_time": 1718196853,
+                "update_time": 1718196853,
+                "is_default": 1
+              }
+            },
+            "status": 0,
+            "add_time": "2024-06-12 20:54:12",
+            "update_time": "2024-08-12 08:38:12",
+            "group_id": 1
+          }
+        ],
+        "common_config": {
+          "id": 46861,
+          "org_id": 94911424,
+          "code_id": 0,
+          "tpl_id": 9054,
+          "add_record_mode": 0,
+          "tobe_member": 0,
+          "create_time": 1718196852,
+          "update_time": 1723423092,
+          "success_page_button": {
+            "continuous_scan_config": {
+              "value": 0,
+              "text": "扫其他码添加记录"
+            },
+            "record_review_config": {
+              "value": 1,
+              "text": "添加后续动态"
+            },
+            "record_print_config": {
+              "value": 0,
+              "text": "下载PDF文件"
+            },
+            "evocation_scan_config": {
+              "value": 0,
+              "is_auto": 0,
+              "text": ""
+            },
+            "record_share_config": {
+              "value": 1,
+              "text": "转发填写内容"
+            },
+            "return_qrcode_config": {
+              "value": 0,
+              "text": ""
+            },
+            "finish_config": {
+              "value": 0,
+              "text": ""
+            }
+          },
+          "show_share_button": 1,
+          "open_memary_record": 1,
+          "close_pdf_subcode_export": 0,
+          "memary_record_config": {
+            "button_position": 1
+          }
+        },
+        "rules_config": {
+          "id": 889,
+          "org_id": 94911424,
+          "code_id": 0,
+          "tpl_id": 9054,
+          "create_time": 1718196854,
+          "update_time": 1723423092,
+          "add_record_config": {
+            "button_position": 1
+          },
+          "qrcode_print_records_configs": [
+            {
+              "select_type": "RESERVED",
+              "field": "print_order_id",
+              "name": "序号",
+              "field_type": "",
+              "type": "text"
+            }
+          ],
+          "visibility_rules": []
+        },
+        "tpl_watermark": {
+          "id": 7361,
+          "tpl_id": 9054,
+          "code_id": 0,
+          "org_id": 94911424,
+          "status": 1,
+          "watermark_value": 15,
+          "bottom_tag": "此水印由 草料二维码公司提供",
+          "address_type": 3
+        },
+        "tpl_data_push_api": [],
+        "tpl_word_templates": {
+          "settings": {
+            "max_template_file_size": 20
+          },
+          "templates": [
+            {
+              "id": 14106,
+              "org_id": 94911424,
+              "template_id": 0,
+              "target_type": 1,
+              "target_id": 0,
+              "target_extend_id": 9054,
+              "target_info": {
+                "code_id": 0,
+                "tpl_id": "9054"
+              },
+              "status": 0,
+              "create_time": "2024-06-12 20:54:12",
+              "update_time": "2024-06-12 20:54:12",
+              "extend_info": null,
+              "template_path": null,
+              "template_name": null,
+              "preview_image_url": ""
+            }
+          ]
+        },
+        "tpl_data_id": 17927,
+        "can_add_record_time": 1,
+        "is_before_record_time": 0,
+        "time_limit_type": 0,
+        "time_limit_record": [],
+        "can_add_record": true,
+        "tpl_limit_record": [],
+        "owner_can_add_record": true,
+        "owner_tpl_limit_record": [],
+        "tpl_review": {
+          "id": 23234,
+          "tpl_id": 9054,
+          "code_id": 0,
+          "org_id": 94911424,
+          "can_review": 1,
+          "can_set_process_status": 1,
+          "default_process_status": 0,
+          "watermake_option": 0,
+          "mobile_button_option": {
+            "upload_photos": 1,
+            "take_photos": 1,
+            "input_signature": 1,
+            "input_record": 1,
+            "input_txt": 1,
+            "input_voice": 1,
+            "remind_others": 1
+          },
+          "show_button": 1,
+          "review_title": "后续处理情况",
+          "review_desc": "说明情况，@他人",
+          "review_button_txt": "通知他人查看",
+          "process_status_title": "处理进度",
+          "create_time": 1718196852,
+          "process_status_options": [
+            {
+              "id": 125901,
+              "tpl_record_review_set_id": 23234,
+              "option_type": 1,
+              "option_value": "1",
+              "option_text": "待处理",
+              "option_status": 0,
+              "create_time": 1718196852,
+              "update_time": "2024-06-12 20:54:12",
+              "ext_info": {
+                "option_color": "#E64340",
+                "sort": 1,
+                "from_option_id": "765a2c33-e2fa-6bc5-efe1-6c67022cfc27"
+              },
+              "text": "待处理",
+              "textColor": "#E64340",
+              "value": "1",
+              "sort": 1
+            },
+            {
+              "id": 125902,
+              "tpl_record_review_set_id": 23234,
+              "option_type": 1,
+              "option_value": "4",
+              "option_text": "处理中",
+              "option_status": 0,
+              "create_time": 1718196852,
+              "update_time": "2024-06-12 20:54:12",
+              "ext_info": {
+                "option_color": "#155EB7",
+                "sort": 2,
+                "from_option_id": "b832f008-25bd-2661-18f4-610b12d67a94"
+              },
+              "text": "处理中",
+              "textColor": "#155EB7",
+              "value": "4",
+              "sort": 2
+            },
+            {
+              "id": 125903,
+              "tpl_record_review_set_id": 23234,
+              "option_type": 1,
+              "option_value": "2",
+              "option_text": "已完成",
+              "option_status": 0,
+              "create_time": 1718196852,
+              "update_time": "2024-06-12 20:54:12",
+              "ext_info": {
+                "option_color": "#06AE56",
+                "sort": 3,
+                "from_option_id": "6e82a0ae-f05e-235d-8af0-b4c4f81c4cae"
+              },
+              "text": "已完成",
+              "textColor": "#06AE56",
+              "value": "2",
+              "sort": 3
+            },
+            {
+              "id": 125904,
+              "tpl_record_review_set_id": 23234,
+              "option_type": 1,
+              "option_value": "3",
+              "option_text": "无需处理",
+              "option_status": 0,
+              "create_time": 1718196852,
+              "update_time": "2024-06-12 20:54:12",
+              "ext_info": {
+                "option_color": "#666",
+                "sort": 4,
+                "from_option_id": "35a96fe3-e3bd-b9b4-c38b-cb9ea4fcc483"
+              },
+              "text": "无需处理",
+              "textColor": "#666",
+              "value": "3",
+              "sort": 4
+            },
+            {
+              "id": 125905,
+              "tpl_record_review_set_id": 23234,
+              "option_type": 1,
+              "option_value": "0",
+              "option_text": "暂无处理状态",
+              "option_status": 0,
+              "create_time": 1718196852,
+              "update_time": "2024-06-12 20:54:12",
+              "ext_info": {
+                "option_color": "#999",
+                "sort": 5,
+                "from_option_id": "54b8e1c4-44b4-b508-1e92-ca1c06a7e8e7"
+              },
+              "text": "暂无处理状态",
+              "textColor": "#999",
+              "value": "0",
+              "sort": 5
+            }
+          ],
+          "relevance_tpl_options": []
+        },
+        "multi_audit_process": [],
+        "memary_user": [],
+        "memary_record": {
+          "is_memary": 1
+        },
+        "tpl_label": [],
+        "record_tpl_token": {
+          "org_id": 94911424,
+          "tpl_id": 9054,
+          "time": 1723432088,
+          "publickey": "f01df58eab23122e4b132ed566ba77a5"
+        }
+      }
+    ],
+    "last_desc": null,
+    "count": 0,
+    "rule_totle": 0,
+    "rule_result": [],
+    "used_rule": 0,
+    "need_user_auth": 0,
+    "show_owner": 0,
+    "promise_info": {
+      "promise_tpl": null,
+      "promise_record": null,
+      "skip_promise": 1
+    },
+    "codereview_info": {
+      "codereview_tpl": null,
+      "read_register_tpl": null,
+      "state_change_tpl": {
+        "tpl_id": 8485,
+        "org_id": 94911424,
+        "user_id": 0,
+        "name": "状态更新记录",
+        "status": 0,
+        "is_del": 0,
+        "remark": "",
+        "icon": "",
+        "note": "",
+        "type": 7,
+        "btn_title": "提交",
+        "owner_tpl_number": "D3",
+        "update_time": 1718188012,
+        "create_from": 1,
+        "privacy_status": 0,
+        "groups": [
+          {
+            "id": 10534,
+            "tpl_id": "8485",
+            "title": "",
+            "sort": "1",
+            "status": 3,
+            "components": [
+              {
+                "id": 64638,
+                "tpl_component": "text",
+                "title": "状态名称",
+                "desc": "",
+                "status": 0,
+                "group_id": 10534,
+                "sort": 0,
+                "parent_id": 0,
+                "options": {
+                  "default": [
+                    {
+                      "id": 470210,
+                      "value": "",
+                      "sort": 0,
+                      "status": 0
+                    }
+                  ],
+                  "is_unique": [
+                    {
+                      "id": 470211,
+                      "value": "0",
+                      "sort": 0,
+                      "status": 0
+                    }
+                  ],
+                  "log_result": [
+                    {
+                      "id": 470212,
+                      "value": "0",
+                      "sort": 0,
+                      "status": 0,
+                      "disabled": false
+                    }
+                  ],
+                  "require": [
+                    {
+                      "id": 470213,
+                      "value": "0",
+                      "sort": 0,
+                      "status": 0
+                    }
+                  ],
+                  "scannable": [
+                    {
+                      "id": 470214,
+                      "value": "0",
+                      "sort": 0,
+                      "status": 0
+                    }
+                  ],
+                  "substr": [
+                    {
+                      "id": 470215,
+                      "value": "",
+                      "sort": 0,
+                      "status": 0
+                    }
+                  ],
+                  "tpl_memory": [
+                    {
+                      "id": 470216,
+                      "value": "0",
+                      "sort": 0,
+                      "status": 0
+                    }
+                  ],
+                  "use_default": [
+                    {
+                      "id": 470217,
+                      "value": 1,
+                      "sort": 0,
+                      "status": 0
+                    }
+                  ]
+                },
+                "original_options": {
+                  "use_default": [
+                    {
+                      "value": 1
+                    }
+                  ]
+                }
+              },
+              {
+                "id": 64639,
+                "tpl_component": "text",
+                "title": "更新前状态",
+                "desc": "",
+                "status": 0,
+                "group_id": 10534,
+                "sort": 1,
+                "parent_id": 0,
+                "options": {
+                  "default": [
+                    {
+                      "id": 470218,
+                      "value": "",
+                      "sort": 0,
+                      "status": 0
+                    }
+                  ],
+                  "is_unique": [
+                    {
+                      "id": 470219,
+                      "value": "0",
+                      "sort": 0,
+                      "status": 0
+                    }
+                  ],
+                  "log_result": [
+                    {
+                      "id": 470220,
+                      "value": "0",
+                      "sort": 0,
+                      "status": 0,
+                      "disabled": false
+                    }
+                  ],
+                  "require": [
+                    {
+                      "id": 470221,
+                      "value": "0",
+                      "sort": 0,
+                      "status": 0
+                    }
+                  ],
+                  "scannable": [
+                    {
+                      "id": 470222,
+                      "value": "0",
+                      "sort": 0,
+                      "status": 0
+                    }
+                  ],
+                  "substr": [
+                    {
+                      "id": 470223,
+                      "value": "",
+                      "sort": 0,
+                      "status": 0
+                    }
+                  ],
+                  "tpl_memory": [
+                    {
+                      "id": 470224,
+                      "value": "0",
+                      "sort": 0,
+                      "status": 0
+                    }
+                  ],
+                  "use_default": [
+                    {
+                      "id": 470225,
+                      "value": 1,
+                      "sort": 0,
+                      "status": 0
+                    }
+                  ]
+                },
+                "original_options": {
+                  "use_default": [
+                    {
+                      "value": 1
+                    }
+                  ]
+                }
+              },
+              {
+                "id": 64640,
+                "tpl_component": "text",
+                "title": "更新后状态",
+                "desc": "",
+                "status": 0,
+                "group_id": 10534,
+                "sort": 2,
+                "parent_id": 0,
+                "options": {
+                  "default": [
+                    {
+                      "id": 470226,
+                      "value": "",
+                      "sort": 0,
+                      "status": 0
+                    }
+                  ],
+                  "is_unique": [
+                    {
+                      "id": 470227,
+                      "value": "0",
+                      "sort": 0,
+                      "status": 0
+                    }
+                  ],
+                  "log_result": [
+                    {
+                      "id": 470228,
+                      "value": "0",
+                      "sort": 0,
+                      "status": 0,
+                      "disabled": false
+                    }
+                  ],
+                  "require": [
+                    {
+                      "id": 470229,
+                      "value": "0",
+                      "sort": 0,
+                      "status": 0
+                    }
+                  ],
+                  "scannable": [
+                    {
+                      "id": 470230,
+                      "value": "0",
+                      "sort": 0,
+                      "status": 0
+                    }
+                  ],
+                  "substr": [
+                    {
+                      "id": 470231,
+                      "value": "",
+                      "sort": 0,
+                      "status": 0
+                    }
+                  ],
+                  "tpl_memory": [
+                    {
+                      "id": 470232,
+                      "value": "0",
+                      "sort": 0,
+                      "status": 0
+                    }
+                  ],
+                  "use_default": [
+                    {
+                      "id": 470233,
+                      "value": 1,
+                      "sort": 0,
+                      "status": 0
+                    }
+                  ]
+                },
+                "original_options": {
+                  "use_default": [
+                    {
+                      "value": 1
+                    }
+                  ]
+                }
+              },
+              {
+                "id": 64641,
+                "tpl_component": "text",
+                "title": "更新方式",
+                "desc": "",
+                "status": 0,
+                "group_id": 10534,
+                "sort": 3,
+                "parent_id": 0,
+                "options": {
+                  "default": [
+                    {
+                      "id": 470234,
+                      "value": "",
+                      "sort": 0,
+                      "status": 0
+                    }
+                  ],
+                  "is_unique": [
+                    {
+                      "id": 470235,
+                      "value": "0",
+                      "sort": 0,
+                      "status": 0
+                    }
+                  ],
+                  "log_result": [
+                    {
+                      "id": 470236,
+                      "value": "0",
+                      "sort": 0,
+                      "status": 0,
+                      "disabled": false
+                    }
+                  ],
+                  "require": [
+                    {
+                      "id": 470237,
+                      "value": "0",
+                      "sort": 0,
+                      "status": 0
+                    }
+                  ],
+                  "scannable": [
+                    {
+                      "id": 470238,
+                      "value": "0",
+                      "sort": 0,
+                      "status": 0
+                    }
+                  ],
+                  "substr": [
+                    {
+                      "id": 470239,
+                      "value": "",
+                      "sort": 0,
+                      "status": 0
+                    }
+                  ],
+                  "tpl_memory": [
+                    {
+                      "id": 470240,
+                      "value": "0",
+                      "sort": 0,
+                      "status": 0
+                    }
+                  ],
+                  "use_default": [
+                    {
+                      "id": 470241,
+                      "value": 1,
+                      "sort": 0,
+                      "status": 0
+                    }
+                  ]
+                },
+                "original_options": {
+                  "use_default": [
+                    {
+                      "value": 1
+                    }
+                  ]
+                }
+              },
+              {
+                "id": 64642,
+                "tpl_component": "textarea",
+                "title": "状态数据",
+                "desc": "存放状态 json 数据",
+                "status": 0,
+                "group_id": 10534,
+                "sort": 4,
+                "parent_id": 0,
+                "options": {
+                  "can_export": [
+                    {
+                      "id": 470242,
+                      "value": "2",
+                      "sort": 0,
+                      "status": 0
+                    }
+                  ],
+                  "default": [
+                    {
+                      "id": 470243,
+                      "value": "",
+                      "sort": 0,
+                      "status": 0
+                    }
+                  ],
+                  "require": [
+                    {
+                      "id": 470244,
+                      "value": "0",
+                      "sort": 0,
+                      "status": 0
+                    }
+                  ],
+                  "tpl_memory": [
+                    {
+                      "id": 470245,
+                      "value": "0",
+                      "sort": 0,
+                      "status": 0
+                    }
+                  ],
+                  "use_default": [
+                    {
+                      "id": 470246,
+                      "value": 1,
+                      "sort": 0,
+                      "status": 0
+                    }
+                  ]
+                },
+                "original_options": {
+                  "use_default": [
+                    {
+                      "value": 1
+                    }
+                  ]
+                }
+              },
+              {
+                "id": 64643,
+                "tpl_component": "textarea",
+                "title": "补充说明",
+                "desc": "",
+                "status": 0,
+                "group_id": 10534,
+                "sort": 5,
+                "parent_id": 0,
+                "options": {
+                  "append_data": [
+                    {
+                      "id": 470247,
+                      "value": "1",
+                      "sort": 0,
+                      "status": 0
+                    }
+                  ],
+                  "default": [
+                    {
+                      "id": 470248,
+                      "value": "",
+                      "sort": 0,
+                      "status": 0
+                    }
+                  ],
+                  "require": [
+                    {
+                      "id": 470249,
+                      "value": "0",
+                      "sort": 0,
+                      "status": 0
+                    }
+                  ],
+                  "tpl_memory": [
+                    {
+                      "id": 470250,
+                      "value": "0",
+                      "sort": 0,
+                      "status": 0
+                    }
+                  ],
+                  "use_default": [
+                    {
+                      "id": 470251,
+                      "value": 1,
+                      "sort": 0,
+                      "status": 0
+                    }
+                  ]
+                },
+                "original_options": {
+                  "use_default": [
+                    {
+                      "value": 1
+                    }
+                  ]
+                }
+              },
+              {
+                "id": 64644,
+                "tpl_component": "image",
+                "title": "补充照片",
+                "desc": "",
+                "status": 0,
+                "group_id": 10534,
+                "sort": 6,
+                "parent_id": 0,
+                "options": {
+                  "append_data": [
+                    {
+                      "id": 470252,
+                      "value": "2",
+                      "sort": 0,
+                      "status": 0
+                    }
+                  ],
+                  "default": [
+                    {
+                      "id": 470253,
+                      "value": "",
+                      "sort": 0,
+                      "status": 0
+                    }
+                  ],
+                  "require": [
+                    {
+                      "id": 470254,
+                      "value": "0",
+                      "sort": 0,
+                      "status": 0
+                    }
+                  ],
+                  "upload": [
+                    {
+                      "id": 470255,
+                      "value": "1",
+                      "sort": 0,
+                      "status": 0
+                    }
+                  ],
+                  "use_default": [
+                    {
+                      "id": 470256,
+                      "value": "0",
+                      "sort": 0,
+                      "status": 0
+                    }
+                  ],
+                  "watermark": [
+                    {
+                      "id": 470257,
+                      "value": "0",
+                      "sort": 0,
+                      "status": 0,
+                      "bottom_tag": "u6b64u6c34u5370u7531 xxu516cu53f8 u521bu5efa"
+                    }
+                  ]
+                }
+              },
+              {
+                "id": 64645,
+                "tpl_component": "address",
+                "title": "操作地点",
+                "desc": "",
+                "status": 0,
+                "group_id": 10534,
+                "sort": 7,
+                "parent_id": 0,
+                "options": {
+                  "default": [
+                    {
+                      "id": 470258,
+                      "value": "",
+                      "sort": 0,
+                      "status": 0
+                    }
+                  ],
+                  "require": [
+                    {
+                      "id": 470259,
+                      "value": "0",
+                      "sort": 0,
+                      "status": 0
+                    }
+                  ],
+                  "accuracy_mode": [
+                    {
+                      "value": 0,
+                      "status": 0,
+                      "org_id": "94911424",
+                      "sort": 1
+                    }
+                  ],
+                  "open_choose_location": [
+                    {
+                      "value": 0,
+                      "status": 0,
+                      "org_id": "94911424",
+                      "sort": 1
+                    }
+                  ],
+                  "get_location_mode": [
+                    {
+                      "value": 1,
+                      "status": 0,
+                      "org_id": "94911424",
+                      "sort": 1
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ],
+        "code_tpl_id": 16807,
+        "tpl_data_id": 16807,
+        "tpl_number": [],
+        "tpl_record_operate": [],
+        "tip_msg": [],
+        "rule_msg": [],
+        "voice_data": {
+          "open_status": 0,
+          "auto_status": 0
+        },
+        "notary_config": [],
+        "audit_reply_record": [],
+        "time_limit_record": [],
+        "owner_tpl_limit_record": [],
+        "tpl_limit_record": [],
+        "common_config": {
+          "org_id": "94911424",
+          "tpl_id": 8485,
+          "code_id": 0,
+          "add_record_mode": 0,
+          "tobe_member": 0,
+          "show_share_button": 1,
+          "open_memary_record": 0,
+          "close_pdf_subcode_export": 0,
+          "memary_record_config": {
+            "button_position": 1,
+            "is_default": 1
+          },
+          "success_page_button": {
+            "continuous_scan_config": {
+              "value": 0,
+              "text": "扫其他码添加记录",
+              "is_default": 1
+            },
+            "record_review_config": {
+              "value": 0,
+              "text": "添加后续动态",
+              "is_default": 2
+            },
+            "record_print_config": {
+              "value": 0,
+              "text": "下载PDF文件",
+              "is_default": 1
+            },
+            "evocation_scan_config": {
+              "value": 0,
+              "is_auto": 0,
+              "text": "",
+              "is_default": 2
+            },
+            "record_share_config": {
+              "value": 1,
+              "text": "转发填写内容",
+              "is_default": 2
+            },
+            "return_qrcode_config": {
+              "value": 1,
+              "text": "",
+              "is_default": 1
+            },
+            "finish_config": {
+              "value": 0,
+              "text": "",
+              "is_default": 1
+            }
+          }
+        },
+        "rules_config": {
+          "org_id": 94911424,
+          "tpl_id": 8485,
+          "code_id": 0,
+          "add_record_config": {
+            "button_position": 1,
+            "is_default": 1
+          },
+          "visibility_rules": []
+        },
+        "tpl_review": {
+          "can_review": 1,
+          "can_set_process_status": 0,
+          "default_process_status": 0,
+          "watermake_option": 0,
+          "mobile_button_option": {
+            "input_txt": 1,
+            "input_voice": 1,
+            "remind_others": 1,
+            "upload_photos": 1,
+            "take_photos": 1,
+            "input_signature": 1,
+            "input_record": 1
+          },
+          "show_button": 0,
+          "review_title": "后续动态",
+          "review_desc": "说明处理情况，@通知他人",
+          "review_button_txt": "添加后续动态",
+          "process_status_title": "处理进度",
+          "create_time": 1723428336,
+          "process_status_options": [
+            {
+              "option_type": 1,
+              "option_value": 1,
+              "option_text": "待处理",
+              "option_status": 0,
+              "ext_info": {
+                "option_color": "#E64340"
+              },
+              "text": "待处理",
+              "textColor": "#E64340",
+              "value": "待处理",
+              "sort": 1
+            },
+            {
+              "option_type": 1,
+              "option_value": 4,
+              "option_text": "处理中",
+              "option_status": 0,
+              "ext_info": {
+                "option_color": "#155EB7"
+              },
+              "text": "处理中",
+              "textColor": "#155EB7",
+              "value": "处理中",
+              "sort": 2
+            },
+            {
+              "option_type": 1,
+              "option_value": 2,
+              "option_text": "已完成",
+              "option_status": 0,
+              "ext_info": {
+                "option_color": "#06AE56"
+              },
+              "text": "已完成",
+              "textColor": "#06AE56",
+              "value": "已完成",
+              "sort": 3
+            },
+            {
+              "option_type": 1,
+              "option_value": 3,
+              "option_text": "无需处理",
+              "option_status": 0,
+              "ext_info": {
+                "option_color": "#666"
+              },
+              "text": "无需处理",
+              "textColor": "#666",
+              "value": "无需处理",
+              "sort": 4
+            },
+            {
+              "option_type": 1,
+              "option_value": 0,
+              "option_text": "还未标记进度",
+              "option_status": 0,
+              "ext_info": {
+                "option_color": "#999"
+              },
+              "text": "还未标记进度",
+              "textColor": "#999",
+              "value": "还未标记进度",
+              "sort": 5
+            }
+          ],
+          "relevance_tpl_options": []
+        },
+        "tpl_watermark": [],
+        "tpl_data_push_api": [],
+        "tpl_word_templates": {
+          "settings": {
+            "max_template_file_size": 20
+          },
+          "templates": []
+        },
+        "multi_audit_process": [],
+        "sort": 0,
+        "auth_code_id": 0,
+        "auth_data_id": 16807,
+        "rule_status": 0,
+        "data_id": 16807,
+        "can_add_record_time": 1,
+        "is_before_record_time": 0,
+        "time_limit_type": 0,
+        "time_limit_record_config": [],
+        "owner_can_add_record": true,
+        "owner_tpl_limit_record_config": [],
+        "can_add_record": true,
+        "tpl_limit_record_config": []
+      }
+    },
+    "expand_log": 2,
+    "log_msg_tag": "操作面板",
+    "record_summary_title": "最新记录",
+    "open_codereview": 0,
+    "open_readregister": 0,
+    "open_direct_preview": 0,
+    "state_show_mode": 4,
+    "record_summary_status": 0,
+    "expand_btn": "操作入口",
+    "show_record_editlog": 0,
+    "recordview_position": 4,
+    "recordview_extend": {
+      "ext_info": {
+        "recordview_position": 4,
+        "nums": 3,
+        "content_type": [1, 2, 3],
+        "content_position": 1
+      },
+      "operation_ext_info": {
+        "btn_color": "",
+        "btn_border_radius": 4,
+        "btn_background": 0,
+        "btn_color_picker_img": "",
+        "btn_img_main_colors": "",
+        "btn_color_from": 0,
+        "content_position": 2
+      },
+      "statistics_configs": []
+    },
+    "total_tpls": 1,
+    "origin_tpl_list": [
+      {
+        "id": 9054,
+        "org_id": 94911424,
+        "user_id": 831891,
+        "code_id": 0,
+        "name": "异常上报",
+        "type": 0,
+        "status": 0,
+        "is_del": 0,
+        "remark": "请详细描述异常情况后提交",
+        "icon": "",
+        "add_time": "2024-06-12 20:54:12",
+        "create_from": 4,
+        "note": "",
+        "btn_title": "提交",
+        "update_time": 1723423092,
+        "active_time": 1718196852,
+        "owner_tpl_number": "D20",
+        "privacy_status": 1,
+        "is_global": 0,
+        "project_id": 85,
+        "tpl_id": 9054,
+        "tip_msg": {
+          "id": 10672,
+          "tpl_id": 9054,
+          "code_id": 0,
+          "org_id": 94911424,
+          "user_id": 831891,
+          "edition_id": 44,
+          "tip_text": "故障已上报，感谢你的认真巡检",
+          "has_jump": 0,
+          "jump_url": "",
+          "jump_text": "",
+          "jump_text_custom": "",
+          "create_time": 1718196852,
+          "update_time": 1723423092,
+          "tip_text_status": 1,
+          "scan_status": 0,
+          "scan_auto_status": 0,
+          "share_button_status": 1
+        },
+        "data_id": 39386,
+        "rule_status": 0,
+        "sort": 1,
+        "voice_data": {
+          "id": 30966,
+          "tpl_id": 9054,
+          "code_id": 0,
+          "org_id": 94911424,
+          "user_id": 831891,
+          "edition_id": 44,
+          "open_status": 0,
+          "auto_status": 0,
+          "tpl_name_status": 0,
+          "record_number_status": 0,
+          "success_text_status": 0,
+          "record_time_status": 0,
+          "create_time": 1718196852,
+          "update_time": 1723423092
+        },
+        "audit_reply_record": [],
+        "notary_config": [],
+        "tpl_number": [],
+        "tpl_record_operate": [],
+        "rule_msg": [
+          {
+            "id": 50072,
+            "org_id": 94911424,
+            "code_id": 0,
+            "tpl_id": 9054,
+            "type": "jump_tip",
+            "operator": "add",
+            "value": "2",
+            "result": {
+              "tpl_field_id": 0,
+              "tpl_field_title": "",
+              "tpl_field_option_id": 0,
+              "tpl_field_option_title": "",
+              "jump_url": "",
+              "jump_text": "",
+              "jump_text_custom": ""
+            },
+            "status": 0,
+            "add_time": "2024-06-12 20:54:12",
+            "update_time": "2024-06-12 20:54:12",
+            "group_id": 1
+          },
+          {
+            "id": 50073,
+            "org_id": 94911424,
+            "code_id": 0,
+            "tpl_id": 9054,
+            "type": "new_msg",
+            "operator": "add",
+            "value": "1",
+            "result": null,
+            "status": 0,
+            "add_time": "2024-06-12 20:54:12",
+            "update_time": "2024-06-12 20:54:12",
+            "group_id": 1
+          },
+          {
+            "id": 50074,
+            "org_id": 94911424,
+            "code_id": 0,
+            "tpl_id": 9054,
+            "type": "state_event",
+            "operator": "add",
+            "value": "1",
+            "result": {
+              "default_option_id": 0,
+              "state_id": 7091,
+              "state_option_id": 23807,
+              "state_map_id": 35581,
+              "state_option_rule_id": 26813,
+              "state_default_option_record": {
+                "id": 23806,
+                "text": "正常",
+                "color": "#07C160",
+                "value": 1,
+                "status": 0,
+                "org_id": 94911424,
+                "state_id": 7091,
+                "sort": 1,
+                "create_time": 1718196853,
+                "update_time": 1718196853,
+                "is_default": 1
+              }
+            },
+            "status": 0,
+            "add_time": "2024-06-12 20:54:12",
+            "update_time": "2024-08-12 08:38:12",
+            "group_id": 1
+          }
+        ],
+        "common_config": {
+          "id": 46861,
+          "org_id": 94911424,
+          "code_id": 0,
+          "tpl_id": 9054,
+          "add_record_mode": 0,
+          "tobe_member": 0,
+          "create_time": 1718196852,
+          "update_time": 1723423092,
+          "success_page_button": {
+            "continuous_scan_config": {
+              "value": 0,
+              "text": "扫其他码添加记录"
+            },
+            "record_review_config": {
+              "value": 1,
+              "text": "添加后续动态"
+            },
+            "record_print_config": {
+              "value": 0,
+              "text": "下载PDF文件"
+            },
+            "evocation_scan_config": {
+              "value": 0,
+              "is_auto": 0,
+              "text": ""
+            },
+            "record_share_config": {
+              "value": 1,
+              "text": "转发填写内容"
+            },
+            "return_qrcode_config": {
+              "value": 0,
+              "text": ""
+            },
+            "finish_config": {
+              "value": 0,
+              "text": ""
+            }
+          },
+          "show_share_button": 1,
+          "open_memary_record": 1,
+          "close_pdf_subcode_export": 0,
+          "memary_record_config": {
+            "button_position": 1
+          }
+        },
+        "rules_config": {
+          "id": 889,
+          "org_id": 94911424,
+          "code_id": 0,
+          "tpl_id": 9054,
+          "create_time": 1718196854,
+          "update_time": 1723423092,
+          "add_record_config": {
+            "button_position": 1
+          },
+          "qrcode_print_records_configs": [
+            {
+              "select_type": "RESERVED",
+              "field": "print_order_id",
+              "name": "序号",
+              "field_type": "",
+              "type": "text"
+            }
+          ],
+          "visibility_rules": []
+        },
+        "tpl_watermark": {
+          "id": 7361,
+          "tpl_id": 9054,
+          "code_id": 0,
+          "org_id": 94911424,
+          "status": 1,
+          "watermark_value": 15,
+          "bottom_tag": "此水印由 草料二维码公司提供",
+          "address_type": 3
+        },
+        "tpl_data_push_api": [],
+        "tpl_word_templates": {
+          "settings": {
+            "max_template_file_size": 20
+          },
+          "templates": [
+            {
+              "id": 14106,
+              "org_id": 94911424,
+              "template_id": 0,
+              "target_type": 1,
+              "target_id": 0,
+              "target_extend_id": 9054,
+              "target_info": {
+                "code_id": 0,
+                "tpl_id": "9054"
+              },
+              "status": 0,
+              "create_time": "2024-06-12 20:54:12",
+              "update_time": "2024-06-12 20:54:12",
+              "extend_info": null,
+              "template_path": null,
+              "template_name": null,
+              "preview_image_url": ""
+            }
+          ]
+        },
+        "tpl_data_id": 17927,
+        "can_add_record_time": 1,
+        "is_before_record_time": 0,
+        "time_limit_type": 0,
+        "time_limit_record": [],
+        "can_add_record": true,
+        "tpl_limit_record": [],
+        "owner_can_add_record": true,
+        "owner_tpl_limit_record": [],
+        "tpl_review": {
+          "id": 23234,
+          "tpl_id": 9054,
+          "code_id": 0,
+          "org_id": 94911424,
+          "can_review": 1,
+          "can_set_process_status": 1,
+          "default_process_status": 0,
+          "watermake_option": 0,
+          "mobile_button_option": {
+            "upload_photos": 1,
+            "take_photos": 1,
+            "input_signature": 1,
+            "input_record": 1,
+            "input_txt": 1,
+            "input_voice": 1,
+            "remind_others": 1
+          },
+          "show_button": 1,
+          "review_title": "后续处理情况",
+          "review_desc": "说明情况，@他人",
+          "review_button_txt": "通知他人查看",
+          "process_status_title": "处理进度",
+          "create_time": 1718196852,
+          "process_status_options": [
+            {
+              "id": 125901,
+              "tpl_record_review_set_id": 23234,
+              "option_type": 1,
+              "option_value": "1",
+              "option_text": "待处理",
+              "option_status": 0,
+              "create_time": 1718196852,
+              "update_time": "2024-06-12 20:54:12",
+              "ext_info": {
+                "option_color": "#E64340",
+                "sort": 1,
+                "from_option_id": "765a2c33-e2fa-6bc5-efe1-6c67022cfc27"
+              },
+              "text": "待处理",
+              "textColor": "#E64340",
+              "value": "1",
+              "sort": 1
+            },
+            {
+              "id": 125902,
+              "tpl_record_review_set_id": 23234,
+              "option_type": 1,
+              "option_value": "4",
+              "option_text": "处理中",
+              "option_status": 0,
+              "create_time": 1718196852,
+              "update_time": "2024-06-12 20:54:12",
+              "ext_info": {
+                "option_color": "#155EB7",
+                "sort": 2,
+                "from_option_id": "b832f008-25bd-2661-18f4-610b12d67a94"
+              },
+              "text": "处理中",
+              "textColor": "#155EB7",
+              "value": "4",
+              "sort": 2
+            },
+            {
+              "id": 125903,
+              "tpl_record_review_set_id": 23234,
+              "option_type": 1,
+              "option_value": "2",
+              "option_text": "已完成",
+              "option_status": 0,
+              "create_time": 1718196852,
+              "update_time": "2024-06-12 20:54:12",
+              "ext_info": {
+                "option_color": "#06AE56",
+                "sort": 3,
+                "from_option_id": "6e82a0ae-f05e-235d-8af0-b4c4f81c4cae"
+              },
+              "text": "已完成",
+              "textColor": "#06AE56",
+              "value": "2",
+              "sort": 3
+            },
+            {
+              "id": 125904,
+              "tpl_record_review_set_id": 23234,
+              "option_type": 1,
+              "option_value": "3",
+              "option_text": "无需处理",
+              "option_status": 0,
+              "create_time": 1718196852,
+              "update_time": "2024-06-12 20:54:12",
+              "ext_info": {
+                "option_color": "#666",
+                "sort": 4,
+                "from_option_id": "35a96fe3-e3bd-b9b4-c38b-cb9ea4fcc483"
+              },
+              "text": "无需处理",
+              "textColor": "#666",
+              "value": "3",
+              "sort": 4
+            },
+            {
+              "id": 125905,
+              "tpl_record_review_set_id": 23234,
+              "option_type": 1,
+              "option_value": "0",
+              "option_text": "暂无处理状态",
+              "option_status": 0,
+              "create_time": 1718196852,
+              "update_time": "2024-06-12 20:54:12",
+              "ext_info": {
+                "option_color": "#999",
+                "sort": 5,
+                "from_option_id": "54b8e1c4-44b4-b508-1e92-ca1c06a7e8e7"
+              },
+              "text": "暂无处理状态",
+              "textColor": "#999",
+              "value": "0",
+              "sort": 5
+            }
+          ],
+          "relevance_tpl_options": []
+        },
+        "multi_audit_process": [],
+        "memary_user": [],
+        "memary_record": {
+          "is_memary": 1
+        },
+        "tpl_label": [],
+        "record_tpl_token": {
+          "org_id": 94911424,
+          "tpl_id": 9054,
+          "time": 1723432088,
+          "publickey": "f01df58eab23122e4b132ed566ba77a5"
+        }
+      }
+    ],
+    "visible_auth": 1,
+    "read": [],
+    "hide": 0,
+    "is_manager": 1,
+    "role_id": 0,
+    "open_record_active": 0,
+    "auth_info": {
+      "open_auth": 1,
+      "user_info": {
+        "user_id": "831891",
+        "member_id": 271049,
+        "member_name": "admin",
+        "member_department": 0,
+        "member_mobile": "18336175747"
+      },
+      "has_power_comps": [1186565],
+      "edit_need_audit": 0,
+      "open_password_info": [],
+      "open_location_info": [],
+      "open_time_info": [],
+      "data_authtype": 1,
+      "auth_list": [
+        {
+          "id": 1186565,
+          "data_id": 3974499,
+          "data_type": 7,
+          "privi_type": "visible",
+          "auth_type": 1,
+          "code_id": 3974499,
+          "org_id": 94911424,
+          "limit_id": 0,
+          "update_time": 1723424462,
+          "hide_nopower": 1,
+          "has_detail": true,
+          "groups": [87317, 87320],
+          "group_list": [
+            {
+              "id": 87317,
+              "org_id": 94911424,
+              "group_name": "管理组",
+              "group_type": 6,
+              "status": 0,
+              "is_default": 6,
+              "add_time": 1716258364,
+              "category_id": 0,
+              "target_id": 0,
+              "web_url": "",
+              "coding": "",
+              "group_memo": "",
+              "qrcode_id": 0,
+              "need_send_tip": 0,
+              "tpl_id": 0
+            },
+            {
+              "id": 87320,
+              "org_id": 94911424,
+              "group_name": "负责人",
+              "group_type": 100,
+              "status": 0,
+              "is_default": 10,
+              "add_time": 1716258364,
+              "category_id": 0,
+              "target_id": 0,
+              "web_url": "",
+              "coding": "",
+              "group_memo": "",
+              "qrcode_id": 0,
+              "need_send_tip": 0,
+              "tpl_id": 0
+            }
+          ]
+        }
+      ],
+      "first_edituser_ass_id": [],
+      "power_status": 15,
+      "need_user_auth": 0,
+      "auth_limit": [],
+      "need_join_member": 0,
+      "need_join_auth_member": 0
+    }
+  },
+  "has_state": true,
+  "hasOpenMsg": false,
+  "operateData": [
+    {
+      "id": 89215,
+      "org_id": 94911424,
+      "qrcode_id": 3974499,
+      "qrcode_tpl_id": 93905,
+      "tpl_qrcode_status": 0,
+      "operation_id": 89577,
+      "status": 0,
+      "sort": 1,
+      "create_time": 1723424465,
+      "update_time": 1723424465,
+      "hide_nopower": 0,
+      "send_notify": 0,
+      "operation_msg": {
+        "id": 89577,
+        "org_id": 94911424,
+        "title": "异常上报",
+        "subtitle": "请按照要求，仔细填写表单",
+        "icon_path": "",
+        "button_text": "填写",
+        "bgcolor": "#2D77C7",
+        "status": 0,
+        "create_time": 1723424465,
+        "update_time": 1723424465,
+        "element_list": [
+          {
+            "id": 89147,
+            "operation_id": 89577,
+            "org_id": 94911424,
+            "element_type": 2,
+            "element_value": 9054,
+            "status": 0,
+            "sort": 1,
+            "create_time": 1723424465,
+            "update_time": 1723424465,
+            "$data": {
+              "id": 9054,
+              "org_id": 94911424,
+              "user_id": 831891,
+              "code_id": 0,
+              "name": "异常上报",
+              "type": 0,
+              "status": 0,
+              "is_del": 0,
+              "remark": "请详细描述异常情况后提交",
+              "icon": "",
+              "add_time": "2024-06-12 20:54:12",
+              "create_from": 4,
+              "note": "",
+              "btn_title": "提交",
+              "update_time": 1723423092,
+              "active_time": 1718196852,
+              "owner_tpl_number": "D20",
+              "privacy_status": 1,
+              "is_global": 0,
+              "project_id": 85,
+              "tpl_id": 9054,
+              "tip_msg": {
+                "id": 10672,
+                "tpl_id": 9054,
+                "code_id": 0,
+                "org_id": 94911424,
+                "user_id": 831891,
+                "edition_id": 44,
+                "tip_text": "故障已上报，感谢你的认真巡检",
+                "has_jump": 0,
+                "jump_url": "",
+                "jump_text": "",
+                "jump_text_custom": "",
+                "create_time": 1718196852,
+                "update_time": 1723423092,
+                "tip_text_status": 1,
+                "scan_status": 0,
+                "scan_auto_status": 0,
+                "share_button_status": 1
+              },
+              "data_id": 39386,
+              "rule_status": 0,
+              "sort": 1,
+              "voice_data": {
+                "id": 30966,
+                "tpl_id": 9054,
+                "code_id": 0,
+                "org_id": 94911424,
+                "user_id": 831891,
+                "edition_id": 44,
+                "open_status": 0,
+                "auto_status": 0,
+                "tpl_name_status": 0,
+                "record_number_status": 0,
+                "success_text_status": 0,
+                "record_time_status": 0,
+                "create_time": 1718196852,
+                "update_time": 1723423092
+              },
+              "audit_reply_record": [],
+              "notary_config": [],
+              "tpl_number": [],
+              "tpl_record_operate": [],
+              "rule_msg": [
+                {
+                  "id": 50072,
+                  "org_id": 94911424,
+                  "code_id": 0,
+                  "tpl_id": 9054,
+                  "type": "jump_tip",
+                  "operator": "add",
+                  "value": "2",
+                  "result": {
+                    "tpl_field_id": 0,
+                    "tpl_field_title": "",
+                    "tpl_field_option_id": 0,
+                    "tpl_field_option_title": "",
+                    "jump_url": "",
+                    "jump_text": "",
+                    "jump_text_custom": ""
+                  },
+                  "status": 0,
+                  "add_time": "2024-06-12 20:54:12",
+                  "update_time": "2024-06-12 20:54:12",
+                  "group_id": 1
+                },
+                {
+                  "id": 50073,
+                  "org_id": 94911424,
+                  "code_id": 0,
+                  "tpl_id": 9054,
+                  "type": "new_msg",
+                  "operator": "add",
+                  "value": "1",
+                  "result": null,
+                  "status": 0,
+                  "add_time": "2024-06-12 20:54:12",
+                  "update_time": "2024-06-12 20:54:12",
+                  "group_id": 1
+                },
+                {
+                  "id": 50074,
+                  "org_id": 94911424,
+                  "code_id": 0,
+                  "tpl_id": 9054,
+                  "type": "state_event",
+                  "operator": "add",
+                  "value": "1",
+                  "result": {
+                    "default_option_id": 0,
+                    "state_id": 7091,
+                    "state_option_id": 23807,
+                    "state_map_id": 35581,
+                    "state_option_rule_id": 26813,
+                    "state_default_option_record": {
+                      "id": 23806,
+                      "text": "正常",
+                      "color": "#07C160",
+                      "value": 1,
+                      "status": 0,
+                      "org_id": 94911424,
+                      "state_id": 7091,
+                      "sort": 1,
+                      "create_time": 1718196853,
+                      "update_time": 1718196853,
+                      "is_default": 1
+                    }
+                  },
+                  "status": 0,
+                  "add_time": "2024-06-12 20:54:12",
+                  "update_time": "2024-08-12 08:38:12",
+                  "group_id": 1
+                }
+              ],
+              "common_config": {
+                "id": 46861,
+                "org_id": 94911424,
+                "code_id": 0,
+                "tpl_id": 9054,
+                "add_record_mode": 0,
+                "tobe_member": 0,
+                "create_time": 1718196852,
+                "update_time": 1723423092,
+                "success_page_button": {
+                  "continuous_scan_config": {
+                    "value": 0,
+                    "text": "扫其他码添加记录"
+                  },
+                  "record_review_config": {
+                    "value": 1,
+                    "text": "添加后续动态"
+                  },
+                  "record_print_config": {
+                    "value": 0,
+                    "text": "下载PDF文件"
+                  },
+                  "evocation_scan_config": {
+                    "value": 0,
+                    "is_auto": 0,
+                    "text": ""
+                  },
+                  "record_share_config": {
+                    "value": 1,
+                    "text": "转发填写内容"
+                  },
+                  "return_qrcode_config": {
+                    "value": 0,
+                    "text": ""
+                  },
+                  "finish_config": {
+                    "value": 0,
+                    "text": ""
+                  }
+                },
+                "show_share_button": 1,
+                "open_memary_record": 1,
+                "close_pdf_subcode_export": 0,
+                "memary_record_config": {
+                  "button_position": 1
+                }
+              },
+              "rules_config": {
+                "id": 889,
+                "org_id": 94911424,
+                "code_id": 0,
+                "tpl_id": 9054,
+                "create_time": 1718196854,
+                "update_time": 1723423092,
+                "add_record_config": {
+                  "button_position": 1
+                },
+                "qrcode_print_records_configs": [
+                  {
+                    "select_type": "RESERVED",
+                    "field": "print_order_id",
+                    "name": "序号",
+                    "field_type": "",
+                    "type": "text"
+                  }
+                ],
+                "visibility_rules": []
+              },
+              "tpl_watermark": {
+                "id": 7361,
+                "tpl_id": 9054,
+                "code_id": 0,
+                "org_id": 94911424,
+                "status": 1,
+                "watermark_value": 15,
+                "bottom_tag": "此水印由 草料二维码公司提供",
+                "address_type": 3
+              },
+              "tpl_data_push_api": [],
+              "tpl_word_templates": {
+                "settings": {
+                  "max_template_file_size": 20
+                },
+                "templates": [
+                  {
+                    "id": 14106,
+                    "org_id": 94911424,
+                    "template_id": 0,
+                    "target_type": 1,
+                    "target_id": 0,
+                    "target_extend_id": 9054,
+                    "target_info": {
+                      "code_id": 0,
+                      "tpl_id": "9054"
+                    },
+                    "status": 0,
+                    "create_time": "2024-06-12 20:54:12",
+                    "update_time": "2024-06-12 20:54:12",
+                    "extend_info": null,
+                    "template_path": null,
+                    "template_name": null,
+                    "preview_image_url": ""
+                  }
+                ]
+              },
+              "tpl_data_id": 17927,
+              "can_add_record_time": 1,
+              "is_before_record_time": 0,
+              "time_limit_type": 0,
+              "time_limit_record": [],
+              "can_add_record": true,
+              "tpl_limit_record": [],
+              "owner_can_add_record": true,
+              "owner_tpl_limit_record": [],
+              "tpl_review": {
+                "id": 23234,
+                "tpl_id": 9054,
+                "code_id": 0,
+                "org_id": 94911424,
+                "can_review": 1,
+                "can_set_process_status": 1,
+                "default_process_status": 0,
+                "watermake_option": 0,
+                "mobile_button_option": {
+                  "upload_photos": 1,
+                  "take_photos": 1,
+                  "input_signature": 1,
+                  "input_record": 1,
+                  "input_txt": 1,
+                  "input_voice": 1,
+                  "remind_others": 1
+                },
+                "show_button": 1,
+                "review_title": "后续处理情况",
+                "review_desc": "说明情况，@他人",
+                "review_button_txt": "通知他人查看",
+                "process_status_title": "处理进度",
+                "create_time": 1718196852,
+                "process_status_options": [
+                  {
+                    "id": 125901,
+                    "tpl_record_review_set_id": 23234,
+                    "option_type": 1,
+                    "option_value": "1",
+                    "option_text": "待处理",
+                    "option_status": 0,
+                    "create_time": 1718196852,
+                    "update_time": "2024-06-12 20:54:12",
+                    "ext_info": {
+                      "option_color": "#E64340",
+                      "sort": 1,
+                      "from_option_id": "765a2c33-e2fa-6bc5-efe1-6c67022cfc27"
+                    },
+                    "text": "待处理",
+                    "textColor": "#E64340",
+                    "value": "1",
+                    "sort": 1
+                  },
+                  {
+                    "id": 125902,
+                    "tpl_record_review_set_id": 23234,
+                    "option_type": 1,
+                    "option_value": "4",
+                    "option_text": "处理中",
+                    "option_status": 0,
+                    "create_time": 1718196852,
+                    "update_time": "2024-06-12 20:54:12",
+                    "ext_info": {
+                      "option_color": "#155EB7",
+                      "sort": 2,
+                      "from_option_id": "b832f008-25bd-2661-18f4-610b12d67a94"
+                    },
+                    "text": "处理中",
+                    "textColor": "#155EB7",
+                    "value": "4",
+                    "sort": 2
+                  },
+                  {
+                    "id": 125903,
+                    "tpl_record_review_set_id": 23234,
+                    "option_type": 1,
+                    "option_value": "2",
+                    "option_text": "已完成",
+                    "option_status": 0,
+                    "create_time": 1718196852,
+                    "update_time": "2024-06-12 20:54:12",
+                    "ext_info": {
+                      "option_color": "#06AE56",
+                      "sort": 3,
+                      "from_option_id": "6e82a0ae-f05e-235d-8af0-b4c4f81c4cae"
+                    },
+                    "text": "已完成",
+                    "textColor": "#06AE56",
+                    "value": "2",
+                    "sort": 3
+                  },
+                  {
+                    "id": 125904,
+                    "tpl_record_review_set_id": 23234,
+                    "option_type": 1,
+                    "option_value": "3",
+                    "option_text": "无需处理",
+                    "option_status": 0,
+                    "create_time": 1718196852,
+                    "update_time": "2024-06-12 20:54:12",
+                    "ext_info": {
+                      "option_color": "#666",
+                      "sort": 4,
+                      "from_option_id": "35a96fe3-e3bd-b9b4-c38b-cb9ea4fcc483"
+                    },
+                    "text": "无需处理",
+                    "textColor": "#666",
+                    "value": "3",
+                    "sort": 4
+                  },
+                  {
+                    "id": 125905,
+                    "tpl_record_review_set_id": 23234,
+                    "option_type": 1,
+                    "option_value": "0",
+                    "option_text": "暂无处理状态",
+                    "option_status": 0,
+                    "create_time": 1718196852,
+                    "update_time": "2024-06-12 20:54:12",
+                    "ext_info": {
+                      "option_color": "#999",
+                      "sort": 5,
+                      "from_option_id": "54b8e1c4-44b4-b508-1e92-ca1c06a7e8e7"
+                    },
+                    "text": "暂无处理状态",
+                    "textColor": "#999",
+                    "value": "0",
+                    "sort": 5
+                  }
+                ],
+                "relevance_tpl_options": []
+              },
+              "multi_audit_process": [],
+              "memary_user": [],
+              "memary_record": {
+                "is_memary": 1
+              },
+              "tpl_label": [],
+              "record_tpl_token": {
+                "org_id": 94911424,
+                "tpl_id": 9054,
+                "time": 1723432088,
+                "publickey": "f01df58eab23122e4b132ed566ba77a5"
+              }
+            }
+          }
+        ]
+      },
+      "auth_set_info": [
+        {
+          "id": 1186566,
+          "data_id": 89577,
+          "data_type": 12,
+          "privi_type": "operate",
+          "auth_type": 4,
+          "code_id": 3974499,
+          "org_id": 94911424,
+          "limit_id": 0,
+          "update_time": 1723424465,
+          "hide_nopower": 0,
+          "has_detail": false,
+          "encryption": "a358f55dd8dad3603a1ea78710cc4b5c"
+        }
+      ],
+      "auth_info": {
+        "open_auth": 1,
+        "user_info": {
+          "user_id": "831891",
+          "member_id": 271049,
+          "member_name": "admin",
+          "member_department": 0,
+          "member_mobile": "18336175747"
+        },
+        "has_power_comps": [1186566],
+        "edit_need_audit": 0,
+        "open_password_info": [],
+        "open_location_info": [],
+        "open_time_info": [],
+        "data_authtype": 4,
+        "auth_list": [
+          {
+            "id": 1186566,
+            "data_id": 89577,
+            "data_type": 12,
+            "privi_type": "operate",
+            "auth_type": 4,
+            "code_id": 3974499,
+            "org_id": 94911424,
+            "limit_id": 0,
+            "update_time": 1723424465,
+            "hide_nopower": 0,
+            "has_detail": false,
+            "encryption": "a358f55dd8dad3603a1ea78710cc4b5c"
+          }
+        ],
+        "first_edituser_ass_id": [],
+        "power_status": 15,
+        "need_user_auth": 0,
+        "auth_limit": [],
+        "need_join_member": 0,
+        "need_join_auth_member": 0
+      },
+      "tpl_record": {
+        "id": 9054,
+        "org_id": 94911424,
+        "user_id": 831891,
+        "code_id": 0,
+        "name": "异常上报",
+        "type": 0,
+        "status": 0,
+        "is_del": 0,
+        "remark": "请详细描述异常情况后提交",
+        "icon": "",
+        "add_time": "2024-06-12 20:54:12",
+        "create_from": 4,
+        "note": "",
+        "btn_title": "提交",
+        "update_time": 1723423092,
+        "active_time": 1718196852,
+        "owner_tpl_number": "D20",
+        "privacy_status": 1,
+        "is_global": 0,
+        "project_id": 85,
+        "record_tpl_token": {
+          "org_id": 94911424,
+          "tpl_id": 9054,
+          "time": 1723432087,
+          "publickey": "b5faaf40741d89a302b1d19c8096d997"
+        }
+      },
+      "$elData": {
+        "id": 9054,
+        "org_id": 94911424,
+        "user_id": 831891,
+        "code_id": 0,
+        "name": "异常上报",
+        "type": 0,
+        "status": 0,
+        "is_del": 0,
+        "remark": "请详细描述异常情况后提交",
+        "icon": "",
+        "add_time": "2024-06-12 20:54:12",
+        "create_from": 4,
+        "note": "",
+        "btn_title": "提交",
+        "update_time": 1723423092,
+        "active_time": 1718196852,
+        "owner_tpl_number": "D20",
+        "privacy_status": 1,
+        "is_global": 0,
+        "project_id": 85,
+        "tpl_id": 9054,
+        "tip_msg": {
+          "id": 10672,
+          "tpl_id": 9054,
+          "code_id": 0,
+          "org_id": 94911424,
+          "user_id": 831891,
+          "edition_id": 44,
+          "tip_text": "故障已上报，感谢你的认真巡检",
+          "has_jump": 0,
+          "jump_url": "",
+          "jump_text": "",
+          "jump_text_custom": "",
+          "create_time": 1718196852,
+          "update_time": 1723423092,
+          "tip_text_status": 1,
+          "scan_status": 0,
+          "scan_auto_status": 0,
+          "share_button_status": 1
+        },
+        "data_id": 39386,
+        "rule_status": 0,
+        "sort": 1,
+        "voice_data": {
+          "id": 30966,
+          "tpl_id": 9054,
+          "code_id": 0,
+          "org_id": 94911424,
+          "user_id": 831891,
+          "edition_id": 44,
+          "open_status": 0,
+          "auto_status": 0,
+          "tpl_name_status": 0,
+          "record_number_status": 0,
+          "success_text_status": 0,
+          "record_time_status": 0,
+          "create_time": 1718196852,
+          "update_time": 1723423092
+        },
+        "audit_reply_record": [],
+        "notary_config": [],
+        "tpl_number": [],
+        "tpl_record_operate": [],
+        "rule_msg": [
+          {
+            "id": 50072,
+            "org_id": 94911424,
+            "code_id": 0,
+            "tpl_id": 9054,
+            "type": "jump_tip",
+            "operator": "add",
+            "value": "2",
+            "result": {
+              "tpl_field_id": 0,
+              "tpl_field_title": "",
+              "tpl_field_option_id": 0,
+              "tpl_field_option_title": "",
+              "jump_url": "",
+              "jump_text": "",
+              "jump_text_custom": ""
+            },
+            "status": 0,
+            "add_time": "2024-06-12 20:54:12",
+            "update_time": "2024-06-12 20:54:12",
+            "group_id": 1
+          },
+          {
+            "id": 50073,
+            "org_id": 94911424,
+            "code_id": 0,
+            "tpl_id": 9054,
+            "type": "new_msg",
+            "operator": "add",
+            "value": "1",
+            "result": null,
+            "status": 0,
+            "add_time": "2024-06-12 20:54:12",
+            "update_time": "2024-06-12 20:54:12",
+            "group_id": 1
+          },
+          {
+            "id": 50074,
+            "org_id": 94911424,
+            "code_id": 0,
+            "tpl_id": 9054,
+            "type": "state_event",
+            "operator": "add",
+            "value": "1",
+            "result": {
+              "default_option_id": 0,
+              "state_id": 7091,
+              "state_option_id": 23807,
+              "state_map_id": 35581,
+              "state_option_rule_id": 26813,
+              "state_default_option_record": {
+                "id": 23806,
+                "text": "正常",
+                "color": "#07C160",
+                "value": 1,
+                "status": 0,
+                "org_id": 94911424,
+                "state_id": 7091,
+                "sort": 1,
+                "create_time": 1718196853,
+                "update_time": 1718196853,
+                "is_default": 1
+              }
+            },
+            "status": 0,
+            "add_time": "2024-06-12 20:54:12",
+            "update_time": "2024-08-12 08:38:12",
+            "group_id": 1
+          }
+        ],
+        "common_config": {
+          "id": 46861,
+          "org_id": 94911424,
+          "code_id": 0,
+          "tpl_id": 9054,
+          "add_record_mode": 0,
+          "tobe_member": 0,
+          "create_time": 1718196852,
+          "update_time": 1723423092,
+          "success_page_button": {
+            "continuous_scan_config": {
+              "value": 0,
+              "text": "扫其他码添加记录"
+            },
+            "record_review_config": {
+              "value": 1,
+              "text": "添加后续动态"
+            },
+            "record_print_config": {
+              "value": 0,
+              "text": "下载PDF文件"
+            },
+            "evocation_scan_config": {
+              "value": 0,
+              "is_auto": 0,
+              "text": ""
+            },
+            "record_share_config": {
+              "value": 1,
+              "text": "转发填写内容"
+            },
+            "return_qrcode_config": {
+              "value": 0,
+              "text": ""
+            },
+            "finish_config": {
+              "value": 0,
+              "text": ""
+            }
+          },
+          "show_share_button": 1,
+          "open_memary_record": 1,
+          "close_pdf_subcode_export": 0,
+          "memary_record_config": {
+            "button_position": 1
+          }
+        },
+        "rules_config": {
+          "id": 889,
+          "org_id": 94911424,
+          "code_id": 0,
+          "tpl_id": 9054,
+          "create_time": 1718196854,
+          "update_time": 1723423092,
+          "add_record_config": {
+            "button_position": 1
+          },
+          "qrcode_print_records_configs": [
+            {
+              "select_type": "RESERVED",
+              "field": "print_order_id",
+              "name": "序号",
+              "field_type": "",
+              "type": "text"
+            }
+          ],
+          "visibility_rules": []
+        },
+        "tpl_watermark": {
+          "id": 7361,
+          "tpl_id": 9054,
+          "code_id": 0,
+          "org_id": 94911424,
+          "status": 1,
+          "watermark_value": 15,
+          "bottom_tag": "此水印由 草料二维码公司提供",
+          "address_type": 3
+        },
+        "tpl_data_push_api": [],
+        "tpl_word_templates": {
+          "settings": {
+            "max_template_file_size": 20
+          },
+          "templates": [
+            {
+              "id": 14106,
+              "org_id": 94911424,
+              "template_id": 0,
+              "target_type": 1,
+              "target_id": 0,
+              "target_extend_id": 9054,
+              "target_info": {
+                "code_id": 0,
+                "tpl_id": "9054"
+              },
+              "status": 0,
+              "create_time": "2024-06-12 20:54:12",
+              "update_time": "2024-06-12 20:54:12",
+              "extend_info": null,
+              "template_path": null,
+              "template_name": null,
+              "preview_image_url": ""
+            }
+          ]
+        },
+        "tpl_data_id": 17927,
+        "can_add_record_time": 1,
+        "is_before_record_time": 0,
+        "time_limit_type": 0,
+        "time_limit_record": [],
+        "can_add_record": true,
+        "tpl_limit_record": [],
+        "owner_can_add_record": true,
+        "owner_tpl_limit_record": [],
+        "tpl_review": {
+          "id": 23234,
+          "tpl_id": 9054,
+          "code_id": 0,
+          "org_id": 94911424,
+          "can_review": 1,
+          "can_set_process_status": 1,
+          "default_process_status": 0,
+          "watermake_option": 0,
+          "mobile_button_option": {
+            "upload_photos": 1,
+            "take_photos": 1,
+            "input_signature": 1,
+            "input_record": 1,
+            "input_txt": 1,
+            "input_voice": 1,
+            "remind_others": 1
+          },
+          "show_button": 1,
+          "review_title": "后续处理情况",
+          "review_desc": "说明情况，@他人",
+          "review_button_txt": "通知他人查看",
+          "process_status_title": "处理进度",
+          "create_time": 1718196852,
+          "process_status_options": [
+            {
+              "id": 125901,
+              "tpl_record_review_set_id": 23234,
+              "option_type": 1,
+              "option_value": "1",
+              "option_text": "待处理",
+              "option_status": 0,
+              "create_time": 1718196852,
+              "update_time": "2024-06-12 20:54:12",
+              "ext_info": {
+                "option_color": "#E64340",
+                "sort": 1,
+                "from_option_id": "765a2c33-e2fa-6bc5-efe1-6c67022cfc27"
+              },
+              "text": "待处理",
+              "textColor": "#E64340",
+              "value": "1",
+              "sort": 1
+            },
+            {
+              "id": 125902,
+              "tpl_record_review_set_id": 23234,
+              "option_type": 1,
+              "option_value": "4",
+              "option_text": "处理中",
+              "option_status": 0,
+              "create_time": 1718196852,
+              "update_time": "2024-06-12 20:54:12",
+              "ext_info": {
+                "option_color": "#155EB7",
+                "sort": 2,
+                "from_option_id": "b832f008-25bd-2661-18f4-610b12d67a94"
+              },
+              "text": "处理中",
+              "textColor": "#155EB7",
+              "value": "4",
+              "sort": 2
+            },
+            {
+              "id": 125903,
+              "tpl_record_review_set_id": 23234,
+              "option_type": 1,
+              "option_value": "2",
+              "option_text": "已完成",
+              "option_status": 0,
+              "create_time": 1718196852,
+              "update_time": "2024-06-12 20:54:12",
+              "ext_info": {
+                "option_color": "#06AE56",
+                "sort": 3,
+                "from_option_id": "6e82a0ae-f05e-235d-8af0-b4c4f81c4cae"
+              },
+              "text": "已完成",
+              "textColor": "#06AE56",
+              "value": "2",
+              "sort": 3
+            },
+            {
+              "id": 125904,
+              "tpl_record_review_set_id": 23234,
+              "option_type": 1,
+              "option_value": "3",
+              "option_text": "无需处理",
+              "option_status": 0,
+              "create_time": 1718196852,
+              "update_time": "2024-06-12 20:54:12",
+              "ext_info": {
+                "option_color": "#666",
+                "sort": 4,
+                "from_option_id": "35a96fe3-e3bd-b9b4-c38b-cb9ea4fcc483"
+              },
+              "text": "无需处理",
+              "textColor": "#666",
+              "value": "3",
+              "sort": 4
+            },
+            {
+              "id": 125905,
+              "tpl_record_review_set_id": 23234,
+              "option_type": 1,
+              "option_value": "0",
+              "option_text": "暂无处理状态",
+              "option_status": 0,
+              "create_time": 1718196852,
+              "update_time": "2024-06-12 20:54:12",
+              "ext_info": {
+                "option_color": "#999",
+                "sort": 5,
+                "from_option_id": "54b8e1c4-44b4-b508-1e92-ca1c06a7e8e7"
+              },
+              "text": "暂无处理状态",
+              "textColor": "#999",
+              "value": "0",
+              "sort": 5
+            }
+          ],
+          "relevance_tpl_options": []
+        },
+        "multi_audit_process": [],
+        "memary_user": [],
+        "memary_record": {
+          "is_memary": 1
+        },
+        "tpl_label": [],
+        "record_tpl_token": {
+          "org_id": 94911424,
+          "tpl_id": 9054,
+          "time": 1723432088,
+          "publickey": "f01df58eab23122e4b132ed566ba77a5"
+        }
+      },
+      "$elType": 2
+    }
+  ],
+  "codeCommonInfo": {
+    "codeHeaderTitleInfo": {},
+    "codeColorInfo": {
+      "themeColor": "#f4f4f4",
+      "foreColor": "#000000",
+      "recordTextColor": "#06ae56",
+      "lowThemeColor": "#2aad67",
+      "lowCrtColor": "#06ae56",
+      "gradient": {
+        "sourceColor": {
+          "themeColor": "#f4f4f4",
+          "foreColor": "#000000",
+          "hForeColor": "#06ae56",
+          "hThemeColor": "#2aad67"
+        },
+        "topComponent": [
+          {
+            "id": 3726690,
+            "qrcode_id": 3974499,
+            "component_code": "text",
+            "identity_id": 0,
+            "sort": 1,
+            "status": 0,
+            "tpl_com_id": 550531,
+            "org_id": 94911424,
+            "batch_id": 0,
+            "real_group_id": 0,
+            "component_status": 1,
+            "template_component_id": 0,
+            "template_component_info": "",
+            "form_component_id": 0,
+            "form_component_title": "",
+            "attribute_list": [
+              {
+                "content_html": {
+                  "id": 3257642,
+                  "value": "",
+                  "status": 0,
+                  "attribute_id": 10,
+                  "group_id": 1,
+                  "real_group_id": 1,
+                  "tpl_com_id": 550531,
+                  "name": "文本 html 片段",
+                  "is_default_value": 0,
+                  "multiple_id": "258065",
+                  "attribute_multiple_id": 5
+                }
+              }
+            ],
+            "group_count": 1,
+            "encryption": "b15d4664dc83820a2de626e79d44e820"
+          },
+          {
+            "id": 3726691,
+            "qrcode_id": 3974499,
+            "component_code": "recordview",
+            "identity_id": 0,
+            "sort": 2,
+            "status": 0,
+            "tpl_com_id": 550532,
+            "org_id": 94911424,
+            "batch_id": 0,
+            "real_group_id": 0,
+            "component_status": 1,
+            "template_component_id": 0,
+            "template_component_info": "",
+            "form_component_id": 0,
+            "form_component_title": ""
+          }
+        ],
+        "record": {
+          "data_list": [
+            {
+              "id": 9054,
+              "org_id": 94911424,
+              "user_id": 831891,
+              "code_id": 0,
+              "name": "异常上报",
+              "type": 0,
+              "status": 0,
+              "is_del": 0,
+              "remark": "请详细描述异常情况后提交",
+              "icon": "",
+              "add_time": "2024-06-12 20:54:12",
+              "create_from": 4,
+              "note": "",
+              "btn_title": "提交",
+              "update_time": 1723423092,
+              "active_time": 1718196852,
+              "owner_tpl_number": "D20",
+              "privacy_status": 1,
+              "is_global": 0,
+              "project_id": 85,
+              "tpl_id": 9054,
+              "tip_msg": {
+                "id": 10672,
+                "tpl_id": 9054,
+                "code_id": 0,
+                "org_id": 94911424,
+                "user_id": 831891,
+                "edition_id": 44,
+                "tip_text": "故障已上报，感谢你的认真巡检",
+                "has_jump": 0,
+                "jump_url": "",
+                "jump_text": "",
+                "jump_text_custom": "",
+                "create_time": 1718196852,
+                "update_time": 1723423092,
+                "tip_text_status": 1,
+                "scan_status": 0,
+                "scan_auto_status": 0,
+                "share_button_status": 1
+              },
+              "data_id": 39386,
+              "rule_status": 0,
+              "sort": 1,
+              "voice_data": {
+                "id": 30966,
+                "tpl_id": 9054,
+                "code_id": 0,
+                "org_id": 94911424,
+                "user_id": 831891,
+                "edition_id": 44,
+                "open_status": 0,
+                "auto_status": 0,
+                "tpl_name_status": 0,
+                "record_number_status": 0,
+                "success_text_status": 0,
+                "record_time_status": 0,
+                "create_time": 1718196852,
+                "update_time": 1723423092
+              },
+              "audit_reply_record": [],
+              "notary_config": [],
+              "tpl_number": [],
+              "tpl_record_operate": [],
+              "rule_msg": [
+                {
+                  "id": 50072,
+                  "org_id": 94911424,
+                  "code_id": 0,
+                  "tpl_id": 9054,
+                  "type": "jump_tip",
+                  "operator": "add",
+                  "value": "2",
+                  "result": {
+                    "tpl_field_id": 0,
+                    "tpl_field_title": "",
+                    "tpl_field_option_id": 0,
+                    "tpl_field_option_title": "",
+                    "jump_url": "",
+                    "jump_text": "",
+                    "jump_text_custom": ""
+                  },
+                  "status": 0,
+                  "add_time": "2024-06-12 20:54:12",
+                  "update_time": "2024-06-12 20:54:12",
+                  "group_id": 1
+                },
+                {
+                  "id": 50073,
+                  "org_id": 94911424,
+                  "code_id": 0,
+                  "tpl_id": 9054,
+                  "type": "new_msg",
+                  "operator": "add",
+                  "value": "1",
+                  "result": null,
+                  "status": 0,
+                  "add_time": "2024-06-12 20:54:12",
+                  "update_time": "2024-06-12 20:54:12",
+                  "group_id": 1
+                },
+                {
+                  "id": 50074,
+                  "org_id": 94911424,
+                  "code_id": 0,
+                  "tpl_id": 9054,
+                  "type": "state_event",
+                  "operator": "add",
+                  "value": "1",
+                  "result": {
+                    "default_option_id": 0,
+                    "state_id": 7091,
+                    "state_option_id": 23807,
+                    "state_map_id": 35581,
+                    "state_option_rule_id": 26813,
+                    "state_default_option_record": {
+                      "id": 23806,
+                      "text": "正常",
+                      "color": "#07C160",
+                      "value": 1,
+                      "status": 0,
+                      "org_id": 94911424,
+                      "state_id": 7091,
+                      "sort": 1,
+                      "create_time": 1718196853,
+                      "update_time": 1718196853,
+                      "is_default": 1
+                    }
+                  },
+                  "status": 0,
+                  "add_time": "2024-06-12 20:54:12",
+                  "update_time": "2024-08-12 08:38:12",
+                  "group_id": 1
+                }
+              ],
+              "common_config": {
+                "id": 46861,
+                "org_id": 94911424,
+                "code_id": 0,
+                "tpl_id": 9054,
+                "add_record_mode": 0,
+                "tobe_member": 0,
+                "create_time": 1718196852,
+                "update_time": 1723423092,
+                "success_page_button": {
+                  "continuous_scan_config": {
+                    "value": 0,
+                    "text": "扫其他码添加记录"
+                  },
+                  "record_review_config": {
+                    "value": 1,
+                    "text": "添加后续动态"
+                  },
+                  "record_print_config": {
+                    "value": 0,
+                    "text": "下载PDF文件"
+                  },
+                  "evocation_scan_config": {
+                    "value": 0,
+                    "is_auto": 0,
+                    "text": ""
+                  },
+                  "record_share_config": {
+                    "value": 1,
+                    "text": "转发填写内容"
+                  },
+                  "return_qrcode_config": {
+                    "value": 0,
+                    "text": ""
+                  },
+                  "finish_config": {
+                    "value": 0,
+                    "text": ""
+                  }
+                },
+                "show_share_button": 1,
+                "open_memary_record": 1,
+                "close_pdf_subcode_export": 0,
+                "memary_record_config": {
+                  "button_position": 1
+                }
+              },
+              "rules_config": {
+                "id": 889,
+                "org_id": 94911424,
+                "code_id": 0,
+                "tpl_id": 9054,
+                "create_time": 1718196854,
+                "update_time": 1723423092,
+                "add_record_config": {
+                  "button_position": 1
+                },
+                "qrcode_print_records_configs": [
+                  {
+                    "select_type": "RESERVED",
+                    "field": "print_order_id",
+                    "name": "序号",
+                    "field_type": "",
+                    "type": "text"
+                  }
+                ],
+                "visibility_rules": []
+              },
+              "tpl_watermark": {
+                "id": 7361,
+                "tpl_id": 9054,
+                "code_id": 0,
+                "org_id": 94911424,
+                "status": 1,
+                "watermark_value": 15,
+                "bottom_tag": "此水印由 草料二维码公司提供",
+                "address_type": 3
+              },
+              "tpl_data_push_api": [],
+              "tpl_word_templates": {
+                "settings": {
+                  "max_template_file_size": 20
+                },
+                "templates": [
+                  {
+                    "id": 14106,
+                    "org_id": 94911424,
+                    "template_id": 0,
+                    "target_type": 1,
+                    "target_id": 0,
+                    "target_extend_id": 9054,
+                    "target_info": {
+                      "code_id": 0,
+                      "tpl_id": "9054"
+                    },
+                    "status": 0,
+                    "create_time": "2024-06-12 20:54:12",
+                    "update_time": "2024-06-12 20:54:12",
+                    "extend_info": null,
+                    "template_path": null,
+                    "template_name": null,
+                    "preview_image_url": ""
+                  }
+                ]
+              },
+              "tpl_data_id": 17927,
+              "can_add_record_time": 1,
+              "is_before_record_time": 0,
+              "time_limit_type": 0,
+              "time_limit_record": [],
+              "can_add_record": true,
+              "tpl_limit_record": [],
+              "owner_can_add_record": true,
+              "owner_tpl_limit_record": [],
+              "tpl_review": {
+                "id": 23234,
+                "tpl_id": 9054,
+                "code_id": 0,
+                "org_id": 94911424,
+                "can_review": 1,
+                "can_set_process_status": 1,
+                "default_process_status": 0,
+                "watermake_option": 0,
+                "mobile_button_option": {
+                  "upload_photos": 1,
+                  "take_photos": 1,
+                  "input_signature": 1,
+                  "input_record": 1,
+                  "input_txt": 1,
+                  "input_voice": 1,
+                  "remind_others": 1
+                },
+                "show_button": 1,
+                "review_title": "后续处理情况",
+                "review_desc": "说明情况，@他人",
+                "review_button_txt": "通知他人查看",
+                "process_status_title": "处理进度",
+                "create_time": 1718196852,
+                "process_status_options": [
+                  {
+                    "id": 125901,
+                    "tpl_record_review_set_id": 23234,
+                    "option_type": 1,
+                    "option_value": "1",
+                    "option_text": "待处理",
+                    "option_status": 0,
+                    "create_time": 1718196852,
+                    "update_time": "2024-06-12 20:54:12",
+                    "ext_info": {
+                      "option_color": "#E64340",
+                      "sort": 1,
+                      "from_option_id": "765a2c33-e2fa-6bc5-efe1-6c67022cfc27"
+                    },
+                    "text": "待处理",
+                    "textColor": "#E64340",
+                    "value": "1",
+                    "sort": 1
+                  },
+                  {
+                    "id": 125902,
+                    "tpl_record_review_set_id": 23234,
+                    "option_type": 1,
+                    "option_value": "4",
+                    "option_text": "处理中",
+                    "option_status": 0,
+                    "create_time": 1718196852,
+                    "update_time": "2024-06-12 20:54:12",
+                    "ext_info": {
+                      "option_color": "#155EB7",
+                      "sort": 2,
+                      "from_option_id": "b832f008-25bd-2661-18f4-610b12d67a94"
+                    },
+                    "text": "处理中",
+                    "textColor": "#155EB7",
+                    "value": "4",
+                    "sort": 2
+                  },
+                  {
+                    "id": 125903,
+                    "tpl_record_review_set_id": 23234,
+                    "option_type": 1,
+                    "option_value": "2",
+                    "option_text": "已完成",
+                    "option_status": 0,
+                    "create_time": 1718196852,
+                    "update_time": "2024-06-12 20:54:12",
+                    "ext_info": {
+                      "option_color": "#06AE56",
+                      "sort": 3,
+                      "from_option_id": "6e82a0ae-f05e-235d-8af0-b4c4f81c4cae"
+                    },
+                    "text": "已完成",
+                    "textColor": "#06AE56",
+                    "value": "2",
+                    "sort": 3
+                  },
+                  {
+                    "id": 125904,
+                    "tpl_record_review_set_id": 23234,
+                    "option_type": 1,
+                    "option_value": "3",
+                    "option_text": "无需处理",
+                    "option_status": 0,
+                    "create_time": 1718196852,
+                    "update_time": "2024-06-12 20:54:12",
+                    "ext_info": {
+                      "option_color": "#666",
+                      "sort": 4,
+                      "from_option_id": "35a96fe3-e3bd-b9b4-c38b-cb9ea4fcc483"
+                    },
+                    "text": "无需处理",
+                    "textColor": "#666",
+                    "value": "3",
+                    "sort": 4
+                  },
+                  {
+                    "id": 125905,
+                    "tpl_record_review_set_id": 23234,
+                    "option_type": 1,
+                    "option_value": "0",
+                    "option_text": "暂无处理状态",
+                    "option_status": 0,
+                    "create_time": 1718196852,
+                    "update_time": "2024-06-12 20:54:12",
+                    "ext_info": {
+                      "option_color": "#999",
+                      "sort": 5,
+                      "from_option_id": "54b8e1c4-44b4-b508-1e92-ca1c06a7e8e7"
+                    },
+                    "text": "暂无处理状态",
+                    "textColor": "#999",
+                    "value": "0",
+                    "sort": 5
+                  }
+                ],
+                "relevance_tpl_options": []
+              },
+              "multi_audit_process": [],
+              "memary_user": [],
+              "memary_record": {
+                "is_memary": 1
+              },
+              "tpl_label": [],
+              "record_tpl_token": {
+                "org_id": 94911424,
+                "tpl_id": 9054,
+                "time": 1723432088,
+                "publickey": "f01df58eab23122e4b132ed566ba77a5"
+              }
+            }
+          ],
+          "last_desc": null,
+          "count": 0,
+          "rule_totle": 0,
+          "rule_result": [],
+          "used_rule": 0,
+          "need_user_auth": 0,
+          "show_owner": 0,
+          "promise_info": {
+            "promise_tpl": null,
+            "promise_record": null,
+            "skip_promise": 1
+          },
+          "codereview_info": {
+            "codereview_tpl": null,
+            "read_register_tpl": null,
+            "state_change_tpl": {
+              "tpl_id": 8485,
+              "org_id": 94911424,
+              "user_id": 0,
+              "name": "状态更新记录",
+              "status": 0,
+              "is_del": 0,
+              "remark": "",
+              "icon": "",
+              "note": "",
+              "type": 7,
+              "btn_title": "提交",
+              "owner_tpl_number": "D3",
+              "update_time": 1718188012,
+              "create_from": 1,
+              "privacy_status": 0,
+              "groups": [
+                {
+                  "id": 10534,
+                  "tpl_id": "8485",
+                  "title": "",
+                  "sort": "1",
+                  "status": 3,
+                  "components": [
+                    {
+                      "id": 64638,
+                      "tpl_component": "text",
+                      "title": "状态名称",
+                      "desc": "",
+                      "status": 0,
+                      "group_id": 10534,
+                      "sort": 0,
+                      "parent_id": 0,
+                      "options": {
+                        "default": [
+                          {
+                            "id": 470210,
+                            "value": "",
+                            "sort": 0,
+                            "status": 0
+                          }
+                        ],
+                        "is_unique": [
+                          {
+                            "id": 470211,
+                            "value": "0",
+                            "sort": 0,
+                            "status": 0
+                          }
+                        ],
+                        "log_result": [
+                          {
+                            "id": 470212,
+                            "value": "0",
+                            "sort": 0,
+                            "status": 0,
+                            "disabled": false
+                          }
+                        ],
+                        "require": [
+                          {
+                            "id": 470213,
+                            "value": "0",
+                            "sort": 0,
+                            "status": 0
+                          }
+                        ],
+                        "scannable": [
+                          {
+                            "id": 470214,
+                            "value": "0",
+                            "sort": 0,
+                            "status": 0
+                          }
+                        ],
+                        "substr": [
+                          {
+                            "id": 470215,
+                            "value": "",
+                            "sort": 0,
+                            "status": 0
+                          }
+                        ],
+                        "tpl_memory": [
+                          {
+                            "id": 470216,
+                            "value": "0",
+                            "sort": 0,
+                            "status": 0
+                          }
+                        ],
+                        "use_default": [
+                          {
+                            "id": 470217,
+                            "value": 1,
+                            "sort": 0,
+                            "status": 0
+                          }
+                        ]
+                      },
+                      "original_options": {
+                        "use_default": [
+                          {
+                            "value": 1
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "id": 64639,
+                      "tpl_component": "text",
+                      "title": "更新前状态",
+                      "desc": "",
+                      "status": 0,
+                      "group_id": 10534,
+                      "sort": 1,
+                      "parent_id": 0,
+                      "options": {
+                        "default": [
+                          {
+                            "id": 470218,
+                            "value": "",
+                            "sort": 0,
+                            "status": 0
+                          }
+                        ],
+                        "is_unique": [
+                          {
+                            "id": 470219,
+                            "value": "0",
+                            "sort": 0,
+                            "status": 0
+                          }
+                        ],
+                        "log_result": [
+                          {
+                            "id": 470220,
+                            "value": "0",
+                            "sort": 0,
+                            "status": 0,
+                            "disabled": false
+                          }
+                        ],
+                        "require": [
+                          {
+                            "id": 470221,
+                            "value": "0",
+                            "sort": 0,
+                            "status": 0
+                          }
+                        ],
+                        "scannable": [
+                          {
+                            "id": 470222,
+                            "value": "0",
+                            "sort": 0,
+                            "status": 0
+                          }
+                        ],
+                        "substr": [
+                          {
+                            "id": 470223,
+                            "value": "",
+                            "sort": 0,
+                            "status": 0
+                          }
+                        ],
+                        "tpl_memory": [
+                          {
+                            "id": 470224,
+                            "value": "0",
+                            "sort": 0,
+                            "status": 0
+                          }
+                        ],
+                        "use_default": [
+                          {
+                            "id": 470225,
+                            "value": 1,
+                            "sort": 0,
+                            "status": 0
+                          }
+                        ]
+                      },
+                      "original_options": {
+                        "use_default": [
+                          {
+                            "value": 1
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "id": 64640,
+                      "tpl_component": "text",
+                      "title": "更新后状态",
+                      "desc": "",
+                      "status": 0,
+                      "group_id": 10534,
+                      "sort": 2,
+                      "parent_id": 0,
+                      "options": {
+                        "default": [
+                          {
+                            "id": 470226,
+                            "value": "",
+                            "sort": 0,
+                            "status": 0
+                          }
+                        ],
+                        "is_unique": [
+                          {
+                            "id": 470227,
+                            "value": "0",
+                            "sort": 0,
+                            "status": 0
+                          }
+                        ],
+                        "log_result": [
+                          {
+                            "id": 470228,
+                            "value": "0",
+                            "sort": 0,
+                            "status": 0,
+                            "disabled": false
+                          }
+                        ],
+                        "require": [
+                          {
+                            "id": 470229,
+                            "value": "0",
+                            "sort": 0,
+                            "status": 0
+                          }
+                        ],
+                        "scannable": [
+                          {
+                            "id": 470230,
+                            "value": "0",
+                            "sort": 0,
+                            "status": 0
+                          }
+                        ],
+                        "substr": [
+                          {
+                            "id": 470231,
+                            "value": "",
+                            "sort": 0,
+                            "status": 0
+                          }
+                        ],
+                        "tpl_memory": [
+                          {
+                            "id": 470232,
+                            "value": "0",
+                            "sort": 0,
+                            "status": 0
+                          }
+                        ],
+                        "use_default": [
+                          {
+                            "id": 470233,
+                            "value": 1,
+                            "sort": 0,
+                            "status": 0
+                          }
+                        ]
+                      },
+                      "original_options": {
+                        "use_default": [
+                          {
+                            "value": 1
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "id": 64641,
+                      "tpl_component": "text",
+                      "title": "更新方式",
+                      "desc": "",
+                      "status": 0,
+                      "group_id": 10534,
+                      "sort": 3,
+                      "parent_id": 0,
+                      "options": {
+                        "default": [
+                          {
+                            "id": 470234,
+                            "value": "",
+                            "sort": 0,
+                            "status": 0
+                          }
+                        ],
+                        "is_unique": [
+                          {
+                            "id": 470235,
+                            "value": "0",
+                            "sort": 0,
+                            "status": 0
+                          }
+                        ],
+                        "log_result": [
+                          {
+                            "id": 470236,
+                            "value": "0",
+                            "sort": 0,
+                            "status": 0,
+                            "disabled": false
+                          }
+                        ],
+                        "require": [
+                          {
+                            "id": 470237,
+                            "value": "0",
+                            "sort": 0,
+                            "status": 0
+                          }
+                        ],
+                        "scannable": [
+                          {
+                            "id": 470238,
+                            "value": "0",
+                            "sort": 0,
+                            "status": 0
+                          }
+                        ],
+                        "substr": [
+                          {
+                            "id": 470239,
+                            "value": "",
+                            "sort": 0,
+                            "status": 0
+                          }
+                        ],
+                        "tpl_memory": [
+                          {
+                            "id": 470240,
+                            "value": "0",
+                            "sort": 0,
+                            "status": 0
+                          }
+                        ],
+                        "use_default": [
+                          {
+                            "id": 470241,
+                            "value": 1,
+                            "sort": 0,
+                            "status": 0
+                          }
+                        ]
+                      },
+                      "original_options": {
+                        "use_default": [
+                          {
+                            "value": 1
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "id": 64642,
+                      "tpl_component": "textarea",
+                      "title": "状态数据",
+                      "desc": "存放状态 json 数据",
+                      "status": 0,
+                      "group_id": 10534,
+                      "sort": 4,
+                      "parent_id": 0,
+                      "options": {
+                        "can_export": [
+                          {
+                            "id": 470242,
+                            "value": "2",
+                            "sort": 0,
+                            "status": 0
+                          }
+                        ],
+                        "default": [
+                          {
+                            "id": 470243,
+                            "value": "",
+                            "sort": 0,
+                            "status": 0
+                          }
+                        ],
+                        "require": [
+                          {
+                            "id": 470244,
+                            "value": "0",
+                            "sort": 0,
+                            "status": 0
+                          }
+                        ],
+                        "tpl_memory": [
+                          {
+                            "id": 470245,
+                            "value": "0",
+                            "sort": 0,
+                            "status": 0
+                          }
+                        ],
+                        "use_default": [
+                          {
+                            "id": 470246,
+                            "value": 1,
+                            "sort": 0,
+                            "status": 0
+                          }
+                        ]
+                      },
+                      "original_options": {
+                        "use_default": [
+                          {
+                            "value": 1
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "id": 64643,
+                      "tpl_component": "textarea",
+                      "title": "补充说明",
+                      "desc": "",
+                      "status": 0,
+                      "group_id": 10534,
+                      "sort": 5,
+                      "parent_id": 0,
+                      "options": {
+                        "append_data": [
+                          {
+                            "id": 470247,
+                            "value": "1",
+                            "sort": 0,
+                            "status": 0
+                          }
+                        ],
+                        "default": [
+                          {
+                            "id": 470248,
+                            "value": "",
+                            "sort": 0,
+                            "status": 0
+                          }
+                        ],
+                        "require": [
+                          {
+                            "id": 470249,
+                            "value": "0",
+                            "sort": 0,
+                            "status": 0
+                          }
+                        ],
+                        "tpl_memory": [
+                          {
+                            "id": 470250,
+                            "value": "0",
+                            "sort": 0,
+                            "status": 0
+                          }
+                        ],
+                        "use_default": [
+                          {
+                            "id": 470251,
+                            "value": 1,
+                            "sort": 0,
+                            "status": 0
+                          }
+                        ]
+                      },
+                      "original_options": {
+                        "use_default": [
+                          {
+                            "value": 1
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "id": 64644,
+                      "tpl_component": "image",
+                      "title": "补充照片",
+                      "desc": "",
+                      "status": 0,
+                      "group_id": 10534,
+                      "sort": 6,
+                      "parent_id": 0,
+                      "options": {
+                        "append_data": [
+                          {
+                            "id": 470252,
+                            "value": "2",
+                            "sort": 0,
+                            "status": 0
+                          }
+                        ],
+                        "default": [
+                          {
+                            "id": 470253,
+                            "value": "",
+                            "sort": 0,
+                            "status": 0
+                          }
+                        ],
+                        "require": [
+                          {
+                            "id": 470254,
+                            "value": "0",
+                            "sort": 0,
+                            "status": 0
+                          }
+                        ],
+                        "upload": [
+                          {
+                            "id": 470255,
+                            "value": "1",
+                            "sort": 0,
+                            "status": 0
+                          }
+                        ],
+                        "use_default": [
+                          {
+                            "id": 470256,
+                            "value": "0",
+                            "sort": 0,
+                            "status": 0
+                          }
+                        ],
+                        "watermark": [
+                          {
+                            "id": 470257,
+                            "value": "0",
+                            "sort": 0,
+                            "status": 0,
+                            "bottom_tag": "u6b64u6c34u5370u7531 xxu516cu53f8 u521bu5efa"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "id": 64645,
+                      "tpl_component": "address",
+                      "title": "操作地点",
+                      "desc": "",
+                      "status": 0,
+                      "group_id": 10534,
+                      "sort": 7,
+                      "parent_id": 0,
+                      "options": {
+                        "default": [
+                          {
+                            "id": 470258,
+                            "value": "",
+                            "sort": 0,
+                            "status": 0
+                          }
+                        ],
+                        "require": [
+                          {
+                            "id": 470259,
+                            "value": "0",
+                            "sort": 0,
+                            "status": 0
+                          }
+                        ],
+                        "accuracy_mode": [
+                          {
+                            "value": 0,
+                            "status": 0,
+                            "org_id": "94911424",
+                            "sort": 1
+                          }
+                        ],
+                        "open_choose_location": [
+                          {
+                            "value": 0,
+                            "status": 0,
+                            "org_id": "94911424",
+                            "sort": 1
+                          }
+                        ],
+                        "get_location_mode": [
+                          {
+                            "value": 1,
+                            "status": 0,
+                            "org_id": "94911424",
+                            "sort": 1
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              ],
+              "code_tpl_id": 16807,
+              "tpl_data_id": 16807,
+              "tpl_number": [],
+              "tpl_record_operate": [],
+              "tip_msg": [],
+              "rule_msg": [],
+              "voice_data": {
+                "open_status": 0,
+                "auto_status": 0
+              },
+              "notary_config": [],
+              "audit_reply_record": [],
+              "time_limit_record": [],
+              "owner_tpl_limit_record": [],
+              "tpl_limit_record": [],
+              "common_config": {
+                "org_id": "94911424",
+                "tpl_id": 8485,
+                "code_id": 0,
+                "add_record_mode": 0,
+                "tobe_member": 0,
+                "show_share_button": 1,
+                "open_memary_record": 0,
+                "close_pdf_subcode_export": 0,
+                "memary_record_config": {
+                  "button_position": 1,
+                  "is_default": 1
+                },
+                "success_page_button": {
+                  "continuous_scan_config": {
+                    "value": 0,
+                    "text": "扫其他码添加记录",
+                    "is_default": 1
+                  },
+                  "record_review_config": {
+                    "value": 0,
+                    "text": "添加后续动态",
+                    "is_default": 2
+                  },
+                  "record_print_config": {
+                    "value": 0,
+                    "text": "下载PDF文件",
+                    "is_default": 1
+                  },
+                  "evocation_scan_config": {
+                    "value": 0,
+                    "is_auto": 0,
+                    "text": "",
+                    "is_default": 2
+                  },
+                  "record_share_config": {
+                    "value": 1,
+                    "text": "转发填写内容",
+                    "is_default": 2
+                  },
+                  "return_qrcode_config": {
+                    "value": 1,
+                    "text": "",
+                    "is_default": 1
+                  },
+                  "finish_config": {
+                    "value": 0,
+                    "text": "",
+                    "is_default": 1
+                  }
+                }
+              },
+              "rules_config": {
+                "org_id": 94911424,
+                "tpl_id": 8485,
+                "code_id": 0,
+                "add_record_config": {
+                  "button_position": 1,
+                  "is_default": 1
+                },
+                "visibility_rules": []
+              },
+              "tpl_review": {
+                "can_review": 1,
+                "can_set_process_status": 0,
+                "default_process_status": 0,
+                "watermake_option": 0,
+                "mobile_button_option": {
+                  "input_txt": 1,
+                  "input_voice": 1,
+                  "remind_others": 1,
+                  "upload_photos": 1,
+                  "take_photos": 1,
+                  "input_signature": 1,
+                  "input_record": 1
+                },
+                "show_button": 0,
+                "review_title": "后续动态",
+                "review_desc": "说明处理情况，@通知他人",
+                "review_button_txt": "添加后续动态",
+                "process_status_title": "处理进度",
+                "create_time": 1723428336,
+                "process_status_options": [
+                  {
+                    "option_type": 1,
+                    "option_value": 1,
+                    "option_text": "待处理",
+                    "option_status": 0,
+                    "ext_info": {
+                      "option_color": "#E64340"
+                    },
+                    "text": "待处理",
+                    "textColor": "#E64340",
+                    "value": "待处理",
+                    "sort": 1
+                  },
+                  {
+                    "option_type": 1,
+                    "option_value": 4,
+                    "option_text": "处理中",
+                    "option_status": 0,
+                    "ext_info": {
+                      "option_color": "#155EB7"
+                    },
+                    "text": "处理中",
+                    "textColor": "#155EB7",
+                    "value": "处理中",
+                    "sort": 2
+                  },
+                  {
+                    "option_type": 1,
+                    "option_value": 2,
+                    "option_text": "已完成",
+                    "option_status": 0,
+                    "ext_info": {
+                      "option_color": "#06AE56"
+                    },
+                    "text": "已完成",
+                    "textColor": "#06AE56",
+                    "value": "已完成",
+                    "sort": 3
+                  },
+                  {
+                    "option_type": 1,
+                    "option_value": 3,
+                    "option_text": "无需处理",
+                    "option_status": 0,
+                    "ext_info": {
+                      "option_color": "#666"
+                    },
+                    "text": "无需处理",
+                    "textColor": "#666",
+                    "value": "无需处理",
+                    "sort": 4
+                  },
+                  {
+                    "option_type": 1,
+                    "option_value": 0,
+                    "option_text": "还未标记进度",
+                    "option_status": 0,
+                    "ext_info": {
+                      "option_color": "#999"
+                    },
+                    "text": "还未标记进度",
+                    "textColor": "#999",
+                    "value": "还未标记进度",
+                    "sort": 5
+                  }
+                ],
+                "relevance_tpl_options": []
+              },
+              "tpl_watermark": [],
+              "tpl_data_push_api": [],
+              "tpl_word_templates": {
+                "settings": {
+                  "max_template_file_size": 20
+                },
+                "templates": []
+              },
+              "multi_audit_process": [],
+              "sort": 0,
+              "auth_code_id": 0,
+              "auth_data_id": 16807,
+              "rule_status": 0,
+              "data_id": 16807,
+              "can_add_record_time": 1,
+              "is_before_record_time": 0,
+              "time_limit_type": 0,
+              "time_limit_record_config": [],
+              "owner_can_add_record": true,
+              "owner_tpl_limit_record_config": [],
+              "can_add_record": true,
+              "tpl_limit_record_config": []
+            }
+          },
+          "expand_log": 2,
+          "log_msg_tag": "操作面板",
+          "record_summary_title": "最新记录",
+          "open_codereview": 0,
+          "open_readregister": 0,
+          "open_direct_preview": 0,
+          "state_show_mode": 4,
+          "record_summary_status": 0,
+          "expand_btn": "操作入口",
+          "show_record_editlog": 0,
+          "recordview_position": 4,
+          "recordview_extend": {
+            "ext_info": {
+              "recordview_position": 4,
+              "nums": 3,
+              "content_type": [1, 2, 3],
+              "content_position": 1
+            },
+            "operation_ext_info": {
+              "btn_color": "",
+              "btn_border_radius": 4,
+              "btn_background": 0,
+              "btn_color_picker_img": "",
+              "btn_img_main_colors": "",
+              "btn_color_from": 0,
+              "content_position": 2
+            },
+            "statistics_configs": []
+          },
+          "total_tpls": 1,
+          "origin_tpl_list": [
+            {
+              "id": 9054,
+              "org_id": 94911424,
+              "user_id": 831891,
+              "code_id": 0,
+              "name": "异常上报",
+              "type": 0,
+              "status": 0,
+              "is_del": 0,
+              "remark": "请详细描述异常情况后提交",
+              "icon": "",
+              "add_time": "2024-06-12 20:54:12",
+              "create_from": 4,
+              "note": "",
+              "btn_title": "提交",
+              "update_time": 1723423092,
+              "active_time": 1718196852,
+              "owner_tpl_number": "D20",
+              "privacy_status": 1,
+              "is_global": 0,
+              "project_id": 85,
+              "tpl_id": 9054,
+              "tip_msg": {
+                "id": 10672,
+                "tpl_id": 9054,
+                "code_id": 0,
+                "org_id": 94911424,
+                "user_id": 831891,
+                "edition_id": 44,
+                "tip_text": "故障已上报，感谢你的认真巡检",
+                "has_jump": 0,
+                "jump_url": "",
+                "jump_text": "",
+                "jump_text_custom": "",
+                "create_time": 1718196852,
+                "update_time": 1723423092,
+                "tip_text_status": 1,
+                "scan_status": 0,
+                "scan_auto_status": 0,
+                "share_button_status": 1
+              },
+              "data_id": 39386,
+              "rule_status": 0,
+              "sort": 1,
+              "voice_data": {
+                "id": 30966,
+                "tpl_id": 9054,
+                "code_id": 0,
+                "org_id": 94911424,
+                "user_id": 831891,
+                "edition_id": 44,
+                "open_status": 0,
+                "auto_status": 0,
+                "tpl_name_status": 0,
+                "record_number_status": 0,
+                "success_text_status": 0,
+                "record_time_status": 0,
+                "create_time": 1718196852,
+                "update_time": 1723423092
+              },
+              "audit_reply_record": [],
+              "notary_config": [],
+              "tpl_number": [],
+              "tpl_record_operate": [],
+              "rule_msg": [
+                {
+                  "id": 50072,
+                  "org_id": 94911424,
+                  "code_id": 0,
+                  "tpl_id": 9054,
+                  "type": "jump_tip",
+                  "operator": "add",
+                  "value": "2",
+                  "result": {
+                    "tpl_field_id": 0,
+                    "tpl_field_title": "",
+                    "tpl_field_option_id": 0,
+                    "tpl_field_option_title": "",
+                    "jump_url": "",
+                    "jump_text": "",
+                    "jump_text_custom": ""
+                  },
+                  "status": 0,
+                  "add_time": "2024-06-12 20:54:12",
+                  "update_time": "2024-06-12 20:54:12",
+                  "group_id": 1
+                },
+                {
+                  "id": 50073,
+                  "org_id": 94911424,
+                  "code_id": 0,
+                  "tpl_id": 9054,
+                  "type": "new_msg",
+                  "operator": "add",
+                  "value": "1",
+                  "result": null,
+                  "status": 0,
+                  "add_time": "2024-06-12 20:54:12",
+                  "update_time": "2024-06-12 20:54:12",
+                  "group_id": 1
+                },
+                {
+                  "id": 50074,
+                  "org_id": 94911424,
+                  "code_id": 0,
+                  "tpl_id": 9054,
+                  "type": "state_event",
+                  "operator": "add",
+                  "value": "1",
+                  "result": {
+                    "default_option_id": 0,
+                    "state_id": 7091,
+                    "state_option_id": 23807,
+                    "state_map_id": 35581,
+                    "state_option_rule_id": 26813,
+                    "state_default_option_record": {
+                      "id": 23806,
+                      "text": "正常",
+                      "color": "#07C160",
+                      "value": 1,
+                      "status": 0,
+                      "org_id": 94911424,
+                      "state_id": 7091,
+                      "sort": 1,
+                      "create_time": 1718196853,
+                      "update_time": 1718196853,
+                      "is_default": 1
+                    }
+                  },
+                  "status": 0,
+                  "add_time": "2024-06-12 20:54:12",
+                  "update_time": "2024-08-12 08:38:12",
+                  "group_id": 1
+                }
+              ],
+              "common_config": {
+                "id": 46861,
+                "org_id": 94911424,
+                "code_id": 0,
+                "tpl_id": 9054,
+                "add_record_mode": 0,
+                "tobe_member": 0,
+                "create_time": 1718196852,
+                "update_time": 1723423092,
+                "success_page_button": {
+                  "continuous_scan_config": {
+                    "value": 0,
+                    "text": "扫其他码添加记录"
+                  },
+                  "record_review_config": {
+                    "value": 1,
+                    "text": "添加后续动态"
+                  },
+                  "record_print_config": {
+                    "value": 0,
+                    "text": "下载PDF文件"
+                  },
+                  "evocation_scan_config": {
+                    "value": 0,
+                    "is_auto": 0,
+                    "text": ""
+                  },
+                  "record_share_config": {
+                    "value": 1,
+                    "text": "转发填写内容"
+                  },
+                  "return_qrcode_config": {
+                    "value": 0,
+                    "text": ""
+                  },
+                  "finish_config": {
+                    "value": 0,
+                    "text": ""
+                  }
+                },
+                "show_share_button": 1,
+                "open_memary_record": 1,
+                "close_pdf_subcode_export": 0,
+                "memary_record_config": {
+                  "button_position": 1
+                }
+              },
+              "rules_config": {
+                "id": 889,
+                "org_id": 94911424,
+                "code_id": 0,
+                "tpl_id": 9054,
+                "create_time": 1718196854,
+                "update_time": 1723423092,
+                "add_record_config": {
+                  "button_position": 1
+                },
+                "qrcode_print_records_configs": [
+                  {
+                    "select_type": "RESERVED",
+                    "field": "print_order_id",
+                    "name": "序号",
+                    "field_type": "",
+                    "type": "text"
+                  }
+                ],
+                "visibility_rules": []
+              },
+              "tpl_watermark": {
+                "id": 7361,
+                "tpl_id": 9054,
+                "code_id": 0,
+                "org_id": 94911424,
+                "status": 1,
+                "watermark_value": 15,
+                "bottom_tag": "此水印由 草料二维码公司提供",
+                "address_type": 3
+              },
+              "tpl_data_push_api": [],
+              "tpl_word_templates": {
+                "settings": {
+                  "max_template_file_size": 20
+                },
+                "templates": [
+                  {
+                    "id": 14106,
+                    "org_id": 94911424,
+                    "template_id": 0,
+                    "target_type": 1,
+                    "target_id": 0,
+                    "target_extend_id": 9054,
+                    "target_info": {
+                      "code_id": 0,
+                      "tpl_id": "9054"
+                    },
+                    "status": 0,
+                    "create_time": "2024-06-12 20:54:12",
+                    "update_time": "2024-06-12 20:54:12",
+                    "extend_info": null,
+                    "template_path": null,
+                    "template_name": null,
+                    "preview_image_url": ""
+                  }
+                ]
+              },
+              "tpl_data_id": 17927,
+              "can_add_record_time": 1,
+              "is_before_record_time": 0,
+              "time_limit_type": 0,
+              "time_limit_record": [],
+              "can_add_record": true,
+              "tpl_limit_record": [],
+              "owner_can_add_record": true,
+              "owner_tpl_limit_record": [],
+              "tpl_review": {
+                "id": 23234,
+                "tpl_id": 9054,
+                "code_id": 0,
+                "org_id": 94911424,
+                "can_review": 1,
+                "can_set_process_status": 1,
+                "default_process_status": 0,
+                "watermake_option": 0,
+                "mobile_button_option": {
+                  "upload_photos": 1,
+                  "take_photos": 1,
+                  "input_signature": 1,
+                  "input_record": 1,
+                  "input_txt": 1,
+                  "input_voice": 1,
+                  "remind_others": 1
+                },
+                "show_button": 1,
+                "review_title": "后续处理情况",
+                "review_desc": "说明情况，@他人",
+                "review_button_txt": "通知他人查看",
+                "process_status_title": "处理进度",
+                "create_time": 1718196852,
+                "process_status_options": [
+                  {
+                    "id": 125901,
+                    "tpl_record_review_set_id": 23234,
+                    "option_type": 1,
+                    "option_value": "1",
+                    "option_text": "待处理",
+                    "option_status": 0,
+                    "create_time": 1718196852,
+                    "update_time": "2024-06-12 20:54:12",
+                    "ext_info": {
+                      "option_color": "#E64340",
+                      "sort": 1,
+                      "from_option_id": "765a2c33-e2fa-6bc5-efe1-6c67022cfc27"
+                    },
+                    "text": "待处理",
+                    "textColor": "#E64340",
+                    "value": "1",
+                    "sort": 1
+                  },
+                  {
+                    "id": 125902,
+                    "tpl_record_review_set_id": 23234,
+                    "option_type": 1,
+                    "option_value": "4",
+                    "option_text": "处理中",
+                    "option_status": 0,
+                    "create_time": 1718196852,
+                    "update_time": "2024-06-12 20:54:12",
+                    "ext_info": {
+                      "option_color": "#155EB7",
+                      "sort": 2,
+                      "from_option_id": "b832f008-25bd-2661-18f4-610b12d67a94"
+                    },
+                    "text": "处理中",
+                    "textColor": "#155EB7",
+                    "value": "4",
+                    "sort": 2
+                  },
+                  {
+                    "id": 125903,
+                    "tpl_record_review_set_id": 23234,
+                    "option_type": 1,
+                    "option_value": "2",
+                    "option_text": "已完成",
+                    "option_status": 0,
+                    "create_time": 1718196852,
+                    "update_time": "2024-06-12 20:54:12",
+                    "ext_info": {
+                      "option_color": "#06AE56",
+                      "sort": 3,
+                      "from_option_id": "6e82a0ae-f05e-235d-8af0-b4c4f81c4cae"
+                    },
+                    "text": "已完成",
+                    "textColor": "#06AE56",
+                    "value": "2",
+                    "sort": 3
+                  },
+                  {
+                    "id": 125904,
+                    "tpl_record_review_set_id": 23234,
+                    "option_type": 1,
+                    "option_value": "3",
+                    "option_text": "无需处理",
+                    "option_status": 0,
+                    "create_time": 1718196852,
+                    "update_time": "2024-06-12 20:54:12",
+                    "ext_info": {
+                      "option_color": "#666",
+                      "sort": 4,
+                      "from_option_id": "35a96fe3-e3bd-b9b4-c38b-cb9ea4fcc483"
+                    },
+                    "text": "无需处理",
+                    "textColor": "#666",
+                    "value": "3",
+                    "sort": 4
+                  },
+                  {
+                    "id": 125905,
+                    "tpl_record_review_set_id": 23234,
+                    "option_type": 1,
+                    "option_value": "0",
+                    "option_text": "暂无处理状态",
+                    "option_status": 0,
+                    "create_time": 1718196852,
+                    "update_time": "2024-06-12 20:54:12",
+                    "ext_info": {
+                      "option_color": "#999",
+                      "sort": 5,
+                      "from_option_id": "54b8e1c4-44b4-b508-1e92-ca1c06a7e8e7"
+                    },
+                    "text": "暂无处理状态",
+                    "textColor": "#999",
+                    "value": "0",
+                    "sort": 5
+                  }
+                ],
+                "relevance_tpl_options": []
+              },
+              "multi_audit_process": [],
+              "memary_user": [],
+              "memary_record": {
+                "is_memary": 1
+              },
+              "tpl_label": [],
+              "record_tpl_token": {
+                "org_id": 94911424,
+                "tpl_id": 9054,
+                "time": 1723432088,
+                "publickey": "f01df58eab23122e4b132ed566ba77a5"
+              }
+            }
+          ],
+          "visible_auth": 1,
+          "read": [],
+          "hide": 0,
+          "is_manager": 1,
+          "role_id": 0,
+          "open_record_active": 0,
+          "auth_info": {
+            "open_auth": 1,
+            "user_info": {
+              "user_id": "831891",
+              "member_id": 271049,
+              "member_name": "admin",
+              "member_department": 0,
+              "member_mobile": "18336175747"
+            },
+            "has_power_comps": [1186565],
+            "edit_need_audit": 0,
+            "open_password_info": [],
+            "open_location_info": [],
+            "open_time_info": [],
+            "data_authtype": 1,
+            "auth_list": [
+              {
+                "id": 1186565,
+                "data_id": 3974499,
+                "data_type": 7,
+                "privi_type": "visible",
+                "auth_type": 1,
+                "code_id": 3974499,
+                "org_id": 94911424,
+                "limit_id": 0,
+                "update_time": 1723424462,
+                "hide_nopower": 1,
+                "has_detail": true,
+                "groups": [87317, 87320],
+                "group_list": [
+                  {
+                    "id": 87317,
+                    "org_id": 94911424,
+                    "group_name": "管理组",
+                    "group_type": 6,
+                    "status": 0,
+                    "is_default": 6,
+                    "add_time": 1716258364,
+                    "category_id": 0,
+                    "target_id": 0,
+                    "web_url": "",
+                    "coding": "",
+                    "group_memo": "",
+                    "qrcode_id": 0,
+                    "need_send_tip": 0,
+                    "tpl_id": 0
+                  },
+                  {
+                    "id": 87320,
+                    "org_id": 94911424,
+                    "group_name": "负责人",
+                    "group_type": 100,
+                    "status": 0,
+                    "is_default": 10,
+                    "add_time": 1716258364,
+                    "category_id": 0,
+                    "target_id": 0,
+                    "web_url": "",
+                    "coding": "",
+                    "group_memo": "",
+                    "qrcode_id": 0,
+                    "need_send_tip": 0,
+                    "tpl_id": 0
+                  }
+                ]
+              }
+            ],
+            "first_edituser_ass_id": [],
+            "power_status": 15,
+            "need_user_auth": 0,
+            "auth_limit": [],
+            "need_join_member": 0,
+            "need_join_auth_member": 0
+          }
+        },
+        "isCodeEmpty": true,
+        "colorPoint": ["10%", "100%"],
+        "emptyOffset": "0",
+        "settedColor": true,
+        "defaultConfig": {
+          "1": {
+            "bg": ["#ffffff", "#ffffff"],
+            "headFilePreviewBtnBackground": "#07C160",
+            "recordButtonEntryBackground": "rgba(8, 194, 98, 0.9)",
+            "addRecordButtonBackground": "#07C160",
+            "recordTitleColor": "#07C160",
+            "recordDividerColor": "#07C160",
+            "recordButtonEntryColor": ""
+          },
+          "2": {
+            "bg": ["#ffffff", "#ffffff"],
+            "headFilePreviewBtnBackground": "#07C160",
+            "recordButtonEntryBackground": "rgba(8, 194, 98, 0.9)",
+            "addRecordButtonBackground": "#07C160",
+            "recordTitleColor": "#07C160",
+            "recordDividerColor": "#07C160",
+            "recordButtonEntryColor": ""
+          },
+          "3": {
+            "bg": ["#f4f4f4", "#ffffff"],
+            "headFilePreviewBtnBackground": "#07C160",
+            "recordButtonEntryBackground": "rgba(8, 194, 98, 0.9)",
+            "addRecordButtonBackground": "#07C160",
+            "recordTitleColor": "#07C160",
+            "recordDividerColor": "#07C160",
+            "recordButtonEntryColor": ""
+          },
+          "4": {
+            "bg": ["#f4f4f4", "#ffffff"],
+            "headFilePreviewBtnBackground": "#07C160",
+            "recordButtonEntryBackground": "rgba(8, 194, 98, 0.9)",
+            "addRecordButtonBackground": "#07C160",
+            "recordTitleColor": "#07C160",
+            "recordDividerColor": "#07C160",
+            "recordButtonEntryColor": ""
+          },
+          "5": {
+            "bg": ["#ffffff", "#ffffff"],
+            "headFilePreviewBtnBackground": "#07C160",
+            "recordButtonEntryBackground": "rgba(8, 194, 98, 0.9)",
+            "addRecordButtonBackground": "#07C160",
+            "recordTitleColor": "#333333",
+            "recordDividerColor": "#333333",
+            "recordButtonEntryColor": ""
+          }
+        },
+        "color": {
+          "themeColor": "#f4f4f4",
+          "foreColor": "#000000",
+          "hForeColor": "#06ae56",
+          "hThemeColor": "#2aad67"
+        },
+        "isRecordCode": true,
+        "deviceWidth": 1170,
+        "themeType": "light",
+        "lastModule": "",
+        "lastHeadModuleType": "",
+        "gradientCSS": "linear-gradient(to bottom, #f4f4f4 10%, #ffffff 100%)",
+        "bottomExtendHeight": 0,
+        "recordButtonEntryBackground": "#2aad67",
+        "recordButtonEntryColor": "",
+        "addRecordButtonBackground": "rgba(42, 173, 103, 0.98)",
+        "headFileDownloadBtnBackground": "#ffffff",
+        "headFilePreviewBtnBackground": "#2aad67",
+        "headFilePreviewBtnColor": "#ffffff",
+        "headFileDownloadBtnColor": "#333333",
+        "recordDividerColor": "#2aad67",
+        "recordTitleColor": "#2aad67",
+        "to": "#ffffff",
+        "from": "#f4f4f4",
+        "ruleType": 2,
+        "useDefaultColor": false,
+        "isBrightMinus20": false
+      },
+      "recordEntry": {
+        "sourceColor": {
+          "themeColor": "#f4f4f4",
+          "foreColor": "#000000",
+          "hForeColor": "#06ae56",
+          "hThemeColor": "#2aad67"
+        },
+        "gradient": false,
+        "color": {
+          "themeColor": "#f4f4f4",
+          "hThemeColor": "#2aad67",
+          "foreColor": "#000000",
+          "hForeColor": "#06ae56"
+        },
+        "bg": "rgba(35, 148, 88, 0.1)",
+        "titleColor": "rgba(0, 0, 0, 0.7)",
+        "other": "#333333"
+      },
+      "type": "gradient"
+    },
+    "isRecordCode": true,
+    "hasOpenRecordView": true,
+    "hasOpenRecordLog": true,
+    "isTplCode": false,
+    "isCompEmpty": true,
+    "isOrgDest": false,
+    "isHeadCode": false,
+    "headType": "",
+    "showRecordView": true,
+    "operation": [
+      {
+        "id": 89215,
+        "org_id": 94911424,
+        "qrcode_id": 3974499,
+        "qrcode_tpl_id": 93905,
+        "tpl_qrcode_status": 0,
+        "operation_id": 89577,
+        "status": 0,
+        "sort": 1,
+        "create_time": 1723424465,
+        "update_time": 1723424465,
+        "hide_nopower": 0,
+        "send_notify": 0,
+        "operation_msg": {
+          "id": 89577,
+          "org_id": 94911424,
+          "title": "异常上报",
+          "subtitle": "请按照要求，仔细填写表单",
+          "icon_path": "",
+          "button_text": "填写",
+          "bgcolor": "#2D77C7",
+          "status": 0,
+          "create_time": 1723424465,
+          "update_time": 1723424465,
+          "element_list": [
+            {
+              "id": 89147,
+              "operation_id": 89577,
+              "org_id": 94911424,
+              "element_type": 2,
+              "element_value": 9054,
+              "status": 0,
+              "sort": 1,
+              "create_time": 1723424465,
+              "update_time": 1723424465,
+              "$data": {
+                "id": 9054,
+                "org_id": 94911424,
+                "user_id": 831891,
+                "code_id": 0,
+                "name": "异常上报",
+                "type": 0,
+                "status": 0,
+                "is_del": 0,
+                "remark": "请详细描述异常情况后提交",
+                "icon": "",
+                "add_time": "2024-06-12 20:54:12",
+                "create_from": 4,
+                "note": "",
+                "btn_title": "提交",
+                "update_time": 1723423092,
+                "active_time": 1718196852,
+                "owner_tpl_number": "D20",
+                "privacy_status": 1,
+                "is_global": 0,
+                "project_id": 85,
+                "tpl_id": 9054,
+                "tip_msg": {
+                  "id": 10672,
+                  "tpl_id": 9054,
+                  "code_id": 0,
+                  "org_id": 94911424,
+                  "user_id": 831891,
+                  "edition_id": 44,
+                  "tip_text": "故障已上报，感谢你的认真巡检",
+                  "has_jump": 0,
+                  "jump_url": "",
+                  "jump_text": "",
+                  "jump_text_custom": "",
+                  "create_time": 1718196852,
+                  "update_time": 1723423092,
+                  "tip_text_status": 1,
+                  "scan_status": 0,
+                  "scan_auto_status": 0,
+                  "share_button_status": 1
+                },
+                "data_id": 39386,
+                "rule_status": 0,
+                "sort": 1,
+                "voice_data": {
+                  "id": 30966,
+                  "tpl_id": 9054,
+                  "code_id": 0,
+                  "org_id": 94911424,
+                  "user_id": 831891,
+                  "edition_id": 44,
+                  "open_status": 0,
+                  "auto_status": 0,
+                  "tpl_name_status": 0,
+                  "record_number_status": 0,
+                  "success_text_status": 0,
+                  "record_time_status": 0,
+                  "create_time": 1718196852,
+                  "update_time": 1723423092
+                },
+                "audit_reply_record": [],
+                "notary_config": [],
+                "tpl_number": [],
+                "tpl_record_operate": [],
+                "rule_msg": [
+                  {
+                    "id": 50072,
+                    "org_id": 94911424,
+                    "code_id": 0,
+                    "tpl_id": 9054,
+                    "type": "jump_tip",
+                    "operator": "add",
+                    "value": "2",
+                    "result": {
+                      "tpl_field_id": 0,
+                      "tpl_field_title": "",
+                      "tpl_field_option_id": 0,
+                      "tpl_field_option_title": "",
+                      "jump_url": "",
+                      "jump_text": "",
+                      "jump_text_custom": ""
+                    },
+                    "status": 0,
+                    "add_time": "2024-06-12 20:54:12",
+                    "update_time": "2024-06-12 20:54:12",
+                    "group_id": 1
+                  },
+                  {
+                    "id": 50073,
+                    "org_id": 94911424,
+                    "code_id": 0,
+                    "tpl_id": 9054,
+                    "type": "new_msg",
+                    "operator": "add",
+                    "value": "1",
+                    "result": null,
+                    "status": 0,
+                    "add_time": "2024-06-12 20:54:12",
+                    "update_time": "2024-06-12 20:54:12",
+                    "group_id": 1
+                  },
+                  {
+                    "id": 50074,
+                    "org_id": 94911424,
+                    "code_id": 0,
+                    "tpl_id": 9054,
+                    "type": "state_event",
+                    "operator": "add",
+                    "value": "1",
+                    "result": {
+                      "default_option_id": 0,
+                      "state_id": 7091,
+                      "state_option_id": 23807,
+                      "state_map_id": 35581,
+                      "state_option_rule_id": 26813,
+                      "state_default_option_record": {
+                        "id": 23806,
+                        "text": "正常",
+                        "color": "#07C160",
+                        "value": 1,
+                        "status": 0,
+                        "org_id": 94911424,
+                        "state_id": 7091,
+                        "sort": 1,
+                        "create_time": 1718196853,
+                        "update_time": 1718196853,
+                        "is_default": 1
+                      }
+                    },
+                    "status": 0,
+                    "add_time": "2024-06-12 20:54:12",
+                    "update_time": "2024-08-12 08:38:12",
+                    "group_id": 1
+                  }
+                ],
+                "common_config": {
+                  "id": 46861,
+                  "org_id": 94911424,
+                  "code_id": 0,
+                  "tpl_id": 9054,
+                  "add_record_mode": 0,
+                  "tobe_member": 0,
+                  "create_time": 1718196852,
+                  "update_time": 1723423092,
+                  "success_page_button": {
+                    "continuous_scan_config": {
+                      "value": 0,
+                      "text": "扫其他码添加记录"
+                    },
+                    "record_review_config": {
+                      "value": 1,
+                      "text": "添加后续动态"
+                    },
+                    "record_print_config": {
+                      "value": 0,
+                      "text": "下载PDF文件"
+                    },
+                    "evocation_scan_config": {
+                      "value": 0,
+                      "is_auto": 0,
+                      "text": ""
+                    },
+                    "record_share_config": {
+                      "value": 1,
+                      "text": "转发填写内容"
+                    },
+                    "return_qrcode_config": {
+                      "value": 0,
+                      "text": ""
+                    },
+                    "finish_config": {
+                      "value": 0,
+                      "text": ""
+                    }
+                  },
+                  "show_share_button": 1,
+                  "open_memary_record": 1,
+                  "close_pdf_subcode_export": 0,
+                  "memary_record_config": {
+                    "button_position": 1
+                  }
+                },
+                "rules_config": {
+                  "id": 889,
+                  "org_id": 94911424,
+                  "code_id": 0,
+                  "tpl_id": 9054,
+                  "create_time": 1718196854,
+                  "update_time": 1723423092,
+                  "add_record_config": {
+                    "button_position": 1
+                  },
+                  "qrcode_print_records_configs": [
+                    {
+                      "select_type": "RESERVED",
+                      "field": "print_order_id",
+                      "name": "序号",
+                      "field_type": "",
+                      "type": "text"
+                    }
+                  ],
+                  "visibility_rules": []
+                },
+                "tpl_watermark": {
+                  "id": 7361,
+                  "tpl_id": 9054,
+                  "code_id": 0,
+                  "org_id": 94911424,
+                  "status": 1,
+                  "watermark_value": 15,
+                  "bottom_tag": "此水印由 草料二维码公司提供",
+                  "address_type": 3
+                },
+                "tpl_data_push_api": [],
+                "tpl_word_templates": {
+                  "settings": {
+                    "max_template_file_size": 20
+                  },
+                  "templates": [
+                    {
+                      "id": 14106,
+                      "org_id": 94911424,
+                      "template_id": 0,
+                      "target_type": 1,
+                      "target_id": 0,
+                      "target_extend_id": 9054,
+                      "target_info": {
+                        "code_id": 0,
+                        "tpl_id": "9054"
+                      },
+                      "status": 0,
+                      "create_time": "2024-06-12 20:54:12",
+                      "update_time": "2024-06-12 20:54:12",
+                      "extend_info": null,
+                      "template_path": null,
+                      "template_name": null,
+                      "preview_image_url": ""
+                    }
+                  ]
+                },
+                "tpl_data_id": 17927,
+                "can_add_record_time": 1,
+                "is_before_record_time": 0,
+                "time_limit_type": 0,
+                "time_limit_record": [],
+                "can_add_record": true,
+                "tpl_limit_record": [],
+                "owner_can_add_record": true,
+                "owner_tpl_limit_record": [],
+                "tpl_review": {
+                  "id": 23234,
+                  "tpl_id": 9054,
+                  "code_id": 0,
+                  "org_id": 94911424,
+                  "can_review": 1,
+                  "can_set_process_status": 1,
+                  "default_process_status": 0,
+                  "watermake_option": 0,
+                  "mobile_button_option": {
+                    "upload_photos": 1,
+                    "take_photos": 1,
+                    "input_signature": 1,
+                    "input_record": 1,
+                    "input_txt": 1,
+                    "input_voice": 1,
+                    "remind_others": 1
+                  },
+                  "show_button": 1,
+                  "review_title": "后续处理情况",
+                  "review_desc": "说明情况，@他人",
+                  "review_button_txt": "通知他人查看",
+                  "process_status_title": "处理进度",
+                  "create_time": 1718196852,
+                  "process_status_options": [
+                    {
+                      "id": 125901,
+                      "tpl_record_review_set_id": 23234,
+                      "option_type": 1,
+                      "option_value": "1",
+                      "option_text": "待处理",
+                      "option_status": 0,
+                      "create_time": 1718196852,
+                      "update_time": "2024-06-12 20:54:12",
+                      "ext_info": {
+                        "option_color": "#E64340",
+                        "sort": 1,
+                        "from_option_id": "765a2c33-e2fa-6bc5-efe1-6c67022cfc27"
+                      },
+                      "text": "待处理",
+                      "textColor": "#E64340",
+                      "value": "1",
+                      "sort": 1
+                    },
+                    {
+                      "id": 125902,
+                      "tpl_record_review_set_id": 23234,
+                      "option_type": 1,
+                      "option_value": "4",
+                      "option_text": "处理中",
+                      "option_status": 0,
+                      "create_time": 1718196852,
+                      "update_time": "2024-06-12 20:54:12",
+                      "ext_info": {
+                        "option_color": "#155EB7",
+                        "sort": 2,
+                        "from_option_id": "b832f008-25bd-2661-18f4-610b12d67a94"
+                      },
+                      "text": "处理中",
+                      "textColor": "#155EB7",
+                      "value": "4",
+                      "sort": 2
+                    },
+                    {
+                      "id": 125903,
+                      "tpl_record_review_set_id": 23234,
+                      "option_type": 1,
+                      "option_value": "2",
+                      "option_text": "已完成",
+                      "option_status": 0,
+                      "create_time": 1718196852,
+                      "update_time": "2024-06-12 20:54:12",
+                      "ext_info": {
+                        "option_color": "#06AE56",
+                        "sort": 3,
+                        "from_option_id": "6e82a0ae-f05e-235d-8af0-b4c4f81c4cae"
+                      },
+                      "text": "已完成",
+                      "textColor": "#06AE56",
+                      "value": "2",
+                      "sort": 3
+                    },
+                    {
+                      "id": 125904,
+                      "tpl_record_review_set_id": 23234,
+                      "option_type": 1,
+                      "option_value": "3",
+                      "option_text": "无需处理",
+                      "option_status": 0,
+                      "create_time": 1718196852,
+                      "update_time": "2024-06-12 20:54:12",
+                      "ext_info": {
+                        "option_color": "#666",
+                        "sort": 4,
+                        "from_option_id": "35a96fe3-e3bd-b9b4-c38b-cb9ea4fcc483"
+                      },
+                      "text": "无需处理",
+                      "textColor": "#666",
+                      "value": "3",
+                      "sort": 4
+                    },
+                    {
+                      "id": 125905,
+                      "tpl_record_review_set_id": 23234,
+                      "option_type": 1,
+                      "option_value": "0",
+                      "option_text": "暂无处理状态",
+                      "option_status": 0,
+                      "create_time": 1718196852,
+                      "update_time": "2024-06-12 20:54:12",
+                      "ext_info": {
+                        "option_color": "#999",
+                        "sort": 5,
+                        "from_option_id": "54b8e1c4-44b4-b508-1e92-ca1c06a7e8e7"
+                      },
+                      "text": "暂无处理状态",
+                      "textColor": "#999",
+                      "value": "0",
+                      "sort": 5
+                    }
+                  ],
+                  "relevance_tpl_options": []
+                },
+                "multi_audit_process": [],
+                "memary_user": [],
+                "memary_record": {
+                  "is_memary": 1
+                },
+                "tpl_label": [],
+                "record_tpl_token": {
+                  "org_id": 94911424,
+                  "tpl_id": 9054,
+                  "time": 1723432088,
+                  "publickey": "f01df58eab23122e4b132ed566ba77a5"
+                }
+              }
+            }
+          ]
+        },
+        "auth_set_info": [
+          {
+            "id": 1186566,
+            "data_id": 89577,
+            "data_type": 12,
+            "privi_type": "operate",
+            "auth_type": 4,
+            "code_id": 3974499,
+            "org_id": 94911424,
+            "limit_id": 0,
+            "update_time": 1723424465,
+            "hide_nopower": 0,
+            "has_detail": false,
+            "encryption": "a358f55dd8dad3603a1ea78710cc4b5c"
+          }
+        ],
+        "auth_info": {
+          "open_auth": 1,
+          "user_info": {
+            "user_id": "831891",
+            "member_id": 271049,
+            "member_name": "admin",
+            "member_department": 0,
+            "member_mobile": "18336175747"
+          },
+          "has_power_comps": [1186566],
+          "edit_need_audit": 0,
+          "open_password_info": [],
+          "open_location_info": [],
+          "open_time_info": [],
+          "data_authtype": 4,
+          "auth_list": [
+            {
+              "id": 1186566,
+              "data_id": 89577,
+              "data_type": 12,
+              "privi_type": "operate",
+              "auth_type": 4,
+              "code_id": 3974499,
+              "org_id": 94911424,
+              "limit_id": 0,
+              "update_time": 1723424465,
+              "hide_nopower": 0,
+              "has_detail": false,
+              "encryption": "a358f55dd8dad3603a1ea78710cc4b5c"
+            }
+          ],
+          "first_edituser_ass_id": [],
+          "power_status": 15,
+          "need_user_auth": 0,
+          "auth_limit": [],
+          "need_join_member": 0,
+          "need_join_auth_member": 0
+        },
+        "tpl_record": {
+          "id": 9054,
+          "org_id": 94911424,
+          "user_id": 831891,
+          "code_id": 0,
+          "name": "异常上报",
+          "type": 0,
+          "status": 0,
+          "is_del": 0,
+          "remark": "请详细描述异常情况后提交",
+          "icon": "",
+          "add_time": "2024-06-12 20:54:12",
+          "create_from": 4,
+          "note": "",
+          "btn_title": "提交",
+          "update_time": 1723423092,
+          "active_time": 1718196852,
+          "owner_tpl_number": "D20",
+          "privacy_status": 1,
+          "is_global": 0,
+          "project_id": 85,
+          "record_tpl_token": {
+            "org_id": 94911424,
+            "tpl_id": 9054,
+            "time": 1723432087,
+            "publickey": "b5faaf40741d89a302b1d19c8096d997"
+          }
+        },
+        "$elData": {
+          "id": 9054,
+          "org_id": 94911424,
+          "user_id": 831891,
+          "code_id": 0,
+          "name": "异常上报",
+          "type": 0,
+          "status": 0,
+          "is_del": 0,
+          "remark": "请详细描述异常情况后提交",
+          "icon": "",
+          "add_time": "2024-06-12 20:54:12",
+          "create_from": 4,
+          "note": "",
+          "btn_title": "提交",
+          "update_time": 1723423092,
+          "active_time": 1718196852,
+          "owner_tpl_number": "D20",
+          "privacy_status": 1,
+          "is_global": 0,
+          "project_id": 85,
+          "tpl_id": 9054,
+          "tip_msg": {
+            "id": 10672,
+            "tpl_id": 9054,
+            "code_id": 0,
+            "org_id": 94911424,
+            "user_id": 831891,
+            "edition_id": 44,
+            "tip_text": "故障已上报，感谢你的认真巡检",
+            "has_jump": 0,
+            "jump_url": "",
+            "jump_text": "",
+            "jump_text_custom": "",
+            "create_time": 1718196852,
+            "update_time": 1723423092,
+            "tip_text_status": 1,
+            "scan_status": 0,
+            "scan_auto_status": 0,
+            "share_button_status": 1
+          },
+          "data_id": 39386,
+          "rule_status": 0,
+          "sort": 1,
+          "voice_data": {
+            "id": 30966,
+            "tpl_id": 9054,
+            "code_id": 0,
+            "org_id": 94911424,
+            "user_id": 831891,
+            "edition_id": 44,
+            "open_status": 0,
+            "auto_status": 0,
+            "tpl_name_status": 0,
+            "record_number_status": 0,
+            "success_text_status": 0,
+            "record_time_status": 0,
+            "create_time": 1718196852,
+            "update_time": 1723423092
+          },
+          "audit_reply_record": [],
+          "notary_config": [],
+          "tpl_number": [],
+          "tpl_record_operate": [],
+          "rule_msg": [
+            {
+              "id": 50072,
+              "org_id": 94911424,
+              "code_id": 0,
+              "tpl_id": 9054,
+              "type": "jump_tip",
+              "operator": "add",
+              "value": "2",
+              "result": {
+                "tpl_field_id": 0,
+                "tpl_field_title": "",
+                "tpl_field_option_id": 0,
+                "tpl_field_option_title": "",
+                "jump_url": "",
+                "jump_text": "",
+                "jump_text_custom": ""
+              },
+              "status": 0,
+              "add_time": "2024-06-12 20:54:12",
+              "update_time": "2024-06-12 20:54:12",
+              "group_id": 1
+            },
+            {
+              "id": 50073,
+              "org_id": 94911424,
+              "code_id": 0,
+              "tpl_id": 9054,
+              "type": "new_msg",
+              "operator": "add",
+              "value": "1",
+              "result": null,
+              "status": 0,
+              "add_time": "2024-06-12 20:54:12",
+              "update_time": "2024-06-12 20:54:12",
+              "group_id": 1
+            },
+            {
+              "id": 50074,
+              "org_id": 94911424,
+              "code_id": 0,
+              "tpl_id": 9054,
+              "type": "state_event",
+              "operator": "add",
+              "value": "1",
+              "result": {
+                "default_option_id": 0,
+                "state_id": 7091,
+                "state_option_id": 23807,
+                "state_map_id": 35581,
+                "state_option_rule_id": 26813,
+                "state_default_option_record": {
+                  "id": 23806,
+                  "text": "正常",
+                  "color": "#07C160",
+                  "value": 1,
+                  "status": 0,
+                  "org_id": 94911424,
+                  "state_id": 7091,
+                  "sort": 1,
+                  "create_time": 1718196853,
+                  "update_time": 1718196853,
+                  "is_default": 1
+                }
+              },
+              "status": 0,
+              "add_time": "2024-06-12 20:54:12",
+              "update_time": "2024-08-12 08:38:12",
+              "group_id": 1
+            }
+          ],
+          "common_config": {
+            "id": 46861,
+            "org_id": 94911424,
+            "code_id": 0,
+            "tpl_id": 9054,
+            "add_record_mode": 0,
+            "tobe_member": 0,
+            "create_time": 1718196852,
+            "update_time": 1723423092,
+            "success_page_button": {
+              "continuous_scan_config": {
+                "value": 0,
+                "text": "扫其他码添加记录"
+              },
+              "record_review_config": {
+                "value": 1,
+                "text": "添加后续动态"
+              },
+              "record_print_config": {
+                "value": 0,
+                "text": "下载PDF文件"
+              },
+              "evocation_scan_config": {
+                "value": 0,
+                "is_auto": 0,
+                "text": ""
+              },
+              "record_share_config": {
+                "value": 1,
+                "text": "转发填写内容"
+              },
+              "return_qrcode_config": {
+                "value": 0,
+                "text": ""
+              },
+              "finish_config": {
+                "value": 0,
+                "text": ""
+              }
+            },
+            "show_share_button": 1,
+            "open_memary_record": 1,
+            "close_pdf_subcode_export": 0,
+            "memary_record_config": {
+              "button_position": 1
+            }
+          },
+          "rules_config": {
+            "id": 889,
+            "org_id": 94911424,
+            "code_id": 0,
+            "tpl_id": 9054,
+            "create_time": 1718196854,
+            "update_time": 1723423092,
+            "add_record_config": {
+              "button_position": 1
+            },
+            "qrcode_print_records_configs": [
+              {
+                "select_type": "RESERVED",
+                "field": "print_order_id",
+                "name": "序号",
+                "field_type": "",
+                "type": "text"
+              }
+            ],
+            "visibility_rules": []
+          },
+          "tpl_watermark": {
+            "id": 7361,
+            "tpl_id": 9054,
+            "code_id": 0,
+            "org_id": 94911424,
+            "status": 1,
+            "watermark_value": 15,
+            "bottom_tag": "此水印由 草料二维码公司提供",
+            "address_type": 3
+          },
+          "tpl_data_push_api": [],
+          "tpl_word_templates": {
+            "settings": {
+              "max_template_file_size": 20
+            },
+            "templates": [
+              {
+                "id": 14106,
+                "org_id": 94911424,
+                "template_id": 0,
+                "target_type": 1,
+                "target_id": 0,
+                "target_extend_id": 9054,
+                "target_info": {
+                  "code_id": 0,
+                  "tpl_id": "9054"
+                },
+                "status": 0,
+                "create_time": "2024-06-12 20:54:12",
+                "update_time": "2024-06-12 20:54:12",
+                "extend_info": null,
+                "template_path": null,
+                "template_name": null,
+                "preview_image_url": ""
+              }
+            ]
+          },
+          "tpl_data_id": 17927,
+          "can_add_record_time": 1,
+          "is_before_record_time": 0,
+          "time_limit_type": 0,
+          "time_limit_record": [],
+          "can_add_record": true,
+          "tpl_limit_record": [],
+          "owner_can_add_record": true,
+          "owner_tpl_limit_record": [],
+          "tpl_review": {
+            "id": 23234,
+            "tpl_id": 9054,
+            "code_id": 0,
+            "org_id": 94911424,
+            "can_review": 1,
+            "can_set_process_status": 1,
+            "default_process_status": 0,
+            "watermake_option": 0,
+            "mobile_button_option": {
+              "upload_photos": 1,
+              "take_photos": 1,
+              "input_signature": 1,
+              "input_record": 1,
+              "input_txt": 1,
+              "input_voice": 1,
+              "remind_others": 1
+            },
+            "show_button": 1,
+            "review_title": "后续处理情况",
+            "review_desc": "说明情况，@他人",
+            "review_button_txt": "通知他人查看",
+            "process_status_title": "处理进度",
+            "create_time": 1718196852,
+            "process_status_options": [
+              {
+                "id": 125901,
+                "tpl_record_review_set_id": 23234,
+                "option_type": 1,
+                "option_value": "1",
+                "option_text": "待处理",
+                "option_status": 0,
+                "create_time": 1718196852,
+                "update_time": "2024-06-12 20:54:12",
+                "ext_info": {
+                  "option_color": "#E64340",
+                  "sort": 1,
+                  "from_option_id": "765a2c33-e2fa-6bc5-efe1-6c67022cfc27"
+                },
+                "text": "待处理",
+                "textColor": "#E64340",
+                "value": "1",
+                "sort": 1
+              },
+              {
+                "id": 125902,
+                "tpl_record_review_set_id": 23234,
+                "option_type": 1,
+                "option_value": "4",
+                "option_text": "处理中",
+                "option_status": 0,
+                "create_time": 1718196852,
+                "update_time": "2024-06-12 20:54:12",
+                "ext_info": {
+                  "option_color": "#155EB7",
+                  "sort": 2,
+                  "from_option_id": "b832f008-25bd-2661-18f4-610b12d67a94"
+                },
+                "text": "处理中",
+                "textColor": "#155EB7",
+                "value": "4",
+                "sort": 2
+              },
+              {
+                "id": 125903,
+                "tpl_record_review_set_id": 23234,
+                "option_type": 1,
+                "option_value": "2",
+                "option_text": "已完成",
+                "option_status": 0,
+                "create_time": 1718196852,
+                "update_time": "2024-06-12 20:54:12",
+                "ext_info": {
+                  "option_color": "#06AE56",
+                  "sort": 3,
+                  "from_option_id": "6e82a0ae-f05e-235d-8af0-b4c4f81c4cae"
+                },
+                "text": "已完成",
+                "textColor": "#06AE56",
+                "value": "2",
+                "sort": 3
+              },
+              {
+                "id": 125904,
+                "tpl_record_review_set_id": 23234,
+                "option_type": 1,
+                "option_value": "3",
+                "option_text": "无需处理",
+                "option_status": 0,
+                "create_time": 1718196852,
+                "update_time": "2024-06-12 20:54:12",
+                "ext_info": {
+                  "option_color": "#666",
+                  "sort": 4,
+                  "from_option_id": "35a96fe3-e3bd-b9b4-c38b-cb9ea4fcc483"
+                },
+                "text": "无需处理",
+                "textColor": "#666",
+                "value": "3",
+                "sort": 4
+              },
+              {
+                "id": 125905,
+                "tpl_record_review_set_id": 23234,
+                "option_type": 1,
+                "option_value": "0",
+                "option_text": "暂无处理状态",
+                "option_status": 0,
+                "create_time": 1718196852,
+                "update_time": "2024-06-12 20:54:12",
+                "ext_info": {
+                  "option_color": "#999",
+                  "sort": 5,
+                  "from_option_id": "54b8e1c4-44b4-b508-1e92-ca1c06a7e8e7"
+                },
+                "text": "暂无处理状态",
+                "textColor": "#999",
+                "value": "0",
+                "sort": 5
+              }
+            ],
+            "relevance_tpl_options": []
+          },
+          "multi_audit_process": [],
+          "memary_user": [],
+          "memary_record": {
+            "is_memary": 1
+          },
+          "tpl_label": [],
+          "record_tpl_token": {
+            "org_id": 94911424,
+            "tpl_id": 9054,
+            "time": 1723432088,
+            "publickey": "f01df58eab23122e4b132ed566ba77a5"
+          }
+        },
+        "$elType": 2
+      }
+    ]
+  },
+  "origin_qrcode_component": [
+    {
+      "id": 3726689,
+      "qrcode_id": 3974499,
+      "component_code": "recordlog",
+      "identity_id": 0,
+      "sort": 0,
+      "status": 0,
+      "tpl_com_id": 550530,
+      "org_id": 94911424,
+      "batch_id": 0,
+      "real_group_id": 0,
+      "component_status": 0,
+      "template_component_id": 0,
+      "template_component_info": "",
+      "form_component_id": 0,
+      "form_component_title": ""
+    }
+  ],
+  "fixedBottomComponentList": [],
+  "tasksList": ""
+}

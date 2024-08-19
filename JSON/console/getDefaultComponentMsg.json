@@ -573,6 +573,13 @@
                     "attribute_id": 182,
                     "is_multiple": 0,
                     "is_enum": 0
+                },
+                "raw_coordinate": {
+                    "value": "",
+                    "name": "原始坐标",
+                    "attribute_id": 187,
+                    "is_multiple": 0,
+                    "is_enum": 0
                 }
             }
         },
@@ -832,6 +839,13 @@
                     "is_multiple": 0,
                     "is_enum": 0,
                     "save_key": ""
+                },
+                "raw_coordinate": {
+                    "value": "",
+                    "name": "原始坐标",
+                    "attribute_id": 188,
+                    "is_multiple": 0,
+                    "is_enum": 0
                 }
             }
         },

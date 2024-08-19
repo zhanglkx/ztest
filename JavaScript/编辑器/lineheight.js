@@ -56,11 +56,11 @@
           while ((node = walker.next())) {
             node.setStyle('line-height', value);
 
-            var spanElements = node.find('span');
+            var spanEls = node.find('span'); // 重命名为 spanEls
             var emptySpans = [];
 
-            for (var i = 0; i < spanElements.count(); i++) {
-              var span = spanElements.getItem(i);
+            for (var i = 0; i < spanEls.count(); i++) {
+              var span = spanEls.getItem(i);
               span.setStyle('line-height', value);
               if (span.getText().trim() === '') {
                 emptySpans.push(span);
@@ -92,11 +92,11 @@
         if (parentP) {
           parentP.setStyle('line-height', value);
 
-          var spanElements = parentP.find('span');
+          var spanEls = parentP.find('span'); // 重命名为 spanEls
           var emptySpans = [];
 
-          for (var spanItem = 0; spanItem < spanElements.count(); spanItem++) {
-            var span = spanElements.getItem(spanItem);
+          for (var spanItem = 0; spanItem < spanEls.count(); spanItem++) {
+            var span = spanEls.getItem(spanItem);
             span.setStyle('line-height', value);
             if (span.getText().trim() === '') {
               emptySpans.push(span);

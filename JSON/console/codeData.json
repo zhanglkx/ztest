@@ -1,0 +1,1712 @@
+{
+  "qrcode_msg": {
+    "qrcode_record": {
+      "id": 3971396,
+      "coding": "qcrwrtp",
+      "wx_url": "",
+      "web_url": "https://qr46.cn/oQL9HR/qcrwrtp",
+      "wxcode_url": "",
+      "qrcode_url": "https://ncstatic.clewm.net/qrcodeurl/2024/08/09/6c07c4efb4fe56666df32cc04a7376ed.png",
+      "list_name": "未命名码",
+      "qrcode_name": "",
+      "scene_module_id": 0,
+      "desc": "",
+      "category_id": 46274819,
+      "tpl_id": 90808,
+      "identity_id": 0,
+      "org_id": 94911424,
+      "update_time": 1723188260,
+      "create_time": 1723188260,
+      "status": 0,
+      "preset_case": 0,
+      "show_org_dest": 0,
+      "can_scan_update": 0,
+      "is_mobile_updated": 0,
+      "create_from": 126,
+      "tpl_qrcode_status": 0,
+      "tpl_qrcode_updated": 0,
+      "batch_id": 0,
+      "log_status": 0,
+      "excel_status": 0,
+      "tpl_name": "",
+      "batch_name": "",
+      "route_type": 3,
+      "record_summary_status": 1,
+      "project_id": 85,
+      "share_qrcode_url": "https://ncstatic.clewm.net/qrcodeurl/2024/08/09/4905d5ce4efc15998cba405da3210236.png",
+      "qrstyle_url": "",
+      "top_style": {
+        "id": 28577,
+        "qrcode_id": 3971396,
+        "theme_color": "223E83",
+        "font_color": "FFF",
+        "bg_path": "",
+        "create_time": 1723188260,
+        "color_style": 0,
+        "color_picker_img": "",
+        "img_main_colors": "",
+        "color_from": 0,
+        "status": 0
+      },
+      "record_add_status": 0,
+      "component_value_empty": 1,
+      "user_id": 831891,
+      "media_flow_limited": 1,
+      "media_flow_total": "20480000.00000000",
+      "media_flow_used": "0.00000000"
+    },
+    "qrcode_compontent": [
+      {
+        "id": 3717240,
+        "qrcode_id": 3971396,
+        "component_code": "text",
+        "identity_id": 0,
+        "sort": 0,
+        "status": 0,
+        "tpl_com_id": 541081,
+        "org_id": 94911424,
+        "batch_id": 0,
+        "real_group_id": 0,
+        "component_status": 0,
+        "template_component_id": 0,
+        "template_component_info": "",
+        "form_component_id": 0,
+        "form_component_title": "",
+        "attribute_list": [
+          {
+            "content_html": {
+              "id": 3254493,
+              "value": "<p><br></p>",
+              "status": 0,
+              "attribute_id": 10,
+              "group_id": 1,
+              "real_group_id": 1,
+              "tpl_com_id": 541081,
+              "name": "文本 html 片段",
+              "is_default_value": 0,
+              "multiple_id": "254916",
+              "attribute_multiple_id": 5
+            }
+          }
+        ],
+        "group_count": 1,
+        "encryption": "b1c4825cb70aa5ab0f2cd18c06a7b7b8"
+      },
+      {
+        "id": 3717241,
+        "qrcode_id": 3971396,
+        "component_code": "contactus",
+        "identity_id": 0,
+        "sort": 1,
+        "status": 0,
+        "tpl_com_id": 541082,
+        "org_id": 94911424,
+        "batch_id": 0,
+        "real_group_id": 0,
+        "component_status": 2,
+        "template_component_id": 0,
+        "template_component_info": "",
+        "form_component_id": 0,
+        "form_component_title": "",
+        "attribute_list": [
+          {
+            "contact_weixin": {
+              "id": 39961,
+              "value": "[]",
+              "status": 0,
+              "attribute_id": 175,
+              "group_id": 1,
+              "real_group_id": 1,
+              "tpl_com_id": 541082,
+              "name": "微信",
+              "is_default_value": 0,
+              "multiple_id": "367",
+              "attribute_multiple_id": 8
+            },
+            "contact_phone": {
+              "id": 39942,
+              "value": "1",
+              "status": 0,
+              "attribute_id": 21,
+              "group_id": 1,
+              "real_group_id": 1,
+              "tpl_com_id": 541082,
+              "name": "联系电话",
+              "is_default_value": 0
+            },
+            "contact_mail": {
+              "id": 39943,
+              "value": "",
+              "status": 0,
+              "attribute_id": 22,
+              "group_id": 1,
+              "real_group_id": 1,
+              "tpl_com_id": 541082,
+              "name": "反馈邮箱",
+              "is_default_value": 0
+            },
+            "work_time": {
+              "id": 39944,
+              "value": "11111111",
+              "status": 0,
+              "attribute_id": 23,
+              "group_id": 1,
+              "real_group_id": 1,
+              "tpl_com_id": 541082,
+              "name": "工作时间",
+              "is_default_value": 0
+            },
+            "address": {
+              "id": 39945,
+              "value": "",
+              "status": 0,
+              "attribute_id": 24,
+              "group_id": 1,
+              "real_group_id": 1,
+              "tpl_com_id": 541082,
+              "name": "联系地址",
+              "is_default_value": 0
+            },
+            "longitude": {
+              "id": 39946,
+              "value": "",
+              "status": 0,
+              "attribute_id": 25,
+              "group_id": 1,
+              "real_group_id": 1,
+              "tpl_com_id": 541082,
+              "name": "中心经度",
+              "is_default_value": 0
+            },
+            "latitude": {
+              "id": 39947,
+              "value": "",
+              "status": 0,
+              "attribute_id": 26,
+              "group_id": 1,
+              "real_group_id": 1,
+              "tpl_com_id": 541082,
+              "name": "中心纬度",
+              "is_default_value": 0
+            },
+            "selected_phone": {
+              "id": 39948,
+              "value": "",
+              "status": 0,
+              "attribute_id": 28,
+              "group_id": 1,
+              "real_group_id": 1,
+              "tpl_com_id": 541082,
+              "name": "联系电话选择框",
+              "is_default_value": 0
+            },
+            "selected_mail": {
+              "id": 39949,
+              "value": "",
+              "status": 0,
+              "attribute_id": 29,
+              "group_id": 1,
+              "real_group_id": 1,
+              "tpl_com_id": 541082,
+              "name": "反馈邮箱选择框",
+              "is_default_value": 0
+            },
+            "selected_wtime": {
+              "id": 39950,
+              "value": "",
+              "status": 0,
+              "attribute_id": 30,
+              "group_id": 1,
+              "real_group_id": 1,
+              "tpl_com_id": 541082,
+              "name": "工作时间选择框",
+              "is_default_value": 0
+            },
+            "selected_addres": {
+              "id": 39951,
+              "value": "",
+              "status": 0,
+              "attribute_id": 31,
+              "group_id": 1,
+              "real_group_id": 1,
+              "tpl_com_id": 541082,
+              "name": "联系地址选择框",
+              "is_default_value": 0
+            },
+            "title": {
+              "id": 39952,
+              "value": "11",
+              "status": 0,
+              "attribute_id": 113,
+              "group_id": 1,
+              "real_group_id": 1,
+              "tpl_com_id": 541082,
+              "name": "标题",
+              "is_default_value": 0
+            },
+            "show_type": {
+              "id": 39953,
+              "value": "2",
+              "status": 0,
+              "attribute_id": 131,
+              "group_id": 1,
+              "real_group_id": 1,
+              "tpl_com_id": 541082,
+              "name": "展示方式",
+              "is_default_value": 0,
+              "enum_encryption": "29e4ae72c68bf9962baf4b8a6eecaab6",
+              "enum_msg": [
+                {
+                  "id": 542465,
+                  "attribute_value_id": 39953,
+                  "enum_text": "文字",
+                  "enum_value": 0,
+                  "sort": 0,
+                  "status": 0,
+                  "create_time": 0,
+                  "update_time": 0,
+                  "component_code": "contactus"
+                },
+                {
+                  "id": 542466,
+                  "attribute_value_id": 39953,
+                  "enum_text": "地图卡片",
+                  "enum_value": 1,
+                  "sort": 1,
+                  "status": 0,
+                  "create_time": 0,
+                  "update_time": 0,
+                  "component_code": "contactus"
+                },
+                {
+                  "id": 542467,
+                  "attribute_value_id": 39953,
+                  "enum_text": "卡片样式",
+                  "enum_value": 2,
+                  "sort": 2,
+                  "status": 0,
+                  "create_time": 0,
+                  "update_time": 0,
+                  "component_code": "contactus"
+                }
+              ]
+            },
+            "locate_image": {
+              "id": 39954,
+              "value": "",
+              "status": 0,
+              "attribute_id": 132,
+              "group_id": 1,
+              "real_group_id": 1,
+              "tpl_com_id": 541082,
+              "name": "地图图片路径",
+              "is_default_value": 0,
+              "source_id": 0
+            },
+            "display_style": {
+              "id": 39955,
+              "value": "3",
+              "status": 0,
+              "attribute_id": 176,
+              "group_id": 1,
+              "real_group_id": 1,
+              "tpl_com_id": 541082,
+              "name": "展示样式",
+              "is_default_value": 0
+            },
+            "avatar": {
+              "id": 39956,
+              "value": "https://ncstatic.clewm.net/rsrc/2024/0809/15/415aaf4fff48581a45de179ed08754f4.jpg",
+              "status": 0,
+              "attribute_id": 177,
+              "group_id": 1,
+              "real_group_id": 1,
+              "tpl_com_id": 541082,
+              "name": "头像",
+              "is_default_value": 0
+            },
+            "save_btn": {
+              "id": 39957,
+              "value": "0",
+              "status": 0,
+              "attribute_id": 178,
+              "group_id": 1,
+              "real_group_id": 1,
+              "tpl_com_id": 541082,
+              "name": "保存通讯录按钮",
+              "is_default_value": 0
+            },
+            "jump_homepage": {
+              "id": 39958,
+              "value": "0",
+              "status": 0,
+              "attribute_id": 180,
+              "group_id": 1,
+              "real_group_id": 1,
+              "tpl_com_id": 541082,
+              "name": "跳转主页",
+              "is_default_value": 0
+            },
+            "street_address": {
+              "id": 39959,
+              "value": "",
+              "status": 0,
+              "attribute_id": 182,
+              "group_id": 1,
+              "real_group_id": 1,
+              "tpl_com_id": 541082,
+              "name": "街道地址",
+              "is_default_value": 0
+            },
+            "raw_coordinate": {
+              "id": 39960,
+              "value": "",
+              "status": 0,
+              "attribute_id": 187,
+              "group_id": 1,
+              "real_group_id": 1,
+              "tpl_com_id": 541082,
+              "name": "原始坐标",
+              "is_default_value": 0
+            }
+          }
+        ],
+        "group_count": 1,
+        "encryption": "09dc895b874494a21eb28b3292ff6832"
+      }
+    ],
+    "qrcode_top_component": [
+      {
+        "id": 3717242,
+        "qrcode_id": 3971396,
+        "component_code": "text",
+        "identity_id": 0,
+        "sort": 2,
+        "status": 0,
+        "tpl_com_id": 541083,
+        "org_id": 94911424,
+        "batch_id": 0,
+        "real_group_id": 0,
+        "component_status": 1,
+        "template_component_id": 0,
+        "template_component_info": "",
+        "form_component_id": 0,
+        "form_component_title": "",
+        "attribute_list": [
+          {
+            "content_html": {
+              "id": 3254494,
+              "value": "",
+              "status": 0,
+              "attribute_id": 10,
+              "group_id": 1,
+              "real_group_id": 1,
+              "tpl_com_id": 541083,
+              "name": "文本 html 片段",
+              "is_default_value": 0,
+              "multiple_id": "254917",
+              "attribute_multiple_id": 5
+            }
+          }
+        ],
+        "group_count": 1,
+        "encryption": "e74e49b20ad365b11e3ecc0508d12d8e"
+      },
+      {
+        "id": 3717243,
+        "qrcode_id": 3971396,
+        "component_code": "recordlog",
+        "identity_id": 0,
+        "sort": 3,
+        "status": 2,
+        "tpl_com_id": 541084,
+        "org_id": 94911424,
+        "batch_id": 0,
+        "real_group_id": 0,
+        "component_status": 1,
+        "template_component_id": 0,
+        "template_component_info": "",
+        "form_component_id": 0,
+        "form_component_title": ""
+      }
+    ],
+    "redis_edition": 3,
+    "record_tpl_token": [],
+    "direct_preview_file_url": "",
+    "visible_auth_info": {
+      "open_auth": 0,
+      "user_info": {
+        "user_id": 0,
+        "member_id": 0
+      },
+      "has_power_comps": [],
+      "edit_need_audit": 0,
+      "open_password_info": [],
+      "open_location_info": [],
+      "open_time_info": [],
+      "data_authtype": 0,
+      "auth_list": [],
+      "first_edituser_ass_id": [],
+      "power_status": 16,
+      "need_user_auth": 0,
+      "auth_limit": [],
+      "need_join_member": 0,
+      "need_join_auth_member": 0
+    },
+    "open_methods": {
+      "scan": true,
+      "press": true,
+      "share": true,
+      "other_app": true
+    },
+    "valid_time": {
+      "start_time": "",
+      "end_time": "",
+      "valid_days_num": -2
+    },
+    "auth_info": [],
+    "is_collect": 0,
+    "case_bg_path": "",
+    "is_special_code": 0,
+    "is_org_dest_qrcode": 0,
+    "show_collect": 1,
+    "show_manage": 1,
+    "show_font_size": 2,
+    "show_share": 0,
+    "show_homepage": 1,
+    "show_bottom_homepage": 1,
+    "show_powered_by": 1,
+    "share_style": 0,
+    "log_status": 0,
+    "powered_by_style_version": "",
+    "powered_by_style_versions": {
+      "powerby_style_20240717": ""
+    },
+    "show_complain": 0,
+    "soncode_edit_position": 0,
+    "state_show_mode": 4,
+    "record_summary_status": 1,
+    "show_org_card": 0
+  },
+  "need_check": 0,
+  "status_code": "qrcode_0_success",
+  "org_msg": {
+    "id": 94911424,
+    "user_id": 831891,
+    "name": "但是，有一点，你打开开发者工具之后，debugger下了断点，程序就停到那里了，如果你不打开开发者工具，程序是不会停止到断点的。",
+    "coding": "oQL9HR",
+    "org_dest_qrcode": 0,
+    "status": 0,
+    "is_auth": 1,
+    "show_dest_qrcode": 0,
+    "logo_path": "https://ncstatic.clewm.net/rsrc/2024/0808/17/61ea74df745b0771057c1546c5df976d.png",
+    "memo": "",
+    "auth_type": 0,
+    "auth_used": "",
+    "auth_message": "",
+    "auth_request_time": 0,
+    "auth_file_prove": "",
+    "auth_file_other": "",
+    "open_id": "",
+    "auth_deal_time": 0,
+    "auth_status": 1,
+    "social_code": "",
+    "target_record_id": 0,
+    "route_type": 3,
+    "private_xcx_status": 0,
+    "custom_route_type": 1,
+    "subscribe_wxacode": "",
+    "capacity_time": 1723189789,
+    "capacity_publickey": "5c3f9a012dd271930910ce4507973bef",
+    "build_module_weburl_time": 1723189789,
+    "build_module_weburl_publickey": "1c74836c38c5f56b648ed5b8c18ba10d",
+    "for_external_name": "但是，有一点，你打开开发者工具之后，debugger下了断点，程序就停到那里了，如果你不打开开发者工具，程序是不会停止到断点的。",
+    "org_manger_name": "admin",
+    "edition_id": 44,
+    "from_edition_id": 44,
+    "is_paid_user": 1,
+    "media_flow_limited": 1,
+    "media_flow_total": "20480000.00000000",
+    "media_flow_used": "0.00000000",
+    "org_dest_qrcode_route": "",
+    "homepage_qrcode_url": "https://qr46.cn/oQL9HR/qGtinpr"
+  },
+  "qrcode_addition_msg": {
+    "qrcode_id": 3971396,
+    "auth_set_subject": 1,
+    "is_mobile_updated": 0,
+    "log_msg_tag": "",
+    "expand_log": 4,
+    "disabled_open_methods": 0,
+    "start_time": 0,
+    "end_time": 0,
+    "valid_days_num": 0,
+    "expand_btn": "",
+    "cvid": 100991433,
+    "show_collect": 1,
+    "show_share": 0,
+    "show_record_editlog": 0,
+    "recordview_position": 4,
+    "record_summary_title": "",
+    "show_homepage": 1,
+    "show_bottom_homepage": 1,
+    "open_codereview": 0,
+    "default_qrlabel_show_type": 0,
+    "share_style": 0,
+    "open_readregister": 0,
+    "open_direct_preview": 1,
+    "soncode_edit_position": 0,
+    "open_workorder": 0,
+    "state_show_mode": 4,
+    "record_summary_status": 1,
+    "subscribe_status": 0,
+    "show_manage": 1,
+    "show_font_size": 0,
+    "show_footer": 3,
+    "show_tabbar": 0,
+    "has_subscribed": 0,
+    "can_subscribe": 0
+  },
+  "subscribe_auth_info": {
+    "auth_list": [
+      {
+        "data_id": 3971396,
+        "org_id": 94911424,
+        "data_type": 13,
+        "auth_type": 1,
+        "privi_type": "edit",
+        "group_list": [
+          {
+            "id": 87315,
+            "org_id": 94911424,
+            "group_name": "所有成员",
+            "group_type": 4,
+            "status": 0,
+            "is_default": 1,
+            "add_time": 1716258364,
+            "category_id": 0,
+            "target_id": 0,
+            "web_url": "",
+            "coding": "",
+            "group_memo": "",
+            "qrcode_id": 0,
+            "need_send_tip": 1,
+            "tpl_id": 0
+          }
+        ]
+      }
+    ],
+    "data_authtype": 1,
+    "need_join_member": 1,
+    "need_user_auth": 1,
+    "power_status": 16
+  },
+  "preview_token": {
+    "time": 1723189789,
+    "signature": "a1540ac54d204dfcc7b8a512d75eece3"
+  },
+  "code": "0",
+  "errorTips": "操作成功",
+  "low_quality": 0,
+  "encoded_user_id": "oQL9HR",
+  "bgimage_set": [],
+  "common_set": {
+    "id": 1964,
+    "org_id": 94911424,
+    "code_id": 3971396,
+    "option_attributes": {
+      "stylelib_panel_theme_color": {
+        "value": "#223E83"
+      },
+      "color_extend": {
+        "value": 1,
+        "text": "应用配色至正文背景"
+      }
+    },
+    "create_time": 1723188261,
+    "update_time": null
+  },
+  "qrcode_record": {
+    "id": 3971396,
+    "coding": "qcrwrtp",
+    "wx_url": "",
+    "web_url": "https://qr46.cn/oQL9HR/qcrwrtp",
+    "wxcode_url": "",
+    "qrcode_url": "https://ncstatic.clewm.net/qrcodeurl/2024/08/09/6c07c4efb4fe56666df32cc04a7376ed.png",
+    "list_name": "未命名码",
+    "qrcode_name": "",
+    "scene_module_id": 0,
+    "desc": "",
+    "category_id": 46274819,
+    "tpl_id": 90808,
+    "identity_id": 0,
+    "org_id": 94911424,
+    "update_time": 1723188260,
+    "create_time": 1723188260,
+    "status": 0,
+    "preset_case": 0,
+    "show_org_dest": 0,
+    "can_scan_update": 0,
+    "is_mobile_updated": 0,
+    "create_from": 126,
+    "tpl_qrcode_status": 0,
+    "tpl_qrcode_updated": 0,
+    "batch_id": 0,
+    "log_status": 0,
+    "excel_status": 0,
+    "tpl_name": "",
+    "batch_name": "",
+    "route_type": 3,
+    "record_summary_status": 1,
+    "project_id": 85,
+    "share_qrcode_url": "https://ncstatic.clewm.net/qrcodeurl/2024/08/09/4905d5ce4efc15998cba405da3210236.png",
+    "qrstyle_url": "",
+    "top_style": {
+      "id": 28577,
+      "qrcode_id": 3971396,
+      "theme_color": "223E83",
+      "font_color": "FFF",
+      "bg_path": "",
+      "create_time": 1723188260,
+      "color_style": 0,
+      "color_picker_img": "",
+      "img_main_colors": "",
+      "color_from": 0,
+      "status": 0
+    },
+    "record_add_status": 0,
+    "component_value_empty": 1,
+    "user_id": 831891,
+    "media_flow_limited": 1,
+    "media_flow_total": "20480000.00000000",
+    "media_flow_used": "0.00000000"
+  },
+  "qrcode_compontent": [
+    {
+      "id": 3717240,
+      "qrcode_id": 3971396,
+      "component_code": "text",
+      "identity_id": 0,
+      "sort": 0,
+      "status": 0,
+      "tpl_com_id": 541081,
+      "org_id": 94911424,
+      "batch_id": 0,
+      "real_group_id": 0,
+      "component_status": 0,
+      "template_component_id": 0,
+      "template_component_info": "",
+      "form_component_id": 0,
+      "form_component_title": "",
+      "attribute_list": [
+        {
+          "content_html": {
+            "id": 3254493,
+            "value": "<p><br></p>",
+            "status": 0,
+            "attribute_id": 10,
+            "group_id": 1,
+            "real_group_id": 1,
+            "tpl_com_id": 541081,
+            "name": "文本 html 片段",
+            "is_default_value": 0,
+            "multiple_id": "254916",
+            "attribute_multiple_id": 5
+          }
+        }
+      ],
+      "group_count": 1,
+      "encryption": "b1c4825cb70aa5ab0f2cd18c06a7b7b8"
+    }
+  ],
+  "qrcode_top_component": [
+    {
+      "id": 3717242,
+      "qrcode_id": 3971396,
+      "component_code": "text",
+      "identity_id": 0,
+      "sort": 2,
+      "status": 0,
+      "tpl_com_id": 541083,
+      "org_id": 94911424,
+      "batch_id": 0,
+      "real_group_id": 0,
+      "component_status": 1,
+      "template_component_id": 0,
+      "template_component_info": "",
+      "form_component_id": 0,
+      "form_component_title": "",
+      "attribute_list": [
+        {
+          "content_html": {
+            "id": 3254494,
+            "value": "",
+            "status": 0,
+            "attribute_id": 10,
+            "group_id": 1,
+            "real_group_id": 1,
+            "tpl_com_id": 541083,
+            "name": "文本 html 片段",
+            "is_default_value": 0,
+            "multiple_id": "254917",
+            "attribute_multiple_id": 5
+          }
+        }
+      ],
+      "group_count": 1,
+      "encryption": "e74e49b20ad365b11e3ecc0508d12d8e"
+    },
+    {
+      "id": 3717243,
+      "qrcode_id": 3971396,
+      "component_code": "recordlog",
+      "identity_id": 0,
+      "sort": 3,
+      "status": 2,
+      "tpl_com_id": 541084,
+      "org_id": 94911424,
+      "batch_id": 0,
+      "real_group_id": 0,
+      "component_status": 1,
+      "template_component_id": 0,
+      "template_component_info": "",
+      "form_component_id": 0,
+      "form_component_title": ""
+    }
+  ],
+  "redis_edition": 3,
+  "record_tpl_token": [],
+  "direct_preview_file_url": "",
+  "visible_auth_info": {
+    "open_auth": 0,
+    "user_info": {
+      "user_id": 0,
+      "member_id": 0
+    },
+    "has_power_comps": [],
+    "edit_need_audit": 0,
+    "open_password_info": [],
+    "open_location_info": [],
+    "open_time_info": [],
+    "data_authtype": 0,
+    "auth_list": [],
+    "first_edituser_ass_id": [],
+    "power_status": 16,
+    "need_user_auth": 0,
+    "auth_limit": [],
+    "need_join_member": 0,
+    "need_join_auth_member": 0
+  },
+  "open_methods": {
+    "scan": true,
+    "press": true,
+    "share": true,
+    "other_app": true
+  },
+  "valid_time": {
+    "start_time": "",
+    "end_time": "",
+    "valid_days_num": -2
+  },
+  "auth_info": [],
+  "is_collect": 0,
+  "case_bg_path": "",
+  "is_special_code": 0,
+  "is_org_dest_qrcode": 0,
+  "show_collect": 1,
+  "show_manage": 1,
+  "show_font_size": 2,
+  "show_share": 0,
+  "show_homepage": 1,
+  "show_bottom_homepage": 1,
+  "show_powered_by": 1,
+  "share_style": 0,
+  "log_status": 0,
+  "powered_by_style_version": "",
+  "powered_by_style_versions": {
+    "powerby_style_20240717": ""
+  },
+  "show_complain": 0,
+  "soncode_edit_position": 0,
+  "state_show_mode": 4,
+  "record_summary_status": 1,
+  "show_org_card": 0,
+  "log_msg_tag": "",
+  "expand_log": 4,
+  "show_record_editlog": 0,
+  "recordview_position": 4,
+  "open_codereview": 0,
+  "open_readregister": 0,
+  "edition_msg": {
+    "edition_id": 44,
+    "from_edition_id": 44
+  },
+  "qrcode_setting_msg": {
+    "review_set": [],
+    "bgimage_set": [],
+    "common_set": {
+      "id": 1964,
+      "org_id": 94911424,
+      "code_id": 3971396,
+      "option_attributes": {
+        "stylelib_panel_theme_color": {
+          "value": "#223E83"
+        },
+        "color_extend": {
+          "value": 1,
+          "text": "应用配色至正文背景"
+        }
+      },
+      "create_time": 1723188261,
+      "update_time": null
+    },
+    "bottom_warn": {
+      "type": 0
+    }
+  },
+  "log_msg": {
+    "total_tpls": 0,
+    "origin_tpl_list": [],
+    "read": [],
+    "hide": 0,
+    "rule_result": [],
+    "expand_log": 4,
+    "log_msg_tag": "",
+    "record_summary_title": null,
+    "open_codereview": 0,
+    "open_readregister": 0,
+    "open_direct_preview": 1,
+    "state_show_mode": 4,
+    "record_summary_status": 1,
+    "expand_btn": "添加记录",
+    "show_record_editlog": 0,
+    "recordview_position": 4,
+    "recordview_extend": {
+      "ext_info": {
+        "recordview_position": 4,
+        "nums": 3,
+        "content_type": [1, 2, 3],
+        "content_position": 1
+      },
+      "operation_ext_info": {
+        "btn_color": "",
+        "btn_border_radius": 4,
+        "btn_background": 0,
+        "btn_color_picker_img": "",
+        "btn_img_main_colors": "",
+        "btn_color_from": 0,
+        "content_position": 1
+      },
+      "statistics_configs": []
+    },
+    "log_status": 0
+  },
+  "has_state": false,
+  "hasOpenMsg": false,
+  "operateData": [],
+  "codeCommonInfo": {
+    "codeHeaderTitleInfo": {},
+    "codeColorInfo": {
+      "themeColor": "#223e83",
+      "foreColor": "#ffffff",
+      "recordTextColor": "#223e83",
+      "lowThemeColor": "#182b5c",
+      "lowCrtColor": "#0e1936",
+      "gradient": {
+        "sourceColor": {
+          "themeColor": "#223e83",
+          "foreColor": "#ffffff",
+          "hForeColor": "#0e1936",
+          "hThemeColor": "#182b5c"
+        },
+        "topComponent": [
+          {
+            "id": 3717242,
+            "qrcode_id": 3971396,
+            "component_code": "text",
+            "identity_id": 0,
+            "sort": 2,
+            "status": 0,
+            "tpl_com_id": 541083,
+            "org_id": 94911424,
+            "batch_id": 0,
+            "real_group_id": 0,
+            "component_status": 1,
+            "template_component_id": 0,
+            "template_component_info": "",
+            "form_component_id": 0,
+            "form_component_title": "",
+            "attribute_list": [
+              {
+                "content_html": {
+                  "id": 3254494,
+                  "value": "",
+                  "status": 0,
+                  "attribute_id": 10,
+                  "group_id": 1,
+                  "real_group_id": 1,
+                  "tpl_com_id": 541083,
+                  "name": "文本 html 片段",
+                  "is_default_value": 0,
+                  "multiple_id": "254917",
+                  "attribute_multiple_id": 5
+                }
+              }
+            ],
+            "group_count": 1,
+            "encryption": "e74e49b20ad365b11e3ecc0508d12d8e"
+          }
+        ],
+        "record": {
+          "total_tpls": 0,
+          "origin_tpl_list": [],
+          "read": [],
+          "hide": 0,
+          "rule_result": [],
+          "expand_log": 4,
+          "log_msg_tag": "",
+          "record_summary_title": null,
+          "open_codereview": 0,
+          "open_readregister": 0,
+          "open_direct_preview": 1,
+          "state_show_mode": 4,
+          "record_summary_status": 1,
+          "expand_btn": "添加记录",
+          "show_record_editlog": 0,
+          "recordview_position": 4,
+          "recordview_extend": {
+            "ext_info": {
+              "recordview_position": 4,
+              "nums": 3,
+              "content_type": [1, 2, 3],
+              "content_position": 1
+            },
+            "operation_ext_info": {
+              "btn_color": "",
+              "btn_border_radius": 4,
+              "btn_background": 0,
+              "btn_color_picker_img": "",
+              "btn_img_main_colors": "",
+              "btn_color_from": 0,
+              "content_position": 1
+            },
+            "statistics_configs": []
+          },
+          "log_status": 0
+        },
+        "isCodeEmpty": false,
+        "colorPoint": ["0", "100%"],
+        "emptyOffset": "0",
+        "settedColor": true,
+        "defaultConfig": {
+          "1": {
+            "bg": ["#ffffff", "#ffffff"],
+            "headFilePreviewBtnBackground": "#07C160",
+            "recordButtonEntryBackground": "rgba(8, 194, 98, 0.9)",
+            "addRecordButtonBackground": "#07C160",
+            "recordTitleColor": "#07C160",
+            "recordDividerColor": "#07C160",
+            "recordButtonEntryColor": ""
+          },
+          "2": {
+            "bg": ["#ffffff", "#ffffff"],
+            "headFilePreviewBtnBackground": "#07C160",
+            "recordButtonEntryBackground": "rgba(8, 194, 98, 0.9)",
+            "addRecordButtonBackground": "#07C160",
+            "recordTitleColor": "#07C160",
+            "recordDividerColor": "#07C160",
+            "recordButtonEntryColor": ""
+          },
+          "3": {
+            "bg": ["#f4f4f4", "#ffffff"],
+            "headFilePreviewBtnBackground": "#07C160",
+            "recordButtonEntryBackground": "rgba(8, 194, 98, 0.9)",
+            "addRecordButtonBackground": "#07C160",
+            "recordTitleColor": "#07C160",
+            "recordDividerColor": "#07C160",
+            "recordButtonEntryColor": ""
+          },
+          "4": {
+            "bg": ["#f4f4f4", "#ffffff"],
+            "headFilePreviewBtnBackground": "#07C160",
+            "recordButtonEntryBackground": "rgba(8, 194, 98, 0.9)",
+            "addRecordButtonBackground": "#07C160",
+            "recordTitleColor": "#07C160",
+            "recordDividerColor": "#07C160",
+            "recordButtonEntryColor": ""
+          },
+          "5": {
+            "bg": ["#ffffff", "#ffffff"],
+            "headFilePreviewBtnBackground": "#07C160",
+            "recordButtonEntryBackground": "rgba(8, 194, 98, 0.9)",
+            "addRecordButtonBackground": "#07C160",
+            "recordTitleColor": "#333333",
+            "recordDividerColor": "#333333",
+            "recordButtonEntryColor": ""
+          }
+        },
+        "color": {
+          "themeColor": "#223e83",
+          "foreColor": "#ffffff",
+          "hForeColor": "#0e1936",
+          "hThemeColor": "#182b5c"
+        },
+        "isRecordCode": false,
+        "deviceWidth": 1170,
+        "themeType": "dark",
+        "lastModule": "",
+        "lastHeadModuleType": "",
+        "gradientCSS": "linear-gradient(to bottom, #15254f 0, #223e83 100%)",
+        "bottomExtendHeight": 0,
+        "recordButtonEntryBackground": "#223e83",
+        "recordButtonEntryColor": "",
+        "addRecordButtonBackground": "rgba(34, 61, 130, 0.98)",
+        "headFileDownloadBtnBackground": "rgba(7, 13, 28, 0.2)",
+        "headFilePreviewBtnBackground": "#ffffff",
+        "headFilePreviewBtnColor": "#223e83",
+        "headFileDownloadBtnColor": "#ffffff",
+        "recordDividerColor": "#182b5c",
+        "recordTitleColor": "#182b5c",
+        "to": "#223e83",
+        "from": "#15254f",
+        "ruleType": 1,
+        "useDefaultColor": false,
+        "isBrightMinus20": false
+      },
+      "recordEntry": {
+        "sourceColor": {
+          "themeColor": "#223e83",
+          "foreColor": "#ffffff",
+          "hForeColor": "#0e1936",
+          "hThemeColor": "#182b5c"
+        },
+        "gradient": false,
+        "color": {
+          "themeColor": "#223e83",
+          "hThemeColor": "#182b5c",
+          "foreColor": "#ffffff",
+          "hForeColor": "#0e1936"
+        },
+        "bg": "rgba(7, 13, 28, 0.2)",
+        "titleColor": "rgba(255, 255, 255, 0.7)",
+        "other": "#ffffff"
+      },
+      "type": "pure"
+    },
+    "isRecordCode": false,
+    "hasOpenRecordView": false,
+    "hasOpenRecordLog": true,
+    "isTplCode": false,
+    "isCompEmpty": false,
+    "isOrgDest": false,
+    "isHeadCode": false,
+    "headType": "",
+    "showRecordView": false,
+    "operation": []
+  },
+  "origin_qrcode_component": [
+    {
+      "id": 3717240,
+      "qrcode_id": 3971396,
+      "component_code": "text",
+      "identity_id": 0,
+      "sort": 0,
+      "status": 0,
+      "tpl_com_id": 541081,
+      "org_id": 94911424,
+      "batch_id": 0,
+      "real_group_id": 0,
+      "component_status": 0,
+      "template_component_id": 0,
+      "template_component_info": "",
+      "form_component_id": 0,
+      "form_component_title": "",
+      "attribute_list": [
+        {
+          "content_html": {
+            "id": 3254493,
+            "value": "<p><br></p>",
+            "status": 0,
+            "attribute_id": 10,
+            "group_id": 1,
+            "real_group_id": 1,
+            "tpl_com_id": 541081,
+            "name": "文本 html 片段",
+            "is_default_value": 0,
+            "multiple_id": "254916",
+            "attribute_multiple_id": 5
+          }
+        }
+      ],
+      "group_count": 1,
+      "encryption": "b1c4825cb70aa5ab0f2cd18c06a7b7b8"
+    },
+    {
+      "id": 3717241,
+      "qrcode_id": 3971396,
+      "component_code": "contactus",
+      "identity_id": 0,
+      "sort": 1,
+      "status": 0,
+      "tpl_com_id": 541082,
+      "org_id": 94911424,
+      "batch_id": 0,
+      "real_group_id": 0,
+      "component_status": 2,
+      "template_component_id": 0,
+      "template_component_info": "",
+      "form_component_id": 0,
+      "form_component_title": "",
+      "attribute_list": [
+        {
+          "contact_weixin": {
+            "id": 39961,
+            "value": "[]",
+            "status": 0,
+            "attribute_id": 175,
+            "group_id": 1,
+            "real_group_id": 1,
+            "tpl_com_id": 541082,
+            "name": "微信",
+            "is_default_value": 0,
+            "multiple_id": "367",
+            "attribute_multiple_id": 8
+          },
+          "contact_phone": {
+            "id": 39942,
+            "value": "1",
+            "status": 0,
+            "attribute_id": 21,
+            "group_id": 1,
+            "real_group_id": 1,
+            "tpl_com_id": 541082,
+            "name": "联系电话",
+            "is_default_value": 0
+          },
+          "contact_mail": {
+            "id": 39943,
+            "value": "",
+            "status": 0,
+            "attribute_id": 22,
+            "group_id": 1,
+            "real_group_id": 1,
+            "tpl_com_id": 541082,
+            "name": "反馈邮箱",
+            "is_default_value": 0
+          },
+          "work_time": {
+            "id": 39944,
+            "value": "11111111",
+            "status": 0,
+            "attribute_id": 23,
+            "group_id": 1,
+            "real_group_id": 1,
+            "tpl_com_id": 541082,
+            "name": "工作时间",
+            "is_default_value": 0
+          },
+          "address": {
+            "id": 39945,
+            "value": "",
+            "status": 0,
+            "attribute_id": 24,
+            "group_id": 1,
+            "real_group_id": 1,
+            "tpl_com_id": 541082,
+            "name": "联系地址",
+            "is_default_value": 0
+          },
+          "longitude": {
+            "id": 39946,
+            "value": "",
+            "status": 0,
+            "attribute_id": 25,
+            "group_id": 1,
+            "real_group_id": 1,
+            "tpl_com_id": 541082,
+            "name": "中心经度",
+            "is_default_value": 0
+          },
+          "latitude": {
+            "id": 39947,
+            "value": "",
+            "status": 0,
+            "attribute_id": 26,
+            "group_id": 1,
+            "real_group_id": 1,
+            "tpl_com_id": 541082,
+            "name": "中心纬度",
+            "is_default_value": 0
+          },
+          "selected_phone": {
+            "id": 39948,
+            "value": "",
+            "status": 0,
+            "attribute_id": 28,
+            "group_id": 1,
+            "real_group_id": 1,
+            "tpl_com_id": 541082,
+            "name": "联系电话选择框",
+            "is_default_value": 0
+          },
+          "selected_mail": {
+            "id": 39949,
+            "value": "",
+            "status": 0,
+            "attribute_id": 29,
+            "group_id": 1,
+            "real_group_id": 1,
+            "tpl_com_id": 541082,
+            "name": "反馈邮箱选择框",
+            "is_default_value": 0
+          },
+          "selected_wtime": {
+            "id": 39950,
+            "value": "",
+            "status": 0,
+            "attribute_id": 30,
+            "group_id": 1,
+            "real_group_id": 1,
+            "tpl_com_id": 541082,
+            "name": "工作时间选择框",
+            "is_default_value": 0
+          },
+          "selected_addres": {
+            "id": 39951,
+            "value": "",
+            "status": 0,
+            "attribute_id": 31,
+            "group_id": 1,
+            "real_group_id": 1,
+            "tpl_com_id": 541082,
+            "name": "联系地址选择框",
+            "is_default_value": 0
+          },
+          "title": {
+            "id": 39952,
+            "value": "11",
+            "status": 0,
+            "attribute_id": 113,
+            "group_id": 1,
+            "real_group_id": 1,
+            "tpl_com_id": 541082,
+            "name": "标题",
+            "is_default_value": 0
+          },
+          "show_type": {
+            "id": 39953,
+            "value": "2",
+            "status": 0,
+            "attribute_id": 131,
+            "group_id": 1,
+            "real_group_id": 1,
+            "tpl_com_id": 541082,
+            "name": "展示方式",
+            "is_default_value": 0,
+            "enum_encryption": "29e4ae72c68bf9962baf4b8a6eecaab6",
+            "enum_msg": [
+              {
+                "id": 542465,
+                "attribute_value_id": 39953,
+                "enum_text": "文字",
+                "enum_value": 0,
+                "sort": 0,
+                "status": 0,
+                "create_time": 0,
+                "update_time": 0,
+                "component_code": "contactus"
+              },
+              {
+                "id": 542466,
+                "attribute_value_id": 39953,
+                "enum_text": "地图卡片",
+                "enum_value": 1,
+                "sort": 1,
+                "status": 0,
+                "create_time": 0,
+                "update_time": 0,
+                "component_code": "contactus"
+              },
+              {
+                "id": 542467,
+                "attribute_value_id": 39953,
+                "enum_text": "卡片样式",
+                "enum_value": 2,
+                "sort": 2,
+                "status": 0,
+                "create_time": 0,
+                "update_time": 0,
+                "component_code": "contactus"
+              }
+            ]
+          },
+          "locate_image": {
+            "id": 39954,
+            "value": "",
+            "status": 0,
+            "attribute_id": 132,
+            "group_id": 1,
+            "real_group_id": 1,
+            "tpl_com_id": 541082,
+            "name": "地图图片路径",
+            "is_default_value": 0,
+            "source_id": 0
+          },
+          "display_style": {
+            "id": 39955,
+            "value": "3",
+            "status": 0,
+            "attribute_id": 176,
+            "group_id": 1,
+            "real_group_id": 1,
+            "tpl_com_id": 541082,
+            "name": "展示样式",
+            "is_default_value": 0
+          },
+          "avatar": {
+            "id": 39956,
+            "value": "https://ncstatic.clewm.net/rsrc/2024/0809/15/415aaf4fff48581a45de179ed08754f4.jpg",
+            "status": 0,
+            "attribute_id": 177,
+            "group_id": 1,
+            "real_group_id": 1,
+            "tpl_com_id": 541082,
+            "name": "头像",
+            "is_default_value": 0
+          },
+          "save_btn": {
+            "id": 39957,
+            "value": "0",
+            "status": 0,
+            "attribute_id": 178,
+            "group_id": 1,
+            "real_group_id": 1,
+            "tpl_com_id": 541082,
+            "name": "保存通讯录按钮",
+            "is_default_value": 0
+          },
+          "jump_homepage": {
+            "id": 39958,
+            "value": "0",
+            "status": 0,
+            "attribute_id": 180,
+            "group_id": 1,
+            "real_group_id": 1,
+            "tpl_com_id": 541082,
+            "name": "跳转主页",
+            "is_default_value": 0
+          },
+          "street_address": {
+            "id": 39959,
+            "value": "",
+            "status": 0,
+            "attribute_id": 182,
+            "group_id": 1,
+            "real_group_id": 1,
+            "tpl_com_id": 541082,
+            "name": "街道地址",
+            "is_default_value": 0
+          },
+          "raw_coordinate": {
+            "id": 39960,
+            "value": "",
+            "status": 0,
+            "attribute_id": 187,
+            "group_id": 1,
+            "real_group_id": 1,
+            "tpl_com_id": 541082,
+            "name": "原始坐标",
+            "is_default_value": 0
+          }
+        }
+      ],
+      "group_count": 1,
+      "encryption": "09dc895b874494a21eb28b3292ff6832"
+    }
+  ],
+  "fixedBottomComponentList": [
+    {
+      "id": 3717241,
+      "qrcode_id": 3971396,
+      "component_code": "contactus",
+      "identity_id": 0,
+      "sort": 1,
+      "status": 0,
+      "tpl_com_id": 541082,
+      "org_id": 94911424,
+      "batch_id": 0,
+      "real_group_id": 0,
+      "component_status": 2,
+      "template_component_id": 0,
+      "template_component_info": "",
+      "form_component_id": 0,
+      "form_component_title": "",
+      "attribute_list": [
+        {
+          "contact_weixin": {
+            "id": 39961,
+            "value": "[]",
+            "status": 0,
+            "attribute_id": 175,
+            "group_id": 1,
+            "real_group_id": 1,
+            "tpl_com_id": 541082,
+            "name": "微信",
+            "is_default_value": 0,
+            "multiple_id": "367",
+            "attribute_multiple_id": 8
+          },
+          "contact_phone": {
+            "id": 39942,
+            "value": "1",
+            "status": 0,
+            "attribute_id": 21,
+            "group_id": 1,
+            "real_group_id": 1,
+            "tpl_com_id": 541082,
+            "name": "联系电话",
+            "is_default_value": 0
+          },
+          "contact_mail": {
+            "id": 39943,
+            "value": "",
+            "status": 0,
+            "attribute_id": 22,
+            "group_id": 1,
+            "real_group_id": 1,
+            "tpl_com_id": 541082,
+            "name": "反馈邮箱",
+            "is_default_value": 0
+          },
+          "work_time": {
+            "id": 39944,
+            "value": "11111111",
+            "status": 0,
+            "attribute_id": 23,
+            "group_id": 1,
+            "real_group_id": 1,
+            "tpl_com_id": 541082,
+            "name": "工作时间",
+            "is_default_value": 0
+          },
+          "address": {
+            "id": 39945,
+            "value": "",
+            "status": 0,
+            "attribute_id": 24,
+            "group_id": 1,
+            "real_group_id": 1,
+            "tpl_com_id": 541082,
+            "name": "联系地址",
+            "is_default_value": 0
+          },
+          "longitude": {
+            "id": 39946,
+            "value": "",
+            "status": 0,
+            "attribute_id": 25,
+            "group_id": 1,
+            "real_group_id": 1,
+            "tpl_com_id": 541082,
+            "name": "中心经度",
+            "is_default_value": 0
+          },
+          "latitude": {
+            "id": 39947,
+            "value": "",
+            "status": 0,
+            "attribute_id": 26,
+            "group_id": 1,
+            "real_group_id": 1,
+            "tpl_com_id": 541082,
+            "name": "中心纬度",
+            "is_default_value": 0
+          },
+          "selected_phone": {
+            "id": 39948,
+            "value": "",
+            "status": 0,
+            "attribute_id": 28,
+            "group_id": 1,
+            "real_group_id": 1,
+            "tpl_com_id": 541082,
+            "name": "联系电话选择框",
+            "is_default_value": 0
+          },
+          "selected_mail": {
+            "id": 39949,
+            "value": "",
+            "status": 0,
+            "attribute_id": 29,
+            "group_id": 1,
+            "real_group_id": 1,
+            "tpl_com_id": 541082,
+            "name": "反馈邮箱选择框",
+            "is_default_value": 0
+          },
+          "selected_wtime": {
+            "id": 39950,
+            "value": "",
+            "status": 0,
+            "attribute_id": 30,
+            "group_id": 1,
+            "real_group_id": 1,
+            "tpl_com_id": 541082,
+            "name": "工作时间选择框",
+            "is_default_value": 0
+          },
+          "selected_addres": {
+            "id": 39951,
+            "value": "",
+            "status": 0,
+            "attribute_id": 31,
+            "group_id": 1,
+            "real_group_id": 1,
+            "tpl_com_id": 541082,
+            "name": "联系地址选择框",
+            "is_default_value": 0
+          },
+          "title": {
+            "id": 39952,
+            "value": "11",
+            "status": 0,
+            "attribute_id": 113,
+            "group_id": 1,
+            "real_group_id": 1,
+            "tpl_com_id": 541082,
+            "name": "标题",
+            "is_default_value": 0
+          },
+          "show_type": {
+            "id": 39953,
+            "value": "2",
+            "status": 0,
+            "attribute_id": 131,
+            "group_id": 1,
+            "real_group_id": 1,
+            "tpl_com_id": 541082,
+            "name": "展示方式",
+            "is_default_value": 0,
+            "enum_encryption": "29e4ae72c68bf9962baf4b8a6eecaab6",
+            "enum_msg": [
+              {
+                "id": 542465,
+                "attribute_value_id": 39953,
+                "enum_text": "文字",
+                "enum_value": 0,
+                "sort": 0,
+                "status": 0,
+                "create_time": 0,
+                "update_time": 0,
+                "component_code": "contactus"
+              },
+              {
+                "id": 542466,
+                "attribute_value_id": 39953,
+                "enum_text": "地图卡片",
+                "enum_value": 1,
+                "sort": 1,
+                "status": 0,
+                "create_time": 0,
+                "update_time": 0,
+                "component_code": "contactus"
+              },
+              {
+                "id": 542467,
+                "attribute_value_id": 39953,
+                "enum_text": "卡片样式",
+                "enum_value": 2,
+                "sort": 2,
+                "status": 0,
+                "create_time": 0,
+                "update_time": 0,
+                "component_code": "contactus"
+              }
+            ]
+          },
+          "locate_image": {
+            "id": 39954,
+            "value": "",
+            "status": 0,
+            "attribute_id": 132,
+            "group_id": 1,
+            "real_group_id": 1,
+            "tpl_com_id": 541082,
+            "name": "地图图片路径",
+            "is_default_value": 0,
+            "source_id": 0
+          },
+          "display_style": {
+            "id": 39955,
+            "value": "3",
+            "status": 0,
+            "attribute_id": 176,
+            "group_id": 1,
+            "real_group_id": 1,
+            "tpl_com_id": 541082,
+            "name": "展示样式",
+            "is_default_value": 0
+          },
+          "avatar": {
+            "id": 39956,
+            "value": "https://ncstatic.clewm.net/rsrc/2024/0809/15/415aaf4fff48581a45de179ed08754f4.jpg",
+            "status": 0,
+            "attribute_id": 177,
+            "group_id": 1,
+            "real_group_id": 1,
+            "tpl_com_id": 541082,
+            "name": "头像",
+            "is_default_value": 0
+          },
+          "save_btn": {
+            "id": 39957,
+            "value": "0",
+            "status": 0,
+            "attribute_id": 178,
+            "group_id": 1,
+            "real_group_id": 1,
+            "tpl_com_id": 541082,
+            "name": "保存通讯录按钮",
+            "is_default_value": 0
+          },
+          "jump_homepage": {
+            "id": 39958,
+            "value": "0",
+            "status": 0,
+            "attribute_id": 180,
+            "group_id": 1,
+            "real_group_id": 1,
+            "tpl_com_id": 541082,
+            "name": "跳转主页",
+            "is_default_value": 0
+          },
+          "street_address": {
+            "id": 39959,
+            "value": "",
+            "status": 0,
+            "attribute_id": 182,
+            "group_id": 1,
+            "real_group_id": 1,
+            "tpl_com_id": 541082,
+            "name": "街道地址",
+            "is_default_value": 0
+          },
+          "raw_coordinate": {
+            "id": 39960,
+            "value": "",
+            "status": 0,
+            "attribute_id": 187,
+            "group_id": 1,
+            "real_group_id": 1,
+            "tpl_com_id": 541082,
+            "name": "原始坐标",
+            "is_default_value": 0
+          }
+        }
+      ],
+      "group_count": 1,
+      "encryption": "09dc895b874494a21eb28b3292ff6832"
+    }
+  ],
+  "tasksList": ""
+}

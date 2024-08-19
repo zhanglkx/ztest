@@ -1,0 +1,17 @@
+{
+  "path": "audit/pages/auditOrgList/index",
+  "query": {
+    "record_id": "62864484",
+    "time": "1722481481",
+    "publickey": "b1d614a1cee4e685592713ff2a14f966",
+    "sub_target_type": "7",
+    "org_id": "69057298",
+    "sub_target_id": "62864484",
+    "log_msg": "%7B%22log_id%22%3A155404150754393600%2C%22type%22%3A%22new_record_audit%22%2C%22msg_type%22%3A3%2C%22send_type%22%3A%22weixin%22%2C%22org_id%22%3A%2269057298%22%2C%22record_id%22%3A%2262864484%22%2C%22tpl_id%22%3A360638%2C%22code_id%22%3A233169161%7D",
+    "audit_id": "442948"
+  },
+  "scene": 1043,
+  "referrerInfo": { "appId": "wx74e11b8ce3ec48e5" },
+  "mode": "default",
+  "apiCategory": "default"
+}
