@@ -1,4 +1,24 @@
 (function () {
+    // 初始化 CKEditor 插件
+    CKEDITOR.plugins.add('lineheight', {
+        requires: 'richcombo',
+        lang: 'ar,de,en,es,fr,ko,pt,zh-cn',
+        init: function (editor) {
+            var config = editor.config;
+            addCombo(editor, 'lineheight', 'size', editor.lang.lineheight.title, config.line_height, editor.lang.lineheight.title, config.lineHeight_style, 40);
+
+            // 监听编辑器工具栏菜单的显示和隐藏
+            editor.on('panelShow', function (evt) {
+                if (evt.data && evt.data._.panel && evt.data._.panel._.name === 'lineheight') {
+                    console.log('Line height panel is shown');
+                    // 在此处添加自定义逻辑
+                    updateLineHeightSelection(editor);
+                }
+            });
+        }
+    });
+
+    // 添加行高选择菜单
     function addCombo(editor, comboName, styleType, lang, entries, defaultLabel, styleDefinition, order) {
         var config = editor.config, style = new CKEDITOR.style(styleDefinition);
         var names = entries.split(';'), values = [];
@@ -15,6 +35,7 @@
                 names.splice(i--, 1);
             }
         }
+
         editor.ui.addRichCombo(comboName, {
             label: editor.lang.lineheight.title,
             title: editor.lang.lineheight.title,
@@ -36,20 +57,13 @@
             onClick: function (value) {
                 editor.focus();
                 editor.fire('saveSnapshot');
-
-                var selection = editor.getSelection();
-                var ranges = selection.getRanges();
-
-                // 保存光标位置
-                var bookmarks = selection.createBookmarks(true);
-
                 var style = styles[this.getValue() || "1.6"];
                 if (style != undefined) editor['removeStyle'](style);
                 var newStyle = styles[value];
                 if (newStyle != style) editor['applyStyle'](newStyle);
 
-                // 恢复光标位置
-                selection.selectBookmarks(bookmarks);
+                var selection = editor.getSelection();
+                var ranges = selection.getRanges();
 
                 for (var j = 0; j < ranges.length; j++) {
                     var range = ranges[j];
@@ -60,6 +74,7 @@
 
                     var node;
                     while ((node = walker.next())) {
+                        wrapPContentWithSpan(node);
                         node.setStyle('line-height', value);
 
                         var spanEls = node.find('span');
@@ -97,8 +112,8 @@
                 }
 
                 if (parentP) {
-                    parentP.setStyle('line-height', value);
                     wrapPContentWithSpan(parentP);
+                    parentP.setStyle('line-height', value);
 
                     var spanEls = parentP.find('span');
                     var emptySpans = [];
@@ -132,7 +147,7 @@
                             if (styles[value].checkElementMatch(element, true, editor)) {
                                 if (value != currentValue) {
                                     placeholderLineHeight(value, false);
-                                    setLineHeightValue(this, value, defaultLabel);
+                                    this.setValue(value);
                                 }
                                 return;
                             }
@@ -147,17 +162,13 @@
                         if (!isNaN(lineHeightValue) && !isNaN(fontSizeValue) && fontSizeValue !== 0) {
                             var ratio = lineHeightValue / fontSizeValue;
                             var formattedValue = ratio % 1 === 0 ? ratio.toFixed(0) : ratio.toFixed(1);
-                            if (['1', '1.15', '1.3', '1.5', '1.6', '2', '3'].indexOf(String(formattedValue)) === -1) {
-                                formattedValue = '1.6';
-                            }
-
-                            setLineHeightValue(this, formattedValue, defaultLabel);
+                            this.setValue(formattedValue, defaultLabel);
                             placeholderLineHeight(formattedValue, computedMargin);
                         } else {
-                            setLineHeightValue(this, '1.6', defaultLabel);
+                            this.setValue('1.6', defaultLabel);
                         }
                     } else {
-                        setLineHeightValue(this, '1.6', defaultLabel);
+                        this.setValue('1.6', defaultLabel);
                     }
                 }, this);
             },
@@ -166,10 +177,6 @@
                     this.setState(CKEDITOR.TRISTATE_DISABLED);
             }
         });
-    }
-
-    function setLineHeightValue(self, value, defaultLabel) {
-        self.setValue(value, defaultLabel);
     }
 
     function getComputedStyle(element, styleName) {
@@ -181,52 +188,30 @@
         return null;
     }
 
-    function updateLineHeightSelection(evt, editor) {
-        var selection = editor.getSelection();
-        var selectedElement = selection.getStartElement();
-        var lineHeightValue = '1.6';
+    function wrapPContentWithSpan(pElement) {
+        var childNodes = pElement.getChildren();
+        var span = new CKEDITOR.dom.element('span');
+        var tempFragment = new CKEDITOR.dom.documentFragment(pElement.getDocument());
 
-        if (selectedElement) {
-            var computedLineHeight = getComputedStyle(selectedElement.$, 'line-height');
-            var computedFontSize = getComputedStyle(selectedElement.$, 'font-size');
-            if (computedLineHeight && computedFontSize) {
-                var lineHeightValueNum = parseFloat(computedLineHeight);
-                var fontSizeValueNum = parseFloat(computedFontSize);
-                if (!isNaN(lineHeightValueNum) && !isNaN(fontSizeValueNum) && fontSizeValueNum !== 0) {
-                    var ratio = lineHeightValueNum / fontSizeValueNum;
-                    lineHeightValue = ratio % 1 === 0 ? ratio.toFixed(0) : ratio.toFixed(1);
-                }
+        while (childNodes.count() > 0) {
+            var child = childNodes.getItem(0);
+            if (child.type == CKEDITOR.NODE_TEXT || (child.type == CKEDITOR.NODE_ELEMENT && child.getName() !== 'span')) {
+                span.append(child);
+            } else {
+                tempFragment.append(child);
             }
         }
 
-        var validLineHeights = ['1', '1.15', '1.3', '1.5', '1.6', '2', '3'];
-
-        var panel = evt.data._.panel;
-        if (panel && panel._.currentBlock.element.$) {
-            var panelFrame = panel._.currentBlock.element.$;
-            var items = panelFrame.querySelectorAll('.cke_panel_list .cke_panel_listItem');
-
-            items.forEach(function (item) {
-                if (validLineHeights.indexOf(String(lineHeightValue)) === -1) {
-                    item.classList.remove('hide-after');
-                } else if (item.innerText === lineHeightValue) {
-                    item.classList.add('hide-after');
-                }
-            });
+        if (span.getChildren().count() > 0) {
+            tempFragment.append(span);
         }
-    }
 
-    function wrapPContentWithSpan(pElement) {
-        var childNodes = pElement.getChildren();
-
-        var span = new CKEDITOR.dom.element('span');
-
-        for (var i = 0; i < childNodes.count(); i++) {
-            var child = childNodes.getItem(i);
-            span.append(child);
+        if (span) {
+            span.setAttribute('data-lineheight-plugin', 'true');
         }
+
         pElement.setHtml('');
-        pElement.append(span);
+        pElement.append(tempFragment);
     }
 
     function placeholderLineHeight(value, computedMargin) {
@@ -244,35 +229,45 @@
         }
     }
 
-    CKEDITOR.plugins.add('lineheight', {
-        requires: 'richcombo',
-        lang: 'ar,de,en,es,fr,ko,pt,zh-cn',
-        init: function (editor) {
-            var config = editor.config;
-            addCombo(editor, 'lineheight', 'size', editor.lang.lineheight.title, config.line_height, editor.lang.lineheight.title, config.lineHeight_style, 40);
+    // 更新行高选择列表的选中样式
+    function updateLineHeightSelection(editor) {
+        var selection = editor.getSelection();
+        var selectedElement = selection.getStartElement();
+        var lineHeightValue = '1.6'; // Default value
 
-            editor.on('panelShow', function (evt) {
-                if (evt.data && evt.data._.panel && evt.data._.panel.className === "cke_combopanel lineheight") {
-                    setTimeout(function () {
-                        updateLineHeightSelection(evt, editor);
-                    }, 0);
+        if (selectedElement) {
+            var computedLineHeight = getComputedStyle(selectedElement.$, 'line-height');
+            var computedFontSize = getComputedStyle(selectedElement.$, 'font-size');
+            if (computedLineHeight && computedFontSize) {
+                var lineHeightValueNum = parseFloat(computedLineHeight);
+                var fontSizeValueNum = parseFloat(computedFontSize);
+                if (!isNaN(lineHeightValueNum) && !isNaN(fontSizeValueNum) && fontSizeValueNum !== 0) {
+                    var ratio = lineHeightValueNum / fontSizeValueNum;
+                    lineHeightValue = ratio % 1 === 0 ? ratio.toFixed(0) : ratio.toFixed(1);
                 }
-            });
-
-            editor.on('panelHide', function (evt) {
-                if (evt.data && evt.data._.panel && evt.data._.panel.className === "cke_combopanel lineheight") {
-
-                }
-            });
-
+            }
         }
-    });
+
+        var validLineHeights = ['1', '1.15', '1.3', '1.5', '1.6', '2', '3'];
+        if (validLineHeights.indexOf(String(lineHeightValue)) === -1) {
+            // 未匹配任何行高值，移除选中样式
+            var panel = editor.ui._.panel;
+            if (panel && panel._.panel && panel._.panel.frame) {
+                var panelFrame = panel._.panel.frame.$;
+                var items = panelFrame.querySelectorAll('.cke_panel_list .cke_panel_listItem');
+                items.forEach(function (item) {
+                    item.classList.remove('cke_selected');
+                });
+            }
+        }
+    }
+
+    CKEDITOR.config.line_height = '1;1.15;1.3;1.5;1.6;2;3;';
+    CKEDITOR.config.lineHeight_style = {
+        element: 'span',
+        styles: { 'line-height': '#(size)' },
+        overrides: [{
+            element: 'line-height', attributes: { 'size': null }
+        }]
+    };
 })();
-CKEDITOR.config.line_height = '1;1.15;1.3;1.5;1.6;2;3;';
-CKEDITOR.config.lineHeight_style = {
-    element: 'span',
-    styles: { 'line-height': '#(size)' },
-    overrides: [{
-        element: 'line-height', attributes: { 'size': null }
-    }]
-};
