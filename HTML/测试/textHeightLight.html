@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+</head>
+
+<body>
+    <input type="text" />
+</body>
+<script>
+    const data = [
+        { id: 1, text: '文字高亮' },
+        { id: 2, text: '前端实现文字高亮' },
+        { id: 3, text: '前端怎么实现文字高亮' },
+        { id: 4, text: '实现文字高亮的办法' },
+        { id: 5, text: 'Vue实现文字高亮' },
+        { id: 6, text: '高亮文字怎么做' },
+        { id: 7, text: '在Vue中（文字高亮）怎么做' },
+        { id: 8, text: '文字实现高亮效果' },
+    ]
+    const ipt = document.querySelector('input')
+    const textHighlighting = (textItem, searchText) => {
+        const searchTextArr = searchText.split('')
+        const textItemArr = textItem.split('')
+        const result = textItemArr.map(item => {
+            return searchTextArr.includes(item) ? `<span style="color:red;">${item}</span>` : item
+        })
+        return result.join('')
+    }
+    ipt.addEventListener('input', function () {
+        const ul = document.createElement('ul')
+        document.body.removeChild(ul)
+        if (this.value) {
+            data.forEach(item => {
+                const li = document.createElement('li')
+                li.innerHTML = textHighlighting(item.text, this.value)
+                ul.appendChild(li)
+            })
+            document.body.appendChild(ul)
+        }
+    })
+</script>
+
+</html>

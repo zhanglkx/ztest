@@ -1,0 +1,1033 @@
+{
+  "code": 1,
+  "msg": { "text": "操作成功", "code": 0 },
+  "data": {
+    "qrcode_record": {
+      "id": 14653,
+      "coding": "sa4kz7J",
+      "web_url": "https://qr46.cn/sy/oQL9HR/sa4kz7J",
+      "org_id": 94911424,
+      "summary_type": 0,
+      "status": 0,
+      "create_time": 1719196765,
+      "update_time": 1719196765,
+      "route_type": 3,
+      "disabled_open_methods": 0,
+      "cover_image": "",
+      "remarks": "",
+      "show_collect": 3,
+      "show_share": 2,
+      "show_manage": 2,
+      "share_style": 0,
+      "share_qrcode_url": "https://ncstatic.clewm.net/qrcodeurl/2024/08/20/e8fa0a236ed9c6f000ef313939b1305c.png",
+      "list_name": "全部",
+      "media_flow_limited": 1,
+      "media_flow_total": "20480000.00000000",
+      "media_flow_used": "0.00000000",
+      "user_id": 831891
+    },
+    "qrcode_compontent": [
+      {
+        "sort": 7,
+        "component_code": "redirect",
+        "attribute_list": [
+          {
+            "web_url": {
+              "value": "https://qr46.cn/sy/oQL9HR/sl2kY69",
+              "name": "跳转页面",
+              "attribute_id": 27,
+              "is_multiple": 0,
+              "is_enum": 0,
+              "coding": "sl2kY69",
+              "category_id": 46275438,
+              "qrcode_count": 0
+            },
+            "title": { "value": "345435456", "name": "跳转页面标题", "attribute_id": 32, "is_multiple": 0, "is_enum": 0 },
+            "list_name": { "value": "345435456", "name": "码的名称", "attribute_id": 33, "is_multiple": 0, "is_enum": 0 },
+            "pic_type": {
+              "value": "0",
+              "name": "图片类型",
+              "attribute_id": 124,
+              "is_multiple": 0,
+              "is_enum": 1,
+              "enum_msg": [
+                { "enum_text": "默认", "enum_value": 0 },
+                { "enum_text": "预置图标", "enum_value": 1 },
+                { "enum_text": "自定义上传", "enum_value": 2 }
+              ]
+            },
+            "pic_value": { "value": "", "name": "图片值", "attribute_id": 125, "is_multiple": 0, "is_enum": 0, "save_key": "" },
+            "display_style": {
+              "value": "0",
+              "name": "展示样式",
+              "attribute_id": 126,
+              "is_multiple": 0,
+              "is_enum": 1,
+              "enum_msg": [
+                { "enum_text": "文字列表", "enum_value": 0 },
+                { "enum_text": "带图列表", "enum_value": 1 },
+                { "enum_text": "大图卡片", "enum_value": 2 },
+                { "enum_text": "方形按钮", "enum_value": 3 },
+                { "enum_text": "圆形按钮", "enum_value": 4 }
+              ]
+            },
+            "target_type": {
+              "value": "0",
+              "name": "目标类型",
+              "attribute_id": 127,
+              "is_multiple": 0,
+              "is_enum": 1,
+              "enum_msg": [
+                { "enum_text": "活码", "enum_value": 0 },
+                { "enum_text": "管理功能 —— 表单管理", "enum_value": 14 },
+                { "enum_text": "管理功能 —— 表单管理", "enum_value": 13 },
+                { "enum_text": "管理功能 —— 工作台", "enum_value": 12 },
+                { "enum_text": "计划 分组", "enum_value": 11 },
+                { "enum_text": "管理功能 —— 数据看板", "enum_value": 15 },
+                { "enum_text": "电话", "enum_value": 9 },
+                { "enum_text": "资料库", "enum_value": 16 },
+                { "enum_text": "批量活码-模板码", "enum_value": 1 },
+                { "enum_text": "批量活码-批次", "enum_value": 2 },
+                { "enum_text": "批量活码-子码", "enum_value": 3 },
+                { "enum_text": "目录汇总码", "enum_value": 4 },
+                { "enum_text": "旧版活码", "enum_value": 5 },
+                { "enum_text": "网址", "enum_value": 6 },
+                { "enum_text": "表单", "enum_value": 7 },
+                { "enum_text": "表单数据汇总", "enum_value": 8 },
+                { "enum_text": "其他小程序", "enum_value": 10 }
+              ]
+            },
+            "theme_color": { "value": "", "name": "主题色", "attribute_id": 128, "is_multiple": 0, "is_enum": 0 },
+            "font_color": { "value": "", "name": "文字颜色", "attribute_id": 129, "is_multiple": 0, "is_enum": 0 },
+            "pic_size": { "value": "", "name": "图片大小", "attribute_id": 133, "is_multiple": 0, "is_enum": 0 },
+            "type": { "value": "category", "name": "跳转目标类型" }
+          },
+          {
+            "web_url": {
+              "value": "https://qr46.cn/sy/oQL9HR/siU1w3R",
+              "name": "跳转页面",
+              "attribute_id": 27,
+              "is_multiple": 0,
+              "is_enum": 0,
+              "coding": "siU1w3R",
+              "category_id": 46275437,
+              "qrcode_count": 0
+            },
+            "title": { "value": "112312321341", "name": "跳转页面标题", "attribute_id": 32, "is_multiple": 0, "is_enum": 0 },
+            "list_name": { "value": "112312321341", "name": "码的名称", "attribute_id": 33, "is_multiple": 0, "is_enum": 0 },
+            "pic_type": {
+              "value": "0",
+              "name": "图片类型",
+              "attribute_id": 124,
+              "is_multiple": 0,
+              "is_enum": 1,
+              "enum_msg": [
+                { "enum_text": "默认", "enum_value": 0 },
+                { "enum_text": "预置图标", "enum_value": 1 },
+                { "enum_text": "自定义上传", "enum_value": 2 }
+              ]
+            },
+            "pic_value": { "value": "", "name": "图片值", "attribute_id": 125, "is_multiple": 0, "is_enum": 0, "save_key": "" },
+            "display_style": {
+              "value": "0",
+              "name": "展示样式",
+              "attribute_id": 126,
+              "is_multiple": 0,
+              "is_enum": 1,
+              "enum_msg": [
+                { "enum_text": "文字列表", "enum_value": 0 },
+                { "enum_text": "带图列表", "enum_value": 1 },
+                { "enum_text": "大图卡片", "enum_value": 2 },
+                { "enum_text": "方形按钮", "enum_value": 3 },
+                { "enum_text": "圆形按钮", "enum_value": 4 }
+              ]
+            },
+            "target_type": {
+              "value": "0",
+              "name": "目标类型",
+              "attribute_id": 127,
+              "is_multiple": 0,
+              "is_enum": 1,
+              "enum_msg": [
+                { "enum_text": "活码", "enum_value": 0 },
+                { "enum_text": "管理功能 —— 表单管理", "enum_value": 14 },
+                { "enum_text": "管理功能 —— 表单管理", "enum_value": 13 },
+                { "enum_text": "管理功能 —— 工作台", "enum_value": 12 },
+                { "enum_text": "计划 分组", "enum_value": 11 },
+                { "enum_text": "管理功能 —— 数据看板", "enum_value": 15 },
+                { "enum_text": "电话", "enum_value": 9 },
+                { "enum_text": "资料库", "enum_value": 16 },
+                { "enum_text": "批量活码-模板码", "enum_value": 1 },
+                { "enum_text": "批量活码-批次", "enum_value": 2 },
+                { "enum_text": "批量活码-子码", "enum_value": 3 },
+                { "enum_text": "目录汇总码", "enum_value": 4 },
+                { "enum_text": "旧版活码", "enum_value": 5 },
+                { "enum_text": "网址", "enum_value": 6 },
+                { "enum_text": "表单", "enum_value": 7 },
+                { "enum_text": "表单数据汇总", "enum_value": 8 },
+                { "enum_text": "其他小程序", "enum_value": 10 }
+              ]
+            },
+            "theme_color": { "value": "", "name": "主题色", "attribute_id": 128, "is_multiple": 0, "is_enum": 0 },
+            "font_color": { "value": "", "name": "文字颜色", "attribute_id": 129, "is_multiple": 0, "is_enum": 0 },
+            "pic_size": { "value": "", "name": "图片大小", "attribute_id": 133, "is_multiple": 0, "is_enum": 0 },
+            "type": { "value": "category", "name": "跳转目标类型" }
+          },
+          {
+            "web_url": {
+              "value": "https://qr46.cn/sy/oQL9HR/sMMGMcG",
+              "name": "跳转页面",
+              "attribute_id": 27,
+              "is_multiple": 0,
+              "is_enum": 0,
+              "coding": "sMMGMcG",
+              "category_id": 46275359,
+              "qrcode_count": 2
+            },
+            "title": { "value": "产品详情介绍", "name": "跳转页面标题", "attribute_id": 32, "is_multiple": 0, "is_enum": 0 },
+            "list_name": { "value": "产品详情介绍", "name": "码的名称", "attribute_id": 33, "is_multiple": 0, "is_enum": 0 },
+            "pic_type": {
+              "value": "0",
+              "name": "图片类型",
+              "attribute_id": 124,
+              "is_multiple": 0,
+              "is_enum": 1,
+              "enum_msg": [
+                { "enum_text": "默认", "enum_value": 0 },
+                { "enum_text": "预置图标", "enum_value": 1 },
+                { "enum_text": "自定义上传", "enum_value": 2 }
+              ]
+            },
+            "pic_value": { "value": "", "name": "图片值", "attribute_id": 125, "is_multiple": 0, "is_enum": 0, "save_key": "" },
+            "display_style": {
+              "value": "0",
+              "name": "展示样式",
+              "attribute_id": 126,
+              "is_multiple": 0,
+              "is_enum": 1,
+              "enum_msg": [
+                { "enum_text": "文字列表", "enum_value": 0 },
+                { "enum_text": "带图列表", "enum_value": 1 },
+                { "enum_text": "大图卡片", "enum_value": 2 },
+                { "enum_text": "方形按钮", "enum_value": 3 },
+                { "enum_text": "圆形按钮", "enum_value": 4 }
+              ]
+            },
+            "target_type": {
+              "value": "0",
+              "name": "目标类型",
+              "attribute_id": 127,
+              "is_multiple": 0,
+              "is_enum": 1,
+              "enum_msg": [
+                { "enum_text": "活码", "enum_value": 0 },
+                { "enum_text": "管理功能 —— 表单管理", "enum_value": 14 },
+                { "enum_text": "管理功能 —— 表单管理", "enum_value": 13 },
+                { "enum_text": "管理功能 —— 工作台", "enum_value": 12 },
+                { "enum_text": "计划 分组", "enum_value": 11 },
+                { "enum_text": "管理功能 —— 数据看板", "enum_value": 15 },
+                { "enum_text": "电话", "enum_value": 9 },
+                { "enum_text": "资料库", "enum_value": 16 },
+                { "enum_text": "批量活码-模板码", "enum_value": 1 },
+                { "enum_text": "批量活码-批次", "enum_value": 2 },
+                { "enum_text": "批量活码-子码", "enum_value": 3 },
+                { "enum_text": "目录汇总码", "enum_value": 4 },
+                { "enum_text": "旧版活码", "enum_value": 5 },
+                { "enum_text": "网址", "enum_value": 6 },
+                { "enum_text": "表单", "enum_value": 7 },
+                { "enum_text": "表单数据汇总", "enum_value": 8 },
+                { "enum_text": "其他小程序", "enum_value": 10 }
+              ]
+            },
+            "theme_color": { "value": "", "name": "主题色", "attribute_id": 128, "is_multiple": 0, "is_enum": 0 },
+            "font_color": { "value": "", "name": "文字颜色", "attribute_id": 129, "is_multiple": 0, "is_enum": 0 },
+            "pic_size": { "value": "", "name": "图片大小", "attribute_id": 133, "is_multiple": 0, "is_enum": 0 },
+            "type": { "value": "category", "name": "跳转目标类型" }
+          },
+          {
+            "web_url": {
+              "value": "https://qr46.cn/oQL9HR/qnBg5eR",
+              "name": "跳转页面",
+              "attribute_id": 27,
+              "is_multiple": 0,
+              "is_enum": 0,
+              "coding": "qnBg5eR"
+            },
+            "title": { "value": "111", "name": "跳转页面标题", "attribute_id": 32, "is_multiple": 0, "is_enum": 0 },
+            "list_name": { "value": "111", "name": "码的名称", "attribute_id": 33, "is_multiple": 0, "is_enum": 0 },
+            "pic_type": {
+              "value": "0",
+              "name": "图片类型",
+              "attribute_id": 124,
+              "is_multiple": 0,
+              "is_enum": 1,
+              "enum_msg": [
+                { "enum_text": "默认", "enum_value": 0 },
+                { "enum_text": "预置图标", "enum_value": 1 },
+                { "enum_text": "自定义上传", "enum_value": 2 }
+              ]
+            },
+            "pic_value": { "value": "", "name": "图片值", "attribute_id": 125, "is_multiple": 0, "is_enum": 0, "save_key": "" },
+            "display_style": {
+              "value": "0",
+              "name": "展示样式",
+              "attribute_id": 126,
+              "is_multiple": 0,
+              "is_enum": 1,
+              "enum_msg": [
+                { "enum_text": "文字列表", "enum_value": 0 },
+                { "enum_text": "带图列表", "enum_value": 1 },
+                { "enum_text": "大图卡片", "enum_value": 2 },
+                { "enum_text": "方形按钮", "enum_value": 3 },
+                { "enum_text": "圆形按钮", "enum_value": 4 }
+              ]
+            },
+            "target_type": {
+              "value": "0",
+              "name": "目标类型",
+              "attribute_id": 127,
+              "is_multiple": 0,
+              "is_enum": 1,
+              "enum_msg": [
+                { "enum_text": "活码", "enum_value": 0 },
+                { "enum_text": "管理功能 —— 表单管理", "enum_value": 14 },
+                { "enum_text": "管理功能 —— 表单管理", "enum_value": 13 },
+                { "enum_text": "管理功能 —— 工作台", "enum_value": 12 },
+                { "enum_text": "计划 分组", "enum_value": 11 },
+                { "enum_text": "管理功能 —— 数据看板", "enum_value": 15 },
+                { "enum_text": "电话", "enum_value": 9 },
+                { "enum_text": "资料库", "enum_value": 16 },
+                { "enum_text": "批量活码-模板码", "enum_value": 1 },
+                { "enum_text": "批量活码-批次", "enum_value": 2 },
+                { "enum_text": "批量活码-子码", "enum_value": 3 },
+                { "enum_text": "目录汇总码", "enum_value": 4 },
+                { "enum_text": "旧版活码", "enum_value": 5 },
+                { "enum_text": "网址", "enum_value": 6 },
+                { "enum_text": "表单", "enum_value": 7 },
+                { "enum_text": "表单数据汇总", "enum_value": 8 },
+                { "enum_text": "其他小程序", "enum_value": 10 }
+              ]
+            },
+            "theme_color": { "value": "", "name": "主题色", "attribute_id": 128, "is_multiple": 0, "is_enum": 0 },
+            "font_color": { "value": "", "name": "文字颜色", "attribute_id": 129, "is_multiple": 0, "is_enum": 0 },
+            "pic_size": { "value": "", "name": "图片大小", "attribute_id": 133, "is_multiple": 0, "is_enum": 0 },
+            "type": { "value": "qrcode", "name": "跳转目标类型" }
+          },
+          {
+            "web_url": {
+              "value": "https://qr46.cn/oQL9HR/qDXBJ2p",
+              "name": "跳转页面",
+              "attribute_id": 27,
+              "is_multiple": 0,
+              "is_enum": 0,
+              "coding": "qDXBJ2p"
+            },
+            "title": { "value": "未命名码", "name": "跳转页面标题", "attribute_id": 32, "is_multiple": 0, "is_enum": 0 },
+            "list_name": { "value": "未命名码", "name": "码的名称", "attribute_id": 33, "is_multiple": 0, "is_enum": 0 },
+            "pic_type": {
+              "value": "0",
+              "name": "图片类型",
+              "attribute_id": 124,
+              "is_multiple": 0,
+              "is_enum": 1,
+              "enum_msg": [
+                { "enum_text": "默认", "enum_value": 0 },
+                { "enum_text": "预置图标", "enum_value": 1 },
+                { "enum_text": "自定义上传", "enum_value": 2 }
+              ]
+            },
+            "pic_value": { "value": "", "name": "图片值", "attribute_id": 125, "is_multiple": 0, "is_enum": 0, "save_key": "" },
+            "display_style": {
+              "value": "0",
+              "name": "展示样式",
+              "attribute_id": 126,
+              "is_multiple": 0,
+              "is_enum": 1,
+              "enum_msg": [
+                { "enum_text": "文字列表", "enum_value": 0 },
+                { "enum_text": "带图列表", "enum_value": 1 },
+                { "enum_text": "大图卡片", "enum_value": 2 },
+                { "enum_text": "方形按钮", "enum_value": 3 },
+                { "enum_text": "圆形按钮", "enum_value": 4 }
+              ]
+            },
+            "target_type": {
+              "value": "0",
+              "name": "目标类型",
+              "attribute_id": 127,
+              "is_multiple": 0,
+              "is_enum": 1,
+              "enum_msg": [
+                { "enum_text": "活码", "enum_value": 0 },
+                { "enum_text": "管理功能 —— 表单管理", "enum_value": 14 },
+                { "enum_text": "管理功能 —— 表单管理", "enum_value": 13 },
+                { "enum_text": "管理功能 —— 工作台", "enum_value": 12 },
+                { "enum_text": "计划 分组", "enum_value": 11 },
+                { "enum_text": "管理功能 —— 数据看板", "enum_value": 15 },
+                { "enum_text": "电话", "enum_value": 9 },
+                { "enum_text": "资料库", "enum_value": 16 },
+                { "enum_text": "批量活码-模板码", "enum_value": 1 },
+                { "enum_text": "批量活码-批次", "enum_value": 2 },
+                { "enum_text": "批量活码-子码", "enum_value": 3 },
+                { "enum_text": "目录汇总码", "enum_value": 4 },
+                { "enum_text": "旧版活码", "enum_value": 5 },
+                { "enum_text": "网址", "enum_value": 6 },
+                { "enum_text": "表单", "enum_value": 7 },
+                { "enum_text": "表单数据汇总", "enum_value": 8 },
+                { "enum_text": "其他小程序", "enum_value": 10 }
+              ]
+            },
+            "theme_color": { "value": "", "name": "主题色", "attribute_id": 128, "is_multiple": 0, "is_enum": 0 },
+            "font_color": { "value": "", "name": "文字颜色", "attribute_id": 129, "is_multiple": 0, "is_enum": 0 },
+            "pic_size": { "value": "", "name": "图片大小", "attribute_id": 133, "is_multiple": 0, "is_enum": 0 },
+            "type": { "value": "qrcode", "name": "跳转目标类型" }
+          },
+          {
+            "web_url": {
+              "value": "https://h.qr61.cn/oQL9HR/qxsjmwN",
+              "name": "跳转页面",
+              "attribute_id": 27,
+              "is_multiple": 0,
+              "is_enum": 0,
+              "coding": "qxsjmwN"
+            },
+            "title": { "value": "1212121212", "name": "跳转页面标题", "attribute_id": 32, "is_multiple": 0, "is_enum": 0 },
+            "list_name": { "value": "1212121212", "name": "码的名称", "attribute_id": 33, "is_multiple": 0, "is_enum": 0 },
+            "pic_type": {
+              "value": "0",
+              "name": "图片类型",
+              "attribute_id": 124,
+              "is_multiple": 0,
+              "is_enum": 1,
+              "enum_msg": [
+                { "enum_text": "默认", "enum_value": 0 },
+                { "enum_text": "预置图标", "enum_value": 1 },
+                { "enum_text": "自定义上传", "enum_value": 2 }
+              ]
+            },
+            "pic_value": { "value": "", "name": "图片值", "attribute_id": 125, "is_multiple": 0, "is_enum": 0, "save_key": "" },
+            "display_style": {
+              "value": "0",
+              "name": "展示样式",
+              "attribute_id": 126,
+              "is_multiple": 0,
+              "is_enum": 1,
+              "enum_msg": [
+                { "enum_text": "文字列表", "enum_value": 0 },
+                { "enum_text": "带图列表", "enum_value": 1 },
+                { "enum_text": "大图卡片", "enum_value": 2 },
+                { "enum_text": "方形按钮", "enum_value": 3 },
+                { "enum_text": "圆形按钮", "enum_value": 4 }
+              ]
+            },
+            "target_type": {
+              "value": "0",
+              "name": "目标类型",
+              "attribute_id": 127,
+              "is_multiple": 0,
+              "is_enum": 1,
+              "enum_msg": [
+                { "enum_text": "活码", "enum_value": 0 },
+                { "enum_text": "管理功能 —— 表单管理", "enum_value": 14 },
+                { "enum_text": "管理功能 —— 表单管理", "enum_value": 13 },
+                { "enum_text": "管理功能 —— 工作台", "enum_value": 12 },
+                { "enum_text": "计划 分组", "enum_value": 11 },
+                { "enum_text": "管理功能 —— 数据看板", "enum_value": 15 },
+                { "enum_text": "电话", "enum_value": 9 },
+                { "enum_text": "资料库", "enum_value": 16 },
+                { "enum_text": "批量活码-模板码", "enum_value": 1 },
+                { "enum_text": "批量活码-批次", "enum_value": 2 },
+                { "enum_text": "批量活码-子码", "enum_value": 3 },
+                { "enum_text": "目录汇总码", "enum_value": 4 },
+                { "enum_text": "旧版活码", "enum_value": 5 },
+                { "enum_text": "网址", "enum_value": 6 },
+                { "enum_text": "表单", "enum_value": 7 },
+                { "enum_text": "表单数据汇总", "enum_value": 8 },
+                { "enum_text": "其他小程序", "enum_value": 10 }
+              ]
+            },
+            "theme_color": { "value": "", "name": "主题色", "attribute_id": 128, "is_multiple": 0, "is_enum": 0 },
+            "font_color": { "value": "", "name": "文字颜色", "attribute_id": 129, "is_multiple": 0, "is_enum": 0 },
+            "pic_size": { "value": "", "name": "图片大小", "attribute_id": 133, "is_multiple": 0, "is_enum": 0 },
+            "type": { "value": "qrcode", "name": "跳转目标类型" }
+          }
+        ],
+        "status": 0,
+        "page_msg": {
+          "current_page": 2,
+          "list_size": 20,
+          "lasted_page": 2,
+          "record_total": 25,
+          "qrcode_count": 2,
+          "category_count": 23,
+          "sort_value": 0,
+          "show_style": 2
+        }
+      }
+    ],
+    "qrcode_top_component": [
+      {
+        "sort": 0,
+        "component_code": "text",
+        "attribute_list": [{ "content_html": { "value": "全部", "name": "文本 html 片段", "attribute_id": 10, "attribute_multiple_id": 5 } }],
+        "status": 0,
+        "component_status": 1
+      }
+    ],
+    "visible_auth_info": {
+      "open_auth": 0,
+      "user_info": { "user_id": "831891", "member_id": 271049, "member_name": "image.png", "member_department": 0, "member_mobile": "18336175747" },
+      "has_power_comps": [],
+      "edit_need_audit": 0,
+      "open_password_info": [],
+      "open_location_info": [],
+      "open_time_info": [],
+      "data_authtype": 0,
+      "auth_list": [],
+      "first_edituser_ass_id": [],
+      "power_status": 16,
+      "need_user_auth": 0,
+      "auth_limit": [],
+      "need_join_member": 0,
+      "need_join_auth_member": 0
+    },
+    "edition_msg": { "edition_id": 44, "from_edition_id": 44 },
+    "show_collect": 1,
+    "show_manage": 1,
+    "show_font_size": 2,
+    "show_share": 0,
+    "show_homepage": 1,
+    "show_bottom_homepage": 0,
+    "show_powered_by": 0,
+    "share_style": 0,
+    "org_msg": {
+      "id": 94911424,
+      "user_id": 831891,
+      "name": "防忽悠热线",
+      "coding": "oQL9HR",
+      "org_dest_qrcode": 0,
+      "status": 0,
+      "is_auth": 1,
+      "show_dest_qrcode": 0,
+      "logo_path": "https://ncstatic.clewm.net/rsrc/2024/0813/15/1eaa5e57324d00b15f2d96e83afac89d.png",
+      "memo": "",
+      "auth_type": 0,
+      "auth_used": "",
+      "auth_message": "",
+      "auth_request_time": 0,
+      "auth_file_prove": "",
+      "auth_file_other": "",
+      "open_id": "",
+      "auth_deal_time": 0,
+      "auth_status": 1,
+      "social_code": "",
+      "target_record_id": 0,
+      "route_type": 3,
+      "private_xcx_status": 0,
+      "custom_route_type": 1,
+      "subscribe_wxacode": "",
+      "is_paid_user": 1,
+      "org_valid_params": { "org_id": 94911424, "org_time": 1724377603, "org_publickey": "e37750a89e179e340b3b3758491e87d1" },
+      "homepage_qrcode_url": "https://qr46.cn/oQL9HR/qAOoPS1"
+    },
+    "show_style": { "property_value": "2" },
+    "is_collect": 0,
+    "qrcode_msg": {
+      "qrcode_record": {
+        "id": 14653,
+        "coding": "sa4kz7J",
+        "web_url": "https://qr46.cn/sy/oQL9HR/sa4kz7J",
+        "org_id": 94911424,
+        "summary_type": 0,
+        "status": 0,
+        "create_time": 1719196765,
+        "update_time": 1719196765,
+        "route_type": 3,
+        "disabled_open_methods": 0,
+        "cover_image": "",
+        "remarks": "",
+        "show_collect": 3,
+        "show_share": 2,
+        "show_manage": 2,
+        "share_style": 0,
+        "share_qrcode_url": "https://ncstatic.clewm.net/qrcodeurl/2024/08/20/e8fa0a236ed9c6f000ef313939b1305c.png",
+        "list_name": "全部",
+        "media_flow_limited": 1,
+        "media_flow_total": "20480000.00000000",
+        "media_flow_used": "0.00000000",
+        "user_id": 831891
+      },
+      "qrcode_compontent": [
+        {
+          "sort": 7,
+          "component_code": "redirect",
+          "attribute_list": [
+            {
+              "web_url": {
+                "value": "https://qr46.cn/sy/oQL9HR/sl2kY69",
+                "name": "跳转页面",
+                "attribute_id": 27,
+                "is_multiple": 0,
+                "is_enum": 0,
+                "coding": "sl2kY69",
+                "category_id": 46275438,
+                "qrcode_count": 0
+              },
+              "title": { "value": "345435456", "name": "跳转页面标题", "attribute_id": 32, "is_multiple": 0, "is_enum": 0 },
+              "list_name": { "value": "345435456", "name": "码的名称", "attribute_id": 33, "is_multiple": 0, "is_enum": 0 },
+              "pic_type": {
+                "value": "0",
+                "name": "图片类型",
+                "attribute_id": 124,
+                "is_multiple": 0,
+                "is_enum": 1,
+                "enum_msg": [
+                  { "enum_text": "默认", "enum_value": 0 },
+                  { "enum_text": "预置图标", "enum_value": 1 },
+                  { "enum_text": "自定义上传", "enum_value": 2 }
+                ]
+              },
+              "pic_value": { "value": "", "name": "图片值", "attribute_id": 125, "is_multiple": 0, "is_enum": 0, "save_key": "" },
+              "display_style": {
+                "value": "0",
+                "name": "展示样式",
+                "attribute_id": 126,
+                "is_multiple": 0,
+                "is_enum": 1,
+                "enum_msg": [
+                  { "enum_text": "文字列表", "enum_value": 0 },
+                  { "enum_text": "带图列表", "enum_value": 1 },
+                  { "enum_text": "大图卡片", "enum_value": 2 },
+                  { "enum_text": "方形按钮", "enum_value": 3 },
+                  { "enum_text": "圆形按钮", "enum_value": 4 }
+                ]
+              },
+              "target_type": {
+                "value": "0",
+                "name": "目标类型",
+                "attribute_id": 127,
+                "is_multiple": 0,
+                "is_enum": 1,
+                "enum_msg": [
+                  { "enum_text": "活码", "enum_value": 0 },
+                  { "enum_text": "管理功能 —— 表单管理", "enum_value": 14 },
+                  { "enum_text": "管理功能 —— 表单管理", "enum_value": 13 },
+                  { "enum_text": "管理功能 —— 工作台", "enum_value": 12 },
+                  { "enum_text": "计划 分组", "enum_value": 11 },
+                  { "enum_text": "管理功能 —— 数据看板", "enum_value": 15 },
+                  { "enum_text": "电话", "enum_value": 9 },
+                  { "enum_text": "资料库", "enum_value": 16 },
+                  { "enum_text": "批量活码-模板码", "enum_value": 1 },
+                  { "enum_text": "批量活码-批次", "enum_value": 2 },
+                  { "enum_text": "批量活码-子码", "enum_value": 3 },
+                  { "enum_text": "目录汇总码", "enum_value": 4 },
+                  { "enum_text": "旧版活码", "enum_value": 5 },
+                  { "enum_text": "网址", "enum_value": 6 },
+                  { "enum_text": "表单", "enum_value": 7 },
+                  { "enum_text": "表单数据汇总", "enum_value": 8 },
+                  { "enum_text": "其他小程序", "enum_value": 10 }
+                ]
+              },
+              "theme_color": { "value": "", "name": "主题色", "attribute_id": 128, "is_multiple": 0, "is_enum": 0 },
+              "font_color": { "value": "", "name": "文字颜色", "attribute_id": 129, "is_multiple": 0, "is_enum": 0 },
+              "pic_size": { "value": "", "name": "图片大小", "attribute_id": 133, "is_multiple": 0, "is_enum": 0 },
+              "type": { "value": "category", "name": "跳转目标类型" }
+            },
+            {
+              "web_url": {
+                "value": "https://qr46.cn/sy/oQL9HR/siU1w3R",
+                "name": "跳转页面",
+                "attribute_id": 27,
+                "is_multiple": 0,
+                "is_enum": 0,
+                "coding": "siU1w3R",
+                "category_id": 46275437,
+                "qrcode_count": 0
+              },
+              "title": { "value": "112312321341", "name": "跳转页面标题", "attribute_id": 32, "is_multiple": 0, "is_enum": 0 },
+              "list_name": { "value": "112312321341", "name": "码的名称", "attribute_id": 33, "is_multiple": 0, "is_enum": 0 },
+              "pic_type": {
+                "value": "0",
+                "name": "图片类型",
+                "attribute_id": 124,
+                "is_multiple": 0,
+                "is_enum": 1,
+                "enum_msg": [
+                  { "enum_text": "默认", "enum_value": 0 },
+                  { "enum_text": "预置图标", "enum_value": 1 },
+                  { "enum_text": "自定义上传", "enum_value": 2 }
+                ]
+              },
+              "pic_value": { "value": "", "name": "图片值", "attribute_id": 125, "is_multiple": 0, "is_enum": 0, "save_key": "" },
+              "display_style": {
+                "value": "0",
+                "name": "展示样式",
+                "attribute_id": 126,
+                "is_multiple": 0,
+                "is_enum": 1,
+                "enum_msg": [
+                  { "enum_text": "文字列表", "enum_value": 0 },
+                  { "enum_text": "带图列表", "enum_value": 1 },
+                  { "enum_text": "大图卡片", "enum_value": 2 },
+                  { "enum_text": "方形按钮", "enum_value": 3 },
+                  { "enum_text": "圆形按钮", "enum_value": 4 }
+                ]
+              },
+              "target_type": {
+                "value": "0",
+                "name": "目标类型",
+                "attribute_id": 127,
+                "is_multiple": 0,
+                "is_enum": 1,
+                "enum_msg": [
+                  { "enum_text": "活码", "enum_value": 0 },
+                  { "enum_text": "管理功能 —— 表单管理", "enum_value": 14 },
+                  { "enum_text": "管理功能 —— 表单管理", "enum_value": 13 },
+                  { "enum_text": "管理功能 —— 工作台", "enum_value": 12 },
+                  { "enum_text": "计划 分组", "enum_value": 11 },
+                  { "enum_text": "管理功能 —— 数据看板", "enum_value": 15 },
+                  { "enum_text": "电话", "enum_value": 9 },
+                  { "enum_text": "资料库", "enum_value": 16 },
+                  { "enum_text": "批量活码-模板码", "enum_value": 1 },
+                  { "enum_text": "批量活码-批次", "enum_value": 2 },
+                  { "enum_text": "批量活码-子码", "enum_value": 3 },
+                  { "enum_text": "目录汇总码", "enum_value": 4 },
+                  { "enum_text": "旧版活码", "enum_value": 5 },
+                  { "enum_text": "网址", "enum_value": 6 },
+                  { "enum_text": "表单", "enum_value": 7 },
+                  { "enum_text": "表单数据汇总", "enum_value": 8 },
+                  { "enum_text": "其他小程序", "enum_value": 10 }
+                ]
+              },
+              "theme_color": { "value": "", "name": "主题色", "attribute_id": 128, "is_multiple": 0, "is_enum": 0 },
+              "font_color": { "value": "", "name": "文字颜色", "attribute_id": 129, "is_multiple": 0, "is_enum": 0 },
+              "pic_size": { "value": "", "name": "图片大小", "attribute_id": 133, "is_multiple": 0, "is_enum": 0 },
+              "type": { "value": "category", "name": "跳转目标类型" }
+            },
+            {
+              "web_url": {
+                "value": "https://qr46.cn/sy/oQL9HR/sMMGMcG",
+                "name": "跳转页面",
+                "attribute_id": 27,
+                "is_multiple": 0,
+                "is_enum": 0,
+                "coding": "sMMGMcG",
+                "category_id": 46275359,
+                "qrcode_count": 2
+              },
+              "title": { "value": "产品详情介绍", "name": "跳转页面标题", "attribute_id": 32, "is_multiple": 0, "is_enum": 0 },
+              "list_name": { "value": "产品详情介绍", "name": "码的名称", "attribute_id": 33, "is_multiple": 0, "is_enum": 0 },
+              "pic_type": {
+                "value": "0",
+                "name": "图片类型",
+                "attribute_id": 124,
+                "is_multiple": 0,
+                "is_enum": 1,
+                "enum_msg": [
+                  { "enum_text": "默认", "enum_value": 0 },
+                  { "enum_text": "预置图标", "enum_value": 1 },
+                  { "enum_text": "自定义上传", "enum_value": 2 }
+                ]
+              },
+              "pic_value": { "value": "", "name": "图片值", "attribute_id": 125, "is_multiple": 0, "is_enum": 0, "save_key": "" },
+              "display_style": {
+                "value": "0",
+                "name": "展示样式",
+                "attribute_id": 126,
+                "is_multiple": 0,
+                "is_enum": 1,
+                "enum_msg": [
+                  { "enum_text": "文字列表", "enum_value": 0 },
+                  { "enum_text": "带图列表", "enum_value": 1 },
+                  { "enum_text": "大图卡片", "enum_value": 2 },
+                  { "enum_text": "方形按钮", "enum_value": 3 },
+                  { "enum_text": "圆形按钮", "enum_value": 4 }
+                ]
+              },
+              "target_type": {
+                "value": "0",
+                "name": "目标类型",
+                "attribute_id": 127,
+                "is_multiple": 0,
+                "is_enum": 1,
+                "enum_msg": [
+                  { "enum_text": "活码", "enum_value": 0 },
+                  { "enum_text": "管理功能 —— 表单管理", "enum_value": 14 },
+                  { "enum_text": "管理功能 —— 表单管理", "enum_value": 13 },
+                  { "enum_text": "管理功能 —— 工作台", "enum_value": 12 },
+                  { "enum_text": "计划 分组", "enum_value": 11 },
+                  { "enum_text": "管理功能 —— 数据看板", "enum_value": 15 },
+                  { "enum_text": "电话", "enum_value": 9 },
+                  { "enum_text": "资料库", "enum_value": 16 },
+                  { "enum_text": "批量活码-模板码", "enum_value": 1 },
+                  { "enum_text": "批量活码-批次", "enum_value": 2 },
+                  { "enum_text": "批量活码-子码", "enum_value": 3 },
+                  { "enum_text": "目录汇总码", "enum_value": 4 },
+                  { "enum_text": "旧版活码", "enum_value": 5 },
+                  { "enum_text": "网址", "enum_value": 6 },
+                  { "enum_text": "表单", "enum_value": 7 },
+                  { "enum_text": "表单数据汇总", "enum_value": 8 },
+                  { "enum_text": "其他小程序", "enum_value": 10 }
+                ]
+              },
+              "theme_color": { "value": "", "name": "主题色", "attribute_id": 128, "is_multiple": 0, "is_enum": 0 },
+              "font_color": { "value": "", "name": "文字颜色", "attribute_id": 129, "is_multiple": 0, "is_enum": 0 },
+              "pic_size": { "value": "", "name": "图片大小", "attribute_id": 133, "is_multiple": 0, "is_enum": 0 },
+              "type": { "value": "category", "name": "跳转目标类型" }
+            },
+            {
+              "web_url": {
+                "value": "https://qr46.cn/oQL9HR/qnBg5eR",
+                "name": "跳转页面",
+                "attribute_id": 27,
+                "is_multiple": 0,
+                "is_enum": 0,
+                "coding": "qnBg5eR"
+              },
+              "title": { "value": "111", "name": "跳转页面标题", "attribute_id": 32, "is_multiple": 0, "is_enum": 0 },
+              "list_name": { "value": "111", "name": "码的名称", "attribute_id": 33, "is_multiple": 0, "is_enum": 0 },
+              "pic_type": {
+                "value": "0",
+                "name": "图片类型",
+                "attribute_id": 124,
+                "is_multiple": 0,
+                "is_enum": 1,
+                "enum_msg": [
+                  { "enum_text": "默认", "enum_value": 0 },
+                  { "enum_text": "预置图标", "enum_value": 1 },
+                  { "enum_text": "自定义上传", "enum_value": 2 }
+                ]
+              },
+              "pic_value": { "value": "", "name": "图片值", "attribute_id": 125, "is_multiple": 0, "is_enum": 0, "save_key": "" },
+              "display_style": {
+                "value": "0",
+                "name": "展示样式",
+                "attribute_id": 126,
+                "is_multiple": 0,
+                "is_enum": 1,
+                "enum_msg": [
+                  { "enum_text": "文字列表", "enum_value": 0 },
+                  { "enum_text": "带图列表", "enum_value": 1 },
+                  { "enum_text": "大图卡片", "enum_value": 2 },
+                  { "enum_text": "方形按钮", "enum_value": 3 },
+                  { "enum_text": "圆形按钮", "enum_value": 4 }
+                ]
+              },
+              "target_type": {
+                "value": "0",
+                "name": "目标类型",
+                "attribute_id": 127,
+                "is_multiple": 0,
+                "is_enum": 1,
+                "enum_msg": [
+                  { "enum_text": "活码", "enum_value": 0 },
+                  { "enum_text": "管理功能 —— 表单管理", "enum_value": 14 },
+                  { "enum_text": "管理功能 —— 表单管理", "enum_value": 13 },
+                  { "enum_text": "管理功能 —— 工作台", "enum_value": 12 },
+                  { "enum_text": "计划 分组", "enum_value": 11 },
+                  { "enum_text": "管理功能 —— 数据看板", "enum_value": 15 },
+                  { "enum_text": "电话", "enum_value": 9 },
+                  { "enum_text": "资料库", "enum_value": 16 },
+                  { "enum_text": "批量活码-模板码", "enum_value": 1 },
+                  { "enum_text": "批量活码-批次", "enum_value": 2 },
+                  { "enum_text": "批量活码-子码", "enum_value": 3 },
+                  { "enum_text": "目录汇总码", "enum_value": 4 },
+                  { "enum_text": "旧版活码", "enum_value": 5 },
+                  { "enum_text": "网址", "enum_value": 6 },
+                  { "enum_text": "表单", "enum_value": 7 },
+                  { "enum_text": "表单数据汇总", "enum_value": 8 },
+                  { "enum_text": "其他小程序", "enum_value": 10 }
+                ]
+              },
+              "theme_color": { "value": "", "name": "主题色", "attribute_id": 128, "is_multiple": 0, "is_enum": 0 },
+              "font_color": { "value": "", "name": "文字颜色", "attribute_id": 129, "is_multiple": 0, "is_enum": 0 },
+              "pic_size": { "value": "", "name": "图片大小", "attribute_id": 133, "is_multiple": 0, "is_enum": 0 },
+              "type": { "value": "qrcode", "name": "跳转目标类型" }
+            },
+            {
+              "web_url": {
+                "value": "https://qr46.cn/oQL9HR/qDXBJ2p",
+                "name": "跳转页面",
+                "attribute_id": 27,
+                "is_multiple": 0,
+                "is_enum": 0,
+                "coding": "qDXBJ2p"
+              },
+              "title": { "value": "未命名码", "name": "跳转页面标题", "attribute_id": 32, "is_multiple": 0, "is_enum": 0 },
+              "list_name": { "value": "未命名码", "name": "码的名称", "attribute_id": 33, "is_multiple": 0, "is_enum": 0 },
+              "pic_type": {
+                "value": "0",
+                "name": "图片类型",
+                "attribute_id": 124,
+                "is_multiple": 0,
+                "is_enum": 1,
+                "enum_msg": [
+                  { "enum_text": "默认", "enum_value": 0 },
+                  { "enum_text": "预置图标", "enum_value": 1 },
+                  { "enum_text": "自定义上传", "enum_value": 2 }
+                ]
+              },
+              "pic_value": { "value": "", "name": "图片值", "attribute_id": 125, "is_multiple": 0, "is_enum": 0, "save_key": "" },
+              "display_style": {
+                "value": "0",
+                "name": "展示样式",
+                "attribute_id": 126,
+                "is_multiple": 0,
+                "is_enum": 1,
+                "enum_msg": [
+                  { "enum_text": "文字列表", "enum_value": 0 },
+                  { "enum_text": "带图列表", "enum_value": 1 },
+                  { "enum_text": "大图卡片", "enum_value": 2 },
+                  { "enum_text": "方形按钮", "enum_value": 3 },
+                  { "enum_text": "圆形按钮", "enum_value": 4 }
+                ]
+              },
+              "target_type": {
+                "value": "0",
+                "name": "目标类型",
+                "attribute_id": 127,
+                "is_multiple": 0,
+                "is_enum": 1,
+                "enum_msg": [
+                  { "enum_text": "活码", "enum_value": 0 },
+                  { "enum_text": "管理功能 —— 表单管理", "enum_value": 14 },
+                  { "enum_text": "管理功能 —— 表单管理", "enum_value": 13 },
+                  { "enum_text": "管理功能 —— 工作台", "enum_value": 12 },
+                  { "enum_text": "计划 分组", "enum_value": 11 },
+                  { "enum_text": "管理功能 —— 数据看板", "enum_value": 15 },
+                  { "enum_text": "电话", "enum_value": 9 },
+                  { "enum_text": "资料库", "enum_value": 16 },
+                  { "enum_text": "批量活码-模板码", "enum_value": 1 },
+                  { "enum_text": "批量活码-批次", "enum_value": 2 },
+                  { "enum_text": "批量活码-子码", "enum_value": 3 },
+                  { "enum_text": "目录汇总码", "enum_value": 4 },
+                  { "enum_text": "旧版活码", "enum_value": 5 },
+                  { "enum_text": "网址", "enum_value": 6 },
+                  { "enum_text": "表单", "enum_value": 7 },
+                  { "enum_text": "表单数据汇总", "enum_value": 8 },
+                  { "enum_text": "其他小程序", "enum_value": 10 }
+                ]
+              },
+              "theme_color": { "value": "", "name": "主题色", "attribute_id": 128, "is_multiple": 0, "is_enum": 0 },
+              "font_color": { "value": "", "name": "文字颜色", "attribute_id": 129, "is_multiple": 0, "is_enum": 0 },
+              "pic_size": { "value": "", "name": "图片大小", "attribute_id": 133, "is_multiple": 0, "is_enum": 0 },
+              "type": { "value": "qrcode", "name": "跳转目标类型" }
+            },
+            {
+              "web_url": {
+                "value": "https://h.qr61.cn/oQL9HR/qxsjmwN",
+                "name": "跳转页面",
+                "attribute_id": 27,
+                "is_multiple": 0,
+                "is_enum": 0,
+                "coding": "qxsjmwN"
+              },
+              "title": { "value": "1212121212", "name": "跳转页面标题", "attribute_id": 32, "is_multiple": 0, "is_enum": 0 },
+              "list_name": { "value": "1212121212", "name": "码的名称", "attribute_id": 33, "is_multiple": 0, "is_enum": 0 },
+              "pic_type": {
+                "value": "0",
+                "name": "图片类型",
+                "attribute_id": 124,
+                "is_multiple": 0,
+                "is_enum": 1,
+                "enum_msg": [
+                  { "enum_text": "默认", "enum_value": 0 },
+                  { "enum_text": "预置图标", "enum_value": 1 },
+                  { "enum_text": "自定义上传", "enum_value": 2 }
+                ]
+              },
+              "pic_value": { "value": "", "name": "图片值", "attribute_id": 125, "is_multiple": 0, "is_enum": 0, "save_key": "" },
+              "display_style": {
+                "value": "0",
+                "name": "展示样式",
+                "attribute_id": 126,
+                "is_multiple": 0,
+                "is_enum": 1,
+                "enum_msg": [
+                  { "enum_text": "文字列表", "enum_value": 0 },
+                  { "enum_text": "带图列表", "enum_value": 1 },
+                  { "enum_text": "大图卡片", "enum_value": 2 },
+                  { "enum_text": "方形按钮", "enum_value": 3 },
+                  { "enum_text": "圆形按钮", "enum_value": 4 }
+                ]
+              },
+              "target_type": {
+                "value": "0",
+                "name": "目标类型",
+                "attribute_id": 127,
+                "is_multiple": 0,
+                "is_enum": 1,
+                "enum_msg": [
+                  { "enum_text": "活码", "enum_value": 0 },
+                  { "enum_text": "管理功能 —— 表单管理", "enum_value": 14 },
+                  { "enum_text": "管理功能 —— 表单管理", "enum_value": 13 },
+                  { "enum_text": "管理功能 —— 工作台", "enum_value": 12 },
+                  { "enum_text": "计划 分组", "enum_value": 11 },
+                  { "enum_text": "管理功能 —— 数据看板", "enum_value": 15 },
+                  { "enum_text": "电话", "enum_value": 9 },
+                  { "enum_text": "资料库", "enum_value": 16 },
+                  { "enum_text": "批量活码-模板码", "enum_value": 1 },
+                  { "enum_text": "批量活码-批次", "enum_value": 2 },
+                  { "enum_text": "批量活码-子码", "enum_value": 3 },
+                  { "enum_text": "目录汇总码", "enum_value": 4 },
+                  { "enum_text": "旧版活码", "enum_value": 5 },
+                  { "enum_text": "网址", "enum_value": 6 },
+                  { "enum_text": "表单", "enum_value": 7 },
+                  { "enum_text": "表单数据汇总", "enum_value": 8 },
+                  { "enum_text": "其他小程序", "enum_value": 10 }
+                ]
+              },
+              "theme_color": { "value": "", "name": "主题色", "attribute_id": 128, "is_multiple": 0, "is_enum": 0 },
+              "font_color": { "value": "", "name": "文字颜色", "attribute_id": 129, "is_multiple": 0, "is_enum": 0 },
+              "pic_size": { "value": "", "name": "图片大小", "attribute_id": 133, "is_multiple": 0, "is_enum": 0 },
+              "type": { "value": "qrcode", "name": "跳转目标类型" }
+            }
+          ],
+          "status": 0,
+          "page_msg": {
+            "current_page": 2,
+            "list_size": 20,
+            "lasted_page": 2,
+            "record_total": 25,
+            "qrcode_count": 2,
+            "category_count": 23,
+            "sort_value": 0,
+            "show_style": 2
+          }
+        }
+      ],
+      "qrcode_top_component": [
+        {
+          "sort": 0,
+          "component_code": "text",
+          "attribute_list": [{ "content_html": { "value": "全部", "name": "文本 html 片段", "attribute_id": 10, "attribute_multiple_id": 5 } }],
+          "status": 0,
+          "component_status": 1
+        }
+      ],
+      "open_methods": { "scan": true, "press": true, "share": true, "other_app": true },
+      "visible_auth_info": {
+        "open_auth": 0,
+        "user_info": { "user_id": "831891", "member_id": 271049, "member_name": "image.png", "member_department": 0, "member_mobile": "18336175747" },
+        "has_power_comps": [],
+        "edit_need_audit": 0,
+        "open_password_info": [],
+        "open_location_info": [],
+        "open_time_info": [],
+        "data_authtype": 0,
+        "auth_list": [],
+        "first_edituser_ass_id": [],
+        "power_status": 16,
+        "need_user_auth": 0,
+        "auth_limit": [],
+        "need_join_member": 0,
+        "need_join_auth_member": 0
+      }
+    },
+    "record_summary_status": 1,
+    "qrcode_count": 1988,
+    "preview_token": { "time": 1724377603, "signature": "73658086cbe1676b340f5ee9071bf675" }
+  },
+  "url": "",
+  "wait": 3
+}
