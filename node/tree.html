@@ -1,0 +1,67 @@
+<style>
+  .parksben-is-just-one-single-doge {
+    width: 90%;
+    max-width: 640px;
+    box-sizing: border-box;
+    margin: 1em auto;
+    padding: 2em;
+    background: #333;
+    border-radius: 5px;
+    overflow: hidden;
+    font: 14px/18px Helvetica, Arial, "Microsoft Yahei", Verdana, sans-serif;
+    --content-color: #fff;
+  }
+
+  .parksben-is-just-one-single-doge ul.tree {
+    color: var(--content-color);
+  }
+
+  .parksben-is-just-one-single-doge ul.tree,
+  .parksben-is-just-one-single-doge ul.tree ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .parksben-is-just-one-single-doge ul.tree ul {
+    margin-left: 1em;
+  }
+
+  .parksben-is-just-one-single-doge ul.tree li {
+    margin: 0;
+    padding: 0 1em;
+    line-height: 2em;
+    font-weight: bold;
+    position: relative;
+  }
+
+  .parksben-is-just-one-single-doge ul.tree li::before {
+    content: '';
+    display: block;
+    width: 1px;
+    height: 100%;
+    background: var(--content-color);
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+
+  .parksben-is-just-one-single-doge ul.tree li::after {
+    content: '';
+    display: block;
+    width: 0.8em;
+    height: 1px;
+    background: var(--content-color);
+    position: absolute;
+    left: 0;
+    top: 0.9em;
+  }
+
+  .parksben-is-just-one-single-doge ul.tree li:last-child::before {
+    height: 1em;
+    bottom: 1em;
+  }
+</style>
+<div class="parksben-is-just-one-single-doge">
+  <ul class="tree"><li>dictoryTree.js</li></ul>
+</div>

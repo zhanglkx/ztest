@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Custom Warning</title>
+    <style>
+        #customAlert {
+            display: none;
+            position: fixed;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            padding: 20px;
+            background: white;
+            border: 1px solid black;
+            z-index: 1000;
+        }
+
+        #overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            z-index: 999;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="overlay"></div>
+    <div id="customAlert">
+        <p>Are you sure you want to leave this page? You might lose unsaved changes.</p>
+        <button onclick="stayOnPage()">Stay</button>
+        <button onclick="leavePage()">Leave</button>
+    </div>
+
+    <script>
+        let isCustomAlertVisible = false;
+
+        window.addEventListener("beforeunload", function (event) {
+            if (!isCustomAlertVisible) {
+                event.preventDefault();
+                event.returnValue = '';
+            }
+        });
+
+        document.querySelectorAll('a, button').forEach(element => {
+            element.addEventListener('click', function (event) {
+                event.preventDefault();
+                showCustomAlert();
+            });
+        });
+
+        function showCustomAlert() {
+            isCustomAlertVisible = true;
+            document.getElementById('overlay').style.display = 'block';
+            document.getElementById('customAlert').style.display = 'block';
+        }
+
+        function stayOnPage() {
+            isCustomAlertVisible = false;
+            document.getElementById('overlay').style.display = 'none';
+            document.getElementById('customAlert').style.display = 'none';
+        }
+
+        function leavePage() {
+            isCustomAlertVisible = false;
+            document.getElementById('overlay').style.display = 'none';
+            document.getElementById('customAlert').style.display = 'none';
+            window.removeEventListener("beforeunload", function (event) {
+                event.returnValue = '';
+            });
+            window.location.href = "about:blank"; // or any other page you want to navigate to
+        }
+    </script>
+
+</body>
+
+</html>

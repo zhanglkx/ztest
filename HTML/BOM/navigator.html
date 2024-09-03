@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div>111</div>
+    <button onclick="mmmmmmm()">111</button>
+    <script>
+
+        function mmmmmmm(params) {
+            console.log('1111');
+
+        }
+
+        window.addEventListener("popstate", function (params) {
+            console.log(params);
+        })
+        // 检查浏览器是否支持 NetworkInformation API
+        if ('connection' in navigator) {
+            const connection = navigator.connection || navigator.mozConnection || navigator.webkitConnection;
+
+            // 输出网络连接信息
+            console.log('Downlink:', connection.downlink);
+            console.log('Effective type:', connection.effectiveType);
+            console.log('RTT:', connection.rtt);
+            console.log('Save data:', connection.saveData);
+
+            // 监听网络连接信息变化
+            connection.addEventListener('change', () => {
+                console.log('Network information changed');
+                console.log('Downlink:', connection.downlink);
+                console.log('Effective type:', connection.effectiveType);
+                console.log('RTT:', connection.rtt);
+                console.log('Save data:', connection.saveData);
+            });
+        } else {
+            console.log('NetworkInformation API is not supported by this browser.');
+        }
+
+    </script>
+</body>
+
+</html>
