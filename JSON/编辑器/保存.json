@@ -1,0 +1,176 @@
+{
+  "qrcode_compontent": [
+    {
+      "id": 3830300,
+      "qrcode_id": 4270364,
+      "component_code": "text",
+      "identity_id": 0,
+      "sort": 0,
+      "status": 0,
+      "tpl_com_id": 654161,
+      "org_id": 94911424,
+      "batch_id": 0,
+      "real_group_id": 0,
+      "component_status": 0,
+      "template_component_id": 0,
+      "template_component_info": "",
+      "form_component_id": 0,
+      "form_component_title": "",
+      "attribute_list": [
+        {
+          "content_html": {
+            "id": 3295071,
+            "value": "<section data-theme-color=\"#205792\" data-is-vip=\"false\" data-change-color=\"on\" data-is-full=\"false\" data-key=\"image-tpl26\" class=\"stylelib-wrapper\" data-contenteditable=\"false\"><section class=\"x-vipIcon\"><section style=\"display: none\"><br></section></section><a data-cke-saved-href=\"navLink:\" href=\"navLink:\" data-link-no-cancel=\"true\" style=\"display: block; padding: 4px; background-color: #fff;border-radius: 6px;\" class=\"stylelib-image stylelib-image-children-1\"><section style=\"display: flex\"><section data-stylelib-backgroundimage=\"default\" data-stylelib-background-default-size=\"cover\" data-stylelib-has-img=\"img\" data-stylelib-can-preview=\"data-stylelib-can-preview\" style=\" width: 120px; height: auto; background-color: #f6f8f9; border-radius: 4px; min-width: 120px; min-height: 120px; \"><img data-cke-saved-src=\"https://gstatic.clewm.net/caoliao-resource/240829/e3a4ea_b22096b5.png\" src=\"https://gstatic.clewm.net/caoliao-resource/240829/e3a4ea_b22096b5.png\" data-stylelib-can-preview=\"preview\" data-key=\"image-tpl26\" data-img-src=\"https://gstatic.clewm.net/caoliao-resource/240829/e3a4ea_b22096b5.png\" alt=\"阿勒泰8日游\" style=\" width: 120px; height: 100%; background-size: cover; border-radius: 4px; min-width: 120px; min-height: 120px; \"></section><section style=\"padding: 8px 4px 8px 12px; flex: 1\"><section data-stylelib-stylename=\"color\" data-stylelib-varname=\"whiteBgThemeFontColor\" data-original-text=\"\" style=\"color:#205792;font-size:24px;\" data-contenteditable=\"true\"><p><strong><span style=\"font-size:24px; font-weight:600; line-height:normal\">阿勒泰8日游</span></strong></p></section><section data-stylelib-stylename=\"color\" data-stylelib-varname=\"whiteBgThemeFontColor\" style=\"flex:1;color:#205792;font-size:12px;\" data-contenteditable=\"true\"><p><span style=\"font-size:12px; font-weight:400\">一价全包0自费 0景交0保底 </span></p></section><section style=\"display: flex; align-items: flex-end; margin-top: 10px\"><section data-stylelib-stylename=\"color\" data-stylelib-varname=\"whiteBgThemeFontColor\" style=\"flex:1;color:#205792;font-size:16px;line-height:24px;\" data-contenteditable=\"true\"><p><strong><span style=\"font-size:24px; font-weight:600; line-height:normal\">18888</span></strong> <span style=\"font-size:14px; font-weight:500\"> 元/人 </span></p></section><section style=\"display: flex; flex-shrink: 0; align-items: center; max-width: 120px\"><section data-stylelib-stylename=\"color\" data-stylelib-varname=\"whiteBgThemeFontColor\" style=\"margin-right: 4px; display: inline-block; color: #205792; font-size: 12px;position: relative;\" data-contenteditable=\"true\"><span data-stylelib-detail=\"1\" style=\"font-size:12px; margin-right:4px\">点击查看</span> <span data-stylelib-detail=\"1\" data-stylelib-lightfontcolor=\"1\" style=\"display:inline-block; font-size:12px; font-weight:300; height:24px; transform:scaleY(1.8)\">&gt;</span></section></section></section></section></section> </a></section>",
+            "status": 0,
+            "attribute_id": 10,
+            "group_id": 0,
+            "real_group_id": 1,
+            "tpl_com_id": 654161,
+            "name": "文本 html 片段",
+            "is_default_value": 0,
+            "multiple_id": "295495",
+            "attribute_multiple_id": 5
+          }
+        }
+      ],
+      "group_count": 1,
+      "encryption": "6252f07e35caf3ee2db9d498efff91e0"
+    },
+    {
+      "sort": 1,
+      "component_code": "text",
+      "attribute_list": [{ "content_html": { "value": "<p>1</p>", "name": "文本 html 片段", "attribute_id": 10, "attribute_multiple_id": 5 } }]
+    }
+  ],
+  "qrcode_record": {
+    "id": 4270364,
+    "coding": "qXweq1d",
+    "wx_url": "",
+    "web_url": "https://qr46.cn/oQL9HR/qXweq1d",
+    "wxcode_url": "",
+    "qrcode_url": "https://qrapi.cliim.net/newqr/create?data=https%3A%2F%2Fqr46.cn%2FoQL9HR%2FqXweq1d&logourl=https%3A%2F%2Fmeihua.oss-cn-hangzhou.aliyuncs.com%2Fcli%2Fimages%2Fbeautify%2Fnew%2Flogo%2F%E8%B4%B5%E5%B7%9E%E8%8C%85%E5%8F%B0-0210.png&logoshape=roundrect&logo_pos=0&logo_shadow=1&logow=90&logoh=auto&logosize=90&level=H&transparent=0&bgcolor=%23ffffff&forecolor=%231E4299&blockpixel=12&marginblock=3&size=220&logo_dealed=&logo_bg_type=0&foretype=1&forecolor2=&body_type=17&qrcode_eyes=pin-3.png&nomargin=0&kid=bizcliim&time=1726817196&key=b0321fa3e9da31471a5e61ed886d2b24",
+    "list_name": "阿勒泰8日游",
+    "qrcode_name": "",
+    "scene_module_id": 0,
+    "desc": "",
+    "category_id": 46274819,
+    "tpl_id": 124871,
+    "identity_id": 0,
+    "org_id": 94911424,
+    "update_time": 1726817195,
+    "create_time": 1726814454,
+    "status": 0,
+    "preset_case": 0,
+    "show_org_dest": 0,
+    "can_scan_update": 0,
+    "is_mobile_updated": 0,
+    "create_from": 126,
+    "tpl_qrcode_status": 0,
+    "tpl_qrcode_updated": 0,
+    "batch_id": 0,
+    "log_status": 0,
+    "excel_status": 0,
+    "tpl_name": "",
+    "batch_name": "",
+    "route_type": 1,
+    "project_id": 85,
+    "qrcode_sort": 0,
+    "share_qrcode_url": "",
+    "qrstyle_url": "",
+    "top_style": [],
+    "component_value_empty": 0,
+    "show_homepage": 2,
+    "show_bottom_homepage": 2,
+    "log_name": "",
+    "reset_limit_log": 0,
+    "img_name": ""
+  },
+  "qrcode_top_component": [
+    {
+      "id": 3830301,
+      "qrcode_id": 4270364,
+      "component_code": "text",
+      "identity_id": 0,
+      "sort": 0,
+      "status": 0,
+      "tpl_com_id": 654162,
+      "org_id": 94911424,
+      "batch_id": 0,
+      "real_group_id": 0,
+      "component_status": 1,
+      "template_component_id": 0,
+      "template_component_info": "",
+      "form_component_id": 0,
+      "form_component_title": "",
+      "attribute_list": [
+        {
+          "content_html": {
+            "id": 3295072,
+            "value": "",
+            "status": 0,
+            "attribute_id": 10,
+            "group_id": 1,
+            "real_group_id": 1,
+            "tpl_com_id": 654162,
+            "name": "文本 html 片段",
+            "is_default_value": 0,
+            "multiple_id": "295496",
+            "attribute_multiple_id": 5
+          }
+        }
+      ],
+      "group_count": 1,
+      "encryption": "5d457d5bceb87dd59ce6db058ff9fc5f"
+    },
+    { "component_code": "recordlog", "attribute_list": [], "status": 2, "sort": 1 }
+  ],
+  "debug_data": {
+    "uniqueId": "saveQrcodeMsg_12",
+    "timestamp": 1726817356922,
+    "userId": "831891",
+    "cvid": "",
+    "url": "http://console.cli.me:8000/nedit/4270364?create_from=126&categoryId=46274819&fromTplid=nedit",
+    "referrer": "http://console.cli.me:8000/center?activeTab=code",
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+  },
+  "qrcode_old_component": [
+    {
+      "id": 3830300,
+      "qrcode_id": 4270364,
+      "component_code": "text",
+      "identity_id": 0,
+      "sort": 0,
+      "status": 0,
+      "tpl_com_id": 654161,
+      "org_id": 94911424,
+      "batch_id": 0,
+      "real_group_id": 0,
+      "component_status": 0,
+      "template_component_id": 0,
+      "template_component_info": "",
+      "form_component_id": 0,
+      "form_component_title": "",
+      "attribute_list": [
+        {
+          "content_html": {
+            "id": 3295071,
+            "value": "<section data-theme-color=\"#205792\" data-is-vip=\"false\" data-change-color=\"on\" data-is-full=\"false\" data-key=\"image-tpl26\" class=\"stylelib-wrapper\" data-contenteditable=\"false\"><section class=\"x-vipIcon\"><section style=\"display: none\"><br></section></section><a data-cke-saved-href=\"navLink:\" href=\"navLink:\" data-link-no-cancel=\"true\" style=\"display: block; padding: 4px; background-color: #fff;border-radius: 6px;\" class=\"stylelib-image stylelib-image-children-1\"><section style=\"display: flex\"><section data-stylelib-backgroundimage=\"default\" data-stylelib-background-default-size=\"cover\" data-stylelib-has-img=\"img\" data-stylelib-can-preview=\"data-stylelib-can-preview\" style=\" width: 120px; height: auto; background-color: #f6f8f9; border-radius: 4px; min-width: 120px; min-height: 120px; \"><img data-cke-saved-src=\"https://gstatic.clewm.net/caoliao-resource/240829/e3a4ea_b22096b5.png\" src=\"https://gstatic.clewm.net/caoliao-resource/240829/e3a4ea_b22096b5.png\" data-stylelib-can-preview=\"preview\" data-key=\"image-tpl26\" data-img-src=\"https://gstatic.clewm.net/caoliao-resource/240829/e3a4ea_b22096b5.png\" alt=\"阿勒泰8日游\" style=\" width: 120px; height: 100%; background-size: cover; border-radius: 4px; min-width: 120px; min-height: 120px; \"></section><section style=\"padding: 8px 4px 8px 12px; flex: 1\"><section data-stylelib-stylename=\"color\" data-stylelib-varname=\"whiteBgThemeFontColor\" data-original-text=\"\" style=\"color:#205792;font-size:24px;\" data-contenteditable=\"true\"><p><strong><span style=\"font-size:24px; font-weight:600; line-height:normal\">阿勒泰8日游</span></strong></p></section><section data-stylelib-stylename=\"color\" data-stylelib-varname=\"whiteBgThemeFontColor\" style=\"flex:1;color:#205792;font-size:12px;\" data-contenteditable=\"true\"><p><span style=\"font-size:12px; font-weight:400\">一价全包0自费 0景交0保底 </span></p></section><section style=\"display: flex; align-items: flex-end; margin-top: 10px\"><section data-stylelib-stylename=\"color\" data-stylelib-varname=\"whiteBgThemeFontColor\" style=\"flex:1;color:#205792;font-size:16px;line-height:24px;\" data-contenteditable=\"true\"><p><strong><span style=\"font-size:24px; font-weight:600; line-height:normal\">18888</span></strong> <span style=\"font-size:14px; font-weight:500\"> 元/人 </span></p></section><section style=\"display: flex; flex-shrink: 0; align-items: center; max-width: 120px\"><section data-stylelib-stylename=\"color\" data-stylelib-varname=\"whiteBgThemeFontColor\" style=\"margin-right: 4px; display: inline-block; color: #205792; font-size: 12px;position: relative;\" data-contenteditable=\"true\"><span data-stylelib-detail=\"1\" style=\"font-size:12px; margin-right:4px\">点击查看</span> <span data-stylelib-detail=\"1\" data-stylelib-lightfontcolor=\"1\" style=\"display:inline-block; font-size:12px; font-weight:300; height:24px; transform:scaleY(1.8)\">&gt;</span></section></section></section></section></section> </a></section>",
+            "status": 0,
+            "attribute_id": 10,
+            "group_id": 0,
+            "real_group_id": 1,
+            "tpl_com_id": 654161,
+            "name": "文本 html 片段",
+            "is_default_value": 0,
+            "multiple_id": "295495",
+            "attribute_multiple_id": 5
+          }
+        }
+      ],
+      "group_count": 1,
+      "encryption": "6252f07e35caf3ee2db9d498efff91e0",
+      "type": "text",
+      "uniqueId": 0
+    }
+  ]
+}

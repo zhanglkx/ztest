@@ -4,8 +4,14 @@ const path = require("path");
 
 const spellhtml = (dirStr) => {
 
-    const items = fs.readdirSync(dirStr).map(file => {
-        
+    const items = fs.readdirSync(dirName).map(file => {
+
+        let str = file;
+
+        if (fs.lstatSync(dirName).isDirectory()) {
+            
+        }
+
     });
 
 };

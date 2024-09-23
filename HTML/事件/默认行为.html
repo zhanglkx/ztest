@@ -1,11 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <div>11</div>
-</body>
-</html>
+<block wx:elif="{{item.attrs['data-stylelib-can-preview'] === 'true'}}">
+  <block wx:if="{{item.attrs['data-stylelib-can-preview'] === 'preview'}}">
+    <view>1</view>
+  </block>
+  <!--富文本-->
+  <rich-text
+    wx:else
+    class="richText {{isDarkBgColor ? 'is-dark-bg-color' : ''}}"
+    style="{{Handler.getStyle(item.attrs.style,'block')}}{{editElementVisible ? ';display:none;' : ''}}"
+    nodes="{{Handler.setStyle(item)}}"
+  />
+</block>

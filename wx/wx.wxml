@@ -1,0 +1,521 @@
+<!--
+此文件为开发者工具生成，生成时间: 2024/9/6上午11:42:59
+使用方法：
+在 /Users/zlk/Documents/nears/project/wxa.cli.im/pages/code/code.wxml 引入模板
+
+```
+<import src="code.skeleton.wxml"/>
+<template is="skeleton" wx:if="{{loading}}" />
+```
+
+在 /Users/zlk/Documents/nears/project/wxa.cli.im/pages/code/code.wxss 中引入样式
+```
+@import "./code.skeleton.wxss";
+```
+
+更多详细信息可以参考文档：https://developers.weixin.qq.com/miniprogram/dev/devtools/skeleton.html
+-->
+<template name="skeleton">
+    <view class="sk-container">
+        <page-meta page-style="true"></page-meta>
+        <view class="page-wrapper no-msg-list has-code-content is-content-visible"
+            style="background:; ;padding-bottom: 0px;">
+            <view is="components/customHeader/customHeader" id="customHeader">
+                <view class="customHeader--customHeader customHeader--clearfix"
+                    style="background-color:#fff;height:89px;text-align:;;">
+                    <view
+                        class="customHeader--customTitle customHeader--small-width customHeader--normal-height sk-transparent sk-text-13-2692-132 sk-text"
+                        style="max-width: 142px; font-size: 19.1px; margin-left: 116.5px; margin-top: 54px; background-position-x: 50%;">
+                        三种状态</view>
+                </view>
+                <image class="customHeader--returnBack sk-image" style="top:32px;"></image>
+                <view class="customHeader--clickArea" style="height:63px"></view>
+                <view class="customHeader--fakeHeight" style="height:63px;background-color:#fff;"></view>
+            </view>
+            <view is="packages/common/components/customPCHeader/customPCHeader"></view>
+            <view class="abnormalRecord" id="abnormalRecord" style="  ">
+                <view class="x-head-wrapper sk-image"
+                    style="background:linear-gradient(to bottom, #ffffff 50%, #ffffff 100%);padding-bottom:0px;margin-top:-1px;padding-top:2px;">
+                    <view class="x-headRecord-wrapper">
+                        <view class="headRecord-index--historyContent">
+                            <view class="headRecord-index--historyName" style="padding-top:16px;padding-bottom:24px;">
+                                <view class="headRecord-index--codeHeaderTitle headRecord-index--font-size-20-2"
+                                    data-position="title3"
+                                    style="color: #000;font-style:; text-decoration:; font-weight:;">
+                                    <span style="color: #000;font-style:; text-decoration:; font-weight:;">
+                                        <text space="nbsp" class="sk-transparent sk-text-11-5385-660 sk-text"
+                                            style="background-position-x: 50%;">三种状态</text>
+                                    </span>
+                                </view>
+                            </view>
+                            <view is="pages/code/components/headModule/index"></view>
+                        </view>
+                        <view id="statusPanelTop"></view>
+                    </view>
+                </view>
+                <view class="content-wrapper" style="margin-top: 0px ">
+                    <view is="pages/code/components/codeListDivider/codeListDivider" id="codeListDivider">
+                        <view
+                            class="codeListDivider--container codeListDivider--x-isGradient codeListDivider--is-content-visible codeListDivider--is-render-complete"
+                            id="06174aba--container">
+                            <view is="pages/code/components/codePreview/categoryPreview/categoryPreview"
+                                class="codeListDivider--innerContainer" style="padding: 0;">
+                                <view>
+                                    <view class="categoryPreview--headerWrap">
+                                        <view
+                                            class="categoryPreview--warp-title-black categoryPreview--warp-title sk-transparent sk-text-14-2857-643 sk-text">
+                                            全部活码
+                                        </view>
+                                        <view class="categoryPreview--indicatoeWrap">
+                                            <view class="sk-transparent sk-text-18-7500-625 sk-text">查看全部</view>
+                                            <text
+                                                class="categoryPreview--clifont categoryPreview--anticon-cli-angle-right sk-pseudo sk-pseudo-circle"></text>
+                                        </view>
+                                    </view>
+                                    <view is="miniprogram_npm/weui-miniprogram/cells/cells">
+                                        <view
+                                            class="cover-weui-cells-bg-color cells--cover-weui-cells-bg-color weui-cells__group cells--weui-cells__group">
+                                            <view
+                                                class="weui-cells cells--weui-cells weui-cells_after-title cells--weui-cells_after-title sk-pseudo sk-pseudo-circle">
+                                                <view is="miniprogram_npm/weui-miniprogram/cell/cell" data-id="46279482"
+                                                    data-type="category" data-url="https://qr46.cn/sy/oQL9HR/s0VTnhd">
+                                                    <view
+                                                        class="weui-cell cell--weui-cell weui-cell_access cell--weui-cell_access cover-weui-cell-style cell--cover-weui-cell-style sk-pseudo sk-pseudo-circle"
+                                                        hover-class="true">
+                                                        <view class="weui-cell__hd cell--weui-cell__hd"></view>
+                                                        <view class="weui-cell__bd cell--weui-cell__bd">
+                                                            <view class="categoryPreview--item">
+                                                                <view class="categoryPreview--file-wrap">
+                                                                    <image class="categoryPreview--file-image sk-image"
+                                                                        mode="aspectFit"></image>
+                                                                </view>
+                                                                <view class="categoryPreview--item-content">
+                                                                    <view
+                                                                        class="categoryPreview--item-title sk-transparent sk-text-35-5769-424 sk-text">
+                                                                        面包屑测试
+                                                                    </view>
+                                                                    <view
+                                                                        class="categoryPreview--item-count sk-transparent sk-text-38-4615-718 sk-text">
+                                                                        0个
+                                                                    </view>
+                                                                </view>
+                                                            </view>
+                                                        </view>
+                                                        <view
+                                                            class="weui-cell__ft cell--weui-cell__ft weui-cell__ft_in-access cell--weui-cell__ft_in-access sk-pseudo sk-pseudo-circle">
+                                                        </view>
+                                                    </view>
+                                                </view>
+                                                <view is="miniprogram_npm/weui-miniprogram/cell/cell" data-id="46278976"
+                                                    data-type="category" data-url="https://qr46.cn/sy/oQL9HR/sOwjwvi">
+                                                    <view
+                                                        class="weui-cell cell--weui-cell weui-cell_access cell--weui-cell_access cover-weui-cell-style cell--cover-weui-cell-style weui-cell_wxss cell--weui-cell_wxss sk-pseudo sk-pseudo-circle"
+                                                        hover-class="true">
+                                                        <view class="weui-cell__hd cell--weui-cell__hd"></view>
+                                                        <view class="weui-cell__bd cell--weui-cell__bd">
+                                                            <view class="categoryPreview--item">
+                                                                <view class="categoryPreview--file-wrap">
+                                                                    <image class="categoryPreview--file-image sk-image"
+                                                                        mode="aspectFit"></image>
+                                                                </view>
+                                                                <view class="categoryPreview--item-content">
+                                                                    <view
+                                                                        class="categoryPreview--item-title sk-transparent sk-text-35-5769-217 sk-text">
+                                                                        首图替换
+                                                                    </view>
+                                                                    <view
+                                                                        class="categoryPreview--item-count sk-transparent sk-text-38-4615-8 sk-text">
+                                                                        2个
+                                                                    </view>
+                                                                </view>
+                                                            </view>
+                                                        </view>
+                                                        <view
+                                                            class="weui-cell__ft cell--weui-cell__ft weui-cell__ft_in-access cell--weui-cell__ft_in-access sk-pseudo sk-pseudo-circle">
+                                                        </view>
+                                                    </view>
+                                                </view>
+                                                <view is="miniprogram_npm/weui-miniprogram/cell/cell" data-id="46278947"
+                                                    data-type="category" data-url="https://qr46.cn/sy/oQL9HR/s4gCDdL">
+                                                    <view
+                                                        class="weui-cell cell--weui-cell weui-cell_access cell--weui-cell_access cover-weui-cell-style cell--cover-weui-cell-style weui-cell_wxss cell--weui-cell_wxss sk-pseudo sk-pseudo-circle"
+                                                        hover-class="true">
+                                                        <view class="weui-cell__hd cell--weui-cell__hd"></view>
+                                                        <view class="weui-cell__bd cell--weui-cell__bd">
+                                                            <view class="categoryPreview--item">
+                                                                <view class="categoryPreview--file-wrap">
+                                                                    <image class="categoryPreview--file-image sk-image"
+                                                                        mode="aspectFit"></image>
+                                                                </view>
+                                                                <view class="categoryPreview--item-content">
+                                                                    <view
+                                                                        class="categoryPreview--item-title sk-transparent sk-text-35-5769-475 sk-text">
+                                                                        行高
+                                                                    </view>
+                                                                    <view
+                                                                        class="categoryPreview--item-count sk-transparent sk-text-38-4615-723 sk-text">
+                                                                        1个
+                                                                    </view>
+                                                                </view>
+                                                            </view>
+                                                        </view>
+                                                        <view
+                                                            class="weui-cell__ft cell--weui-cell__ft weui-cell__ft_in-access cell--weui-cell__ft_in-access sk-pseudo sk-pseudo-circle">
+                                                        </view>
+                                                    </view>
+                                                </view>
+                                                <view is="miniprogram_npm/weui-miniprogram/cell/cell" data-id="46278875"
+                                                    data-type="category" data-url="https://qr46.cn/sy/oQL9HR/swMfPGq">
+                                                    <view
+                                                        class="weui-cell cell--weui-cell weui-cell_access cell--weui-cell_access cover-weui-cell-style cell--cover-weui-cell-style weui-cell_wxss cell--weui-cell_wxss sk-pseudo sk-pseudo-circle"
+                                                        hover-class="true">
+                                                        <view class="weui-cell__hd cell--weui-cell__hd"></view>
+                                                        <view class="weui-cell__bd cell--weui-cell__bd">
+                                                            <view class="categoryPreview--item">
+                                                                <view class="categoryPreview--file-wrap">
+                                                                    <image class="categoryPreview--file-image sk-image"
+                                                                        mode="aspectFit"></image>
+                                                                </view>
+                                                                <view class="categoryPreview--item-content">
+                                                                    <view
+                                                                        class="categoryPreview--item-title sk-transparent sk-text-35-5769-546 sk-text">
+                                                                        空白模板
+                                                                    </view>
+                                                                    <view
+                                                                        class="categoryPreview--item-count sk-transparent sk-text-38-4615-567 sk-text">
+                                                                        1个
+                                                                    </view>
+                                                                </view>
+                                                            </view>
+                                                        </view>
+                                                        <view
+                                                            class="weui-cell__ft cell--weui-cell__ft weui-cell__ft_in-access cell--weui-cell__ft_in-access sk-pseudo sk-pseudo-circle">
+                                                        </view>
+                                                    </view>
+                                                </view>
+                                                <view is="miniprogram_npm/weui-miniprogram/cell/cell" data-id="46278808"
+                                                    data-type="category" data-url="https://qr46.cn/sy/oQL9HR/sjBmkOF">
+                                                    <view
+                                                        class="weui-cell cell--weui-cell weui-cell_access cell--weui-cell_access cover-weui-cell-style cell--cover-weui-cell-style weui-cell_wxss cell--weui-cell_wxss sk-pseudo sk-pseudo-circle"
+                                                        hover-class="true">
+                                                        <view class="weui-cell__hd cell--weui-cell__hd"></view>
+                                                        <view class="weui-cell__bd cell--weui-cell__bd">
+                                                            <view class="categoryPreview--item">
+                                                                <view class="categoryPreview--file-wrap">
+                                                                    <image class="categoryPreview--file-image sk-image"
+                                                                        mode="aspectFit"></image>
+                                                                </view>
+                                                                <view class="categoryPreview--item-content">
+                                                                    <view
+                                                                        class="categoryPreview--item-title sk-transparent sk-text-35-5769-600 sk-text">
+                                                                        主页
+                                                                    </view>
+                                                                    <view
+                                                                        class="categoryPreview--item-count sk-transparent sk-text-38-4615-456 sk-text">
+                                                                        14个
+                                                                    </view>
+                                                                </view>
+                                                            </view>
+                                                        </view>
+                                                        <view
+                                                            class="weui-cell__ft cell--weui-cell__ft weui-cell__ft_in-access cell--weui-cell__ft_in-access sk-pseudo sk-pseudo-circle">
+                                                        </view>
+                                                    </view>
+                                                </view>
+                                                <view is="miniprogram_npm/weui-miniprogram/cell/cell" data-id="46277597"
+                                                    data-type="category" data-url="https://qr46.cn/sy/oQL9HR/sdkV2Cm">
+                                                    <view
+                                                        class="weui-cell cell--weui-cell weui-cell_access cell--weui-cell_access cover-weui-cell-style cell--cover-weui-cell-style weui-cell_wxss cell--weui-cell_wxss sk-pseudo sk-pseudo-circle"
+                                                        hover-class="true">
+                                                        <view class="weui-cell__hd cell--weui-cell__hd"></view>
+                                                        <view class="weui-cell__bd cell--weui-cell__bd">
+                                                            <view class="categoryPreview--item">
+                                                                <view class="categoryPreview--file-wrap">
+                                                                    <image class="categoryPreview--file-image sk-image"
+                                                                        mode="aspectFit"></image>
+                                                                </view>
+                                                                <view class="categoryPreview--item-content">
+                                                                    <view
+                                                                        class="categoryPreview--item-title sk-transparent sk-text-35-5769-440 sk-text">
+                                                                        未命名目录
+                                                                    </view>
+                                                                    <view
+                                                                        class="categoryPreview--item-count sk-transparent sk-text-38-4615-618 sk-text">
+                                                                        0个
+                                                                    </view>
+                                                                </view>
+                                                            </view>
+                                                        </view>
+                                                        <view
+                                                            class="weui-cell__ft cell--weui-cell__ft weui-cell__ft_in-access cell--weui-cell__ft_in-access sk-pseudo sk-pseudo-circle">
+                                                        </view>
+                                                    </view>
+                                                </view>
+                                            </view>
+                                        </view>
+                                    </view>
+                                    <view id="ea10850e--monitoringpoint" style="height: 2px; width: 2px;"></view>
+                                </view>
+                            </view>
+                            <view is="pages/code/components/codePreview/categoryPreview/categoryPreview"
+                                class="codeListDivider--innerContainer" style="padding: 0;">
+                                <view>
+                                    <view class="categoryPreview--headerWrap">
+                                        <view
+                                            class="categoryPreview--warp-title-black categoryPreview--warp-title sk-transparent sk-text-14-2857-425 sk-text">
+                                            全部活码
+                                        </view>
+                                        <view class="categoryPreview--indicatoeWrap">
+                                            <view class="sk-transparent sk-text-18-7500-572 sk-text">查看全部</view>
+                                            <text
+                                                class="categoryPreview--clifont categoryPreview--anticon-cli-angle-right sk-pseudo sk-pseudo-circle"></text>
+                                        </view>
+                                    </view>
+                                    <view class="categoryPreview--card-style">
+                                        <view class="categoryPreview--card-item categoryPreview--white-radio-mode"
+                                            data-id="46279482" data-type="category"
+                                            data-url="https://qr46.cn/sy/oQL9HR/s0VTnhd">
+                                            <view class="categoryPreview--file-image-wrap">
+                                                <image class="categoryPreview--file-icon-image sk-image"></image>
+                                            </view>
+                                            <view class="categoryPreview--item-content">
+                                                <view
+                                                    class="categoryPreview--item-title sk-transparent sk-text-18-7500-511 sk-text"
+                                                    style="margin-left: 12px;">
+                                                    面包屑测试
+                                                </view>
+                                            </view>
+                                        </view>
+                                        <view class="categoryPreview--card-item categoryPreview--white-radio-mode"
+                                            data-id="46278976" data-type="category"
+                                            data-url="https://qr46.cn/sy/oQL9HR/sOwjwvi">
+                                            <view class="categoryPreview--file-image-wrap">
+                                                <image class="categoryPreview--file-image-card sk-image"
+                                                    mode="aspectFill"></image>
+                                            </view>
+                                            <view class="categoryPreview--item-content">
+                                                <view
+                                                    class="categoryPreview--item-title sk-transparent sk-text-18-7500-906 sk-text"
+                                                    style="margin-left: 12px;">
+                                                    首图替换
+                                                </view>
+                                            </view>
+                                        </view>
+                                        <view class="categoryPreview--card-item categoryPreview--white-radio-mode"
+                                            data-id="46278947" data-type="category"
+                                            data-url="https://qr46.cn/sy/oQL9HR/s4gCDdL">
+                                            <view class="categoryPreview--file-image-wrap">
+                                                <image class="categoryPreview--file-icon-image sk-image"></image>
+                                            </view>
+                                            <view class="categoryPreview--item-content">
+                                                <view
+                                                    class="categoryPreview--item-title sk-transparent sk-text-18-7500-807 sk-text"
+                                                    style="margin-left: 12px;">
+                                                    行高
+                                                </view>
+                                            </view>
+                                        </view>
+                                        <view class="categoryPreview--card-item categoryPreview--white-radio-mode"
+                                            data-id="46278875" data-type="category"
+                                            data-url="https://qr46.cn/sy/oQL9HR/swMfPGq">
+                                            <view class="categoryPreview--file-image-wrap">
+                                                <image class="categoryPreview--file-icon-image sk-image"></image>
+                                            </view>
+                                            <view class="categoryPreview--item-content">
+                                                <view
+                                                    class="categoryPreview--item-title sk-transparent sk-text-18-7500-966 sk-text"
+                                                    style="margin-left: 12px;">
+                                                    空白模板
+                                                </view>
+                                            </view>
+                                        </view>
+                                        <view class="categoryPreview--card-item categoryPreview--white-radio-mode"
+                                            data-id="46278808" data-type="category"
+                                            data-url="https://qr46.cn/sy/oQL9HR/sjBmkOF">
+                                            <view class="categoryPreview--file-image-wrap">
+                                                <image class="categoryPreview--file-image-card sk-image"
+                                                    mode="aspectFill"></image>
+                                            </view>
+                                            <view class="categoryPreview--item-content">
+                                                <view
+                                                    class="categoryPreview--item-title sk-transparent sk-text-18-7500-302 sk-text"
+                                                    style="margin-left: 12px;">
+                                                    主页
+                                                </view>
+                                            </view>
+                                        </view>
+                                        <view class="categoryPreview--card-item categoryPreview--white-radio-mode"
+                                            data-id="46277597" data-type="category"
+                                            data-url="https://qr46.cn/sy/oQL9HR/sdkV2Cm">
+                                            <view class="categoryPreview--file-image-wrap">
+                                                <image class="categoryPreview--file-icon-image sk-image"></image>
+                                            </view>
+                                            <view class="categoryPreview--item-content">
+                                                <view
+                                                    class="categoryPreview--item-title sk-transparent sk-text-18-7500-481 sk-text"
+                                                    style="margin-left: 12px;">
+                                                    未命名目录
+                                                </view>
+                                            </view>
+                                        </view>
+                                    </view>
+                                    <view id="3e3a0ba4--monitoringpoint" style="height: 2px; width: 2px;"></view>
+                                </view>
+                            </view>
+                            <view is="pages/code/components/codePreview/categoryPreview/categoryPreview"
+                                class="codeListDivider--innerContainer" style="padding: 0;">
+                                <view>
+                                    <view class="categoryPreview--headerWrap">
+                                        <view
+                                            class="categoryPreview--warp-title-black categoryPreview--warp-title sk-transparent sk-text-14-2857-546 sk-text">
+                                            全部活码
+                                        </view>
+                                        <view class="categoryPreview--indicatoeWrap">
+                                            <view class="sk-transparent sk-text-18-7500-487 sk-text">查看全部</view>
+                                            <text
+                                                class="categoryPreview--clifont categoryPreview--anticon-cli-angle-right sk-pseudo sk-pseudo-circle"></text>
+                                        </view>
+                                    </view>
+                                    <view class="categoryPreview--card-style">
+                                        <view
+                                            class="categoryPreview--card-item categoryPreview--card-item-lite categoryPreview--white-radio-mode"
+                                            data-id="46279482" data-type="category"
+                                            data-url="https://qr46.cn/sy/oQL9HR/s0VTnhd">
+                                            <view
+                                                class="categoryPreview--file-image-wrap categoryPreview--file-image-wrap-lite">
+                                                <image
+                                                    class="categoryPreview--file-icon-image categoryPreview--file-image-lite sk-image">
+                                                </image>
+                                            </view>
+                                            <view class="categoryPreview--item-content">
+                                                <view
+                                                    class="categoryPreview--item-title sk-transparent sk-text-18-7500-91 sk-text"
+                                                    style="margin-left: 12px;">
+                                                    面包屑测试
+                                                </view>
+                                            </view>
+                                        </view>
+                                        <view
+                                            class="categoryPreview--card-item categoryPreview--card-item-lite categoryPreview--white-radio-mode"
+                                            data-id="46278976" data-type="category"
+                                            data-url="https://qr46.cn/sy/oQL9HR/sOwjwvi">
+                                            <view
+                                                class="categoryPreview--file-image-wrap categoryPreview--file-image-wrap-lite">
+                                                <image
+                                                    class="categoryPreview--file-image-card categoryPreview--file-image-card-lite sk-image"
+                                                    mode="aspectFill"></image>
+                                            </view>
+                                            <view class="categoryPreview--item-content">
+                                                <view
+                                                    class="categoryPreview--item-title sk-transparent sk-text-18-7500-413 sk-text"
+                                                    style="margin-left: 12px;">
+                                                    首图替换
+                                                </view>
+                                            </view>
+                                        </view>
+                                        <view
+                                            class="categoryPreview--card-item categoryPreview--card-item-lite categoryPreview--white-radio-mode"
+                                            data-id="46278947" data-type="category"
+                                            data-url="https://qr46.cn/sy/oQL9HR/s4gCDdL">
+                                            <view
+                                                class="categoryPreview--file-image-wrap categoryPreview--file-image-wrap-lite">
+                                                <image
+                                                    class="categoryPreview--file-icon-image categoryPreview--file-image-lite sk-image">
+                                                </image>
+                                            </view>
+                                            <view class="categoryPreview--item-content">
+                                                <view
+                                                    class="categoryPreview--item-title sk-transparent sk-text-18-7500-945 sk-text"
+                                                    style="margin-left: 12px;">
+                                                    行高
+                                                </view>
+                                            </view>
+                                        </view>
+                                        <view
+                                            class="categoryPreview--card-item categoryPreview--card-item-lite categoryPreview--white-radio-mode"
+                                            data-id="46278875" data-type="category"
+                                            data-url="https://qr46.cn/sy/oQL9HR/swMfPGq">
+                                            <view
+                                                class="categoryPreview--file-image-wrap categoryPreview--file-image-wrap-lite">
+                                                <image
+                                                    class="categoryPreview--file-icon-image categoryPreview--file-image-lite sk-image">
+                                                </image>
+                                            </view>
+                                            <view class="categoryPreview--item-content">
+                                                <view
+                                                    class="categoryPreview--item-title sk-transparent sk-text-18-7500-779 sk-text"
+                                                    style="margin-left: 12px;">
+                                                    空白模板
+                                                </view>
+                                            </view>
+                                        </view>
+                                        <view
+                                            class="categoryPreview--card-item categoryPreview--card-item-lite categoryPreview--white-radio-mode"
+                                            data-id="46278808" data-type="category"
+                                            data-url="https://qr46.cn/sy/oQL9HR/sjBmkOF">
+                                            <view
+                                                class="categoryPreview--file-image-wrap categoryPreview--file-image-wrap-lite">
+                                                <image
+                                                    class="categoryPreview--file-image-card categoryPreview--file-image-card-lite sk-image"
+                                                    mode="aspectFill"></image>
+                                            </view>
+                                            <view class="categoryPreview--item-content">
+                                                <view
+                                                    class="categoryPreview--item-title sk-transparent sk-text-18-7500-959 sk-text"
+                                                    style="margin-left: 12px;">
+                                                    主页
+                                                </view>
+                                            </view>
+                                        </view>
+                                        <view
+                                            class="categoryPreview--card-item categoryPreview--card-item-lite categoryPreview--white-radio-mode"
+                                            data-id="46277597" data-type="category"
+                                            data-url="https://qr46.cn/sy/oQL9HR/sdkV2Cm">
+                                            <view
+                                                class="categoryPreview--file-image-wrap categoryPreview--file-image-wrap-lite">
+                                                <image
+                                                    class="categoryPreview--file-icon-image categoryPreview--file-image-lite sk-image">
+                                                </image>
+                                            </view>
+                                            <view class="categoryPreview--item-content">
+                                                <view
+                                                    class="categoryPreview--item-title sk-transparent sk-text-18-7500-811 sk-text"
+                                                    style="margin-left: 12px;">
+                                                    未命名目录
+                                                </view>
+                                            </view>
+                                        </view>
+                                    </view>
+                                    <view id="46d46125--monitoringpoint" style="height: 2px; width: 2px;"></view>
+                                </view>
+                            </view>
+                        </view>
+                    </view>
+                </view>
+            </view>
+
+            <view class="footer-between" style="margin-bottom: 32px;">
+                <span class="footer-between-content light" style="border-color: rgba(120, 130, 140, 0.13);">
+                    <view class="action-btn collect-btn bottom-collect sk-pseudo sk-pseudo-circle"
+                        hover-class="share-collect-btn-hover-light"
+                        style="color: #617891;;border-color: rgba(0, 0, 0, 0.32);;border-radius: 22px">
+                        <span>
+                            <text class="clifont anticon-- sk-pseudo sk-pseudo-circle" style="margin-top: -3px;"></text>
+                            <text style="position: relative; top: 0px; padding-left: 4px; background-position-x: 50%;"
+                                class="sk-transparent sk-text-32-8571-256 sk-text">收藏</text>
+                        </span>
+                    </view>
+                    <view class="action-btn more-btn" hover-class="share-collect-btn-hover-light"
+                        style="color: #617891;;border-color: rgba(0, 0, 0, 0.32);;; display: flex; align-items: center; justify-content: center;">
+                        <span>
+                            <text class="clifont anticon-more sk-pseudo sk-pseudo-circle"></text>
+                            <text style="position: relative; top: 0px; padding-left: 4px; background-position-x: 50%;"
+                                class="sk-transparent sk-text-32-8571-272 sk-text">更多</text>
+                        </span>
+                    </view>
+                </span>
+            </view>
+        </view>
+    </view>
+    </view>
+</template>

@@ -1,0 +1,107 @@
+{
+  "children": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [{ "text": "阿勒泰8日游", "type": "text" }],
+                  "name": "span",
+                  "attrs": { "style": "font-size:24px; font-weight:600; line-height:normal;box-sizing:border-box;" }
+                }
+              ],
+              "name": "strong",
+              "attrs": { "style": "box-sizing:border-box;" }
+            }
+          ],
+          "name": "p",
+          "attrs": { "style": "box-sizing:border-box;" }
+        }
+      ],
+      "name": "div",
+      "attrs": { "style": "color:#205792;font-size:24px;box-sizing:border-box;", "data-stylelib-stylename": "color" }
+    },
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "children": [{ "text": "一价全包0自费 0景交0保底 ", "type": "text" }],
+              "name": "span",
+              "attrs": { "style": "font-size:12px; font-weight:400;box-sizing:border-box;" }
+            }
+          ],
+          "name": "p",
+          "attrs": { "style": "box-sizing:border-box;" }
+        }
+      ],
+      "name": "div",
+      "attrs": { "style": "flex:1;color:#205792;font-size:12px;box-sizing:border-box;", "data-stylelib-stylename": "color" }
+    },
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "children": [{ "text": "18888", "type": "text" }],
+                      "name": "span",
+                      "attrs": { "style": "font-size:24px; font-weight:600; line-height:normal;box-sizing:border-box;" }
+                    }
+                  ],
+                  "name": "strong",
+                  "attrs": { "style": "box-sizing:border-box;" }
+                },
+                {
+                  "children": [{ "text": " 元/人 ", "type": "text" }],
+                  "name": "span",
+                  "attrs": { "style": "font-size:14px; font-weight:500;box-sizing:border-box;" }
+                }
+              ],
+              "name": "p",
+              "attrs": { "style": "box-sizing:border-box;" }
+            }
+          ],
+          "name": "div",
+          "attrs": { "style": "flex:1;color:#205792;font-size:16px;line-height:24px;box-sizing:border-box;", "data-stylelib-stylename": "color" }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [{ "text": "点击查看", "type": "text" }],
+                  "name": "span",
+                  "attrs": { "style": "font-size:12px; margin-right:4px;box-sizing:border-box;" }
+                },
+                {
+                  "children": [{ "text": "&gt;", "type": "text" }],
+                  "name": "span",
+                  "attrs": {
+                    "style": "display:inline-block; font-size:12px; font-weight:300; height:24px; transform:scaleY(1.8);box-sizing:border-box;"
+                  }
+                }
+              ],
+              "name": "div",
+              "attrs": {
+                "style": "margin-right: 4px; display: inline-block; color: #205792; font-size: 12px;position: relative;box-sizing:border-box;",
+                "data-stylelib-stylename": "color"
+              }
+            }
+          ],
+          "name": "div",
+          "attrs": { "style": "display: flex; flex-shrink: 0; align-items: center; max-width: 120px;box-sizing:border-box;" }
+        }
+      ],
+      "name": "div",
+      "attrs": { "style": "display: flex; align-items: flex-end; margin-top: 10px;box-sizing:border-box;" }
+    }
+  ],
+  "name": "div",
+  "attrs": { "style": "padding: 8px 4px 8px 12px; flex: 1;box-sizing:border-box;" }
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Canvas绘图示例</title>
+    <style>
+        #drawing {
+            width: 200px;
+            /* 设置显示宽度 */
+            height: 200px;
+            /* 设置显示高度 */
+        }
+    </style>
+</head>
+
+<body>
+    <canvas id="drawing" width="400" height="400"></canvas> <!-- 设置实际绘制尺寸为2倍 -->
+    <script>
+        let drawing = document.getElementById("drawing");
+        // 确保浏览器支持<canvas>
+        if (drawing.getContext) {
+            let context = drawing.getContext("2d");
+            context.scale(3, 3);  // 缩放绘图上下文，以匹配显示尺寸
+
+            context.fillStyle = "#ff0000";   // 设置填充样式为红色
+            context.save();                 // 保存当前绘图状态
+
+            context.fillStyle = "#00ff00";  // 设置填充样式为绿色
+            context.translate(100, 100);    // 将绘图原点平移到 (100, 100)
+            context.save();                 // 再次保存当前绘图状态
+
+            context.fillStyle = "#0000ff";  // 设置填充样式为蓝色
+            context.fillRect(0, 0, 100, 200); // 在平移后的原点 (100, 100) 绘制一个蓝色矩形
+
+            context.restore();              // 恢复到上一次保存的状态 (填充样式为绿色，原点位置在 (100, 100))
+            context.fillRect(10, 10, 100, 200); // 在 (110, 110) 绘制一个绿色矩形
+
+            context.restore();              // 再次恢复到上一次保存的状态 (填充样式为红色，原点位置在 (0, 0))
+            context.fillRect(0, 0, 100, 200); // 在 (0, 0) 绘制一个红色矩形
+
+        }
+    </script>
+</body>
+
+</html>

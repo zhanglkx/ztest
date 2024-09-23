@@ -1,0 +1,1527 @@
+{
+  "qrcode_compontent": [
+    {
+      "id": 317629857,
+      "qrcode_id": 256807285,
+      "component_code": "text",
+      "identity_id": 0,
+      "sort": 0,
+      "status": 0,
+      "tpl_com_id": 279931514,
+      "org_id": 82282788,
+      "batch_id": 0,
+      "component_status": 0,
+      "template_component_info": "",
+      "form_component_id": 0,
+      "form_component_title": "",
+      "attribute_list": [
+        {
+          "content_html": {
+            "id": 150321200,
+            "value": "<p><span style=\"font-size:24px\"><strong>全部路线</strong></span></p><p><span style=\"color:#77818c\"><span style=\"font-size:14px\">选一片你最想收藏的土地</span></span></p>",
+            "status": 0,
+            "attribute_id": 4,
+            "group_id": 1,
+            "real_group_id": 1,
+            "tpl_com_id": 279931514,
+            "name": "文本 html 片段",
+            "is_default_value": 0,
+            "multiple_id": "141352437",
+            "attribute_multiple_id": 1
+          }
+        }
+      ],
+      "group_count": 1,
+      "encryption": "ccb0a38b44de11089ad7983ee18594a2"
+    },
+    {
+      "id": 317629858,
+      "qrcode_id": 256807285,
+      "component_code": "text",
+      "identity_id": 0,
+      "sort": 1,
+      "status": 0,
+      "tpl_com_id": 279931515,
+      "org_id": 82282788,
+      "batch_id": 0,
+      "component_status": 0,
+      "template_component_info": "",
+      "form_component_id": 0,
+      "form_component_title": "",
+      "attribute_list": [
+        {
+          "content_html": {
+            "id": 150321201,
+            "value": "<section data-theme-color=\"#503225\" data-is-vip=\"false\" data-change-color=\"on\" data-key=\"image-tpl18\" class=\"stylelib-list stylelib-list-horizontal stylelib-wrapper\" data-contenteditable=\"false\"><section class=\"x-vipIcon\"><section style=\"display:none;\"><br></section></section><section data-white-background=\"\" style=\"position: relative;border-radius:6px;padding-bottom: 12px;padding-top: 12px\"><section style=\"display: flex;flex-wrap: wrap;\"><section style=\"padding: 12px 4px;width: 33.33333333%;\" class=\"stylelib-list-item\"><a data-cke-saved-href=\"navLink:https://qr61.cn/o2eikt/q0oGDyp?type%3D16%26list_name%3D%E5%8D%8E%E4%B8%9C%E8%B7%AF%E7%BA%BF%E5%90%88%E9%9B%86%26package_id%3D3675%26qrcode_id%3D235860592\" href=\"navLink:https://qr61.cn/o2eikt/q0oGDyp?type%3D16%26list_name%3D%E5%8D%8E%E4%B8%9C%E8%B7%AF%E7%BA%BF%E5%90%88%E9%9B%86%26package_id%3D3675%26qrcode_id%3D235860592\" data-link-no-cancel=\"true\" target=\"_blank\" style=\"display: block;\" class=\"stylelib-image\"><section data-stylelib-backgroundimage=\"image\" data-stylelib-stylename=\"border-radius\" data-stylelib-background-default-size=\"cover\" data-file-uid=\"rc-upload-1717138550545-8\" data-image-url-info=\"{&quot;filename&quot;:&quot;截屏2024-05-30 上午10.49.43.png&quot;,&quot;filesize_byte&quot;:&quot;244119&quot;,&quot;filesize&quot;:&quot;238.4 KB&quot;,&quot;info&quot;:[724,714],&quot;url&quot;:&quot;https:\\/\\/ncstatic.clewm.net\\/rsrc\\/2024\\/0912\\/10\\/d46c813ca3fa765008b2882fe9e6eb28.png&quot;,&quot;path&quot;:&quot;https:\\/\\/ncstatic.clewm.net\\/rsrc\\/2024\\/0912\\/10\\/d46c813ca3fa765008b2882fe9e6eb28.png&quot;,&quot;image_resolution&quot;:[],&quot;image_width&quot;:724,&quot;image_height&quot;:714,&quot;designId&quot;:&quot;&quot;,&quot;id&quot;:0,&quot;source_id&quot;:&quot;1585624309&quot;}\" data-stylelib-delete-image-info=\"\" style=\"width: 80px; height: 80px; margin: 0px auto; border-radius: 3px; background-color: rgb(255, 255, 255); background-image: url(&quot;https://ncstatic.clewm.net/rsrc/2024/0531/14/455883beba03792e2f0b7091cfbc91e3.png&quot;); background-repeat: no-repeat; background-position: center center; background-size: cover; position: relative;\"><section style=\"display:none;\"><br></section></section><section data-stylelib-tpl-stylename-1=\"color\" data-stylelib-tpl-stylevalue-1=\"&lt;?=isDarkBgColor ? 'rgba(255, 255, 255)' : '#666'?&gt;\" style=\"font-size: 14px; line-height: 1.4; color: rgb(102, 102, 102); text-align: center; padding-top: 7px;\" data-contenteditable=\"true\"><p><span style=\"color:#3f4b59\"><span style=\"font-size:15px\">华东</span></span></p></section> </a></section><section style=\"padding: 12px 4px;width: 33.33333333%;\" class=\"stylelib-list-item\"><a data-cke-saved-href=\"navLink:https://qr61.cn/o2eikt/qE2wq7G?type%3D16%26list_name%3D%E5%8D%8E%E4%B8%AD%E8%B7%AF%E7%BA%BF%E5%90%88%E9%9B%86%26package_id%3D3676%26qrcode_id%3D235865557\" href=\"navLink:https://qr61.cn/o2eikt/qE2wq7G?type%3D16%26list_name%3D%E5%8D%8E%E4%B8%AD%E8%B7%AF%E7%BA%BF%E5%90%88%E9%9B%86%26package_id%3D3676%26qrcode_id%3D235865557\" data-link-no-cancel=\"true\" target=\"_blank\" style=\"display: block;\" class=\"stylelib-image\"><section data-stylelib-backgroundimage=\"image\" data-stylelib-stylename=\"border-radius\" data-stylelib-background-default-size=\"cover\" data-file-uid=\"rc-upload-1717138550545-12\" data-image-url-info=\"{&quot;filename&quot;:&quot;截屏2024-05-30 上午10.49.28.png&quot;,&quot;filesize_byte&quot;:&quot;179938&quot;,&quot;filesize&quot;:&quot;175.72 KB&quot;,&quot;info&quot;:[670,664],&quot;url&quot;:&quot;https:\\/\\/ncstatic.clewm.net\\/rsrc\\/2024\\/0912\\/10\\/efce603223824958f615628790ffd85f.png&quot;,&quot;path&quot;:&quot;https:\\/\\/ncstatic.clewm.net\\/rsrc\\/2024\\/0912\\/10\\/efce603223824958f615628790ffd85f.png&quot;,&quot;image_resolution&quot;:[],&quot;image_width&quot;:670,&quot;image_height&quot;:664,&quot;designId&quot;:&quot;&quot;,&quot;id&quot;:0,&quot;source_id&quot;:&quot;1585624315&quot;}\" data-stylelib-delete-image-info=\"\" style=\"width: 80px; height: 80px; margin: 0px auto; border-radius: 3px; background-color: rgb(255, 255, 255); background-image: url(&quot;https://ncstatic.clewm.net/rsrc/2024/0531/14/b943cb730192eea218f37f16852e3ddb.png&quot;); background-repeat: no-repeat; background-position: center center; background-size: cover; position: relative;\"><section style=\"display:none;\"><br></section></section><section data-stylelib-tpl-stylename-1=\"color\" data-stylelib-tpl-stylevalue-1=\"&lt;?=isDarkBgColor ? 'rgba(255, 255, 255)' : '#666'?&gt;\" style=\"font-size: 14px; line-height: 1.4; color: rgb(102, 102, 102); text-align: center; padding-top: 7px;\" data-contenteditable=\"true\"><p><span style=\"font-size:16px\">华中</span></p></section> </a></section><section style=\"padding: 12px 4px;width: 33.33333333%;\" class=\"stylelib-list-item\"><a data-cke-saved-href=\"navLink:https://qr61.cn/o2eikt/qgVllOL?type%3D16%26list_name%3D%E4%BA%91%E5%8D%97%E6%97%85%E6%B8%B8%E8%A1%8C%E7%A8%8B%26package_id%3D3678%26qrcode_id%3D232431397\" href=\"navLink:https://qr61.cn/o2eikt/qgVllOL?type%3D16%26list_name%3D%E4%BA%91%E5%8D%97%E6%97%85%E6%B8%B8%E8%A1%8C%E7%A8%8B%26package_id%3D3678%26qrcode_id%3D232431397\" data-link-no-cancel=\"true\" target=\"_blank\" style=\"display: block;\" class=\"stylelib-image\"><section data-stylelib-backgroundimage=\"image\" data-stylelib-stylename=\"border-radius\" data-stylelib-background-default-size=\"cover\" data-file-uid=\"rc-upload-1717138550545-10\" data-image-url-info=\"{&quot;filename&quot;:&quot;截屏2024-05-30 上午10.49.36.png&quot;,&quot;filesize_byte&quot;:&quot;296626&quot;,&quot;filesize&quot;:&quot;289.67 KB&quot;,&quot;info&quot;:[732,812],&quot;url&quot;:&quot;https:\\/\\/ncstatic.clewm.net\\/rsrc\\/2024\\/0912\\/10\\/61b934a762033b2b3c5a2b6e127d81c3.png&quot;,&quot;path&quot;:&quot;https:\\/\\/ncstatic.clewm.net\\/rsrc\\/2024\\/0912\\/10\\/61b934a762033b2b3c5a2b6e127d81c3.png&quot;,&quot;image_resolution&quot;:[],&quot;image_width&quot;:732,&quot;image_height&quot;:812,&quot;designId&quot;:&quot;&quot;,&quot;id&quot;:0,&quot;source_id&quot;:&quot;1585624317&quot;}\" data-stylelib-delete-image-info=\"\" style=\"width: 80px; height: 80px; margin: 0px auto; border-radius: 3px; background-color: rgb(255, 255, 255); background-image: url(&quot;https://ncstatic.clewm.net/rsrc/2024/0531/14/2afa4fdd33c9029a4133c114408d82ba.png&quot;); background-repeat: no-repeat; background-position: center center; background-size: cover; position: relative;\"><section style=\"display:none;\"><br></section></section><section data-stylelib-tpl-stylename-1=\"color\" data-stylelib-tpl-stylevalue-1=\"&lt;?=isDarkBgColor ? 'rgba(255, 255, 255)' : '#666'?&gt;\" style=\"font-size: 14px; line-height: 1.4; color: rgb(102, 102, 102); text-align: center; padding-top: 7px;\" data-contenteditable=\"true\"><p><span style=\"font-size:16px\">西南</span></p></section> </a></section><section style=\"padding: 12px 4px;width: 33.33333333%;\" class=\"stylelib-list-item\"><a data-cke-saved-href=\"navLink:https://qr61.cn/o2eikt/qi6aCdv?type%3D16%26list_name%3D%E5%B7%9D%E8%97%8F%E8%B7%AF%E7%BA%BF%E5%90%88%E9%9B%86%26package_id%3D3677%26qrcode_id%3D235866243\" href=\"navLink:https://qr61.cn/o2eikt/qi6aCdv?type%3D16%26list_name%3D%E5%B7%9D%E8%97%8F%E8%B7%AF%E7%BA%BF%E5%90%88%E9%9B%86%26package_id%3D3677%26qrcode_id%3D235866243\" data-link-no-cancel=\"true\" target=\"_blank\" style=\"display: block;\" class=\"stylelib-image\"><section data-stylelib-backgroundimage=\"image\" data-stylelib-stylename=\"border-radius\" data-stylelib-background-default-size=\"cover\" data-file-uid=\"rc-upload-1717138550545-16\" data-image-url-info=\"{&quot;filename&quot;:&quot;截屏2024-05-30 上午10.49.14.png&quot;,&quot;filesize_byte&quot;:&quot;268391&quot;,&quot;filesize&quot;:&quot;262.1 KB&quot;,&quot;info&quot;:[736,702],&quot;url&quot;:&quot;https:\\/\\/ncstatic.clewm.net\\/rsrc\\/2024\\/0912\\/10\\/12ce6837c2923d79cf34e84d5b2b3821.png&quot;,&quot;path&quot;:&quot;https:\\/\\/ncstatic.clewm.net\\/rsrc\\/2024\\/0912\\/10\\/12ce6837c2923d79cf34e84d5b2b3821.png&quot;,&quot;image_resolution&quot;:[],&quot;image_width&quot;:736,&quot;image_height&quot;:702,&quot;designId&quot;:&quot;&quot;,&quot;id&quot;:0,&quot;source_id&quot;:&quot;1585624318&quot;}\" data-stylelib-delete-image-info=\"\" style=\"width: 80px; height: 80px; margin: 0px auto; border-radius: 3px; background-color: rgb(255, 255, 255); background-image: url(&quot;https://ncstatic.clewm.net/rsrc/2024/0531/14/4325c450b0a7b065602a9934cd4324c0.png&quot;); background-repeat: no-repeat; background-position: center center; background-size: cover; position: relative;\"><section style=\"display:none;\"><br></section></section><section data-stylelib-tpl-stylename-1=\"color\" data-stylelib-tpl-stylevalue-1=\"&lt;?=isDarkBgColor ? 'rgba(255, 255, 255)' : '#666'?&gt;\" style=\"font-size: 14px; line-height: 1.4; color: rgb(102, 102, 102); text-align: center; padding-top: 7px;\" data-contenteditable=\"true\"><p><span style=\"font-size:16px\">川藏</span></p></section> </a></section><section style=\"padding: 12px 4px;width: 33.33333333%;\" class=\"stylelib-list-item\"><a data-cke-saved-href=\"navLink:https://qr61.cn/o2eikt/q5H3kCy?type%3D16%26list_name%3D%E7%94%98%E9%9D%92%E6%97%85%E6%B8%B8%E8%A1%8C%E7%A8%8B%26package_id%3D3679%26qrcode_id%3D235867729\" href=\"navLink:https://qr61.cn/o2eikt/q5H3kCy?type%3D16%26list_name%3D%E7%94%98%E9%9D%92%E6%97%85%E6%B8%B8%E8%A1%8C%E7%A8%8B%26package_id%3D3679%26qrcode_id%3D235867729\" data-link-no-cancel=\"true\" target=\"_blank\" style=\"display: block;\" class=\"stylelib-image\"><section data-stylelib-backgroundimage=\"image\" data-stylelib-stylename=\"border-radius\" data-stylelib-background-default-size=\"cover\" data-file-uid=\"rc-upload-1717138550545-14\" data-image-url-info=\"{&quot;filename&quot;:&quot;截屏2024-05-30 上午10.50.16.png&quot;,&quot;filesize_byte&quot;:&quot;199854&quot;,&quot;filesize&quot;:&quot;195.17 KB&quot;,&quot;info&quot;:[650,658],&quot;url&quot;:&quot;https:\\/\\/ncstatic.clewm.net\\/rsrc\\/2024\\/0912\\/10\\/d06a8b4208cd7235a64600b5d457deba.png&quot;,&quot;path&quot;:&quot;https:\\/\\/ncstatic.clewm.net\\/rsrc\\/2024\\/0912\\/10\\/d06a8b4208cd7235a64600b5d457deba.png&quot;,&quot;image_resolution&quot;:[],&quot;image_width&quot;:650,&quot;image_height&quot;:658,&quot;designId&quot;:&quot;&quot;,&quot;id&quot;:0,&quot;source_id&quot;:&quot;1585624321&quot;}\" data-stylelib-delete-image-info=\"\" style=\"width: 80px; height: 80px; margin: 0px auto; border-radius: 3px; background-color: rgb(255, 255, 255); background-image: url(&quot;https://ncstatic.clewm.net/rsrc/2024/0531/14/1620a6d9a3b86f507c2c8a6a22ebfcb3.png&quot;); background-repeat: no-repeat; background-position: center center; background-size: cover; position: relative;\"><section style=\"display:none;\"><br></section></section><section data-stylelib-tpl-stylename-1=\"color\" data-stylelib-tpl-stylevalue-1=\"&lt;?=isDarkBgColor ? 'rgba(255, 255, 255)' : '#666'?&gt;\" style=\"font-size: 14px; line-height: 1.4; color: rgb(102, 102, 102); text-align: center; padding-top: 7px;\" data-contenteditable=\"true\"><p><span style=\"font-size:16px\">西北</span></p></section> </a></section><section style=\"padding: 12px 4px;width: 33.33333333%;\" class=\"stylelib-list-item\"><a data-cke-saved-href=\"navLink:https://qr61.cn/o2eikt/qxvoNQu?type%3D16%26list_name%3D%E9%A6%99%E6%B8%AF%E6%97%85%E6%B8%B8%E8%A1%8C%E7%A8%8B%26package_id%3D3680%26qrcode_id%3D235873661\" href=\"navLink:https://qr61.cn/o2eikt/qxvoNQu?type%3D16%26list_name%3D%E9%A6%99%E6%B8%AF%E6%97%85%E6%B8%B8%E8%A1%8C%E7%A8%8B%26package_id%3D3680%26qrcode_id%3D235873661\" data-link-no-cancel=\"true\" target=\"_blank\" style=\"display: block;\" class=\"stylelib-image\"><section data-stylelib-backgroundimage=\"image\" data-stylelib-stylename=\"border-radius\" data-stylelib-background-default-size=\"cover\" data-file-uid=\"rc-upload-1717138550545-18\" data-image-url-info=\"{&quot;filename&quot;:&quot;截屏2024-05-30 上午10.51.50.png&quot;,&quot;filesize_byte&quot;:&quot;309678&quot;,&quot;filesize&quot;:&quot;302.42 KB&quot;,&quot;info&quot;:[742,752],&quot;url&quot;:&quot;https:\\/\\/ncstatic.clewm.net\\/rsrc\\/2024\\/0912\\/10\\/c7f215d31d4e38177ded8963bab3cf70.png&quot;,&quot;path&quot;:&quot;https:\\/\\/ncstatic.clewm.net\\/rsrc\\/2024\\/0912\\/10\\/c7f215d31d4e38177ded8963bab3cf70.png&quot;,&quot;image_resolution&quot;:[],&quot;image_width&quot;:742,&quot;image_height&quot;:752,&quot;designId&quot;:&quot;&quot;,&quot;id&quot;:0,&quot;source_id&quot;:&quot;1585624328&quot;}\" data-stylelib-delete-image-info=\"\" style=\"width: 80px; height: 80px; margin: 0px auto; border-radius: 3px; background-color: rgb(255, 255, 255); background-image: url(&quot;https://ncstatic.clewm.net/rsrc/2024/0531/14/86c649b960828deda5660a677def7c45.png&quot;); background-repeat: no-repeat; background-position: center center; background-size: cover; position: relative;\"><section style=\"display:none;\"><br></section></section><section data-stylelib-tpl-stylename-1=\"color\" data-stylelib-tpl-stylevalue-1=\"&lt;?=isDarkBgColor ? 'rgba(255, 255, 255)' : '#666'?&gt;\" style=\"font-size: 14px; line-height: 1.4; color: rgb(102, 102, 102); text-align: center; padding-top: 7px;\" data-contenteditable=\"true\"><p><span style=\"font-size:16px\">港澳</span></p></section> </a></section></section></section></section>",
+            "status": 0,
+            "attribute_id": 4,
+            "group_id": 1,
+            "real_group_id": 1,
+            "tpl_com_id": 279931515,
+            "name": "文本 html 片段",
+            "is_default_value": 0,
+            "multiple_id": "141352439",
+            "attribute_multiple_id": 1
+          }
+        }
+      ],
+      "group_count": 1,
+      "encryption": "dc7cdd2577300af4adbb8d8617dff21e"
+    },
+    {
+      "id": 317629859,
+      "qrcode_id": 256807285,
+      "component_code": "text",
+      "identity_id": 0,
+      "sort": 2,
+      "status": 0,
+      "tpl_com_id": 279931516,
+      "org_id": 82282788,
+      "batch_id": 0,
+      "component_status": 0,
+      "template_component_info": "",
+      "form_component_id": 0,
+      "form_component_title": "",
+      "attribute_list": [
+        {
+          "content_html": {
+            "id": 150321202,
+            "value": "<p>1</p><p><span style=\"font-size:24px\"><strong>特惠路线</strong></span></p><p><span style=\"color:#77818c\"><span style=\"font-size:14px\">经济实惠，游遍大江南北</span></span></p>",
+            "status": 0,
+            "attribute_id": 4,
+            "group_id": 1,
+            "real_group_id": 1,
+            "tpl_com_id": 279931516,
+            "name": "文本 html 片段",
+            "is_default_value": 0,
+            "multiple_id": "141352440",
+            "attribute_multiple_id": 1
+          }
+        }
+      ],
+      "group_count": 1,
+      "encryption": "e49d1349dbe24245ffe4338a8fbe7b65"
+    },
+    {
+      "id": 317629860,
+      "qrcode_id": 256807285,
+      "component_code": "text",
+      "identity_id": 0,
+      "sort": 3,
+      "status": 0,
+      "tpl_com_id": 279931517,
+      "org_id": 82282788,
+      "batch_id": 0,
+      "component_status": 0,
+      "template_component_info": "",
+      "form_component_id": 0,
+      "form_component_title": "",
+      "attribute_list": [
+        {
+          "content_html": {
+            "id": 150321203,
+            "value": "<section data-theme-color=\"#0B0D0F\" data-is-vip=\"false\" data-change-color=\"on\" data-hide-change-color-btn=\"true\" data-is-full=\"false\" data-key=\"image-tpl26\" class=\"stylelib-wrapper\" data-contenteditable=\"false\"><section class=\"x-vipIcon\"><section style=\"display: none\"><br></section></section><a data-cke-saved-href=\"navLink:http://qr61.cn/o2eikt/qkBMkwI?type%3D16%26list_name%3D%E6%9D%AD%E5%B7%9E%E6%97%85%E6%B8%B8%E8%A1%8C%E7%A8%8B%26package_id%3D3412%26qrcode_id%3D222995327\" href=\"navLink:http://qr61.cn/o2eikt/qkBMkwI?type%3D16%26list_name%3D%E6%9D%AD%E5%B7%9E%E6%97%85%E6%B8%B8%E8%A1%8C%E7%A8%8B%26package_id%3D3412%26qrcode_id%3D222995327\" data-link-no-cancel=\"true\" target=\"_blank\" style=\"display: block; padding: 4px; background-color: #fff;border-radius: 6px;\" class=\"stylelib-image stylelib-image-children-1\"><section style=\"display: flex\"><section data-stylelib-backgroundimage=\"image\" data-stylelib-background-default-size=\"cover\" data-file-uid=\"rc-upload-1726037563855-8\" data-image-url-info=\"{&quot;filename&quot;:&quot;微信图片_20240911144823.jpg&quot;,&quot;filesize_byte&quot;:&quot;138102&quot;,&quot;filesize&quot;:&quot;134.87 KB&quot;,&quot;info&quot;:[732,1028],&quot;url&quot;:&quot;https:\\/\\/ncstatic.clewm.net\\/rsrc\\/2024\\/0912\\/10\\/c6de9e66c363b10132816d2494ee47d1.jpg&quot;,&quot;path&quot;:&quot;https:\\/\\/ncstatic.clewm.net\\/rsrc\\/2024\\/0912\\/10\\/c6de9e66c363b10132816d2494ee47d1.jpg&quot;,&quot;image_resolution&quot;:[1,1],&quot;image_width&quot;:732,&quot;image_height&quot;:1028,&quot;designId&quot;:&quot;&quot;,&quot;id&quot;:0,&quot;source_id&quot;:&quot;1585624333&quot;}\" style=\"width: 120px; height: auto; background-color: rgb(246, 248, 249); background-image: url(&quot;https://ncstatic.clewm.net/rsrc/2024/0911/14/fe7105305bfc3be6fbe5c7b87640ff95.jpg&quot;); background-repeat: no-repeat; background-position: center center; background-size: cover; border-radius: 4px; min-width: 120px; min-height: 120px; position: relative;\"><section style=\"display: none\"><br></section></section><section style=\"padding: 8px 4px 8px 12px; flex: 1\"><section data-stylelib-stylename=\"color\" data-stylelib-varname=\"whiteBgThemeFontColor\" style=\"color:#0B0D0F;font-size:24px;\" data-contenteditable=\"true\"><p><span style=\"font-size:20px\"><strong>杭州3天2晚</strong></span></p></section><section data-stylelib-stylename=\"color\" data-stylelib-varname=\"whiteBgThemeFontColor\" style=\"flex:1;color:#0B0D0F;font-size:12px;\" data-contenteditable=\"true\"><p><span style=\"font-size:12px\">一价全包0自费 0景交0保底 </span></p></section><section style=\"display: flex; align-items: flex-end; margin-top: 10px\"><section data-stylelib-stylename=\"color\" data-stylelib-varname=\"whiteBgThemeFontColor\" style=\"flex:1;color:#0B0D0F;font-size:16px;line-height:24px;\" data-contenteditable=\"true\"><p><span style=\"font-size:22px\"><strong>999</strong></span>&nbsp;<span style=\"font-size:14px\">元/人 </span></p></section><section style=\"display: flex; flex-shrink: 0; align-items: center; max-width: 120px\"><section data-stylelib-stylename=\"color\" data-stylelib-varname=\"whiteBgThemeFontColor\" style=\"margin-right: 4px;display: inline-block;color:#0B0D0F;font-size:12px;\" data-contenteditable=\"true\"><p><span style=\"color:#77818c\"><span style=\"font-size:12px\">点击查看</span></span></p></section><section style=\"margin-right: 16px\"><section data-stylelib-stylename=\"border-color\" data-stylelib-varname=\"whiteBgThemeFontColor\" style=\"position: relative;bottom: 1px;border-color:#0B0D0F;width:8px;height:8px;display: inline-block;border-top-width: 1px;border-top-style: solid;border-right-width: 1px;border-right-style:solid;transform: rotate(45deg);\"><section style=\"display: none\"><br></section></section></section></section></section></section></section> </a></section>",
+            "status": 0,
+            "attribute_id": 4,
+            "group_id": 1,
+            "real_group_id": 1,
+            "tpl_com_id": 279931517,
+            "name": "文本 html 片段",
+            "is_default_value": 0,
+            "multiple_id": "141352441",
+            "attribute_multiple_id": 1
+          }
+        }
+      ],
+      "group_count": 1,
+      "encryption": "3649a6533def2b0430fb29b1e0dae090"
+    },
+    {
+      "id": 317629861,
+      "qrcode_id": 256807285,
+      "component_code": "text",
+      "identity_id": 0,
+      "sort": 4,
+      "status": 0,
+      "tpl_com_id": 279931518,
+      "org_id": 82282788,
+      "batch_id": 0,
+      "component_status": 0,
+      "template_component_info": "",
+      "form_component_id": 0,
+      "form_component_title": "",
+      "attribute_list": [
+        {
+          "content_html": {
+            "id": 150321204,
+            "value": "<section data-theme-color=\"#0B0D0F\" data-is-vip=\"false\" data-change-color=\"on\" data-hide-change-color-btn=\"true\" data-is-full=\"false\" data-key=\"image-tpl26\" class=\"stylelib-wrapper\" data-contenteditable=\"false\"><section class=\"x-vipIcon\"><section style=\"display: none\"><br></section></section><a data-cke-saved-href=\"navLink:http://qr61.cn/o2eikt/qS3vCvT?type%3D16%26list_name%3D%E9%95%BF%E6%B2%99%E6%97%85%E6%B8%B8%E8%A1%8C%E7%A8%8B%26package_id%3D3405%26qrcode_id%3D222964597\" href=\"navLink:http://qr61.cn/o2eikt/qS3vCvT?type%3D16%26list_name%3D%E9%95%BF%E6%B2%99%E6%97%85%E6%B8%B8%E8%A1%8C%E7%A8%8B%26package_id%3D3405%26qrcode_id%3D222964597\" data-link-no-cancel=\"true\" target=\"_blank\" style=\"display: block; padding: 4px; background-color: #fff;border-radius: 6px;\" class=\"stylelib-image stylelib-image-children-1\"><section style=\"display: flex\"><section data-stylelib-backgroundimage=\"image\" data-stylelib-background-default-size=\"cover\" data-file-uid=\"rc-upload-1726037563855-10\" data-image-url-info=\"{&quot;filename&quot;:&quot;微信图片_20240911144946.jpg&quot;,&quot;filesize_byte&quot;:&quot;36268&quot;,&quot;filesize&quot;:&quot;35.42 KB&quot;,&quot;info&quot;:[522,492],&quot;url&quot;:&quot;https:\\/\\/ncstatic.clewm.net\\/rsrc\\/2024\\/0912\\/10\\/5d9c70ef9a620dd1ac4369b13c8a41ea.jpg&quot;,&quot;path&quot;:&quot;https:\\/\\/ncstatic.clewm.net\\/rsrc\\/2024\\/0912\\/10\\/5d9c70ef9a620dd1ac4369b13c8a41ea.jpg&quot;,&quot;image_resolution&quot;:[1,1],&quot;image_width&quot;:522,&quot;image_height&quot;:492,&quot;designId&quot;:&quot;&quot;,&quot;id&quot;:0,&quot;source_id&quot;:&quot;1585624336&quot;}\" style=\"width: 120px; height: auto; background-color: rgb(246, 248, 249); background-image: url(&quot;https://ncstatic.clewm.net/rsrc/2024/0911/14/73bc673d3af9098bd8d55a35d34ef852.jpg&quot;); background-repeat: no-repeat; background-position: center center; background-size: cover; border-radius: 4px; min-width: 120px; min-height: 120px; position: relative;\"><section style=\"display: none\"><br></section></section><section style=\"padding: 8px 4px 8px 12px; flex: 1\"><section data-stylelib-stylename=\"color\" data-stylelib-varname=\"whiteBgThemeFontColor\" style=\"color:#0B0D0F;font-size:24px;\" data-contenteditable=\"true\"><p><span style=\"font-size:20px\"><strong><span style=\"line-height:normal\">长沙4天3晚</span></strong></span></p></section><section data-stylelib-stylename=\"color\" data-stylelib-varname=\"whiteBgThemeFontColor\" style=\"flex:1;color:#0B0D0F;font-size:12px;\" data-contenteditable=\"true\"><p><span style=\"font-size:12px\">一价全包0自费 0景交0保底 </span></p></section><section style=\"display: flex; align-items: flex-end; margin-top: 10px\"><section data-stylelib-stylename=\"color\" data-stylelib-varname=\"whiteBgThemeFontColor\" style=\"flex:1;color:#0B0D0F;font-size:16px;line-height:24px;\" data-contenteditable=\"true\"><p><span style=\"font-size:22px\"><strong><span style=\"line-height:normal\">1299</span></strong></span>&nbsp;<span style=\"font-size:14px\">元/人 </span></p></section><section style=\"display: flex; flex-shrink: 0; align-items: center; max-width: 120px\"><section data-stylelib-stylename=\"color\" data-stylelib-varname=\"whiteBgThemeFontColor\" style=\"margin-right: 4px;display: inline-block;color:#0B0D0F;font-size:12px;\" data-contenteditable=\"true\"><p><span style=\"color:#77818c\"><span style=\"font-size:12px\">点击查看</span></span></p></section><section style=\"margin-right: 16px\"><section data-stylelib-stylename=\"border-color\" data-stylelib-varname=\"whiteBgThemeFontColor\" style=\"position: relative;bottom: 1px;border-color:#0B0D0F;width:8px;height:8px;display: inline-block;border-top-width: 1px;border-top-style: solid;border-right-width: 1px;border-right-style:solid;transform: rotate(45deg);\"><section style=\"display: none\"><br></section></section></section></section></section></section></section> </a></section>",
+            "status": 0,
+            "attribute_id": 4,
+            "group_id": 1,
+            "real_group_id": 1,
+            "tpl_com_id": 279931518,
+            "name": "文本 html 片段",
+            "is_default_value": 0,
+            "multiple_id": "141352442",
+            "attribute_multiple_id": 1
+          }
+        }
+      ],
+      "group_count": 1,
+      "encryption": "de8e990d503bed36559be377db3dbe61"
+    },
+    {
+      "id": 317629862,
+      "qrcode_id": 256807285,
+      "component_code": "text",
+      "identity_id": 0,
+      "sort": 5,
+      "status": 0,
+      "tpl_com_id": 279931519,
+      "org_id": 82282788,
+      "batch_id": 0,
+      "component_status": 0,
+      "template_component_info": "",
+      "form_component_id": 0,
+      "form_component_title": "",
+      "attribute_list": [
+        {
+          "content_html": {
+            "id": 150321205,
+            "value": "<section data-theme-color=\"#0B0D0F\" data-is-vip=\"false\" data-change-color=\"on\" data-hide-change-color-btn=\"true\" data-is-full=\"false\" data-key=\"image-tpl26\" class=\"stylelib-wrapper\" data-contenteditable=\"false\"><section class=\"x-vipIcon\"><section style=\"display: none\"><br></section></section><a data-cke-saved-href=\"navLink:http://qr61.cn/o2eikt/qXAZ1o0?type%3D16%26list_name%3D%E6%88%90%E9%83%BD%E6%97%85%E6%B8%B8%E8%A1%8C%E7%A8%8B%26package_id%3D3404%26qrcode_id%3D222953384\" href=\"navLink:http://qr61.cn/o2eikt/qXAZ1o0?type%3D16%26list_name%3D%E6%88%90%E9%83%BD%E6%97%85%E6%B8%B8%E8%A1%8C%E7%A8%8B%26package_id%3D3404%26qrcode_id%3D222953384\" data-link-no-cancel=\"true\" target=\"_blank\" style=\"display: block; padding: 4px; background-color: #fff;border-radius: 6px;\" class=\"stylelib-image stylelib-image-children-1\"><section style=\"display: flex\"><section data-stylelib-backgroundimage=\"image\" data-stylelib-background-default-size=\"cover\" data-file-uid=\"rc-upload-1726041497407-10\" data-image-url-info=\"{&quot;filename&quot;:&quot;unsplash_1Jmfc6pZnr4.png&quot;,&quot;filesize_byte&quot;:&quot;2052556&quot;,&quot;filesize&quot;:&quot;1.96 M&quot;,&quot;info&quot;:[1201,1201],&quot;url&quot;:&quot;https:\\/\\/ncstatic.clewm.net\\/rsrc\\/2024\\/0912\\/10\\/c634bd85bf00ad342840f582a43ece6e.png&quot;,&quot;path&quot;:&quot;https:\\/\\/ncstatic.clewm.net\\/rsrc\\/2024\\/0912\\/10\\/c634bd85bf00ad342840f582a43ece6e.png&quot;,&quot;image_resolution&quot;:[],&quot;image_width&quot;:1201,&quot;image_height&quot;:1201,&quot;id&quot;:0,&quot;source_id&quot;:&quot;1585624346&quot;}\" data-stylelib-delete-image-info=\"\" style=\"width: 120px; height: auto; background-color: rgb(246, 248, 249); background-image: url(&quot;https://ncstatic.clewm.net/rsrc/2024/0911/16/09ab07ddcdf99a946c07fc505cfb5449.png&quot;); background-repeat: no-repeat; background-position: center center; background-size: cover; border-radius: 4px; min-width: 120px; min-height: 120px; position: relative;\"><section style=\"display: none\"><br></section></section><section style=\"padding: 8px 4px 8px 12px; flex: 1\"><section data-stylelib-stylename=\"color\" data-stylelib-varname=\"whiteBgThemeFontColor\" style=\"color:#0B0D0F;font-size:24px;\" data-contenteditable=\"true\"><p><span style=\"font-size:20px\"><strong>成都5天4晚</strong></span></p></section><section data-stylelib-stylename=\"color\" data-stylelib-varname=\"whiteBgThemeFontColor\" style=\"flex:1;color:#0B0D0F;font-size:12px;\" data-contenteditable=\"true\"><p><span style=\"font-size:12px\">一价全包0自费 0景交0保底 </span></p></section><section style=\"display: flex; align-items: flex-end; margin-top: 10px\"><section data-stylelib-stylename=\"color\" data-stylelib-varname=\"whiteBgThemeFontColor\" style=\"flex:1;color:#0B0D0F;font-size:16px;line-height:24px;\" data-contenteditable=\"true\"><p><span style=\"font-size:22px\"><strong>1599</strong></span>&nbsp;<span style=\"font-size:14px\">元/人 </span></p></section><section style=\"display: flex; flex-shrink: 0; align-items: center; max-width: 120px\"><section data-stylelib-stylename=\"color\" data-stylelib-varname=\"whiteBgThemeFontColor\" style=\"margin-right: 4px;display: inline-block;color:#0B0D0F;font-size:12px;\" data-contenteditable=\"true\"><p><span style=\"color:#77818c\"><span style=\"font-size:12px\">点击查看</span></span></p></section><section style=\"margin-right: 16px\"><section data-stylelib-stylename=\"border-color\" data-stylelib-varname=\"whiteBgThemeFontColor\" style=\"position: relative;bottom: 1px;border-color:#0B0D0F;width:8px;height:8px;display: inline-block;border-top-width: 1px;border-top-style: solid;border-right-width: 1px;border-right-style:solid;transform: rotate(45deg);\"><section style=\"display: none\"><br></section></section></section></section></section></section></section> </a></section>",
+            "status": 0,
+            "attribute_id": 4,
+            "group_id": 1,
+            "real_group_id": 1,
+            "tpl_com_id": 279931519,
+            "name": "文本 html 片段",
+            "is_default_value": 0,
+            "multiple_id": "141352443",
+            "attribute_multiple_id": 1
+          }
+        }
+      ],
+      "group_count": 1,
+      "encryption": "2c80a2e3badee55fbc1ee887b9089b88"
+    },
+    {
+      "id": 317629863,
+      "qrcode_id": 256807285,
+      "component_code": "text",
+      "identity_id": 0,
+      "sort": 6,
+      "status": 0,
+      "tpl_com_id": 279931520,
+      "org_id": 82282788,
+      "batch_id": 0,
+      "component_status": 0,
+      "template_component_info": "",
+      "form_component_id": 0,
+      "form_component_title": "",
+      "attribute_list": [
+        {
+          "content_html": {
+            "id": 150321206,
+            "value": "<p><br></p>",
+            "status": 0,
+            "attribute_id": 4,
+            "group_id": 1,
+            "real_group_id": 1,
+            "tpl_com_id": 279931520,
+            "name": "文本 html 片段",
+            "is_default_value": 0,
+            "multiple_id": "141352444",
+            "attribute_multiple_id": 1
+          }
+        }
+      ],
+      "group_count": 1,
+      "encryption": "1dde9046d72084efa4157ec216d2ece9"
+    },
+    {
+      "id": 317629864,
+      "qrcode_id": 256807285,
+      "component_code": "text",
+      "identity_id": 0,
+      "sort": 7,
+      "status": 0,
+      "tpl_com_id": 279931521,
+      "org_id": 82282788,
+      "batch_id": 0,
+      "component_status": 0,
+      "template_component_info": "",
+      "form_component_id": 0,
+      "form_component_title": "",
+      "attribute_list": [
+        {
+          "content_html": {
+            "id": 150321207,
+            "value": "<section data-is-vip=\"false\" data-type=\"title\" data-change-color=\"on\" data-theme-color=\"#0B0D0F\" data-key=\"title-tpl106\" class=\"stylelib-wrapper\" data-contenteditable=\"false\"><section class=\"x-vipIcon\"><section style=\"display:none;\"><br></section></section><section style=\"position:relative;display: flex;flex-direction: column;\"><section data-stylelib-stylename=\"color\" data-stylelib-tpl-stylename=\"border-color\" data-stylelib-tpl-stylevalue=\"&lt;?= isDarkBgColor ? parseColor(themeColor, 0.3) : parseColor(themeColor, 0.3) ?&gt;\" style=\"width: fit-content;margin: 0 auto;min-width:36px;max-width: 100%; flex-shrink: 0;position:relative;display:inline-block;color:#0B0D0F;text-align: center;border-bottom-width:1px;border-bottom-style:solid;border-color:rgba(11, 13, 15, 0.3);\" data-contenteditable=\"true\"><p><span style=\"font-size:24px\"><strong>关于我们</strong></span></p></section><section data-stylelib-tpl-stylename=\"color\" data-stylelib-tpl-stylevalue=\"&lt;?=parseColor(themeColor, 0.5)?&gt;\" style=\"min-width:36px;max-width: 100%; flex-shrink: 0;position:relative;display:inline-block;color:rgba(11, 13, 15, 0.5);border-radius:4px;text-align: center;margin-top: 8px;\" data-contenteditable=\"true\"><p><span style=\"font-size:14px\">用心给您最好的体验</span></p></section></section></section>",
+            "status": 0,
+            "attribute_id": 4,
+            "group_id": 1,
+            "real_group_id": 1,
+            "tpl_com_id": 279931521,
+            "name": "文本 html 片段",
+            "is_default_value": 0,
+            "multiple_id": "141352445",
+            "attribute_multiple_id": 1
+          }
+        }
+      ],
+      "group_count": 1,
+      "encryption": "695918a29698e08716c3c56181880349"
+    },
+    {
+      "id": 317629865,
+      "qrcode_id": 256807285,
+      "component_code": "text",
+      "identity_id": 0,
+      "sort": 8,
+      "status": 0,
+      "tpl_com_id": 279931522,
+      "org_id": 82282788,
+      "batch_id": 0,
+      "component_status": 0,
+      "template_component_info": "",
+      "form_component_id": 0,
+      "form_component_title": "",
+      "attribute_list": [
+        {
+          "content_html": {
+            "id": 150321208,
+            "value": "<p style=\"text-align:center\">主营国内路线，定制个性化行程</p><p style=\"text-align:center\">无套路，无购物，注重口碑，一分价格一分货</p><p style=\"text-align:center\">深度体验，贴心服务，24小时专属管家</p><p style=\"text-align:center\"><br></p>",
+            "status": 0,
+            "attribute_id": 4,
+            "group_id": 1,
+            "real_group_id": 1,
+            "tpl_com_id": 279931522,
+            "name": "文本 html 片段",
+            "is_default_value": 0,
+            "multiple_id": "141352446",
+            "attribute_multiple_id": 1
+          }
+        }
+      ],
+      "group_count": 1,
+      "encryption": "50bb12d49cb880955849577ac63bcec2"
+    },
+    {
+      "id": 317629866,
+      "qrcode_id": 256807285,
+      "component_code": "contactus",
+      "identity_id": 0,
+      "sort": 9,
+      "status": 0,
+      "tpl_com_id": 279931523,
+      "org_id": 82282788,
+      "batch_id": 0,
+      "component_status": 0,
+      "template_component_info": "",
+      "form_component_id": 0,
+      "form_component_title": "",
+      "attribute_list": [
+        {
+          "contact_phone": {
+            "id": 17513798,
+            "value": "[\"上海分社：400-123-123\",\"广州分社：400-567-567\",\"武汉分社：400-789-789\"]",
+            "status": 0,
+            "attribute_id": 21,
+            "group_id": 1,
+            "real_group_id": 1,
+            "tpl_com_id": 279931523,
+            "name": "联系电话",
+            "is_default_value": 0
+          },
+          "contact_mail": {
+            "id": 17513799,
+            "value": "",
+            "status": 0,
+            "attribute_id": 22,
+            "group_id": 1,
+            "real_group_id": 1,
+            "tpl_com_id": 279931523,
+            "name": "反馈邮箱",
+            "is_default_value": 0
+          },
+          "work_time": {
+            "id": 17513800,
+            "value": "",
+            "status": 0,
+            "attribute_id": 23,
+            "group_id": 1,
+            "real_group_id": 1,
+            "tpl_com_id": 279931523,
+            "name": "工作时间",
+            "is_default_value": 0
+          },
+          "address": {
+            "id": 17513801,
+            "value": "",
+            "status": 0,
+            "attribute_id": 24,
+            "group_id": 1,
+            "real_group_id": 1,
+            "tpl_com_id": 279931523,
+            "name": "联系地址",
+            "is_default_value": 0
+          },
+          "longitude": {
+            "id": 17513802,
+            "value": "",
+            "status": 0,
+            "attribute_id": 25,
+            "group_id": 1,
+            "real_group_id": 1,
+            "tpl_com_id": 279931523,
+            "name": "中心经度",
+            "is_default_value": 0
+          },
+          "latitude": {
+            "id": 17513803,
+            "value": "",
+            "status": 0,
+            "attribute_id": 26,
+            "group_id": 1,
+            "real_group_id": 1,
+            "tpl_com_id": 279931523,
+            "name": "中心纬度",
+            "is_default_value": 0
+          },
+          "selected_phone": {
+            "id": 17513804,
+            "value": "",
+            "status": 0,
+            "attribute_id": 28,
+            "group_id": 1,
+            "real_group_id": 1,
+            "tpl_com_id": 279931523,
+            "name": "联系电话选择框",
+            "is_default_value": 0
+          },
+          "selected_mail": {
+            "id": 17513805,
+            "value": "",
+            "status": 0,
+            "attribute_id": 29,
+            "group_id": 1,
+            "real_group_id": 1,
+            "tpl_com_id": 279931523,
+            "name": "反馈邮箱选择框",
+            "is_default_value": 0
+          },
+          "selected_wtime": {
+            "id": 17513806,
+            "value": "",
+            "status": 0,
+            "attribute_id": 30,
+            "group_id": 1,
+            "real_group_id": 1,
+            "tpl_com_id": 279931523,
+            "name": "工作时间选择框",
+            "is_default_value": 0
+          },
+          "selected_addres": {
+            "id": 17513807,
+            "value": "",
+            "status": 0,
+            "attribute_id": 31,
+            "group_id": 1,
+            "real_group_id": 1,
+            "tpl_com_id": 279931523,
+            "name": "联系地址选择框",
+            "is_default_value": 0
+          },
+          "title": {
+            "id": 17513808,
+            "value": "",
+            "status": 0,
+            "attribute_id": 113,
+            "group_id": 1,
+            "real_group_id": 1,
+            "tpl_com_id": 279931523,
+            "name": "标题",
+            "is_default_value": 0
+          },
+          "show_type": {
+            "id": 17513809,
+            "value": "2",
+            "status": 0,
+            "attribute_id": 125,
+            "group_id": 1,
+            "real_group_id": 1,
+            "tpl_com_id": 279931523,
+            "name": "展示方式",
+            "is_default_value": 0,
+            "enum_encryption": "332c1f4f9be973e5edf0e4e03f70311d",
+            "enum_msg": [
+              {
+                "id": 2732033719,
+                "attribute_value_id": 17513809,
+                "enum_text": "文字",
+                "enum_value": 0,
+                "sort": 0,
+                "status": 0,
+                "create_time": 0,
+                "update_time": 0,
+                "component_code": "contactus"
+              },
+              {
+                "id": 2732033720,
+                "attribute_value_id": 17513809,
+                "enum_text": "卡片样式",
+                "enum_value": 2,
+                "sort": 1,
+                "status": 0,
+                "create_time": 0,
+                "update_time": 0,
+                "component_code": "contactus"
+              },
+              {
+                "id": 2732033721,
+                "attribute_value_id": 17513809,
+                "enum_text": "地图卡片",
+                "enum_value": 1,
+                "sort": 2,
+                "status": 0,
+                "create_time": 0,
+                "update_time": 0,
+                "component_code": "contactus"
+              }
+            ]
+          },
+          "locate_image": {
+            "id": 17513810,
+            "value": "",
+            "status": 0,
+            "attribute_id": 126,
+            "group_id": 1,
+            "real_group_id": 1,
+            "tpl_com_id": 279931523,
+            "name": "地图图片链接",
+            "is_default_value": 0,
+            "source_id": 0
+          },
+          "contact_weixin": {
+            "id": 17513816,
+            "value": "[]",
+            "status": 0,
+            "attribute_id": 175,
+            "group_id": 1,
+            "real_group_id": 1,
+            "tpl_com_id": 279931523,
+            "name": "微信",
+            "is_default_value": 0,
+            "multiple_id": "112374",
+            "attribute_multiple_id": 8
+          },
+          "display_style": {
+            "id": 17513811,
+            "value": "0",
+            "status": 0,
+            "attribute_id": 176,
+            "group_id": 1,
+            "real_group_id": 1,
+            "tpl_com_id": 279931523,
+            "name": "展示样式",
+            "is_default_value": 0
+          },
+          "avatar": {
+            "id": 17513812,
+            "value": "",
+            "status": 0,
+            "attribute_id": 177,
+            "group_id": 1,
+            "real_group_id": 1,
+            "tpl_com_id": 279931523,
+            "name": "头像",
+            "is_default_value": 0
+          },
+          "save_btn": {
+            "id": 17513813,
+            "value": "0",
+            "status": 0,
+            "attribute_id": 178,
+            "group_id": 1,
+            "real_group_id": 1,
+            "tpl_com_id": 279931523,
+            "name": "保存通讯录按钮",
+            "is_default_value": 0
+          },
+          "jump_homepage": {
+            "id": 17513814,
+            "value": "",
+            "status": 0,
+            "attribute_id": 180,
+            "group_id": 1,
+            "real_group_id": 1,
+            "tpl_com_id": 279931523,
+            "name": "跳转主页",
+            "is_default_value": 0
+          },
+          "street_address": {
+            "id": 17513815,
+            "value": "",
+            "status": 0,
+            "attribute_id": 182,
+            "group_id": 1,
+            "real_group_id": 1,
+            "tpl_com_id": 279931523,
+            "name": "街道地址",
+            "is_default_value": 0
+          }
+        }
+      ],
+      "group_count": 1,
+      "encryption": "dbfa17efd6162184417705729ad6efc2"
+    }
+  ],
+  "qrcode_record": {
+    "id": 256807285,
+    "coding": "qZzuyai",
+    "wx_url": "",
+    "web_url": "https://h.qr61.cn/o5IrSH/qZzuyai",
+    "wxcode_url": "",
+    "qrcode_url": "https://qr.api.cli.im/newqr/create?data=https%3A%2F%2Fh.qr61.cn%2Fo5IrSH%2FqZzuyai&logourl=&logoshape=rect&logo_pos=0&logo_shadow=0&logosize=90&logoh=auto&level=H&transparent=0&bgcolor=%23ffffff&forecolor=%23000000&blockpixel=12&marginblock=2&size=220&kid=bizcliim&time=1726127797&key=d16ad6bde7bf7a4ab9cb6cb24bcf3991",
+    "list_name": "旅行路线汇总",
+    "qrcode_name": "旅行路线汇总",
+    "scene_module_id": 0,
+    "desc": "",
+    "category_id": 45774676,
+    "tpl_id": 57651904,
+    "identity_id": 0,
+    "org_id": 82282788,
+    "update_time": 1726127420,
+    "create_time": 1726107321,
+    "status": 0,
+    "preset_case": 0,
+    "show_org_dest": 0,
+    "can_scan_update": 0,
+    "is_mobile_updated": 0,
+    "create_from": 95,
+    "tpl_qrcode_status": 0,
+    "tpl_qrcode_updated": 0,
+    "batch_id": 0,
+    "log_status": 0,
+    "excel_status": 0,
+    "tpl_name": "",
+    "batch_name": "",
+    "route_type": 2,
+    "project_id": 201,
+    "share_qrcode_url": "",
+    "qrstyle_url": "",
+    "top_style": {
+      "id": 7117512,
+      "qrcode_id": 256807285,
+      "theme_color": "FFFFFF",
+      "font_color": "000",
+      "bg_path": "",
+      "create_time": 1726107321,
+      "color_style": 0,
+      "color_picker_img": "https://ncstatic.clewm.net/rsrc/2023/0323/09/2283dbc106a7ef5a6f426d15d8f4eba5.png",
+      "img_main_colors": "544A75,987BAA,AE8059,151625,684E49",
+      "color_from": 0,
+      "status": 0
+    },
+    "component_value_empty": 0,
+    "show_homepage": 2,
+    "show_bottom_homepage": 2,
+    "log_name": "",
+    "reset_limit_log": 0,
+    "img_name": ""
+  },
+  "qrcode_top_component": [
+    {
+      "id": 317629867,
+      "qrcode_id": 256807285,
+      "component_code": "text",
+      "identity_id": 0,
+      "sort": 0,
+      "status": 0,
+      "tpl_com_id": 279931524,
+      "org_id": 82282788,
+      "batch_id": 0,
+      "component_status": 1,
+      "template_component_info": "",
+      "form_component_id": 0,
+      "form_component_title": "",
+      "attribute_list": [
+        {
+          "content_html": {
+            "id": 150321209,
+            "value": "",
+            "status": 0,
+            "attribute_id": 4,
+            "group_id": 1,
+            "real_group_id": 1,
+            "tpl_com_id": 279931524,
+            "name": "文本 html 片段",
+            "is_default_value": 0,
+            "multiple_id": "141352447",
+            "attribute_multiple_id": 1
+          }
+        }
+      ],
+      "group_count": 1,
+      "encryption": "cb69e3ad864d647903e414b9f7226d7f"
+    },
+    {
+      "id": 317629868,
+      "qrcode_id": 256807285,
+      "component_code": "image",
+      "identity_id": 0,
+      "sort": 1,
+      "status": 0,
+      "tpl_com_id": 279931525,
+      "org_id": 82282788,
+      "batch_id": 0,
+      "component_status": 1,
+      "template_component_info": "",
+      "form_component_id": 0,
+      "form_component_title": "",
+      "attribute_list": [
+        {
+          "image_url": {
+            "id": 652475124,
+            "value": "https://ncstatic.clewm.net/rsrc/2024/0912/10/984823626e7025896335d721796b3ce8.png",
+            "status": 0,
+            "attribute_id": 5,
+            "group_id": 1,
+            "real_group_id": 1,
+            "tpl_com_id": 279931525,
+            "name": "图片地址",
+            "is_default_value": 0,
+            "source_id": 1585624351
+          },
+          "wxa_path": {
+            "id": 652475125,
+            "value": "",
+            "status": 0,
+            "attribute_id": 6,
+            "group_id": 1,
+            "real_group_id": 1,
+            "tpl_com_id": 279931525,
+            "name": "图片链接",
+            "is_default_value": 0
+          },
+          "prew_type": {
+            "id": 652475126,
+            "value": "1",
+            "status": 0,
+            "attribute_id": 67,
+            "group_id": 1,
+            "real_group_id": 1,
+            "tpl_com_id": 279931525,
+            "name": "预览效果",
+            "is_default_value": 0,
+            "enum_encryption": "fa821f70c22d82b4b15d45d83de410c5",
+            "enum_msg": [
+              {
+                "id": 2732033722,
+                "attribute_value_id": 652475126,
+                "enum_text": "轮播",
+                "enum_value": 0,
+                "sort": 0,
+                "status": 0,
+                "create_time": 0,
+                "update_time": 0,
+                "component_code": "image"
+              },
+              {
+                "id": 2732033723,
+                "attribute_value_id": 652475126,
+                "enum_text": "平铺",
+                "enum_value": 1,
+                "sort": 1,
+                "status": 0,
+                "create_time": 0,
+                "update_time": 0,
+                "component_code": "image"
+              }
+            ]
+          },
+          "image_size": {
+            "id": 652475127,
+            "value": "743.15 KB",
+            "status": 0,
+            "attribute_id": 68,
+            "group_id": 1,
+            "real_group_id": 1,
+            "tpl_com_id": 279931525,
+            "name": "图片大小",
+            "is_default_value": 0
+          },
+          "image_width": {
+            "id": 652475128,
+            "value": "1280",
+            "status": 0,
+            "attribute_id": 74,
+            "group_id": 1,
+            "real_group_id": 1,
+            "tpl_com_id": 279931525,
+            "name": "图片宽度",
+            "is_default_value": 0
+          },
+          "image_height": {
+            "id": 652475129,
+            "value": "987",
+            "status": 0,
+            "attribute_id": 75,
+            "group_id": 1,
+            "real_group_id": 1,
+            "tpl_com_id": 279931525,
+            "name": "图片高度",
+            "is_default_value": 0
+          },
+          "image_style": {
+            "id": 652475130,
+            "value": "3",
+            "status": 0,
+            "attribute_id": 112,
+            "group_id": 1,
+            "real_group_id": 1,
+            "tpl_com_id": 279931525,
+            "name": "图片样式",
+            "is_default_value": 0,
+            "enum_encryption": "4444187fd926b50b407c8a29e7c6dfc0",
+            "enum_msg": [
+              {
+                "id": 2732033724,
+                "attribute_value_id": 652475130,
+                "enum_text": "样式一",
+                "enum_value": 1,
+                "sort": 0,
+                "status": 0,
+                "create_time": 0,
+                "update_time": 0,
+                "component_code": "image"
+              },
+              {
+                "id": 2732033725,
+                "attribute_value_id": 652475130,
+                "enum_text": "样式二",
+                "enum_value": 2,
+                "sort": 1,
+                "status": 0,
+                "create_time": 0,
+                "update_time": 0,
+                "component_code": "image"
+              },
+              {
+                "id": 2732033726,
+                "attribute_value_id": 652475130,
+                "enum_text": "样式三",
+                "enum_value": 3,
+                "sort": 2,
+                "status": 0,
+                "create_time": 0,
+                "update_time": 0,
+                "component_code": "image"
+              }
+            ]
+          },
+          "auto_play_time": {
+            "id": 652475131,
+            "value": "0",
+            "status": 0,
+            "attribute_id": 124,
+            "group_id": 1,
+            "real_group_id": 1,
+            "tpl_com_id": 279931525,
+            "name": "轮播时间",
+            "is_default_value": 0
+          },
+          "design_from_api": {
+            "id": 652475132,
+            "value": "0",
+            "status": 0,
+            "attribute_id": 150,
+            "group_id": 1,
+            "real_group_id": 1,
+            "tpl_com_id": 279931525,
+            "name": "第三方平台接口设计来源",
+            "is_default_value": 0,
+            "enum_encryption": "d60bde51d46c6d67cc1e140022f302d9",
+            "enum_msg": [
+              {
+                "id": 2732033727,
+                "attribute_value_id": 652475132,
+                "enum_text": "本地",
+                "enum_value": 0,
+                "sort": 0,
+                "status": 0,
+                "create_time": 0,
+                "update_time": 0,
+                "component_code": "image"
+              },
+              {
+                "id": 2732033728,
+                "attribute_value_id": 652475132,
+                "enum_text": "canva",
+                "enum_value": 1,
+                "sort": 1,
+                "status": 0,
+                "create_time": 0,
+                "update_time": 0,
+                "component_code": "image"
+              },
+              {
+                "id": 2732033729,
+                "attribute_value_id": 652475132,
+                "enum_text": "canva-素材库",
+                "enum_value": 2,
+                "sort": 2,
+                "status": 0,
+                "create_time": 0,
+                "update_time": 0,
+                "component_code": "image"
+              }
+            ]
+          },
+          "design_id": {
+            "id": 652475133,
+            "value": "",
+            "status": 0,
+            "attribute_id": 151,
+            "group_id": 1,
+            "real_group_id": 1,
+            "tpl_com_id": 279931525,
+            "name": "第三方平台接口素材id",
+            "is_default_value": 0
+          },
+          "is_gradient": {
+            "id": 652475134,
+            "value": "0",
+            "status": 0,
+            "attribute_id": 156,
+            "group_id": 1,
+            "real_group_id": 1,
+            "tpl_com_id": 279931525,
+            "name": "颜色渐变",
+            "is_default_value": 0
+          },
+          "auto_set_theme_color": {
+            "id": 652475135,
+            "value": "",
+            "status": 0,
+            "attribute_id": 159,
+            "group_id": 1,
+            "real_group_id": 1,
+            "tpl_com_id": 279931525,
+            "name": "自动取第一张图片的配色作为背景色",
+            "is_default_value": 0
+          }
+        }
+      ],
+      "group_count": 1,
+      "encryption": "de1f70845a92276363a473992e2f7970"
+    },
+    { "component_code": "recordlog", "attribute_list": [], "status": 2, "sort": 2 }
+  ],
+  "debug_data": {
+    "uniqueId": "saveQrcodeMsg_3",
+    "timestamp": 1726127920393,
+    "userId": "82198586",
+    "cvid": "1023451756",
+    "url": "https://console.cli.im/nedit/256807285?tplId=57651904&categoryId=45774676&pageFrom=center&originFrom=center",
+    "referrer": "https://console.cli.im/center?activeTab=code&clearCodeList=true&jump=true&keyword=&page=1&page_size=20&with_children=10",
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+  },
+  "qrcode_old_component": [
+    {
+      "id": 317629857,
+      "qrcode_id": 256807285,
+      "component_code": "text",
+      "identity_id": 0,
+      "sort": 0,
+      "status": 0,
+      "tpl_com_id": 279931514,
+      "org_id": 82282788,
+      "batch_id": 0,
+      "component_status": 0,
+      "template_component_info": "",
+      "form_component_id": 0,
+      "form_component_title": "",
+      "attribute_list": [
+        {
+          "content_html": {
+            "id": 150321200,
+            "value": "<p><span style=\"font-size:24px\"><strong>全部路线</strong></span></p><p><span style=\"color:#77818c\"><span style=\"font-size:14px\">选一片你最想收藏的土地</span></span></p>",
+            "status": 0,
+            "attribute_id": 4,
+            "group_id": 1,
+            "real_group_id": 1,
+            "tpl_com_id": 279931514,
+            "name": "文本 html 片段",
+            "is_default_value": 0,
+            "multiple_id": "141352437",
+            "attribute_multiple_id": 1
+          }
+        }
+      ],
+      "group_count": 1,
+      "encryption": "ccb0a38b44de11089ad7983ee18594a2",
+      "type": "text",
+      "uniqueId": 0
+    },
+    {
+      "id": 317629858,
+      "qrcode_id": 256807285,
+      "component_code": "text",
+      "identity_id": 0,
+      "sort": 1,
+      "status": 0,
+      "tpl_com_id": 279931515,
+      "org_id": 82282788,
+      "batch_id": 0,
+      "component_status": 0,
+      "template_component_info": "",
+      "form_component_id": 0,
+      "form_component_title": "",
+      "attribute_list": [
+        {
+          "content_html": {
+            "id": 150321201,
+            "value": "<section data-theme-color=\"#503225\" data-is-vip=\"false\" data-change-color=\"on\" data-key=\"image-tpl18\" class=\"stylelib-list stylelib-list-horizontal stylelib-wrapper\" data-contenteditable=\"false\"><section class=\"x-vipIcon\"><section style=\"display:none;\"><br></section></section><section data-white-background=\"\" style=\"position: relative;border-radius:6px;padding-bottom: 12px;padding-top: 12px\"><section style=\"display: flex;flex-wrap: wrap;\"><section style=\"padding: 12px 4px;width: 33.33333333%;\" class=\"stylelib-list-item\"><a data-cke-saved-href=\"navLink:https://qr61.cn/o2eikt/q0oGDyp?type%3D16%26list_name%3D%E5%8D%8E%E4%B8%9C%E8%B7%AF%E7%BA%BF%E5%90%88%E9%9B%86%26package_id%3D3675%26qrcode_id%3D235860592\" href=\"navLink:https://qr61.cn/o2eikt/q0oGDyp?type%3D16%26list_name%3D%E5%8D%8E%E4%B8%9C%E8%B7%AF%E7%BA%BF%E5%90%88%E9%9B%86%26package_id%3D3675%26qrcode_id%3D235860592\" data-link-no-cancel=\"true\" target=\"_blank\" style=\"display: block;\" class=\"stylelib-image\"><section data-stylelib-backgroundimage=\"image\" data-stylelib-stylename=\"border-radius\" data-stylelib-background-default-size=\"cover\" data-file-uid=\"rc-upload-1717138550545-8\" data-image-url-info=\"{&quot;filename&quot;:&quot;截屏2024-05-30 上午10.49.43.png&quot;,&quot;filesize_byte&quot;:&quot;244119&quot;,&quot;filesize&quot;:&quot;238.4 KB&quot;,&quot;info&quot;:[724,714],&quot;url&quot;:&quot;https:\\/\\/ncstatic.clewm.net\\/rsrc\\/2024\\/0912\\/10\\/d46c813ca3fa765008b2882fe9e6eb28.png&quot;,&quot;path&quot;:&quot;https:\\/\\/ncstatic.clewm.net\\/rsrc\\/2024\\/0912\\/10\\/d46c813ca3fa765008b2882fe9e6eb28.png&quot;,&quot;image_resolution&quot;:[],&quot;image_width&quot;:724,&quot;image_height&quot;:714,&quot;designId&quot;:&quot;&quot;,&quot;id&quot;:0,&quot;source_id&quot;:&quot;1585624309&quot;}\" data-stylelib-delete-image-info=\"\" style=\"width: 80px; height: 80px; margin: 0px auto; border-radius: 3px; background-color: rgb(255, 255, 255); background-image: url(&quot;https://ncstatic.clewm.net/rsrc/2024/0531/14/455883beba03792e2f0b7091cfbc91e3.png?x-oss-process=image/resize,w_750/format,gif/sharpen,100/quality,Q_80/interlace,1/auto-orient,1&quot;); background-repeat: no-repeat; background-position: center center; background-size: cover; position: relative;\"><section style=\"display:none;\"><br></section></section><section data-stylelib-tpl-stylename-1=\"color\" data-stylelib-tpl-stylevalue-1=\"&lt;?=isDarkBgColor ? 'rgba(255, 255, 255)' : '#666'?&gt;\" style=\"font-size: 14px; line-height: 1.4; color: rgb(102, 102, 102); text-align: center; padding-top: 7px;\" data-contenteditable=\"true\"><p><span style=\"color:#3f4b59\"><span style=\"font-size:15px\">华东</span></span></p></section> </a></section><section style=\"padding: 12px 4px;width: 33.33333333%;\" class=\"stylelib-list-item\"><a data-cke-saved-href=\"navLink:https://qr61.cn/o2eikt/qE2wq7G?type%3D16%26list_name%3D%E5%8D%8E%E4%B8%AD%E8%B7%AF%E7%BA%BF%E5%90%88%E9%9B%86%26package_id%3D3676%26qrcode_id%3D235865557\" href=\"navLink:https://qr61.cn/o2eikt/qE2wq7G?type%3D16%26list_name%3D%E5%8D%8E%E4%B8%AD%E8%B7%AF%E7%BA%BF%E5%90%88%E9%9B%86%26package_id%3D3676%26qrcode_id%3D235865557\" data-link-no-cancel=\"true\" target=\"_blank\" style=\"display: block;\" class=\"stylelib-image\"><section data-stylelib-backgroundimage=\"image\" data-stylelib-stylename=\"border-radius\" data-stylelib-background-default-size=\"cover\" data-file-uid=\"rc-upload-1717138550545-12\" data-image-url-info=\"{&quot;filename&quot;:&quot;截屏2024-05-30 上午10.49.28.png&quot;,&quot;filesize_byte&quot;:&quot;179938&quot;,&quot;filesize&quot;:&quot;175.72 KB&quot;,&quot;info&quot;:[670,664],&quot;url&quot;:&quot;https:\\/\\/ncstatic.clewm.net\\/rsrc\\/2024\\/0912\\/10\\/efce603223824958f615628790ffd85f.png&quot;,&quot;path&quot;:&quot;https:\\/\\/ncstatic.clewm.net\\/rsrc\\/2024\\/0912\\/10\\/efce603223824958f615628790ffd85f.png&quot;,&quot;image_resolution&quot;:[],&quot;image_width&quot;:670,&quot;image_height&quot;:664,&quot;designId&quot;:&quot;&quot;,&quot;id&quot;:0,&quot;source_id&quot;:&quot;1585624315&quot;}\" data-stylelib-delete-image-info=\"\" style=\"width: 80px; height: 80px; margin: 0px auto; border-radius: 3px; background-color: rgb(255, 255, 255); background-image: url(&quot;https://ncstatic.clewm.net/rsrc/2024/0531/14/b943cb730192eea218f37f16852e3ddb.png?x-oss-process=image/resize,w_750/format,gif/sharpen,100/quality,Q_80/interlace,1/auto-orient,1&quot;); background-repeat: no-repeat; background-position: center center; background-size: cover; position: relative;\"><section style=\"display:none;\"><br></section></section><section data-stylelib-tpl-stylename-1=\"color\" data-stylelib-tpl-stylevalue-1=\"&lt;?=isDarkBgColor ? 'rgba(255, 255, 255)' : '#666'?&gt;\" style=\"font-size: 14px; line-height: 1.4; color: rgb(102, 102, 102); text-align: center; padding-top: 7px;\" data-contenteditable=\"true\"><p><span style=\"font-size:16px\">华中</span></p></section> </a></section><section style=\"padding: 12px 4px;width: 33.33333333%;\" class=\"stylelib-list-item\"><a data-cke-saved-href=\"navLink:https://qr61.cn/o2eikt/qgVllOL?type%3D16%26list_name%3D%E4%BA%91%E5%8D%97%E6%97%85%E6%B8%B8%E8%A1%8C%E7%A8%8B%26package_id%3D3678%26qrcode_id%3D232431397\" href=\"navLink:https://qr61.cn/o2eikt/qgVllOL?type%3D16%26list_name%3D%E4%BA%91%E5%8D%97%E6%97%85%E6%B8%B8%E8%A1%8C%E7%A8%8B%26package_id%3D3678%26qrcode_id%3D232431397\" data-link-no-cancel=\"true\" target=\"_blank\" style=\"display: block;\" class=\"stylelib-image\"><section data-stylelib-backgroundimage=\"image\" data-stylelib-stylename=\"border-radius\" data-stylelib-background-default-size=\"cover\" data-file-uid=\"rc-upload-1717138550545-10\" data-image-url-info=\"{&quot;filename&quot;:&quot;截屏2024-05-30 上午10.49.36.png&quot;,&quot;filesize_byte&quot;:&quot;296626&quot;,&quot;filesize&quot;:&quot;289.67 KB&quot;,&quot;info&quot;:[732,812],&quot;url&quot;:&quot;https:\\/\\/ncstatic.clewm.net\\/rsrc\\/2024\\/0912\\/10\\/61b934a762033b2b3c5a2b6e127d81c3.png&quot;,&quot;path&quot;:&quot;https:\\/\\/ncstatic.clewm.net\\/rsrc\\/2024\\/0912\\/10\\/61b934a762033b2b3c5a2b6e127d81c3.png&quot;,&quot;image_resolution&quot;:[],&quot;image_width&quot;:732,&quot;image_height&quot;:812,&quot;designId&quot;:&quot;&quot;,&quot;id&quot;:0,&quot;source_id&quot;:&quot;1585624317&quot;}\" data-stylelib-delete-image-info=\"\" style=\"width: 80px; height: 80px; margin: 0px auto; border-radius: 3px; background-color: rgb(255, 255, 255); background-image: url(&quot;https://ncstatic.clewm.net/rsrc/2024/0531/14/2afa4fdd33c9029a4133c114408d82ba.png?x-oss-process=image/resize,w_750/format,gif/sharpen,100/quality,Q_80/interlace,1/auto-orient,1&quot;); background-repeat: no-repeat; background-position: center center; background-size: cover; position: relative;\"><section style=\"display:none;\"><br></section></section><section data-stylelib-tpl-stylename-1=\"color\" data-stylelib-tpl-stylevalue-1=\"&lt;?=isDarkBgColor ? 'rgba(255, 255, 255)' : '#666'?&gt;\" style=\"font-size: 14px; line-height: 1.4; color: rgb(102, 102, 102); text-align: center; padding-top: 7px;\" data-contenteditable=\"true\"><p><span style=\"font-size:16px\">西南</span></p></section> </a></section><section style=\"padding: 12px 4px;width: 33.33333333%;\" class=\"stylelib-list-item\"><a data-cke-saved-href=\"navLink:https://qr61.cn/o2eikt/qi6aCdv?type%3D16%26list_name%3D%E5%B7%9D%E8%97%8F%E8%B7%AF%E7%BA%BF%E5%90%88%E9%9B%86%26package_id%3D3677%26qrcode_id%3D235866243\" href=\"navLink:https://qr61.cn/o2eikt/qi6aCdv?type%3D16%26list_name%3D%E5%B7%9D%E8%97%8F%E8%B7%AF%E7%BA%BF%E5%90%88%E9%9B%86%26package_id%3D3677%26qrcode_id%3D235866243\" data-link-no-cancel=\"true\" target=\"_blank\" style=\"display: block;\" class=\"stylelib-image\"><section data-stylelib-backgroundimage=\"image\" data-stylelib-stylename=\"border-radius\" data-stylelib-background-default-size=\"cover\" data-file-uid=\"rc-upload-1717138550545-16\" data-image-url-info=\"{&quot;filename&quot;:&quot;截屏2024-05-30 上午10.49.14.png&quot;,&quot;filesize_byte&quot;:&quot;268391&quot;,&quot;filesize&quot;:&quot;262.1 KB&quot;,&quot;info&quot;:[736,702],&quot;url&quot;:&quot;https:\\/\\/ncstatic.clewm.net\\/rsrc\\/2024\\/0912\\/10\\/12ce6837c2923d79cf34e84d5b2b3821.png&quot;,&quot;path&quot;:&quot;https:\\/\\/ncstatic.clewm.net\\/rsrc\\/2024\\/0912\\/10\\/12ce6837c2923d79cf34e84d5b2b3821.png&quot;,&quot;image_resolution&quot;:[],&quot;image_width&quot;:736,&quot;image_height&quot;:702,&quot;designId&quot;:&quot;&quot;,&quot;id&quot;:0,&quot;source_id&quot;:&quot;1585624318&quot;}\" data-stylelib-delete-image-info=\"\" style=\"width: 80px; height: 80px; margin: 0px auto; border-radius: 3px; background-color: rgb(255, 255, 255); background-image: url(&quot;https://ncstatic.clewm.net/rsrc/2024/0531/14/4325c450b0a7b065602a9934cd4324c0.png?x-oss-process=image/resize,w_750/format,gif/sharpen,100/quality,Q_80/interlace,1/auto-orient,1&quot;); background-repeat: no-repeat; background-position: center center; background-size: cover; position: relative;\"><section style=\"display:none;\"><br></section></section><section data-stylelib-tpl-stylename-1=\"color\" data-stylelib-tpl-stylevalue-1=\"&lt;?=isDarkBgColor ? 'rgba(255, 255, 255)' : '#666'?&gt;\" style=\"font-size: 14px; line-height: 1.4; color: rgb(102, 102, 102); text-align: center; padding-top: 7px;\" data-contenteditable=\"true\"><p><span style=\"font-size:16px\">川藏</span></p></section> </a></section><section style=\"padding: 12px 4px;width: 33.33333333%;\" class=\"stylelib-list-item\"><a data-cke-saved-href=\"navLink:https://qr61.cn/o2eikt/q5H3kCy?type%3D16%26list_name%3D%E7%94%98%E9%9D%92%E6%97%85%E6%B8%B8%E8%A1%8C%E7%A8%8B%26package_id%3D3679%26qrcode_id%3D235867729\" href=\"navLink:https://qr61.cn/o2eikt/q5H3kCy?type%3D16%26list_name%3D%E7%94%98%E9%9D%92%E6%97%85%E6%B8%B8%E8%A1%8C%E7%A8%8B%26package_id%3D3679%26qrcode_id%3D235867729\" data-link-no-cancel=\"true\" target=\"_blank\" style=\"display: block;\" class=\"stylelib-image\"><section data-stylelib-backgroundimage=\"image\" data-stylelib-stylename=\"border-radius\" data-stylelib-background-default-size=\"cover\" data-file-uid=\"rc-upload-1717138550545-14\" data-image-url-info=\"{&quot;filename&quot;:&quot;截屏2024-05-30 上午10.50.16.png&quot;,&quot;filesize_byte&quot;:&quot;199854&quot;,&quot;filesize&quot;:&quot;195.17 KB&quot;,&quot;info&quot;:[650,658],&quot;url&quot;:&quot;https:\\/\\/ncstatic.clewm.net\\/rsrc\\/2024\\/0912\\/10\\/d06a8b4208cd7235a64600b5d457deba.png&quot;,&quot;path&quot;:&quot;https:\\/\\/ncstatic.clewm.net\\/rsrc\\/2024\\/0912\\/10\\/d06a8b4208cd7235a64600b5d457deba.png&quot;,&quot;image_resolution&quot;:[],&quot;image_width&quot;:650,&quot;image_height&quot;:658,&quot;designId&quot;:&quot;&quot;,&quot;id&quot;:0,&quot;source_id&quot;:&quot;1585624321&quot;}\" data-stylelib-delete-image-info=\"\" style=\"width: 80px; height: 80px; margin: 0px auto; border-radius: 3px; background-color: rgb(255, 255, 255); background-image: url(&quot;https://ncstatic.clewm.net/rsrc/2024/0531/14/1620a6d9a3b86f507c2c8a6a22ebfcb3.png?x-oss-process=image/resize,w_750/format,gif/sharpen,100/quality,Q_80/interlace,1/auto-orient,1&quot;); background-repeat: no-repeat; background-position: center center; background-size: cover; position: relative;\"><section style=\"display:none;\"><br></section></section><section data-stylelib-tpl-stylename-1=\"color\" data-stylelib-tpl-stylevalue-1=\"&lt;?=isDarkBgColor ? 'rgba(255, 255, 255)' : '#666'?&gt;\" style=\"font-size: 14px; line-height: 1.4; color: rgb(102, 102, 102); text-align: center; padding-top: 7px;\" data-contenteditable=\"true\"><p><span style=\"font-size:16px\">西北</span></p></section> </a></section><section style=\"padding: 12px 4px;width: 33.33333333%;\" class=\"stylelib-list-item\"><a data-cke-saved-href=\"navLink:https://qr61.cn/o2eikt/qxvoNQu?type%3D16%26list_name%3D%E9%A6%99%E6%B8%AF%E6%97%85%E6%B8%B8%E8%A1%8C%E7%A8%8B%26package_id%3D3680%26qrcode_id%3D235873661\" href=\"navLink:https://qr61.cn/o2eikt/qxvoNQu?type%3D16%26list_name%3D%E9%A6%99%E6%B8%AF%E6%97%85%E6%B8%B8%E8%A1%8C%E7%A8%8B%26package_id%3D3680%26qrcode_id%3D235873661\" data-link-no-cancel=\"true\" target=\"_blank\" style=\"display: block;\" class=\"stylelib-image\"><section data-stylelib-backgroundimage=\"image\" data-stylelib-stylename=\"border-radius\" data-stylelib-background-default-size=\"cover\" data-file-uid=\"rc-upload-1717138550545-18\" data-image-url-info=\"{&quot;filename&quot;:&quot;截屏2024-05-30 上午10.51.50.png&quot;,&quot;filesize_byte&quot;:&quot;309678&quot;,&quot;filesize&quot;:&quot;302.42 KB&quot;,&quot;info&quot;:[742,752],&quot;url&quot;:&quot;https:\\/\\/ncstatic.clewm.net\\/rsrc\\/2024\\/0912\\/10\\/c7f215d31d4e38177ded8963bab3cf70.png&quot;,&quot;path&quot;:&quot;https:\\/\\/ncstatic.clewm.net\\/rsrc\\/2024\\/0912\\/10\\/c7f215d31d4e38177ded8963bab3cf70.png&quot;,&quot;image_resolution&quot;:[],&quot;image_width&quot;:742,&quot;image_height&quot;:752,&quot;designId&quot;:&quot;&quot;,&quot;id&quot;:0,&quot;source_id&quot;:&quot;1585624328&quot;}\" data-stylelib-delete-image-info=\"\" style=\"width: 80px; height: 80px; margin: 0px auto; border-radius: 3px; background-color: rgb(255, 255, 255); background-image: url(&quot;https://ncstatic.clewm.net/rsrc/2024/0531/14/86c649b960828deda5660a677def7c45.png?x-oss-process=image/resize,w_750/format,gif/sharpen,100/quality,Q_80/interlace,1/auto-orient,1&quot;); background-repeat: no-repeat; background-position: center center; background-size: cover; position: relative;\"><section style=\"display:none;\"><br></section></section><section data-stylelib-tpl-stylename-1=\"color\" data-stylelib-tpl-stylevalue-1=\"&lt;?=isDarkBgColor ? 'rgba(255, 255, 255)' : '#666'?&gt;\" style=\"font-size: 14px; line-height: 1.4; color: rgb(102, 102, 102); text-align: center; padding-top: 7px;\" data-contenteditable=\"true\"><p><span style=\"font-size:16px\">港澳</span></p></section> </a></section></section></section></section>",
+            "status": 0,
+            "attribute_id": 4,
+            "group_id": 1,
+            "real_group_id": 1,
+            "tpl_com_id": 279931515,
+            "name": "文本 html 片段",
+            "is_default_value": 0,
+            "multiple_id": "141352439",
+            "attribute_multiple_id": 1
+          }
+        }
+      ],
+      "group_count": 1,
+      "encryption": "dc7cdd2577300af4adbb8d8617dff21e",
+      "type": "text",
+      "uniqueId": 1
+    },
+    {
+      "id": 317629859,
+      "qrcode_id": 256807285,
+      "component_code": "text",
+      "identity_id": 0,
+      "sort": 2,
+      "status": 0,
+      "tpl_com_id": 279931516,
+      "org_id": 82282788,
+      "batch_id": 0,
+      "component_status": 0,
+      "template_component_info": "",
+      "form_component_id": 0,
+      "form_component_title": "",
+      "attribute_list": [
+        {
+          "content_html": {
+            "id": 150321202,
+            "value": "<p><br></p><p><span style=\"font-size:24px\"><strong>特惠路线</strong></span></p><p><span style=\"color:#77818c\"><span style=\"font-size:14px\">经济实惠，游遍大江南北</span></span></p>",
+            "status": 0,
+            "attribute_id": 4,
+            "group_id": 1,
+            "real_group_id": 1,
+            "tpl_com_id": 279931516,
+            "name": "文本 html 片段",
+            "is_default_value": 0,
+            "multiple_id": "141352440",
+            "attribute_multiple_id": 1
+          }
+        }
+      ],
+      "group_count": 1,
+      "encryption": "e49d1349dbe24245ffe4338a8fbe7b65",
+      "type": "text",
+      "uniqueId": 2
+    },
+    {
+      "id": 317629860,
+      "qrcode_id": 256807285,
+      "component_code": "text",
+      "identity_id": 0,
+      "sort": 3,
+      "status": 0,
+      "tpl_com_id": 279931517,
+      "org_id": 82282788,
+      "batch_id": 0,
+      "component_status": 0,
+      "template_component_info": "",
+      "form_component_id": 0,
+      "form_component_title": "",
+      "attribute_list": [
+        {
+          "content_html": {
+            "id": 150321203,
+            "value": "<section data-theme-color=\"#0B0D0F\" data-is-vip=\"false\" data-change-color=\"on\" data-hide-change-color-btn=\"true\" data-is-full=\"false\" data-key=\"image-tpl26\" class=\"stylelib-wrapper\" data-contenteditable=\"false\"><section class=\"x-vipIcon\"><section style=\"display: none\"><br></section></section><a data-cke-saved-href=\"navLink:http://qr61.cn/o2eikt/qkBMkwI?type%3D16%26list_name%3D%E6%9D%AD%E5%B7%9E%E6%97%85%E6%B8%B8%E8%A1%8C%E7%A8%8B%26package_id%3D3412%26qrcode_id%3D222995327\" href=\"navLink:http://qr61.cn/o2eikt/qkBMkwI?type%3D16%26list_name%3D%E6%9D%AD%E5%B7%9E%E6%97%85%E6%B8%B8%E8%A1%8C%E7%A8%8B%26package_id%3D3412%26qrcode_id%3D222995327\" data-link-no-cancel=\"true\" target=\"_blank\" style=\"display: block; padding: 4px; background-color: #fff;border-radius: 6px;\" class=\"stylelib-image stylelib-image-children-1\"><section style=\"display: flex\"><section data-stylelib-backgroundimage=\"image\" data-stylelib-background-default-size=\"cover\" data-file-uid=\"rc-upload-1726037563855-8\" data-image-url-info=\"{&quot;filename&quot;:&quot;微信图片_20240911144823.jpg&quot;,&quot;filesize_byte&quot;:&quot;138102&quot;,&quot;filesize&quot;:&quot;134.87 KB&quot;,&quot;info&quot;:[732,1028],&quot;url&quot;:&quot;https:\\/\\/ncstatic.clewm.net\\/rsrc\\/2024\\/0912\\/10\\/c6de9e66c363b10132816d2494ee47d1.jpg&quot;,&quot;path&quot;:&quot;https:\\/\\/ncstatic.clewm.net\\/rsrc\\/2024\\/0912\\/10\\/c6de9e66c363b10132816d2494ee47d1.jpg&quot;,&quot;image_resolution&quot;:[1,1],&quot;image_width&quot;:732,&quot;image_height&quot;:1028,&quot;designId&quot;:&quot;&quot;,&quot;id&quot;:0,&quot;source_id&quot;:&quot;1585624333&quot;}\" style=\"width: 120px; height: auto; background-color: rgb(246, 248, 249); background-image: url(&quot;https://ncstatic.clewm.net/rsrc/2024/0911/14/fe7105305bfc3be6fbe5c7b87640ff95.jpg?x-oss-process=image/resize,w_750/format,gif/sharpen,100/quality,Q_80/interlace,1/auto-orient,1&quot;); background-repeat: no-repeat; background-position: center center; background-size: cover; border-radius: 4px; min-width: 120px; min-height: 120px; position: relative;\"><section style=\"display: none\"><br></section></section><section style=\"padding: 8px 4px 8px 12px; flex: 1\"><section data-stylelib-stylename=\"color\" data-stylelib-varname=\"whiteBgThemeFontColor\" style=\"color:#0B0D0F;font-size:24px;\" data-contenteditable=\"true\"><p><span style=\"font-size:20px\"><strong>杭州3天2晚</strong></span></p></section><section data-stylelib-stylename=\"color\" data-stylelib-varname=\"whiteBgThemeFontColor\" style=\"flex:1;color:#0B0D0F;font-size:12px;\" data-contenteditable=\"true\"><p><span style=\"font-size:12px\">一价全包0自费 0景交0保底 </span></p></section><section style=\"display: flex; align-items: flex-end; margin-top: 10px\"><section data-stylelib-stylename=\"color\" data-stylelib-varname=\"whiteBgThemeFontColor\" style=\"flex:1;color:#0B0D0F;font-size:16px;line-height:24px;\" data-contenteditable=\"true\"><p><span style=\"font-size:22px\"><strong>999</strong></span>&nbsp;<span style=\"font-size:14px\">元/人 </span></p></section><section style=\"display: flex; flex-shrink: 0; align-items: center; max-width: 120px\"><section data-stylelib-stylename=\"color\" data-stylelib-varname=\"whiteBgThemeFontColor\" style=\"margin-right: 4px;display: inline-block;color:#0B0D0F;font-size:12px;\" data-contenteditable=\"true\"><p><span style=\"color:#77818c\"><span style=\"font-size:12px\">点击查看</span></span></p></section><section style=\"margin-right: 16px\"><section data-stylelib-stylename=\"border-color\" data-stylelib-varname=\"whiteBgThemeFontColor\" style=\"position: relative;bottom: 1px;border-color:#0B0D0F;width:8px;height:8px;display: inline-block;border-top-width: 1px;border-top-style: solid;border-right-width: 1px;border-right-style:solid;transform: rotate(45deg);\"><section style=\"display: none\"><br></section></section></section></section></section></section></section> </a></section>",
+            "status": 0,
+            "attribute_id": 4,
+            "group_id": 1,
+            "real_group_id": 1,
+            "tpl_com_id": 279931517,
+            "name": "文本 html 片段",
+            "is_default_value": 0,
+            "multiple_id": "141352441",
+            "attribute_multiple_id": 1
+          }
+        }
+      ],
+      "group_count": 1,
+      "encryption": "3649a6533def2b0430fb29b1e0dae090",
+      "type": "text",
+      "uniqueId": 3
+    },
+    {
+      "id": 317629861,
+      "qrcode_id": 256807285,
+      "component_code": "text",
+      "identity_id": 0,
+      "sort": 4,
+      "status": 0,
+      "tpl_com_id": 279931518,
+      "org_id": 82282788,
+      "batch_id": 0,
+      "component_status": 0,
+      "template_component_info": "",
+      "form_component_id": 0,
+      "form_component_title": "",
+      "attribute_list": [
+        {
+          "content_html": {
+            "id": 150321204,
+            "value": "<section data-theme-color=\"#0B0D0F\" data-is-vip=\"false\" data-change-color=\"on\" data-hide-change-color-btn=\"true\" data-is-full=\"false\" data-key=\"image-tpl26\" class=\"stylelib-wrapper\" data-contenteditable=\"false\"><section class=\"x-vipIcon\"><section style=\"display: none\"><br></section></section><a data-cke-saved-href=\"navLink:http://qr61.cn/o2eikt/qS3vCvT?type%3D16%26list_name%3D%E9%95%BF%E6%B2%99%E6%97%85%E6%B8%B8%E8%A1%8C%E7%A8%8B%26package_id%3D3405%26qrcode_id%3D222964597\" href=\"navLink:http://qr61.cn/o2eikt/qS3vCvT?type%3D16%26list_name%3D%E9%95%BF%E6%B2%99%E6%97%85%E6%B8%B8%E8%A1%8C%E7%A8%8B%26package_id%3D3405%26qrcode_id%3D222964597\" data-link-no-cancel=\"true\" target=\"_blank\" style=\"display: block; padding: 4px; background-color: #fff;border-radius: 6px;\" class=\"stylelib-image stylelib-image-children-1\"><section style=\"display: flex\"><section data-stylelib-backgroundimage=\"image\" data-stylelib-background-default-size=\"cover\" data-file-uid=\"rc-upload-1726037563855-10\" data-image-url-info=\"{&quot;filename&quot;:&quot;微信图片_20240911144946.jpg&quot;,&quot;filesize_byte&quot;:&quot;36268&quot;,&quot;filesize&quot;:&quot;35.42 KB&quot;,&quot;info&quot;:[522,492],&quot;url&quot;:&quot;https:\\/\\/ncstatic.clewm.net\\/rsrc\\/2024\\/0912\\/10\\/5d9c70ef9a620dd1ac4369b13c8a41ea.jpg&quot;,&quot;path&quot;:&quot;https:\\/\\/ncstatic.clewm.net\\/rsrc\\/2024\\/0912\\/10\\/5d9c70ef9a620dd1ac4369b13c8a41ea.jpg&quot;,&quot;image_resolution&quot;:[1,1],&quot;image_width&quot;:522,&quot;image_height&quot;:492,&quot;designId&quot;:&quot;&quot;,&quot;id&quot;:0,&quot;source_id&quot;:&quot;1585624336&quot;}\" style=\"width: 120px; height: auto; background-color: rgb(246, 248, 249); background-image: url(&quot;https://ncstatic.clewm.net/rsrc/2024/0911/14/73bc673d3af9098bd8d55a35d34ef852.jpg?x-oss-process=image/resize,w_750/format,gif/sharpen,100/quality,Q_80/interlace,1/auto-orient,1&quot;); background-repeat: no-repeat; background-position: center center; background-size: cover; border-radius: 4px; min-width: 120px; min-height: 120px; position: relative;\"><section style=\"display: none\"><br></section></section><section style=\"padding: 8px 4px 8px 12px; flex: 1\"><section data-stylelib-stylename=\"color\" data-stylelib-varname=\"whiteBgThemeFontColor\" style=\"color:#0B0D0F;font-size:24px;\" data-contenteditable=\"true\"><p><span style=\"font-size:20px\"><strong><span style=\"line-height:normal\">长沙4天3晚</span></strong></span></p></section><section data-stylelib-stylename=\"color\" data-stylelib-varname=\"whiteBgThemeFontColor\" style=\"flex:1;color:#0B0D0F;font-size:12px;\" data-contenteditable=\"true\"><p><span style=\"font-size:12px\">一价全包0自费 0景交0保底 </span></p></section><section style=\"display: flex; align-items: flex-end; margin-top: 10px\"><section data-stylelib-stylename=\"color\" data-stylelib-varname=\"whiteBgThemeFontColor\" style=\"flex:1;color:#0B0D0F;font-size:16px;line-height:24px;\" data-contenteditable=\"true\"><p><span style=\"font-size:22px\"><strong><span style=\"line-height:normal\">1299</span></strong></span>&nbsp;<span style=\"font-size:14px\">元/人 </span></p></section><section style=\"display: flex; flex-shrink: 0; align-items: center; max-width: 120px\"><section data-stylelib-stylename=\"color\" data-stylelib-varname=\"whiteBgThemeFontColor\" style=\"margin-right: 4px;display: inline-block;color:#0B0D0F;font-size:12px;\" data-contenteditable=\"true\"><p><span style=\"color:#77818c\"><span style=\"font-size:12px\">点击查看</span></span></p></section><section style=\"margin-right: 16px\"><section data-stylelib-stylename=\"border-color\" data-stylelib-varname=\"whiteBgThemeFontColor\" style=\"position: relative;bottom: 1px;border-color:#0B0D0F;width:8px;height:8px;display: inline-block;border-top-width: 1px;border-top-style: solid;border-right-width: 1px;border-right-style:solid;transform: rotate(45deg);\"><section style=\"display: none\"><br></section></section></section></section></section></section></section> </a></section>",
+            "status": 0,
+            "attribute_id": 4,
+            "group_id": 1,
+            "real_group_id": 1,
+            "tpl_com_id": 279931518,
+            "name": "文本 html 片段",
+            "is_default_value": 0,
+            "multiple_id": "141352442",
+            "attribute_multiple_id": 1
+          }
+        }
+      ],
+      "group_count": 1,
+      "encryption": "de8e990d503bed36559be377db3dbe61",
+      "type": "text",
+      "uniqueId": 4
+    },
+    {
+      "id": 317629862,
+      "qrcode_id": 256807285,
+      "component_code": "text",
+      "identity_id": 0,
+      "sort": 5,
+      "status": 0,
+      "tpl_com_id": 279931519,
+      "org_id": 82282788,
+      "batch_id": 0,
+      "component_status": 0,
+      "template_component_info": "",
+      "form_component_id": 0,
+      "form_component_title": "",
+      "attribute_list": [
+        {
+          "content_html": {
+            "id": 150321205,
+            "value": "<section data-theme-color=\"#0B0D0F\" data-is-vip=\"false\" data-change-color=\"on\" data-hide-change-color-btn=\"true\" data-is-full=\"false\" data-key=\"image-tpl26\" class=\"stylelib-wrapper\" data-contenteditable=\"false\"><section class=\"x-vipIcon\"><section style=\"display: none\"><br></section></section><a data-cke-saved-href=\"navLink:http://qr61.cn/o2eikt/qXAZ1o0?type%3D16%26list_name%3D%E6%88%90%E9%83%BD%E6%97%85%E6%B8%B8%E8%A1%8C%E7%A8%8B%26package_id%3D3404%26qrcode_id%3D222953384\" href=\"navLink:http://qr61.cn/o2eikt/qXAZ1o0?type%3D16%26list_name%3D%E6%88%90%E9%83%BD%E6%97%85%E6%B8%B8%E8%A1%8C%E7%A8%8B%26package_id%3D3404%26qrcode_id%3D222953384\" data-link-no-cancel=\"true\" target=\"_blank\" style=\"display: block; padding: 4px; background-color: #fff;border-radius: 6px;\" class=\"stylelib-image stylelib-image-children-1\"><section style=\"display: flex\"><section data-stylelib-backgroundimage=\"image\" data-stylelib-background-default-size=\"cover\" data-file-uid=\"rc-upload-1726041497407-10\" data-image-url-info=\"{&quot;filename&quot;:&quot;unsplash_1Jmfc6pZnr4.png&quot;,&quot;filesize_byte&quot;:&quot;2052556&quot;,&quot;filesize&quot;:&quot;1.96 M&quot;,&quot;info&quot;:[1201,1201],&quot;url&quot;:&quot;https:\\/\\/ncstatic.clewm.net\\/rsrc\\/2024\\/0912\\/10\\/c634bd85bf00ad342840f582a43ece6e.png&quot;,&quot;path&quot;:&quot;https:\\/\\/ncstatic.clewm.net\\/rsrc\\/2024\\/0912\\/10\\/c634bd85bf00ad342840f582a43ece6e.png&quot;,&quot;image_resolution&quot;:[],&quot;image_width&quot;:1201,&quot;image_height&quot;:1201,&quot;id&quot;:0,&quot;source_id&quot;:&quot;1585624346&quot;}\" data-stylelib-delete-image-info=\"\" style=\"width: 120px; height: auto; background-color: rgb(246, 248, 249); background-image: url(&quot;https://ncstatic.clewm.net/rsrc/2024/0911/16/09ab07ddcdf99a946c07fc505cfb5449.png?x-oss-process=image/resize,w_750/format,gif/sharpen,100/quality,Q_80/interlace,1/auto-orient,1&quot;); background-repeat: no-repeat; background-position: center center; background-size: cover; border-radius: 4px; min-width: 120px; min-height: 120px; position: relative;\"><section style=\"display: none\"><br></section></section><section style=\"padding: 8px 4px 8px 12px; flex: 1\"><section data-stylelib-stylename=\"color\" data-stylelib-varname=\"whiteBgThemeFontColor\" style=\"color:#0B0D0F;font-size:24px;\" data-contenteditable=\"true\"><p><span style=\"font-size:20px\"><strong>成都5天4晚</strong></span></p></section><section data-stylelib-stylename=\"color\" data-stylelib-varname=\"whiteBgThemeFontColor\" style=\"flex:1;color:#0B0D0F;font-size:12px;\" data-contenteditable=\"true\"><p><span style=\"font-size:12px\">一价全包0自费 0景交0保底 </span></p></section><section style=\"display: flex; align-items: flex-end; margin-top: 10px\"><section data-stylelib-stylename=\"color\" data-stylelib-varname=\"whiteBgThemeFontColor\" style=\"flex:1;color:#0B0D0F;font-size:16px;line-height:24px;\" data-contenteditable=\"true\"><p><span style=\"font-size:22px\"><strong>1599</strong></span>&nbsp;<span style=\"font-size:14px\">元/人 </span></p></section><section style=\"display: flex; flex-shrink: 0; align-items: center; max-width: 120px\"><section data-stylelib-stylename=\"color\" data-stylelib-varname=\"whiteBgThemeFontColor\" style=\"margin-right: 4px;display: inline-block;color:#0B0D0F;font-size:12px;\" data-contenteditable=\"true\"><p><span style=\"color:#77818c\"><span style=\"font-size:12px\">点击查看</span></span></p></section><section style=\"margin-right: 16px\"><section data-stylelib-stylename=\"border-color\" data-stylelib-varname=\"whiteBgThemeFontColor\" style=\"position: relative;bottom: 1px;border-color:#0B0D0F;width:8px;height:8px;display: inline-block;border-top-width: 1px;border-top-style: solid;border-right-width: 1px;border-right-style:solid;transform: rotate(45deg);\"><section style=\"display: none\"><br></section></section></section></section></section></section></section> </a></section>",
+            "status": 0,
+            "attribute_id": 4,
+            "group_id": 1,
+            "real_group_id": 1,
+            "tpl_com_id": 279931519,
+            "name": "文本 html 片段",
+            "is_default_value": 0,
+            "multiple_id": "141352443",
+            "attribute_multiple_id": 1
+          }
+        }
+      ],
+      "group_count": 1,
+      "encryption": "2c80a2e3badee55fbc1ee887b9089b88",
+      "type": "text",
+      "uniqueId": 5
+    },
+    {
+      "id": 317629863,
+      "qrcode_id": 256807285,
+      "component_code": "text",
+      "identity_id": 0,
+      "sort": 6,
+      "status": 0,
+      "tpl_com_id": 279931520,
+      "org_id": 82282788,
+      "batch_id": 0,
+      "component_status": 0,
+      "template_component_info": "",
+      "form_component_id": 0,
+      "form_component_title": "",
+      "attribute_list": [
+        {
+          "content_html": {
+            "id": 150321206,
+            "value": "<p><br></p>",
+            "status": 0,
+            "attribute_id": 4,
+            "group_id": 1,
+            "real_group_id": 1,
+            "tpl_com_id": 279931520,
+            "name": "文本 html 片段",
+            "is_default_value": 0,
+            "multiple_id": "141352444",
+            "attribute_multiple_id": 1
+          }
+        }
+      ],
+      "group_count": 1,
+      "encryption": "1dde9046d72084efa4157ec216d2ece9",
+      "type": "text",
+      "uniqueId": 6
+    },
+    {
+      "id": 317629864,
+      "qrcode_id": 256807285,
+      "component_code": "text",
+      "identity_id": 0,
+      "sort": 7,
+      "status": 0,
+      "tpl_com_id": 279931521,
+      "org_id": 82282788,
+      "batch_id": 0,
+      "component_status": 0,
+      "template_component_info": "",
+      "form_component_id": 0,
+      "form_component_title": "",
+      "attribute_list": [
+        {
+          "content_html": {
+            "id": 150321207,
+            "value": "<section data-is-vip=\"false\" data-type=\"title\" data-change-color=\"on\" data-theme-color=\"#0B0D0F\" data-key=\"title-tpl106\" class=\"stylelib-wrapper\" data-contenteditable=\"false\"><section class=\"x-vipIcon\"><section style=\"display:none;\"><br></section></section><section style=\"position:relative;display: flex;flex-direction: column;\"><section data-stylelib-stylename=\"color\" data-stylelib-tpl-stylename=\"border-color\" data-stylelib-tpl-stylevalue=\"&lt;?= isDarkBgColor ? parseColor(themeColor, 0.3) : parseColor(themeColor, 0.3) ?&gt;\" style=\"width: fit-content;margin: 0 auto;min-width:36px;max-width: 100%; flex-shrink: 0;position:relative;display:inline-block;color:#0B0D0F;text-align: center;border-bottom-width:1px;border-bottom-style:solid;border-color:rgba(11, 13, 15, 0.3);\" data-contenteditable=\"true\"><p><span style=\"font-size:24px\"><strong>关于我们</strong></span></p></section><section data-stylelib-tpl-stylename=\"color\" data-stylelib-tpl-stylevalue=\"&lt;?=parseColor(themeColor, 0.5)?&gt;\" style=\"min-width:36px;max-width: 100%; flex-shrink: 0;position:relative;display:inline-block;color:rgba(11, 13, 15, 0.5);border-radius:4px;text-align: center;margin-top: 8px;\" data-contenteditable=\"true\"><p><span style=\"font-size:14px\">用心给您最好的体验</span></p></section></section></section>",
+            "status": 0,
+            "attribute_id": 4,
+            "group_id": 1,
+            "real_group_id": 1,
+            "tpl_com_id": 279931521,
+            "name": "文本 html 片段",
+            "is_default_value": 0,
+            "multiple_id": "141352445",
+            "attribute_multiple_id": 1
+          }
+        }
+      ],
+      "group_count": 1,
+      "encryption": "695918a29698e08716c3c56181880349",
+      "type": "text",
+      "uniqueId": 7
+    },
+    {
+      "id": 317629865,
+      "qrcode_id": 256807285,
+      "component_code": "text",
+      "identity_id": 0,
+      "sort": 8,
+      "status": 0,
+      "tpl_com_id": 279931522,
+      "org_id": 82282788,
+      "batch_id": 0,
+      "component_status": 0,
+      "template_component_info": "",
+      "form_component_id": 0,
+      "form_component_title": "",
+      "attribute_list": [
+        {
+          "content_html": {
+            "id": 150321208,
+            "value": "<p style=\"text-align:center\">主营国内路线，定制个性化行程</p><p style=\"text-align:center\">无套路，无购物，注重口碑，一分价格一分货</p><p style=\"text-align:center\">深度体验，贴心服务，24小时专属管家</p><p style=\"text-align:center\"><br></p>",
+            "status": 0,
+            "attribute_id": 4,
+            "group_id": 1,
+            "real_group_id": 1,
+            "tpl_com_id": 279931522,
+            "name": "文本 html 片段",
+            "is_default_value": 0,
+            "multiple_id": "141352446",
+            "attribute_multiple_id": 1
+          }
+        }
+      ],
+      "group_count": 1,
+      "encryption": "50bb12d49cb880955849577ac63bcec2",
+      "type": "text",
+      "uniqueId": 8
+    },
+    {
+      "id": 317629866,
+      "qrcode_id": 256807285,
+      "component_code": "contactus",
+      "identity_id": 0,
+      "sort": 9,
+      "status": 0,
+      "tpl_com_id": 279931523,
+      "org_id": 82282788,
+      "batch_id": 0,
+      "component_status": 0,
+      "template_component_info": "",
+      "form_component_id": 0,
+      "form_component_title": "",
+      "attribute_list": [
+        {
+          "contact_phone": {
+            "id": 17513798,
+            "value": "[\"上海分社：400-123-123\",\"广州分社：400-567-567\",\"武汉分社：400-789-789\"]",
+            "status": 0,
+            "attribute_id": 21,
+            "group_id": 1,
+            "real_group_id": 1,
+            "tpl_com_id": 279931523,
+            "name": "联系电话",
+            "is_default_value": 0
+          },
+          "contact_mail": {
+            "id": 17513799,
+            "value": "",
+            "status": 0,
+            "attribute_id": 22,
+            "group_id": 1,
+            "real_group_id": 1,
+            "tpl_com_id": 279931523,
+            "name": "反馈邮箱",
+            "is_default_value": 0
+          },
+          "work_time": {
+            "id": 17513800,
+            "value": "",
+            "status": 0,
+            "attribute_id": 23,
+            "group_id": 1,
+            "real_group_id": 1,
+            "tpl_com_id": 279931523,
+            "name": "工作时间",
+            "is_default_value": 0
+          },
+          "address": {
+            "id": 17513801,
+            "value": "",
+            "status": 0,
+            "attribute_id": 24,
+            "group_id": 1,
+            "real_group_id": 1,
+            "tpl_com_id": 279931523,
+            "name": "联系地址",
+            "is_default_value": 0
+          },
+          "longitude": {
+            "id": 17513802,
+            "value": "",
+            "status": 0,
+            "attribute_id": 25,
+            "group_id": 1,
+            "real_group_id": 1,
+            "tpl_com_id": 279931523,
+            "name": "中心经度",
+            "is_default_value": 0
+          },
+          "latitude": {
+            "id": 17513803,
+            "value": "",
+            "status": 0,
+            "attribute_id": 26,
+            "group_id": 1,
+            "real_group_id": 1,
+            "tpl_com_id": 279931523,
+            "name": "中心纬度",
+            "is_default_value": 0
+          },
+          "selected_phone": {
+            "id": 17513804,
+            "value": "",
+            "status": 0,
+            "attribute_id": 28,
+            "group_id": 1,
+            "real_group_id": 1,
+            "tpl_com_id": 279931523,
+            "name": "联系电话选择框",
+            "is_default_value": 0
+          },
+          "selected_mail": {
+            "id": 17513805,
+            "value": "",
+            "status": 0,
+            "attribute_id": 29,
+            "group_id": 1,
+            "real_group_id": 1,
+            "tpl_com_id": 279931523,
+            "name": "反馈邮箱选择框",
+            "is_default_value": 0
+          },
+          "selected_wtime": {
+            "id": 17513806,
+            "value": "",
+            "status": 0,
+            "attribute_id": 30,
+            "group_id": 1,
+            "real_group_id": 1,
+            "tpl_com_id": 279931523,
+            "name": "工作时间选择框",
+            "is_default_value": 0
+          },
+          "selected_addres": {
+            "id": 17513807,
+            "value": "",
+            "status": 0,
+            "attribute_id": 31,
+            "group_id": 1,
+            "real_group_id": 1,
+            "tpl_com_id": 279931523,
+            "name": "联系地址选择框",
+            "is_default_value": 0
+          },
+          "title": {
+            "id": 17513808,
+            "value": "",
+            "status": 0,
+            "attribute_id": 113,
+            "group_id": 1,
+            "real_group_id": 1,
+            "tpl_com_id": 279931523,
+            "name": "标题",
+            "is_default_value": 0
+          },
+          "show_type": {
+            "id": 17513809,
+            "value": "2",
+            "status": 0,
+            "attribute_id": 125,
+            "group_id": 1,
+            "real_group_id": 1,
+            "tpl_com_id": 279931523,
+            "name": "展示方式",
+            "is_default_value": 0,
+            "enum_encryption": "332c1f4f9be973e5edf0e4e03f70311d",
+            "enum_msg": [
+              {
+                "id": 2732033719,
+                "attribute_value_id": 17513809,
+                "enum_text": "文字",
+                "enum_value": 0,
+                "sort": 0,
+                "status": 0,
+                "create_time": 0,
+                "update_time": 0,
+                "component_code": "contactus"
+              },
+              {
+                "id": 2732033720,
+                "attribute_value_id": 17513809,
+                "enum_text": "卡片样式",
+                "enum_value": 2,
+                "sort": 1,
+                "status": 0,
+                "create_time": 0,
+                "update_time": 0,
+                "component_code": "contactus"
+              },
+              {
+                "id": 2732033721,
+                "attribute_value_id": 17513809,
+                "enum_text": "地图卡片",
+                "enum_value": 1,
+                "sort": 2,
+                "status": 0,
+                "create_time": 0,
+                "update_time": 0,
+                "component_code": "contactus"
+              }
+            ]
+          },
+          "locate_image": {
+            "id": 17513810,
+            "value": "",
+            "status": 0,
+            "attribute_id": 126,
+            "group_id": 1,
+            "real_group_id": 1,
+            "tpl_com_id": 279931523,
+            "name": "地图图片链接",
+            "is_default_value": 0,
+            "source_id": 0
+          },
+          "contact_weixin": {
+            "id": 17513816,
+            "value": "[]",
+            "status": 0,
+            "attribute_id": 175,
+            "group_id": 1,
+            "real_group_id": 1,
+            "tpl_com_id": 279931523,
+            "name": "微信",
+            "is_default_value": 0,
+            "multiple_id": "112374",
+            "attribute_multiple_id": 8
+          },
+          "display_style": {
+            "id": 17513811,
+            "value": "0",
+            "status": 0,
+            "attribute_id": 176,
+            "group_id": 1,
+            "real_group_id": 1,
+            "tpl_com_id": 279931523,
+            "name": "展示样式",
+            "is_default_value": 0
+          },
+          "avatar": {
+            "id": 17513812,
+            "value": "",
+            "status": 0,
+            "attribute_id": 177,
+            "group_id": 1,
+            "real_group_id": 1,
+            "tpl_com_id": 279931523,
+            "name": "头像",
+            "is_default_value": 0
+          },
+          "save_btn": {
+            "id": 17513813,
+            "value": "0",
+            "status": 0,
+            "attribute_id": 178,
+            "group_id": 1,
+            "real_group_id": 1,
+            "tpl_com_id": 279931523,
+            "name": "保存通讯录按钮",
+            "is_default_value": 0
+          },
+          "jump_homepage": {
+            "id": 17513814,
+            "value": "",
+            "status": 0,
+            "attribute_id": 180,
+            "group_id": 1,
+            "real_group_id": 1,
+            "tpl_com_id": 279931523,
+            "name": "跳转主页",
+            "is_default_value": 0
+          },
+          "street_address": {
+            "id": 17513815,
+            "value": "",
+            "status": 0,
+            "attribute_id": 182,
+            "group_id": 1,
+            "real_group_id": 1,
+            "tpl_com_id": 279931523,
+            "name": "街道地址",
+            "is_default_value": 0
+          }
+        }
+      ],
+      "group_count": 1,
+      "encryption": "dbfa17efd6162184417705729ad6efc2",
+      "type": "contactus",
+      "uniqueId": 9
+    }
+  ]
+}

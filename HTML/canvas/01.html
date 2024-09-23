@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #drawing {
+            width: 200px;
+            /* 设定CSS中的宽度 */
+            height: 200px;
+            /* 设定CSS中的高度 */
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <canvas id="drawing"></canvas>
+    </div>
+    <script>
+        const drawing = document.getElementById('drawing');
+        const ctx = drawing.getContext('2d');
+
+        // 获取设备的像素比
+        const dpr = window.devicePixelRatio || 1;
+
+        // 设置canvas的实际大小，考虑设备的像素比
+        drawing.width = 200 * dpr;
+        drawing.height = 200 * dpr;
+
+        // 通过CSS控制显示大小
+        drawing.style.width = '200px';
+        drawing.style.height = '200px';
+
+        // 缩放绘图上下文，以适应高DPI设备
+        // ctx.scale(dpr, dpr);
+
+        // 绘制图形
+        ctx.fillStyle = '#000000';
+        ctx.fillRect(10, 10, 100, 100);
+        // ctx.fillStyle = '#ff0000';
+        // ctx.fillRect(20, 20, 100, 100);
+        // ctx.strokeRect(10, 10, 100, 100);
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="status"> 111</div>
+</body>
+<script>
+    function updateProgress() {
+        var div = document.getElementById("status");
+        div.style.width = (parseInt(div.style.width, 10) + 5) + "%";
+        if (div.style.width != "100%") {
+            // requestAnimationFrame(updateProgress);
+        }
+        console.log(11111);
+
+    }
+
+    requestAnimationFrame(updateProgress);
+
+</script>
+
+</html>
