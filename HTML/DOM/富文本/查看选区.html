@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <title>查看选区</title>
+    <style>
+        #editor {
+            width: 100%;
+            height: 200px;
+            border: 1px solid #ccc;
+            padding: 10px;
+            overflow-y: scroll;
+        }
+    </style>
+</head>
+
+<body>
+    <button onclick="selectAllText()">全选</button>
+    <button onclick="logSelection()">查看选区</button>
+    <button onclick="selectAllText()">全选</button>
+    <div id="editor" contenteditable="true">
+        这是一个可编辑的区域，请在此输入文本...
+    </div>
+
+    <script>
+        function selectAllText() {
+            var editor = document.getElementById('editor');
+            var range = document.createRange();
+            range.selectNodeContents(editor);
+            var selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+        }
+
+        function logSelection() {
+            var selection = window.getSelection();
+            if (selection.rangeCount > 0) {
+                var range = selection.getRangeAt(0);
+                console.log("选区内容: ", range.toString());
+                console.log("起始节点: ", range.startContainer);
+                console.log("起始偏移: ", range.startOffset);
+                console.log("结束节点: ", range.endContainer);
+                console.log("结束偏移: ", range.endOffset);
+            } else {
+                console.log("没有选区");
+            }
+        }
+
+        function selectAllText() {
+            var editor = document.getElementById('editor'); // 获取编辑区域的元素
+            var range = document.createRange(); // 创建一个新的 Range 对象
+            range.selectNodeContents(editor); // 将 Range 对象设置为包含编辑区域的所有内容
+            var selection = window.getSelection(); // 获取当前的 Selection 对象
+            // selection.removeAllRanges(); // 清除当前的所有选区
+            selection.addRange(range); // 将新的 Range 添加到 Selection 对象中
+        }
+
+    </script>
+</body>
+
+</html>
