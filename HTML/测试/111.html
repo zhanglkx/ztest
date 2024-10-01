@@ -1,110 +1,138 @@
 <section
-  class="stylelib-wrapper stylelib-image"
+  class="stylelib-wrapper stylelib-list"
   contenteditable="false"
   data-theme-color="<%=themeColor%>"
   data-is-vip="<%=isVip%>"
   data-change-color="<%=canChangeColor%>"
-  data-is-full="<%=isFull%>"
-  data-key="image-tpl26"
+  data-hide-change-color-btn="<%=hideChangeColorBtn%>"
+  data-is-full="<%=isFull && !isColorExtend%>"
+  data-original-is-full="<%=isFull%>"
+  data-key="navigator-tpl120"
+  data-stylelib-tpl-attrname="data-is-full"
+  data-stylelib-tpl-attrvalue="<?=isFull && !isColorExtend?>"
+  data-stylelib-tpl-attrname-1="class"
+  data-stylelib-tpl-attrvalue-1="stylelib-wrapper stylelib-list"
 >
   <section class="x-vipIcon">
     <section style="display: none"></section>
   </section>
-  <a
-    style="display: block; padding: 4px; background-color: #fff;border-radius: 6px;"
-    href="navLink:"
-    data-link-no-cancel="true"
-    class="stylelib-image stylelib-image-children-1"
-  >
-    <section class="x-image-tpl19-wrapper-padding" style="display: flex">
-      <section
-        data-stylelib-backgroundimage="default"
-        data-stylelib-background-default-size="cover"
-        data-stylelib-has-img="img"
-        style="
-          width: 120px;
-          height: auto;
-          background-color: #f6f8f9;
-          border-radius: 4px;
-          min-width: 120px;
-          min-height: 120px;
-        "
-      >
-      <img
-        src="https://gstatic.clewm.net/caoliao-resource/240829/e3a4ea_b22096b5.png"
-        data-stylelib-can-preview="true"
-        style="
-          width: 120px;
-          height: 100%;
-          background-size: cover;
-          border-radius: 4px;
-          min-width: 120px;
-          min-height: 120px;
-        "
-        alt="阿勒泰8日游"
-      />
-      </section>
-      <section style="padding: 8px 4px 8px 12px; flex: 1">
+  <section style="position: relative; border-radius: 10px; background: #fff; box-shadow: 0px 3px 24px 0px rgba(0, 0, 0, 0.12); padding: 10px 20px">
+    <section class="stylelib-list-item">
+      <a style="display: block" href="navLink:" data-link-no-cancel="true">
         <section
-          class="x-image-tpl19-title"
-          contenteditable="<%=contentEditable%>"
-          data-stylelib-stylename="color"
-          data-stylelib-varname="whiteBgThemeFontColor"
-          style="color:<%=whiteBgThemeFontColor%>;font-size:24px;"
-          data-original-text=""
+          data-stylelib-tpl-stylename-1="border-color"
+          data-stylelib-tpl-stylevalue-1="<?= isDarkBgColor ? 'rgba(255, 255, 255, 0.17)' : 'rgba(151, 151, 151, 0.2)' ?>"
+          style="padding: 8px 0; display: flex; align-items: center; margin-bottom: 8px"
         >
-          <p>
-            <strong><span style="font-size: 24px; font-weight: 600; line-height: normal">阿勒泰8日游</span></strong>
-          </p>
-        </section>
-
-        <section
-          class="x-image-tpl19-lineHeight"
-          contenteditable="<%=contentEditable%>"
-          data-stylelib-stylename="color"
-          data-stylelib-varname="whiteBgThemeFontColor"
-          style="flex:1;color:<%=whiteBgThemeFontColor%>;font-size:12px;"
-        >
-          <p>
-            <span style="font-size: 12px; font-weight: 400"> 一价全包0自费 0景交0保底 </span>
-          </p>
-        </section>
-
-        <section style="display: flex; align-items: flex-end; margin-top: 10px">
-          <section
-            class="x-image-tpl19-lineHeight"
-            contenteditable="<%=contentEditable%>"
-            data-stylelib-stylename="color"
-            data-stylelib-varname="whiteBgThemeFontColor"
-            style="flex:1;color:<%=whiteBgThemeFontColor%>;font-size:16px;line-height:24px;"
-          >
-            <p>
-              <strong><span style="font-size: 24px; font-weight: 600; line-height: normal">18888</span></strong>
-              <span style="font-size: 14px; font-weight: 500"> 元/人 </span>
-            </p>
-          </section>
-          <section style="display: flex; flex-shrink: 0; align-items: center; max-width: 120px">
+          <section style="flex: 1">
             <section
-              data-stylelib-stylename="color"
-              data-stylelib-varname="whiteBgThemeFontColor"
+              data-stylelib-tpl-stylename-1="color"
+              data-stylelib-tpl-stylevalue-1="<?= isDarkBgColor ? 'rgba(255, 255, 255, 0.8)' : 'rgba(0, 0, 0, 0.87)' ?>"
               contenteditable="<%=contentEditable%>"
-              style="margin-right: 4px; display: inline-block; color: <%=whiteBgThemeFontColor%>; font-size: 12px;position: relative;"
+              style="color: <%= isDarkBgColor ? 'rgba(255, 255, 255, 0.8)' : 'rgba(0, 0, 0, 0.87)' %>;font-size: 14px;"
+              data-original-text=""
             >
-              <span data-stylelib-detail="1" style="vertical-align: middle; font-size: 12px;margin-right: 4px;">点击查看</span>
-              <span
-                data-stylelib-detail="1"
-                data-stylelib-lightfontcolor="1"
-                style="
-                  font-size: 12px;
-                  display: inline-block;
-                  transform: scaleY(1.8);
-                  font-weight: 300;
-                  height: 24px;"
-              >&gt;</span>
+              <span style="font-size: 14px; color: rgba(0, 0, 0, 0.85); font-size: 22px; font-style: normal; font-weight: 600; line-height: normal">
+                查看全部
+              </span>
             </section>
           </section>
         </section>
-      </section>
+      </a>
     </section>
-  </a>
+    <section style="border-radius: 6px">
+      <% forEach(getValue(data), function (row) { %>
+      <section class="stylelib-list-item">
+        <a style="display: block" href="navLink:" data-link-no-cancel="true">
+          <section
+            data-stylelib-tpl-stylename-1="border-color"
+            data-stylelib-tpl-stylevalue-1="<?= isDarkBgColor ? 'rgba(255, 255, 255, 0.17)' : 'rgba(151, 151, 151, 0.2)' ?>"
+            style="padding: 8px 0; display: flex; align-items: center"
+          >
+            <section
+              data-stylelib-stylename="border-radius"
+              data-stylelib-backgroundimage="default"
+              data-stylelib-background-default-size="cover"
+              style="
+                width: 54px;
+                height: 54px;
+                border-radius: 6px;
+                background-image: url(<%=row.background%>);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+              "
+            >
+              <section style="display: none"></section>
+            </section>
+            <section style="flex: 1; margin: 0 16px">
+              <section
+                data-stylelib-tpl-stylename-1="color"
+                data-stylelib-tpl-stylevalue-1="<?= isDarkBgColor ? 'rgba(255, 255, 255, 0.8)' : 'rgba(0, 0, 0, 0.87)' ?>"
+                contenteditable="<%=contentEditable%>"
+                style="color: rgba(0, 0, 0, 0.87); font-size: 14px"
+                data-original-text=""
+              >
+                <span style="font-size: 14px"> <%=row.content%> </span>
+              </section>
+            </section>
+            <section
+              data-stylelib-stylename="color"
+              data-stylelib-varname="whiteBgLinkColor"
+              data-stylelib-tpl-stylename-1="background-color"
+              data-stylelib-tpl-stylevalue-1="<?=isDarkBgColor ? lightColor : '#f4f4f4'?>"
+              style="
+                display: inline-block;
+                padding: 4px 14px;
+                font-size: 14px;
+                color: #166bc7;
+                background-color: #f3f4f6;
+                border-radius: 20px;
+                white-space: nowrap;
+                min-width: 30px;
+                text-align: center;
+              "
+              contenteditable="<%=contentEditable%>"
+            >
+              <p>
+                <span style="font-size: 14px; color: #166bc7; font-weight: 600"> 查看 </span>
+              </p>
+            </section>
+          </section>
+        </a>
+      </section>
+      <% }); %>
+    </section>
+    <section class="stylelib-list-item">
+      <a style="display: block" href="navLink:" data-link-no-cancel="true">
+        <section
+          data-stylelib-tpl-stylename-1="border-color"
+          data-stylelib-tpl-stylevalue-1="<?= isDarkBgColor ? 'rgba(255, 255, 255, 0.17)' : 'rgba(151, 151, 151, 0.2)' ?>"
+          style="
+            padding: 8px 0;
+            display: flex;
+            align-items: center;
+            padding-top: 16px;
+            border-top-width: 1px;
+            border-top-style: solid;
+            border-color: rgba(151, 151, 151, 0.2);
+          "
+        >
+          <section style="flex: 1">
+            <section
+              data-stylelib-tpl-stylename-1="color"
+              data-stylelib-tpl-stylevalue-1="<?= isDarkBgColor ? 'rgba(255, 255, 255, 0.8)' : 'rgba(0, 0, 0, 0.87)' ?>"
+              contenteditable="<%=contentEditable%>"
+              style="color: <%= isDarkBgColor ? 'rgba(255, 255, 255, 0.8)' : 'rgba(0, 0, 0, 0.87)' %>;font-size: 14px;display: flex;justify-content: center;"
+              data-original-text=""
+            >
+              <span style="font-size: 14px; color: #576b95; font-size: 14px; font-style: normal; font-weight: 600; line-height: normal">
+                查看全部
+              </span>
+            </section>
+          </section>
+        </section>
+      </a>
+    </section>
+  </section>
 </section>
