@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notification API Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 50px;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Notification API Example</h1>
+    <button id="notifyBtn">Show Notification</button>
+
+    <script>
+        document.getElementById('notifyBtn').addEventListener('click', function () {
+            // 检查浏览器是否支持 Notification API
+            if (!("Notification" in window)) {
+                alert("This browser does not support desktop notification");
+                return;
+            }
+
+            // 请求权限
+            function requestNotificationPermission() {
+                Notification.requestPermission().then(function (permission) {
+                    if (permission === "granted") {
+                        showNotification();
+                    }
+                });
+            }
+
+            // 显示通知
+            function showNotification() {
+                const notification = new Notification("Hello!", {
+                    body: "This is a test notification.",
+                    icon: "https://via.placeholder.com/100" // 示例图标
+                });
+                console.log('Notification clicked');
+                // 处理点击事件
+                notification.onclick = function (event) {
+                    // event.preventDefault();
+                    console.log('Notification clicked');
+                    window.open('https://baidu.com', '_blank');
+                };
+                notification.onclick()
+            }
+
+            // 检查当前权限状态
+            if (Notification.permission === "granted") {
+                // 已经有权限，直接显示通知
+                showNotification();
+            } else if (Notification.permission !== "denied") {
+                // 尚未请求或用户未明确拒绝，请求权限
+                requestNotificationPermission();
+            } else {
+                // 用户已拒绝权限
+                alert("Notification permission has been denied.");
+            }
+        });
+    </script>
+
+</body>
+
+</html>
