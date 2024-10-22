@@ -1,13 +1,17 @@
-const getUrlPara = (name, search = window.location.search, useDecode) => {
-    const reg = new RegExp(`(^|\\?|&)${name}=([^&]*)(&|$)`);
-    const r = search.match(reg);
-    if (r != null) {
-        if (useDecode) {
-            return decodeURIComp(r[2]);
-        }
-        return unescape(r[2]);
-    }
-    return '';
-};
+// 写一个 nodejs 脚本
 
-console.log(getUrlPara('org_module_id', 'http://console.cli.me:8000/nedit/4283058?create_from=127&categoryId=46282097&org_module_id=44285&p=1'));
+// 输入一个字符串，输出一个字符串，字符串中每个字符的 ASCII 码都加 1
+// 例如输入 "abc"，输出 "bcd"
+// 例如输入 "xyz"，输出 "yza"
+// 例如输入 "ABC"，输出 "BCD"
+// 例如输入 "XYZ"，输出 "YZA"
+
+function addOne(str) {
+    let result = "";
+    for (let i = 0; i < str.length; i++) {
+        result += String.fromCharCode(str.charCodeAt(i) + 1);
+    }
+    return result;
+}
+
+console.log(addOne("abc"));
