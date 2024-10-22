@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collapsible List</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .collapsible-container {
+            background-color: #fff;
+            width: 90%;
+            max-width: 600px;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .collapsible {
+            border-bottom: 1px solid #eee;
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            padding: 15px;
+            cursor: pointer;
+            background-color: #f9f9f9;
+        }
+
+        .header:hover {
+            background-color: #f1f1f1;
+        }
+
+        .content {
+            display: none;
+            padding: 15px;
+            background-color: #fff;
+        }
+
+        .toggle-icon {
+            transition: transform 0.2s ease;
+        }
+
+        .collapsible.active .toggle-icon {
+            transform: rotate(180deg);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="collapsible-container">
+        <div class="collapsible">
+            <div class="header">
+                <span>1. 沙发的材料有哪些?</span>
+                <span class="toggle-icon">▼</span>
+            </div>
+            <div class="content">
+                <p>沙发的材料通常包括布料、皮革和合成材料。布料沙发舒适且有多种颜色和图案，皮革沙发则耐磨易清洁，而合成材料则兼具美观和耐用性。</p>
+            </div>
+        </div>
+        <div class="collapsible">
+            <div class="header">
+                <span>2. 沙发的尺寸如何选择?</span>
+                <span class="toggle-icon">▼</span>
+            </div>
+            <div class="content">
+                <p>选择沙发尺寸时，应考虑房间的大小和布局。测量可用空间，并确保沙发在放置后不会阻碍通道。通常，沙发的深度在80-100厘米，长度可根据房间需求而定。</p>
+            </div>
+        </div>
+        <div class="collapsible">
+            <div class="header">
+                <span>3. 如何清洁和保养沙发?</span>
+                <span class="toggle-icon">▼</span>
+            </div>
+            <div class="content">
+                <p>...</p>
+            </div>
+        </div>
+        <div class="collapsible">
+            <div class="header">
+                <span>4. 沙发的舒适度如何评估?</span>
+                <span class="toggle-icon">▼</span>
+            </div>
+            <div class="content">
+                <p>...</p>
+            </div>
+        </div>
+        <div class="collapsible">
+            <div class="header">
+                <span>5. 沙发的保修政策是怎样的?</span>
+                <span class="toggle-icon">▼</span>
+            </div>
+            <div class="content">
+                <p>...</p>
+            </div>
+        </div>
+    </div>
+    <script>
+        document.querySelectorAll('.collapsible .header').forEach(header => {
+            header.addEventListener('click', () => {
+                const collapsible = header.parentElement;
+                const content = collapsible.querySelector('.content');
+
+                // Toggle active class
+                collapsible.classList.toggle('active');
+
+                // Toggle content display
+                if (content.style.display === 'block') {
+                    content.style.display = 'none';
+                } else {
+                    content.style.display = 'block';
+                }
+            });
+        });
+
+    </script>
+
+</body>
+
+</html>

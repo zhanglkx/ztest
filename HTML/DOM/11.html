@@ -1,0 +1,124 @@
+<section
+  class="stylelib-wrapper stylelib-list stylelib-parser-to-view"
+  data-is-vip="<%= isVip %>"
+  data-change-color="<%= canChangeColor %>"
+  data-theme-color="<%= themeColor %>"
+  contenteditable="false"
+  data-key="text-tpl94"
+>
+  <section>
+    <section style="display: none"></section>
+  </section>
+  <section style="position: static">
+    <section style="border-radius: 6px; padding-bottom: 10px">
+      <% forEach(getValue(data), function (row) { %>
+      <section class="stylelib-list-item stylelib-parser-to-view">
+        <section
+          style="
+            display: flex;
+            padding: 24px 0;
+            flex-direction: column;
+            align-items: flex-start;
+            align-self: stretch;
+            border-bottom: 1px solid rgba(120, 130, 140, 0.13);
+          "
+        >
+          <section
+            class="stylelib-list-text-fold-wrap stylelib-parser-to-view"
+            style="padding: 0; display: flex; width: 100%; justify-content: space-between; margin: 0"
+          >
+            <section
+              class="stylelib-parser-to-view"
+              data-stylelib-tpl-stylename-1="color"
+              contenteditable="<%= contentEditable %>"
+              data-original-text=""
+              data-stylelib-tpl-stylevalue-1="<?=isDarkBgColor ? '#FFF' : 'rgba(0, 0, 0, 0.95)'?>"
+              style="
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                border-radius: 4px;
+                font-size: 16px;
+                padding: 0;
+                width: 100%;
+                margin: 0;
+                font-size: 16px;
+                font-weight: 500;
+                color:<%=isDarkBgColor ? '#FFF' : 'rgba(0, 0, 0, 0.95)'%>;
+              "
+            >
+              <section class="stylelib-parser-to-view">
+                <section style="padding-top: 4px" contenteditable="<%=contentEditable%>">
+                  <p><span> <%= row.title %> </span></p>
+                </section>
+              </section>
+            </section>
+            <section class="stylelib-parser-to-view">
+              <section
+                data-stylelib-tpl-stylename-1="color"
+                contenteditable="false"
+                data-original-text=""
+                class="stylelib-list-text-fold-wrap stylelib-parser-to-view"
+                data-stylelib-tpl-stylevalue-1="<?=isDarkBgColor ? '#FFF' : 'rgba(0, 0, 0, 0.95)'?>"
+                style="
+                  
+                  width: 40px;
+                  height: 100%;
+                  position: relative;
+                  border-radius: 4px;
+                  font-size: 16px;
+                  cursor: pointer;
+                  align-items: center;
+                  justify-content: center;
+                  margin: 0;
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  color:<%=isDarkBgColor ? '#FFF' : 'rgba(0, 0, 0, 0.95)'%>;
+                "
+              >
+                <section class="stylelib-list-text-fold-active">
+                  <span
+                    data-stylelib-detail="1"
+                    data-stylelib-lightfontcolor="1"
+                    style="font-size: 12px; display: inline-block; transform: scaleX(1.8) translateY(-1px) rotate(90deg); font-weight: 300"
+                  >
+                    &gt;
+                  </span>
+                </section>
+              </section>
+            </section>
+          </section>
+          <section
+            class="stylelib-list-text-fold-content stylelib-parser-to-view"
+            data-stylelib-tpl-stylename-1="color"
+            data-stylelib-tpl-stylevalue-1="<?=isDarkBgColor ? 'rgba(255, 255, 255, 0.80)' : 'rgba(0, 0, 0, 0.65)'?>"
+            contenteditable="<%= contentEditable %>"
+            style="
+              
+              width: 100%;
+              position: relative;
+              border-radius: 4px;
+              font-size: 14px;
+              padding-top: 12px;
+              padding-left: 0;
+              display: none;
+              margin: 0;
+              color: <%= isDarkBgColor ? 'rgba(255, 255, 255, 0.80)' : 'rgba(0, 0, 0, 0.65)' %>;
+            "
+          >
+            <% forEach(getValue(row.desc), function (desc) { %>
+            <section>
+              <section>
+                <p><span> <%= desc %> </span></p>
+              </section>
+            </section>
+            <% }); %>
+          </section>
+        </section>
+      </section>
+      <% }); %>
+    </section>
+  </section>
+</section>
