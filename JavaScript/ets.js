@@ -1,17 +1,21 @@
-// 写一个 nodejs 脚本
+FastClick.prototype.focus = function (targetElement) {
 
-// 输入一个字符串，输出一个字符串，字符串中每个字符的 ASCII 码都加 1
-// 例如输入 "abc"，输出 "bcd"
-// 例如输入 "xyz"，输出 "yza"
-// 例如输入 "ABC"，输出 "BCD"
-// 例如输入 "XYZ"，输出 "YZA"
+    var length;
 
-function addOne(str) {
-    let result = "";
-    for (let i = 0; i < str.length; i++) {
-        result += String.fromCharCode(str.charCodeAt(i) + 1);
+    // Issue #160: on iOS 7, some input elements (e.g. date datetime month) throw a vague TypeError on setSelectionRange. These elements don't have an integer value for the selectionStart and selectionEnd properties, but unfortunately that can't be used for detection because accessing the properties also throws a TypeError. Just check the type instead. Filed as Apple bug #15122724.
+
+    if (deviceIsIOS && targetElement.setSelectionRange && targetElement.type.indexOf('date') !== 0 && targetElement.type !== 'time' && targetElement.type !== 'month') {
+
+        length = targetElement.value.length;
+
+        targetElement.focus();
+
+        targetElement.setSelectionRange(length, length);
+
+    } else {
+
+        targetElement.focus();
+
     }
-    return result;
-}
 
-console.log(addOne("abc"));
+};
