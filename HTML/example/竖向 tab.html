@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UI Layout</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+      }
+      .container {
+        display: flex;
+        height: 100vh;
+      }
+      .sidebar {
+        width: 200px;
+        background-color: #f7f7f7;
+        padding: 20px;
+        box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+      }
+      .sidebar a {
+        display: block;
+        padding: 10px;
+        text-decoration: none;
+        color: #333;
+        margin: 5px 0;
+        border-radius: 5px;
+      }
+      .sidebar a.active {
+        background-color: #007bff;
+        color: #fff;
+      }
+      .content {
+        flex-grow: 1;
+        padding: 20px;
+        background-color: #fff;
+      }
+      .item {
+        display: inline-block;
+        width: calc(33.333% - 20px);
+        margin: 10px;
+        text-align: center;
+      }
+      .item img {
+        width: 100%;
+        border-radius: 8px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="sidebar">
+        <a href="#" class="active">沙发</a>
+        <a href="#">茶几</a>
+        <a href="#">餐桌</a>
+        <a href="#">餐边柜</a>
+      </div>
+      <div class="content">
+        <div class="item">
+          <img src="sofa1.jpg" alt="长茶几" />
+          <p>长茶几</p>
+        </div>
+        <div class="item">
+          <img src="sofa2.jpg" alt="胡桃木茶几" />
+          <p>胡桃木茶几</p>
+        </div>
+        <div class="item">
+          <img src="sofa3.jpg" alt="高脚茶几" />
+          <p>高脚茶几</p>
+        </div>
+        <div class="item">
+          <img src="sofa4.jpg" alt="简约白瓷茶几" />
+          <p>简约白瓷茶几</p>
+        </div>
+        <div class="item">
+          <img src="sofa5.jpg" alt="日系木质茶几" />
+          <p>日系木质茶几</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

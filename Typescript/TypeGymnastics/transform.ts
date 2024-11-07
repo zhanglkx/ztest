@@ -90,3 +90,10 @@ type caseProLite = GetPromiseTypeLite<ttt>;
 type ReverseArr<T extends unknown[]> = T extends [infer First, ...infer Rest] ? [...ReverseArr<Rest>, First] : T;
 
 type CaseRev = ReverseArr<[1, 2, 3, 4]>;
+
+// BuildArray
+type BuildArray<Length extends number, Ele = unknown, Arr extends unknown[] = []> = Arr["length"] extends Length
+  ? Arr
+  : BuildArray<Length, Ele, [...Arr, Ele]>;
+
+type BuildArrayCase = BuildArray<5>;

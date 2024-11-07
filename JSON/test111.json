@@ -1,96 +1,613 @@
-[
-  {
-    "children": [
+{
+  "list": [],
+  "loading": false,
+  "currentVideoArray": [],
+  "commtabTpl": {},
+  "commonTabRef": {},
+  "activeKey": "1",
+  "hideSwitchTab": false,
+  "emptyModuleAuth": { "allowEdit": false, "edit": 0, "limit": 0, "groups": [] },
+  "codeRecordAuth": {
+    "id": 1757916,
+    "data_id": 4289516,
+    "data_type": 7,
+    "privi_type": "visible",
+    "auth_type": 1,
+    "code_id": 4289516,
+    "org_id": 94911424,
+    "limit_id": 0,
+    "update_time": 1729735125,
+    "hide_nopower": 1,
+    "has_detail": true,
+    "groups": [87317, 87320],
+    "members": [],
+    "group_list": [
       {
-        "children": [
-          {
-            "children": [
-              {
-                "children": [
-                  {
-                    "children": [{ "text": "1. 沙发的材料有哪些？ ", "type": "text" }],
-                    "name": "span",
-                    "attrs": { "style": "box-sizing:border-box;" }
-                  }
-                ],
-                "name": "p",
-                "attrs": { "style": "box-sizing:border-box;" }
-              }
-            ],
-            "name": "div",
-            "attrs": { "style": ";;box-sizing:border-box;padding-top: 4px;box-sizing:border-box;", "id": "", "class": "stylelib-parser-to-view" }
-          }
-        ],
-        "name": "div",
-        "attrs": {
-          "style": " width: 100%; display: flex; flex-direction: column; justify-content: center; border-radius: 4px; font-size: 16px; list-style: none; padding: 0; width: 100%; margin: 0; font-size: 16px; font-weight: 500; color:rgba(0, 0, 0, 0.95); ;box-sizing:border-box;",
-          "class": "stylelib-list-text-fold-wrap"
-        }
+        "id": 87317,
+        "org_id": 94911424,
+        "group_name": "管理组",
+        "group_type": 6,
+        "status": 0,
+        "is_default": 6,
+        "add_time": 1716258364,
+        "category_id": 0,
+        "target_id": 0,
+        "web_url": "",
+        "coding": "",
+        "group_memo": "",
+        "qrcode_id": 0,
+        "need_send_tip": 0,
+        "tpl_id": 0
       },
       {
-        "children": [
-          {
-            "children": [
-              {
-                "children": [
-                  {
-                    "children": [{ "text": "&gt; ", "type": "text" }],
-                    "name": "span",
-                    "attrs": {
-                      "style": "display:inline-block; font-size:12px; font-weight:300; transform:scaleX(1.8) translateY(-1px) rotate(270deg);box-sizing:border-box;"
-                    }
-                  }
-                ],
-                "name": "div",
-                "attrs": { "style": "transform: translateX(-13px);box-sizing:border-box;", "class": "stylelib-list-text-fold-active" }
-              }
-            ],
-            "name": "div",
-            "attrs": {
-              "style": " list-style: none; width: 30px; height: 100%; position: relative; display: inline-block; border-radius: 4px; font-size: 16px; cursor: pointer; display: flex; align-items: center; justify-content: center; margin: 0; color:rgba(0, 0, 0, 0.95); ;box-sizing:border-box;",
-              "class": "stylelib-list-text-fold-wrap stylelib-parser-to-view"
-            }
-          }
-        ],
-        "name": "div",
-        "attrs": { "style": "box-sizing:border-box;", "class": "stylelib-parser-to-view" }
+        "id": 87320,
+        "org_id": 94911424,
+        "group_name": "负责人",
+        "group_type": 100,
+        "status": 0,
+        "is_default": 10,
+        "add_time": 1716258364,
+        "category_id": 0,
+        "target_id": 0,
+        "web_url": "",
+        "coding": "",
+        "group_memo": "",
+        "qrcode_id": 0,
+        "need_send_tip": 0,
+        "tpl_id": 0
       }
     ],
-    "name": "div",
-    "attrs": {
-      "style": "list-style: none; padding: 0; display: flex; width: 100%; justify-content: space-between; margin: 0;box-sizing:border-box;",
-      "class": "stylelib-list-text-fold-wrap"
+    "encryption": "653851884f951c53eb85b323fa6ba22a"
+  },
+  "styleLibsHistory": [],
+  "tableModal": { "activeTabKey": "double_column" },
+  "replaceExcelTitle": "",
+  "editFormPreviewWithShellRef": null,
+  "isUsedOrgCard": 0,
+  "codeSaving": false,
+  "ckeInited": true,
+  "hasChangeRouteType": false,
+  "formTagsMap": {},
+  "categoryState": {},
+  "homepageModalVisible": false,
+  "Defaultlist": {
+    "code": 1,
+    "msg": "",
+    "data": {
+      "text": {
+        "sort": 0,
+        "component_code": "text",
+        "attribute_list": { "content_html": { "value": "", "name": "文本 html 片段", "attribute_id": 10, "attribute_multiple_id": 5 } }
+      },
+      "image": {
+        "sort": 1,
+        "component_code": "image",
+        "attribute_list": {
+          "image_url": { "value": "", "name": "图片地址", "attribute_id": 3, "is_multiple": 0, "is_enum": 0, "save_key": "" },
+          "wxa_path": { "value": "", "name": "图片链接", "attribute_id": 12, "is_multiple": 0, "is_enum": 0 },
+          "prew_type": {
+            "value": "0",
+            "name": "预览效果",
+            "attribute_id": 67,
+            "is_multiple": 0,
+            "is_enum": 1,
+            "enum_msg": [
+              { "enum_text": "轮播", "enum_value": 0 },
+              { "enum_text": "平铺", "enum_value": 1 }
+            ]
+          },
+          "image_size": { "value": "", "name": "图片大小", "attribute_id": 68, "is_multiple": 0, "is_enum": 0 },
+          "image_width": { "value": "", "name": "图片宽度", "attribute_id": 74, "is_multiple": 0, "is_enum": 0 },
+          "image_height": { "value": "", "name": "图片高度", "attribute_id": 75, "is_multiple": 0, "is_enum": 0 },
+          "image_style": {
+            "value": "3",
+            "name": "图片样式",
+            "attribute_id": 112,
+            "is_multiple": 0,
+            "is_enum": 1,
+            "enum_msg": [
+              { "enum_text": "样式三", "enum_value": 3 },
+              { "enum_text": "样式一", "enum_value": 1 },
+              { "enum_text": "样式二", "enum_value": 2 }
+            ]
+          },
+          "auto_play_time": { "value": "", "name": "轮播时间", "attribute_id": 130, "is_multiple": 0, "is_enum": 0 },
+          "design_from_api": {
+            "value": "0",
+            "name": "第三方平台接口设计来源",
+            "attribute_id": 142,
+            "is_multiple": 0,
+            "is_enum": 1,
+            "enum_msg": [
+              { "enum_text": "本地", "enum_value": 0 },
+              { "enum_text": "canva", "enum_value": 1 },
+              { "enum_text": "canva-素材库", "enum_value": 2 }
+            ]
+          },
+          "design_id": { "value": "", "name": "第三方平台接口素材id", "attribute_id": 143, "is_multiple": 0, "is_enum": 0 },
+          "is_gradient": { "value": "", "name": "颜色渐变", "attribute_id": 158, "is_multiple": 0, "is_enum": 1 },
+          "auto_set_theme_color": { "value": "", "name": "自动取第一张图片的配色作为背景色", "attribute_id": 161, "is_multiple": 0, "is_enum": 0 }
+        }
+      },
+      "table": {
+        "sort": 2,
+        "component_code": "table",
+        "attribute_list": { "table_html": { "value": "", "name": "表格html 片段", "attribute_id": 11, "attribute_multiple_id": 6 } }
+      },
+      "file": {
+        "sort": 3,
+        "component_code": "file",
+        "attribute_list": {
+          "file_url": { "value": "", "name": "文件地址", "attribute_id": 9, "is_multiple": 0, "is_enum": 0, "save_key": "" },
+          "file_size": { "value": "", "name": "文件大小", "attribute_id": 13, "is_multiple": 0, "is_enum": 0 },
+          "file_name": { "value": "", "name": "文件名称", "attribute_id": 18, "is_multiple": 0, "is_enum": 0 },
+          "can_download": {
+            "value": "1",
+            "name": "是否允许下载",
+            "attribute_id": 109,
+            "is_multiple": 0,
+            "is_enum": 1,
+            "enum_msg": [
+              { "enum_text": "允许", "enum_value": 1 },
+              { "enum_text": "不允许", "enum_value": 0 }
+            ]
+          },
+          "file_register_time": { "value": "", "name": "文件阅读时长", "attribute_id": 150, "is_multiple": 0, "is_enum": 0 },
+          "file_preview_hide_menu": {
+            "value": "0",
+            "name": "文件预览隐藏菜单",
+            "attribute_id": 156,
+            "is_multiple": 0,
+            "is_enum": 1,
+            "enum_msg": [
+              { "enum_text": "显示", "enum_value": 0 },
+              { "enum_text": "隐藏", "enum_value": 1 }
+            ]
+          },
+          "file_preview_mode": {
+            "value": "1",
+            "name": "文件预览方式",
+            "attribute_id": 157,
+            "is_multiple": 0,
+            "is_enum": 1,
+            "enum_msg": [
+              { "enum_text": "高保真", "enum_value": 1 },
+              { "enum_text": "超清", "enum_value": 2 },
+              { "enum_text": "微信原生", "enum_value": 3 }
+            ]
+          },
+          "file_style": { "value": "", "name": "文件样式", "attribute_id": 159, "is_multiple": 0, "is_enum": 0 },
+          "can_share": {
+            "value": "1",
+            "name": "是否允许分享",
+            "attribute_id": 163,
+            "is_multiple": 0,
+            "is_enum": 1,
+            "enum_msg": [
+              { "enum_text": "允许", "enum_value": 1 },
+              { "enum_text": "不允许", "enum_value": 0 }
+            ]
+          },
+          "open_readregister": {
+            "value": "0",
+            "name": "开启文件签阅",
+            "attribute_id": 164,
+            "is_multiple": 0,
+            "is_enum": 1,
+            "enum_msg": [
+              { "enum_text": "关闭", "enum_value": 0 },
+              { "enum_text": "开启", "enum_value": 1 }
+            ]
+          }
+        }
+      },
+      "audio": {
+        "sort": 4,
+        "component_code": "audio",
+        "attribute_list": {
+          "audio_url": { "value": "", "name": "音频地址", "attribute_id": 6, "is_multiple": 0, "is_enum": 0, "save_key": "" },
+          "audio_size": { "value": "", "name": "音频大小", "attribute_id": 14, "is_multiple": 0, "is_enum": 0 },
+          "audio_long": { "value": "", "name": "音频时长", "attribute_id": 15, "is_multiple": 0, "is_enum": 0 },
+          "audio_name": { "value": "", "name": "音频名称", "attribute_id": 19, "is_multiple": 0, "is_enum": 0 },
+          "audio_expires": { "value": "", "name": "音频到期时间", "attribute_id": 134, "is_multiple": 0, "is_enum": 0 }
+        }
+      },
+      "video": {
+        "sort": 5,
+        "component_code": "video",
+        "attribute_list": {
+          "video_url": { "value": "", "name": "视频地址", "attribute_id": 7, "is_multiple": 0, "is_enum": 0, "save_key": "" },
+          "preview_url": { "value": "", "name": "视频预览图", "attribute_id": 8, "is_multiple": 0, "is_enum": 0, "save_key": "" },
+          "video_size": { "value": "", "name": "视频大小", "attribute_id": 16, "is_multiple": 0, "is_enum": 0 },
+          "video_long": { "value": "", "name": "视频时长", "attribute_id": 17, "is_multiple": 0, "is_enum": 0 },
+          "video_name": { "value": "", "name": "视频名称", "attribute_id": 20, "is_multiple": 0, "is_enum": 0 },
+          "video_expires": { "value": "", "name": "视频到期时间", "attribute_id": 135, "is_multiple": 0, "is_enum": 0 },
+          "convert_status": { "value": "", "name": "视频转码状态", "attribute_id": 139, "is_multiple": 0, "is_enum": 0 },
+          "draggable": {
+            "value": "1",
+            "name": "是否可拖动进度",
+            "attribute_id": 151,
+            "is_multiple": 0,
+            "is_enum": 1,
+            "enum_msg": [
+              { "enum_text": "允许", "enum_value": 1 },
+              { "enum_text": "不允许", "enum_value": 0 }
+            ]
+          },
+          "cover_url": { "value": "", "name": "封面图", "attribute_id": 152, "is_multiple": 0, "is_enum": 0 },
+          "cover_filename": { "value": "", "name": "封面文件名", "attribute_id": 153, "is_multiple": 0, "is_enum": 0 },
+          "show_flow": { "value": "", "name": "显示流量", "attribute_id": 181, "is_multiple": 0, "is_enum": 0 },
+          "display_style": { "value": "", "name": "展示样式", "attribute_id": 187, "is_multiple": 0, "is_enum": 0 }
+        }
+      },
+      "contactus": {
+        "sort": 6,
+        "component_code": "contactus",
+        "attribute_list": {
+          "contact_weixin": { "value": "", "name": "微信", "attribute_id": 175, "attribute_multiple_id": 8 },
+          "contact_phone": { "value": "", "name": "联系电话", "attribute_id": 21, "is_multiple": 0, "is_enum": 0 },
+          "contact_mail": { "value": "", "name": "反馈邮箱", "attribute_id": 22, "is_multiple": 0, "is_enum": 0 },
+          "work_time": { "value": "", "name": "工作时间", "attribute_id": 23, "is_multiple": 0, "is_enum": 0 },
+          "address": { "value": "", "name": "联系地址", "attribute_id": 24, "is_multiple": 0, "is_enum": 0 },
+          "longitude": { "value": "", "name": "中心经度", "attribute_id": 25, "is_multiple": 0, "is_enum": 0 },
+          "latitude": { "value": "", "name": "中心纬度", "attribute_id": 26, "is_multiple": 0, "is_enum": 0 },
+          "selected_phone": { "value": "", "name": "联系电话选择框", "attribute_id": 28, "is_multiple": 0, "is_enum": 0 },
+          "selected_mail": { "value": "", "name": "反馈邮箱选择框", "attribute_id": 29, "is_multiple": 0, "is_enum": 0 },
+          "selected_wtime": { "value": "", "name": "工作时间选择框", "attribute_id": 30, "is_multiple": 0, "is_enum": 0 },
+          "selected_addres": { "value": "", "name": "联系地址选择框", "attribute_id": 31, "is_multiple": 0, "is_enum": 0 },
+          "title": { "value": "", "name": "标题", "attribute_id": 113, "is_multiple": 0, "is_enum": 0 },
+          "show_type": {
+            "value": "0",
+            "name": "展示方式",
+            "attribute_id": 131,
+            "is_multiple": 0,
+            "is_enum": 1,
+            "enum_msg": [
+              { "enum_text": "文字", "enum_value": 0 },
+              { "enum_text": "地图卡片", "enum_value": 1 },
+              { "enum_text": "卡片样式", "enum_value": 2 }
+            ]
+          },
+          "locate_image": { "value": "", "name": "地图图片路径", "attribute_id": 132, "is_multiple": 0, "is_enum": 0, "save_key": "" },
+          "display_style": { "value": "", "name": "展示样式", "attribute_id": 176, "is_multiple": 0, "is_enum": 0 },
+          "avatar": { "value": "", "name": "头像", "attribute_id": 177, "is_multiple": 0, "is_enum": 0 },
+          "save_btn": { "value": "", "name": "保存通讯录按钮", "attribute_id": 178, "is_multiple": 0, "is_enum": 0 },
+          "jump_homepage": { "value": "", "name": "跳转主页", "attribute_id": 180, "is_multiple": 0, "is_enum": 0 },
+          "street_address": { "value": "", "name": "街道地址", "attribute_id": 182, "is_multiple": 0, "is_enum": 0 }
+        }
+      },
+      "redirect": {
+        "sort": 7,
+        "component_code": "redirect",
+        "attribute_list": {
+          "web_url": { "value": "", "name": "跳转页面", "attribute_id": 27, "is_multiple": 0, "is_enum": 0 },
+          "title": { "value": "", "name": "跳转页面标题", "attribute_id": 32, "is_multiple": 0, "is_enum": 0 },
+          "list_name": { "value": "", "name": "码的名称", "attribute_id": 33, "is_multiple": 0, "is_enum": 0 },
+          "pic_type": {
+            "value": "0",
+            "name": "图片类型",
+            "attribute_id": 124,
+            "is_multiple": 0,
+            "is_enum": 1,
+            "enum_msg": [
+              { "enum_text": "默认", "enum_value": 0 },
+              { "enum_text": "预置图标", "enum_value": 1 },
+              { "enum_text": "自定义上传", "enum_value": 2 }
+            ]
+          },
+          "pic_value": { "value": "", "name": "图片值", "attribute_id": 125, "is_multiple": 0, "is_enum": 0, "save_key": "" },
+          "display_style": {
+            "value": "0",
+            "name": "展示样式",
+            "attribute_id": 126,
+            "is_multiple": 0,
+            "is_enum": 1,
+            "enum_msg": [
+              { "enum_text": "文字列表", "enum_value": 0 },
+              { "enum_text": "带图列表", "enum_value": 1 },
+              { "enum_text": "大图卡片", "enum_value": 2 },
+              { "enum_text": "方形按钮", "enum_value": 3 },
+              { "enum_text": "圆形按钮", "enum_value": 4 }
+            ]
+          },
+          "target_type": {
+            "value": "0",
+            "name": "目标类型",
+            "attribute_id": 127,
+            "is_multiple": 0,
+            "is_enum": 1,
+            "enum_msg": [
+              { "enum_text": "活码", "enum_value": 0 },
+              { "enum_text": "批量活码-模板码", "enum_value": 1 },
+              { "enum_text": "批量活码-批次", "enum_value": 2 },
+              { "enum_text": "批量活码-子码", "enum_value": 3 },
+              { "enum_text": "目录汇总码", "enum_value": 4 },
+              { "enum_text": "旧版活码", "enum_value": 5 },
+              { "enum_text": "网址", "enum_value": 6 },
+              { "enum_text": "表单", "enum_value": 7 },
+              { "enum_text": "表单数据汇总", "enum_value": 8 },
+              { "enum_text": "电话", "enum_value": 9 },
+              { "enum_text": "其他小程序", "enum_value": 10 },
+              { "enum_text": "计划 分组", "enum_value": 11 },
+              { "enum_text": "管理功能 —— 工作台", "enum_value": 12 },
+              { "enum_text": "管理功能 —— 表单管理", "enum_value": 13 },
+              { "enum_text": "管理功能 —— 表单管理", "enum_value": 14 },
+              { "enum_text": "管理功能 —— 数据看板", "enum_value": 15 },
+              { "enum_text": "资料库", "enum_value": 16 },
+              { "enum_text": "公众号文章", "enum_value": 17 }
+            ]
+          },
+          "theme_color": { "value": "", "name": "主题色", "attribute_id": 128, "is_multiple": 0, "is_enum": 0 },
+          "font_color": { "value": "", "name": "文字颜色", "attribute_id": 129, "is_multiple": 0, "is_enum": 0 },
+          "pic_size": { "value": "", "name": "图片大小", "attribute_id": 133, "is_multiple": 0, "is_enum": 0 }
+        }
+      },
+      "recordlog": {
+        "sort": 8,
+        "component_code": "recordlog",
+        "attribute_list": { "recordlog_id": { "value": "", "name": "记录写组件ID", "attribute_id": 115, "is_multiple": 0, "is_enum": 0 } }
+      },
+      "address": {
+        "sort": 8,
+        "component_code": "address",
+        "attribute_list": {
+          "title": { "value": "", "name": "标题", "attribute_id": 144, "is_multiple": 0, "is_enum": 0 },
+          "address": { "value": "", "name": "地址", "attribute_id": 145, "is_multiple": 0, "is_enum": 0 },
+          "longitude": { "value": "", "name": "经度", "attribute_id": 146, "is_multiple": 0, "is_enum": 0 },
+          "latitude": { "value": "", "name": "纬度", "attribute_id": 147, "is_multiple": 0, "is_enum": 0 },
+          "show_type": {
+            "value": "0",
+            "name": "展示方式",
+            "attribute_id": 148,
+            "is_multiple": 0,
+            "is_enum": 1,
+            "enum_msg": [
+              { "enum_text": "文字", "enum_value": 0 },
+              { "enum_text": "地图卡片", "enum_value": 1 },
+              { "enum_text": "简易卡片", "enum_value": 2 }
+            ]
+          },
+          "locate_image": { "value": "", "name": "地图图片路径", "attribute_id": 149, "is_multiple": 0, "is_enum": 0, "save_key": "" }
+        }
+      },
+      "recordview": {
+        "sort": 9,
+        "component_code": "recordview",
+        "attribute_list": { "recordview_id": { "value": "", "name": "记录汇总组件ID", "attribute_id": 116, "is_multiple": 0, "is_enum": 0 } }
+      },
+      "category": {
+        "sort": 10,
+        "component_code": "category",
+        "attribute_list": {
+          "category_id": { "value": "", "name": "目录id", "attribute_id": 165, "is_multiple": 0, "is_enum": 0 },
+          "display_style": { "value": "", "name": "展示样式", "attribute_id": 166, "is_multiple": 0, "is_enum": 0 },
+          "size": { "value": "", "name": "数量", "attribute_id": 167, "is_multiple": 0, "is_enum": 0 },
+          "sort": { "value": "", "name": "排序", "attribute_id": 168, "is_multiple": 0, "is_enum": 0 },
+          "title": { "value": "", "name": "目录标题", "attribute_id": 169, "is_multiple": 0, "is_enum": 0 },
+          "show_cover": { "value": "", "name": "封面图片", "attribute_id": 170, "is_multiple": 0, "is_enum": 0 },
+          "list_type": { "value": "", "name": "展示内容", "attribute_id": 171, "is_multiple": 0, "is_enum": 0 },
+          "category_type": { "value": "", "name": "目录类型", "attribute_id": 172, "is_multiple": 0, "is_enum": 0 },
+          "hidden_more": { "value": "", "name": "隐藏查看全部入口", "attribute_id": 179, "is_multiple": 0, "is_enum": 0 },
+          "hidden_title": { "value": "", "name": "隐藏标题", "attribute_id": 188, "is_multiple": 0, "is_enum": 0 },
+          "subtitle": { "value": "", "name": "副标题", "attribute_id": 189, "is_multiple": 0, "is_enum": 0 },
+          "hidden_subtitle": { "value": "", "name": "隐藏副标题", "attribute_id": 190, "is_multiple": 0, "is_enum": 0 }
+        }
+      },
+      "statistic": {
+        "sort": 11,
+        "component_code": "statistic",
+        "attribute_list": {
+          "title": { "value": "", "name": "标题", "attribute_id": 183, "is_multiple": 0, "is_enum": 0 },
+          "statistic_type": { "value": "", "name": "统计类型", "attribute_id": 184, "is_multiple": 0, "is_enum": 0 },
+          "style_type": { "value": "", "name": "展示样式", "attribute_id": 185, "is_multiple": 0, "is_enum": 0 },
+          "config_data": { "value": "", "name": "配置数据", "attribute_id": 186, "is_multiple": 0, "is_enum": 0 }
+        }
+      }
+    },
+    "url": "",
+    "wait": 3
+  },
+  "batchCompDefault": {
+    "batchText": {
+      "sort": 0,
+      "component_code": "batchText",
+      "attribute_list": {
+        "content_html": { "value": "", "name": "批量文本片段", "attribute_id": 36, "attribute_multiple_id": 7 },
+        "title": { "value": "", "name": "标题", "attribute_id": 34, "is_multiple": 0, "is_enum": 0 },
+        "place_hover": { "value": "", "name": "提示", "attribute_id": 35, "is_multiple": 0, "is_enum": 0 },
+        "hint": { "value": "", "name": "编辑提示", "attribute_id": 117, "is_multiple": 0, "is_enum": 0 }
+      }
+    },
+    "batchImage": {
+      "sort": 1,
+      "component_code": "batchImage",
+      "attribute_list": {
+        "title": { "value": "", "name": "标题", "attribute_id": 37, "is_multiple": 0, "is_enum": 0 },
+        "watermark": {
+          "value": "1",
+          "name": "水印",
+          "attribute_id": 38,
+          "is_multiple": 0,
+          "is_enum": 1,
+          "enum_msg": [
+            { "enum_text": "开启", "enum_value": 1 },
+            { "enum_text": "关闭", "enum_value": 0 }
+          ]
+        },
+        "upload_type": {
+          "value": "1",
+          "name": "上传方式",
+          "attribute_id": 39,
+          "is_multiple": 0,
+          "is_enum": 1,
+          "enum_msg": [
+            { "enum_text": "拍摄", "enum_value": 1 },
+            { "enum_text": "选择", "enum_value": 2 }
+          ]
+        },
+        "image_url": { "value": "", "name": "图片路径", "attribute_id": 40, "is_multiple": 0, "is_enum": 0, "save_key": "", "is_default_value": 1 },
+        "image_spec": {
+          "value": "0",
+          "name": "图片规格",
+          "attribute_id": 114,
+          "is_multiple": 0,
+          "is_enum": 1,
+          "enum_msg": [
+            { "enum_text": "默认", "enum_value": 0 },
+            { "enum_text": "小尺寸", "enum_value": 1 }
+          ]
+        },
+        "hint": { "value": "", "name": "编辑提示", "attribute_id": 118, "is_multiple": 0, "is_enum": 0 }
+      }
+    },
+    "batchFile": {
+      "sort": 2,
+      "component_code": "batchFile",
+      "attribute_list": {
+        "title": { "value": "", "name": "标题", "attribute_id": 41, "is_multiple": 0, "is_enum": 0 },
+        "file_name": { "value": "", "name": "文件名称", "attribute_id": 42, "is_multiple": 0, "is_enum": 0, "is_default_value": 1 },
+        "file_size": { "value": "", "name": "文件大小", "attribute_id": 43, "is_multiple": 0, "is_enum": 0, "is_default_value": 1 },
+        "file_url": { "value": "", "name": "文件路径", "attribute_id": 44, "is_multiple": 0, "is_enum": 0, "save_key": "", "is_default_value": 1 },
+        "can_download": {
+          "value": "1",
+          "name": "是否允许下载",
+          "attribute_id": 110,
+          "is_multiple": 0,
+          "is_enum": 1,
+          "enum_msg": [
+            { "enum_text": "允许", "enum_value": 1 },
+            { "enum_text": "不允许", "enum_value": 0 }
+          ]
+        },
+        "hint": { "value": "", "name": "编辑提示", "attribute_id": 119, "is_multiple": 0, "is_enum": 0 }
+      }
+    },
+    "batchAudio": {
+      "sort": 3,
+      "component_code": "batchAudio",
+      "attribute_list": {
+        "title": { "value": "", "name": "标题", "attribute_id": 45, "is_multiple": 0, "is_enum": 0 },
+        "audio_name": { "value": "", "name": "音频名称", "attribute_id": 46, "is_multiple": 0, "is_enum": 0, "is_default_value": 1 },
+        "audio_size": { "value": "", "name": "音频大小", "attribute_id": 47, "is_multiple": 0, "is_enum": 0, "is_default_value": 1 },
+        "audio_url": { "value": "", "name": "音频路径", "attribute_id": 48, "is_multiple": 0, "is_enum": 0, "save_key": "", "is_default_value": 1 },
+        "audio_long": { "value": "", "name": "音频时长", "attribute_id": 64, "is_multiple": 0, "is_enum": 0, "is_default_value": 1 },
+        "hint": { "value": "", "name": "编辑提示", "attribute_id": 120, "is_multiple": 0, "is_enum": 0 },
+        "audio_expires": { "value": "", "name": "音频到期时间", "attribute_id": 136, "is_multiple": 0, "is_enum": 0, "is_default_value": 1 }
+      }
+    },
+    "batchVideo": {
+      "sort": 4,
+      "component_code": "batchVideo",
+      "attribute_list": {
+        "title": { "value": "", "name": "标题", "attribute_id": 49, "is_multiple": 0, "is_enum": 0 },
+        "video_name": { "value": "", "name": "视频名称", "attribute_id": 50, "is_multiple": 0, "is_enum": 0, "is_default_value": 1 },
+        "video_size": { "value": "", "name": "视频大小", "attribute_id": 51, "is_multiple": 0, "is_enum": 0, "is_default_value": 1 },
+        "preview_url": {
+          "value": "",
+          "name": "视频预览图片",
+          "attribute_id": 52,
+          "is_multiple": 0,
+          "is_enum": 0,
+          "save_key": "",
+          "is_default_value": 1
+        },
+        "video_url": { "value": "", "name": "视频路径", "attribute_id": 53, "is_multiple": 0, "is_enum": 0, "save_key": "", "is_default_value": 1 },
+        "video_long": { "value": "", "name": "视频长度", "attribute_id": 66, "is_multiple": 0, "is_enum": 0, "is_default_value": 1 },
+        "hint": { "value": "", "name": "编辑提示", "attribute_id": 121, "is_multiple": 0, "is_enum": 0 },
+        "video_expires": { "value": "", "name": "视频到期时间", "attribute_id": 137, "is_multiple": 0, "is_enum": 0, "is_default_value": 1 }
+      }
+    },
+    "batchTable": {
+      "sort": 5,
+      "component_code": "batchTable",
+      "attribute_list": {
+        "title": { "value": "", "name": "标题", "attribute_id": 54, "is_multiple": 0, "is_enum": 0 },
+        "table_text": { "value": "", "name": "表格的字段名称", "attribute_id": 55, "is_multiple": 0, "is_enum": 0 },
+        "table_value": { "value": "", "name": "表格的字段值", "attribute_id": 56, "is_multiple": 0, "is_enum": 0, "is_default_value": 1 },
+        "table_type": {
+          "value": "1",
+          "name": "字段值的类型",
+          "attribute_id": 57,
+          "is_multiple": 0,
+          "is_enum": 1,
+          "enum_msg": [
+            { "enum_text": "文本", "enum_value": 1 },
+            {
+              "enum_text": "单选",
+              "enum_value": 2,
+              "enum_msg": [
+                { "enum_text": "单选一", "enum_value": 1 },
+                { "enum_text": "单选二", "enum_value": 2 }
+              ]
+            },
+            {
+              "enum_text": "多选",
+              "enum_value": 3,
+              "enum_msg": [
+                { "enum_text": "多选一", "enum_value": 1 },
+                { "enum_text": "多选二", "enum_value": 2 }
+              ]
+            },
+            { "enum_text": "日期", "enum_value": 4 }
+          ]
+        },
+        "table_title": { "value": "", "name": "表格分隔符", "attribute_id": 58, "is_multiple": 0, "is_enum": 0 },
+        "hint": { "value": "", "name": "编辑提示", "attribute_id": 122, "is_multiple": 0, "is_enum": 0 }
+      }
+    },
+    "batchLocate": {
+      "sort": 6,
+      "component_code": "batchLocate",
+      "attribute_list": {
+        "title": { "value": "", "name": "标题", "attribute_id": 59, "is_multiple": 0, "is_enum": 0 },
+        "locate_name": { "value": "", "name": "位置名称", "attribute_id": 60, "is_multiple": 0, "is_enum": 0, "is_default_value": 1 },
+        "longitude": { "value": "", "name": "经度", "attribute_id": 61, "is_multiple": 0, "is_enum": 0, "is_default_value": 1 },
+        "latitude": { "value": "", "name": "纬度", "attribute_id": 62, "is_multiple": 0, "is_enum": 0, "is_default_value": 1 },
+        "locate_time": { "value": "", "name": "定位时间", "attribute_id": 63, "is_multiple": 0, "is_enum": 0, "is_default_value": 1 },
+        "show_locatetime": {
+          "value": "1",
+          "name": "是否显示定位时间",
+          "attribute_id": 65,
+          "is_multiple": 0,
+          "is_enum": 1,
+          "enum_msg": [
+            { "enum_text": "显示", "enum_value": 1 },
+            { "enum_text": "不显示", "enum_value": 0 }
+          ]
+        },
+        "hint": { "value": "", "name": "编辑提示", "attribute_id": 123, "is_multiple": 0, "is_enum": 0 }
+      }
+    },
+    "excelTable": {
+      "sort": 8,
+      "component_code": "excelTable",
+      "attribute_list": {
+        "title": { "value": "", "name": "标题", "attribute_id": 69, "is_multiple": 0, "is_enum": 0 },
+        "table_title": { "value": "", "name": "表格分隔符", "attribute_id": 70, "is_multiple": 0, "is_enum": 0 },
+        "table_text": { "value": "", "name": "表格的字段名称", "attribute_id": 71, "is_multiple": 0, "is_enum": 0 },
+        "table_value": { "value": "", "name": "表格的字段值", "attribute_id": 72, "is_multiple": 0, "is_enum": 0, "is_default_value": 1 },
+        "table_type": { "value": "", "name": "字段值的类型", "attribute_id": 73, "is_multiple": 0, "is_enum": 0 }
+      }
     }
   },
-  {
-    "children": [
-      {
-        "children": [
-          {
-            "children": [
-              {
-                "children": [
-                  {
-                    "text": "沙发的材料通常包括布料、皮革和合成材料。布料沙发舒适且有多种颜色和图案，皮革沙发则耐磨易清洁，而合成材料则兼具美观和耐用性。 ",
-                    "type": "text"
-                  }
-                ],
-                "name": "span",
-                "attrs": { "style": "box-sizing:border-box;" }
-              }
-            ],
-            "name": "p",
-            "attrs": { "style": "box-sizing:border-box;" }
-          }
-        ],
-        "name": "div",
-        "attrs": { "style": ";box-sizing:border-box;", "id": "", "class": "" }
-      }
-    ],
-    "name": "div",
-    "attrs": {
-      "style": "list-style: none; width: 100%; position: relative; border-radius: 4px; font-size: 14px; padding-top: 12px; padding-left: 0px; display: block; margin: 0px; color: rgba(0, 0, 0, 0.65);box-sizing:border-box;",
-      "class": "stylelib-list-text-fold-content stylelib-parser-to-view"
+  "userPersonalSet": {
+    "show_collect": 1,
+    "show_manage": 1,
+    "show_font_size": 2,
+    "show_share": 1,
+    "show_homepage": 1,
+    "show_bottom_homepage": 0,
+    "show_powered_by": 0,
+    "share_style": 1,
+    "bottom_homepage_meta": { "remark": "关闭顶部首页入口", "jump_type": 0, "jump_link": "" },
+    "dest_qrcode_msg": {
+      "can_show_dest_qrcode": 1,
+      "org_dest_qrcode": 4279320,
+      "show_dest_qrcode": 0,
+      "homepage_qrcode_name": "产品目录",
+      "tpl_qrcode_status": 0,
+      "homepage_qrcode_url": "https://qr46.cn/oQL9HR/q3wsf7T",
+      "homepage_qrcode_id": 4279320
     }
   }
-]
+}

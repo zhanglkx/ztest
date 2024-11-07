@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <style>
+      .hide {
+        display: none;
+      }
+      .scroll {
+        height: 200px;
+        width: 300px;
+        overflow-y: auto;
+        border: 1px solid #ddd;
+      }
+      .loading {
+        text-align: center;
+      }
+      ul {
+        margin: 0;
+        padding: 0;
+      }
+      li {
+        padding: 10px;
+        margin: 10px;
+        text-align: center;
+        background: #fff6f6;
+        list-style-type: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="js-scroll" class="scroll">
+      <ul id="js-list">
+        <li>000000</li>
+        <li>000000</li>
+        <li>000000</li>
+        <li>000000</li>
+        <li>000000</li>
+      </ul>
+      <div class="loading hide" id="js-loading">加载中...</div>
+    </div>
+    <script>
+      let index = 0; // 列表个数
+      const listDom = document.getElementById("js-list");
+      const loadingDom = document.getElementById("js-loading");
+
+      /**
+       * 使用MutationObserver监听列表的 DOM 改变
+       */
+      const config = {
+        attributes: true,
+        childList: true,
+        subtree: true,
+      };
+      const callback = function (mutationsList, observer) {
+        for (let mutation of mutationsList) {
+          if (mutation.type === "childList") {
+            if (index === 5) {
+              loadingDom.innerText = "加载完毕";
+            } else {
+              loadingDom.classList.add("hide");
+            }
+          }
+        }
+      };
+      const observer = new MutationObserver(callback);
+      observer.observe(listDom, config);
+
+      /**
+       * clientHeight 滚动可视区域高度
+       * scrollTop 当前滚动位置
+       * scrollHeight 整个滚动高度
+       */
+      const scrollDom = document.getElementById("js-scroll");
+      scrollDom.onscroll = () => {
+        if (scrollDom.clientHeight + parseInt(scrollDom.scrollTop) === scrollDom.scrollHeight) {
+          if (loadingDom.classList.contains("hide") && index <= 5) {
+            loadingDom.classList.remove("hide");
+            addList();
+          }
+          if (index >= 5) {
+            observer.disconnect(); // 加载完毕停止监听列表 DOM 变化
+          }
+        }
+      };
+
+      /**
+       * 添加列表
+       */
+      function addList() {
+        const fragment = document.createDocumentFragment();
+        setTimeout(() => {
+          ++index;
+          for (let i = 0; i < 5; i++) {
+            const li = document.createElement("li");
+            li.innerText = new Array(6).fill(index).join("");
+            fragment.appendChild(li);
+          }
+          listDom.appendChild(fragment);
+        }, 1000);
+      }
+    </script>
+  </body>
+</html>
