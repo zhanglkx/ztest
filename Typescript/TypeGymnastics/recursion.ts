@@ -64,18 +64,16 @@ type TestUnion<A, B = A> = A extends A ? { a: A; b: B } : never;
 
 type TestUnionResult = TestUnion<"a" | "b" | "c">;
 
-
 // Element[number] 表示从 Element 数组中获取所有可能的元素类型。
 // 同样，Modifiers[number] 表示从 Modifiers 数组中获取所有可能的元素类型。
 // 这两个表达式将分别生成 Element 和 Modifiers 中的联合类型。
-
 
 // 当 Element 是 ['aaa', 'bbb'] 时，Element[number] 是 'aaa' | 'bbb'。
 // 当 Modifiers 是 ['warning', 'success'] 时，Modifiers[number] 是 'warning' | 'success'。
 // 通过模板字面量类型 ${Block}__${Element[number]}--${Modifiers[number]}，TypeScript 会生成所有可能的字符串组合：
 // 'guang__aaa--warning'
 // 'guang__aaa--success'
-// 'guang__bbb--warning'
+// 'guang__bbb--warning'·
 // 'guang__bbb--success'
 type BEM<Block extends string, Element extends string[], Modifiers extends string[]> = `${Block}__${Element[number]}--${Modifiers[number]}`;
 
