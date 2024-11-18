@@ -4,9 +4,8 @@
     "name": "img",
     "attrs": {
       "style": "max-width:100%;;user-select: none; width: 100%; padding: 4px;box-sizing:border-box;;width:100%",
-      "data-stylelib-table-image": "image",
-      "src": "https://ncstatic.clewm.net/rsrc/2024/1118/11/825dddfd8b2bd479385339d17adb04e1.png?x-oss-process=image/resize,w_1000/format,gif/quality,Q_80/interlace,1/auto-orient,1",
-      "data-image-url-info": "{\"filename\":\"image.png\",\"filesize_byte\":\"59477\",\"filesize\":\"58.08 KB\",\"info\":[400,400],\"url\":\"https:\\/\\/ncstatic.clewm.net\\/rsrc\\/2024\\/1118\\/11\\/825dddfd8b2bd479385339d17adb04e1.png\",\"path\":\"https:\\/\\/ncstatic.clewm.net\\/rsrc\\/2024\\/1118\\/11\\/825dddfd8b2bd479385339d17adb04e1.png\",\"image_resolution\":[],\"image_width\":400,\"image_height\":400,\"source_id\":\"8803401\"}"
+      "src": "https://ncstatic.clewm.net/rsrc/2024/1118/19/8093d9603999783a78488c4a1b7b38ac.png?x-oss-process=image/resize,w_1000/format,gif/quality,Q_80/interlace,1/auto-orient,1?index=0",
+      "data-image-url-info": "{\"filename\":\"image.png\",\"filesize_byte\":\"59477\",\"filesize\":\"58.08 KB\",\"info\":[400,400],\"url\":\"https:\\/\\/ncstatic.clewm.net\\/rsrc\\/2024\\/1118\\/19\\/8093d9603999783a78488c4a1b7b38ac.png\",\"path\":\"https:\\/\\/ncstatic.clewm.net\\/rsrc\\/2024\\/1118\\/19\\/8093d9603999783a78488c4a1b7b38ac.png\",\"image_resolution\":[],\"image_width\":400,\"image_height\":400,\"source_id\":\"8803605\"}"
     }
   }
 ]
