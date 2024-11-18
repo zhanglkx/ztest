@@ -1,347 +1,177 @@
-<table
-  contenteditable="<%=contentEditable%>"
-  class="stylelib-table cke_table_wrapper"
-  data-is-vip="<%=isVip%>"
-  style="min-width: 100%; font-size: 12px"
-  data-stylelib-stylename="background-color"
-  data-is-vip="<%=isVip%>"
-  data-key="table-tpl8"
+"
+<section
+  data-theme-color="#205792"
+  data-is-vip="false"
+  data-change-color="on"
+  data-hide-change-color-btn="undefined"
+  data-key="table-tpl16"
+  data-is-full="false"
+  class="stylelib-wrapper stylelib-list"
+  data-contenteditable="false"
 >
-  <thead>
-    <tr>
-      <th
-        colspan="1"
+  <section class="x-vipIcon">
+    <section style="display: none"><br /></section>
+  </section>
+  <section
+    data-stylelib-tpl-stylename="border-color"
+    data-stylelib-tpl-stylevalue="<?= parseColor(themeColor,0.15) ?>"
+    style="border-width: 1px; border-style: solid; border-color: rgba(32, 87, 146, 0.15); border-top: none; font-size: 14px"
+  >
+    <section
+      data-stylelib-tpl-stylename="border-color"
+      data-stylelib-tpl-stylevalue="<?= parseColor(themeColor,0.15) ?>"
+      style="display: flex; border-top-width: 1px; border-top-style: solid; border-color: rgba(32, 87, 146, 0.15); font-size: 14px"
+      class="stylelib-list-item"
+    >
+      <section
+        data-stylelib-tpl-stylename="border-color"
+        data-stylelib-tpl-stylevalue="<?= parseColor(themeColor,0.15) ?>"
+        data-stylelib-tpl-stylename-2="background-color"
+        data-stylelib-tpl-stylevalue-2="<?=isDarkBgColor ? parseColor(themeColor, 0.3) : parseColor(themeColor, 0.1)?>"
+        data-stylelib-tpl-stylename-1="color"
+        data-stylelib-tpl-stylevalue-1="<?=isDarkBgColor ? '#fff' : 'rgba(0, 0, 0, 0.85)' ?>"
         style="
-          background-color: #f0f2f5;
-          border: 1px solid #dddddd;
-          color: #000000;
-          font-size: 14px;
-          font-weight: bold;
-          height: 31px;
-          padding: 8px 16px;
+          color: rgba(0, 0, 0, 0.85);
+          background-color: rgba(32, 87, 146, 0.1);
+          border-right-width: 1px;
+          border-right-style: solid;
+          border-color: rgba(32, 87, 146, 0.15);
+          width: 33%;
           text-align: center;
+          flex-shrink: 0;
+          padding: 12px;
         "
-        rowspan="2"
+        data-contenteditable="true"
       >
-        <span style="font-size: 14px">省份</span><br />
-      </th>
-      <th
-        colspan="1"
+        <p>
+          <strong><span style="font-size: 14px">名称</span> </strong>
+        </p>
+      </section>
+      <section
+        data-stylelib-tpl-stylename-2="background-color"
+        data-stylelib-tpl-stylevalue-2="<?=isDarkBgColor ? parseColor(themeColor, 0.3) : parseColor(themeColor, 0.1)?>"
+        data-stylelib-tpl-stylename-1="color"
+        data-stylelib-tpl-stylevalue-1="<?=isDarkBgColor ? '#fff' : 'rgba(0, 0, 0, 0.85)' ?>"
+        style="color: rgba(0, 0, 0, 0.85); background-color: rgba(32, 87, 146, 0.1); flex-grow: 1; text-align: center; padding: 12px"
+        data-contenteditable="true"
+      >
+        <p>
+          <strong><span style="font-size: 14px">内容</span> </strong>
+        </p>
+      </section>
+    </section>
+    <section
+      data-stylelib-tpl-stylename="border-color"
+      data-stylelib-tpl-stylevalue="<?= parseColor(themeColor,0.15) ?>"
+      style="display: flex; border-top-width: 1px; border-top-style: solid; border-color: rgba(32, 87, 146, 0.15); font-size: 14px"
+      class="stylelib-list-item"
+    >
+      <section
+        data-stylelib-tpl-stylename="border-color"
+        data-stylelib-tpl-stylevalue="<?= parseColor(themeColor,0.15) ?>"
         style="
-          background-color: #f0f2f5;
-          border: 1px solid #dddddd;
-          color: #000000;
-          font-size: 14px;
-          font-weight: bold;
-          height: 31px;
-          padding: 8px 16px;
+          border-right-width: 1px;
+          border-right-style: solid;
+          border-color: rgba(32, 87, 146, 0.15);
+          width: 33%;
           text-align: center;
+          flex-shrink: 0;
+          padding: 8px;
         "
-        rowspan="2"
+        data-contenteditable="true"
       >
-        <span style="font-size: 14px">年份</span><br />
-      </th>
-      <th
-        colspan="2"
+        <span style="font-size: 14px"
+          >规格<img
+            data-stylelib-table-image="image"
+            data-cke-saved-src="https://ncstatic.clewm.net/free/2024/1113/17/7c667477c8d89f9f427c3a6bb00533d0.png?x-oss-process=image/resize,w_1000/format,gif/quality,Q_80/interlace,1/auto-orient,1"
+            src="https://ncstatic.clewm.net/free/2024/1113/17/7c667477c8d89f9f427c3a6bb00533d0.png?x-oss-process=image/resize,w_1000/format,gif/quality,Q_80/interlace,1/auto-orient,1"
+            data-image-url-info='{"filename":"iShot_2024-11-13_14.40.44.png","filesize_byte":"148658","filesize":"145.17 KB","info":[1000,878],"url":"https://ncstatic.clewm.net/free/2024/1113/17/7c667477c8d89f9f427c3a6bb00533d0.png","path":"https://ncstatic.clewm.net/free/2024/1113/17/7c667477c8d89f9f427c3a6bb00533d0.png","image_resolution":[],"image_width":1000,"image_height":878,"save_key":"free/2024/1113/17/7c667477c8d89f9f427c3a6bb00533d0.png"}'
+            style="user-select: none; width: 100%; padding: 4px"
+          />
+        </span>
+      </section>
+      <section style="flex-grow: 1; text-align: center; padding: 8px; font-size: 14px" data-contenteditable="true">
+        <p><span style="font-size: 14px">220*210cm </span></p>
+      </section>
+    </section>
+    <section
+      data-stylelib-tpl-stylename="border-color"
+      data-stylelib-tpl-stylevalue="<?= parseColor(themeColor,0.15) ?>"
+      style="display: flex; border-top-width: 1px; border-top-style: solid; border-color: rgba(32, 87, 146, 0.15); font-size: 14px"
+      class="stylelib-list-item"
+    >
+      <section
+        data-stylelib-tpl-stylename="border-color"
+        data-stylelib-tpl-stylevalue="<?= parseColor(themeColor,0.15) ?>"
         style="
-          background-color: #f0f2f5;
-          border: 1px solid #dddddd;
-          color: #000000;
-          font-size: 14px;
-          font-weight: bold;
-          height: 31px;
-          padding: 8px 16px;
+          border-right-width: 1px;
+          border-right-style: solid;
+          border-color: rgba(32, 87, 146, 0.15);
+          width: 33%;
           text-align: center;
+          flex-shrink: 0;
+          padding: 8px;
         "
-        rowspan="1"
+        data-contenteditable="true"
       >
-        <span style="font-size: 14px">分数线</span>
-      </th>
-    </tr>
-    <tr>
-      <th
-        colspan="1"
+        <span style="font-size: 14px">厂商 </span>
+      </section>
+      <section style="flex-grow: 1; text-align: center; padding: 8px; font-size: 14px" data-contenteditable="true">
+        <p><span style="font-size: 14px">邻家网络科技有限公司 </span></p>
+      </section>
+    </section>
+    <section
+      data-stylelib-tpl-stylename="border-color"
+      data-stylelib-tpl-stylevalue="<?= parseColor(themeColor,0.15) ?>"
+      style="display: flex; border-top-width: 1px; border-top-style: solid; border-color: rgba(32, 87, 146, 0.15); font-size: 14px"
+      class="stylelib-list-item"
+    >
+      <section
+        data-stylelib-tpl-stylename="border-color"
+        data-stylelib-tpl-stylevalue="<?= parseColor(themeColor,0.15) ?>"
         style="
-          background-color: #f0f2f5;
-          border: 1px solid #dddddd;
-          color: #000000;
-          font-size: 14px;
-          font-weight: bold;
-          height: 31px;
-          padding: 8px 16px;
+          border-right-width: 1px;
+          border-right-style: solid;
+          border-color: rgba(32, 87, 146, 0.15);
+          width: 33%;
           text-align: center;
+          flex-shrink: 0;
+          padding: 8px;
         "
+        data-contenteditable="true"
       >
-        <span style="font-size: 14px">文科</span>
-      </th>
-      <th
+        <span style="font-size: 14px">热线 </span>
+      </section>
+      <section style="flex-grow: 1; text-align: center; padding: 8px; font-size: 14px" data-contenteditable="true">
+        <p><span style="font-size: 14px">400****** </span></p>
+      </section>
+    </section>
+    <section
+      data-stylelib-tpl-stylename="border-color"
+      data-stylelib-tpl-stylevalue="<?= parseColor(themeColor,0.15) ?>"
+      style="display: flex; border-top-width: 1px; border-top-style: solid; border-color: rgba(32, 87, 146, 0.15); font-size: 14px"
+      class="stylelib-list-item"
+    >
+      <section
+        data-stylelib-tpl-stylename="border-color"
+        data-stylelib-tpl-stylevalue="<?= parseColor(themeColor,0.15) ?>"
         style="
-          background-color: #f0f2f5;
-          border: 1px solid #dddddd;
-          color: #000000;
-          font-size: 14px;
-          font-weight: bold;
-          height: 31px;
-          padding: 8px 16px;
+          border-right-width: 1px;
+          border-right-style: solid;
+          border-color: rgba(32, 87, 146, 0.15);
+          width: 33%;
           text-align: center;
+          flex-shrink: 0;
+          padding: 8px;
         "
+        data-contenteditable="true"
       >
-        <span style="font-size: 14px">理科</span>
-      </th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td
-        style="
-          border: 1px solid #dddddd;
-          color: #000000;
-          font-size: 14px;
-          height: 23px;
-          min-width: 50px;
-          padding: 8px 16px;
-          text-align: center;
-          width: 50px;
-          background-color: #fff;
-        "
-        rowspan="5"
-        colspan="1"
-      >
-        X省<span style="font-size: 14px">省份</span><br />
-      </td>
-      <td
-        style="
-          border: 1px solid #dddddd;
-          color: #000000;
-          font-size: 14px;
-          height: 23px;
-          min-width: 50px;
-          padding: 8px 16px;
-          text-align: center;
-          width: 130px;
-          background-color: #fff;
-        "
-      >
-        <span style="font-size: 14px">2017年</span>
-      </td>
-      <td
-        style="
-          border: 1px solid #dddddd;
-          color: #000000;
-          font-size: 14px;
-          height: 23px;
-          min-width: 50px;
-          padding: 8px 16px;
-          text-align: center;
-          width: 130px;
-          background-color: #fff;
-        "
-      >
-        <span style="font-size: 14px">579</span>
-      </td>
-      <td
-        style="
-          border: 1px solid #dddddd;
-          color: #000000;
-          font-size: 14px;
-          height: 23px;
-          min-width: 50px;
-          padding: 8px 16px;
-          text-align: center;
-          width: 130px;
-          background-color: #fff;
-        "
-      >
-        <span style="font-size: 14px">548</span>
-      </td>
-    </tr>
-    <tr>
-      <td
-        style="
-          border: 1px solid #dddddd;
-          color: #000000;
-          font-size: 14px;
-          height: 23px;
-          min-width: 50px;
-          padding: 8px 16px;
-          text-align: center;
-          width: 130px;
-          background-color: #fff;
-        "
-      >
-        <span style="font-size: 14px">2016年</span>
-      </td>
-      <td
-        style="
-          border: 1px solid #dddddd;
-          color: #000000;
-          font-size: 14px;
-          height: 23px;
-          min-width: 50px;
-          padding: 8px 16px;
-          text-align: center;
-          width: 130px;
-          background-color: #fff;
-        "
-      >
-        <span style="font-size: 14px">579</span>
-      </td>
-      <td
-        style="
-          border: 1px solid #dddddd;
-          color: #000000;
-          font-size: 14px;
-          height: 23px;
-          min-width: 50px;
-          padding: 8px 16px;
-          text-align: center;
-          width: 130px;
-          background-color: #fff;
-        "
-      >
-        <span style="font-size: 14px">548</span><br />
-      </td>
-    </tr>
-    <tr>
-      <td
-        style="
-          border: 1px solid #dddddd;
-          color: #000000;
-          font-size: 14px;
-          height: 23px;
-          min-width: 50px;
-          padding: 8px 16px;
-          text-align: center;
-          width: 130px;
-          background-color: #fff;
-        "
-      >
-        <span style="font-size: 14px">2015年</span>
-      </td>
-      <td
-        style="
-          border: 1px solid #dddddd;
-          color: #000000;
-          font-size: 14px;
-          height: 23px;
-          min-width: 50px;
-          padding: 8px 16px;
-          text-align: center;
-          width: 130px;
-          background-color: #fff;
-        "
-      >
-        <span style="font-size: 14px">579</span>
-      </td>
-      <td
-        style="
-          border: 1px solid #dddddd;
-          color: #000000;
-          font-size: 14px;
-          height: 23px;
-          min-width: 50px;
-          padding: 8px 16px;
-          text-align: center;
-          width: 130px;
-          background-color: #fff;
-        "
-      >
-        <span style="font-size: 14px">548</span><br />
-      </td>
-    </tr>
-    <tr>
-      <td
-        style="
-          border: 1px solid #dddddd;
-          color: #000000;
-          font-size: 14px;
-          height: 23px;
-          min-width: 50px;
-          padding: 8px 16px;
-          text-align: center;
-          width: 130px;
-          background-color: #fff;
-        "
-      >
-        <span style="font-size: 14px">2014年</span>
-      </td>
-      <td
-        style="
-          border: 1px solid #dddddd;
-          color: #000000;
-          font-size: 14px;
-          height: 23px;
-          min-width: 50px;
-          padding: 8px 16px;
-          text-align: center;
-          width: 130px;
-          background-color: #fff;
-        "
-      >
-        <span style="font-size: 14px">579</span>
-      </td>
-      <td
-        style="
-          border: 1px solid #dddddd;
-          color: #000000;
-          font-size: 14px;
-          height: 23px;
-          min-width: 50px;
-          padding: 8px 16px;
-          text-align: center;
-          width: 130px;
-          background-color: #fff;
-        "
-      >
-        <span style="font-size: 14px">548</span><br />
-      </td>
-    </tr>
-    <tr>
-      <td
-        style="
-          border: 1px solid #dddddd;
-          color: #000000;
-          font-size: 14px;
-          height: 23px;
-          min-width: 50px;
-          padding: 8px 16px;
-          text-align: center;
-          width: 130px;
-          background-color: #fff;
-        "
-      >
-        <span style="font-size: 14px">2013年</span><br />
-      </td>
-      <td
-        style="
-          border: 1px solid #dddddd;
-          color: #000000;
-          font-size: 14px;
-          height: 23px;
-          min-width: 50px;
-          padding: 8px 16px;
-          text-align: center;
-          width: 130px;
-          background-color: #fff;
-        "
-      >
-        <span style="font-size: 14px">579</span><br />
-      </td>
-      <td
-        style="
-          border: 1px solid #dddddd;
-          color: #000000;
-          font-size: 14px;
-          height: 23px;
-          min-width: 50px;
-          padding: 8px 16px;
-          text-align: center;
-          width: 130px;
-          background-color: #fff;
-        "
-      >
-        <span style="font-size: 14px">548</span><br />
-      </td>
-    </tr>
-  </tbody>
-</table>
+        <span style="font-size: 14px">价格 </span>
+      </section>
+      <section style="flex-grow: 1; text-align: center; padding: 8px; font-size: 14px" data-contenteditable="true">
+        <p><span style="font-size: 14px">￥599 </span></p>
+      </section>
+    </section>
+  </section>
+</section>
+"
