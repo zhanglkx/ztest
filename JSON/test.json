@@ -1,11 +1,41 @@
-[
-  {
-    "children": [],
-    "name": "img",
-    "attrs": {
-      "style": "max-width:100%;;user-select: none; width: 100%; padding: 4px;box-sizing:border-box;;width:100%",
-      "src": "https://ncstatic.clewm.net/rsrc/2024/1118/19/8093d9603999783a78488c4a1b7b38ac.png?x-oss-process=image/resize,w_1000/format,gif/quality,Q_80/interlace,1/auto-orient,1?index=0",
-      "data-image-url-info": "{\"filename\":\"image.png\",\"filesize_byte\":\"59477\",\"filesize\":\"58.08 KB\",\"info\":[400,400],\"url\":\"https:\\/\\/ncstatic.clewm.net\\/rsrc\\/2024\\/1118\\/19\\/8093d9603999783a78488c4a1b7b38ac.png\",\"path\":\"https:\\/\\/ncstatic.clewm.net\\/rsrc\\/2024\\/1118\\/19\\/8093d9603999783a78488c4a1b7b38ac.png\",\"image_resolution\":[],\"image_width\":400,\"image_height\":400,\"source_id\":\"8803605\"}"
-    }
-  }
-]
+// config/config.ts
+import { defineConfig } from '@umijs/max';
+import { join } from 'path';
+
+export default defineConfig({
+  // CSS Modules 配置
+  cssLoader: {
+    modules: {
+      // 定义生成的类名格式
+      localIdentName: '[name]__[local]__[hash:base64:5]',
+      
+      // 配置 CSS Modules 文件匹配规则
+      auto: (resourcePath: string) => {
+        // 只对 .module. 或 .m. 结尾的样式文件使用 CSS Modules
+        return resourcePath.indexOf('.module.') > -1 || 
+               resourcePath.indexOf('.m.') > -1;
+      },
+    },
+  },
+  
+  // 其他相关配置
+  lessLoader: {
+    // less 配置
+    modifyVars: {
+      // 定义 less 变量
+      '@primary-color': '#1890ff',
+    },
+  },
+  
+  // 配置别名
+  alias: {
+    '@': join(__dirname, '../src'),
+    '@styles': join(__dirname, '../src/styles'),
+  },
+  
+  // 样式方案配置
+  styleLoader: {
+    // 是否启用 CSS 热更新
+    hot: true,
+  },
+});
