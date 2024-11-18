@@ -1,143 +1,118 @@
-{
-    "sort": 4,
-    "component_code": "audio",
-    "attribute_list": {
-        "audio_url": {
-            "value": "",
-            "name": "音频地址",
-            "attribute_id": 6,
-            "is_multiple": 0,
-            "is_enum": 0,
-            "save_key": ""
-        },
-        "audio_size": {
-            "value": "",
-            "name": "音频大小",
-            "attribute_id": 14,
-            "is_multiple": 0,
-            "is_enum": 0
-        },
-        "audio_long": {
-            "value": "",
-            "name": "音频时长",
-            "attribute_id": 15,
-            "is_multiple": 0,
-            "is_enum": 0 
-        },
-        "audio_name": {
-            "value": "",
-            "name": "音频名称",
-            "attribute_id": 19,
-            "is_multiple": 0,
-            "is_enum": 0
-        },
-        "audio_expires": {
-            "value": "",
-            "name": "音频到期时间",
-            "attribute_id": 134,
-            "is_multiple": 0,
-            "is_enum": 0
+[
+  {
+    "children": [
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "children": [{ "text": "1. 沙发的材料有哪些？ ", "type": "text" }],
+                    "name": "span",
+                    "attrs": { "style": "box-sizing:border-box;" }
+                  }
+                ],
+                "name": "p",
+                "attrs": { "style": "box-sizing:border-box;" }
+              }
+            ],
+            "name": "div",
+            "attrs": { "style": ";;box-sizing:border-box;padding-top: 4px;box-sizing:border-box;", "id": "", "class": "stylelib-parser-to-view" }
+          }
+        ],
+        "name": "div",
+        "attrs": {
+          "style": " width: 100%; display: flex; flex-direction: column; justify-content: center; border-radius: 4px; padding: 0; width: 100%; margin: 0; font-size: 17px; font-weight: 500; color:rgba(0, 0, 0, 0.95); ;box-sizing:border-box;",
+          "class": "stylelib-parser-to-view"
         }
-    }
-}
-
-{
-    "sort": 4,
-    "component_code": "audio",
-    "attribute_list": [
-        {
-            "video_url": {
-                "value": "https://qiniu-nc.clewm.net/free/6a5ecfd46fc48f56a2619cd6357c1cdd.mp4",
-                "name": "视频地址",
-                "attribute_id": 7,
-                "is_multiple": 0,
-                "is_enum": 0,
-                "save_key": "free/6a5ecfd46fc48f56a2619cd6357c1cdd.mp4",
-                "source_id": null
-            },
-            "preview_url": {
-                "value": "",
-                "name": "视频预览图",
-                "attribute_id": 8,
-                "is_multiple": 0,
-                "is_enum": 0,
-                "save_key": ""
-            },
-            "video_size": {
-                "value": "37KB",
-                "name": "视频大小",
-                "attribute_id": 16,
-                "is_multiple": 0,
-                "is_enum": 0
-            },
-            "video_long": {
-                "value": "00:01",
-                "name": "视频时长",
-                "attribute_id": 17,
-                "is_multiple": 0,
-                "is_enum": 0
-            },
-            "video_name": {
-                "value": "iShot_2024-07-17_09.41.43",
-                "name": "视频名称",
-                "attribute_id": 20,
-                "is_multiple": 0,
-                "is_enum": 0
-            },
-            "video_expires": {
-                "value": "",
-                "name": "视频到期时间",
-                "attribute_id": 135,
-                "is_multiple": 0,
-                "is_enum": 0
-            },
-            "convert_status": {
-                "value": "3",
-                "name": "视频转码状态",
-                "attribute_id": 139,
-                "is_multiple": 0,
-                "is_enum": 0
-            },
-            "draggable": {
-                "value": "1",
-                "name": "是否可拖动进度",
-                "attribute_id": 151,
-                "is_multiple": 0,
-                "is_enum": 1,
-                "enum_msg": [
-                    {
-                        "enum_text": "允许",
-                        "enum_value": 1
-                    },
-                    {
-                        "enum_text": "不允许",
-                        "enum_value": 0
+      },
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "children": [{ "text": "&gt; ", "type": "text" }],
+                    "name": "span",
+                    "attrs": {
+                      "style": "display:inline-block; font-size:12px; font-weight:300; transform:scaleX(1.8) translateY(-1px) rotate(270deg);box-sizing:border-box;"
                     }
-                ]
-            },
-            "cover_url": {
-                "value": "",
-                "name": "封面图",
-                "attribute_id": 152,
-                "is_multiple": 0,
-                "is_enum": 0
-            },
-            "cover_filename": {
-                "value": "",
-                "name": "封面文件名",
-                "attribute_id": 153,
-                "is_multiple": 0,
-                "is_enum": 0
-            },
-            "show_flow": {
-                "value": "",
-                "name": "显示流量",
-                "attribute_id": 181,
-                "is_multiple": 0,
-                "is_enum": 0
+                  }
+                ],
+                "name": "div",
+                "attrs": { "style": "box-sizing:border-box;", "class": "stylelib-list-text-fold-active" }
+              }
+            ],
+            "name": "div",
+            "attrs": {
+              "style": " width: 40px; height: 100%; position: relative; border-radius: 4px; font-size: 16px; cursor: pointer; align-items: center; justify-content: center; margin: 0; display: flex; justify-content: center; align-items: center; margin-bottom: 2px; color:rgba(0, 0, 0, 0.95); ;box-sizing:border-box;",
+              "class": "stylelib-list-text-fold-wrap stylelib-parser-to-view"
             }
-        }
+          }
+        ],
+        "name": "div",
+        "attrs": { "style": "box-sizing:border-box;", "class": "stylelib-parser-to-view" }
+      }
     ],
-    "type": "audio",
-    "uniqueId": 0
-}
+    "name": "div",
+    "attrs": {
+      "style": "padding: 0; display: flex; width: 100%; justify-content: space-between; margin: 0;box-sizing:border-box;",
+      "class": "stylelib-list-text-fold-wrap stylelib-parser-to-view"
+    }
+  },
+  {
+    "children": [
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "text": "沙发的材料通常包括布料、皮革和合成材料。布料沙发舒适且有多种颜色和图案，皮革沙发则耐磨易清洁，而合成材料则兼具美观和耐用性。",
+                    "type": "text"
+                  },
+                  {
+                    "children": [],
+                    "name": "img",
+                    "attrs": {
+                      "style": "max-width:100%;;user-select: none; width: 100%; padding: 4px;box-sizing:border-box;",
+                      "src": "https://ncstatic.clewm.net/rsrc/2024/1118/10/a735f4054f935ea37f1880ada94f2ace.png?x-oss-process=image/resize,w_1000/format,gif/quality,Q_80/interlace,1/auto-orient,1",
+                      "data-image-url-info": "{\"filename\":\"image.png\",\"filesize_byte\":\"59477\",\"filesize\":\"58.08 KB\",\"info\":[400,400],\"url\":\"https:\\/\\/ncstatic.clewm.net\\/rsrc\\/2024\\/1118\\/10\\/a735f4054f935ea37f1880ada94f2ace.png\",\"path\":\"https:\\/\\/ncstatic.clewm.net\\/rsrc\\/2024\\/1118\\/10\\/a735f4054f935ea37f1880ada94f2ace.png\",\"image_resolution\":[],\"image_width\":400,\"image_height\":400,\"source_id\":\"8803389\"}"
+                    }
+                  }
+                ],
+                "name": "span",
+                "attrs": { "style": "box-sizing:border-box;" },
+                "continue": true
+              },
+              {
+                "children": [],
+                "name": "img",
+                "attrs": {
+                  "style": "max-width:100%;;box-sizing:border-box;",
+                  "src": "https://qrstyle-api.cliim.net/create/createOne?params_data=%255B%257B%2522web_url%2522%253A%2522https%253A%255C%252F%255C%252Fqr46.cn%255C%252FoQL9HR%255C%252FqOADwMD%2522%252C%2522qr_name%2522%253A%25221.%252B%2525E6%2525B2%252599%2525E5%25258F%252591%2525E7%25259A%252584%2525E6%25259D%252590%2525E6%252596%252599%2525E6%25259C%252589%2525E5%252593%2525AA%2525E4%2525BA%25259B%2525EF%2525BC%25259F%2522%257D%255D&amp;code_tplid=102715&amp;code_type=9&amp;time=1731898580&amp;uid=831891&amp;publickey=b081ab241afcf3b6099554a3110d351b&amp;label_tplid=171"
+                }
+              },
+              { "children": [], "name": "span", "attrs": { "style": "box-sizing:border-box;" } }
+            ],
+            "name": "p",
+            "attrs": { "style": "box-sizing:border-box;" },
+            "continue": true
+          }
+        ],
+        "name": "div",
+        "attrs": { "style": ";box-sizing:border-box;", "id": "", "class": "" },
+        "continue": true
+      }
+    ],
+    "name": "div",
+    "attrs": {
+      "style": "width: 100%; position: relative; border-radius: 4px; font-size: 14px; padding-top: 12px; padding-left: 0px; display: block; margin: 0px; color: rgb(89, 89, 89);box-sizing:border-box;",
+      "class": "stylelib-list-text-fold-content stylelib-parser-to-view"
+    },
+    "continue": true
+  }
+]
