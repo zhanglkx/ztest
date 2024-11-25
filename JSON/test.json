@@ -3,9 +3,10 @@
     "children": [],
     "name": "img",
     "attrs": {
-      "style": "max-width:100%;;user-select: none; width: 100%; padding: 4px;box-sizing:border-box;;width:100%",
-      "src": "https://ncstatic.clewm.net/rsrc/2024/1119/11/40cdfa6abf4e9da51b76ccad25b09741.png?x-oss-process=image/resize,w_1000/format,gif/quality,Q_80/interlace,1/auto-orient,1?index=0",
-      "data-image-url-info": "{\"filename\":\"image.png\",\"filesize_byte\":\"8854\",\"filesize\":\"8.65 KB\",\"info\":[460,460],\"url\":\"https:\\/\\/ncstatic.clewm.net\\/rsrc\\/2024\\/1119\\/11\\/40cdfa6abf4e9da51b76ccad25b09741.png\",\"path\":\"https:\\/\\/ncstatic.clewm.net\\/rsrc\\/2024\\/1119\\/11\\/40cdfa6abf4e9da51b76ccad25b09741.png\",\"image_resolution\":[],\"image_width\":460,\"image_height\":460,\"source_id\":\"1715040188\"}"
+      "style": "max-width:100%;;user-select: none; width: 100%; padding: 4px;box-sizing:border-box;",
+      "data-stylelib-table-image": "image",
+      "src": "https://ncstatic.clewm.net/rsrc/2024/1122/17/fee2e0dac2eda37181d1e7f159ddf105.jpg?x-oss-process=image/resize,w_1125/format,gif/auto-orient,1/quality,q_50/watermark,image_cmVzL3VzZXItd20tdjIvb1lOZWZKQGdyZXkucG5nP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLGhfNjk,x_36,y_36,t_85",
+      "data-image-url-info": "{\"filename\":\"11 (2)_副本.jpg\",\"filesize_byte\":\"515513\",\"filesize\":\"503.43 KB\",\"info\":[2387,2387],\"url\":\"https:\\/\\/ncstatic.clewm.net\\/rsrc\\/2024\\/1122\\/17\\/fee2e0dac2eda37181d1e7f159ddf105.jpg\",\"path\":\"https:\\/\\/ncstatic.clewm.net\\/rsrc\\/2024\\/1122\\/17\\/fee2e0dac2eda37181d1e7f159ddf105.jpg\",\"image_resolution\":[96,96],\"image_width\":2387,\"image_height\":2387,\"source_id\":\"8804166\"}"
     }
   }
 ]

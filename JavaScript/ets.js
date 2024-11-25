@@ -1,21 +1,34 @@
-FastClick.prototype.focus = function (targetElement) {
 
-    var length;
+// function solution(cards) {
 
-    // Issue #160: on iOS 7, some input elements (e.g. date datetime month) throw a vague TypeError on setSelectionRange. These elements don't have an integer value for the selectionStart and selectionEnd properties, but unfortunately that can't be used for detection because accessing the properties also throws a TypeError. Just check the type instead. Filed as Apple bug #15122724.
+//     let arr = []
 
-    if (deviceIsIOS && targetElement.setSelectionRange && targetElement.type.indexOf('date') !== 0 && targetElement.type !== 'time' && targetElement.type !== 'month') {
+//     for (let index = 0; index < cards.length; index++) {
+//         if (arr.includes(cards[index])) {
+//             arr = arr.filter(item => item !== cards[index]);
+//         } else {
+//             arr.push(cards[index])
 
-        length = targetElement.value.length;
+//         }
+//     }
 
-        targetElement.focus();
+//     return arr[0];
+// }
 
-        targetElement.setSelectionRange(length, length);
-
-    } else {
-
-        targetElement.focus();
-
+function solution(cards) {
+    let result = 0;
+    for (let num of cards) {
+        result ^= num;
+        console.log('🚀日志=====', result);
     }
+    return result;
+}
 
-};
+
+function main() {
+    // Add your test cases here
+    console.log(solution([1, 1, 2, 2, 3, 3, 4, 5, 5]) === 4);
+    console.log(solution([0, 1, 0, 1, 2]) === 2);
+}
+
+main();
