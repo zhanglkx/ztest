@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://unpkg.com/axios@0.24.0/dist/axios.min.js"></script>
+  </head>
+  <body>
+    <script>
+      async function urlParam() {
+        const res = await axios.get("/person/xxx");
+        console.log(res);
+      }
+      urlParam();
+    </script>
+  </body>
+</html>
