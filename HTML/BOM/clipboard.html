@@ -1,60 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Clipboard Events Example</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <textarea id="textArea" rows="10" cols="30">Try copying, cutting, and pasting text here.</textarea>
-    ​​​​​​<input type="number" min="0" max="100" step="5" name="count">​
-    ​​​​​​<input type="range" min="0" max="100" step="5" name="count">​
-    ​​​​​​<input type="date" min="0" max="100" step="5" name="count">​
-    ​​​​​​<input type="datetime" min="0" max="100" step="5" name="count">​
-    ​​​​​​<input type="week" min="0" max="100" step="5" name="count">​
+    ​​​​​​<input type="number" min="0" max="100" step="5" name="count" />​ ​​​​​​<input type="range" min="0" max="100" step="5" name="count" />​
+    ​​​​​​<input type="date" min="0" max="100" step="5" name="count" />​ ​​​​​​<input type="datetime" min="0" max="100" step="5" name="count" />​
+    ​​​​​​<input type="week" min="0" max="100" step="5" name="count" />​
     <script>
-        const textArea = document.getElementById('textArea');
+      const textArea = document.getElementById("textArea");
 
-        textArea.addEventListener('beforecopy', (event) => {
-            console.log('beforecopy event triggered');
-            // Modify selection before copying
-        });
+      textArea.addEventListener("beforecopy", (event) => {
+        console.log("beforecopy event triggered");
+        // Modify selection before copying
+      });
 
-        textArea.addEventListener('copy', (event) => {
-            console.log('copy event triggered');
-            // Access or modify the copied data
-            event.clipboardData.setData('text/plain', 'Modified copied text');
-            event.preventDefault();
-        });
+      textArea.addEventListener("copy", (event) => {
+        console.log("copy event triggered");
+        // Access or modify the copied data
+        event.clipboardData.setData("text/plain", "Modified copied text");
+        event.preventDefault();
+      });
 
-        textArea.addEventListener('beforecut', (event) => {
-            console.log('beforecut event triggered');
-            // Modify selection before cutting
-        });
+      textArea.addEventListener("beforecut", (event) => {
+        console.log("beforecut event triggered");
+        // Modify selection before cutting
+      });
 
-        textArea.addEventListener('cut', (event) => {
-            console.log('cut event triggered');
-            // Access or modify the cut data
-            event.clipboardData.setData('text/plain', 'Modified cut text');
-            event.preventDefault();
-        });
+      textArea.addEventListener("cut", (event) => {
+        console.log("cut event triggered");
+        // Access or modify the cut data
+        event.clipboardData.setData("text/plain", "Modified cut text");
+        event.preventDefault();
+      });
 
-        textArea.addEventListener('beforepaste', (event) => {
-            console.log('beforepaste event triggered');
-            // Modify clipboard data before pasting
-        });
+      textArea.addEventListener("beforepaste", (event) => {
+        console.log("beforepaste event triggered");
+        // Modify clipboard data before pasting
+      });
 
-        textArea.addEventListener('paste', (event) => {
-            console.log('paste event triggered');
-            // Access or modify the pasted data
-            let pastedData = event.clipboardData.getData('text');
-            console.log('Pasted data:', pastedData);
-            event.preventDefault();
-            textArea.value += `\nModified pasted text: ${pastedData}`;
-        });
+      textArea.addEventListener("paste", (event) => {
+        console.log("paste event triggered");
+        // Access or modify the pasted data
+        let pastedData = event.clipboardData.getData("text");
+        console.log("Pasted data:", pastedData);
+        event.preventDefault();
+        textArea.value += `\nModified pasted text: ${pastedData}`;
+      });
     </script>
-</body>
-
+  </body>
 </html>
