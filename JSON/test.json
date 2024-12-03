@@ -1,12 +1,98 @@
 [
   {
-    "children": [],
-    "name": "img",
-    "attrs": {
-      "style": "max-width:100%;;user-select: none; width: 100%; padding: 4px;box-sizing:border-box;",
-      "data-stylelib-table-image": "image",
-      "src": "https://ncstatic.clewm.net/rsrc/2024/1122/17/fee2e0dac2eda37181d1e7f159ddf105.jpg?x-oss-process=image/resize,w_1125/format,gif/auto-orient,1/quality,q_50/watermark,image_cmVzL3VzZXItd20tdjIvb1lOZWZKQGdyZXkucG5nP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLGhfNjk,x_36,y_36,t_85",
-      "data-image-url-info": "{\"filename\":\"11 (2)_副本.jpg\",\"filesize_byte\":\"515513\",\"filesize\":\"503.43 KB\",\"info\":[2387,2387],\"url\":\"https:\\/\\/ncstatic.clewm.net\\/rsrc\\/2024\\/1122\\/17\\/fee2e0dac2eda37181d1e7f159ddf105.jpg\",\"path\":\"https:\\/\\/ncstatic.clewm.net\\/rsrc\\/2024\\/1122\\/17\\/fee2e0dac2eda37181d1e7f159ddf105.jpg\",\"image_resolution\":[96,96],\"image_width\":2387,\"image_height\":2387,\"source_id\":\"8804166\"}"
+    "target_type": "qrcode_data",
+    "target_params": {
+      "union_id": "oBB5cs0XgWZo81fhaoMZIwYHkMzs",
+      "user_id": 831891,
+      "time": 1733131524,
+      "publickey": "d72f4d5177ccf777718bd6d4dd89dc2c",
+      "manager_skip": 0,
+      "qrcode_route": "https://qr46.cn/oQL9HR/qyQNVRP",
+      "app_id": "wx5db79bd23a923e8e",
+      "password": null,
+      "auth_maps": "15985,16107",
+      "longitude": 0,
+      "latitude": 0,
+      "render_edit_btn": 1,
+      "render_wrap_span": 1,
+      "open_id": "odP8I0Sd5TLRGBGo9EAaDyoQzFgM"
+    }
+  },
+  {
+    "target_type": "state_data",
+    "target_params": {
+      "with_state_change_log": 1,
+      "qrcode_route": "https://qr46.cn/oQL9HR/qyQNVRP",
+      "union_id": "oBB5cs0XgWZo81fhaoMZIwYHkMzs",
+      "open_id": "odP8I0Sd5TLRGBGo9EAaDyoQzFgM",
+      "user_id": 831891,
+      "time": 1733131524,
+      "publickey": "d72f4d5177ccf777718bd6d4dd89dc2c",
+      "auth_id": 15985,
+      "auth_maps": "15985,16107",
+      "auth_maps_publickey": "de2088bd04e569d0ab2829b33f502a2c",
+      "auth_maps_time": 1733133419
+    }
+  },
+  { "target_type": "task_data", "target_params": { "qrcode_route": "https://qr46.cn/oQL9HR/qyQNVRP" } },
+  {
+    "target_type": "operation_data",
+    "target_params": {
+      "qrcode_route": "https://qr46.cn/oQL9HR/qyQNVRP",
+      "union_id": "oBB5cs0XgWZo81fhaoMZIwYHkMzs",
+      "open_id": "odP8I0Sd5TLRGBGo9EAaDyoQzFgM",
+      "user_id": 831891,
+      "time": 1733131524,
+      "publickey": "d72f4d5177ccf777718bd6d4dd89dc2c",
+      "auth_id": 15985,
+      "auth_maps": "15985,16107",
+      "auth_maps_publickey": "de2088bd04e569d0ab2829b33f502a2c",
+      "auth_maps_time": 1733133419,
+      "scan_source": 1,
+      "manager_skip": 0,
+      "without_tpl_msg": 1
+    }
+  },
+  {
+    "target_type": "qrcode_dynamic_data",
+    "target_params": {
+      "password": "",
+      "qrcode_route": "https://qr46.cn/oQL9HR/qyQNVRP",
+      "user_id": 831891,
+      "time": 1733131524,
+      "publickey": "d72f4d5177ccf777718bd6d4dd89dc2c",
+      "auth_id": 15985,
+      "auth_maps": "15985,16107",
+      "auth_maps_publickey": "de2088bd04e569d0ab2829b33f502a2c",
+      "auth_maps_time": 1733133419,
+      "scan_source": 1,
+      "manager_skip": 0
+    }
+  },
+  {
+    "target_type": "qrcode_properties_data",
+    "target_params": {
+      "qrcode_route": "https://qr46.cn/oQL9HR/qyQNVRP",
+      "union_id": "oBB5cs0XgWZo81fhaoMZIwYHkMzs",
+      "user_id": 831891,
+      "time": 1733131524,
+      "publickey": "d72f4d5177ccf777718bd6d4dd89dc2c",
+      "auth_maps": "15985,16107",
+      "auth_maps_time": 1733133419,
+      "auth_maps_publickey": "de2088bd04e569d0ab2829b33f502a2c"
+    }
+  },
+  {
+    "target_type": "qrcode_record_data",
+    "target_params": {
+      "qrcode_route": "https://qr46.cn/oQL9HR/qyQNVRP",
+      "union_id": "oBB5cs0XgWZo81fhaoMZIwYHkMzs",
+      "user_id": 831891,
+      "time": 1733131524,
+      "publickey": "d72f4d5177ccf777718bd6d4dd89dc2c",
+      "auth_maps": "15985,16107",
+      "auth_maps_time": 1733133419,
+      "auth_maps_publickey": "de2088bd04e569d0ab2829b33f502a2c"
     }
   }
 ]
