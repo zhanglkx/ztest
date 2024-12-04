@@ -8,7 +8,7 @@ class Param {
 function Validate(target, key, descriptor) {
   const val = descriptor.value;
   const required = val.required;
-
+  console.log("🚀日志=====val", val);
   console.log(required); // [0, 1]
   descriptor.value = function (...args) {
     required.forEach((index) => {
