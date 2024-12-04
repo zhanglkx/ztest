@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr); /* 每行3个元素 */
+            gap: 10px;
+            padding: 20px;
+        }
+
+        .grid-item {
+            background-color: #f0f0f0;
+            border: 1px solid #ddd;
+            padding: 10px;
+        }
+
+        /* 为了演示不同高度，给一些元素添加不同的内容高度 */
+        .grid-item:nth-child(2) {
+            padding-bottom: 50px;
+            height: 100px;
+        }
+        .grid-item:nth-child(5) {
+            padding-bottom: 30px;
+            height: 200px;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="grid-item">内容1</div>
+        <div class="grid-item">内容2<br>更多内容</div>
+        <div class="grid-item">内容3</div>
+        <div class="grid-item">内容4</div>
+        <div class="grid-item">内容5<br>更多内容<br>更多内容</div>
+        <div class="grid-item">内容6</div>
+    </div>
+</body>
+</html>

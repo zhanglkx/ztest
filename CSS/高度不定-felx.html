@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .flex-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            padding: 20px;
+        }
+
+        .flex-item {
+            width: calc((100% - 20px) / 3); /* 每行3个元素，减去两个间隙的宽度 */
+            background-color: #f0f0f0;
+            border: 1px solid #ddd;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+
+        /* 为了演示不同高度，给一些元素添加不同的内容高度 */
+        .flex-item:nth-child(2) {
+            padding-bottom: 50px;
+            height: 100px;
+        }
+        .flex-item:nth-child(5) {
+            padding-bottom: 30px;
+            height: 200px;
+        }
+    </style>
+</head>
+<body>
+    <div class="flex-container">
+        <div class="flex-item">内容1</div>
+        <div class="flex-item">内容2<br>更多内容</div>
+        <div class="flex-item">内容3</div>
+        <div class="flex-item">内容4</div>
+        <div class="flex-item">内容5<br>更多内容<br>更多内容</div>
+        <div class="flex-item">内容6</div>
+    </div>
+
+    <script>
+        function adjustHeight() {
+            const container = document.querySelector('.flex-container');
+            const items = container.querySelectorAll('.flex-item');
+            const itemsPerRow = 3; // 每行3个元素
+
+            // 重置所有元素的高度
+            items.forEach(item => item.style.height = 'auto');
+
+            // 按行分组并调整高度
+            for(let i = 0; i < items.length; i += itemsPerRow) {
+                const rowItems = Array.from(items).slice(i, i + itemsPerRow);
+                const maxHeight = Math.max(...rowItems.map(item => item.offsetHeight));
+                rowItems.forEach(item => item.style.height = maxHeight + 'px');
+            }
+        }
+
+        // 页面加载完成后执行
+        window.addEventListener('load', adjustHeight);
+        // 窗口大小改变时重新计算
+        window.addEventListener('resize', adjustHeight);
+    </script>
+</body>
+</html>
