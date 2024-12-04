@@ -1,99 +1,456 @@
-[
-  {
-    "target_type": "qrcode_data",
-    "target_params": {
-      "union_id": "oBB5cs0XgWZo81fhaoMZIwYHkMzs",
-      "user_id": 831891,
-      "time": 1733131524,
-      "publickey": "d72f4d5177ccf777718bd6d4dd89dc2c",
-      "manager_skip": 1,
-      "qrcode_route": "https://qr46.cn/oQL9HR/qyQNVRP",
-      "app_id": "wx5db79bd23a923e8e",
-      "password": null,
-      "auth_maps": "15985,16107",
-      "longitude": 0,
-      "latitude": 0,
-      "render_default_fields": 0,
-      "render_edit_btn": 1,
-      "render_wrap_span": 1,
-      "open_id": "odP8I0Sd5TLRGBGo9EAaDyoQzFgM"
-    }
-  },
-  {
-    "target_type": "state_data",
-    "target_params": {
-      "with_state_change_log": 1,
-      "qrcode_route": "https://qr46.cn/oQL9HR/qyQNVRP",
-      "union_id": "oBB5cs0XgWZo81fhaoMZIwYHkMzs",
-      "open_id": "odP8I0Sd5TLRGBGo9EAaDyoQzFgM",
-      "user_id": 831891,
-      "time": 1733131524,
-      "publickey": "d72f4d5177ccf777718bd6d4dd89dc2c",
-      "auth_id": 15985,
-      "auth_maps": "15985,16107",
-      "auth_maps_publickey": "407f9c9a2e946390b30afeaab768c506",
-      "auth_maps_time": 1733133379
-    }
-  },
-  { "target_type": "task_data", "target_params": { "qrcode_route": "https://qr46.cn/oQL9HR/qyQNVRP" } },
-  {
-    "target_type": "operation_data",
-    "target_params": {
-      "qrcode_route": "https://qr46.cn/oQL9HR/qyQNVRP",
-      "union_id": "oBB5cs0XgWZo81fhaoMZIwYHkMzs",
-      "open_id": "odP8I0Sd5TLRGBGo9EAaDyoQzFgM",
-      "user_id": 831891,
-      "time": 1733131524,
-      "publickey": "d72f4d5177ccf777718bd6d4dd89dc2c",
-      "auth_id": 15985,
-      "auth_maps": "15985,16107",
-      "auth_maps_publickey": "407f9c9a2e946390b30afeaab768c506",
-      "auth_maps_time": 1733133379,
-      "scan_source": 1,
-      "manager_skip": 0,
-      "without_tpl_msg": 1
-    }
-  },
-  {
-    "target_type": "qrcode_dynamic_data",
-    "target_params": {
-      "password": "",
-      "qrcode_route": "https://qr46.cn/oQL9HR/qyQNVRP",
-      "user_id": 831891,
-      "time": 1733131524,
-      "publickey": "d72f4d5177ccf777718bd6d4dd89dc2c",
-      "auth_id": 15985,
-      "auth_maps": "15985,16107",
-      "auth_maps_publickey": "407f9c9a2e946390b30afeaab768c506",
-      "auth_maps_time": 1733133379,
-      "scan_source": 1,
-      "manager_skip": 0
-    }
-  },
-  {
-    "target_type": "qrcode_properties_data",
-    "target_params": {
-      "qrcode_route": "https://qr46.cn/oQL9HR/qyQNVRP",
-      "union_id": "oBB5cs0XgWZo81fhaoMZIwYHkMzs",
-      "user_id": 831891,
-      "time": 1733131524,
-      "publickey": "d72f4d5177ccf777718bd6d4dd89dc2c",
-      "auth_maps": "15985,16107",
-      "auth_maps_time": 1733133379,
-      "auth_maps_publickey": "407f9c9a2e946390b30afeaab768c506"
-    }
-  },
-  {
-    "target_type": "qrcode_record_data",
-    "target_params": {
-      "qrcode_route": "https://qr46.cn/oQL9HR/qyQNVRP",
-      "union_id": "oBB5cs0XgWZo81fhaoMZIwYHkMzs",
-      "user_id": 831891,
-      "time": 1733131524,
-      "publickey": "d72f4d5177ccf777718bd6d4dd89dc2c",
-      "auth_maps": "15985,16107",
-      "auth_maps_time": 1733133379,
-      "auth_maps_publickey": "407f9c9a2e946390b30afeaab768c506"
-    }
-  }
-]
+{
+    "code": 1,
+    "msg": {
+        "text": "操作成功",
+        "code": 0
+    },
+    "data": {
+        "user_info": {
+            "user_id": "831891",
+            "account": "18336175747",
+            "mobile": "18336175747",
+            "email": "",
+            "add_time": "2024-05-21 09:51:26",
+            "source_user_id": "831891",
+            "manager_user_id": 0,
+            "bloc_status": 0,
+            "bloc_login_from": "",
+            "bloc_group_id": 0,
+            "bloc_case_id": 0,
+            "bloc_type": 0,
+            "bloc_org_name": "",
+            "user_auth_maps": {
+                "user_id": "831891",
+                "time": 1733300416,
+                "publickey": "f99d43ee44c3ac3ebb705a7a06539771"
+            },
+            "role_list": [],
+            "encoded_user_id": "oQL9HR"
+        },
+        "edition_info": {
+            "capacity": {
+                "title": "旗舰版",
+                "edition_name": "旗舰版",
+                "expire_time": 1795536000,
+                "end_time": "2026\/11\/25",
+                "edition_id": "15",
+                "from_edition_id": "15",
+                "remain_day": "720",
+                "is_test": "0",
+                "time_status": 1,
+                "edition_new": [],
+                "edition_old": false,
+                "capacity_packet": {
+                    "file_capacity": 0,
+                    "origin_code": 0,
+                    "idcode": 0,
+                    "sub_admin": 0
+                },
+                "capacity_packet_count": {
+                    "26": 1
+                },
+                "codes_count": 0,
+                "last_7day_scan_count": 0,
+                "sub_admin": 0,
+                "av_flow": {
+                    "state": 1,
+                    "used": "0KB",
+                    "maxsize": "18000G",
+                    "used_value": 0,
+                    "maxsize_value": 19327352832000,
+                    "bar_percent": 0,
+                    "used_byte": 0,
+                    "maxsize_byte": 19327352832000
+                },
+                "auth_member": {
+                    "state": 1,
+                    "used": "0人",
+                    "maxsize": "20人",
+                    "used_value": 0,
+                    "maxsize_value": 20,
+                    "bar_percent": 0
+                },
+                "idcode": 20,
+                "file_capacity": {
+                    "state": 1,
+                    "used": "637.56M",
+                    "maxsize": "30G",
+                    "used_value": 668524942,
+                    "maxsize_value": 32212254720,
+                    "bar_percent": 5,
+                    "used_byte": 668524942,
+                    "maxsize_byte": 32212254720
+                },
+                "origin_code": 2000000
+            },
+            "edition_id": "15",
+            "name": "旗舰版",
+            "price": "2680.00",
+            "description": "适合企业和组织的二维码管理和营销",
+            "scan_times": "0",
+            "capacity_img": 21474836480,
+            "capacity_video": 10737418240,
+            "capacity_file": 10737418240,
+            "capacity_origin": "2000000",
+            "capacity_batch": "100000",
+            "flow": 107374182400,
+            "active_bottom_tag": "0",
+            "active_bottom_bizlink": "1",
+            "active_file_size": "0",
+            "sucai": "2",
+            "vcard": "1",
+            "is_adrbook": "1",
+            "meihua": "1",
+            "batch_create": "1",
+            "from_edition_id": "15",
+            "image_size_limit": 31457280,
+            "file_size_limit": 10485760,
+            "is_pro_addtime": "1717396785",
+            "is_pro_duetime": "1795536000",
+            "sessionid": "bcmp3qfslcf1aebrnrma5dmo17",
+            "capacity_all": 32212254720,
+            "file_limitsize": 524288000,
+            "img_limitsize": 31457280,
+            "video_limitsize": 1073741824,
+            "is_paid_user": 1
+        },
+        "api_token": {
+            "capacity": {
+                "param": {
+                    "capacity_all": 32212254720
+                },
+                "token": "94bdcbb93086b92df743dcbe526c57c4"
+            }
+        },
+        "manager_info": {
+            "manager_id": "999999",
+            "vcard_pic": "http:\/\/static.clewm.net\/cli\/images\/contact\/kefu-default@2x.png",
+            "logo_pic": "http:\/\/static.clewm.net\/cli\/images\/contact\/logo-default@2x.png",
+            "nickname": "QQ咨询",
+            "realname": "QQ咨询",
+            "star_text": "客户支持",
+            "telphone": "400-002-0232",
+            "qq": "2852398248",
+            "contact_link": "\/\/cli.im\/api\/soboten\/commonlink"
+        },
+        "user_config_info": {
+            "nav_version": 3,
+            "user_logo_json": "{\"path\":\"\\\/\\\/static.clewm.net\\\/cli\\\/images\\\/user_plugin_logo.png\",\"link\":\"\\\/\\\/cli.im\",\"text\":\"\\u8349\\u6599\\u9996\\u9875\",\"rename_flag\":0,\"checkbox\":1}",
+            "user_contact_json": "{\"qq\":{\"text\":\"QQ\\u54a8\\u8be2\",\"link\":\"tencent:\\\/\\\/message\\\/?Menu=yes&uin=938077901&Service=58&SigT=A7F6FEA02730C988784304EFD25E628577962CA57591682DF806DDEAE58B40717BE423AC5D55AE2F81DD3F20E41963E235BAE17C427A9D542084FC1DB948748BF8E82BDACA1669E9970445C189BE5577EC23C00D0C1EA358EAD297E03EFC088558E27B0325526D4B2E8E60A8207D39CC4452ED2EC9FAAD3C&SigU=30E5D5233A443AB28061827407DA538DEFF5442DE99AC879CDC05450C670C1C7204384E753CF1F0DAD0D8E696A1DFE5F1B00CDC72AEE1739C75C5BDF5320CF84392E28C1D8376C43\",\"type\":\"button_qq\",\"rename_flag\":0,\"checkbox\":1},\"custom\":{\"text\":\"\\u54a8\\u8be2\\u70ed\\u7ebf: 4000020232\",\"link\":\"\",\"type\":\"text\",\"icon_class\":\"fa-phone\",\"rename_flag\":0,\"checkbox\":1}}",
+            "user_route_json": "{\"s1000100\":{\"id\":\"1000100\",\"pid\":\"0\",\"name\":\"\\u5de5\\u4f5c\\u53f0\",\"sys\":\"user\",\"route\":\"\\\/center\",\"type\":\"link\",\"hl_action\":\"\",\"qr_type_id\":\"0\",\"icon_position\":\"0px\",\"icon_class\":\"cli-last\",\"rename_flag\":0,\"sort\":1,\"deploy\":0,\"link\":\"\\\/\\\/console.cliim.net\\\/center\"},\"s1000200\":{\"id\":\"1000200\",\"pid\":\"0\",\"name\":\"\\u4e8c\\u7ef4\\u7801\",\"sys\":\"\",\"route\":\"\",\"type\":\"guide\",\"hl_action\":\"\",\"qr_type_id\":\"0\",\"icon_position\":\"\",\"icon_class\":\"cli-new-qrcode\",\"rename_flag\":0,\"sort\":2,\"cata\":[{\"id\":\"1001000\",\"pid\":\"1000200\",\"name\":\"\\u6d3b\\u7801\",\"sys\":\"console\",\"route\":\"\\\/active\\\/activecode\",\"type\":\"link\",\"hl_action\":\"\",\"qr_type_id\":\"0\",\"icon_position\":\"\",\"icon_class\":\"\",\"rename_flag\":0,\"sort\":1,\"deploy\":0,\"link\":\"\\\/\\\/console.cliim.net\\\/active\\\/activecode\"},{\"id\":\"1003000\",\"pid\":\"1000200\",\"name\":\"\\u7f51\\u5740\\u8df3\\u8f6c\\u6d3b\\u7801\",\"sys\":\"cli\",\"route\":\"\\\/user\\\/active?t=web\",\"type\":\"link\",\"hl_action\":\"\",\"qr_type_id\":\"0\",\"icon_position\":\"\",\"icon_class\":\"\",\"rename_flag\":0,\"sort\":2,\"deploy\":0,\"link\":\"\\\/\\\/cliim.net\\\/user\\\/active?t=web\"},{\"id\":\"1001250\",\"pid\":\"1000200\",\"name\":\"\\u9759\\u6001\\u7801\",\"sys\":\"console\",\"route\":\"\\\/static\\\/staticcode\",\"type\":\"link\",\"hl_action\":\"\",\"qr_type_id\":\"0\",\"icon_position\":\"\",\"icon_class\":\"\",\"rename_flag\":0,\"sort\":3,\"deploy\":0,\"link\":\"\\\/\\\/console.cliim.net\\\/static\\\/staticcode\"},{\"id\":\"1002000\",\"pid\":\"1000200\",\"name\":\"\\u65e7\\u7248\\u6279\\u91cf\\u6d3b\\u7801\",\"sys\":\"console\",\"route\":\"\\\/batch\\\/batchcode\",\"type\":\"link\",\"hl_action\":\"\",\"qr_type_id\":\"0\",\"icon_position\":\"\",\"icon_class\":\"\",\"rename_flag\":0,\"sort\":4,\"deploy\":0,\"link\":\"\\\/\\\/console.cliim.net\\\/batch\\\/batchcode\"},{\"id\":\"1004000\",\"pid\":\"1000200\",\"name\":\"\\u540d\\u7247\\u6d3b\\u7801\",\"sys\":\"console\",\"route\":\"\\\/company\\\/card\",\"type\":\"link\",\"hl_action\":\"\",\"qr_type_id\":\"0\",\"icon_position\":\"\",\"icon_class\":\"\",\"rename_flag\":0,\"sort\":5,\"deploy\":0,\"link\":\"\\\/\\\/console.cliim.net\\\/company\\\/card\"}],\"deploy\":0},\"s1000225\":{\"id\":\"1000225\",\"pid\":\"0\",\"name\":\"\\u6211\\u7684\\u6a21\\u677f\",\"sys\":\"\",\"route\":\"\",\"type\":\"guide\",\"hl_action\":\"\",\"qr_type_id\":\"0\",\"icon_position\":\"\",\"icon_class\":\"cli-piliangmuban\",\"rename_flag\":0,\"sort\":3,\"cata\":[{\"id\":\"1001500\",\"pid\":\"1000225\",\"name\":\"\\u6279\\u91cf\\u6d3b\\u7801\\u6a21\\u677f\",\"sys\":\"console\",\"route\":\"\\\/template\\\/management\",\"type\":\"link\",\"hl_action\":\"\",\"qr_type_id\":\"0\",\"icon_position\":\"\",\"icon_class\":\"\",\"rename_flag\":0,\"sort\":1,\"deploy\":0,\"link\":\"\\\/\\\/console.cliim.net\\\/template\\\/management\"},{\"id\":\"1001750\",\"pid\":\"1000225\",\"name\":\"\\u6807\\u7b7e\\u6837\\u5f0f\",\"sys\":\"console\",\"route\":\"\\\/static\\\/management\",\"type\":\"link\",\"hl_action\":\"\",\"qr_type_id\":\"0\",\"icon_position\":\"\",\"icon_class\":\"\",\"rename_flag\":0,\"sort\":2,\"deploy\":0,\"link\":\"\\\/\\\/console.cliim.net\\\/static\\\/management\"},{\"id\":\"1040000\",\"pid\":\"1000225\",\"name\":\"\\u5c0f\\u7a0b\\u5e8f\\u7801\\u6a21\\u677f\",\"sys\":\"console\",\"route\":\"\\\/mina\",\"type\":\"link\",\"hl_action\":\"\",\"qr_type_id\":\"0\",\"icon_position\":\"\",\"icon_class\":\"\",\"rename_flag\":0,\"sort\":3,\"deploy\":0,\"link\":\"\\\/\\\/console.cliim.net\\\/mina\"},{\"id\":\"1056001\",\"pid\":\"1000225\",\"name\":\"\\u65e7\\u7248\\u4e8c\\u7ef4\\u7801\\u6837\\u5f0f\",\"sys\":\"console\",\"route\":\"\\\/mybeautify\",\"type\":\"link\",\"hl_action\":\"\",\"qr_type_id\":\"0\",\"icon_position\":\"\",\"icon_class\":\"\",\"rename_flag\":0,\"sort\":1056001,\"deploy\":0,\"link\":\"\\\/\\\/console.cliim.net\\\/mybeautify\"}],\"deploy\":0},\"s1000350\":{\"id\":\"1000350\",\"pid\":\"0\",\"name\":\"\\u6570\\u636e\\u7ba1\\u7406\",\"sys\":\"\",\"route\":\"\",\"type\":\"guide\",\"hl_action\":\"\",\"qr_type_id\":\"0\",\"icon_position\":\"\",\"icon_class\":\"cli-data\",\"rename_flag\":0,\"sort\":4,\"cata\":[{\"id\":\"1034000\",\"pid\":\"1000350\",\"name\":\"\\u52a8\\u6001\\u6570\\u636e\\u6c47\\u603b\",\"sys\":\"console\",\"route\":\"\\\/record\\\/summary\",\"type\":\"link\",\"hl_action\":\"\",\"qr_type_id\":\"0\",\"icon_position\":\"\",\"icon_class\":\"\",\"rename_flag\":0,\"sort\":1,\"deploy\":0,\"link\":\"\\\/\\\/console.cliim.net\\\/record\\\/summary\"},{\"id\":\"1035010\",\"pid\":\"1000350\",\"name\":\"\\u8868\\u5355\\u6570\\u636e\",\"sys\":\"console\",\"route\":\"\\\/record\\\/tpl\",\"type\":\"link\",\"hl_action\":\"\",\"qr_type_id\":\"0\",\"icon_position\":\"\",\"icon_class\":\"\",\"rename_flag\":0,\"sort\":2,\"deploy\":0,\"link\":\"\\\/\\\/console.cliim.net\\\/record\\\/tpl\"},{\"id\":\"1035020\",\"pid\":\"1000350\",\"name\":\"\\u72b6\\u6001\\u6570\\u636e\",\"sys\":\"console\",\"route\":\"\\\/status\\\/by_status\",\"type\":\"link\",\"hl_action\":\"\",\"qr_type_id\":\"0\",\"icon_position\":\"\",\"icon_class\":\"\",\"rename_flag\":0,\"sort\":3,\"deploy\":0,\"link\":\"\\\/\\\/console.cliim.net\\\/status\\\/by_status\"},{\"id\":\"1033000\",\"pid\":\"1000350\",\"name\":\"\\u586b\\u8868\\u4eba\\u5217\\u8868\",\"sys\":\"console\",\"route\":\"\\\/record\\\/user_list\",\"type\":\"link\",\"hl_action\":\"\",\"qr_type_id\":\"0\",\"icon_position\":\"\",\"icon_class\":\"\",\"rename_flag\":0,\"sort\":4,\"deploy\":0,\"link\":\"\\\/\\\/console.cliim.net\\\/record\\\/user_list\"},{\"id\":\"1035000\",\"pid\":\"1000350\",\"name\":\"\\u6570\\u636e\\u5ba1\\u6279\",\"sys\":\"console\",\"route\":\"\\\/record\\\/audit_list\",\"type\":\"link\",\"hl_action\":\"\",\"qr_type_id\":\"0\",\"icon_position\":\"\",\"icon_class\":\"\",\"rename_flag\":0,\"sort\":5,\"deploy\":0,\"link\":\"\\\/\\\/console.cliim.net\\\/record\\\/audit_list\"},{\"id\":\"1004500\",\"pid\":\"1000350\",\"name\":\"\\u626b\\u63cf\\u91cf\\u7edf\\u8ba1\",\"sys\":\"console\",\"route\":\"\\\/analysis\\\/scan\",\"type\":\"link\",\"hl_action\":\"\",\"qr_type_id\":\"0\",\"icon_position\":\"\",\"icon_class\":\"\",\"rename_flag\":0,\"sort\":6,\"deploy\":0,\"link\":\"\\\/\\\/console.cliim.net\\\/analysis\\\/scan\"},{\"id\":\"1004600\",\"pid\":\"1000350\",\"name\":\"\\u6536\\u85cf\\u91cf\\u7edf\\u8ba1\",\"sys\":\"console\",\"route\":\"\\\/analysis\\\/collect\",\"type\":\"link\",\"hl_action\":\"\",\"qr_type_id\":\"0\",\"icon_position\":\"\",\"icon_class\":\"\",\"rename_flag\":0,\"sort\":7,\"deploy\":0,\"link\":\"\\\/\\\/console.cliim.net\\\/analysis\\\/collect\"}],\"deploy\":0},\"s1000275\":{\"id\":\"1000275\",\"pid\":\"0\",\"name\":\"\\u9ad8\\u7ea7\\u529f\\u80fd\",\"sys\":\"\",\"route\":\"\",\"type\":\"guide\",\"hl_action\":\"\",\"qr_type_id\":\"0\",\"icon_position\":\"\",\"icon_class\":\"cli-gaojigongneng\",\"rename_flag\":0,\"sort\":5,\"cata\":[{\"id\":\"1032000\",\"pid\":\"1000275\",\"name\":\"\\u8868\\u5355\\u5217\\u8868\",\"sys\":\"console\",\"route\":\"\\\/record\\\/template\",\"type\":\"link\",\"hl_action\":\"\",\"qr_type_id\":\"0\",\"icon_position\":\"\",\"icon_class\":\"\",\"rename_flag\":0,\"sort\":1,\"deploy\":0,\"link\":\"\\\/\\\/console.cliim.net\\\/record\\\/template\"},{\"id\":\"1008500\",\"pid\":\"1000275\",\"name\":\"\\u72b6\\u6001\\u5217\\u8868\",\"sys\":\"console\",\"route\":\"\\\/status\",\"type\":\"link\",\"hl_action\":\"\",\"qr_type_id\":\"0\",\"icon_position\":\"\",\"icon_class\":\"\",\"rename_flag\":0,\"sort\":2,\"deploy\":0,\"link\":\"\\\/\\\/console.cliim.net\\\/status\"},{\"id\":\"1008600\",\"pid\":\"1000275\",\"name\":\"\\u8ba1\\u5212\\u7ba1\\u7406\",\"sys\":\"console\",\"route\":\"\\\/plantask\",\"type\":\"link\",\"hl_action\":\"\",\"qr_type_id\":\"0\",\"icon_position\":\"\",\"icon_class\":\"\",\"rename_flag\":0,\"sort\":3,\"deploy\":0,\"link\":\"\\\/\\\/console.cliim.net\\\/plantask\"},{\"id\":\"1008550\",\"pid\":\"1000275\",\"name\":\"\\u5206\\u7ec4\\u7ba1\\u7406\",\"sys\":\"console\",\"route\":\"\\\/group\",\"type\":\"link\",\"hl_action\":\"\",\"qr_type_id\":\"0\",\"icon_position\":\"\",\"icon_class\":\"\",\"rename_flag\":0,\"sort\":4,\"deploy\":0,\"link\":\"\\\/\\\/console.cliim.net\\\/group\"},{\"id\":\"1006000\",\"pid\":\"1000275\",\"name\":\"\\u9996\\u9875\",\"sys\":\"console\",\"route\":\"\\\/homepage\",\"type\":\"link\",\"hl_action\":\"\",\"qr_type_id\":\"0\",\"icon_position\":\"\",\"icon_class\":\"\",\"rename_flag\":0,\"sort\":5,\"deploy\":0,\"link\":\"\\\/\\\/console.cliim.net\\\/homepage\"},{\"id\":\"1008750\",\"pid\":\"1000275\",\"name\":\"\\u6570\\u636eAPI\",\"sys\":\"user\",\"route\":\"\\\/opendata\",\"type\":\"link\",\"hl_action\":\"\",\"qr_type_id\":\"0\",\"icon_position\":\"\",\"icon_class\":\"\",\"rename_flag\":0,\"sort\":6,\"deploy\":0,\"link\":\"\\\/\\\/user.cliim.net\\\/opendata\"},{\"id\":\"1008751\",\"pid\":\"1000275\",\"name\":\"\\u4e0b\\u8f7d\\u5bfc\\u51fa\\u5217\\u8868\",\"sys\":\"console\",\"route\":\"\\\/downloadExportLists\",\"type\":\"link\",\"hl_action\":\"\",\"qr_type_id\":\"0\",\"icon_position\":\"\",\"icon_class\":\"\",\"rename_flag\":0,\"sort\":7,\"deploy\":0,\"link\":\"\\\/\\\/console.cliim.net\\\/downloadExportLists\"}],\"deploy\":0},\"s1000450\":{\"id\":\"1000450\",\"pid\":\"0\",\"name\":\"\\u6210\\u5458\\u7ba1\\u7406\",\"sys\":\"\",\"route\":\"\",\"type\":\"guide\",\"hl_action\":\"member\",\"qr_type_id\":\"0\",\"icon_position\":\"-72px\",\"icon_class\":\"cli-chengyuanguanli\",\"rename_flag\":0,\"sort\":6,\"cata\":[{\"id\":\"1056000\",\"pid\":\"1000450\",\"name\":\"\\u8eab\\u4efd\\u7ec4\\u7ba1\\u7406\",\"sys\":\"console\",\"route\":\"\\\/company\\\/memberRule?type=identity\",\"type\":\"link\",\"hl_action\":\"\",\"qr_type_id\":\"0\",\"icon_position\":\"\",\"icon_class\":\"\",\"rename_flag\":0,\"sort\":1,\"deploy\":0,\"link\":\"\\\/\\\/console.cliim.net\\\/company\\\/memberRule?type=identity\"},{\"id\":\"1055000\",\"pid\":\"1000450\",\"name\":\"\\u7ec4\\u7ec7\\u67b6\\u6784\",\"sys\":\"console\",\"route\":\"\\\/company\\\/memberRule?type=department\",\"type\":\"link\",\"hl_action\":\"\",\"qr_type_id\":\"0\",\"icon_position\":\"\",\"icon_class\":\"\",\"rename_flag\":0,\"sort\":2,\"deploy\":0,\"link\":\"\\\/\\\/console.cliim.net\\\/company\\\/memberRule?type=department\"}],\"deploy\":0},\"s1000400\":{\"id\":\"1000400\",\"pid\":\"0\",\"name\":\"\\u8bbe\\u7f6e\",\"sys\":\"\",\"route\":\"\",\"type\":\"guide\",\"hl_action\":\"settings\",\"qr_type_id\":\"0\",\"icon_position\":\"-72px\",\"icon_class\":\"cli-new-set\",\"rename_flag\":0,\"sort\":7,\"cata\":[{\"id\":\"1010000\",\"pid\":\"1000400\",\"name\":\"\\u8d26\\u53f7\\u4fe1\\u606f\",\"sys\":\"console\",\"route\":\"\\\/userinfo\",\"type\":\"link\",\"hl_action\":\"\",\"qr_type_id\":\"0\",\"icon_position\":\"\",\"icon_class\":\"\",\"rename_flag\":0,\"sort\":1,\"deploy\":0,\"link\":\"\\\/\\\/console.cliim.net\\\/userinfo\"},{\"id\":\"1045000\",\"pid\":\"1000400\",\"name\":\"\\u8ba2\\u9605\\u8bbe\\u7f6e\",\"sys\":\"user\",\"route\":\"\\\/center\\\/subscriptions\",\"type\":\"link\",\"hl_action\":\"\",\"qr_type_id\":\"0\",\"icon_position\":\"\",\"icon_class\":\"\",\"rename_flag\":0,\"sort\":4,\"deploy\":0,\"link\":\"\\\/\\\/user.cliim.net\\\/center\\\/subscriptions\"},{\"id\":\"1008050\",\"pid\":\"1000400\",\"name\":\"\\u64cd\\u4f5c\\u65e5\\u5fd7\",\"sys\":\"console\",\"route\":\"\\\/record\\\/log\",\"type\":\"link\",\"hl_action\":\"\",\"qr_type_id\":\"0\",\"icon_position\":\"\",\"icon_class\":\"\",\"rename_flag\":0,\"sort\":6,\"deploy\":0,\"link\":\"\\\/\\\/console.cliim.net\\\/record\\\/log\"},{\"id\":\"1041000\",\"pid\":\"1000400\",\"name\":\"\\u5220\\u7801\\u6062\\u590d\\u5de5\\u5177\",\"sys\":\"console\",\"route\":\"\\\/tools\\\/restore\",\"type\":\"link\",\"hl_action\":\"\",\"qr_type_id\":\"0\",\"icon_position\":\"\",\"icon_class\":\"\",\"rename_flag\":0,\"sort\":7,\"deploy\":0,\"link\":\"\\\/\\\/console.cliim.net\\\/tools\\\/restore\"},{\"id\":\"1010500\",\"pid\":\"1000400\",\"name\":\"\\u5b9e\\u9a8c\\u5ba4\",\"sys\":\"user\",\"route\":\"\\\/center\\\/lab\",\"type\":\"link\",\"hl_action\":\"\",\"qr_type_id\":\"0\",\"icon_position\":\"\",\"icon_class\":\"\",\"rename_flag\":0,\"sort\":8,\"deploy\":0,\"link\":\"\\\/\\\/user.cliim.net\\\/center\\\/lab\"}],\"deploy\":0},\"s1000500\":{\"id\":\"1000500\",\"pid\":\"0\",\"name\":\"\\u65e7\\u7248\\u6d3b\\u7801\",\"sys\":\"\",\"route\":\"\",\"type\":\"guide\",\"hl_action\":\"\",\"qr_type_id\":\"1\",\"icon_position\":\"-72px\",\"icon_class\":\"cli-old-qrcode\",\"rename_flag\":0,\"sort\":1000500,\"cata\":[{\"id\":\"1011000\",\"pid\":\"1000500\",\"name\":\"\\u6587\\u672c\\u7801\",\"sys\":\"cli\",\"route\":\"\\\/user\\\/active?t=text\",\"type\":\"link\",\"hl_action\":\"\",\"qr_type_id\":\"0\",\"icon_position\":\"\",\"icon_class\":\"\",\"rename_flag\":0,\"sort\":1011000,\"deploy\":0,\"link\":\"\\\/\\\/cliim.net\\\/user\\\/active?t=text\"},{\"id\":\"1012000\",\"pid\":\"1000500\",\"name\":\"\\u56fe\\u6587\\u7801\",\"sys\":\"cli\",\"route\":\"\\\/user\\\/active?t=imgtext\",\"type\":\"link\",\"hl_action\":\"\",\"qr_type_id\":\"0\",\"icon_position\":\"\",\"icon_class\":\"\",\"rename_flag\":0,\"sort\":1012000,\"deploy\":0,\"link\":\"\\\/\\\/cliim.net\\\/user\\\/active?t=imgtext\"},{\"id\":\"1013000\",\"pid\":\"1000500\",\"name\":\"\\u6587\\u4ef6\\u7801\",\"sys\":\"cli\",\"route\":\"\\\/user\\\/active?t=file\",\"type\":\"link\",\"hl_action\":\"\",\"qr_type_id\":\"0\",\"icon_position\":\"\",\"icon_class\":\"\",\"rename_flag\":0,\"sort\":1013000,\"deploy\":0,\"link\":\"\\\/\\\/cliim.net\\\/user\\\/active?t=file\"},{\"id\":\"1014000\",\"pid\":\"1000500\",\"name\":\"\\u5546\\u54c1\\u7801\",\"sys\":\"cli\",\"route\":\"\\\/user\\\/active\\\/pro\",\"type\":\"link\",\"hl_action\":\"\",\"qr_type_id\":\"0\",\"icon_position\":\"\",\"icon_class\":\"\",\"rename_flag\":0,\"sort\":1014000,\"deploy\":0,\"link\":\"\\\/\\\/cliim.net\\\/user\\\/active\\\/pro\"},{\"id\":\"1015000\",\"pid\":\"1000500\",\"name\":\"\\u540d\\u7247\\u7801\",\"sys\":\"biz\",\"route\":\"\\\/vcard\",\"type\":\"link\",\"hl_action\":\"\",\"qr_type_id\":\"0\",\"icon_position\":\"\",\"icon_class\":\"\",\"rename_flag\":0,\"sort\":1015000,\"deploy\":0,\"link\":\"\\\/\\\/biz.cliim.net\\\/vcard\"},{\"id\":\"1016000\",\"pid\":\"1000500\",\"name\":\"\\u8bb0\\u5f55\\u7801\",\"sys\":\"biz\",\"route\":\"\\\/Rec\\\/reclist\",\"type\":\"link\",\"hl_action\":\"\",\"qr_type_id\":\"0\",\"icon_position\":\"\",\"icon_class\":\"\",\"rename_flag\":0,\"sort\":1016000,\"deploy\":0,\"link\":\"\\\/\\\/biz.cliim.net\\\/Rec\\\/reclist\"},{\"id\":\"1017000\",\"pid\":\"1000500\",\"name\":\"\\u6eaf\\u6e90\\u7801\",\"sys\":\"cli\",\"route\":\"\\\/user\\\/origin\\\/category\",\"type\":\"link\",\"hl_action\":\"\",\"qr_type_id\":\"0\",\"icon_position\":\"\",\"icon_class\":\"\",\"rename_flag\":0,\"sort\":1017000,\"deploy\":0,\"link\":\"\\\/\\\/cliim.net\\\/user\\\/origin\\\/category\"},{\"id\":\"1018000\",\"pid\":\"1000500\",\"name\":\"\\u4f01\\u4e1a\\u7801\",\"sys\":\"biz\",\"route\":\"\\\/index\",\"type\":\"link\",\"hl_action\":\"\",\"qr_type_id\":\"0\",\"icon_position\":\"\",\"icon_class\":\"\",\"rename_flag\":0,\"sort\":1018000,\"deploy\":0,\"link\":\"\\\/\\\/biz.cliim.net\\\/index\"}],\"deploy\":0}}",
+            "user_route_b_json": "{\"s2000001\":{\"id\":\"2000001\",\"pid\":\"0\",\"name\":\"\\u5de5\\u4f5c\\u53f0\",\"sys\":\"user\",\"route\":\"\\\/center\",\"type\":\"link\",\"hl_action\":\"\",\"qr_type_id\":\"0\",\"icon_position\":\"0px\",\"icon_class\":\"cli-last\",\"rename_flag\":0,\"sort\":1,\"deploy\":0,\"link\":\"\\\/\\\/console.cliim.net\\\/center\"},\"s2001000\":{\"id\":\"2001000\",\"pid\":\"0\",\"name\":\"\\u6d3b\\u7801\",\"sys\":\"console\",\"route\":\"\\\/active\\\/activecode\",\"type\":\"link\",\"hl_action\":\"\",\"qr_type_id\":\"0\",\"icon_position\":\"-72px\",\"icon_class\":\"erweima\",\"rename_flag\":0,\"sort\":2,\"deploy\":0,\"link\":\"\\\/\\\/console.cliim.net\\\/active\\\/activecode\"},\"s2001500\":{\"id\":\"2001500\",\"pid\":\"0\",\"name\":\"\\u7f51\\u5740\\u8df3\\u8f6c\\u6d3b\\u7801\",\"sys\":\"cli\",\"route\":\"\\\/user\\\/active?t=web\",\"type\":\"link\",\"hl_action\":\"\",\"qr_type_id\":\"0\",\"icon_position\":\"-72px\",\"icon_class\":\"link-right\",\"rename_flag\":0,\"sort\":3,\"deploy\":0,\"link\":\"\\\/\\\/cliim.net\\\/user\\\/active?t=web\"},\"s2002000\":{\"id\":\"2002000\",\"pid\":\"0\",\"name\":\"\\u9759\\u6001\\u7801\",\"sys\":\"console\",\"route\":\"\\\/static\\\/staticcode\",\"type\":\"link\",\"hl_action\":\"\",\"qr_type_id\":\"0\",\"icon_position\":\"\",\"icon_class\":\"erweimaxin\",\"rename_flag\":0,\"sort\":5,\"deploy\":0,\"link\":\"\\\/\\\/console.cliim.net\\\/static\\\/staticcode\"},\"s2003000\":{\"id\":\"2003000\",\"pid\":\"0\",\"name\":\"\\u6279\\u91cf\\u6d3b\\u7801\\u6a21\\u677f\",\"sys\":\"console\",\"route\":\"\\\/template\\\/management\",\"type\":\"link\",\"hl_action\":\"\",\"qr_type_id\":\"0\",\"icon_position\":\"\",\"icon_class\":\"xinpiliang\",\"rename_flag\":0,\"sort\":7,\"deploy\":0,\"link\":\"\\\/\\\/console.cliim.net\\\/template\\\/management\"},\"s2004000\":{\"id\":\"2004000\",\"pid\":\"0\",\"name\":\"\\u6807\\u7b7e\\u6837\\u5f0f\",\"sys\":\"console\",\"route\":\"\\\/static\\\/management\",\"type\":\"link\",\"hl_action\":\"\",\"qr_type_id\":\"0\",\"icon_position\":\"\",\"icon_class\":\"biaoqianyangshi\",\"rename_flag\":0,\"sort\":9,\"deploy\":0,\"link\":\"\\\/\\\/console.cliim.net\\\/static\\\/management\"},\"s2010000\":{\"id\":\"2010000\",\"pid\":\"0\",\"name\":\"\\u8868\\u5355\",\"sys\":\"console\",\"route\":\"\\\/record\\\/template\",\"type\":\"link\",\"hl_action\":\"\",\"qr_type_id\":\"0\",\"icon_position\":\"\",\"icon_class\":\"jilu\",\"rename_flag\":0,\"sort\":11,\"deploy\":0,\"link\":\"\\\/\\\/console.cliim.net\\\/record\\\/template\"},\"s2005000\":{\"id\":\"2005000\",\"pid\":\"0\",\"name\":\"\\u72b6\\u6001\",\"sys\":\"console\",\"route\":\"\\\/status\",\"type\":\"link\",\"hl_action\":\"\",\"qr_type_id\":\"0\",\"icon_position\":\"\",\"icon_class\":\"zhuangtaigengxin\",\"rename_flag\":0,\"sort\":13,\"deploy\":0,\"link\":\"\\\/\\\/console.cliim.net\\\/status\"},\"s2011000\":{\"id\":\"2011000\",\"pid\":\"0\",\"name\":\"\\u5ba1\\u6279\",\"sys\":\"console\",\"route\":\"\\\/record\\\/audit_list\",\"type\":\"link\",\"hl_action\":\"\",\"qr_type_id\":\"0\",\"icon_position\":\"\",\"icon_class\":\"shujushenhe\",\"rename_flag\":0,\"sort\":14,\"deploy\":0,\"link\":\"\\\/\\\/console.cliim.net\\\/record\\\/audit_list\"},\"s2006000\":{\"id\":\"2006000\",\"pid\":\"0\",\"name\":\"\\u6570\\u636e\\u7ba1\\u7406\",\"sys\":\"console\",\"route\":\"\\\/data-management\",\"type\":\"link\",\"hl_action\":\"\",\"qr_type_id\":\"0\",\"icon_position\":\"\",\"icon_class\":\"cli-data\",\"rename_flag\":0,\"sort\":15,\"deploy\":0,\"link\":\"\\\/\\\/console.cliim.net\\\/data-management\"},\"s2008000\":{\"id\":\"2008000\",\"pid\":\"0\",\"name\":\"\\u9ad8\\u7ea7\\u529f\\u80fd\",\"sys\":\"console\",\"route\":\"\\\/profeature\",\"type\":\"link\",\"hl_action\":\"\",\"qr_type_id\":\"0\",\"icon_position\":\"\",\"icon_class\":\"cli-gaojigongneng\",\"rename_flag\":0,\"sort\":16,\"deploy\":0,\"link\":\"\\\/\\\/console.cliim.net\\\/profeature\"},\"s2007000\":{\"id\":\"2007000\",\"pid\":\"0\",\"name\":\"\\u6210\\u5458\\u7ba1\\u7406\",\"sys\":\"console\",\"route\":\"\\\/company\\\/member-management?type=identity\",\"type\":\"link\",\"hl_action\":\"\",\"qr_type_id\":\"0\",\"icon_position\":\"\",\"icon_class\":\"cli-chengyuanguanli\",\"rename_flag\":0,\"sort\":19,\"deploy\":0,\"link\":\"\\\/\\\/console.cliim.net\\\/company\\\/member-management?type=identity\"},\"s2009000\":{\"id\":\"2009000\",\"pid\":\"0\",\"name\":\"\\u8bbe\\u7f6e\",\"sys\":\"console\",\"route\":\"\\\/userinfo\",\"type\":\"link\",\"hl_action\":\"\",\"qr_type_id\":\"0\",\"icon_position\":\"-72px\",\"icon_class\":\"cli-new-set\",\"rename_flag\":0,\"sort\":25,\"deploy\":0,\"link\":\"\\\/\\\/console.cliim.net\\\/userinfo\"},\"s1000500\":{\"id\":\"1000500\",\"pid\":\"0\",\"name\":\"\\u65e7\\u7248\\u6d3b\\u7801\",\"sys\":\"\",\"route\":\"\",\"type\":\"guide\",\"hl_action\":\"\",\"qr_type_id\":\"1\",\"icon_position\":\"-72px\",\"icon_class\":\"cli-old-qrcode\",\"rename_flag\":0,\"sort\":99,\"cata\":[{\"id\":\"1011000\",\"pid\":\"1000500\",\"name\":\"\\u6587\\u672c\\u7801\",\"sys\":\"cli\",\"route\":\"\\\/user\\\/active?t=text\",\"type\":\"link\",\"hl_action\":\"\",\"qr_type_id\":\"0\",\"icon_position\":\"\",\"icon_class\":\"\",\"rename_flag\":0,\"sort\":1011000,\"deploy\":0,\"link\":\"\\\/\\\/cliim.net\\\/user\\\/active?t=text\"},{\"id\":\"1012000\",\"pid\":\"1000500\",\"name\":\"\\u56fe\\u6587\\u7801\",\"sys\":\"cli\",\"route\":\"\\\/user\\\/active?t=imgtext\",\"type\":\"link\",\"hl_action\":\"\",\"qr_type_id\":\"0\",\"icon_position\":\"\",\"icon_class\":\"\",\"rename_flag\":0,\"sort\":1012000,\"deploy\":0,\"link\":\"\\\/\\\/cliim.net\\\/user\\\/active?t=imgtext\"},{\"id\":\"1013000\",\"pid\":\"1000500\",\"name\":\"\\u6587\\u4ef6\\u7801\",\"sys\":\"cli\",\"route\":\"\\\/user\\\/active?t=file\",\"type\":\"link\",\"hl_action\":\"\",\"qr_type_id\":\"0\",\"icon_position\":\"\",\"icon_class\":\"\",\"rename_flag\":0,\"sort\":1013000,\"deploy\":0,\"link\":\"\\\/\\\/cliim.net\\\/user\\\/active?t=file\"},{\"id\":\"1014000\",\"pid\":\"1000500\",\"name\":\"\\u5546\\u54c1\\u7801\",\"sys\":\"cli\",\"route\":\"\\\/user\\\/active\\\/pro\",\"type\":\"link\",\"hl_action\":\"\",\"qr_type_id\":\"0\",\"icon_position\":\"\",\"icon_class\":\"\",\"rename_flag\":0,\"sort\":1014000,\"deploy\":0,\"link\":\"\\\/\\\/cliim.net\\\/user\\\/active\\\/pro\"},{\"id\":\"1015000\",\"pid\":\"1000500\",\"name\":\"\\u540d\\u7247\\u7801\",\"sys\":\"biz\",\"route\":\"\\\/vcard\",\"type\":\"link\",\"hl_action\":\"\",\"qr_type_id\":\"0\",\"icon_position\":\"\",\"icon_class\":\"\",\"rename_flag\":0,\"sort\":1015000,\"deploy\":0,\"link\":\"\\\/\\\/biz.cliim.net\\\/vcard\"},{\"id\":\"1016000\",\"pid\":\"1000500\",\"name\":\"\\u8bb0\\u5f55\\u7801\",\"sys\":\"biz\",\"route\":\"\\\/Rec\\\/reclist\",\"type\":\"link\",\"hl_action\":\"\",\"qr_type_id\":\"0\",\"icon_position\":\"\",\"icon_class\":\"\",\"rename_flag\":0,\"sort\":1016000,\"deploy\":0,\"link\":\"\\\/\\\/biz.cliim.net\\\/Rec\\\/reclist\"},{\"id\":\"1017000\",\"pid\":\"1000500\",\"name\":\"\\u6eaf\\u6e90\\u7801\",\"sys\":\"cli\",\"route\":\"\\\/user\\\/origin\\\/category\",\"type\":\"link\",\"hl_action\":\"\",\"qr_type_id\":\"0\",\"icon_position\":\"\",\"icon_class\":\"\",\"rename_flag\":0,\"sort\":1017000,\"deploy\":0,\"link\":\"\\\/\\\/cliim.net\\\/user\\\/origin\\\/category\"},{\"id\":\"1018000\",\"pid\":\"1000500\",\"name\":\"\\u4f01\\u4e1a\\u7801\",\"sys\":\"biz\",\"route\":\"\\\/index\",\"type\":\"link\",\"hl_action\":\"\",\"qr_type_id\":\"0\",\"icon_position\":\"\",\"icon_class\":\"\",\"rename_flag\":0,\"sort\":1018000,\"deploy\":0,\"link\":\"\\\/\\\/biz.cliim.net\\\/index\"}],\"deploy\":0}}",
+            "user_config_json": "{\"logo\":{\"path\":\"http:\\\/\\\/static.clewm.net\\\/cli\\\/images\\\/user_plugin_logo_new.png\",\"link\":\"http:\\\/\\\/user.cli.im\\\/center\",\"text\":\"\\u6982\\u51b5\"},\"top_nav\":{\"left\":{\"domain_title\":\"\\u540e\\u53f0\\u7ba1\\u7406\\u7cfb\\u7edf\",\"second_title\":\"\",\"edition_id\":\"15\",\"is_test\":\"0\",\"is_test_remaind_days\":720,\"edition_name\":\"\\u65d7\\u8230\\u7248\",\"is_pro_duetime\":\"1795536000\"},\"right\":[{\"text\":\"\\u8349\\u6599\\u9996\\u9875\",\"link\":\"http:\\\/\\\/cli.im\",\"icon\":\"\",\"type\":\"link\"}]},\"contact\":[{\"text\":\"\\u8349\\u6599\\u4e13\\u5c5e\\u5ba2\\u670d\",\"link\":\"tencent:\\\/\\\/message\\\/?Menu=yes&amp;uin=938077901&amp;Service=58&amp;SigT=A7F6FEA02730C98828AB9BF289FA5C12072911C22C98D3E1673A17036567228615FCD8D03D37B542CE69297458611A0B0B630C32F6B1FE8AF9B2ECA3BB9A60B1C5D1EC01456A28A1A9F0DDD3C5F28E6B110FE3C61B28FE07C44546B1722E9F7C43A8C2CB0FF7F5403973171F57B37558D93DD03457C428FA&amp;SigU=30E5D5233A443AB260B4789F659A712D65C7786EE2310A18FAC45287AA46E87D81DB384E6C88E08E09D767C04C4F9012A66C734B953EA7BFC99C70381321DCF3CDC28B294936AA0B\",\"type\":\"button_qq\",\"helpline\":\"400-002-0232\"},{\"text\":\"\\u54a8\\u8be2\\u70ed\\u7ebf: 4000020232\",\"link\":\"\",\"type\":\"text\"},{\"text\":\"\\u6536\\u8d39\\u4ea7\\u54c1\\u54a8\\u8be2\\u90ae\\u7bb1: zixun@nears.cn\",\"link\":\"mailto:zixun@nears.cn\",\"type\":\"link\"},{\"text\":\"\\u6295\\u8bc9\\u5efa\\u8bae\\u90ae\\u7bb1\\uff1atousu@nears.cn\",\"link\":\"mailto:tousu@nears.cn\",\"type\":\"link\"}]}"
+        },
+        "org_info": {
+            "org_id": 94911424,
+            "memo": "",
+            "org_name": "111关闭顶部首页入口 11111关闭顶部首页入口11关闭顶部首页入口11关闭顶部首页入口11关闭顶部首页入口11关闭顶部首页入",
+            "org_code": "oQL9HR",
+            "logo_path": "",
+            "is_auth": 1,
+            "private_xcx_status": 0,
+            "edition_limit": {
+                "idcode": 20,
+                "batch_qrcode_num": 5000,
+                "batch_qrcode_excel": 5000,
+                "record_watermark": 1,
+                "project_count": -1,
+                "login_custom_set": 1
+            },
+            "route_type_map": [
+                {
+                    "value": 1,
+                    "text": "普通路由"
+                },
+                {
+                    "value": 3,
+                    "text": "中性路由",
+                    "is_selected": 1
+                },
+                {
+                    "value": 2,
+                    "text": "h5路由"
+                }
+            ],
+            "socket_id": "bcmp3qfslcf1aebrnrma5dmo17",
+            "login_custom_page": "",
+            "user_id": "831891",
+            "record_newversion": false,
+            "created_record_tpl": true,
+            "probation_info": [],
+            "created_master_qrcode": true,
+            "created_batchstatic_master_qrcode": true,
+            "created_state": true,
+            "created_task": false,
+            "register_time": 1716258356,
+            "is_new_account_uncompleted_company": 1,
+            "user_set": {
+                "show_collect": 1,
+                "show_manage": 1,
+                "show_font_size": 2,
+                "show_share": 1,
+                "show_homepage": 1,
+                "show_bottom_homepage": 1,
+                "show_powered_by": 0,
+                "share_style": 1,
+                "bottom_homepage_meta": {
+                    "remark": "",
+                    "jump_type": 0,
+                    "jump_link": "",
+                    "logo": "https:\/\/ncstatic.clewm.net\/rsrc\/2024\/1028\/13\/97157065ee34a94e90f49a47da1b213c.png",
+                    "title": "主页 12121",
+                    "is_initialized": 1
+                }
+            },
+            "select_project_id": 85,
+            "select_project": {
+                "id": 85,
+                "org_id": 94911424,
+                "name": "初始分区",
+                "note": "",
+                "project_color": "",
+                "project_status": 0,
+                "project_type": 1,
+                "create_time": 1716256286,
+                "update_time": 1716256286,
+                "project_num": "F1"
+            },
+            "has_record_tpl": true,
+            "record_tpl_count": 10,
+            "has_state": true,
+            "state_count": 14,
+            "certificate": {
+                "audio_playback": {
+                    "核销成功": "https:\/\/ncstatic.clewm.net\/1375743\/record\/verify_success_2.mp3",
+                    "核销失败": "https:\/\/ncstatic.clewm.net\/1375743\/record\/verify_fial_2.mp3",
+                    "重复核销": "https:\/\/ncstatic.clewm.net\/1375743\/record\/repeat_verify_2.mp3",
+                    "无效二维码": "https:\/\/ncstatic.clewm.net\/1375743\/record\/invalid_code_2.mp3",
+                    "核销工具已失效": "https:\/\/ncstatic.clewm.net\/1375743\/record\/auth_code_invalid.mp3"
+                }
+            }
+        },
+        "probation_info": {
+            "is_test": 0,
+            "due_day": 0,
+            "start_time": 0,
+            "end_time": 0,
+            "demo_show_guide": "0",
+            "user_id": "831891"
+        },
+        "industry_id": "23",
+        "lab_list": {
+            "1": {
+                "id": 1,
+                "fun_name": "记录功能",
+                "fun_tag": "",
+                "fun_desc": "新版活码支持记录功能了，比老版记录码增加了目录管理、记录导出、权限设置等功能。",
+                "fun_img": "http:\/\/ncstatic.clewm.net\/img\/lab_record_v1.png",
+                "sort": 0,
+                "console_show": 0,
+                "add_time": 0,
+                "is_initialized": false,
+                "is_joined": false
+            },
+            "2": {
+                "id": 2,
+                "fun_name": "生码功能",
+                "fun_tag": "qr_create_quick",
+                "fun_desc": "首页静态码快速生码",
+                "fun_img": "",
+                "sort": 4,
+                "console_show": 0,
+                "add_time": 0,
+                "is_initialized": false,
+                "is_joined": false
+            },
+            "3": {
+                "id": 3,
+                "fun_name": "最近更新 新样式",
+                "fun_tag": "new_release_qr",
+                "fun_desc": "页面更简洁，直观查看扫描量与记录信息",
+                "fun_img": "http:\/\/blogcdnimg.clewm.net\/2019\/10\/lablist@2x.png",
+                "sort": 0,
+                "console_show": 0,
+                "add_time": 0,
+                "is_initialized": false,
+                "is_joined": false
+            },
+            "4": {
+                "id": 4,
+                "fun_name": "目录管理功能",
+                "fun_tag": "cata_summary",
+                "fun_desc": "目录汇总码",
+                "fun_img": "",
+                "sort": 0,
+                "console_show": 0,
+                "add_time": 0,
+                "is_initialized": false,
+                "is_joined": true
+            },
+            "5": {
+                "id": 5,
+                "fun_name": "二维码模板",
+                "fun_tag": "qr_template",
+                "fun_desc": "我的模板",
+                "fun_img": "",
+                "sort": 0,
+                "console_show": 0,
+                "add_time": 0,
+                "is_initialized": false,
+                "is_joined": false
+            },
+            "6": {
+                "id": 6,
+                "fun_name": "API",
+                "fun_tag": "record_webhook",
+                "fun_desc": "数据推送API",
+                "fun_img": "",
+                "sort": 0,
+                "console_show": 0,
+                "add_time": 0,
+                "is_initialized": false,
+                "is_joined": false
+            },
+            "7": {
+                "id": 7,
+                "fun_name": "记录可信存证",
+                "fun_tag": "record_notary",
+                "fun_desc": "记录可信存证",
+                "fun_img": "",
+                "sort": 0,
+                "console_show": 0,
+                "add_time": 0,
+                "is_initialized": false,
+                "is_joined": false
+            },
+            "8": {
+                "id": 8,
+                "fun_name": "旧版活码菜单显示",
+                "fun_tag": "old_qr_menu",
+                "fun_desc": "旧版活码菜单显示",
+                "fun_img": "",
+                "sort": 1,
+                "console_show": 1,
+                "add_time": 0,
+                "is_initialized": true,
+                "is_joined": false
+            },
+            "9": {
+                "id": 9,
+                "fun_name": "小程序参数码",
+                "fun_tag": "mina",
+                "fun_desc": "小程序参数码",
+                "fun_img": "",
+                "sort": 0,
+                "console_show": 0,
+                "add_time": 0,
+                "is_initialized": false,
+                "is_joined": false
+            },
+            "10": {
+                "id": 10,
+                "fun_name": "名片活码",
+                "fun_tag": "idcode",
+                "fun_desc": "名片活码菜单显示",
+                "fun_img": "",
+                "sort": 2,
+                "console_show": 1,
+                "add_time": 0,
+                "is_initialized": true,
+                "is_joined": true
+            },
+            "11": {
+                "id": 11,
+                "fun_name": "批量模板",
+                "fun_tag": "spread",
+                "fun_desc": "在线表格批量管理功能",
+                "fun_img": "",
+                "sort": 0,
+                "console_show": 0,
+                "add_time": 0,
+                "is_initialized": false,
+                "is_joined": true
+            },
+            "12": {
+                "id": 12,
+                "fun_name": "空模块",
+                "fun_tag": "kong_module",
+                "fun_desc": "空模块功能",
+                "fun_img": "",
+                "sort": 3,
+                "console_show": 1,
+                "add_time": 0,
+                "is_initialized": true,
+                "is_joined": true
+            },
+            "13": {
+                "id": 13,
+                "fun_name": "记录闭环",
+                "fun_tag": "record_review",
+                "fun_desc": "记录新增备注和处理状态",
+                "fun_img": "",
+                "sort": 5,
+                "console_show": 0,
+                "add_time": 0,
+                "is_initialized": false,
+                "is_joined": false
+            },
+            "14": {
+                "id": 14,
+                "fun_name": "企业卡片",
+                "fun_tag": "org_card",
+                "fun_desc": "企业卡片（勿删）",
+                "fun_img": "",
+                "sort": 0,
+                "console_show": 0,
+                "add_time": 0,
+                "is_initialized": false,
+                "is_joined": false
+            },
+            "15": {
+                "id": 15,
+                "fun_name": "简单记录功能",
+                "fun_tag": "record_active",
+                "fun_desc": "不需要关联表单就能在码上添加文字或图片",
+                "fun_img": "",
+                "sort": 6,
+                "console_show": 0,
+                "add_time": 0,
+                "is_initialized": false,
+                "is_joined": false
+            },
+            "16": {
+                "id": 16,
+                "fun_name": "AI样式功能",
+                "fun_tag": "ai_qrcode",
+                "fun_desc": "AI样式功能",
+                "fun_img": " ",
+                "sort": 7,
+                "console_show": 1,
+                "add_time": 0,
+                "is_initialized": true,
+                "is_joined": true
+            },
+            "17": {
+                "id": 17,
+                "fun_name": "草料极速小程序",
+                "fun_tag": "turbo_wxa",
+                "fun_desc": "扫码用草料极速小程序打开",
+                "fun_img": " ",
+                "sort": 10,
+                "console_show": 1,
+                "add_time": 0,
+                "is_initialized": false,
+                "is_joined": false
+            }
+        },
+        "record_info": {
+            "record_category_code_limit_count": 501,
+            "record_export_limit_days": 180,
+            "record_export_limit_date": "2024年06月07日",
+            "record_export_date_limit_tip": "当前版本限导出 近180天（2024年06月07日之后）数据"
+        }
+    },
+    "url": "",
+    "wait": 3
+}
