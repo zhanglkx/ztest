@@ -18,13 +18,25 @@
         }
 
         /* 为了演示不同高度，给一些元素添加不同的内容高度 */
+        .flex-item:nth-child(1) {
+            padding-bottom: 50px;
+            height: 90px;
+        }
         .flex-item:nth-child(2) {
             padding-bottom: 50px;
             height: 100px;
         }
+        .flex-item:nth-child(3) {
+            padding-bottom: 50px;
+            height: 170px;
+        }
         .flex-item:nth-child(5) {
             padding-bottom: 30px;
             height: 200px;
+        }
+        .flex-item:nth-child(4) {
+            padding-bottom: 30px;
+            height: 180px;
         }
     </style>
 </head>
@@ -39,26 +51,26 @@
     </div>
 
     <script>
-        function adjustHeight() {
-            const container = document.querySelector('.flex-container');
-            const items = container.querySelectorAll('.flex-item');
-            const itemsPerRow = 3; // 每行3个元素
+        // function adjustHeight() {
+        //     const container = document.querySelector('.flex-container');
+        //     const items = container.querySelectorAll('.flex-item');
+        //     const itemsPerRow = 3; // 每行3个元素
 
-            // 重置所有元素的高度
-            items.forEach(item => item.style.height = 'auto');
+        //     // 重置所有元素的高度
+        //     items.forEach(item => item.style.height = 'auto');
 
-            // 按行分组并调整高度
-            for(let i = 0; i < items.length; i += itemsPerRow) {
-                const rowItems = Array.from(items).slice(i, i + itemsPerRow);
-                const maxHeight = Math.max(...rowItems.map(item => item.offsetHeight));
-                rowItems.forEach(item => item.style.height = maxHeight + 'px');
-            }
-        }
+        //     // 按行分组并调整高度
+        //     for(let i = 0; i < items.length; i += itemsPerRow) {
+        //         const rowItems = Array.from(items).slice(i, i + itemsPerRow);
+        //         const maxHeight = Math.max(...rowItems.map(item => item.offsetHeight));
+        //         rowItems.forEach(item => item.style.height = maxHeight + 'px');
+        //     }
+        // }
 
-        // 页面加载完成后执行
-        window.addEventListener('load', adjustHeight);
-        // 窗口大小改变时重新计算
-        window.addEventListener('resize', adjustHeight);
+        // // 页面加载完成后执行
+        // window.addEventListener('load', adjustHeight);
+        // // 窗口大小改变时重新计算
+        // window.addEventListener('resize', adjustHeight);
     </script>
 </body>
 </html>
