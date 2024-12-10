@@ -19,8 +19,6 @@ function minCost(n: number, k: number, data: number[]): number {
     if (now_food < 0) {
       total += Math.min(...price);
       now_food += 1;
-    } else {
-      console.log("🚀日志=====", now_food);
     }
   }
   return total;
