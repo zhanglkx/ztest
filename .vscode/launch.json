@@ -1,7 +1,4 @@
 {
-    // Use IntelliSense to learn about possible attributes.
-    // Hover to view descriptions of existing attributes.
-    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
         {
@@ -11,10 +8,11 @@
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${workspaceFolder}/Typescript/decorator/fun.ts",
-            "outFiles": [
-                "${workspaceFolder}/**/*.js"
-            ]
+            "runtimeArgs": [
+                "-r",
+                "ts-node/register"
+            ],
+            "program": "${workspaceFolder}/JavaScript/asynchronization/掘金AI/02徒步旅行中的补给问题.ts"
         }
     ]
 }
