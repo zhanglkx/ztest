@@ -6,23 +6,36 @@
  * @param data 每天的价格
  * @returns 最终价格
  */
+// function minCost(n: number, k: number, data: number[]): number {
+//   let priceArr = [];
+//   let total = 0;
+//   for (let index = 0; index < data.length; index++) {
+//     const element = data[index];
+//     priceArr.push(element);
+//     if (priceArr.length > k) {
+//       priceArr.shift();
+//     }
+
+//     let price = Math.min(...priceArr);
+
+//     total += price;
+//   }
+//   return total;
+// }
+
+// 使用滑动窗口：
+// function minCost(n: number, k: number, data: number[]): number {
+//   return data.reduce((total, _, i) => total + Math.min(...data.slice(Math.max(0, i - k + 1), i + 1)), 0);
+// }
+
 function minCost(n: number, k: number, data: number[]): number {
-  let price: number[] = [];
-  let now_food: number = 0;
-  let total: number = 0;
-  for (const i of data) {
-    price.push(i);
-    if (price.length > k) {
-      price.shift();
-    }
-    now_food -= 1;
-    if (now_food < 0) {
-      total += Math.min(...price);
-      now_food += 1;
-    }
-  }
-  return total;
+  return data.reduce((total, curr, i) => {
+    const start = Math.max(0, i - k + 1);
+    const price = Math.min(...data.slice(start, i + 1));
+    return total + price;
+  }, 0);
 }
+
 // 示例调用
 let n1 = 5;
 let k1 = 2;
