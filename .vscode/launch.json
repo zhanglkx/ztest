@@ -12,7 +12,7 @@
                 "-r",
                 "ts-node/register"
             ],
-            "program": "${workspaceFolder}/JavaScript/asynchronization/掘金AI/02徒步旅行中的补给问题.ts"
+            "program": "${workspaceFolder}/JavaScript/asynchronization/掘金AI/4数组分组求偶数和.ts"
         }
     ]
 }
