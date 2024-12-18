@@ -109,26 +109,45 @@
       const inputs = document.querySelectorAll(".code-input");
       const verifyBtn = document.querySelector(".verify-btn");
       let countdown = 43;
+      let isPasting = false; // 添加粘贴状态标记
 
       // 输入框处理
       inputs.forEach((input, index) => {
+        // keydown 事件处理删除操作
+        input.addEventListener("keydown", (e) => {
+          if (isPasting) return; // 粘贴过程中不处理键盘事件
+
+          if (e.key === "Backspace") {
+            e.preventDefault();
+            if (input.value) {
+              input.value = "";
+            } else if (input.previousElementSibling) {
+              input.previousElementSibling.value = "";
+              input.previousElementSibling.focus();
+            }
+            checkInputs();
+          }
+        });
+
+        // keyup 事件处理数字输入
         input.addEventListener("keyup", (e) => {
+          if (isPasting) return; // 粘贴过程中不处理键盘事件
+
+          if (e.key === "Backspace") return;
+
           const currentInput = e.target;
           const nextInput = input.nextElementSibling;
-          const prevInput = input.previousElementSibling;
-
-          // 删除键处理
-          if (e.key === "Backspace") {
-            if (prevInput) {
-              prevInput.focus();
-            }
-            return;
-          }
 
           // 验证输入是否为数字
           if (isNaN(e.key)) {
             currentInput.value = "";
+            checkInputs();
             return;
+          }
+
+          // 确保只有一个字符
+          if (currentInput.value.length > 1) {
+            currentInput.value = currentInput.value.slice(-1);
           }
 
           // 自动跳转到下一个输入框
@@ -136,19 +155,66 @@
             nextInput.focus();
           }
 
-          // 检查是否所有输入框都已填写
           checkInputs();
         });
 
         // 处理粘贴事件
         input.addEventListener("paste", (e) => {
           e.preventDefault();
-          const pasteData = e.clipboardData.getData("text").split("");
+          isPasting = true; // 设置粘贴状态
+
+          const pasteData = e.clipboardData.getData("text").trim();
+          const numbers = pasteData.replace(/[^\d]/g, "").split("");
+          const validNumbers = numbers.slice(0, 6);
+
+          // 填充输入框
           inputs.forEach((input, i) => {
-            if (pasteData[i]) {
-              input.value = pasteData[i];
+            if (i < validNumbers.length) {
+              input.value = validNumbers[i];
+              input.classList.add("active");
+            } else if (validNumbers.length < inputs.length) {
+              inputs[validNumbers.length].focus();
             }
           });
+
+          // 使用 setTimeout 确保在所有事件处理完成后再重置状态
+          setTimeout(() => {
+            isPasting = false;
+            checkInputs();
+            // 如果填满了6位数字，移除所有焦点
+            if (validNumbers.length === 6) {
+              inputs.forEach((input) => input.blur());
+              verifyBtn.focus();
+            }
+          }, 100);
+        });
+
+        // 处理 focus 事件
+        input.addEventListener("focus", (e) => {
+          if (isPasting) return; // 粘贴过程中不处理焦点事件
+
+          // 检查是否所有输入框都已填满
+          const allFilled = [...inputs].every((input) => input.value !== "");
+          if (allFilled) return;
+
+          // 找到第一个空输入框
+          const firstEmptyInput = [...inputs].find((input) => !input.value);
+          if (firstEmptyInput && e.target !== firstEmptyInput) {
+            firstEmptyInput.focus();
+          }
+        });
+
+        // 处理输入事件
+        input.addEventListener("input", (e) => {
+          if (isPasting) return; // 粘贴过程中不处理输入事件
+
+          const value = e.target.value;
+
+          // 确保只能输入数字
+          if (value && !/^\d$/.test(value)) {
+            e.target.value = value.replace(/[^\d]/g, "").slice(0, 1);
+          }
+
           checkInputs();
         });
       });
@@ -156,7 +222,16 @@
       // 检查所有输入框是否已填写
       function checkInputs() {
         const values = [...inputs].map((input) => input.value);
-        verifyBtn.disabled = values.includes("");
+        const isFilled = values.every((value) => value !== "");
+        verifyBtn.disabled = !isFilled;
+
+        inputs.forEach((input) => {
+          if (input.value) {
+            input.classList.add("active");
+          } else {
+            input.classList.remove("active");
+          }
+        });
       }
 
       // 倒计时处理
@@ -169,9 +244,19 @@
         } else {
           countdownEl.textContent = "重新获取验证码";
           countdownEl.classList.add("resend");
+          countdownEl.style.cursor = "pointer";
+
+          countdownEl.addEventListener("click", () => {
+            countdown = 43;
+            countdownEl.classList.remove("resend");
+            countdownEl.style.cursor = "default";
+            updateCountdown();
+          });
         }
       }
 
+      // 初始化
+      checkInputs();
       updateCountdown();
     </script>
   </body>
