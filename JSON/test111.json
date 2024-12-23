@@ -8,28 +8,28 @@
       "data": {
         "qrcode_msg": {
           "qrcode_record": {
-            "id": 3968463,
-            "coding": "qoQh9kw",
+            "id": 4480239,
+            "coding": "qh7vSDh",
             "wx_url": "",
-            "web_url": "https://qr46.cn/oQL9HR/qoQh9kw",
+            "web_url": "https://qr46.cn/oQL9HR/qh7vSDh",
             "wxcode_url": "",
-            "qrcode_url": "https://ncstatic.clewm.net/qrcodeurl/2024/11/08/6f9600d3dff4a3349b7263edd0d6df67.png",
-            "list_name": "最后一个 111",
+            "qrcode_url": "https://ncstatic.clewm.net/qrcodeurl/2024/12/19/bf429608f760a1583bad0e7e0323f6af.png",
+            "list_name": "0.jpg",
             "qrcode_name": "",
             "scene_module_id": 0,
             "desc": "",
-            "category_id": 46278808,
-            "tpl_id": 88713,
+            "category_id": 46275792,
+            "tpl_id": 143774,
             "identity_id": 0,
             "org_id": 94911424,
-            "update_time": 1733289448,
-            "create_time": 1722921593,
+            "update_time": 1734572360,
+            "create_time": 1734572346,
             "status": 0,
             "preset_case": 0,
             "show_org_dest": 0,
             "can_scan_update": 0,
             "is_mobile_updated": 0,
-            "create_from": 127,
+            "create_from": 126,
             "tpl_qrcode_status": 0,
             "tpl_qrcode_updated": 0,
             "batch_id": 0,
@@ -37,307 +37,26 @@
             "excel_status": 0,
             "tpl_name": "",
             "batch_name": "",
-            "route_type": 3,
+            "route_type": 1,
             "record_summary_status": 1,
             "project_id": 85,
             "qrcode_sort": 0,
-            "share_qrcode_url": "https://ncstatic.clewm.net/qrcodeurl/2024/11/08/e5f4dd941411b6433e4f6f56f5fe87d4.png",
+            "share_qrcode_url": "https://ncstatic.clewm.net/qrcodeurl/2024/12/19/3656f7f946a4d00ad9cd65f7ae8e5b6d.png",
             "qrstyle_url": "",
             "top_style": [],
             "record_add_status": 0,
             "component_value_empty": 1
           },
-          "qrcode_compontent": [
+          "qrcode_compontent": [],
+          "qrcode_top_component": [
             {
-              "id": 3711300,
-              "qrcode_id": 3968463,
+              "id": 3919377,
+              "qrcode_id": 4480239,
               "component_code": "text",
               "identity_id": 0,
               "sort": 0,
               "status": 0,
-              "tpl_com_id": 535141,
-              "org_id": 94911424,
-              "batch_id": 0,
-              "real_group_id": 0,
-              "component_status": 0,
-              "template_component_id": 0,
-              "template_component_info": "",
-              "form_component_id": 0,
-              "form_component_title": "",
-              "attribute_list": [
-                {
-                  "content_html": {
-                    "id": 3251865,
-                    "value": "<p style=\"line-height: 1; text-align: justify;\"><span style=\"line-height:1.5;\">到凤凰就是的空房间卡萨帝你放假阿珂上半年的健康分班考试大部分杰卡斯大部分就看 sd 卡方便你们·1</span></p>",
-                    "status": 0,
-                    "attribute_id": 10,
-                    "group_id": 1,
-                    "real_group_id": 1,
-                    "tpl_com_id": 535141,
-                    "name": "文本 html 片段",
-                    "is_default_value": 0,
-                    "multiple_id": "252286",
-                    "attribute_multiple_id": 5
-                  }
-                }
-              ],
-              "group_count": 1,
-              "encryption": "85807b74c0227521fcc0f58ea33a88fe"
-            },
-            {
-              "id": 3711301,
-              "qrcode_id": 3968463,
-              "component_code": "contactus",
-              "identity_id": 0,
-              "sort": 1,
-              "status": 0,
-              "tpl_com_id": 535142,
-              "org_id": 94911424,
-              "batch_id": 0,
-              "real_group_id": 0,
-              "component_status": 2,
-              "template_component_id": 0,
-              "template_component_info": "",
-              "form_component_id": 0,
-              "form_component_title": "",
-              "attribute_list": [
-                {
-                  "contact_weixin": {
-                    "id": 39741,
-                    "value": "[{\"value\":\"1\",\"img_src\":\"\"}]",
-                    "status": 0,
-                    "attribute_id": 175,
-                    "group_id": 1,
-                    "real_group_id": 1,
-                    "tpl_com_id": 535142,
-                    "name": "微信",
-                    "is_default_value": 0,
-                    "multiple_id": "356",
-                    "attribute_multiple_id": 8
-                  },
-                  "contact_phone": {
-                    "id": 39722,
-                    "value": "1",
-                    "status": 0,
-                    "attribute_id": 21,
-                    "group_id": 1,
-                    "real_group_id": 1,
-                    "tpl_com_id": 535142,
-                    "name": "联系电话",
-                    "is_default_value": 0
-                  },
-                  "contact_mail": {
-                    "id": 39723,
-                    "value": "",
-                    "status": 0,
-                    "attribute_id": 22,
-                    "group_id": 1,
-                    "real_group_id": 1,
-                    "tpl_com_id": 535142,
-                    "name": "反馈邮箱",
-                    "is_default_value": 0
-                  },
-                  "work_time": {
-                    "id": 39724,
-                    "value": "1",
-                    "status": 0,
-                    "attribute_id": 23,
-                    "group_id": 1,
-                    "real_group_id": 1,
-                    "tpl_com_id": 535142,
-                    "name": "工作时间",
-                    "is_default_value": 0
-                  },
-                  "address": {
-                    "id": 39725,
-                    "value": "",
-                    "status": 0,
-                    "attribute_id": 24,
-                    "group_id": 1,
-                    "real_group_id": 1,
-                    "tpl_com_id": 535142,
-                    "name": "联系地址",
-                    "is_default_value": 0
-                  },
-                  "longitude": {
-                    "id": 39726,
-                    "value": "",
-                    "status": 0,
-                    "attribute_id": 25,
-                    "group_id": 1,
-                    "real_group_id": 1,
-                    "tpl_com_id": 535142,
-                    "name": "中心经度",
-                    "is_default_value": 0
-                  },
-                  "latitude": {
-                    "id": 39727,
-                    "value": "",
-                    "status": 0,
-                    "attribute_id": 26,
-                    "group_id": 1,
-                    "real_group_id": 1,
-                    "tpl_com_id": 535142,
-                    "name": "中心纬度",
-                    "is_default_value": 0
-                  },
-                  "selected_phone": {
-                    "id": 39728,
-                    "value": "",
-                    "status": 0,
-                    "attribute_id": 28,
-                    "group_id": 1,
-                    "real_group_id": 1,
-                    "tpl_com_id": 535142,
-                    "name": "联系电话选择框",
-                    "is_default_value": 0
-                  },
-                  "selected_mail": {
-                    "id": 39729,
-                    "value": "",
-                    "status": 0,
-                    "attribute_id": 29,
-                    "group_id": 1,
-                    "real_group_id": 1,
-                    "tpl_com_id": 535142,
-                    "name": "反馈邮箱选择框",
-                    "is_default_value": 0
-                  },
-                  "selected_wtime": {
-                    "id": 39730,
-                    "value": "",
-                    "status": 0,
-                    "attribute_id": 30,
-                    "group_id": 1,
-                    "real_group_id": 1,
-                    "tpl_com_id": 535142,
-                    "name": "工作时间选择框",
-                    "is_default_value": 0
-                  },
-                  "selected_addres": {
-                    "id": 39731,
-                    "value": "",
-                    "status": 0,
-                    "attribute_id": 31,
-                    "group_id": 1,
-                    "real_group_id": 1,
-                    "tpl_com_id": 535142,
-                    "name": "联系地址选择框",
-                    "is_default_value": 0
-                  },
-                  "title": {
-                    "id": 39732,
-                    "value": "1",
-                    "status": 0,
-                    "attribute_id": 113,
-                    "group_id": 1,
-                    "real_group_id": 1,
-                    "tpl_com_id": 535142,
-                    "name": "标题",
-                    "is_default_value": 0
-                  },
-                  "show_type": {
-                    "id": 39733,
-                    "value": "2",
-                    "status": 0,
-                    "attribute_id": 131,
-                    "group_id": 1,
-                    "real_group_id": 1,
-                    "tpl_com_id": 535142,
-                    "name": "展示方式",
-                    "is_default_value": 0
-                  },
-                  "locate_image": {
-                    "id": 39734,
-                    "value": "",
-                    "status": 0,
-                    "attribute_id": 132,
-                    "group_id": 1,
-                    "real_group_id": 1,
-                    "tpl_com_id": 535142,
-                    "name": "地图图片路径",
-                    "is_default_value": 0,
-                    "source_id": 0
-                  },
-                  "display_style": {
-                    "id": 39740,
-                    "value": "",
-                    "status": 0,
-                    "attribute_id": 187,
-                    "group_id": 1,
-                    "real_group_id": 1,
-                    "tpl_com_id": 535142,
-                    "name": "展示样式",
-                    "is_default_value": 0
-                  },
-                  "avatar": {
-                    "id": 39736,
-                    "value": "",
-                    "status": 0,
-                    "attribute_id": 177,
-                    "group_id": 1,
-                    "real_group_id": 1,
-                    "tpl_com_id": 535142,
-                    "name": "头像",
-                    "is_default_value": 0
-                  },
-                  "save_btn": {
-                    "id": 39737,
-                    "value": "0",
-                    "status": 0,
-                    "attribute_id": 178,
-                    "group_id": 1,
-                    "real_group_id": 1,
-                    "tpl_com_id": 535142,
-                    "name": "保存通讯录按钮",
-                    "is_default_value": 0
-                  },
-                  "jump_homepage": {
-                    "id": 39738,
-                    "value": "1",
-                    "status": 0,
-                    "attribute_id": 180,
-                    "group_id": 1,
-                    "real_group_id": 1,
-                    "tpl_com_id": 535142,
-                    "name": "跳转主页",
-                    "is_default_value": 0
-                  },
-                  "street_address": {
-                    "id": 39739,
-                    "value": "",
-                    "status": 0,
-                    "attribute_id": 182,
-                    "group_id": 1,
-                    "real_group_id": 1,
-                    "tpl_com_id": 535142,
-                    "name": "街道地址",
-                    "is_default_value": 0
-                  },
-                  "jump_link": {
-                    "value": "",
-                    "name": "跳转地址",
-                    "attribute_id": 192,
-                    "is_multiple": 0,
-                    "is_enum": 0,
-                    "group_id": 1,
-                    "real_group_id": 1
-                  }
-                }
-              ],
-              "group_count": 1,
-              "encryption": "f52b30a12a666036849133735c7cdac6"
-            }
-          ],
-          "qrcode_top_component": [
-            {
-              "id": 3711302,
-              "qrcode_id": 3968463,
-              "component_code": "text",
-              "identity_id": 0,
-              "sort": 2,
-              "status": 0,
-              "tpl_com_id": 535143,
+              "tpl_com_id": 744440,
               "org_id": 94911424,
               "batch_id": 0,
               "real_group_id": 0,
@@ -349,31 +68,748 @@
               "attribute_list": [
                 {
                   "content_html": {
-                    "id": 3251866,
-                    "value": "底部联系方式等悬浮",
+                    "id": 3336583,
+                    "value": "",
                     "status": 0,
                     "attribute_id": 10,
                     "group_id": 1,
                     "real_group_id": 1,
-                    "tpl_com_id": 535143,
+                    "tpl_com_id": 744440,
                     "name": "文本 html 片段",
                     "is_default_value": 0,
-                    "multiple_id": "252287",
+                    "multiple_id": "338033",
                     "attribute_multiple_id": 5
                   }
                 }
               ],
               "group_count": 1,
-              "encryption": "fb79dbc68e09615f55afc3003b9c9bab"
+              "encryption": "439f645610bee9f2d11e8eb06ac9c1f1"
             },
             {
-              "id": 3711303,
-              "qrcode_id": 3968463,
+              "id": 3919378,
+              "qrcode_id": 4480239,
+              "component_code": "image",
+              "identity_id": 0,
+              "sort": 1,
+              "status": 0,
+              "tpl_com_id": 744441,
+              "org_id": 94911424,
+              "batch_id": 0,
+              "real_group_id": 0,
+              "component_status": 1,
+              "template_component_id": 0,
+              "template_component_info": "",
+              "form_component_id": 0,
+              "form_component_title": "",
+              "attribute_list": [
+                {
+                  "image_url": {
+                    "id": 686688,
+                    "value": "https://ncstatic.clewm.net/rsrc/2024/1219/09/1047c4bcfbfd2aa91003c3a718208d29.jpg",
+                    "status": 0,
+                    "attribute_id": 3,
+                    "group_id": 1,
+                    "real_group_id": 1,
+                    "tpl_com_id": 744441,
+                    "name": "图片地址",
+                    "is_default_value": 0,
+                    "source_id": 8837246
+                  },
+                  "wxa_path": {
+                    "id": 686689,
+                    "value": "",
+                    "status": 0,
+                    "attribute_id": 12,
+                    "group_id": 1,
+                    "real_group_id": 1,
+                    "tpl_com_id": 744441,
+                    "name": "图片链接",
+                    "is_default_value": 0
+                  },
+                  "prew_type": {
+                    "id": 686690,
+                    "value": "3",
+                    "status": 0,
+                    "attribute_id": 67,
+                    "group_id": 1,
+                    "real_group_id": 1,
+                    "tpl_com_id": 744441,
+                    "name": "预览效果",
+                    "is_default_value": 0,
+                    "enum_encryption": "9a7746a536fa32d8cb78d0ae8994d6c1",
+                    "enum_msg": [
+                      {
+                        "id": 645212,
+                        "attribute_value_id": 686690,
+                        "enum_text": "轮播",
+                        "enum_value": 0,
+                        "sort": 0,
+                        "status": 0,
+                        "create_time": 0,
+                        "update_time": 0,
+                        "component_code": "image"
+                      },
+                      {
+                        "id": 645213,
+                        "attribute_value_id": 686690,
+                        "enum_text": "平铺",
+                        "enum_value": 1,
+                        "sort": 1,
+                        "status": 0,
+                        "create_time": 0,
+                        "update_time": 0,
+                        "component_code": "image"
+                      }
+                    ]
+                  },
+                  "image_size": {
+                    "id": 686691,
+                    "value": "720.91 KB",
+                    "status": 0,
+                    "attribute_id": 68,
+                    "group_id": 1,
+                    "real_group_id": 1,
+                    "tpl_com_id": 744441,
+                    "name": "图片大小",
+                    "is_default_value": 0
+                  },
+                  "image_width": {
+                    "id": 686692,
+                    "value": "3959",
+                    "status": 0,
+                    "attribute_id": 74,
+                    "group_id": 1,
+                    "real_group_id": 1,
+                    "tpl_com_id": 744441,
+                    "name": "图片宽度",
+                    "is_default_value": 0
+                  },
+                  "image_height": {
+                    "id": 686693,
+                    "value": "1942",
+                    "status": 0,
+                    "attribute_id": 75,
+                    "group_id": 1,
+                    "real_group_id": 1,
+                    "tpl_com_id": 744441,
+                    "name": "图片高度",
+                    "is_default_value": 0
+                  },
+                  "image_style": {
+                    "id": 686694,
+                    "value": "1",
+                    "status": 0,
+                    "attribute_id": 112,
+                    "group_id": 1,
+                    "real_group_id": 1,
+                    "tpl_com_id": 744441,
+                    "name": "图片样式",
+                    "is_default_value": 0,
+                    "enum_encryption": "d52ead9722f041cda7064919b47f1fdf",
+                    "enum_msg": [
+                      {
+                        "id": 645214,
+                        "attribute_value_id": 686694,
+                        "enum_text": "样式一",
+                        "enum_value": 1,
+                        "sort": 0,
+                        "status": 0,
+                        "create_time": 0,
+                        "update_time": 0,
+                        "component_code": "image"
+                      },
+                      {
+                        "id": 645215,
+                        "attribute_value_id": 686694,
+                        "enum_text": "样式三",
+                        "enum_value": 3,
+                        "sort": 1,
+                        "status": 0,
+                        "create_time": 0,
+                        "update_time": 0,
+                        "component_code": "image"
+                      },
+                      {
+                        "id": 645216,
+                        "attribute_value_id": 686694,
+                        "enum_text": "样式二",
+                        "enum_value": 2,
+                        "sort": 2,
+                        "status": 0,
+                        "create_time": 0,
+                        "update_time": 0,
+                        "component_code": "image"
+                      }
+                    ]
+                  },
+                  "auto_play_time": {
+                    "id": 686695,
+                    "value": "0",
+                    "status": 0,
+                    "attribute_id": 130,
+                    "group_id": 1,
+                    "real_group_id": 1,
+                    "tpl_com_id": 744441,
+                    "name": "轮播时间",
+                    "is_default_value": 0
+                  },
+                  "design_from_api": {
+                    "id": 686696,
+                    "value": "0",
+                    "status": 0,
+                    "attribute_id": 142,
+                    "group_id": 1,
+                    "real_group_id": 1,
+                    "tpl_com_id": 744441,
+                    "name": "第三方平台接口设计来源",
+                    "is_default_value": 0,
+                    "enum_encryption": "c3b89f13984cb80fce38f53dad4cf881",
+                    "enum_msg": [
+                      {
+                        "id": 645217,
+                        "attribute_value_id": 686696,
+                        "enum_text": "本地",
+                        "enum_value": 0,
+                        "sort": 0,
+                        "status": 0,
+                        "create_time": 0,
+                        "update_time": 0,
+                        "component_code": "image"
+                      },
+                      {
+                        "id": 645218,
+                        "attribute_value_id": 686696,
+                        "enum_text": "canva",
+                        "enum_value": 1,
+                        "sort": 1,
+                        "status": 0,
+                        "create_time": 0,
+                        "update_time": 0,
+                        "component_code": "image"
+                      },
+                      {
+                        "id": 645219,
+                        "attribute_value_id": 686696,
+                        "enum_text": "canva-素材库",
+                        "enum_value": 2,
+                        "sort": 2,
+                        "status": 0,
+                        "create_time": 0,
+                        "update_time": 0,
+                        "component_code": "image"
+                      }
+                    ]
+                  },
+                  "design_id": {
+                    "id": 686697,
+                    "value": "",
+                    "status": 0,
+                    "attribute_id": 143,
+                    "group_id": 1,
+                    "real_group_id": 1,
+                    "tpl_com_id": 744441,
+                    "name": "第三方平台接口素材id",
+                    "is_default_value": 0
+                  },
+                  "is_gradient": {
+                    "id": 686698,
+                    "value": "0",
+                    "status": 0,
+                    "attribute_id": 158,
+                    "group_id": 1,
+                    "real_group_id": 1,
+                    "tpl_com_id": 744441,
+                    "name": "颜色渐变",
+                    "is_default_value": 0
+                  },
+                  "auto_set_theme_color": {
+                    "id": 686699,
+                    "value": "0",
+                    "status": 0,
+                    "attribute_id": 161,
+                    "group_id": 1,
+                    "real_group_id": 1,
+                    "tpl_com_id": 744441,
+                    "name": "自动取第一张图片的配色作为背景色",
+                    "is_default_value": 0
+                  }
+                },
+                {
+                  "image_url": {
+                    "id": 686700,
+                    "value": "https://ncstatic.clewm.net/rsrc/2024/1219/09/9936c9fdbc4e3de2a033b40f0433049d.jpg",
+                    "status": 0,
+                    "attribute_id": 3,
+                    "group_id": 2,
+                    "real_group_id": 2,
+                    "tpl_com_id": 744441,
+                    "name": "图片地址",
+                    "is_default_value": 0,
+                    "source_id": 8837247
+                  },
+                  "wxa_path": {
+                    "id": 686701,
+                    "value": "",
+                    "status": 0,
+                    "attribute_id": 12,
+                    "group_id": 2,
+                    "real_group_id": 2,
+                    "tpl_com_id": 744441,
+                    "name": "图片链接",
+                    "is_default_value": 0
+                  },
+                  "prew_type": {
+                    "id": 686702,
+                    "value": "3",
+                    "status": 0,
+                    "attribute_id": 67,
+                    "group_id": 2,
+                    "real_group_id": 2,
+                    "tpl_com_id": 744441,
+                    "name": "预览效果",
+                    "is_default_value": 0,
+                    "enum_encryption": "4c52d4aa70959e54b45767ab35ae4316",
+                    "enum_msg": [
+                      {
+                        "id": 645220,
+                        "attribute_value_id": 686702,
+                        "enum_text": "轮播",
+                        "enum_value": 0,
+                        "sort": 0,
+                        "status": 0,
+                        "create_time": 0,
+                        "update_time": 0,
+                        "component_code": "image"
+                      },
+                      {
+                        "id": 645221,
+                        "attribute_value_id": 686702,
+                        "enum_text": "平铺",
+                        "enum_value": 1,
+                        "sort": 1,
+                        "status": 0,
+                        "create_time": 0,
+                        "update_time": 0,
+                        "component_code": "image"
+                      }
+                    ]
+                  },
+                  "image_size": {
+                    "id": 686703,
+                    "value": "67.6 KB",
+                    "status": 0,
+                    "attribute_id": 68,
+                    "group_id": 2,
+                    "real_group_id": 2,
+                    "tpl_com_id": 744441,
+                    "name": "图片大小",
+                    "is_default_value": 0
+                  },
+                  "image_width": {
+                    "id": 686704,
+                    "value": "744",
+                    "status": 0,
+                    "attribute_id": 74,
+                    "group_id": 2,
+                    "real_group_id": 2,
+                    "tpl_com_id": 744441,
+                    "name": "图片宽度",
+                    "is_default_value": 0
+                  },
+                  "image_height": {
+                    "id": 686705,
+                    "value": "412",
+                    "status": 0,
+                    "attribute_id": 75,
+                    "group_id": 2,
+                    "real_group_id": 2,
+                    "tpl_com_id": 744441,
+                    "name": "图片高度",
+                    "is_default_value": 0
+                  },
+                  "image_style": {
+                    "id": 686706,
+                    "value": "1",
+                    "status": 0,
+                    "attribute_id": 112,
+                    "group_id": 2,
+                    "real_group_id": 2,
+                    "tpl_com_id": 744441,
+                    "name": "图片样式",
+                    "is_default_value": 0,
+                    "enum_encryption": "aab976fa15b8d046509234f2de290d81",
+                    "enum_msg": [
+                      {
+                        "id": 645222,
+                        "attribute_value_id": 686706,
+                        "enum_text": "样式一",
+                        "enum_value": 1,
+                        "sort": 0,
+                        "status": 0,
+                        "create_time": 0,
+                        "update_time": 0,
+                        "component_code": "image"
+                      },
+                      {
+                        "id": 645223,
+                        "attribute_value_id": 686706,
+                        "enum_text": "样式三",
+                        "enum_value": 3,
+                        "sort": 1,
+                        "status": 0,
+                        "create_time": 0,
+                        "update_time": 0,
+                        "component_code": "image"
+                      },
+                      {
+                        "id": 645224,
+                        "attribute_value_id": 686706,
+                        "enum_text": "样式二",
+                        "enum_value": 2,
+                        "sort": 2,
+                        "status": 0,
+                        "create_time": 0,
+                        "update_time": 0,
+                        "component_code": "image"
+                      }
+                    ]
+                  },
+                  "auto_play_time": {
+                    "id": 686707,
+                    "value": "0",
+                    "status": 0,
+                    "attribute_id": 130,
+                    "group_id": 2,
+                    "real_group_id": 2,
+                    "tpl_com_id": 744441,
+                    "name": "轮播时间",
+                    "is_default_value": 0
+                  },
+                  "design_from_api": {
+                    "id": 686708,
+                    "value": "0",
+                    "status": 0,
+                    "attribute_id": 142,
+                    "group_id": 2,
+                    "real_group_id": 2,
+                    "tpl_com_id": 744441,
+                    "name": "第三方平台接口设计来源",
+                    "is_default_value": 0,
+                    "enum_encryption": "1737578263905f985cf036936df5fae9",
+                    "enum_msg": [
+                      {
+                        "id": 645225,
+                        "attribute_value_id": 686708,
+                        "enum_text": "本地",
+                        "enum_value": 0,
+                        "sort": 0,
+                        "status": 0,
+                        "create_time": 0,
+                        "update_time": 0,
+                        "component_code": "image"
+                      },
+                      {
+                        "id": 645226,
+                        "attribute_value_id": 686708,
+                        "enum_text": "canva",
+                        "enum_value": 1,
+                        "sort": 1,
+                        "status": 0,
+                        "create_time": 0,
+                        "update_time": 0,
+                        "component_code": "image"
+                      },
+                      {
+                        "id": 645227,
+                        "attribute_value_id": 686708,
+                        "enum_text": "canva-素材库",
+                        "enum_value": 2,
+                        "sort": 2,
+                        "status": 0,
+                        "create_time": 0,
+                        "update_time": 0,
+                        "component_code": "image"
+                      }
+                    ]
+                  },
+                  "design_id": {
+                    "id": 686709,
+                    "value": "",
+                    "status": 0,
+                    "attribute_id": 143,
+                    "group_id": 2,
+                    "real_group_id": 2,
+                    "tpl_com_id": 744441,
+                    "name": "第三方平台接口素材id",
+                    "is_default_value": 0
+                  },
+                  "is_gradient": {
+                    "id": 686710,
+                    "value": "0",
+                    "status": 0,
+                    "attribute_id": 158,
+                    "group_id": 2,
+                    "real_group_id": 2,
+                    "tpl_com_id": 744441,
+                    "name": "颜色渐变",
+                    "is_default_value": 0
+                  },
+                  "auto_set_theme_color": {
+                    "id": 686711,
+                    "value": "0",
+                    "status": 0,
+                    "attribute_id": 161,
+                    "group_id": 2,
+                    "real_group_id": 2,
+                    "tpl_com_id": 744441,
+                    "name": "自动取第一张图片的配色作为背景色",
+                    "is_default_value": 0
+                  }
+                },
+                {
+                  "image_url": {
+                    "id": 686712,
+                    "value": "https://ncstatic.clewm.net/rsrc/2024/1219/09/d344d90179787ea1fb16edd69f8cc119.jpg",
+                    "status": 0,
+                    "attribute_id": 3,
+                    "group_id": 3,
+                    "real_group_id": 3,
+                    "tpl_com_id": 744441,
+                    "name": "图片地址",
+                    "is_default_value": 0,
+                    "source_id": 8837248
+                  },
+                  "wxa_path": {
+                    "id": 686713,
+                    "value": "",
+                    "status": 0,
+                    "attribute_id": 12,
+                    "group_id": 3,
+                    "real_group_id": 3,
+                    "tpl_com_id": 744441,
+                    "name": "图片链接",
+                    "is_default_value": 0
+                  },
+                  "prew_type": {
+                    "id": 686714,
+                    "value": "3",
+                    "status": 0,
+                    "attribute_id": 67,
+                    "group_id": 3,
+                    "real_group_id": 3,
+                    "tpl_com_id": 744441,
+                    "name": "预览效果",
+                    "is_default_value": 0,
+                    "enum_encryption": "3167a889903fe92e1daecbb2821ab38c",
+                    "enum_msg": [
+                      {
+                        "id": 645228,
+                        "attribute_value_id": 686714,
+                        "enum_text": "轮播",
+                        "enum_value": 0,
+                        "sort": 0,
+                        "status": 0,
+                        "create_time": 0,
+                        "update_time": 0,
+                        "component_code": "image"
+                      },
+                      {
+                        "id": 645229,
+                        "attribute_value_id": 686714,
+                        "enum_text": "平铺",
+                        "enum_value": 1,
+                        "sort": 1,
+                        "status": 0,
+                        "create_time": 0,
+                        "update_time": 0,
+                        "component_code": "image"
+                      }
+                    ]
+                  },
+                  "image_size": {
+                    "id": 686715,
+                    "value": "503.43 KB",
+                    "status": 0,
+                    "attribute_id": 68,
+                    "group_id": 3,
+                    "real_group_id": 3,
+                    "tpl_com_id": 744441,
+                    "name": "图片大小",
+                    "is_default_value": 0
+                  },
+                  "image_width": {
+                    "id": 686716,
+                    "value": "2387",
+                    "status": 0,
+                    "attribute_id": 74,
+                    "group_id": 3,
+                    "real_group_id": 3,
+                    "tpl_com_id": 744441,
+                    "name": "图片宽度",
+                    "is_default_value": 0
+                  },
+                  "image_height": {
+                    "id": 686717,
+                    "value": "2387",
+                    "status": 0,
+                    "attribute_id": 75,
+                    "group_id": 3,
+                    "real_group_id": 3,
+                    "tpl_com_id": 744441,
+                    "name": "图片高度",
+                    "is_default_value": 0
+                  },
+                  "image_style": {
+                    "id": 686718,
+                    "value": "1",
+                    "status": 0,
+                    "attribute_id": 112,
+                    "group_id": 3,
+                    "real_group_id": 3,
+                    "tpl_com_id": 744441,
+                    "name": "图片样式",
+                    "is_default_value": 0,
+                    "enum_encryption": "2a6ce5f4d2dce4e9df6b9b3e15b00cf9",
+                    "enum_msg": [
+                      {
+                        "id": 645230,
+                        "attribute_value_id": 686718,
+                        "enum_text": "样式一",
+                        "enum_value": 1,
+                        "sort": 0,
+                        "status": 0,
+                        "create_time": 0,
+                        "update_time": 0,
+                        "component_code": "image"
+                      },
+                      {
+                        "id": 645231,
+                        "attribute_value_id": 686718,
+                        "enum_text": "样式三",
+                        "enum_value": 3,
+                        "sort": 1,
+                        "status": 0,
+                        "create_time": 0,
+                        "update_time": 0,
+                        "component_code": "image"
+                      },
+                      {
+                        "id": 645232,
+                        "attribute_value_id": 686718,
+                        "enum_text": "样式二",
+                        "enum_value": 2,
+                        "sort": 2,
+                        "status": 0,
+                        "create_time": 0,
+                        "update_time": 0,
+                        "component_code": "image"
+                      }
+                    ]
+                  },
+                  "auto_play_time": {
+                    "id": 686719,
+                    "value": "0",
+                    "status": 0,
+                    "attribute_id": 130,
+                    "group_id": 3,
+                    "real_group_id": 3,
+                    "tpl_com_id": 744441,
+                    "name": "轮播时间",
+                    "is_default_value": 0
+                  },
+                  "design_from_api": {
+                    "id": 686720,
+                    "value": "0",
+                    "status": 0,
+                    "attribute_id": 142,
+                    "group_id": 3,
+                    "real_group_id": 3,
+                    "tpl_com_id": 744441,
+                    "name": "第三方平台接口设计来源",
+                    "is_default_value": 0,
+                    "enum_encryption": "a622224601dbbf888c044a8ef04f4e49",
+                    "enum_msg": [
+                      {
+                        "id": 645233,
+                        "attribute_value_id": 686720,
+                        "enum_text": "本地",
+                        "enum_value": 0,
+                        "sort": 0,
+                        "status": 0,
+                        "create_time": 0,
+                        "update_time": 0,
+                        "component_code": "image"
+                      },
+                      {
+                        "id": 645234,
+                        "attribute_value_id": 686720,
+                        "enum_text": "canva",
+                        "enum_value": 1,
+                        "sort": 1,
+                        "status": 0,
+                        "create_time": 0,
+                        "update_time": 0,
+                        "component_code": "image"
+                      },
+                      {
+                        "id": 645235,
+                        "attribute_value_id": 686720,
+                        "enum_text": "canva-素材库",
+                        "enum_value": 2,
+                        "sort": 2,
+                        "status": 0,
+                        "create_time": 0,
+                        "update_time": 0,
+                        "component_code": "image"
+                      }
+                    ]
+                  },
+                  "design_id": {
+                    "id": 686721,
+                    "value": "",
+                    "status": 0,
+                    "attribute_id": 143,
+                    "group_id": 3,
+                    "real_group_id": 3,
+                    "tpl_com_id": 744441,
+                    "name": "第三方平台接口素材id",
+                    "is_default_value": 0
+                  },
+                  "is_gradient": {
+                    "id": 686722,
+                    "value": "0",
+                    "status": 0,
+                    "attribute_id": 158,
+                    "group_id": 3,
+                    "real_group_id": 3,
+                    "tpl_com_id": 744441,
+                    "name": "颜色渐变",
+                    "is_default_value": 0
+                  },
+                  "auto_set_theme_color": {
+                    "id": 686723,
+                    "value": "0",
+                    "status": 0,
+                    "attribute_id": 161,
+                    "group_id": 3,
+                    "real_group_id": 3,
+                    "tpl_com_id": 744441,
+                    "name": "自动取第一张图片的配色作为背景色",
+                    "is_default_value": 0
+                  }
+                }
+              ],
+              "group_count": 3,
+              "encryption": "3da2cbbdcfd89d2fb65673c66f9d069a"
+            },
+            {
+              "id": 3919380,
+              "qrcode_id": 4480239,
               "component_code": "recordlog",
               "identity_id": 0,
-              "sort": 3,
+              "sort": 2,
               "status": 2,
-              "tpl_com_id": 535144,
+              "tpl_com_id": 744443,
               "org_id": 94911424,
               "batch_id": 0,
               "real_group_id": 0,
@@ -424,7 +860,7 @@
           "status": 0,
           "is_auth": 1,
           "show_dest_qrcode": 0,
-          "logo_path": "https://ncstatic.clewm.net/rsrc/2024/1204/16/6c44341104489eb1b32b8bed66afc1e5.png",
+          "logo_path": "",
           "memo": "",
           "auth_type": 0,
           "auth_used": "",
@@ -437,19 +873,19 @@
           "auth_status": 1,
           "social_code": "",
           "target_record_id": 0,
-          "route_type": 3,
+          "route_type": 1,
           "private_xcx_status": 0,
           "custom_route_type": 1,
           "subscribe_wxacode": "",
-          "capacity_time": 1733454729,
-          "capacity_publickey": "ac733fee586880c92ffe6d58f8cfd553",
-          "build_module_weburl_time": 1733454729,
-          "build_module_weburl_publickey": "b8bc533592a849081ba3370e79905936",
+          "capacity_time": 1734572983,
+          "capacity_publickey": "162c1c68a710016e3f2e31727767ff61",
+          "build_module_weburl_time": 1734572983,
+          "build_module_weburl_publickey": "d916f6a175f6e506c224ec2f0e11e768",
           "for_external_name": "111关闭顶部首页入口 11111关闭顶部首页入口11关闭顶部首页入口11关闭顶部首页入口11关闭顶部首页入口11关闭顶部首页入",
           "org_manger_name": "image.png"
         },
         "qrcode_addition_msg": {
-          "qrcode_id": 3968463,
+          "qrcode_id": 4480239,
           "auth_set_subject": 1,
           "is_mobile_updated": 0,
           "log_msg_tag": "",
@@ -457,23 +893,23 @@
           "disabled_open_methods": 0,
           "cover_image": "",
           "remarks": "",
-          "is_disabled": 1,
+          "is_disabled": 0,
           "start_time": 0,
           "end_time": 0,
-          "valid_days_num": 0,
+          "valid_days_num": -2,
           "expand_btn": "",
-          "cvid": 100991433,
-          "show_collect": 1,
-          "show_share": 0,
+          "cvid": 100992733,
+          "show_collect": 3,
+          "show_share": 2,
           "show_record_editlog": 0,
           "recordview_position": 4,
           "record_summary_title": "",
           "show_homepage": 2,
-          "show_bottom_homepage": 2,
-          "bottom_homepage_meta": "",
+          "show_bottom_homepage": 0,
+          "bottom_homepage_meta": "{\"remark\":\"\",\"jump_type\":0,\"jump_link\":\"\",\"logo\":\"https:\\/\\/ncstatic.clewm.net\\/rsrc\\/2024\\/1028\\/13\\/97157065ee34a94e90f49a47da1b213c.png\",\"title\":\"主页 12121\"}",
           "open_codereview": 0,
           "default_qrlabel_show_type": 0,
-          "share_style": 0,
+          "share_style": 1,
           "open_readregister": 0,
           "open_direct_preview": 0,
           "soncode_edit_position": 0,
@@ -481,49 +917,22 @@
           "state_show_mode": 4,
           "record_summary_status": 1,
           "subscribe_status": 0,
-          "show_manage": 1,
-          "show_font_size": 0,
+          "show_manage": 2,
+          "show_font_size": 2,
           "show_footer": 3,
           "show_tabbar": 0,
           "has_subscribed": 0,
           "can_subscribe": 0
         },
         "subscribe_auth_info": {
-          "auth_list": [
-            {
-              "data_id": 3968463,
-              "org_id": 94911424,
-              "data_type": 13,
-              "auth_type": 1,
-              "privi_type": "edit",
-              "group_list": [
-                {
-                  "id": 87315,
-                  "org_id": 94911424,
-                  "group_name": "所有成员",
-                  "group_type": 4,
-                  "status": 0,
-                  "is_default": 1,
-                  "add_time": 1716258364,
-                  "category_id": 0,
-                  "target_id": 0,
-                  "web_url": "",
-                  "coding": "",
-                  "group_memo": "",
-                  "qrcode_id": 0,
-                  "need_send_tip": 1,
-                  "tpl_id": 0
-                }
-              ]
-            }
-          ],
-          "data_authtype": 1,
+          "auth_list": [{ "data_id": 4480239, "org_id": 94911424, "data_type": 13, "auth_type": 4, "privi_type": "edit", "group_list": [] }],
+          "data_authtype": 4,
           "need_join_member": 1,
           "need_user_auth": 0,
           "power_status": 16
         },
-        "preview_token": { "time": 1733454729, "signature": "c25d92e8f06913882d5a699ce95b5634" },
-        "project_valid": { "project_id": 85, "project_time": 1733454729, "project_publickey": "a7663b6ffe48f73274cff75488554864" }
+        "preview_token": { "time": 1734572983, "signature": "11cab213b82663937deafc4b47df4076" },
+        "project_valid": { "project_id": 85, "project_time": 1734572983, "project_publickey": "598f4ef44bbfdbd55b73ab1cd58f6da2" }
       },
       "url": "",
       "wait": 3
@@ -571,12 +980,12 @@
       "msg": { "text": "操作成功", "code": 0 },
       "data": {
         "org_msg": {
-          "edition_id": 15,
-          "from_edition_id": 15,
+          "edition_id": 1,
+          "from_edition_id": 1,
           "is_paid_user": 1,
           "media_flow_limited": 1,
-          "media_flow_total": "18432000.00000000",
-          "media_flow_used": "0.00000000",
+          "media_flow_total": null,
+          "media_flow_used": null,
           "org_dest_qrcode_route": "",
           "homepage_qrcode_url": "https://h.qr61.cn/oQL9HR/qbKKHtM"
         },
@@ -589,11 +998,11 @@
           "show_collect": 1,
           "show_manage": 1,
           "show_font_size": 2,
-          "show_share": 0,
+          "show_share": 1,
           "show_homepage": 1,
-          "show_bottom_homepage": 1,
-          "show_powered_by": 0,
-          "share_style": 0,
+          "show_bottom_homepage": 0,
+          "show_powered_by": 1,
+          "share_style": 1,
           "bottom_homepage_meta": {
             "remark": "",
             "jump_type": 0,
@@ -604,7 +1013,7 @@
           "log_status": 0,
           "powered_by_style_version": "",
           "powered_by_style_versions": { "powerby_style_20240717": "" },
-          "show_complain": 0,
+          "show_complain": 1,
           "soncode_edit_position": 0,
           "state_show_mode": 4,
           "record_summary_status": 1,
@@ -621,9 +1030,138 @@
           "state_show_mode": 4,
           "record_summary_status": 1
         },
-        "low_quality": 0,
+        "low_quality": 1,
         "encoded_user_id": "oQL9HR",
-        "qrcode_setting_msg": { "review_set": [], "bgimage_set": [], "common_set": [], "bottom_warn": { "type": 0 } }
+        "qrcode_setting_msg": {
+          "review_set": {
+            "config_record": {
+              "id": 1206,
+              "org_id": 94911424,
+              "code_id": 4480239,
+              "status": 1,
+              "subscribe_status": 0,
+              "review_title": "协作动态",
+              "review_desc": "请输入内容",
+              "review_button_txt": "",
+              "watermark_value": 0,
+              "watermark_extra_msg": [],
+              "mobile_button_option": {
+                "upload_photos": 1,
+                "take_photos": 1,
+                "input_signature": 1,
+                "input_txt": 1,
+                "input_voice": 1,
+                "remind_others": 1
+              },
+              "create_time": 1734572347,
+              "update_time": 1734572360
+            },
+            "auth_data": {
+              "auth_set_info": [
+                {
+                  "id": 1908407,
+                  "data_id": 4480239,
+                  "data_type": 15,
+                  "privi_type": "edit",
+                  "auth_type": 13,
+                  "code_id": 4480239,
+                  "org_id": 94911424,
+                  "limit_id": 0,
+                  "update_time": 1734572347,
+                  "hide_nopower": 0,
+                  "has_detail": false,
+                  "encryption": "ab9932ee859d61b060e9d74bf8f39b18"
+                },
+                {
+                  "id": 1908406,
+                  "data_id": 4480239,
+                  "data_type": 15,
+                  "privi_type": "visible",
+                  "auth_type": 4,
+                  "code_id": 4480239,
+                  "org_id": 94911424,
+                  "limit_id": 0,
+                  "update_time": 1734572347,
+                  "hide_nopower": 0,
+                  "has_detail": false,
+                  "encryption": "3bb009ac7a39274e5bad45363e0e52d2"
+                }
+              ],
+              "encryption": "2ab1583267a177d85476c66366e33537"
+            },
+            "user_edit_auth": {
+              "open_auth": 1,
+              "user_info": {
+                "user_id": "831891",
+                "member_id": 271049,
+                "member_name": "image.png",
+                "member_department": 0,
+                "member_mobile": "18336175747"
+              },
+              "has_power_comps": [1908407],
+              "edit_need_audit": 0,
+              "open_password_info": [],
+              "open_location_info": [],
+              "open_time_info": [],
+              "data_authtype": 13,
+              "auth_list": [
+                {
+                  "id": 1908407,
+                  "data_id": 4480239,
+                  "data_type": 15,
+                  "privi_type": "edit",
+                  "auth_type": 13,
+                  "code_id": 4480239,
+                  "org_id": 94911424,
+                  "limit_id": 0,
+                  "update_time": 1734572347,
+                  "hide_nopower": 0,
+                  "has_detail": false,
+                  "group_list": [
+                    {
+                      "id": 87315,
+                      "org_id": 94911424,
+                      "group_name": "所有成员",
+                      "group_type": 4,
+                      "status": 0,
+                      "is_default": 1,
+                      "add_time": 1716258364,
+                      "category_id": 0,
+                      "target_id": 0,
+                      "web_url": "",
+                      "coding": "",
+                      "group_memo": "",
+                      "qrcode_id": 0,
+                      "need_send_tip": 1,
+                      "tpl_id": 0,
+                      "join_auth_type": 4,
+                      "allow_join": 1
+                    }
+                  ],
+                  "allow_join": 1
+                }
+              ],
+              "first_edituser_ass_id": [],
+              "power_status": 15,
+              "need_user_auth": 0,
+              "auth_limit": [],
+              "need_join_member": 0,
+              "need_join_auth_member": 0
+            },
+            "can_subscribe": 0,
+            "subscribe_auth_info": {
+              "auth_list": [{ "data_id": 4480239, "org_id": 94911424, "data_type": 13, "auth_type": 4, "privi_type": "edit", "group_list": [] }],
+              "data_authtype": 4,
+              "need_join_member": 1,
+              "need_user_auth": 0,
+              "power_status": 16
+            },
+            "has_subscribed": 0
+          },
+          "bgimage_set": [],
+          "common_set": [],
+          "bottom_warn": { "type": 0 }
+        }
       },
       "url": "",
       "wait": 3
