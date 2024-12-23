@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>验证码输入</title>
+    <!-- 添加 jQuery 引用 -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- CSS 部分保持不变 -->
+    <style>
+      .container {
+        width: 100%;
+        max-width: 400px;
+        margin: 0 auto;
+        padding: 20px;
+        text-align: center;
+      }
+
+      .title {
+        color: #00a870;
+        margin-bottom: 40px;
+      }
+
+      .subtitle {
+        font-size: 18px;
+        margin-bottom: 10px;
+      }
+
+      .desc {
+        color: #666;
+        font-size: 14px;
+        margin-bottom: 20px;
+      }
+
+      .code-container {
+        display: flex;
+        justify-content: center;
+        gap: 8px;
+        margin-bottom: 10px;
+      }
+
+      .code-input {
+        width: 40px;
+        height: 40px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        text-align: center;
+        font-size: 18px;
+        outline: none;
+        /* 添加光标颜色 */
+        caret-color: #00a870;
+        caret-width: 2px;
+      }
+
+      .code-input:focus {
+        border-color: #00a870;
+      }
+
+      .code-input.active {
+        border-color: #00a870;
+        box-shadow: 0 0 0 2px rgba(0, 168, 112, 0.2);
+      }
+
+      .hint {
+        display: flex;
+        justify-content: space-between;
+        color: #999;
+        font-size: 12px;
+      }
+
+      .resend {
+        color: #1890ff;
+        cursor: pointer;
+      }
+
+      .verify-btn {
+        background: #00a870;
+        color: white;
+        border: none;
+        padding: 10px 40px;
+        border-radius: 4px;
+        margin-top: 20px;
+        cursor: pointer;
+      }
+
+      .verify-btn:disabled {
+        background: #ccc;
+        cursor: not-allowed;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="title">登录草料账号</h1>
+      <h2 class="subtitle">手机号安全验证</h2>
+      <p class="desc">为保证账号安全，请输入发送至 148****9283 的6位验证码</p>
+
+      <div class="code-container">
+        <input type="text" maxlength="1" class="code-input" autocomplete="off" />
+        <input type="text" maxlenegth="1" class="code-input" autocomplete="off" />
+        <input type="text" maxlength="1" class="code-input" autocomplete="off" />
+        <input type="text" maxlength="1" class="code-input" autocomplete="off" />
+        <input type="text" maxlength="1" class="code-input" autocomplete="off" />
+        <input type="text" maxlength="1" class="code-input" autocomplete="off" />
+      </div>
+
+      <div class="hint">
+        <span>43秒后可重新获取验证码</span>
+        <span class="resend">收不到验证码？</span>
+      </div>
+
+      <button onclick="handleOk()" class="verify-btn" disabled>验证</button>
+    </div>
+    <!-- HTML 结构保持不变 -->
+    <script>
+      $(document).ready(function () {
+        var $inputs = $(".code-input");
+        var $verifyBtn = $(".verify-btn");
+        var countdown = 43;
+        var isPasting = false;
+
+        // 输入框处理
+        $inputs.each(function (index) {
+          var $input = $(this);
+
+          // keydown 事件处理删除操作
+          $input.on("keydown", function (e) {
+            if (isPasting) return;
+
+            if (e.key === "Backspace") {
+              e.preventDefault();
+              if ($input.val()) {
+                $input.val("");
+              } else if ($input.prev().length) {
+                $input.prev().val("").focus();
+              }
+              checkInputs();
+            }
+          });
+
+          // keyup 事件处理数字输入
+          $input.on("keyup", function (e) {
+            if (isPasting) return;
+
+            if (e.key === "Backspace") return;
+
+            var $currentInput = $(e.target);
+            var $nextInput = $input.next();
+
+            // 验证输入是否为数字
+            if (isNaN(e.key)) {
+              $currentInput.val("");
+              checkInputs();
+              return;
+            }
+
+            // 确保只有一个字符
+            if ($currentInput.val().length > 1) {
+              $currentInput.val($currentInput.val().slice(-1));
+            }
+
+            // 自动跳转到下一个输入框
+            if ($nextInput.length && $currentInput.val()) {
+              $nextInput.focus();
+            }
+
+            checkInputs();
+          });
+
+          // 处理粘贴事件
+          $input.on("paste", function (e) {
+            e.preventDefault();
+            isPasting = true;
+
+            var pasteData = e.originalEvent.clipboardData.getData("text").trim();
+            var numbers = pasteData.replace(/[^\d]/g, "").split("");
+            var validNumbers = numbers.slice(0, 6);
+
+            // 填充输入框
+            $inputs.each(function (i) {
+              if (i < validNumbers.length) {
+                $(this).val(validNumbers[i]).addClass("active");
+              }
+            });
+
+            if (validNumbers.length < $inputs.length) {
+              $inputs.eq(validNumbers.length).focus();
+            }
+
+            setTimeout(function () {
+              isPasting = false;
+              checkInputs();
+              if (validNumbers.length === 6) {
+                $inputs.blur();
+                $verifyBtn.focus();
+              }
+            }, 100);
+          });
+
+          // 处理 focus 事件
+          $input.on("focus", function (e) {
+            if (isPasting) return;
+
+            var allFilled = true;
+            $inputs.each(function () {
+              if (!$(this).val()) {
+                allFilled = false;
+                return false;
+              }
+            });
+            if (allFilled) return;
+
+            var $firstEmpty = $inputs
+              .filter(function () {
+                return !$(this).val();
+              })
+              .first();
+
+            if ($firstEmpty.length && e.target !== $firstEmpty[0]) {
+              $firstEmpty.focus();
+            }
+          });
+
+          // 处理输入事件
+          $input.on("input", function (e) {
+            if (isPasting) return;
+
+            var value = $(this).val();
+            if (value && !/^\d$/.test(value)) {
+              $(this).val(value.replace(/[^\d]/g, "").slice(0, 1));
+            }
+
+            checkInputs();
+          });
+        });
+
+        // 检查所有输入框是否已填写
+        function checkInputs() {
+          var isFilled = true;
+          $inputs.each(function () {
+            if (!$(this).val()) {
+              isFilled = false;
+              return false;
+            }
+          });
+
+          $verifyBtn.prop("disabled", !isFilled);
+
+          $inputs.each(function () {
+            if ($(this).val()) {
+              $(this).addClass("active");
+            } else {
+              $(this).removeClass("active");
+            }
+          });
+        }
+
+        // 倒计时处理
+        function updateCountdown() {
+          var $countdownEl = $(".hint span").first();
+          if (countdown > 0) {
+            $countdownEl.text(countdown + "秒后可重新获取验证码");
+            countdown--;
+            setTimeout(updateCountdown, 1000);
+          } else {
+            $countdownEl
+              .text("重新获取验证码")
+              .addClass("resend")
+              .css("cursor", "pointer")
+              .off("click")
+              .on("click", function () {
+                countdown = 43;
+                $(this).removeClass("resend").css("cursor", "default");
+                updateCountdown();
+              });
+          }
+        }
+
+        // 验证按钮点击处理
+        window.handleOk = function () {
+          var value = [];
+          $inputs.each(function () {
+            value.push($(this).val());
+          });
+          alert("验证码：" + value.join(""));
+        };
+
+        // 初始化
+        checkInputs();
+        updateCountdown();
+      });
+    </script>
+  </body>
+</html>
