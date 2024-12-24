@@ -12,7 +12,7 @@
                 "-r",
                 "ts-node/register"
             ],
-            "program": "${workspaceFolder}/JavaScript/DataStructure/掘金AI/5寻找最大的葫芦.ts"
+            "program": "${workspaceFolder}/JavaScript/DataStructure/leetcode/4. 寻找两个正序数组的中位数.js"
         }
     ]
 }
