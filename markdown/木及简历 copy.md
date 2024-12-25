@@ -6,46 +6,53 @@
 
 ##### icon:school 学校: 河南理工大学  &nbsp;|&nbsp; 计算机科学与技术&nbsp; | &nbsp;2017-2021&nbsp;| &nbsp;本科
 
-##### icon:email  邮箱:&nbsp;zhanglkx@163.com
+##### icon:email  邮箱:&nbsp;<zhanglkx@163.com>
 
 ##### icon:phone 电话: 18336175747
 
-##### icon:juejin 掘金: https://juejin.cn/user/4336920460798183
+##### icon:juejin 掘金: <https://juejin.cn/user/4336920460798183>
 
-##### 
+#####
 
-## 工作经历
+### 工作经历
 
-### 宁波邻家网络科技有限公司  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2024.04-至今&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &nbsp; &nbsp;高级前端工程师
+#### 宁波邻家网络科技有限公司  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2024.04-至今&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &nbsp; &nbsp;高级前端工程师
 
-<div style="height: 0px"></div>
+工作职责 :
 
-工作职责 : 
+- 需求评估、技术方案方案制定、以及具体开发工作。
 
-- 需求评估、技术方案方案制定、
+- 参与草料前后站富文本编辑器、主页、活码管理、国际化等模块。
 
-- 项目管理、项目开发，项目开发进度跟踪、代码 Review、人员工作职责分配。
+- 参与小程序目录组件、无代码构建、底部悬浮组件搭建。
 
-- 维护Table、Modal、Toast等公共及业务组件，并积极优化组件，提升性能。
+- 参与 h5 目录组件、无代码构建、底部悬浮组件搭建。
 
-- 利用浏览器性能优化相关的工具，对web系统性能进行优化，首屏打开速度提升20%。
+  <div style="height: 9px"></div>
 
-- 奥克斯物联网管理平台设备运行日志、用户、产品等模块开发，首屏优化、通信协议对接、转化。
+### 项目经历
 
-- 参与奥克斯智家小程序设备配网、设备控制、设备分享等等模块开发、迭代。
-  
-  <div style="height: 18px"></div>
+#### 草料 console 项目
 
-担任角色：客户端开发工程师
+项目简介：草料二维码核心平台，包含活码创建、富文本编辑器、批量模版、在线表格、表单、状态、数据管理等等
 
-- 参与项目主导、需求沟通、技术方案制定、项目开发、进度跟踪等。
-- 参与项目开发，共推进6+个版本上线，集成日志监控系统，使得生产环境异常率降低30%。
-- 负责AUX A+  iOS原生模块日志系统搭建、助老模式搭建、组件封装等。
-- 负责AUX A+  iOS 版本开发、迭代、代码Review，原生模块和 RN 混编，开发效率提升 32%。
-- 参与ACFreedom(海外版) 的 React 代码Review、上架、测试、代码问题修复。
-- 在业务开发的同时，不断进行技术上的提升，组内分享5次，并输出10余篇技术文档、3 篇技术沉淀。
+技术栈：React + CSS Module + Umijs + Ant Design +ckeditor + ahooks + typescript + dva + jquery
 
-### 奥克斯集团有限公司 &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2021.07-至今&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &nbsp; &nbsp;研发主管工程师
+- 负责富文本编辑器模块，包含目录列表、样式库、ckeditor 插件新增等等。
+
+- 负责二维码停用启用功能开发。
+
+- 负责设备界面、控制模块、个人界面模块，依据UI图开发；二次封装axios统一拦截方法，实现接口错误统一处理，便于维护
+
+- 通信机制开发、模组通信开发、配网模块搭建、日志上报机制搭建，原生模块混编，设备数据上报等等。
+
+- 优化长列表，性能提高 30%；iOS/Android平台兼容、各尺寸屏幕适配、登录系统解密，增加安全性。
+
+**项目亮点**： 全新开发 、 性能优化、  模块搭建、  导航搭建、 隐私合规 、 安全性
+
+<div style="height: 10px"></div>
+
+### 奥克斯集团有限公司 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2021.07 - 20214.04&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;研发主管工程师
 
 <div style="height: 0px"></div>
 
@@ -95,8 +102,6 @@
 **项目亮点**： 全新开发 、 性能优化、  模块搭建、  导航搭建、 隐私合规 、 安全性
 
 <div style="height: 10px"></div>
-
-
 
 ### **奥克斯物联网运营管理平台**
 
@@ -148,7 +153,7 @@
 
 技术栈：Objective-C + QMUIKit + YYKit + AFNetworking + Masonry + Xib + 面向对象 + 多工程混编
 
-职责描述： 
+职责描述：
 
 - 负责需求收集整理、技术方案设计、版本迭代、部门间工作沟通、对接。
 
