@@ -2,7 +2,7 @@
 
 ##### icon:info 简介: 张理科  &nbsp; |  &nbsp; 男 &nbsp;  |  &nbsp; 现居宁波&nbsp;  |  &nbsp;CET4&nbsp; | &nbsp;党员
 
-##### icon:fa-address-card  经验: 3年 &nbsp;| &nbsp;2021-2024
+##### icon:fa-address-card  经验: 4年 &nbsp;|&nbsp;  2021 - 2024
 
 ##### icon:school 学校: 河南理工大学  &nbsp;|&nbsp; 计算机科学与技术&nbsp; | &nbsp;2017-2021&nbsp;| &nbsp;本科
 
@@ -12,15 +12,13 @@
 
 ##### icon:juejin 掘金: <https://juejin.cn/user/4336920460798183>
 
-### 个人介绍
+## 个人介绍
 
-曾任 AXU 集团研发主管工程师，负责集团内多个项目的研发工作，包括PC、小程序、H5、APP、RN等多个项目多种技术栈开发经验。
-现任草料二维码高级前端工程师，负责草料 PC 项目的研发工作，以及草料二维码小程序和 h5 项目的研发工作。
-有大型项目开发经验，熟悉 React 及其生态、React Native、Vue 等等这些前端常用的开发技术/框架，熟悉常用第三方库，熟悉常用设计模式，有丰富的开发经验。拥有较好的代码规范、风格，热爱写注释。
+曾任 AUX 奥克斯集团研发主管工程师，负责/参与过集团内多个项目的研发工作，包括PC设备管理平台、小程序、H5、原生 iOS APP、RN等，有多个项目、多种技术栈的开发经验。
+现任草料二维码高级前端工程师，参与草料 PC 项目的研发工作，以及草料二维码小程序、前台主页项目和 H5 项目的研发工作。
+有大型项目开发经验，熟悉 React、iOS 原生开发(Objective-C)、React Native、Vue 等等这些前端常用的开发技术/框架，熟悉常用第三方库，熟悉常用设计模式，有丰富的开发经验。拥有较好的代码规范、风格，热爱写注释。
 
-
-
-### 工作经历
+## 工作经历
 
 #### 宁波邻家网络科技有限公司  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2024.04-至今&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &nbsp; &nbsp;高级前端工程师
 
@@ -32,19 +30,17 @@
 
 - 参与小程序和 h5的目录组件、无代码构建、底部悬浮组件搭建。
 
-  <div style="height: 9px"></div>
+## 项目经历
 
-### 项目经历
-
-#### 草料 console 项目
+#### **草料 console 项目**
 
 项目简介：草料二维码核心平台，包含活码创建、富文本编辑器、批量模版、在线表格、表单、状态、数据管理、无代码等等，是一个各种大功能堆叠一起的大型复杂应用
 
-技术栈：React + CSS Module + Umijs + Ant Design + Ckeditor + Ahooks + TypeScript + Dva + JQuery
+技术栈：React + CSS Module + Umijs + Ant Design + CkEditor + Ahooks + TypeScript + Dva + JQuery
 
-- 负责富文本编辑器模块，包含目录列表、样式库、Ckeditor插件新增、widget 等等
-  
-- 使用JQuery从 0 到 1 解决 React 和 Ckeditor 异步以及网络接口交互问题。
+- 负责富文本编辑器模块，包含目录列表、样式库、Ckeditor 插件新增、widget 等等
+
+- 使用 JQuery 从 0 到 1 解决 React 和 CkEditor 异步以及网络接口交互问题。
 
 - 负责二维码停用启用功能开发、目录汇总码开发、替换。
 
@@ -54,7 +50,7 @@
 
 - 参与日常功能性需求开发以及维护，如二维码分享、二维码收藏、二维码批量删除等等。
 
-**项目亮点**： 大型应用开发 、 React框架和 Ckeditor 交互、 复杂场景处理、 性能优化  
+**项目亮点**： 大型应用开发 、 React框架和 CkEditor 交互、 复杂场景处理、 性能优化  
 
 <div style="height: 10px"></div>
 
@@ -63,16 +59,16 @@
 项目简介：业务系统服务搭建平台，配合草料 PC 平台，实现移动端二维码管理、巡检、查看、表单提交、会议签到等等。(小程序和 h5 是目的地是承接移动端流量入口，为用户提供更好的使用体验，功能基本都是一样的)
 
 技术栈(小程序)：无代码 + TypeScript + 原生小程序 + SkyLine + 多工程 + i18n
-技术栈(H5)：无代码 + TypeScript + Vue2 + Vite + vue-router + vuex + 多工程 + i18n
+技术栈(H5)：无代码 + TypeScript + Vue2 + Vite + Vue-Router + Vuex + 多工程 + i18n
 
 - 负责在 PC 端 富文本数据展示，以及包含样式库、widget、各种模块插件 等等
 
 - 负责无代码模块开发，包含模块展示、交互，以及多级通信。
-  
+
 - 负责小程序基础组件开发，如底部悬浮组件、目录组件、无代码组件等等。
-  
+
 - 根据函数封装，实现组件的复用，提高开发效率。打包脚本调整，打包体积减少 20%。
-  
+
 - 以及日常功能开发，国际化等等常规简单前端开发工作。
 
 **项目亮点**： 无代码 、 多工程开发、 组件封装、 性能优化、 国际化、 隐私合规
@@ -94,7 +90,7 @@
 - 负责AUX A+  iOS原生模块日志系统搭建、助老模式搭建、组件封装等。
 
 - 负责AUX A+  iOS 版本开发、迭代、代码Review，原生模块和 RN 混编，开发效率提升 32%。
-  
+
 - 参与ACFreedom(海外版) 的 React 代码Review、上架、测试、代码问题修复。
 
 - 参与奥克斯智家小程序、H5、设备管理平台、混合开发 App等开发。
@@ -142,7 +138,7 @@
 - 负责APP通知模块的搭建，以及高德/腾讯地图、极光推送、友盟、微信等 SDK 的引入。
 
 - 语言本地化、APP 隐私合规整改、检测，接口封装，基于AFNetworking数据拦截、响应处理。
-  
+
   **项目亮点**： 原生开发 、 多次主导/参与项目迭代、 安装包大小治理、  小组件开发、白屏优化
 
 ## 技能
@@ -155,7 +151,7 @@
 
 - 熟悉常用设计模式，如发布订阅、观察者模式、工厂模式、单例模式、代理模式等等。
 
-- 熟练掌握AFNetworking、FMDB、SDWebImage、MJRefresh、MagicalRecord、Masonry等第三方库的熟练使用
+- 熟练掌握AFNetworking、FMDB、SDWebImage、MJRefresh、Masonry等第三方库的熟练使用
 
 - 掌握 React Native 跨端技术、了解React Native基本原理，熟悉react-navigation等第三方库使用。
 
@@ -164,7 +160,6 @@
 - 熟悉极光推送、高德地图、腾讯地图、友盟分享、Bugly、DoraemonKit等第三方 SDK接入、使用。
 
 - 熟练掌握MVC、MVVM、代理、单例、KVC、KVO、工厂模式、Block等设计模式。
-
 
 ## 其他
 
