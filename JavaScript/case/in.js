@@ -41,3 +41,5 @@ function fetchUserData1() {
 
     return { user, profile, settings };
 }
+
+fetchUserData1()
