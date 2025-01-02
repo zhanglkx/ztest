@@ -1,0 +1,1732 @@
+ipv6: false
+mixed-port: 7890
+udp: true
+allow-lan: false
+bind-address: "*"
+mode: rule
+log-level: info
+external-controller: "127.0.0.1:9090"
+unified-delay: true
+secret: ""
+experimental:
+  ignore-resolve-fail: true
+cfw-latency-timeout: 8000
+cfw-latency-url: "http://YouTube.com/generate_204"
+cfw-conn-break-strategy: true
+dns:
+  enable: true
+  listen: "127.0.0.1:1053"
+  ipv6: false
+  default-nameserver: [114.114.114.114, 223.5.5.5, 119.29.29.29]
+  enhanced-mode: fake-ip
+  fake-ip-range: 28.0.0.1/8
+  use-hosts: true
+  fake-ip-filter:
+    [
+      "*.lan",
+      "*.localdomain",
+      "*.example",
+      "*.invalid",
+      "*.localhost",
+      "*.test",
+      "*.local",
+      "*.home.arpa",
+      "time.*.com",
+      "time.*.gov",
+      "time.*.edu.cn",
+      "time.*.apple.com",
+      "time1.*.com",
+      "time2.*.com",
+      "time3.*.com",
+      "time4.*.com",
+      "time5.*.com",
+      "time6.*.com",
+      "time7.*.com",
+      "ntp.*.com",
+      "ntp1.*.com",
+      "ntp2.*.com",
+      "ntp3.*.com",
+      "ntp4.*.com",
+      "ntp5.*.com",
+      "ntp6.*.com",
+      "ntp7.*.com",
+      "*.time.edu.cn",
+      "*.ntp.org.cn",
+      +.pool.ntp.org,
+      time1.cloud.tencent.com,
+      music.163.com,
+      "*.music.163.com",
+      "*.126.net",
+      musicapi.taihe.com,
+      music.taihe.com,
+      songsearch.kugou.com,
+      trackercdn.kugou.com,
+      "*.kuwo.cn",
+      api-jooxtt.sanook.com,
+      api.joox.com,
+      joox.com,
+      y.qq.com,
+      "*.y.qq.com",
+      streamoc.music.tc.qq.com,
+      mobileoc.music.tc.qq.com,
+      isure.stream.qqmusic.qq.com,
+      dl.stream.qqmusic.qq.com,
+      aqqmusic.tc.qq.com,
+      amobile.music.tc.qq.com,
+      "*.xiami.com",
+      "*.music.migu.cn",
+      music.migu.cn,
+      +.msftconnecttest.com,
+      +.msftncsi.com,
+      msftconnecttest.com,
+      msftncsi.com,
+      localhost.ptlogin2.qq.com,
+      localhost.sec.qq.com,
+      +.srv.nintendo.net,
+      +.stun.playstation.net,
+      "xbox.*.microsoft.com",
+      xnotify.xboxlive.com,
+      +.ipv6.microsoft.com,
+      +.battlenet.com.cn,
+      +.wotgame.cn,
+      +.wggames.cn,
+      +.wowsgame.cn,
+      +.wargaming.net,
+      proxy.golang.org,
+      "stun.*.*",
+      "stun.*.*.*",
+      "+.stun.*.*",
+      "+.stun.*.*.*",
+      "+.stun.*.*.*.*",
+      heartbeat.belkin.com,
+      "*.linksys.com",
+      "*.linksyssmartwifi.com",
+      "*.router.asus.com",
+      mesu.apple.com,
+      swscan.apple.com,
+      swquery.apple.com,
+      swdownload.apple.com,
+      swcdn.apple.com,
+      swdist.apple.com,
+      lens.l.google.com,
+      stun.l.google.com,
+      "*.square-enix.com",
+      "*.finalfantasyxiv.com",
+      "*.ffxiv.com",
+      "*.ff14.sdo.com",
+      ff.dorado.sdo.com,
+      "*.mcdn.bilivideo.cn",
+      +.media.dssott.com,
+      +.pvp.net,
+    ]
+  nameserver: ["tls://223.5.5.5:853", "tls://223.6.6.6:853", "https://doh.pub/dns-query", "https://dns.alidns.com/dns-query"]
+proxies:
+  - {
+      name: 🇭🇰香港-IEPL,
+      type: ss,
+      server: gd.bjnet2.com,
+      port: 36602,
+      cipher: aes-128-gcm,
+      password: c2686ce0-09d2-4414-be3c-4278f82d1d30,
+      udp: true,
+      plugin: obfs,
+      plugin-opts: { mode: http, host: c86d090001c29f8385c0ef357b93dfbc.baidu.com },
+    }
+  - {
+      name: 🇹🇼台湾-IEPL,
+      type: ss,
+      server: gd.bjnet2.com,
+      port: 36104,
+      cipher: aes-128-gcm,
+      password: c2686ce0-09d2-4414-be3c-4278f82d1d30,
+      udp: true,
+      plugin: obfs,
+      plugin-opts: { mode: http, host: c86d090001c29f8385c0ef357b93dfbc.baidu.com },
+    }
+  - {
+      name: 🇸🇬新加坡-IEPL,
+      type: ss,
+      server: gd.bjnet2.com,
+      port: 36604,
+      cipher: aes-128-gcm,
+      password: c2686ce0-09d2-4414-be3c-4278f82d1d30,
+      udp: true,
+      plugin: obfs,
+      plugin-opts: { mode: http, host: c86d090001c29f8385c0ef357b93dfbc.baidu.com },
+    }
+  - {
+      name: 🇯🇵日本-IEPL-GPT,
+      type: ss,
+      server: gd.bjnet2.com,
+      port: 36609,
+      cipher: aes-128-gcm,
+      password: c2686ce0-09d2-4414-be3c-4278f82d1d30,
+      udp: true,
+      plugin: obfs,
+      plugin-opts: { mode: http, host: c86d090001c29f8385c0ef357b93dfbc.baidu.com },
+    }
+  - {
+      name: 🇺🇸美国-IEPL-GPT,
+      type: ss,
+      server: gd.bjnet2.com,
+      port: 36608,
+      cipher: aes-128-gcm,
+      password: c2686ce0-09d2-4414-be3c-4278f82d1d30,
+      udp: true,
+      plugin: obfs,
+      plugin-opts: { mode: http, host: c86d090001c29f8385c0ef357b93dfbc.baidu.com },
+    }
+  - {
+      name: 🇯🇵日本-IEPL2-GPT,
+      type: ss,
+      server: sh.bjnet2.com,
+      port: 36612,
+      cipher: aes-128-gcm,
+      password: c2686ce0-09d2-4414-be3c-4278f82d1d30,
+      udp: true,
+      plugin: obfs,
+      plugin-opts: { mode: http, host: c86d090001c29f8385c0ef357b93dfbc.baidu.com },
+    }
+  - {
+      name: 🇺🇸美国-IEPL2-GPT,
+      type: ss,
+      server: sh.bjnet2.com,
+      port: 36608,
+      cipher: aes-128-gcm,
+      password: c2686ce0-09d2-4414-be3c-4278f82d1d30,
+      udp: true,
+      plugin: obfs,
+      plugin-opts: { mode: http, host: c86d090001c29f8385c0ef357b93dfbc.baidu.com },
+    }
+  - {
+      name: 🇻🇳越南-IEPL,
+      type: ss,
+      server: gd.bjnet2.com,
+      port: 36606,
+      cipher: aes-128-gcm,
+      password: c2686ce0-09d2-4414-be3c-4278f82d1d30,
+      udp: true,
+      plugin: obfs,
+      plugin-opts: { mode: http, host: c86d090001c29f8385c0ef357b93dfbc.baidu.com },
+    }
+  - {
+      name: 🇮🇩印尼-IEPL,
+      type: ss,
+      server: gd.bjnet2.com,
+      port: 36607,
+      cipher: aes-128-gcm,
+      password: c2686ce0-09d2-4414-be3c-4278f82d1d30,
+      udp: true,
+      plugin: obfs,
+      plugin-opts: { mode: http, host: c86d090001c29f8385c0ef357b93dfbc.baidu.com },
+    }
+  - {
+      name: 🇩🇪德国-IEPL,
+      type: ss,
+      server: gd.bjnet2.com,
+      port: 36611,
+      cipher: chacha20-ietf-poly1305,
+      password: c2686ce0-09d2-4414-be3c-4278f82d1d30,
+      udp: true,
+    }
+proxy-groups:
+  - {
+      name: 节点选择,
+      type: select,
+      proxies:
+        [
+          自动选择,
+          🇭🇰香港-IEPL,
+          🇹🇼台湾-IEPL,
+          🇸🇬新加坡-IEPL,
+          🇯🇵日本-IEPL-GPT,
+          🇺🇸美国-IEPL-GPT,
+          🇯🇵日本-IEPL2-GPT,
+          🇺🇸美国-IEPL2-GPT,
+          🇻🇳越南-IEPL,
+          🇮🇩印尼-IEPL,
+          🇩🇪德国-IEPL,
+        ],
+    }
+  - {
+      name: 自动选择,
+      type: url-test,
+      proxies: [🇭🇰香港-IEPL, 🇹🇼台湾-IEPL, 🇸🇬新加坡-IEPL, 🇯🇵日本-IEPL-GPT, 🇯🇵日本-IEPL2-GPT],
+      url: "http://www.YouTube.com",
+      interval: 600,
+      tolerance: 200,
+      lazy: true,
+    }
+  - {
+      name: 故障转移,
+      type: fallback,
+      proxies: [🇭🇰香港-IEPL, 🇹🇼台湾-IEPL, 🇸🇬新加坡-IEPL, 🇯🇵日本-IEPL-GPT, 🇯🇵日本-IEPL2-GPT],
+      url: "http://www.YouTube.com",
+      interval: 700,
+      lazy: true,
+    }
+  - { name: ChatGPT, type: select, proxies: [🇯🇵日本-IEPL-GPT, 🇺🇸美国-IEPL-GPT, 🇯🇵日本-IEPL2-GPT, 🇺🇸美国-IEPL2-GPT] }
+  - {
+      name: Netflix,
+      type: select,
+      proxies:
+        [
+          节点选择,
+          🇭🇰香港-IEPL,
+          🇹🇼台湾-IEPL,
+          🇸🇬新加坡-IEPL,
+          🇯🇵日本-IEPL-GPT,
+          🇺🇸美国-IEPL-GPT,
+          🇯🇵日本-IEPL2-GPT,
+          🇺🇸美国-IEPL2-GPT,
+          🇻🇳越南-IEPL,
+          🇮🇩印尼-IEPL,
+          🇩🇪德国-IEPL,
+        ],
+    }
+  - {
+      name: 哔哩哔哩,
+      type: select,
+      proxies:
+        [
+          DIRECT,
+          节点选择,
+          🇭🇰香港-IEPL,
+          🇹🇼台湾-IEPL,
+          🇸🇬新加坡-IEPL,
+          🇯🇵日本-IEPL-GPT,
+          🇺🇸美国-IEPL-GPT,
+          🇯🇵日本-IEPL2-GPT,
+          🇺🇸美国-IEPL2-GPT,
+          🇻🇳越南-IEPL,
+          🇮🇩印尼-IEPL,
+          🇩🇪德国-IEPL,
+        ],
+    }
+  - { name: Telegram, type: select, proxies: [节点选择, 🇭🇰香港-IEPL, 🇹🇼台湾-IEPL, 🇸🇬新加坡-IEPL, 🇯🇵日本-IEPL-GPT, 🇯🇵日本-IEPL2-GPT] }
+  - { name: TikTok, type: select, proxies: [🇹🇼台湾-IEPL, 🇸🇬新加坡-IEPL, 🇯🇵日本-IEPL-GPT, 🇯🇵日本-IEPL2-GPT] }
+  - {
+      name: Twitter,
+      type: select,
+      proxies:
+        [
+          节点选择,
+          🇭🇰香港-IEPL,
+          🇹🇼台湾-IEPL,
+          🇸🇬新加坡-IEPL,
+          🇯🇵日本-IEPL-GPT,
+          🇺🇸美国-IEPL-GPT,
+          🇯🇵日本-IEPL2-GPT,
+          🇺🇸美国-IEPL2-GPT,
+          🇻🇳越南-IEPL,
+          🇮🇩印尼-IEPL,
+          🇩🇪德国-IEPL,
+        ],
+    }
+  - { name: Copilot, type: select, proxies: [节点选择] }
+  - {
+      name: 微软服务,
+      type: select,
+      proxies:
+        [
+          DIRECT,
+          节点选择,
+          🇭🇰香港-IEPL,
+          🇹🇼台湾-IEPL,
+          🇸🇬新加坡-IEPL,
+          🇯🇵日本-IEPL-GPT,
+          🇺🇸美国-IEPL-GPT,
+          🇯🇵日本-IEPL2-GPT,
+          🇺🇸美国-IEPL2-GPT,
+          🇻🇳越南-IEPL,
+          🇮🇩印尼-IEPL,
+          🇩🇪德国-IEPL,
+        ],
+    }
+  - {
+      name: 苹果服务,
+      type: select,
+      proxies:
+        [
+          DIRECT,
+          节点选择,
+          🇭🇰香港-IEPL,
+          🇹🇼台湾-IEPL,
+          🇸🇬新加坡-IEPL,
+          🇯🇵日本-IEPL-GPT,
+          🇺🇸美国-IEPL-GPT,
+          🇯🇵日本-IEPL2-GPT,
+          🇺🇸美国-IEPL2-GPT,
+          🇻🇳越南-IEPL,
+          🇮🇩印尼-IEPL,
+          🇩🇪德国-IEPL,
+        ],
+    }
+  - {
+      name: 谷歌服务,
+      type: select,
+      proxies:
+        [
+          节点选择,
+          🇭🇰香港-IEPL,
+          🇹🇼台湾-IEPL,
+          🇸🇬新加坡-IEPL,
+          🇯🇵日本-IEPL-GPT,
+          🇺🇸美国-IEPL-GPT,
+          🇯🇵日本-IEPL2-GPT,
+          🇺🇸美国-IEPL2-GPT,
+          🇻🇳越南-IEPL,
+          🇮🇩印尼-IEPL,
+          🇩🇪德国-IEPL,
+        ],
+    }
+  - {
+      name: Steam,
+      type: select,
+      proxies:
+        [
+          节点选择,
+          DIRECT,
+          🇭🇰香港-IEPL,
+          🇹🇼台湾-IEPL,
+          🇸🇬新加坡-IEPL,
+          🇯🇵日本-IEPL-GPT,
+          🇺🇸美国-IEPL-GPT,
+          🇯🇵日本-IEPL2-GPT,
+          🇺🇸美国-IEPL2-GPT,
+          🇻🇳越南-IEPL,
+          🇮🇩印尼-IEPL,
+          🇩🇪德国-IEPL,
+        ],
+    }
+rules:
+  - "DOMAIN,sub.bajieurl.com,DIRECT"
+  - "DOMAIN-KEYWORD,bajie,自动选择"
+  - "IP-CIDR,127.0.0.1/32,DIRECT,no-resolve"
+  - "DOMAIN,injections.adguard.org,DIRECT,no-resolve"
+  - "DOMAIN,local.adguard.org,DIRECT,no-resolve"
+  - "DOMAIN-SUFFIX,local,DIRECT,no-resolve"
+  - "IP-CIDR,127.0.0.0/8,DIRECT,no-resolve"
+  - "IP-CIDR,172.16.0.0/12,DIRECT,no-resolve"
+  - "IP-CIDR,192.168.0.0/16,DIRECT,no-resolve"
+  - "IP-CIDR,10.0.0.0/8,DIRECT,no-resolve"
+  - "IP-CIDR,17.0.0.0/8,DIRECT,no-resolve"
+  - "IP-CIDR,100.64.0.0/10,DIRECT,no-resolve"
+  - "IP-CIDR,224.0.0.0/4,DIRECT,no-resolve"
+  - "IP-CIDR6,fe80::/10,DIRECT,no-resolve"
+  - "DOMAIN,chat.openai.com.cdn.cloudflare.net,ChatGPT"
+  - "DOMAIN,openaiapi-site.azureedge.net,ChatGPT"
+  - "DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net,ChatGPT"
+  - "DOMAIN,openaicomproductionae4b.blob.core.windows.net,ChatGPT"
+  - "DOMAIN,production-openaicom-storage.azureedge.net,ChatGPT"
+  - "DOMAIN,o33249.ingest.sentry.io,ChatGPT"
+  - "DOMAIN,openaicom.imgix.net,ChatGPT"
+  - "DOMAIN-SUFFIX,chatgpt.com,ChatGPT"
+  - "DOMAIN-SUFFIX,oaistatic.com,ChatGPT"
+  - "DOMAIN-SUFFIX,oaiusercontent.com,ChatGPT"
+  - "DOMAIN-SUFFIX,openai.com,ChatGPT"
+  - "DOMAIN-KEYWORD,openai,ChatGPT"
+  - "DOMAIN-SUFFIX,coze.com,ChatGPT"
+  - "DOMAIN-SUFFIX,ttwstatic.com,ChatGPT"
+  - "DOMAIN-SUFFIX,byteoversea.com,ChatGPT"
+  - "DOMAIN-SUFFIX,byteintlapi.com,ChatGPT"
+  - "DOMAIN,api.msn.com,Copilot"
+  - "DOMAIN,api.statsig.com,Copilot"
+  - "DOMAIN,assets.msn.com,Copilot"
+  - "DOMAIN,browser-intake-datadoghq.com,Copilot"
+  - "DOMAIN,copilot.microsoft.com,Copilot"
+  - "DOMAIN,gateway.bingviz.microsoft.net,Copilot"
+  - "DOMAIN,gateway.bingviz.microsoftapp.net,Copilot"
+  - "DOMAIN,in.appcenter.ms,Copilot"
+  - "DOMAIN,location.microsoft.com,Copilot"
+  - "DOMAIN,odc.officeapps.live.com,Copilot"
+  - "DOMAIN,openai-api.arkoselabs.com,Copilot"
+  - "DOMAIN,openaicomproductionae4b.blob.core.windows.net,Copilot"
+  - "DOMAIN,production-openaicom-storage.azureedge.net,Copilot"
+  - "DOMAIN,r.bing.com,Copilot"
+  - "DOMAIN,self.events.data.microsoft.com,Copilot"
+  - "DOMAIN,services.bingapis.com,Copilot"
+  - "DOMAIN,static.cloudflareinsights.com,Copilot"
+  - "DOMAIN,www.bing.com,Copilot"
+  - "DOMAIN-SUFFIX,algolia.net,Copilot"
+  - "DOMAIN-SUFFIX,api.microsoftapp.net,Copilot"
+  - "DOMAIN-SUFFIX,auth0.com,Copilot"
+  - "DOMAIN-SUFFIX,sydney.bing.com,Copilot"
+  - "DOMAIN-SUFFIX,bing-shopping.microsoft-falcon.io,Copilot"
+  - "DOMAIN-SUFFIX,cdn.cloudflare.net,Copilot"
+  - "DOMAIN-SUFFIX,challenges.cloudflare.com,Copilot"
+  - "DOMAIN-SUFFIX,chatgpt.livekit.cloud,Copilot"
+  - "DOMAIN-SUFFIX,client-api.arkoselabs.com,Copilot"
+  - "DOMAIN-SUFFIX,edgeservices.bing.com,Copilot"
+  - "DOMAIN-SUFFIX,events.statsigapi.net,Copilot"
+  - "DOMAIN-SUFFIX,featuregates.org,Copilot"
+  - "DOMAIN-SUFFIX,host.livekit.cloud,Copilot"
+  - "DOMAIN-SUFFIX,identrust.com,Copilot"
+  - "DOMAIN-SUFFIX,intercom.io,Copilot"
+  - "DOMAIN-SUFFIX,intercomcdn.com,Copilot"
+  - "DOMAIN-SUFFIX,launchdarkly.com,Copilot"
+  - "DOMAIN-SUFFIX,oaistatic.com,Copilot"
+  - "DOMAIN-SUFFIX,oaiusercontent.com,Copilot"
+  - "DOMAIN-SUFFIX,observeit.net,Copilot"
+  - "DOMAIN-SUFFIX,openai.com,Copilot"
+  - "DOMAIN-SUFFIX,openaiapi-site.azureedge.net,Copilot"
+  - "DOMAIN-SUFFIX,openaicom.imgix.net,Copilot"
+  - "DOMAIN-SUFFIX,poe.com,Copilot"
+  - "DOMAIN-SUFFIX,segment.io,Copilot"
+  - "DOMAIN-SUFFIX,sentry.io,Copilot"
+  - "DOMAIN-SUFFIX,stripe.com,Copilot"
+  - "DOMAIN-SUFFIX,turn.livekit.cloud,Copilot"
+  - "DOMAIN-KEYWORD,openaicom-api,Copilot"
+  - "IP-CIDR,24.199.123.28/32,Copilot,no-resolve"
+  - "IP-CIDR,64.23.132.171/32,Copilot,no-resolve"
+  - "DOMAIN-SUFFIX,byteoversea.com,TikTok"
+  - "DOMAIN-SUFFIX,muscdn.com,TikTok"
+  - "DOMAIN-SUFFIX,musical.ly,TikTok"
+  - "DOMAIN-SUFFIX,tik-tokapi.com,TikTok"
+  - "DOMAIN-SUFFIX,tiktok.com,TikTok"
+  - "DOMAIN-SUFFIX,tiktokcdn-us.com,TikTok"
+  - "DOMAIN-SUFFIX,tiktokcdn.com,TikTok"
+  - "DOMAIN-SUFFIX,tiktokd.net,TikTok"
+  - "DOMAIN-SUFFIX,tiktokd.org,TikTok"
+  - "DOMAIN-SUFFIX,tiktokv.com,TikTok"
+  - "DOMAIN-SUFFIX,ttwstatic.com,TikTok"
+  - "DOMAIN,p16-tiktokcdn-com.akamaized.net,TikTok"
+  - "DOMAIN-SUFFIX,cdnst.net,节点选择"
+  - "DOMAIN-SUFFIX,cellmaps.com,节点选择"
+  - "DOMAIN-SUFFIX,ekahau.cloud,节点选择"
+  - "DOMAIN-SUFFIX,ekahau.com,节点选择"
+  - "DOMAIN-SUFFIX,ookla.com,节点选择"
+  - "DOMAIN-SUFFIX,ooklaserver.net,节点选择"
+  - "DOMAIN-SUFFIX,pingtest.net,节点选择"
+  - "DOMAIN-SUFFIX,speedtest.co,节点选择"
+  - "DOMAIN-SUFFIX,speedtest.net,节点选择"
+  - "DOMAIN-SUFFIX,speedtestcustom.com,节点选择"
+  - "DOMAIN-SUFFIX,webtest.net,节点选择"
+  - "DOMAIN,netflix.com.edgesuite.net,Netflix"
+  - "DOMAIN-SUFFIX,fast.com,Netflix"
+  - "DOMAIN-SUFFIX,netflix.ca,Netflix"
+  - "DOMAIN-SUFFIX,netflix.com,Netflix"
+  - "DOMAIN-SUFFIX,netflix.net,Netflix"
+  - "DOMAIN-SUFFIX,netflixinvestor.com,Netflix"
+  - "DOMAIN-SUFFIX,netflixtechblog.com,Netflix"
+  - "DOMAIN-SUFFIX,nflxext.com,Netflix"
+  - "DOMAIN-SUFFIX,nflximg.com,Netflix"
+  - "DOMAIN-SUFFIX,nflximg.net,Netflix"
+  - "DOMAIN-SUFFIX,nflxsearch.net,Netflix"
+  - "DOMAIN-SUFFIX,nflxso.net,Netflix"
+  - "DOMAIN-SUFFIX,nflxvideo.net,Netflix"
+  - "DOMAIN-SUFFIX,netflixdnstest1.com,Netflix"
+  - "DOMAIN-SUFFIX,netflixdnstest2.com,Netflix"
+  - "DOMAIN-SUFFIX,netflixdnstest3.com,Netflix"
+  - "DOMAIN-SUFFIX,netflixdnstest4.com,Netflix"
+  - "DOMAIN-SUFFIX,netflixdnstest5.com,Netflix"
+  - "DOMAIN-SUFFIX,netflixdnstest6.com,Netflix"
+  - "DOMAIN-SUFFIX,netflixdnstest7.com,Netflix"
+  - "DOMAIN-SUFFIX,netflixdnstest8.com,Netflix"
+  - "DOMAIN-SUFFIX,netflixdnstest9.com,Netflix"
+  - "DOMAIN-SUFFIX,netflixdnstest10.com,Netflix"
+  - "DOMAIN,e122475.dscg.akamaiedge.net,节点选择"
+  - "DOMAIN,licdn.cn.cdn20.com,节点选择"
+  - "DOMAIN,linkedin.sc.omtrdc.net,节点选择"
+  - "DOMAIN-SUFFIX,bizographics.com,节点选择"
+  - "DOMAIN-SUFFIX,licdn.com,节点选择"
+  - "DOMAIN-SUFFIX,linkedin.at,节点选择"
+  - "DOMAIN-SUFFIX,linkedin.com,节点选择"
+  - "DOMAIN-SUFFIX,lnkd.in,节点选择"
+  - "DOMAIN-SUFFIX,l-0005.dc-msedge.net,节点选择"
+  - "DOMAIN-SUFFIX,l-0005.l-msedge.net,节点选择"
+  - "DOMAIN-SUFFIX,licdn.cn,节点选择"
+  - "DOMAIN-SUFFIX,linkedin.cn,节点选择"
+  - "DOMAIN,manga.bilibili.com,哔哩哔哩"
+  - "DOMAIN,upos-hz-mirrorakam.akamaized.net,哔哩哔哩"
+  - "DOMAIN-SUFFIX,bilicomic.com,哔哩哔哩"
+  - "DOMAIN-SUFFIX,bilicomics.com,哔哩哔哩"
+  - "DOMAIN-SUFFIX,acg.tv,哔哩哔哩"
+  - "DOMAIN-SUFFIX,acgvideo.com,哔哩哔哩"
+  - "DOMAIN-SUFFIX,animetamashi.cn,哔哩哔哩"
+  - "DOMAIN-SUFFIX,animetamashi.com,哔哩哔哩"
+  - "DOMAIN-SUFFIX,anitama.cn,哔哩哔哩"
+  - "DOMAIN-SUFFIX,anitama.net,哔哩哔哩"
+  - "DOMAIN-SUFFIX,b23.tv,哔哩哔哩"
+  - "DOMAIN-SUFFIX,bigfun.cn,哔哩哔哩"
+  - "DOMAIN-SUFFIX,bigfunapp.cn,哔哩哔哩"
+  - "DOMAIN-SUFFIX,bili22.cn,哔哩哔哩"
+  - "DOMAIN-SUFFIX,bili2233.cn,哔哩哔哩"
+  - "DOMAIN-SUFFIX,bili23.cn,哔哩哔哩"
+  - "DOMAIN-SUFFIX,bili33.cn,哔哩哔哩"
+  - "DOMAIN-SUFFIX,biliapi.com,哔哩哔哩"
+  - "DOMAIN-SUFFIX,biliapi.net,哔哩哔哩"
+  - "DOMAIN-SUFFIX,bilibili.cc,哔哩哔哩"
+  - "DOMAIN-SUFFIX,bilibili.cn,哔哩哔哩"
+  - "DOMAIN-SUFFIX,bilibili.com,哔哩哔哩"
+  - "DOMAIN-SUFFIX,bilibili.net,哔哩哔哩"
+  - "DOMAIN-SUFFIX,bilibilipay.cn,哔哩哔哩"
+  - "DOMAIN-SUFFIX,bilibilipay.com,哔哩哔哩"
+  - "DOMAIN-SUFFIX,bilicdn1.com,哔哩哔哩"
+  - "DOMAIN-SUFFIX,bilicdn2.com,哔哩哔哩"
+  - "DOMAIN-SUFFIX,bilicdn3.com,哔哩哔哩"
+  - "DOMAIN-SUFFIX,bilicdn4.com,哔哩哔哩"
+  - "DOMAIN-SUFFIX,bilicdn5.com,哔哩哔哩"
+  - "DOMAIN-SUFFIX,biligo.com,哔哩哔哩"
+  - "DOMAIN-SUFFIX,biliimg.com,哔哩哔哩"
+  - "DOMAIN-SUFFIX,bilivideo.cn,哔哩哔哩"
+  - "DOMAIN-SUFFIX,bilivideo.com,哔哩哔哩"
+  - "DOMAIN-SUFFIX,bilivideo.net,哔哩哔哩"
+  - "DOMAIN-SUFFIX,dreamcast.hk,哔哩哔哩"
+  - "DOMAIN-SUFFIX,hdslb.com,哔哩哔哩"
+  - "DOMAIN-SUFFIX,hdslb.org,哔哩哔哩"
+  - "DOMAIN-SUFFIX,im9.com,哔哩哔哩"
+  - "DOMAIN-SUFFIX,maoercdn.com,哔哩哔哩"
+  - "DOMAIN-SUFFIX,mincdn.com,哔哩哔哩"
+  - "DOMAIN-SUFFIX,yo9.com,哔哩哔哩"
+  - "DOMAIN-SUFFIX,bilibili.tv,哔哩哔哩"
+  - "DOMAIN-SUFFIX,biliintl.com,哔哩哔哩"
+  - "DOMAIN-SUFFIX,bilibiligame.cn,哔哩哔哩"
+  - "DOMAIN-SUFFIX,bilibiligame.co,哔哩哔哩"
+  - "DOMAIN-SUFFIX,bilibiligame.net,哔哩哔哩"
+  - "DOMAIN-SUFFIX,biligame.co,哔哩哔哩"
+  - "DOMAIN-SUFFIX,biligame.com,哔哩哔哩"
+  - "DOMAIN-SUFFIX,biligame.net,哔哩哔哩"
+  - "DOMAIN,e.crashlytics.com,REJECT"
+  - "DOMAIN-SUFFIX,a1.mzstatic.com,苹果服务"
+  - "DOMAIN-SUFFIX,a2.mzstatic.com,苹果服务"
+  - "DOMAIN-SUFFIX,a3.mzstatic.com,苹果服务"
+  - "DOMAIN-SUFFIX,a4.mzstatic.com,苹果服务"
+  - "DOMAIN-SUFFIX,a5.mzstatic.com,苹果服务"
+  - "DOMAIN-SUFFIX,adcdownload.apple.com.akadns.net,苹果服务"
+  - "DOMAIN-SUFFIX,adcdownload.apple.com,苹果服务"
+  - "DOMAIN-SUFFIX,appldnld.apple.com,苹果服务"
+  - "DOMAIN-SUFFIX,appldnld.g.aaplimg.com,苹果服务"
+  - "DOMAIN-SUFFIX,appleid.cdn-apple.com,苹果服务"
+  - "DOMAIN-SUFFIX,apps.apple.com,苹果服务"
+  - "DOMAIN-SUFFIX,apps.mzstatic.com,苹果服务"
+  - "DOMAIN-SUFFIX,cdn-cn1.apple-mapkit.com,苹果服务"
+  - "DOMAIN-SUFFIX,cdn-cn2.apple-mapkit.com,苹果服务"
+  - "DOMAIN-SUFFIX,cdn-cn3.apple-mapkit.com,苹果服务"
+  - "DOMAIN-SUFFIX,cdn-cn4.apple-mapkit.com,苹果服务"
+  - "DOMAIN-SUFFIX,cdn.apple-mapkit.com,苹果服务"
+  - "DOMAIN-SUFFIX,cdn1.apple-mapkit.com,苹果服务"
+  - "DOMAIN-SUFFIX,cdn2.apple-mapkit.com,苹果服务"
+  - "DOMAIN-SUFFIX,cdn3.apple-mapkit.com,苹果服务"
+  - "DOMAIN-SUFFIX,cdn4.apple-mapkit.com,苹果服务"
+  - "DOMAIN-SUFFIX,cds-cdn.v.aaplimg.com,苹果服务"
+  - "DOMAIN-SUFFIX,cds.apple.com.akadns.net,苹果服务"
+  - "DOMAIN-SUFFIX,cds.apple.com,苹果服务"
+  - "DOMAIN-SUFFIX,cl1-cdn.origin-apple.com.akadns.net,苹果服务"
+  - "DOMAIN-SUFFIX,cl1.apple.com,苹果服务"
+  - "DOMAIN-SUFFIX,cl2-cn.apple.com,苹果服务"
+  - "DOMAIN-SUFFIX,cl2.apple.com.edgekey.net.globalredir.akadns.net,苹果服务"
+  - "DOMAIN-SUFFIX,cl2.apple.com,苹果服务"
+  - "DOMAIN-SUFFIX,cl3-cdn.origin-apple.com.akadns.net,苹果服务"
+  - "DOMAIN-SUFFIX,cl3.apple.com,苹果服务"
+  - "DOMAIN-SUFFIX,cl4-cdn.origin-apple.com.akadns.net,苹果服务"
+  - "DOMAIN-SUFFIX,cl4-cn.apple.com,苹果服务"
+  - "DOMAIN-SUFFIX,cl4.apple.com,苹果服务"
+  - "DOMAIN-SUFFIX,cl5-cdn.origin-apple.com.akadns.net,苹果服务"
+  - "DOMAIN-SUFFIX,cl5.apple.com,苹果服务"
+  - "DOMAIN-SUFFIX,clientflow.apple.com.akadns.net,苹果服务"
+  - "DOMAIN-SUFFIX,clientflow.apple.com,苹果服务"
+  - "DOMAIN-SUFFIX,configuration.apple.com.akadns.net,苹果服务"
+  - "DOMAIN-SUFFIX,configuration.apple.com,苹果服务"
+  - "DOMAIN-SUFFIX,cstat.apple.com,苹果服务"
+  - "DOMAIN-SUFFIX,dd-cdn.origin-apple.com.akadns.net,苹果服务"
+  - "DOMAIN-SUFFIX,download.developer.apple.com,苹果服务"
+  - "DOMAIN-SUFFIX,gs-loc-cn.apple.com,苹果服务"
+  - "DOMAIN-SUFFIX,gs-loc.apple.com,苹果服务"
+  - "DOMAIN-SUFFIX,gsp10-ssl-cn.ls.apple.com,苹果服务"
+  - "DOMAIN-SUFFIX,gsp11-cn.ls.apple.com,苹果服务"
+  - "DOMAIN-SUFFIX,gsp12-cn.ls.apple.com,苹果服务"
+  - "DOMAIN-SUFFIX,gsp13-cn.ls.apple.com,苹果服务"
+  - "DOMAIN-SUFFIX,gsp4-cn.ls.apple.com.edgekey.net.globalredir.akadns.net,苹果服务"
+  - "DOMAIN-SUFFIX,gsp4-cn.ls.apple.com.edgekey.net,苹果服务"
+  - "DOMAIN-SUFFIX,gsp4-cn.ls.apple.com,苹果服务"
+  - "DOMAIN-SUFFIX,gsp5-cn.ls.apple.com,苹果服务"
+  - "DOMAIN-SUFFIX,gsp85-cn-ssl.ls.apple.com,苹果服务"
+  - "DOMAIN-SUFFIX,gspe19-cn-ssl.ls.apple.com,苹果服务"
+  - "DOMAIN-SUFFIX,gspe19-cn.ls-apple.com.akadns.net,苹果服务"
+  - "DOMAIN-SUFFIX,gspe19-cn.ls.apple.com,苹果服务"
+  - "DOMAIN-SUFFIX,gspe21-ssl.ls.apple.com,苹果服务"
+  - "DOMAIN-SUFFIX,gspe21.ls.apple.com,苹果服务"
+  - "DOMAIN-SUFFIX,gspe35-ssl.ls.apple.com,苹果服务"
+  - "DOMAIN-SUFFIX,iadsdk.apple.com,苹果服务"
+  - "DOMAIN-SUFFIX,icloud-cdn.icloud.com.akadns.net,苹果服务"
+  - "DOMAIN-SUFFIX,icloud.cdn-apple.com,苹果服务"
+  - "DOMAIN-SUFFIX,images.apple.com.akadns.net,苹果服务"
+  - "DOMAIN-SUFFIX,images.apple.com.edgekey.net.globalredir.akadns.net,苹果服务"
+  - "DOMAIN-SUFFIX,images.apple.com,苹果服务"
+  - "DOMAIN-SUFFIX,init-p01md-lb.push-apple.com.akadns.net,苹果服务"
+  - "DOMAIN-SUFFIX,init-p01md.apple.com,苹果服务"
+  - "DOMAIN-SUFFIX,init-p01st-lb.push-apple.com.akadns.net,苹果服务"
+  - "DOMAIN-SUFFIX,init-p01st.push.apple.com,苹果服务"
+  - "DOMAIN-SUFFIX,init-s01st-lb.push-apple.com.akadns.net,苹果服务"
+  - "DOMAIN-SUFFIX,init-s01st.push.apple.com,苹果服务"
+  - "DOMAIN-SUFFIX,iosapps.itunes.g.aaplimg.com,苹果服务"
+  - "DOMAIN-SUFFIX,iphone-ld.apple.com,苹果服务"
+  - "DOMAIN-SUFFIX,is1-ssl.mzstatic.com,苹果服务"
+  - "DOMAIN-SUFFIX,is1.mzstatic.com,苹果服务"
+  - "DOMAIN-SUFFIX,is2-ssl.mzstatic.com,苹果服务"
+  - "DOMAIN-SUFFIX,is2.mzstatic.com,苹果服务"
+  - "DOMAIN-SUFFIX,is3-ssl.mzstatic.com,苹果服务"
+  - "DOMAIN-SUFFIX,is3.mzstatic.com,苹果服务"
+  - "DOMAIN-SUFFIX,is4-ssl.mzstatic.com,苹果服务"
+  - "DOMAIN-SUFFIX,is4.mzstatic.com,苹果服务"
+  - "DOMAIN-SUFFIX,is5-ssl.mzstatic.com,苹果服务"
+  - "DOMAIN-SUFFIX,is5.mzstatic.com,苹果服务"
+  - "DOMAIN-SUFFIX,itunes-apple.com.akadns.net,苹果服务"
+  - "DOMAIN-SUFFIX,itunes.apple.com,苹果服务"
+  - "DOMAIN-SUFFIX,itunesconnect.apple.com,苹果服务"
+  - "DOMAIN-SUFFIX,mesu-cdn.apple.com.akadns.net,苹果服务"
+  - "DOMAIN-SUFFIX,mesu-china.apple.com.akadns.net,苹果服务"
+  - "DOMAIN-SUFFIX,mesu.apple.com,苹果服务"
+  - "DOMAIN-SUFFIX,music.apple.com,苹果服务"
+  - "DOMAIN-SUFFIX,ocsp-lb.apple.com.akadns.net,苹果服务"
+  - "DOMAIN-SUFFIX,ocsp.apple.com,苹果服务"
+  - "DOMAIN-SUFFIX,oscdn.apple.com,苹果服务"
+  - "DOMAIN-SUFFIX,oscdn.origin-apple.com.akadns.net,苹果服务"
+  - "DOMAIN-SUFFIX,pancake.apple.com,苹果服务"
+  - "DOMAIN-SUFFIX,pancake.cdn-apple.com.akadns.net,苹果服务"
+  - "DOMAIN-SUFFIX,phobos.apple.com,苹果服务"
+  - "DOMAIN-SUFFIX,prod-support.apple-support.akadns.net,苹果服务"
+  - "DOMAIN-SUFFIX,reserve-prime.apple.com,苹果服务"
+  - "DOMAIN-SUFFIX,s.mzstatic.com,苹果服务"
+  - "DOMAIN-SUFFIX,stocks-sparkline-lb.apple.com.akadns.net,苹果服务"
+  - "DOMAIN-SUFFIX,store.apple.com.edgekey.net.globalredir.akadns.net,苹果服务"
+  - "DOMAIN-SUFFIX,store.apple.com.edgekey.net,苹果服务"
+  - "DOMAIN-SUFFIX,store.apple.com,苹果服务"
+  - "DOMAIN-SUFFIX,store.storeimages.apple.com.akadns.net,苹果服务"
+  - "DOMAIN-SUFFIX,store.storeimages.cdn-apple.com,苹果服务"
+  - "DOMAIN-SUFFIX,support-china.apple-support.akadns.net,苹果服务"
+  - "DOMAIN-SUFFIX,support.apple.com,苹果服务"
+  - "DOMAIN-SUFFIX,swcatalog-cdn.apple.com.akadns.net,苹果服务"
+  - "DOMAIN-SUFFIX,swcatalog.apple.com,苹果服务"
+  - "DOMAIN-SUFFIX,swcdn.apple.com,苹果服务"
+  - "DOMAIN-SUFFIX,swcdn.g.aaplimg.com,苹果服务"
+  - "DOMAIN-SUFFIX,swdist.apple.com.akadns.net,苹果服务"
+  - "DOMAIN-SUFFIX,swdist.apple.com,苹果服务"
+  - "DOMAIN-SUFFIX,swscan-cdn.apple.com.akadns.net,苹果服务"
+  - "DOMAIN-SUFFIX,swscan.apple.com,苹果服务"
+  - "DOMAIN-SUFFIX,updates-http.cdn-apple.com.akadns.net,苹果服务"
+  - "DOMAIN-SUFFIX,updates-http.cdn-apple.com,苹果服务"
+  - "DOMAIN-SUFFIX,updates.cdn-apple.com,苹果服务"
+  - "DOMAIN-SUFFIX,valid.apple.com,苹果服务"
+  - "DOMAIN-SUFFIX,valid.origin-apple.com.akadns.net,苹果服务"
+  - "DOMAIN-SUFFIX,www.apple.com.edgekey.net.globalredir.akadns.net,苹果服务"
+  - "DOMAIN-SUFFIX,www.apple.com.edgekey.net,苹果服务"
+  - "DOMAIN-SUFFIX,www.apple.com,苹果服务"
+  - "DOMAIN-SUFFIX,www-cdn.icloud.com.akadns.net,苹果服务"
+  - "DOMAIN-SUFFIX,applemx-icloud.com,苹果服务"
+  - "DOMAIN,api.smoot.apple.cn,苹果服务"
+  - "DOMAIN,apple-events.akamaized.net,苹果服务"
+  - "DOMAIN,apple.comscoreresearch.com,苹果服务"
+  - "DOMAIN-SUFFIX,aaplimg.com,苹果服务"
+  - "DOMAIN-SUFFIX,akadns.net,苹果服务"
+  - "DOMAIN-SUFFIX,apple-cloudkit.com,苹果服务"
+  - "DOMAIN-SUFFIX,apple-dns.net,苹果服务"
+  - "DOMAIN-SUFFIX,apple-icloud.cn,苹果服务"
+  - "DOMAIN-SUFFIX,apple-livephotoskit.com,苹果服务"
+  - "DOMAIN-SUFFIX,apple-mapkit.com,苹果服务"
+  - "DOMAIN-SUFFIX,apple.co,苹果服务"
+  - "DOMAIN-SUFFIX,apple.com,苹果服务"
+  - "DOMAIN-SUFFIX,apple.com.cdn20.com,苹果服务"
+  - "DOMAIN-SUFFIX,apple.com.cn,苹果服务"
+  - "DOMAIN-SUFFIX,apple.com.mwcloudcdn.com,苹果服务"
+  - "DOMAIN-SUFFIX,apple.com.mwcname.com,苹果服务"
+  - "DOMAIN-SUFFIX,apple.news,苹果服务"
+  - "DOMAIN-SUFFIX,appleicloud.cn,苹果服务"
+  - "DOMAIN-SUFFIX,applemusic.com,苹果服务"
+  - "DOMAIN-SUFFIX,applemx-icloud.com,苹果服务"
+  - "DOMAIN-SUFFIX,appsto.re,苹果服务"
+  - "DOMAIN-SUFFIX,appstore.com,苹果服务"
+  - "DOMAIN-SUFFIX,apzones.com,苹果服务"
+  - "DOMAIN-SUFFIX,cdn-apple.com,苹果服务"
+  - "DOMAIN-SUFFIX,crashlytics.com,苹果服务"
+  - "DOMAIN-SUFFIX,digicert.com,苹果服务"
+  - "DOMAIN-SUFFIX,gsp4-cn.ls.apple.com.edgekey.net,苹果服务"
+  - "DOMAIN-SUFFIX,icloud,苹果服务"
+  - "DOMAIN-SUFFIX,itunes.com,苹果服务"
+  - "DOMAIN-SUFFIX,itunes.com.edgekey.net,苹果服务"
+  - "DOMAIN-SUFFIX,me.com,苹果服务"
+  - "DOMAIN-SUFFIX,mzstatic.com,苹果服务"
+  - "DOMAIN-SUFFIX,safebrowsing.apple,苹果服务"
+  - "DOMAIN-SUFFIX,store.apple.com.edgekey.net,苹果服务"
+  - "DOMAIN-SUFFIX,www.apple.com.edgekey.net,苹果服务"
+  - "DOMAIN-SUFFIX,wwwicloud.com,苹果服务"
+  - "DOMAIN-KEYWORD,apple-support.akadns.net,苹果服务"
+  - "DOMAIN-KEYWORD,apple.com.akadns.net,苹果服务"
+  - "DOMAIN-KEYWORD,apple.com.edgekey.net,苹果服务"
+  - "DOMAIN-KEYWORD,icloud.com.akadns.net,苹果服务"
+  - "DOMAIN-KEYWORD,icoudo,苹果服务"
+  - "DOMAIN-KEYWORD,icoudos,苹果服务"
+  - "DOMAIN-KEYWORD,testflight,苹果服务"
+  - "IP-CIDR,139.178.128.0/18,苹果服务,no-resolve"
+  - "IP-CIDR,144.178.0.0/19,苹果服务,no-resolve"
+  - "IP-CIDR,144.178.36.0/22,苹果服务,no-resolve"
+  - "IP-CIDR,144.178.48.0/20,苹果服务,no-resolve"
+  - "IP-CIDR,17.0.0.0/8,苹果服务,no-resolve"
+  - "IP-CIDR,192.35.50.0/24,苹果服务,no-resolve"
+  - "IP-CIDR,198.183.17.0/24,苹果服务,no-resolve"
+  - "IP-CIDR,205.180.175.0/24,苹果服务,no-resolve"
+  - "IP-CIDR,63.92.224.0/19,苹果服务,no-resolve"
+  - "IP-CIDR,65.199.22.0/23,苹果服务,no-resolve"
+  - "DOMAIN,f3b7q2p3.ssl.hwcdn.net,Steam"
+  - "DOMAIN,steambroadcast.akamaized.net,Steam"
+  - "DOMAIN,steamcdn-a.akamaihd.net,Steam"
+  - "DOMAIN,steamcommunity-a.akamaihd.net,Steam"
+  - "DOMAIN,steammobile.akamaized.net,Steam"
+  - "DOMAIN,steampipe-kr.akamaized.net,Steam"
+  - "DOMAIN,xz.pphimalayanrt.com,Steam"
+  - "DOMAIN,steampipe-partner.akamaized.net,Steam"
+  - "DOMAIN,steampipe.akamaized.net,Steam"
+  - "DOMAIN,steamstore-a.akamaihd.net,Steam"
+  - "DOMAIN,steamusercontent-a.akamaihd.net,Steam"
+  - "DOMAIN,steamuserimages-a.akamaihd.net,Steam"
+  - "DOMAIN,steamvideo-a.akamaihd.net,Steam"
+  - "DOMAIN-SUFFIX,valvesoftware.com,Steam"
+  - "DOMAIN-SUFFIX,s.team,Steam"
+  - "DOMAIN-SUFFIX,steam-api.com,Steam"
+  - "DOMAIN-SUFFIX,steam-chat.com,Steam"
+  - "DOMAIN-SUFFIX,steamcommunity.com,Steam"
+  - "DOMAIN-SUFFIX,steamdeck.com,Steam"
+  - "DOMAIN-SUFFIX,steamgames.com,Steam"
+  - "DOMAIN-SUFFIX,playartifact.com,Steam"
+  - "DOMAIN-SUFFIX,steamstatic.com,Steam"
+  - "DOMAIN-SUFFIX,underlords.com,Steam"
+  - "DOMAIN-SUFFIX,steampowered.com,Steam"
+  - "DOMAIN-SUFFIX,steam.eca.qtlglb.com,Steam"
+  - "DOMAIN-SUFFIX,steam.apac.qtlglb.com,Steam"
+  - "DOMAIN-SUFFIX,steam.naeu.qtlglb.com,Steam"
+  - "DOMAIN-SUFFIX,steam.ru.qtlglb.com,Steam"
+  - "DOMAIN-SUFFIX,steam.cdn.on.net,Steam"
+  - "DOMAIN-SUFFIX,steam.cdn.webra.ru,Steam"
+  - "DOMAIN-SUFFIX,edge.steam-dns.top.comcast.net,Steam"
+  - "DOMAIN-SUFFIX,steam.cdn.orcon.net.nz,Steam"
+  - "DOMAIN-SUFFIX,steam.cdn.slingshot.co.nz,Steam"
+  - "DOMAIN-SUFFIX,steamcontent.com,Steam"
+  - "DOMAIN-SUFFIX,steamserver.net,Steam"
+  - "DOMAIN-SUFFIX,steamusercontent.com,Steam"
+  - "DOMAIN-SUFFIX,csgo.wmsj.cn,Steam"
+  - "DOMAIN-SUFFIX,dota2.wmsj.cn,Steam"
+  - "DOMAIN-SUFFIX,wmsjsteam.com,Steam"
+  - "DOMAIN-SUFFIX,dl.steam.clngaa.com,Steam"
+  - "DOMAIN-SUFFIX,dl.steam.ksyna.com,Steam"
+  - "DOMAIN-SUFFIX,st.dl.bscstorage.net,Steam"
+  - "DOMAIN-SUFFIX,st.dl.eccdnx.com,Steam"
+  - "DOMAIN-SUFFIX,st.dl.pinyuncloud.com,Steam"
+  - "DOMAIN-SUFFIX,steampipe.steamcontent.tnkjmec.com,Steam"
+  - "DOMAIN-SUFFIX,steampowered.com.8686c.com,Steam"
+  - "DOMAIN-SUFFIX,steamstatic.com.8686c.com,Steam"
+  - "DOMAIN-SUFFIX,steamchina.com,Steam"
+  - "DOMAIN-SUFFIX,ads-twitter.com,Twitter"
+  - "DOMAIN-SUFFIX,cms-twdigitalassets.com,Twitter"
+  - "DOMAIN-SUFFIX,periscope.tv,Twitter"
+  - "DOMAIN-SUFFIX,pscp.tv,Twitter"
+  - "DOMAIN-SUFFIX,t.co,Twitter"
+  - "DOMAIN-SUFFIX,tellapart.com,Twitter"
+  - "DOMAIN-SUFFIX,tweetdeck.com,Twitter"
+  - "DOMAIN-SUFFIX,twimg.com,Twitter"
+  - "DOMAIN-SUFFIX,twitpic.com,Twitter"
+  - "DOMAIN-SUFFIX,twitter.biz,Twitter"
+  - "DOMAIN-SUFFIX,twitter.com,Twitter"
+  - "DOMAIN-SUFFIX,twitter.jp,Twitter"
+  - "DOMAIN-SUFFIX,twittercommunity.com,Twitter"
+  - "DOMAIN-SUFFIX,twitterflightschool.com,Twitter"
+  - "DOMAIN-SUFFIX,twitterinc.com,Twitter"
+  - "DOMAIN-SUFFIX,twitteroauth.com,Twitter"
+  - "DOMAIN-SUFFIX,twitterstat.us,Twitter"
+  - "DOMAIN-SUFFIX,twtrdns.net,Twitter"
+  - "DOMAIN-SUFFIX,twttr.com,Twitter"
+  - "DOMAIN-SUFFIX,twttr.net,Twitter"
+  - "DOMAIN-SUFFIX,twvid.com,Twitter"
+  - "DOMAIN-SUFFIX,vine.co,Twitter"
+  - "DOMAIN-SUFFIX,x.com,Twitter"
+  - "DOMAIN-SUFFIX,0emm.com,谷歌服务"
+  - "DOMAIN-SUFFIX,1ucrs.com,谷歌服务"
+  - "DOMAIN-SUFFIX,2mdn.net,谷歌服务"
+  - "DOMAIN-SUFFIX,466453.com,谷歌服务"
+  - "DOMAIN-SUFFIX,abc.xyz,谷歌服务"
+  - "DOMAIN-SUFFIX,adgoogle.net,谷歌服务"
+  - "DOMAIN-SUFFIX,admeld.com,谷歌服务"
+  - "DOMAIN-SUFFIX,admob.com,谷歌服务"
+  - "DOMAIN-SUFFIX,adsense.com,谷歌服务"
+  - "DOMAIN-SUFFIX,adsensecustomsearchads.com,谷歌服务"
+  - "DOMAIN-SUFFIX,adsenseformobileapps.com,谷歌服务"
+  - "DOMAIN-SUFFIX,advertisercommunity.com,谷歌服务"
+  - "DOMAIN-SUFFIX,advertiserscommunity.com,谷歌服务"
+  - "DOMAIN-SUFFIX,adwords-community.com,谷歌服务"
+  - "DOMAIN-SUFFIX,adwords.com,谷歌服务"
+  - "DOMAIN-SUFFIX,adwordsexpress.com,谷歌服务"
+  - "DOMAIN-SUFFIX,amp.dev,谷歌服务"
+  - "DOMAIN-SUFFIX,ampproject.com,谷歌服务"
+  - "DOMAIN-SUFFIX,ampproject.net,谷歌服务"
+  - "DOMAIN-SUFFIX,ampproject.org,谷歌服务"
+  - "DOMAIN-SUFFIX,android.com,谷歌服务"
+  - "DOMAIN-SUFFIX,androidify.com,谷歌服务"
+  - "DOMAIN-SUFFIX,androidtv.com,谷歌服务"
+  - "DOMAIN-SUFFIX,angulardart.org,谷歌服务"
+  - "DOMAIN-SUFFIX,api.ai,谷歌服务"
+  - "DOMAIN-SUFFIX,apigee.com,谷歌服务"
+  - "DOMAIN-SUFFIX,app-measurement.com,谷歌服务"
+  - "DOMAIN-SUFFIX,app-measurement.net,谷歌服务"
+  - "DOMAIN-SUFFIX,appbridge.ca,谷歌服务"
+  - "DOMAIN-SUFFIX,appbridge.io,谷歌服务"
+  - "DOMAIN-SUFFIX,appbridge.it,谷歌服务"
+  - "DOMAIN-SUFFIX,appspot.com,谷歌服务"
+  - "DOMAIN-SUFFIX,apture.com,谷歌服务"
+  - "DOMAIN-SUFFIX,area120.com,谷歌服务"
+  - "DOMAIN-SUFFIX,asp-cc.com,谷歌服务"
+  - "DOMAIN-SUFFIX,autodraw.com,谷歌服务"
+  - "DOMAIN-SUFFIX,bandpage.com,谷歌服务"
+  - "DOMAIN-SUFFIX,baselinestudy.com,谷歌服务"
+  - "DOMAIN-SUFFIX,baselinestudy.org,谷歌服务"
+  - "DOMAIN-SUFFIX,bazel.build,谷歌服务"
+  - "DOMAIN-SUFFIX,bdn.dev,谷歌服务"
+  - "DOMAIN-SUFFIX,beatthatquote.com,谷歌服务"
+  - "DOMAIN-SUFFIX,blink.org,谷歌服务"
+  - "DOMAIN-SUFFIX,blogblog.com,谷歌服务"
+  - "DOMAIN-SUFFIX,blogger.com,谷歌服务"
+  - "DOMAIN-KEYWORD,blogspot,谷歌服务"
+  - "DOMAIN-SUFFIX,brocaproject.com,谷歌服务"
+  - "DOMAIN-SUFFIX,brotli.org,谷歌服务"
+  - "DOMAIN-SUFFIX,bumpshare.com,谷歌服务"
+  - "DOMAIN-SUFFIX,bumptop.ca,谷歌服务"
+  - "DOMAIN-SUFFIX,bumptop.com,谷歌服务"
+  - "DOMAIN-SUFFIX,bumptop.net,谷歌服务"
+  - "DOMAIN-SUFFIX,bumptop.org,谷歌服务"
+  - "DOMAIN-SUFFIX,bumptunes.com,谷歌服务"
+  - "DOMAIN-SUFFIX,campuslondon.com,谷歌服务"
+  - "DOMAIN-SUFFIX,capitalg.com,谷歌服务"
+  - "DOMAIN-SUFFIX,certificate-transparency.dev,谷歌服务"
+  - "DOMAIN-SUFFIX,certificate-transparency.org,谷歌服务"
+  - "DOMAIN-SUFFIX,charlestonroadregistry.com,谷歌服务"
+  - "DOMAIN-SUFFIX,chat.gle,谷歌服务"
+  - "DOMAIN-SUFFIX,chrome.com,谷歌服务"
+  - "DOMAIN-SUFFIX,chromebook.com,谷歌服务"
+  - "DOMAIN-SUFFIX,chromecast.com,谷歌服务"
+  - "DOMAIN-SUFFIX,chromeexperiments.com,谷歌服务"
+  - "DOMAIN-SUFFIX,chromeos.dev,谷歌服务"
+  - "DOMAIN-SUFFIX,chromercise.com,谷歌服务"
+  - "DOMAIN-SUFFIX,chromestatus.com,谷歌服务"
+  - "DOMAIN-SUFFIX,chromium.org,谷歌服务"
+  - "DOMAIN-SUFFIX,chronicle.security,谷歌服务"
+  - "DOMAIN-SUFFIX,chroniclesec.com,谷歌服务"
+  - "DOMAIN-SUFFIX,clickserver.googleads.com,谷歌服务"
+  - "DOMAIN-SUFFIX,cloudburstresearch.com,谷歌服务"
+  - "DOMAIN-SUFFIX,cloudfunctions.net,谷歌服务"
+  - "DOMAIN-SUFFIX,cloudrobotics.com,谷歌服务"
+  - "DOMAIN-SUFFIX,cobrasearch.com,谷歌服务"
+  - "DOMAIN-SUFFIX,codespot.com,谷歌服务"
+  - "DOMAIN-SUFFIX,conscrypt.com,谷歌服务"
+  - "DOMAIN-SUFFIX,conscrypt.org,谷歌服务"
+  - "DOMAIN-SUFFIX,cookiechoices.org,谷歌服务"
+  - "DOMAIN-SUFFIX,coova.com,谷歌服务"
+  - "DOMAIN-SUFFIX,coova.net,谷歌服务"
+  - "DOMAIN-SUFFIX,coova.org,谷歌服务"
+  - "DOMAIN-SUFFIX,crashlytics.com,谷歌服务"
+  - "DOMAIN-SUFFIX,crbug.com,谷歌服务"
+  - "DOMAIN-SUFFIX,creativelab5.com,谷歌服务"
+  - "DOMAIN-SUFFIX,crossmediapanel.com,谷歌服务"
+  - "DOMAIN-SUFFIX,crr.com,谷歌服务"
+  - "DOMAIN-SUFFIX,crrev.com,谷歌服务"
+  - "DOMAIN-SUFFIX,cs4hs.com,谷歌服务"
+  - "DOMAIN-SUFFIX,dart.dev,谷歌服务"
+  - "DOMAIN-SUFFIX,dartlang.org,谷歌服务"
+  - "DOMAIN-SUFFIX,dartpad.dev,谷歌服务"
+  - "DOMAIN-SUFFIX,dartsearch.net,谷歌服务"
+  - "DOMAIN-SUFFIX,data-vocabulary.org,谷歌服务"
+  - "DOMAIN-SUFFIX,dataliberation.org,谷歌服务"
+  - "DOMAIN-SUFFIX,debug.com,谷歌服务"
+  - "DOMAIN-SUFFIX,debugproject.com,谷歌服务"
+  - "DOMAIN-SUFFIX,deepmind.com,谷歌服务"
+  - "DOMAIN-SUFFIX,deja.com,谷歌服务"
+  - "DOMAIN-SUFFIX,devsitetest.how,谷歌服务"
+  - "DOMAIN-SUFFIX,dialogflow.com,谷歌服务"
+  - "DOMAIN-SUFFIX,digisfera.com,谷歌服务"
+  - "DOMAIN-SUFFIX,digitalassetlinks.org,谷歌服务"
+  - "DOMAIN-SUFFIX,digitalattackmap.com,谷歌服务"
+  - "DOMAIN-SUFFIX,doubleclick.com,谷歌服务"
+  - "DOMAIN-SUFFIX,doubleclick.net,谷歌服务"
+  - "DOMAIN-SUFFIX,episodic.com,谷歌服务"
+  - "DOMAIN-SUFFIX,fastlane.ci,谷歌服务"
+  - "DOMAIN-SUFFIX,fastlane.tools,谷歌服务"
+  - "DOMAIN-SUFFIX,feedburner.com,谷歌服务"
+  - "DOMAIN-SUFFIX,fflick.com,谷歌服务"
+  - "DOMAIN-SUFFIX,financeleadsonline.com,谷歌服务"
+  - "DOMAIN-SUFFIX,firebaseapp.com,谷歌服务"
+  - "DOMAIN-SUFFIX,firebaseio.com,谷歌服务"
+  - "DOMAIN-SUFFIX,flutter.dev,谷歌服务"
+  - "DOMAIN-SUFFIX,flutterapp.com,谷歌服务"
+  - "DOMAIN-SUFFIX,foofle.com,谷歌服务"
+  - "DOMAIN-SUFFIX,froogle.com,谷歌服务"
+  - "DOMAIN-SUFFIX,fuchsia.dev,谷歌服务"
+  - "DOMAIN-SUFFIX,g-tun.com,谷歌服务"
+  - "DOMAIN-SUFFIX,g.cn,谷歌服务"
+  - "DOMAIN-SUFFIX,g.co,谷歌服务"
+  - "DOMAIN-SUFFIX,g.dev,谷歌服务"
+  - "DOMAIN-SUFFIX,g.page,谷歌服务"
+  - "DOMAIN-SUFFIX,gateway.dev,谷歌服务"
+  - "DOMAIN-SUFFIX,gcr.io,谷歌服务"
+  - "DOMAIN-SUFFIX,gerritcodereview.com,谷歌服务"
+  - "DOMAIN-SUFFIX,get.app,谷歌服务"
+  - "DOMAIN-SUFFIX,get.dev,谷歌服务"
+  - "DOMAIN-SUFFIX,get.how,谷歌服务"
+  - "DOMAIN-SUFFIX,get.page,谷歌服务"
+  - "DOMAIN-SUFFIX,getbumptop.com,谷歌服务"
+  - "DOMAIN-SUFFIX,getmdl.io,谷歌服务"
+  - "DOMAIN-SUFFIX,getoutline.org,谷歌服务"
+  - "DOMAIN-SUFFIX,ggoogle.com,谷歌服务"
+  - "DOMAIN-SUFFIX,ggpht.cn,谷歌服务"
+  - "DOMAIN-SUFFIX,ggpht.com,谷歌服务"
+  - "DOMAIN-SUFFIX,gipscorp.com,谷歌服务"
+  - "DOMAIN-SUFFIX,gkecnapps.cn,谷歌服务"
+  - "DOMAIN-SUFFIX,globaledu.org,谷歌服务"
+  - "DOMAIN-SUFFIX,gmail.com,谷歌服务"
+  - "DOMAIN-SUFFIX,gmodules.com,谷歌服务"
+  - "DOMAIN-SUFFIX,go-lang.com,谷歌服务"
+  - "DOMAIN-SUFFIX,go-lang.net,谷歌服务"
+  - "DOMAIN-SUFFIX,go-lang.org,谷歌服务"
+  - "DOMAIN-SUFFIX,go.dev,谷歌服务"
+  - "DOMAIN-SUFFIX,godoc.org,谷歌服务"
+  - "DOMAIN-SUFFIX,gogle.com,谷歌服务"
+  - "DOMAIN-SUFFIX,gogole.com,谷歌服务"
+  - "DOMAIN-SUFFIX,golang.com,谷歌服务"
+  - "DOMAIN-SUFFIX,golang.net,谷歌服务"
+  - "DOMAIN-SUFFIX,golang.org,谷歌服务"
+  - "DOMAIN-SUFFIX,gonglchuangl.net,谷歌服务"
+  - "DOMAIN-SUFFIX,goo.gl,谷歌服务"
+  - "DOMAIN-SUFFIX,googil.com,谷歌服务"
+  - "DOMAIN-SUFFIX,googl.com,谷歌服务"
+  - "DOMAIN-SUFFIX,googlr.com,谷歌服务"
+  - "DOMAIN-SUFFIX,goolge.com,谷歌服务"
+  - "DOMAIN-SUFFIX,gooogle.com,谷歌服务"
+  - "DOMAIN-SUFFIX,gridaware.app,谷歌服务"
+  - "DOMAIN-SUFFIX,gsrc.io,谷歌服务"
+  - "DOMAIN-SUFFIX,gstatic.cn,谷歌服务"
+  - "DOMAIN-SUFFIX,gstatic.com,谷歌服务"
+  - "DOMAIN-SUFFIX,gstaticcnapps.cn,谷歌服务"
+  - "DOMAIN-SUFFIX,gsuite.com,谷歌服务"
+  - "DOMAIN-SUFFIX,gv.com,谷歌服务"
+  - "DOMAIN-SUFFIX,gvt0.com,谷歌服务"
+  - "DOMAIN-SUFFIX,gvt1.com,谷歌服务"
+  - "DOMAIN-SUFFIX,gvt2.com,谷歌服务"
+  - "DOMAIN-SUFFIX,gvt3.com,谷歌服务"
+  - "DOMAIN-SUFFIX,gvt5.com,谷歌服务"
+  - "DOMAIN-SUFFIX,gvt6.com,谷歌服务"
+  - "DOMAIN-SUFFIX,gvt7.com,谷歌服务"
+  - "DOMAIN-SUFFIX,gvt9.com,谷歌服务"
+  - "DOMAIN-SUFFIX,gwtproject.org,谷歌服务"
+  - "DOMAIN-SUFFIX,hdrplusdata.org,谷歌服务"
+  - "DOMAIN-SUFFIX,hey.gle,谷歌服务"
+  - "DOMAIN-SUFFIX,hindiweb.com,谷歌服务"
+  - "DOMAIN-SUFFIX,howtogetmo.co.uk,谷歌服务"
+  - "DOMAIN-SUFFIX,html5rocks.com,谷歌服务"
+  - "DOMAIN-SUFFIX,hwgo.com,谷歌服务"
+  - "DOMAIN-SUFFIX,iam.soy,谷歌服务"
+  - "DOMAIN-SUFFIX,iamremarkable.org,谷歌服务"
+  - "DOMAIN-SUFFIX,igoogle.com,谷歌服务"
+  - "DOMAIN-SUFFIX,impermium.com,谷歌服务"
+  - "DOMAIN-SUFFIX,itasoftware.com,谷歌服务"
+  - "DOMAIN-SUFFIX,j2objc.org,谷歌服务"
+  - "DOMAIN-SUFFIX,jibemobile.com,谷歌服务"
+  - "DOMAIN-SUFFIX,kaggle.com,谷歌服务"
+  - "DOMAIN-SUFFIX,kaggle.io,谷歌服务"
+  - "DOMAIN-SUFFIX,keyhole.com,谷歌服务"
+  - "DOMAIN-SUFFIX,keytransparency.com,谷歌服务"
+  - "DOMAIN-SUFFIX,keytransparency.foo,谷歌服务"
+  - "DOMAIN-SUFFIX,keytransparency.org,谷歌服务"
+  - "DOMAIN-SUFFIX,lanternal.com,谷歌服务"
+  - "DOMAIN-SUFFIX,like.com,谷歌服务"
+  - "DOMAIN-SUFFIX,madewithcode.com,谷歌服务"
+  - "DOMAIN-SUFFIX,material.io,谷歌服务"
+  - "DOMAIN-SUFFIX,mdialog.com,谷歌服务"
+  - "DOMAIN-SUFFIX,meet.new,谷歌服务"
+  - "DOMAIN-SUFFIX,mfg-inspector.com,谷歌服务"
+  - "DOMAIN-SUFFIX,mobileview.page,谷歌服务"
+  - "DOMAIN-SUFFIX,moodstocks.com,谷歌服务"
+  - "DOMAIN-SUFFIX,near.by,谷歌服务"
+  - "DOMAIN-SUFFIX,nest.com,谷歌服务"
+  - "DOMAIN-SUFFIX,neverware.com,谷歌服务"
+  - "DOMAIN-SUFFIX,nomulus.foo,谷歌服务"
+  - "DOMAIN-SUFFIX,oasisfeng.com,谷歌服务"
+  - "DOMAIN-SUFFIX,oauthz.com,谷歌服务"
+  - "DOMAIN-SUFFIX,ok.gle,谷歌服务"
+  - "DOMAIN-SUFFIX,on.here,谷歌服务"
+  - "DOMAIN-SUFFIX,on2.com,谷歌服务"
+  - "DOMAIN-SUFFIX,onefifteen.net,谷歌服务"
+  - "DOMAIN-SUFFIX,onefifteen.org,谷歌服务"
+  - "DOMAIN-SUFFIX,oneworldmanystories.com,谷歌服务"
+  - "DOMAIN-SUFFIX,openthread.io,谷歌服务"
+  - "DOMAIN-SUFFIX,openweave.io,谷歌服务"
+  - "DOMAIN-SUFFIX,orbitera.com,谷歌服务"
+  - "DOMAIN-SUFFIX,page.link,谷歌服务"
+  - "DOMAIN-SUFFIX,pagespeedmobilizer.com,谷歌服务"
+  - "DOMAIN-SUFFIX,pageview.mobi,谷歌服务"
+  - "DOMAIN-SUFFIX,panoramio.com,谷歌服务"
+  - "DOMAIN-SUFFIX,partylikeits1986.org,谷歌服务"
+  - "DOMAIN-SUFFIX,paxlicense.org,谷歌服务"
+  - "DOMAIN-SUFFIX,picasa.com,谷歌服务"
+  - "DOMAIN-SUFFIX,picasaweb.com,谷歌服务"
+  - "DOMAIN-SUFFIX,picasaweb.net,谷歌服务"
+  - "DOMAIN-SUFFIX,picasaweb.org,谷歌服务"
+  - "DOMAIN-SUFFIX,picnik.com,谷歌服务"
+  - "DOMAIN-SUFFIX,pittpatt.com,谷歌服务"
+  - "DOMAIN-SUFFIX,pixate.com,谷歌服务"
+  - "DOMAIN-SUFFIX,pki.goog,谷歌服务"
+  - "DOMAIN-SUFFIX,plus.codes,谷歌服务"
+  - "DOMAIN-SUFFIX,polymer-project.org,谷歌服务"
+  - "DOMAIN-SUFFIX,polymerproject.org,谷歌服务"
+  - "DOMAIN-SUFFIX,postini.com,谷歌服务"
+  - "DOMAIN-SUFFIX,privacysandbox.com,谷歌服务"
+  - "DOMAIN-SUFFIX,projectara.com,谷歌服务"
+  - "DOMAIN-SUFFIX,projectbaseline.com,谷歌服务"
+  - "DOMAIN-SUFFIX,publishproxy.com,谷歌服务"
+  - "DOMAIN-SUFFIX,questvisual.com,谷歌服务"
+  - "DOMAIN-SUFFIX,quickoffice.com,谷歌服务"
+  - "DOMAIN-SUFFIX,quiksee.com,谷歌服务"
+  - "DOMAIN-SUFFIX,recaptcha.net,谷歌服务"
+  - "DOMAIN-SUFFIX,redhotlabs.com,谷歌服务"
+  - "DOMAIN-SUFFIX,registry.google,谷歌服务"
+  - "DOMAIN-SUFFIX,revolv.com,谷歌服务"
+  - "DOMAIN-SUFFIX,ridepenguin.com,谷歌服务"
+  - "DOMAIN-SUFFIX,run.app,谷歌服务"
+  - "DOMAIN-SUFFIX,savethedate.foo,谷歌服务"
+  - "DOMAIN-SUFFIX,saynow.com,谷歌服务"
+  - "DOMAIN-SUFFIX,schema.org,谷歌服务"
+  - "DOMAIN-SUFFIX,schemer.com,谷歌服务"
+  - "DOMAIN-SUFFIX,screenwisetrends.com,谷歌服务"
+  - "DOMAIN-SUFFIX,screenwisetrendspanel.com,谷歌服务"
+  - "DOMAIN-SUFFIX,shattered.io,谷歌服务"
+  - "DOMAIN-SUFFIX,snapseed.com,谷歌服务"
+  - "DOMAIN-SUFFIX,solveforx.com,谷歌服务"
+  - "DOMAIN-SUFFIX,stadia.dev,谷歌服务"
+  - "DOMAIN-SUFFIX,stcroixmosquito.com,谷歌服务"
+  - "DOMAIN-SUFFIX,stcroixmosquitoproject.com,谷歌服务"
+  - "DOMAIN-SUFFIX,studywatchbyverily.com,谷歌服务"
+  - "DOMAIN-SUFFIX,studywatchbyverily.org,谷歌服务"
+  - "DOMAIN-SUFFIX,stxmosquito.com,谷歌服务"
+  - "DOMAIN-SUFFIX,stxmosquitoproject.com,谷歌服务"
+  - "DOMAIN-SUFFIX,stxmosquitoproject.net,谷歌服务"
+  - "DOMAIN-SUFFIX,stxmosquitoproject.org,谷歌服务"
+  - "DOMAIN-SUFFIX,synergyse.com,谷歌服务"
+  - "DOMAIN-SUFFIX,teachparentstech.org,谷歌服务"
+  - "DOMAIN-SUFFIX,telephony.goog,谷歌服务"
+  - "DOMAIN-SUFFIX,tensorflow.org,谷歌服务"
+  - "DOMAIN-SUFFIX,tfhub.dev,谷歌服务"
+  - "DOMAIN-SUFFIX,thecleversense.com,谷歌服务"
+  - "DOMAIN-SUFFIX,thegooglestore.com,谷歌服务"
+  - "DOMAIN-SUFFIX,thinkquarterly.co.uk,谷歌服务"
+  - "DOMAIN-SUFFIX,thinkquarterly.com,谷歌服务"
+  - "DOMAIN-SUFFIX,thinkwithgoogle.com,谷歌服务"
+  - "DOMAIN-SUFFIX,tiltbrush.com,谷歌服务"
+  - "DOMAIN-SUFFIX,txcloud.net,谷歌服务"
+  - "DOMAIN-SUFFIX,txvia.com,谷歌服务"
+  - "DOMAIN-SUFFIX,unfiltered.news,谷歌服务"
+  - "DOMAIN-SUFFIX,urchin.com,谷歌服务"
+  - "DOMAIN-SUFFIX,useplannr.com,谷歌服务"
+  - "DOMAIN-SUFFIX,usvimosquito.com,谷歌服务"
+  - "DOMAIN-SUFFIX,usvimosquitoproject.com,谷歌服务"
+  - "DOMAIN-SUFFIX,v8.dev,谷歌服务"
+  - "DOMAIN-SUFFIX,v8project.org,谷歌服务"
+  - "DOMAIN-SUFFIX,velostrata.com,谷歌服务"
+  - "DOMAIN-SUFFIX,verily.com,谷歌服务"
+  - "DOMAIN-SUFFIX,verilylifesciences.com,谷歌服务"
+  - "DOMAIN-SUFFIX,verilystudyhub.com,谷歌服务"
+  - "DOMAIN-SUFFIX,verilystudywatch.com,谷歌服务"
+  - "DOMAIN-SUFFIX,verilystudywatch.org,谷歌服务"
+  - "DOMAIN-SUFFIX,wallet.com,谷歌服务"
+  - "DOMAIN-SUFFIX,waveprotocol.org,谷歌服务"
+  - "DOMAIN-SUFFIX,waymo.com,谷歌服务"
+  - "DOMAIN-SUFFIX,waze.com,谷歌服务"
+  - "DOMAIN-SUFFIX,web.app,谷歌服务"
+  - "DOMAIN-SUFFIX,web.dev,谷歌服务"
+  - "DOMAIN-SUFFIX,webappfieldguide.com,谷歌服务"
+  - "DOMAIN-SUFFIX,webmproject.org,谷歌服务"
+  - "DOMAIN-SUFFIX,webpkgcache.com,谷歌服务"
+  - "DOMAIN-SUFFIX,webrtc.org,谷歌服务"
+  - "DOMAIN-SUFFIX,weltweitwachsen.de,谷歌服务"
+  - "DOMAIN-SUFFIX,whatbrowser.org,谷歌服务"
+  - "DOMAIN-SUFFIX,widevine.com,谷歌服务"
+  - "DOMAIN-SUFFIX,withgoogle.com,谷歌服务"
+  - "DOMAIN-SUFFIX,womenwill.com,谷歌服务"
+  - "DOMAIN-SUFFIX,womenwill.com.br,谷歌服务"
+  - "DOMAIN-SUFFIX,womenwill.id,谷歌服务"
+  - "DOMAIN-SUFFIX,womenwill.in,谷歌服务"
+  - "DOMAIN-SUFFIX,womenwill.mx,谷歌服务"
+  - "DOMAIN-SUFFIX,x.company,谷歌服务"
+  - "DOMAIN-SUFFIX,x.team,谷歌服务"
+  - "DOMAIN-SUFFIX,xn--9kr7l.com,谷歌服务"
+  - "DOMAIN-SUFFIX,xn--9trs65b.com,谷歌服务"
+  - "DOMAIN-SUFFIX,xn--flw351e.com,谷歌服务"
+  - "DOMAIN-SUFFIX,xn--ggle-55da.com,谷歌服务"
+  - "DOMAIN-SUFFIX,xn--gogl-0nd52e.com,谷歌服务"
+  - "DOMAIN-SUFFIX,xn--gogl-1nd42e.com,谷歌服务"
+  - "DOMAIN-SUFFIX,xn--ngstr-lra8j.com,谷歌服务"
+  - "DOMAIN-SUFFIX,xn--p8j9a0d9c9a.xn--q9jyb4c,谷歌服务"
+  - "DOMAIN-SUFFIX,xplr.co,谷歌服务"
+  - "DOMAIN-SUFFIX,youtu.be,谷歌服务"
+  - "DOMAIN-SUFFIX,yt.be,谷歌服务"
+  - "DOMAIN-SUFFIX,ytimg.com,谷歌服务"
+  - "DOMAIN-SUFFIX,zukunftswerkstatt.de,谷歌服务"
+  - "DOMAIN-SUFFIX,zynamics.com,谷歌服务"
+  - "DOMAIN-KEYWORD,appspot,谷歌服务"
+  - "DOMAIN-KEYWORD,blogspot,谷歌服务"
+  - "DOMAIN-KEYWORD,gmail,谷歌服务"
+  - "DOMAIN-KEYWORD,google,谷歌服务"
+  - "DOMAIN-KEYWORD,gstatic,谷歌服务"
+  - "DOMAIN-KEYWORD,recaptcha,谷歌服务"
+  - "IP-CIDR,172.110.32.0/21,谷歌服务,no-resolve"
+  - "IP-CIDR,173.194.0.0/16,谷歌服务,no-resolve"
+  - "IP-CIDR,216.73.80.0/20,谷歌服务,no-resolve"
+  - "IP-CIDR,74.125.0.0/16,谷歌服务,no-resolve"
+  - "DOMAIN-SUFFIX,1drv.com,微软服务"
+  - "DOMAIN-SUFFIX,a-msedge.net,微软服务"
+  - "DOMAIN-SUFFIX,a1158.g.akamai.net,微软服务"
+  - "DOMAIN-SUFFIX,a122.dscg3.akamai.net,微软服务"
+  - "DOMAIN-SUFFIX,a767.dscg3.akamai.net,微软服务"
+  - "DOMAIN-SUFFIX,aadrm.com,微软服务"
+  - "DOMAIN-SUFFIX,acompli.com,微软服务"
+  - "DOMAIN-SUFFIX,acompli.net,微软服务"
+  - "DOMAIN-SUFFIX,adaptivecards.io,微软服务"
+  - "DOMAIN-SUFFIX,aicscience.com,微软服务"
+  - "DOMAIN-SUFFIX,aka.ms,微软服务"
+  - "DOMAIN-SUFFIX,akadns.net,微软服务"
+  - "DOMAIN-SUFFIX,ankarazirvesi2018.com,微软服务"
+  - "DOMAIN-SUFFIX,api-extractor.com,微软服务"
+  - "DOMAIN-SUFFIX,apisof.net,微软服务"
+  - "DOMAIN-SUFFIX,appcenter.ms,微软服务"
+  - "DOMAIN-SUFFIX,aria.ms,微软服务"
+  - "DOMAIN-SUFFIX,asp.net,微软服务"
+  - "DOMAIN-SUFFIX,aspnetcdn.com,微软服务"
+  - "DOMAIN-SUFFIX,assets-yammer.com,微软服务"
+  - "DOMAIN-SUFFIX,azure-apim.net,微软服务"
+  - "DOMAIN-SUFFIX,azure-mobile.net,微软服务"
+  - "DOMAIN-SUFFIX,azure-sphere.com,微软服务"
+  - "DOMAIN-SUFFIX,azure-test.net,微软服务"
+  - "DOMAIN-SUFFIX,azure.cn,微软服务"
+  - "DOMAIN-SUFFIX,azure.com,微软服务"
+  - "DOMAIN-SUFFIX,azure.net,微软服务"
+  - "DOMAIN-SUFFIX,azurecomcdn.net,微软服务"
+  - "DOMAIN-SUFFIX,azurecontainer.io,微软服务"
+  - "DOMAIN-SUFFIX,azurecosmos.net,微软服务"
+  - "DOMAIN-SUFFIX,azuredatabricks.net,微软服务"
+  - "DOMAIN-SUFFIX,azuredevopslaunch.com,微软服务"
+  - "DOMAIN-SUFFIX,azuredigitaltwin.com,微软服务"
+  - "DOMAIN-SUFFIX,azureedge-test.net,微软服务"
+  - "DOMAIN-SUFFIX,azureedge.net,微软服务"
+  - "DOMAIN-SUFFIX,azureiotcentral.com,微软服务"
+  - "DOMAIN-SUFFIX,azureiotsolutions.com,微软服务"
+  - "DOMAIN-SUFFIX,azureiotsuite.com,微软服务"
+  - "DOMAIN-SUFFIX,azurerms.com,微软服务"
+  - "DOMAIN-SUFFIX,azureserviceprofiler.com,微软服务"
+  - "DOMAIN-SUFFIX,azuresmartspaces.net,微软服务"
+  - "DOMAIN-SUFFIX,azurestackvalidation.com,微软服务"
+  - "DOMAIN-SUFFIX,azurewebsites.net,微软服务"
+  - "DOMAIN-SUFFIX,b.akamaiedge.net,微软服务"
+  - "DOMAIN-SUFFIX,bbing.com,微软服务"
+  - "DOMAIN-SUFFIX,beth.games,微软服务"
+  - "DOMAIN-SUFFIX,bethesda.net,微软服务"
+  - "DOMAIN-SUFFIX,bethesdagamestudios.com,微软服务"
+  - "DOMAIN-SUFFIX,bethsoft.com,微软服务"
+  - "DOMAIN-SUFFIX,bibg.com,微软服务"
+  - "DOMAIN-SUFFIX,biing.com,微软服务"
+  - "DOMAIN-SUFFIX,binads.com,微软服务"
+  - "DOMAIN-SUFFIX,binb.com,微软服务"
+  - "DOMAIN-SUFFIX,binf.com,微软服务"
+  - "DOMAIN-SUFFIX,bing.com,微软服务"
+  - "DOMAIN-SUFFIX,bing123.com,微软服务"
+  - "DOMAIN-SUFFIX,bing135.com,微软服务"
+  - "DOMAIN-SUFFIX,bing4.com,微软服务"
+  - "DOMAIN-SUFFIX,bingads.com,微软服务"
+  - "DOMAIN-SUFFIX,bingagencyawards.com,微软服务"
+  - "DOMAIN-SUFFIX,bingapis.com,微软服务"
+  - "DOMAIN-SUFFIX,bingapistatistics.com,微软服务"
+  - "DOMAIN-SUFFIX,binginternal.com,微软服务"
+  - "DOMAIN-SUFFIX,bingit.net,微软服务"
+  - "DOMAIN-SUFFIX,bingiton.com,微软服务"
+  - "DOMAIN-SUFFIX,bingj.com,微软服务"
+  - "DOMAIN-SUFFIX,bingpix.com,微软服务"
+  - "DOMAIN-SUFFIX,bingpk.com,微软服务"
+  - "DOMAIN-SUFFIX,bings.com,微软服务"
+  - "DOMAIN-SUFFIX,bingsandbox.com,微软服务"
+  - "DOMAIN-SUFFIX,bingtoolbar.com,微软服务"
+  - "DOMAIN-SUFFIX,bingtranslator.com,微软服务"
+  - "DOMAIN-SUFFIX,bingvisualsearch.com,微软服务"
+  - "DOMAIN-SUFFIX,bingworld.com,微软服务"
+  - "DOMAIN-SUFFIX,blazor.net,微软服务"
+  - "DOMAIN-SUFFIX,bluehatil.com,微软服务"
+  - "DOMAIN-SUFFIX,bluehatnights.com,微软服务"
+  - "DOMAIN-SUFFIX,boswp.com,微软服务"
+  - "DOMAIN-SUFFIX,botframework.com,微软服务"
+  - "DOMAIN-SUFFIX,brazilpartneruniversity.com,微软服务"
+  - "DOMAIN-SUFFIX,breakdown.me,微软服务"
+  - "DOMAIN-SUFFIX,c-msedge.net,微软服务"
+  - "DOMAIN-SUFFIX,callersbane.com,微软服务"
+  - "DOMAIN-SUFFIX,centralvalidation.com,微软服务"
+  - "DOMAIN-SUFFIX,ch9.ms,微软服务"
+  - "DOMAIN-SUFFIX,charticulator.com,微软服务"
+  - "DOMAIN-SUFFIX,chinacloudapi.cn,微软服务"
+  - "DOMAIN-SUFFIX,chinacloudapp.cn,微软服务"
+  - "DOMAIN-SUFFIX,chinacloudsites.cn,微软服务"
+  - "DOMAIN-SUFFIX,cloudapp.net,微软服务"
+  - "DOMAIN-SUFFIX,cloudappsecurity.com,微软服务"
+  - "DOMAIN-SUFFIX,codethemicrobit.com,微软服务"
+  - "DOMAIN-SUFFIX,cortana.ai,微软服务"
+  - "DOMAIN-SUFFIX,cortanaanalytics.com,微软服务"
+  - "DOMAIN-SUFFIX,cortanaskills.com,微软服务"
+  - "DOMAIN-SUFFIX,crmdynint-gcc.com,微软服务"
+  - "DOMAIN-SUFFIX,crmdynint.com,微软服务"
+  - "DOMAIN-SUFFIX,crossborderexpansion.com,微软服务"
+  - "DOMAIN-SUFFIX,cs11.wpc.v0cdn.net,微软服务"
+  - "DOMAIN-SUFFIX,cs9.wac.phicdn.net,微软服务"
+  - "DOMAIN-SUFFIX,devopsassessment.net,微软服务"
+  - "DOMAIN-SUFFIX,devopsms.com,微软服务"
+  - "DOMAIN-SUFFIX,dictate.ms,微软服务"
+  - "DOMAIN-SUFFIX,discoverbing.com,微软服务"
+  - "DOMAIN-SUFFIX,docs.com,微软服务"
+  - "DOMAIN-SUFFIX,dot.net,微软服务"
+  - "DOMAIN-SUFFIX,dwh5.com,微软服务"
+  - "DOMAIN-SUFFIX,dynamics.com,微软服务"
+  - "DOMAIN-SUFFIX,e-msedge.net,微软服务"
+  - "DOMAIN-SUFFIX,edgesuite.net,微软服务"
+  - "DOMAIN-SUFFIX,efproject.net,微软服务"
+  - "DOMAIN-SUFFIX,engkoo.com,微软服务"
+  - "DOMAIN-SUFFIX,evoke-windowsservices-tas.msedge,微软服务"
+  - "DOMAIN-SUFFIX,explorebing.com,微软服务"
+  - "DOMAIN-SUFFIX,fabric.io,微软服务"
+  - "DOMAIN-SUFFIX,fasttrackreadysupport.com,微软服务"
+  - "DOMAIN-SUFFIX,femalefounderscomp.com,微软服务"
+  - "DOMAIN-SUFFIX,flipwithsurface.com,微软服务"
+  - "DOMAIN-SUFFIX,fluidpreview.com,微软服务"
+  - "DOMAIN-SUFFIX,footprintdns.com,微软服务"
+  - "DOMAIN-SUFFIX,forzamotorsport.net,微软服务"
+  - "DOMAIN-SUFFIX,forzaracingchampionship.com,微软服务"
+  - "DOMAIN-SUFFIX,forzarc.com,微软服务"
+  - "DOMAIN-SUFFIX,g.akamaiedge.net,微软服务"
+  - "DOMAIN-SUFFIX,gamepass.com,微软服务"
+  - "DOMAIN-SUFFIX,gamesstack.com,微软服务"
+  - "DOMAIN-SUFFIX,gameuxmasterguide.com,微软服务"
+  - "DOMAIN-SUFFIX,gears5.com,微软服务"
+  - "DOMAIN-SUFFIX,gearspop.com,微软服务"
+  - "DOMAIN-SUFFIX,gearstactics.com,微软服务"
+  - "DOMAIN-SUFFIX,getmicrosoftkey.com,微软服务"
+  - "DOMAIN-SUFFIX,gfx.ms,微软服务"
+  - "DOMAIN-SUFFIX,gigjam.com,微软服务"
+  - "DOMAIN-SUFFIX,gotcosmos.com,微软服务"
+  - "DOMAIN-SUFFIX,graphengine.io,微软服务"
+  - "DOMAIN-SUFFIX,helpshift.com,微软服务"
+  - "DOMAIN-SUFFIX,heremaps.cn,微软服务"
+  - "DOMAIN-SUFFIX,hockeyapp.net,微软服务"
+  - "DOMAIN-SUFFIX,hololens.com,微软服务"
+  - "DOMAIN-SUFFIX,hotmail.com,微软服务"
+  - "DOMAIN-SUFFIX,hummingbird.ms,微软服务"
+  - "DOMAIN-SUFFIX,ie10.com,微软服务"
+  - "DOMAIN-SUFFIX,ie11.com,微软服务"
+  - "DOMAIN-SUFFIX,ie8.co,微软服务"
+  - "DOMAIN-SUFFIX,ie9.com,微软服务"
+  - "DOMAIN-SUFFIX,imaginecup.pl,微软服务"
+  - "DOMAIN-SUFFIX,img-prod-cms-rt-microsoft-com.akamaized.net,微软服务"
+  - "DOMAIN-SUFFIX,img-s-msn-com.akamaized.net,微软服务"
+  - "DOMAIN-SUFFIX,ingads.com,微软服务"
+  - "DOMAIN-SUFFIX,insiderdevtour.com,微软服务"
+  - "DOMAIN-SUFFIX,intunewiki.com,微软服务"
+  - "DOMAIN-SUFFIX,iotinactionevents.com,微软服务"
+  - "DOMAIN-SUFFIX,joinmva.com,微软服务"
+  - "DOMAIN-SUFFIX,jwt.ms,微软服务"
+  - "DOMAIN-SUFFIX,kidgrid.tv,微软服务"
+  - "DOMAIN-SUFFIX,kumo.com,微软服务"
+  - "DOMAIN-SUFFIX,latampartneruniversity.com,微软服务"
+  - "DOMAIN-SUFFIX,live.com,微软服务"
+  - "DOMAIN-SUFFIX,live.net,微软服务"
+  - "DOMAIN-SUFFIX,livefilestore.com,微软服务"
+  - "DOMAIN-SUFFIX,livetileedge.dsx.mp.microsoft.com.edgekey.net,微软服务"
+  - "DOMAIN-SUFFIX,livingyourambition.com,微软服务"
+  - "DOMAIN-SUFFIX,localytics.com,微软服务"
+  - "DOMAIN-SUFFIX,lync.com,微软服务"
+  - "DOMAIN-SUFFIX,m12.vc,微软服务"
+  - "DOMAIN-SUFFIX,makecode.org,微软服务"
+  - "DOMAIN-SUFFIX,managedmeetingrooms.com,微软服务"
+  - "DOMAIN-SUFFIX,mapblast.com,微软服务"
+  - "DOMAIN-SUFFIX,mappoint.com,微软服务"
+  - "DOMAIN-SUFFIX,masalladeloslimites.com,微软服务"
+  - "DOMAIN-SUFFIX,meetfasttrack.com,微软服务"
+  - "DOMAIN-SUFFIX,meetyourdevices.com,微软服务"
+  - "DOMAIN-SUFFIX,mepn.com,微软服务"
+  - "DOMAIN-SUFFIX,mesh.com,微软服务"
+  - "DOMAIN-SUFFIX,microbit.org,微软服务"
+  - "DOMAIN-SUFFIX,microsoft-give.com,微软服务"
+  - "DOMAIN-SUFFIX,microsoft-int.com,微软服务"
+  - "DOMAIN-SUFFIX,microsoft-ppe.com,微软服务"
+  - "DOMAIN-SUFFIX,microsoft-sap-events.com,微软服务"
+  - "DOMAIN-SUFFIX,microsoft-sbs-domains.com,微软服务"
+  - "DOMAIN-SUFFIX,microsoft-smb.cn,微软服务"
+  - "DOMAIN-SUFFIX,microsoft-tst.com,微软服务"
+  - "DOMAIN-SUFFIX,microsoft.com,微软服务"
+  - "DOMAIN-SUFFIX,microsoft.com.nsatc.net,微软服务"
+  - "DOMAIN-SUFFIX,microsoft365.com,微软服务"
+  - "DOMAIN-SUFFIX,microsoftaccountguard.com,微软服务"
+  - "DOMAIN-SUFFIX,microsoftadc.com,微软服务"
+  - "DOMAIN-SUFFIX,microsoftads.com,微软服务"
+  - "DOMAIN-SUFFIX,microsoftadvertising.com,微软服务"
+  - "DOMAIN-SUFFIX,microsoftadvertisingregionalawards.com,微软服务"
+  - "DOMAIN-SUFFIX,microsoftaffiliates.com,微软服务"
+  - "DOMAIN-SUFFIX,microsoftazuread-sso.com,微软服务"
+  - "DOMAIN-SUFFIX,microsoftcloud.com,微软服务"
+  - "DOMAIN-SUFFIX,microsoftcloudsummit.com,微软服务"
+  - "DOMAIN-SUFFIX,microsoftcloudworkshop.com,微软服务"
+  - "DOMAIN-SUFFIX,microsoftcommunitytraining.com,微软服务"
+  - "DOMAIN-SUFFIX,microsoftdiplomados.com,微软服务"
+  - "DOMAIN-SUFFIX,microsofteca.com,微软服务"
+  - "DOMAIN-SUFFIX,microsoftedge.com,微软服务"
+  - "DOMAIN-SUFFIX,microsoftedgeinsider.com,微软服务"
+  - "DOMAIN-SUFFIX,microsoftemail.com,微软服务"
+  - "DOMAIN-SUFFIX,microsoftestore.com.hk,微软服务"
+  - "DOMAIN-SUFFIX,microsoftgamestack.com,微软服务"
+  - "DOMAIN-SUFFIX,microsoftinternetsafety.net,微软服务"
+  - "DOMAIN-SUFFIX,microsoftiotcentral.com,微软服务"
+  - "DOMAIN-SUFFIX,microsoftiotinsiderlabs.com,微软服务"
+  - "DOMAIN-SUFFIX,microsoftlatamaitour.com,微软服务"
+  - "DOMAIN-SUFFIX,microsoftlatamholiday.com,微软服务"
+  - "DOMAIN-SUFFIX,microsoftlinc.com,微软服务"
+  - "DOMAIN-SUFFIX,microsoftmxfilantropia.com,微软服务"
+  - "DOMAIN-SUFFIX,microsoftonline-p.com,微软服务"
+  - "DOMAIN-SUFFIX,microsoftonline-p.net,微软服务"
+  - "DOMAIN-SUFFIX,microsoftonline.com,微软服务"
+  - "DOMAIN-SUFFIX,microsoftpartnercommunity.com,微软服务"
+  - "DOMAIN-SUFFIX,microsoftpartnersolutions.com,微软服务"
+  - "DOMAIN-SUFFIX,microsoftready.com,微软服务"
+  - "DOMAIN-SUFFIX,microsoftsiteselection.com,微软服务"
+  - "DOMAIN-SUFFIX,microsoftsqlserver.com,微软服务"
+  - "DOMAIN-SUFFIX,microsoftstream.com,微软服务"
+  - "DOMAIN-SUFFIX,microsoftteams.com,微软服务"
+  - "DOMAIN-SUFFIX,microsofttradein.com,微软服务"
+  - "DOMAIN-SUFFIX,microsofttranslator.com,微软服务"
+  - "DOMAIN-SUFFIX,microsoftusercontent.com,微软服务"
+  - "DOMAIN-SUFFIX,microsoftuwp.com,微软服务"
+  - "DOMAIN-SUFFIX,minecraft.net,微软服务"
+  - "DOMAIN-SUFFIX,minecraftshop.com,微软服务"
+  - "DOMAIN-SUFFIX,mmais.com.cn,微软服务"
+  - "DOMAIN-SUFFIX,mmdnn.com,微软服务"
+  - "DOMAIN-SUFFIX,mojang.com,微软服务"
+  - "DOMAIN-SUFFIX,momentumms.com,微软服务"
+  - "DOMAIN-SUFFIX,mono-project.com,微软服务"
+  - "DOMAIN-SUFFIX,morphcharts.com,微软服务"
+  - "DOMAIN-SUFFIX,mpnevolution.com,微软服务"
+  - "DOMAIN-SUFFIX,ms-studiosmedia.com,微软服务"
+  - "DOMAIN-SUFFIX,ms365surfaceoffer.com,微软服务"
+  - "DOMAIN-SUFFIX,msa.akadns6.net,微软服务"
+  - "DOMAIN-SUFFIX,msads.net,微软服务"
+  - "DOMAIN-SUFFIX,msappproxy.net,微软服务"
+  - "DOMAIN-SUFFIX,msauth.net,微软服务"
+  - "DOMAIN-SUFFIX,msauthimages.net,微软服务"
+  - "DOMAIN-SUFFIX,mschallenge2018.com,微软服务"
+  - "DOMAIN-SUFFIX,msdn.com,微软服务"
+  - "DOMAIN-SUFFIX,msecnd.net,微软服务"
+  - "DOMAIN-SUFFIX,msedge.net,微软服务"
+  - "DOMAIN-SUFFIX,msft.net,微软服务"
+  - "DOMAIN-SUFFIX,msftauth.net,微软服务"
+  - "DOMAIN-SUFFIX,msftauthimages.net,微软服务"
+  - "DOMAIN-SUFFIX,msftcenterone.cn,微软服务"
+  - "DOMAIN-SUFFIX,msftconnecttest.com,微软服务"
+  - "DOMAIN-SUFFIX,msfteducation.ca,微软服务"
+  - "DOMAIN-SUFFIX,msftidentity.com,微软服务"
+  - "DOMAIN-SUFFIX,msftnet.org,微软服务"
+  - "DOMAIN-SUFFIX,msgamesresearch.com,微软服务"
+  - "DOMAIN-SUFFIX,msgamestudios.com,微软服务"
+  - "DOMAIN-SUFFIX,msidentity.com,微软服务"
+  - "DOMAIN-SUFFIX,msignitechina.com,微软服务"
+  - "DOMAIN-SUFFIX,msinnovationchallenge.com,微软服务"
+  - "DOMAIN-SUFFIX,msn.cn,微软服务"
+  - "DOMAIN-SUFFIX,msn.com,微软服务"
+  - "DOMAIN-SUFFIX,msnkids.com,微软服务"
+  - "DOMAIN-SUFFIX,msnmaps.com,微软服务"
+  - "DOMAIN-SUFFIX,msocdn.com,微软服务"
+  - "DOMAIN-SUFFIX,msocsp.com,微软服务"
+  - "DOMAIN-SUFFIX,msopentech.cn,微软服务"
+  - "DOMAIN-SUFFIX,mspairlift.com,微软服务"
+  - "DOMAIN-SUFFIX,mspil.cn,微软服务"
+  - "DOMAIN-SUFFIX,msra.cn,微软服务"
+  - "DOMAIN-SUFFIX,msropendata.com,微软服务"
+  - "DOMAIN-SUFFIX,mstea.ms,微软服务"
+  - "DOMAIN-SUFFIX,msturing.org,微软服务"
+  - "DOMAIN-SUFFIX,msudalosti.com,微软服务"
+  - "DOMAIN-SUFFIX,msunlimitedcloudsummit.com,微软服务"
+  - "DOMAIN-SUFFIX,msvevent.com,微软服务"
+  - "DOMAIN-SUFFIX,msxiaobing.com,微软服务"
+  - "DOMAIN-SUFFIX,msxiaoice.com,微软服务"
+  - "DOMAIN-SUFFIX,msxiaona.cn,微软服务"
+  - "DOMAIN-SUFFIX,mwf-service.akamaized.net,微软服务"
+  - "DOMAIN-SUFFIX,myhomemsn.com,微软服务"
+  - "DOMAIN-SUFFIX,mymicrosoft.com,微软服务"
+  - "DOMAIN-SUFFIX,nextechafrica.net,微软服务"
+  - "DOMAIN-SUFFIX,nuget.org,微软服务"
+  - "DOMAIN-SUFFIX,nugettest.org,微软服务"
+  - "DOMAIN-SUFFIX,nxta.org,微软服务"
+  - "DOMAIN-SUFFIX,o365cn.com,微软服务"
+  - "DOMAIN-SUFFIX,o365files.cn,微软服务"
+  - "DOMAIN-SUFFIX,o365weve-dev.com,微软服务"
+  - "DOMAIN-SUFFIX,o365weve-ppe.com,微软服务"
+  - "DOMAIN-SUFFIX,o365weve.com,微软服务"
+  - "DOMAIN-SUFFIX,oaspapps.com,微软服务"
+  - "DOMAIN-SUFFIX,office.com,微软服务"
+  - "DOMAIN-SUFFIX,office.net,微软服务"
+  - "DOMAIN-SUFFIX,office365.com,微软服务"
+  - "DOMAIN-SUFFIX,office365love.com,微软服务"
+  - "DOMAIN-SUFFIX,office365tw.com,微软服务"
+  - "DOMAIN-SUFFIX,officecdn-microsoft-com.akamaized.net,微软服务"
+  - "DOMAIN-SUFFIX,officedev.cn,微软服务"
+  - "DOMAIN-SUFFIX,officeplus.cn,微软服务"
+  - "DOMAIN-SUFFIX,officeppe.net,微软服务"
+  - "DOMAIN-SUFFIX,omniroot.com,微软服务"
+  - "DOMAIN-SUFFIX,onecollector.cloudapp.aria,微软服务"
+  - "DOMAIN-SUFFIX,onedrive.com,微软服务"
+  - "DOMAIN-SUFFIX,onenote.com,微软服务"
+  - "DOMAIN-SUFFIX,onenote.net,微软服务"
+  - "DOMAIN-SUFFIX,onestore.ms,微软服务"
+  - "DOMAIN-SUFFIX,onmicrosoft.com,微软服务"
+  - "DOMAIN-SUFFIX,opentranslatorstothings.org,微软服务"
+  - "DOMAIN-SUFFIX,opticsforthecloud.net,微软服务"
+  - "DOMAIN-SUFFIX,optimizely.com,微软服务"
+  - "DOMAIN-SUFFIX,orithegame.com,微软服务"
+  - "DOMAIN-SUFFIX,osdinfra.net,微软服务"
+  - "DOMAIN-SUFFIX,outingsapp.com,微软服务"
+  - "DOMAIN-SUFFIX,outlook.com,微软服务"
+  - "DOMAIN-SUFFIX,outlookgroups.ms,微软服务"
+  - "DOMAIN-SUFFIX,outlookmobile.com,微软服务"
+  - "DOMAIN-SUFFIX,ovi.com.cn,微软服务"
+  - "DOMAIN-SUFFIX,passport.net,微软服务"
+  - "DOMAIN-SUFFIX,phonefactor.net,微软服务"
+  - "DOMAIN-SUFFIX,pixapp.net,微软服务"
+  - "DOMAIN-SUFFIX,playfabapi.cn,微软服务"
+  - "DOMAIN-SUFFIX,playfabcn.com,微软服务"
+  - "DOMAIN-SUFFIX,poshtestgallery.com,微软服务"
+  - "DOMAIN-SUFFIX,powerappscdn.net,微软服务"
+  - "DOMAIN-SUFFIX,powerautomate.com,微软服务"
+  - "DOMAIN-SUFFIX,powerbi.com,微软服务"
+  - "DOMAIN-SUFFIX,powershellgallery.com,微软服务"
+  - "DOMAIN-SUFFIX,prod-video-cms-rt-microsoft-com.akamaized.net,微软服务"
+  - "DOMAIN-SUFFIX,projectmurphy.net,微软服务"
+  - "DOMAIN-SUFFIX,projectsangam.com,微软服务"
+  - "DOMAIN-SUFFIX,public-trust.com,微软服务"
+  - "DOMAIN-SUFFIX,pwabuilder.com,微软服务"
+  - "DOMAIN-SUFFIX,pxt.io,微软服务"
+  - "DOMAIN-SUFFIX,reactorms.com.cn,微软服务"
+  - "DOMAIN-SUFFIX,renlifang.com,微软服务"
+  - "DOMAIN-SUFFIX,renovacionoffice.com,微软服务"
+  - "DOMAIN-SUFFIX,renovacionxboxlive.com,微软服务"
+  - "DOMAIN-SUFFIX,s-microsoft.com,微软服务"
+  - "DOMAIN-SUFFIX,s-msedge.net,微软服务"
+  - "DOMAIN-SUFFIX,s-msft.com,微软服务"
+  - "DOMAIN-SUFFIX,s-msn.com,微软服务"
+  - "DOMAIN-SUFFIX,sankie.net,微软服务"
+  - "DOMAIN-SUFFIX,sclive.net,微软服务"
+  - "DOMAIN-SUFFIX,serverlesslibrary.net,微软服务"
+  - "DOMAIN-SUFFIX,sfbassets.com,微软服务"
+  - "DOMAIN-SUFFIX,sfbassets.net,微软服务"
+  - "DOMAIN-SUFFIX,sfx.ms,微软服务"
+  - "DOMAIN-SUFFIX,sharepoint.com,微软服务"
+  - "DOMAIN-SUFFIX,sharepointonline.com,微软服务"
+  - "DOMAIN-SUFFIX,skype.com,微软服务"
+  - "DOMAIN-SUFFIX,skypeassets.com,微软服务"
+  - "DOMAIN-SUFFIX,skypeforbusiness.com,微软服务"
+  - "DOMAIN-SUFFIX,spoprod-a.akamaihd.net,微软服务"
+  - "DOMAIN-SUFFIX,sprinklesapp.com,微软服务"
+  - "DOMAIN-SUFFIX,sqlserveronlinux.com,微软服务"
+  - "DOMAIN-SUFFIX,staffhub.ms,微软服务"
+  - "DOMAIN-SUFFIX,statics-marketingsites-eas-ms-com.akamaized.net,微软服务"
+  - "DOMAIN-SUFFIX,statics-marketingsites-eus-ms-com.akamaized.net,微软服务"
+  - "DOMAIN-SUFFIX,statics-marketingsites-neu-ms-com.akamaized.net,微软服务"
+  - "DOMAIN-SUFFIX,statics-marketingsites-wcus-ms-com.akamaized.net,微软服务"
+  - "DOMAIN-SUFFIX,successwithteams.com,微软服务"
+  - "DOMAIN-SUFFIX,surface.com,微软服务"
+  - "DOMAIN-SUFFIX,svc.ms,微软服务"
+  - "DOMAIN-SUFFIX,sway-cdn.com,微软服务"
+  - "DOMAIN-SUFFIX,sway-extensions.com,微软服务"
+  - "DOMAIN-SUFFIX,sway.com,微软服务"
+  - "DOMAIN-SUFFIX,syncshop.cn,微软服务"
+  - "DOMAIN-SUFFIX,sysinternals.com,微软服务"
+  - "DOMAIN-SUFFIX,tailwindtraders.com,微软服务"
+  - "DOMAIN-SUFFIX,techhub.ms,微软服务"
+  - "DOMAIN-SUFFIX,tellmewhygame.com,微软服务"
+  - "DOMAIN-SUFFIX,tenor.com,微软服务"
+  - "DOMAIN-SUFFIX,tfsallin.net,微软服务"
+  - "DOMAIN-SUFFIX,timelinestoryteller.com,微软服务"
+  - "DOMAIN-SUFFIX,trafficmanager.net,微软服务"
+  - "DOMAIN-SUFFIX,translatetheweb.com,微软服务"
+  - "DOMAIN-SUFFIX,tryfunctions.com,微软服务"
+  - "DOMAIN-SUFFIX,unlocklimitlesslearning.com,微软服务"
+  - "DOMAIN-SUFFIX,userpxt.io,微软服务"
+  - "DOMAIN-SUFFIX,uservoice.com,微软服务"
+  - "DOMAIN-SUFFIX,uwpcommunitytoolkit.com,微软服务"
+  - "DOMAIN-SUFFIX,videobreakdown.com,微软服务"
+  - "DOMAIN-SUFFIX,videoindexer.ai,微软服务"
+  - "DOMAIN-SUFFIX,vip5.afdorigin-prod-am02.afdogw.com,微软服务"
+  - "DOMAIN-SUFFIX,virtualearth.net,微软服务"
+  - "DOMAIN-SUFFIX,visualstudio-staging.com,微软服务"
+  - "DOMAIN-SUFFIX,visualstudio.com,微软服务"
+  - "DOMAIN-SUFFIX,vsallin.net,微软服务"
+  - "DOMAIN-SUFFIX,vsassets.io,微软服务"
+  - "DOMAIN-SUFFIX,wbd.ms,微软服务"
+  - "DOMAIN-SUFFIX,what-fan.net,微软服务"
+  - "DOMAIN-SUFFIX,windows-int.net,微软服务"
+  - "DOMAIN-SUFFIX,windows-ppe.net,微软服务"
+  - "DOMAIN-SUFFIX,windows.com,微软服务"
+  - "DOMAIN-SUFFIX,windows.net,微软服务"
+  - "DOMAIN-SUFFIX,windows8.hk,微软服务"
+  - "DOMAIN-SUFFIX,windowsazure.com,微软服务"
+  - "DOMAIN-SUFFIX,windowscommunity.net,微软服务"
+  - "DOMAIN-SUFFIX,windowslive.cn,微软服务"
+  - "DOMAIN-SUFFIX,windowsmarketplace.com,微软服务"
+  - "DOMAIN-SUFFIX,windowsphone-int.com,微软服务"
+  - "DOMAIN-SUFFIX,windowsphone.com,微软服务"
+  - "DOMAIN-SUFFIX,windowssearch.com,微软服务"
+  - "DOMAIN-SUFFIX,windowsupdate.com,微软服务"
+  - "DOMAIN-SUFFIX,winmp.cn,微软服务"
+  - "DOMAIN-SUFFIX,wlxrs.com,微软服务"
+  - "DOMAIN-SUFFIX,working-bing-int.com,微软服务"
+  - "DOMAIN-SUFFIX,wunderlist.com,微软服务"
+  - "DOMAIN-SUFFIX,xamarin.com,微软服务"
+  - "DOMAIN-SUFFIX,xbox.com,微软服务"
+  - "DOMAIN-SUFFIX,xboxab.com,微软服务"
+  - "DOMAIN-SUFFIX,xboxgamepass.com,微软服务"
+  - "DOMAIN-SUFFIX,xboxgamestudios.com,微软服务"
+  - "DOMAIN-SUFFIX,xboxlive.com,微软服务"
+  - "DOMAIN-SUFFIX,xboxplayanywhere.com,微软服务"
+  - "DOMAIN-SUFFIX,xboxstudios.com,微软服务"
+  - "DOMAIN-SUFFIX,xbx.lv,微软服务"
+  - "DOMAIN-SUFFIX,yammer.com,微软服务"
+  - "DOMAIN-SUFFIX,yammerusercontent.com,微软服务"
+  - "DOMAIN-KEYWORD,1drv,微软服务"
+  - "DOMAIN-KEYWORD,microsoft,微软服务"
+  - "DOMAIN-KEYWORD,onedrive,微软服务"
+  - "DOMAIN-KEYWORD,skydrive,微软服务"
+  - "PROCESS-NAME,onedrive,微软服务"
+  - "PROCESS-NAME,onedriveupdater,微软服务"
+  - "DOMAIN-SUFFIX,126.com,DIRECT"
+  - "DOMAIN-SUFFIX,126.net,DIRECT"
+  - "DOMAIN-SUFFIX,127.net,DIRECT"
+  - "DOMAIN-SUFFIX,163.com,DIRECT"
+  - "DOMAIN-SUFFIX,360buyimg.com,DIRECT"
+  - "DOMAIN-SUFFIX,36kr.com,DIRECT"
+  - "DOMAIN-SUFFIX,acfun.tv,DIRECT"
+  - "DOMAIN-SUFFIX,air-matters.com,DIRECT"
+  - "DOMAIN-SUFFIX,aixifan.com,DIRECT"
+  - "DOMAIN-KEYWORD,alicdn,DIRECT"
+  - "DOMAIN-KEYWORD,alipay,DIRECT"
+  - "DOMAIN-KEYWORD,taobao,DIRECT"
+  - "DOMAIN-SUFFIX,amap.com,DIRECT"
+  - "DOMAIN-SUFFIX,autonavi.com,DIRECT"
+  - "DOMAIN-KEYWORD,baidu,DIRECT"
+  - "DOMAIN-SUFFIX,bdimg.com,DIRECT"
+  - "DOMAIN-SUFFIX,bdstatic.com,DIRECT"
+  - "DOMAIN-SUFFIX,bilibili.com,DIRECT"
+  - "DOMAIN-SUFFIX,bilivideo.com,DIRECT"
+  - "DOMAIN-SUFFIX,caiyunapp.com,DIRECT"
+  - "DOMAIN-SUFFIX,clouddn.com,DIRECT"
+  - "DOMAIN-SUFFIX,cnbeta.com,DIRECT"
+  - "DOMAIN-SUFFIX,cnbetacdn.com,DIRECT"
+  - "DOMAIN-SUFFIX,cootekservice.com,DIRECT"
+  - "DOMAIN-SUFFIX,csdn.net,DIRECT"
+  - "DOMAIN-SUFFIX,ctrip.com,DIRECT"
+  - "DOMAIN-SUFFIX,dgtle.com,DIRECT"
+  - "DOMAIN-SUFFIX,dianping.com,DIRECT"
+  - "DOMAIN-SUFFIX,douban.com,DIRECT"
+  - "DOMAIN-SUFFIX,doubanio.com,DIRECT"
+  - "DOMAIN-SUFFIX,duokan.com,DIRECT"
+  - "DOMAIN-SUFFIX,easou.com,DIRECT"
+  - "DOMAIN-SUFFIX,ele.me,DIRECT"
+  - "DOMAIN-SUFFIX,feng.com,DIRECT"
+  - "DOMAIN-SUFFIX,fir.im,DIRECT"
+  - "DOMAIN-SUFFIX,frdic.com,DIRECT"
+  - "DOMAIN-SUFFIX,g-cores.com,DIRECT"
+  - "DOMAIN-SUFFIX,godic.net,DIRECT"
+  - "DOMAIN-SUFFIX,gtimg.com,DIRECT"
+  - "DOMAIN,cdn.hockeyapp.net,DIRECT"
+  - "DOMAIN-SUFFIX,hongxiu.com,DIRECT"
+  - "DOMAIN-SUFFIX,hxcdn.net,DIRECT"
+  - "DOMAIN-SUFFIX,iciba.com,DIRECT"
+  - "DOMAIN-SUFFIX,ifeng.com,DIRECT"
+  - "DOMAIN-SUFFIX,ifengimg.com,DIRECT"
+  - "DOMAIN-SUFFIX,ipip.net,DIRECT"
+  - "DOMAIN-SUFFIX,iqiyi.com,DIRECT"
+  - "DOMAIN-SUFFIX,jd.com,DIRECT"
+  - "DOMAIN-SUFFIX,jianshu.com,DIRECT"
+  - "DOMAIN-SUFFIX,knewone.com,DIRECT"
+  - "DOMAIN-SUFFIX,le.com,DIRECT"
+  - "DOMAIN-SUFFIX,lecloud.com,DIRECT"
+  - "DOMAIN-SUFFIX,lemicp.com,DIRECT"
+  - "DOMAIN-SUFFIX,licdn.com,DIRECT"
+  - "DOMAIN-SUFFIX,luoo.net,DIRECT"
+  - "DOMAIN-SUFFIX,meituan.com,DIRECT"
+  - "DOMAIN-SUFFIX,meituan.net,DIRECT"
+  - "DOMAIN-SUFFIX,mi.com,DIRECT"
+  - "DOMAIN-SUFFIX,miaopai.com,DIRECT"
+  - "DOMAIN-SUFFIX,microsoft.com,DIRECT"
+  - "DOMAIN-SUFFIX,microsoftonline.com,DIRECT"
+  - "DOMAIN-SUFFIX,miui.com,DIRECT"
+  - "DOMAIN-SUFFIX,miwifi.com,DIRECT"
+  - "DOMAIN-SUFFIX,mob.com,DIRECT"
+  - "DOMAIN-SUFFIX,netease.com,DIRECT"
+  - "DOMAIN-SUFFIX,office.com,DIRECT"
+  - "DOMAIN-SUFFIX,office365.com,DIRECT"
+  - "DOMAIN-KEYWORD,officecdn,DIRECT"
+  - "DOMAIN-SUFFIX,oschina.net,DIRECT"
+  - "DOMAIN-SUFFIX,ppsimg.com,DIRECT"
+  - "DOMAIN-SUFFIX,pstatp.com,DIRECT"
+  - "DOMAIN-SUFFIX,qcloud.com,DIRECT"
+  - "DOMAIN-SUFFIX,qdaily.com,DIRECT"
+  - "DOMAIN-SUFFIX,qdmm.com,DIRECT"
+  - "DOMAIN-SUFFIX,qhimg.com,DIRECT"
+  - "DOMAIN-SUFFIX,qhres.com,DIRECT"
+  - "DOMAIN-SUFFIX,qidian.com,DIRECT"
+  - "DOMAIN-SUFFIX,qihucdn.com,DIRECT"
+  - "DOMAIN-SUFFIX,qiniu.com,DIRECT"
+  - "DOMAIN-SUFFIX,qiniucdn.com,DIRECT"
+  - "DOMAIN-SUFFIX,qiyipic.com,DIRECT"
+  - "DOMAIN-SUFFIX,qq.com,DIRECT"
+  - "DOMAIN-SUFFIX,qqurl.com,DIRECT"
+  - "DOMAIN-SUFFIX,rarbg.to,DIRECT"
+  - "DOMAIN-SUFFIX,ruguoapp.com,DIRECT"
+  - "DOMAIN-SUFFIX,segmentfault.com,DIRECT"
+  - "DOMAIN-SUFFIX,sinaapp.com,DIRECT"
+  - "DOMAIN-SUFFIX,smzdm.com,DIRECT"
+  - "DOMAIN-SUFFIX,snapdrop.net,DIRECT"
+  - "DOMAIN-SUFFIX,sogou.com,DIRECT"
+  - "DOMAIN-SUFFIX,sogoucdn.com,DIRECT"
+  - "DOMAIN-SUFFIX,sohu.com,DIRECT"
+  - "DOMAIN-SUFFIX,soku.com,DIRECT"
+  - "DOMAIN-SUFFIX,speedtest.net,DIRECT"
+  - "DOMAIN-SUFFIX,sspai.com,DIRECT"
+  - "DOMAIN-SUFFIX,suning.com,DIRECT"
+  - "DOMAIN-SUFFIX,taobao.com,DIRECT"
+  - "DOMAIN-SUFFIX,tencent.com,DIRECT"
+  - "DOMAIN-SUFFIX,tenpay.com,DIRECT"
+  - "DOMAIN-SUFFIX,tianyancha.com,DIRECT"
+  - "DOMAIN-SUFFIX,tmall.com,DIRECT"
+  - "DOMAIN-SUFFIX,tudou.com,DIRECT"
+  - "DOMAIN-SUFFIX,umetrip.com,DIRECT"
+  - "DOMAIN-SUFFIX,upaiyun.com,DIRECT"
+  - "DOMAIN-SUFFIX,upyun.com,DIRECT"
+  - "DOMAIN-SUFFIX,veryzhun.com,DIRECT"
+  - "DOMAIN-SUFFIX,weather.com,DIRECT"
+  - "DOMAIN-SUFFIX,weibo.com,DIRECT"
+  - "DOMAIN-SUFFIX,xiami.com,DIRECT"
+  - "DOMAIN-SUFFIX,xiami.net,DIRECT"
+  - "DOMAIN-SUFFIX,xiaomicp.com,DIRECT"
+  - "DOMAIN-SUFFIX,ximalaya.com,DIRECT"
+  - "DOMAIN-SUFFIX,xmcdn.com,DIRECT"
+  - "DOMAIN-SUFFIX,xunlei.com,DIRECT"
+  - "DOMAIN-SUFFIX,yhd.com,DIRECT"
+  - "DOMAIN-SUFFIX,yihaodianimg.com,DIRECT"
+  - "DOMAIN-SUFFIX,yinxiang.com,DIRECT"
+  - "DOMAIN-SUFFIX,ykimg.com,DIRECT"
+  - "DOMAIN-SUFFIX,youdao.com,DIRECT"
+  - "DOMAIN-SUFFIX,youku.com,DIRECT"
+  - "DOMAIN-SUFFIX,zealer.com,DIRECT"
+  - "DOMAIN-SUFFIX,zhihu.com,DIRECT"
+  - "DOMAIN-SUFFIX,zhimg.com,DIRECT"
+  - "DOMAIN-SUFFIX,zimuzu.tv,DIRECT"
+  - "DOMAIN-SUFFIX,zoho.com,DIRECT"
+  - "DOMAIN-SUFFIX,.cn,DIRECT"
+  - "GEOIP,telegram,Telegram,no-resolve"
+  - "GEOIP,CN,DIRECT,no-resolve"
+  - "GEOIP,CN,DIRECT"
+  - "MATCH,节点选择"

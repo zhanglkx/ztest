@@ -17,6 +17,31 @@ async function asyncPool(poolLimit, array, iteratorFn) {
     return Promise.all(ret);
 }
 
+const poolLimit = async (poolLimit, array, iteratorFn) => {
+
+    const ret = []
+    const executing = []
+
+    for (const item of array) {
+        const p = Promise.resolve().then(() => iteratorFn(item))
+        ret.push(p)
+
+        if (poolLimit <= array.length) {
+
+            const e = Promise.resolve().then(() => executing.splice(executing.indexOf(e), 1))
+            executing.push(p)
+
+            if (executing >= poolLimit) {
+                await Promise.race(executing)
+            }
+
+        }
+    }
+
+    return Promise.all(ret)
+
+}
+
 // 模拟 API 请求函数
 const fetchUserData = async (userId) => {
     // 模拟 API 延迟
