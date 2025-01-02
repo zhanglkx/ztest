@@ -12,7 +12,7 @@
                 "-r",
                 "ts-node/register"
             ],
-            "program": "${workspaceFolder}/JavaScript/case/并发限制的 promise.js"
+            "program": "${workspaceFolder}/JavaScript/case/in.js"
         }
     ]
 }
