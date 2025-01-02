@@ -12,7 +12,7 @@
                 "-r",
                 "ts-node/register"
             ],
-            "program": "${workspaceFolder}/JavaScript/DataStructure/leetcode/5. 最长回文子串.js"
+            "program": "${workspaceFolder}/JavaScript/case/并发限制的 promise.js"
         }
     ]
 }
