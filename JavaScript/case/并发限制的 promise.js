@@ -1,3 +1,44 @@
+class PromisePool {
+    constructor(max) {
+        this.max = max; // 最大并发数
+        this.running = 0; // 当前运行的任务数
+        this.queue = []; // 等待执行的任务队列
+    }
+
+    add(fn) {
+        return new Promise((resolve, reject) => {
+            const task = {
+                fn,
+                resolve,
+                reject
+            };
+
+            if (this.running < this.max) {
+                this.run(task);
+            } else {
+                this.queue.push(task);
+            }
+        });
+    }
+
+    run(task) {
+        this.running++;
+        task.fn()
+            .then(result => {
+                task.resolve(result);
+            })
+            .catch(err => {
+                task.reject(err);
+            })
+            .finally(() => {
+                this.running--;
+                if (this.queue.length > 0) {
+                    this.run(this.queue.shift());
+                }
+            });
+    }
+}
+
 async function asyncPool(poolLimit, array, iteratorFn) {
     const ret = [];
     const executing = [];
@@ -17,30 +58,28 @@ async function asyncPool(poolLimit, array, iteratorFn) {
     return Promise.all(ret);
 }
 
-const poolLimit = async (poolLimit, array, iteratorFn) => {
-
-    const ret = []
-    const executing = []
+async function asyncPool(poolLimit, array, iteratorFn) {
+    const ret = []; // 存储所有的异步任务
+    const executing = []; // 存储正在执行的异步任务
 
     for (const item of array) {
-        const p = Promise.resolve().then(() => iteratorFn(item))
-        ret.push(p)
+        // 调用iteratorFn创建异步任务
+        const p = Promise.resolve().then(() => iteratorFn(item));
+        ret.push(p);
 
+        // 当poolLimit值小于或等于总任务个数时，进行并发控制
         if (poolLimit <= array.length) {
-
-            const e = Promise.resolve().then(() => executing.splice(executing.indexOf(e), 1))
-            executing.push(p)
-
-            if (executing >= poolLimit) {
-                await Promise.race(executing)
+            // 当任务完成后，从executing数组中移除已完成的任务
+            const e = p.then(() => executing.splice(executing.indexOf(e), 1));
+            executing.push(e);
+            if (executing.length >= poolLimit) {
+                await Promise.race(executing);
             }
-
         }
     }
-
-    return Promise.all(ret)
-
+    return Promise.all(ret);
 }
+
 
 // 模拟 API 请求函数
 const fetchUserData = async (userId) => {
