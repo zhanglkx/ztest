@@ -15,7 +15,7 @@ export default [
         },
         rules: {
             // 可能的错误
-            'no-console': 'warn', // 警告使用console
+            'no-console': 'off', // 允许使用 console
             'no-debugger': 'warn', // 警告使用debugger
             'no-dupe-args': 'error', // 禁止function参数重名
             'no-dupe-keys': 'error', // 禁止对象属性重名
