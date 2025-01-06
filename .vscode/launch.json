@@ -12,7 +12,7 @@
                 "-r",
                 "ts-node/register"
             ],
-            "program": "${workspaceFolder}/JavaScript/case/in.js"
+            "program": "${workspaceFolder}/JavaScript/Base/new.js"
         }
     ]
 }
