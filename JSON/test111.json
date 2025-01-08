@@ -1,1 +1,325 @@
-{"qrcode_compontent":[{"id":4075992,"qrcode_id":4520867,"component_code":"text","identity_id":0,"sort":0,"status":1,"tpl_com_id":893638,"org_id":94911424,"batch_id":0,"real_group_id":0,"component_status":0,"template_component_id":0,"template_component_info":"","form_component_id":0,"form_component_title":"","attribute_list":[{"content_html":{"id":3408129,"value":"<p>11</p>","status":0,"attribute_id":10,"group_id":1,"real_group_id":1,"tpl_com_id":893638,"name":"文本 html 片段","is_default_value":0,"multiple_id":"410406","attribute_multiple_id":5}}],"group_count":1,"encryption":"3ae9df488db8770dd4ebad3e2adfcdce"}],"qrcode_record":{"id":4520867,"coding":"q1OQTQX","wx_url":"","web_url":"https://qr46.cn/oQL9HR/q1OQTQX","wxcode_url":"","qrcode_url":"https://qrapi.cliim.net/newqr/create?data=https%3A%2F%2Fqr46.cn%2FoQL9HR%2Fq1OQTQX&logourl=https%3A%2F%2Fmeihua.oss-cn-hangzhou.aliyuncs.com%2Fcli%2Fimages%2Fbeautify%2Fnew%2Flogo%2F%E8%B4%B5%E5%B7%9E%E8%8C%85%E5%8F%B0-0210.png&logoshape=roundrect&logo_pos=0&logo_shadow=1&logow=90&logoh=auto&logosize=90&level=H&transparent=0&bgcolor=%23ffffff&forecolor=%231E4299&blockpixel=12&marginblock=3&size=220&logo_dealed=&logo_bg_type=0&foretype=1&forecolor2=&body_type=17&qrcode_eyes=pin-3.png&nomargin=0&kid=bizcliim&time=1736146088&key=2aeba6250f31dd5f5e1bff4cc0f349b2","list_name":"测试","qrcode_name":"","scene_module_id":0,"desc":"","category_id":46285770,"tpl_id":161784,"identity_id":0,"org_id":94911424,"update_time":1736145906,"create_time":1735795661,"status":0,"preset_case":0,"show_org_dest":0,"can_scan_update":0,"is_mobile_updated":0,"create_from":127,"tpl_qrcode_status":0,"tpl_qrcode_updated":0,"batch_id":0,"log_status":0,"excel_status":0,"tpl_name":"","batch_name":"","route_type":3,"project_id":85,"qrcode_sort":0,"share_qrcode_url":"","qrstyle_url":"","top_style":[],"component_value_empty":0,"show_homepage":2,"show_bottom_homepage":2,"bottom_homepage_meta":{"remark":"","jump_type":0,"jump_link":"","logo":"https://ncstatic.clewm.net/rsrc/2024/1028/13/97157065ee34a94e90f49a47da1b213c.png","title":"主页 12121"},"log_name":"","reset_limit_log":0,"img_name":""},"qrcode_top_component":[{"id":4005673,"qrcode_id":4520867,"component_code":"text","identity_id":0,"sort":0,"status":0,"tpl_com_id":824472,"org_id":94911424,"batch_id":0,"real_group_id":0,"component_status":1,"template_component_id":0,"template_component_info":"","form_component_id":0,"form_component_title":"","attribute_list":[{"content_html":{"id":3370607,"value":"测试","status":0,"attribute_id":10,"group_id":1,"real_group_id":1,"tpl_com_id":824472,"name":"文本 html 片段","is_default_value":0,"multiple_id":"372880","attribute_multiple_id":5}}],"group_count":1,"encryption":"bf8b470e8f9963f67c17536d5dadc5c4"},{"component_code":"recordlog","attribute_list":[],"status":2,"sort":1}],"debug_data":{"uniqueId":"saveQrcodeMsg_3","timestamp":1736146199078,"userId":"831891","cvid":"100993650","url":"http://console.cli.me:8000/nedit/4520867?tplId=161784&categoryId=46285770&pageFrom=center&originFrom=center","referrer":"http://console.cli.me:8000/nedit/4520867?tplId=161784&categoryId=46285770&pageFrom=center&originFrom=center","ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"},"qrcode_old_component":[{"id":4075992,"qrcode_id":4520867,"component_code":"text","identity_id":0,"sort":0,"status":0,"tpl_com_id":893638,"org_id":94911424,"batch_id":0,"real_group_id":0,"component_status":0,"template_component_id":0,"template_component_info":"","form_component_id":0,"form_component_title":"","attribute_list":[{"content_html":{"id":3408129,"value":"<p>11</p>","status":0,"attribute_id":10,"group_id":1,"real_group_id":1,"tpl_com_id":893638,"name":"文本 html 片段","is_default_value":0,"multiple_id":"410406","attribute_multiple_id":5}}],"group_count":1,"encryption":"3ae9df488db8770dd4ebad3e2adfcdce","type":"text","uniqueId":0}]
+{
+    "code": 1,
+    "msg": {
+        "text": "操作成功",
+        "code": "0"
+    },
+    "data": {
+        "id": 4520867,
+        "web_url": "https://qr46.cn/oQL9HR/q1OQTQX",
+        "qrcode_url": "https://qrapi.cliim.net/newqr/create?data=https%3A%2F%2Fqr46.cn%2FoQL9HR%2Fq1OQTQX&level=H&transparent=0&forecolor=%23000000&kid=bizcliim&time=1736305098&key=b5a3f38a87e7cfd85ae00663db00a5d0",
+        "tpl_id": 161784,
+        "list_name": "测试",
+        "org_id": 94911424,
+        "update_time": 1736305098,
+        "category_msg": {
+            "id": 46285770,
+            "node_left": 1,
+            "node_right": 2,
+            "parent_id": 0,
+            "org_id": 94911424,
+            "name": "导航组件",
+            "create_time": 1735795495,
+            "update_time": 0,
+            "org_module_id": 47465,
+            "qrcode_count": 4,
+            "auto_created": 0,
+            "project_id": 85,
+            "category_id": 46285770,
+            "category_root_id": 46285770
+        },
+        "log_id": null,
+        "qrcode_msg": {
+            "qrcode_record": {
+                "id": 4520867,
+                "coding": "q1OQTQX",
+                "wx_url": "",
+                "web_url": "https://qr46.cn/oQL9HR/q1OQTQX",
+                "wxcode_url": "",
+                "qrcode_url": "https://qrapi.cliim.net/newqr/create?data=https%3A%2F%2Fqr46.cn%2FoQL9HR%2Fq1OQTQX&logourl=https%3A%2F%2Fmeihua.oss-cn-hangzhou.aliyuncs.com%2Fcli%2Fimages%2Fbeautify%2Fnew%2Flogo%2F%E8%B4%B5%E5%B7%9E%E8%8C%85%E5%8F%B0-0210.png&logoshape=roundrect&logo_pos=0&logo_shadow=1&logow=90&logoh=auto&logosize=90&level=H&transparent=0&bgcolor=%23ffffff&forecolor=%231E4299&blockpixel=12&marginblock=3&size=220&logo_dealed=&logo_bg_type=0&foretype=1&forecolor2=&body_type=17&qrcode_eyes=pin-3.png&nomargin=0&kid=bizcliim&time=1736305099&key=64491e31b9571563ac3ec6b453762385",
+                "list_name": "测试",
+                "qrcode_name": "",
+                "scene_module_id": 0,
+                "desc": "",
+                "category_id": 46285770,
+                "tpl_id": 161784,
+                "identity_id": 0,
+                "org_id": 94911424,
+                "update_time": 1736305099,
+                "create_time": 1735795661,
+                "status": 0,
+                "preset_case": 0,
+                "show_org_dest": 0,
+                "can_scan_update": 0,
+                "is_mobile_updated": 0,
+                "create_from": 127,
+                "tpl_qrcode_status": 0,
+                "tpl_qrcode_updated": 0,
+                "batch_id": 0,
+                "log_status": 0,
+                "excel_status": 0,
+                "tpl_name": "",
+                "batch_name": "",
+                "route_type": 3,
+                "record_summary_status": 1,
+                "project_id": 85,
+                "qrcode_sort": 0,
+                "share_qrcode_url": "",
+                "qrstyle_url": "",
+                "top_style": [],
+                "record_add_status": 0,
+                "component_value_empty": 0
+            },
+            "qrcode_compontent": [
+                {
+                    "id": 4077950,
+                    "qrcode_id": 4520867,
+                    "component_code": "text",
+                    "identity_id": 0,
+                    "sort": 0,
+                    "status": 0,
+                    "tpl_com_id": 895427,
+                    "org_id": 94911424,
+                    "batch_id": 0,
+                    "real_group_id": 0,
+                    "component_status": 0,
+                    "template_component_id": 0,
+                    "template_component_info": "",
+                    "form_component_id": 0,
+                    "form_component_title": "",
+                    "attribute_list": [
+                        {
+                            "content_html": {
+                                "id": 3409246,
+                                "value": "<section data-theme-color=\"#205792\" data-is-vip=\"false\" data-change-color=\"on\" data-hide-change-color-btn=\"undefined\" data-key=\"table-tpl17\" data-is-full=\"false\" class=\"stylelib-wrapper stylelib-list\" data-contenteditable=\"false\"><section class=\"x-vipIcon\"><section style=\"display:none;\"><br></section></section><section data-stylelib-tpl-stylename=\"border-color\" data-stylelib-tpl-stylevalue=\"&lt;?= parseColor(themeColor,0.15) ?&gt;\" style=\"border-width:1px;border-style:solid;border-color:rgba(32, 87, 146, 0.15);border-top:none;font-size: 14px;\"><section data-stylelib-tpl-stylename=\"border-color\" data-stylelib-tpl-stylevalue=\"&lt;?= parseColor(themeColor,0.15) ?&gt;\" style=\"display: flex;border-top-width:1px;border-top-style:solid;border-color:rgba(32, 87, 146, 0.15);font-size: 14px;\" class=\"stylelib-list-item\"><section data-stylelib-tpl-stylename=\"border-color\" data-stylelib-tpl-stylevalue=\"&lt;?= parseColor(themeColor,0.15) ?&gt;\" data-stylelib-tpl-stylename-2=\"background-color\" data-stylelib-tpl-stylevalue-2=\"&lt;?=isDarkBgColor ? parseColor(themeColor, 0.3) : parseColor(themeColor, 0.1)?&gt;\" data-stylelib-tpl-stylename-1=\"color\" data-stylelib-tpl-stylevalue-1=\"&lt;?=isDarkBgColor ? '#fff' : 'rgba(0, 0, 0, 0.85)' ?&gt;\" style=\"color: rgba(0, 0, 0, 0.85);background-color:rgba(32, 87, 146, 0.1); border-right-width:1px;border-right-style:solid;border-color:rgba(32, 87, 146, 0.15);width: 33%;text-align: center;flex-shrink: 0;padding: 8px;\" data-contenteditable=\"true\"><span style=\"font-size:14px\">厂商 </span></section><section style=\"flex-grow: 1;text-align: center;padding: 8px;font-size: 14px;\" data-contenteditable=\"true\"><p></p></section></section></section></section>",
+                                "status": 0,
+                                "attribute_id": 10,
+                                "group_id": 0,
+                                "real_group_id": 1,
+                                "tpl_com_id": 895427,
+                                "name": "文本 html 片段",
+                                "is_default_value": 0,
+                                "multiple_id": "411523",
+                                "attribute_multiple_id": 5
+                            }
+                        }
+                    ],
+                    "group_count": 1,
+                    "encryption": "b2e26905bbebe128064aee1e3f15188d"
+                },
+                {
+                    "id": 4080088,
+                    "qrcode_id": 4520867,
+                    "component_code": "text",
+                    "identity_id": 0,
+                    "sort": 1,
+                    "status": 0,
+                    "tpl_com_id": 897002,
+                    "org_id": 94911424,
+                    "batch_id": 0,
+                    "real_group_id": 0,
+                    "component_status": 0,
+                    "template_component_id": 0,
+                    "template_component_info": "",
+                    "form_component_id": 0,
+                    "form_component_title": "",
+                    "attribute_list": [
+                        {
+                            "content_html": {
+                                "id": 3410040,
+                                "value": "<p><br></p><p>1</p>",
+                                "status": 0,
+                                "attribute_id": 10,
+                                "group_id": 0,
+                                "real_group_id": 1,
+                                "tpl_com_id": 897002,
+                                "name": "文本 html 片段",
+                                "is_default_value": 0,
+                                "multiple_id": "412317",
+                                "attribute_multiple_id": 5
+                            }
+                        }
+                    ],
+                    "group_count": 1,
+                    "encryption": "4cc4d7a8a2f6288fd4d2f96fa403af6a"
+                }
+            ],
+            "qrcode_top_component": [
+                {
+                    "id": 4005673,
+                    "qrcode_id": 4520867,
+                    "component_code": "text",
+                    "identity_id": 0,
+                    "sort": 2,
+                    "status": 0,
+                    "tpl_com_id": 824472,
+                    "org_id": 94911424,
+                    "batch_id": 0,
+                    "real_group_id": 0,
+                    "component_status": 1,
+                    "template_component_id": 0,
+                    "template_component_info": "",
+                    "form_component_id": 0,
+                    "form_component_title": "",
+                    "attribute_list": [
+                        {
+                            "content_html": {
+                                "id": 3370607,
+                                "value": "测试",
+                                "status": 0,
+                                "attribute_id": 10,
+                                "group_id": 1,
+                                "real_group_id": 1,
+                                "tpl_com_id": 824472,
+                                "name": "文本 html 片段",
+                                "is_default_value": 0,
+                                "multiple_id": "372880",
+                                "attribute_multiple_id": 5
+                            }
+                        }
+                    ],
+                    "group_count": 1,
+                    "encryption": "bf8b470e8f9963f67c17536d5dadc5c4"
+                },
+                {
+                    "id": 4080092,
+                    "qrcode_id": 4520867,
+                    "component_code": "recordlog",
+                    "identity_id": 0,
+                    "sort": 3,
+                    "status": 2,
+                    "tpl_com_id": 897006,
+                    "org_id": 94911424,
+                    "batch_id": 0,
+                    "real_group_id": 0,
+                    "component_status": 1,
+                    "template_component_id": 0,
+                    "template_component_info": "",
+                    "form_component_id": 0,
+                    "form_component_title": ""
+                }
+            ],
+            "used_form_fields": [],
+            "show_collect": 1,
+            "show_manage": 1,
+            "show_font_size": 2,
+            "show_share": 1,
+            "show_homepage": 2,
+            "show_bottom_homepage": 2,
+            "show_powered_by": 0,
+            "share_style": 1,
+            "bottom_homepage_meta": {
+                "remark": "",
+                "jump_type": 0,
+                "jump_link": "",
+                "logo": "https://ncstatic.clewm.net/rsrc/2024/1028/13/97157065ee34a94e90f49a47da1b213c.png",
+                "title": "主页 12121"
+            },
+            "show_complain": 1,
+            "is_org_dest_qrcode": 0,
+            "log_msg": [],
+            "log_msg_tag": "",
+            "expand_log": 4,
+            "open_codereview": 0,
+            "open_readregister": 0,
+            "open_direct_preview": 1,
+            "show_record_editlog": 0,
+            "recordview_position": 4,
+            "record_summary_title": "",
+            "state_show_mode": 4,
+            "record_summary_status": 1,
+            "default_qrlabel_show_type": 0,
+            "is_disabled": 0,
+            "visible_auth_info": [],
+            "qrcode_setting_msg": {
+                "valid_time": {
+                    "start_time": "",
+                    "end_time": "",
+                    "valid_days_num": -2
+                },
+                "route_type": 3,
+                "remarks": "",
+                "cover_image": {
+                    "type": 0,
+                    "url": ""
+                },
+                "subscribe_status": 0,
+                "show_tabbar": 0,
+                "org_bottom_setting": {
+                    "show_collect": 1,
+                    "show_manage": 1,
+                    "show_font_size": 2,
+                    "show_share": 1,
+                    "show_homepage": 1,
+                    "show_bottom_homepage": 1,
+                    "show_powered_by": 0,
+                    "share_style": 1,
+                    "bottom_homepage_meta": {
+                        "remark": "",
+                        "jump_type": 0,
+                        "jump_link": "",
+                        "logo": "https://ncstatic.clewm.net/rsrc/2024/1028/13/97157065ee34a94e90f49a47da1b213c.png",
+                        "title": "主页 12121",
+                        "is_initialized": 1
+                    },
+                    "dest_qrcode_msg": {
+                        "can_show_dest_qrcode": 1,
+                        "org_dest_qrcode": 4347906,
+                        "show_dest_qrcode": 0,
+                        "homepage_qrcode_name": "产品目录",
+                        "tpl_qrcode_status": 0,
+                        "homepage_qrcode_url": "https://h.qr61.cn/oQL9HR/qbKKHtM",
+                        "homepage_qrcode_id": 4347906
+                    }
+                },
+                "bottom_setting": {
+                    "show_collect": 1,
+                    "show_manage": 1,
+                    "show_font_size": 2,
+                    "show_share": 1,
+                    "share_style": 1
+                },
+                "global_bottom_setting": {
+                    "show_collect": 1,
+                    "show_share": 1,
+                    "show_manage": 1
+                },
+                "open_methods": {
+                    "scan": true,
+                    "press": true,
+                    "share": true,
+                    "other_app": true
+                },
+                "show_font_size": 2,
+                "auth_set_info": [
+                    {
+                        "privi_type": "edit",
+                        "auth_type": 5
+                    },
+                    {
+                        "id": 1961724,
+                        "data_id": 4520867,
+                        "data_type": 7,
+                        "privi_type": "visible",
+                        "auth_type": 4,
+                        "code_id": 4520867,
+                        "org_id": 94911424,
+                        "limit_id": 0,
+                        "update_time": 1735795661,
+                        "hide_nopower": 0,
+                        "has_detail": false,
+                        "encryption": "61c6c15e7abdbbc311d477e29f776da2"
+                    }
+                ],
+                "review_set": [],
+                "bgimage_set": [],
+                "common_set": []
+            },
+            "low_quality": 0,
+            "encoded_user_id": "oQL9HR"
+        },
+        "capacity_exceeded_tip": 0
+    },
+    "url": "",
+    "wait": 3
+}
