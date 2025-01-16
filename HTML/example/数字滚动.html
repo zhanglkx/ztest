@@ -1,57 +1,55 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh">
 <head>
-  <meta charset="UTF-8" />
-  <title>CSS Number Scroll Demo</title>
+  <meta charset="UTF-8">
+  <title>CSS 数字翻滚示例</title>
   <style>
-    /* 声明可动画的自定义属性 --seed */
+    /*
+      声明一个可动画的自定义属性 --seed，
+      注意这里用 <integer> 表示它是整数，这样配合 steps(...) 可以离散跳动。
+    */
     @property --seed {
-      /* 表示该自定义属性的值语法是整数 */
       syntax: "<integer>";
-      /* 不继承到子元素 */
       inherits: false;
-      /* 初始值 */
       initial-value: 0;
     }
 
-    /* 定义动画 keyframes，将 --seed 从 0 过渡到 100 */
+    /* 
+      定义关键帧动画：
+      将 --seed 从 0 变到 888（你想滚动到多少就写多少）。
+    */
     @keyframes seed {
       from {
         --seed: 0;
       }
       to {
-        --seed: 100;
+        --seed: 888;
       }
     }
 
-    /* 用于演示数字滚动的元素 */
+    /*
+      .ani-num 既是我们的数字容器，也是动画触发的元素。
+      animation 的时长可自行调节，此处设置 3s。
+      steps(888) 表示在这 3s 里分 888 步跳完，每一步 +1，类似数字翻滚。
+    */
     .ani-num {
-      /* 最终要滚到的数字，比如此处是 8888 */
-      --num: 8888;
       font-size: 3rem;
-      color: transparent;  /* 文字本身设为透明，改用 ::before 来显示 */
       position: relative;
-      /* 播放动画，从 0 到 100，持续 2s，线性过渡，forwards（结束后保持在最终状态） */
-      animation: seed 2s linear forwards;
+      color: transparent; /* 用 ::before 来显示，避免原文字干扰 */
+      animation: seed 3s steps(888) forwards;
+      /* 也可以尝试 animation: seed 3s linear forwards; 这会是平滑滚动（但会出现小数） */
     }
 
-    /* 使用 ::before 来实时展示数字滚动的效果 */
+    /*
+      使用 ::before 动态显示当前数值：
+      1. 用 counter-reset 把一个计数器 number 重置为 var(--seed)。
+      2. 用 content: counter(number) 在伪元素内容中展示该计数器。
+    */
     .ani-num::before {
-      /* 根据动画中的 --seed 动态计算当前要显示的数字并重置计数器 */
-      counter-reset: number calc(
-        /* 当前动画进度 (0~100) */
-        var(--seed)
-        *
-        /* 需要滚动到的目标数字 */
-        var(--num)
-        /
-        100
-      );
-
-      /* 在内容中显示刚刚重置过的计数器数值 */
+      counter-reset: number var(--seed);
       content: counter(number);
 
-      /* 让 ::before 占位与原文本相同位置 */
+      /* 让数字覆盖在原元素之上 */
       position: absolute;
       left: 0;
       top: 0;
@@ -60,7 +58,7 @@
   </style>
 </head>
 <body>
-  <!-- 只需一个空容器，数字滚动效果会由 CSS 来生成 -->
+  <!-- 只需一个空的 div，CSS 会让它从 0 翻滚到 888 -->
   <div class="ani-num"></div>
 </body>
 </html>
