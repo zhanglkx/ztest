@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>CSS Number Scroll Demo</title>
+  <style>
+    /* 声明可动画的自定义属性 --seed */
+    @property --seed {
+      /* 表示该自定义属性的值语法是整数 */
+      syntax: "<integer>";
+      /* 不继承到子元素 */
+      inherits: false;
+      /* 初始值 */
+      initial-value: 0;
+    }
+
+    /* 定义动画 keyframes，将 --seed 从 0 过渡到 100 */
+    @keyframes seed {
+      from {
+        --seed: 0;
+      }
+      to {
+        --seed: 100;
+      }
+    }
+
+    /* 用于演示数字滚动的元素 */
+    .ani-num {
+      /* 最终要滚到的数字，比如此处是 8888 */
+      --num: 8888;
+      font-size: 3rem;
+      color: transparent;  /* 文字本身设为透明，改用 ::before 来显示 */
+      position: relative;
+      /* 播放动画，从 0 到 100，持续 2s，线性过渡，forwards（结束后保持在最终状态） */
+      animation: seed 2s linear forwards;
+    }
+
+    /* 使用 ::before 来实时展示数字滚动的效果 */
+    .ani-num::before {
+      /* 根据动画中的 --seed 动态计算当前要显示的数字并重置计数器 */
+      counter-reset: number calc(
+        /* 当前动画进度 (0~100) */
+        var(--seed)
+        *
+        /* 需要滚动到的目标数字 */
+        var(--num)
+        /
+        100
+      );
+
+      /* 在内容中显示刚刚重置过的计数器数值 */
+      content: counter(number);
+
+      /* 让 ::before 占位与原文本相同位置 */
+      position: absolute;
+      left: 0;
+      top: 0;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+  <!-- 只需一个空容器，数字滚动效果会由 CSS 来生成 -->
+  <div class="ani-num"></div>
+</body>
+</html>
