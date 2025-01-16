@@ -2,63 +2,90 @@
 <html lang="zh">
 <head>
   <meta charset="UTF-8">
-  <title>CSS 数字翻滚示例</title>
+  <title>CSS数字果冻效果</title>
   <style>
-    /*
-      声明一个可动画的自定义属性 --seed，
-      注意这里用 <integer> 表示它是整数，这样配合 steps(...) 可以离散跳动。
-    */
+    /* 1) 声明可动画的自定义属性 --seed。 
+       注意 syntax 用 <integer> 或 <number> 都行，但想做弹性插值可改成 <number> */
     @property --seed {
-      syntax: "<integer>";
-      inherits: false;
+      syntax: "<number>";
+      inherits: true;
       initial-value: 0;
     }
 
-    /* 
-      定义关键帧动画：
-      将 --seed 从 0 变到 888（你想滚动到多少就写多少）。
+    /*
+      2) 定义关键帧 seed：
+         - 让 --seed 从 0 变到 100。
+         - 同时在关键帧里对 .ani-num 的 transform 做一些缩放来产生“果冻弹跳”效果。
+         - 这里示范了一种大致的弹跳节奏：放大 -> 缩小 -> 微放 -> 回到正常。
     */
     @keyframes seed {
-      from {
+      0% {
         --seed: 0;
+        transform: scale(1);
       }
-      to {
-        --seed: 888;
+      30% {
+        transform: scale(1.2);
+      }
+      50% {
+        transform: scale(0.9);
+      }
+      80% {
+        transform: scale(1.05);
+      }
+      100% {
+        --seed: 100; /* 最终把 seed 值拉到 100 */
+        transform: scale(1);
       }
     }
 
     /*
-      .ani-num 既是我们的数字容器，也是动画触发的元素。
-      animation 的时长可自行调节，此处设置 3s。
-      steps(888) 表示在这 3s 里分 888 步跳完，每一步 +1，类似数字翻滚。
+      3) 样式核心 .ani-num：
+         - 用 --num: 8888 指定目标数字
+         - 播放上面定义的 seed 动画，2秒完成，ease动画，forwards结束后停在最终状态。
     */
     .ani-num {
-      font-size: 3rem;
-      position: relative;
-      color: transparent; /* 用 ::before 来显示，避免原文字干扰 */
-      animation: seed 3s steps(888) forwards;
-      /* 也可以尝试 animation: seed 3s linear forwards; 这会是平滑滚动（但会出现小数） */
+      /* 最终要到达的数字 */
+      --num: 8888;
+
+      font-size: 4rem;        /* 可以调大一些以便看得更清楚 */
+      color: transparent;     /* 用 ::before 来显示数字 */
+      position: relative;     /* 使 ::before 可以绝对定位 */
+      display: inline-block;  /* 让 transform 生效在该块上 */
+
+      /* 播放 'seed' 动画 2s，ease 过渡，并在结束后保持最后状态 */
+      animation: seed 2s ease forwards;
     }
 
     /*
-      使用 ::before 动态显示当前数值：
-      1. 用 counter-reset 把一个计数器 number 重置为 var(--seed)。
-      2. 用 content: counter(number) 在伪元素内容中展示该计数器。
+      4) .ani-num::before 来显示数字本身：
+         - 这里关键在 counter-reset: num calc(var(--seed)*var(--num)/100)
+           这样就能得到当前帧对应该显示的整数
+         - content: counter(num) 将该值插入到行内文本
     */
     .ani-num::before {
-      counter-reset: number var(--seed);
-      content: counter(number);
-
-      /* 让数字覆盖在原元素之上 */
+      counter-reset: num calc(
+        var(--seed) * var(--num) / 100
+      );
+      content: counter(num);
       position: absolute;
-      left: 0;
       top: 0;
-      color: #333;
+      left: 0;
+      color: #ff5722;
+    }
+
+    /* 为了好看一点，这里加点简单的样式示例 */
+    body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      background: #fafafa;
+      font-family: sans-serif;
     }
   </style>
 </head>
 <body>
-  <!-- 只需一个空的 div，CSS 会让它从 0 翻滚到 888 -->
-  <div class="ani-num"></div>
+  <strong class="ani-num"></strong>
 </body>
 </html>
