@@ -24,13 +24,13 @@
         transform: scale(1);
       }
       30% {
-        transform: scale(1.2);
+        /* transform: scale(1.2); */
       }
       50% {
-        transform: scale(0.9);
+        /* transform: scale(0.9); */
       }
       80% {
-        transform: scale(1.05);
+        /* transform: scale(1.05); */
       }
       100% {
         --seed: 100; /* 最终把 seed 值拉到 100 */
@@ -53,7 +53,9 @@
       display: inline-block;  /* 让 transform 生效在该块上 */
 
       /* 播放 'seed' 动画 2s，ease 过渡，并在结束后保持最后状态 */
-      animation: seed 2s ease forwards;
+      /* 无限循环 每次动画结束后，数字会从0开始 要求间隔两秒 */
+      animation: seed 2s ease-in forwards ;
+      animation-delay: 2s;
     }
 
     /*
