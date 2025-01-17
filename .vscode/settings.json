@@ -1,54 +1,64 @@
 {
-    "liveServer.settings.port": 5502,
-    "cSpell.words": [
-        "attrname",
-        "attrvalue",
-        "nums",
-        "poolings",
-        "stylelib",
-        "stylename",
-        "stylevalue"
-    ],
-    "[javascript]": {
-        "editor.formatOnSave": true,
-        "editor.defaultFormatter": "dbaeumer.vscode-eslint",
-        "editor.tabSize": 2,
-        "editor.codeActionsOnSave": {
-            "source.fixAll.eslint": "explicit"
-        }
-    },
-    "[typescript]": {
-        "editor.formatOnSave": true,
-        "editor.defaultFormatter": "dbaeumer.vscode-eslint",
-        "editor.tabSize": 2,
-        "editor.codeActionsOnSave": {
-            "source.fixAll.eslint": "explicit"
-        }
-    },
-    "eslint.format.enable": true,
-    "eslint.workingDirectories": [
-        {
-            "mode": "location"
-        }
-    ],
-    "workbench.colorCustomizations": {
-        "activityBar.activeBackground": "#ab307e",
-        "activityBar.background": "#ab307e",
-        "activityBar.foreground": "#e7e7e7",
-        "activityBar.inactiveForeground": "#e7e7e799",
-        "activityBarBadge.background": "#25320e",
-        "activityBarBadge.foreground": "#e7e7e7",
-        "commandCenter.border": "#e7e7e799",
-        "sash.hoverBorder": "#ab307e",
-        "statusBar.background": "#832561",
-        "statusBar.foreground": "#e7e7e7",
-        "statusBarItem.hoverBackground": "#ab307e",
-        "statusBarItem.remoteBackground": "#832561",
-        "statusBarItem.remoteForeground": "#e7e7e7",
-        "titleBar.activeBackground": "#832561",
-        "titleBar.activeForeground": "#e7e7e7",
-        "titleBar.inactiveBackground": "#83256199",
-        "titleBar.inactiveForeground": "#e7e7e799"
-    },
-    "peacock.color": "#832561"
+  "liveServer.settings.port": 5502,
+  "cSpell.words": ["attrname", "attrvalue", "nums", "poolings", "stylelib", "stylename", "stylevalue"],
+  "[javascript]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+    "editor.tabSize": 2,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "explicit"
+    }
+  },
+  "[typescript]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+    "editor.tabSize": 2,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "explicit"
+    }
+  },
+  "eslint.format.enable": true,
+  "eslint.workingDirectories": [
+    {
+      "mode": "location"
+    }
+  ],
+  "workbench.colorCustomizations": {
+    "activityBar.activeBackground": "#ab307e",
+    "activityBar.background": "#ab307e",
+    "activityBar.foreground": "#e7e7e7",
+    "activityBar.inactiveForeground": "#e7e7e799",
+    "activityBarBadge.background": "#25320e",
+    "activityBarBadge.foreground": "#e7e7e7",
+    "commandCenter.border": "#e7e7e799",
+    "sash.hoverBorder": "#ab307e",
+    "statusBar.background": "#832561",
+    "statusBar.foreground": "#e7e7e7",
+    "statusBarItem.hoverBackground": "#ab307e",
+    "statusBarItem.remoteBackground": "#832561",
+    "statusBarItem.remoteForeground": "#e7e7e7",
+    "titleBar.activeBackground": "#832561",
+    "titleBar.activeForeground": "#e7e7e7",
+    "titleBar.inactiveBackground": "#83256199",
+    "titleBar.inactiveForeground": "#e7e7e799",
+    "editor.wordHighlightBackground": "#A8E6CF30",
+    "editor.wordHighlightBorder": "#A8E6CF",
+    "editor.wordHighlightStrongBackground": "#FFD3B630",
+    "editor.wordHighlightStrongBorder": "#FFD3B6",
+    "editor.selectionHighlightBackground": "#FFAAA630",
+    "editor.selectionHighlightBorder": "#FFAAA6"
+  },
+  "peacock.color": "#832561",
+
+    // 新版的可视化引导设置
+    "editor.guides.indentation": true,
+  
+    // 也可以让包含空行也绘制缩进线
+    "editor.guides.highlightActiveIndentation": true,
+  
+    // 如果你想渲染所有非活动行的缩进，可以启用:
+    // "editor.guides.indentationHighlight": "always", (旧版可能不支持)
+  
+    // 如果要在多行选择等情况下，也能更明显，试试这项:
+    // "editor.guides.bracketPairs": "active", 
 }

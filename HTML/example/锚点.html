@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Demo: :target Example</title>
+  <style>
+    /* 基础样式 */
+    body {
+      font-family: sans-serif;
+      margin: 20px;
+    }
+    nav ul {
+      display: flex;
+      gap: 20px;
+      list-style: none;
+      padding: 0;
+    }
+    nav a {
+      text-decoration: none;
+      color: #3498db;
+      font-weight: bold;
+    }
+
+    /* 每个 section 的默认外观 */
+    section {
+      margin-top: 30px;
+      padding: 20px;
+      border: 1px solid #ccc;
+      transition: all 0.3s ease;
+    }
+
+    /* :target 状态下的高亮效果 */
+    section:target {
+      border: 2px dashed #e84393;
+      background-color: #ffe6f0;
+      /* 也可以做一些滚动动画，或者更改字体颜色等 */
+    }
+  </style>
+</head>
+<body>
+  <h1>页面内导航示例 (:target)</h1>
+  <nav>
+    <ul>
+      <li><a href="#section1">前往 Section 1</a></li>
+      <li><a href="#section2">前往 Section 2</a></li>
+      <li><a href="#section3">前往 Section 3</a></li>
+    </ul>
+  </nav>
+
+  <section id="section1">
+    <h2>Section 1</h2>
+    <p>这是 Section 1 的内容。</p>
+  </section>
+
+  <section id="section2">
+    <h2>Section 2</h2>
+    <p>这是 Section 2 的内容。</p>
+  </section>
+
+  <section id="section3">
+    <h2>Section 3</h2>
+    <p>这是 Section 3 的内容。</p>
+  </section>
+</body>
+</html>
