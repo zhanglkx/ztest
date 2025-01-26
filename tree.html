@@ -1,28 +1,73 @@
 <section
-  data-is-vip="false"
-  data-type="title"
-  data-change-color="on"
-  data-theme-color="#205792"
+  class="stylelib-wrapper stylelib-list"
   contenteditable="false"
-  data-key="title-tpl114"
-  class="stylelib-wrapper first-child stylelib_wrapper_new_selected"
+  data-theme-color="<%=themeColor%>"
+  data-is-vip="<%=isVip%>"
+  data-change-color="<%=canChangeColor%>"
+  data-key="text-tpl84"
 >
-  <section style="width: 100%; position: relative; overflow: hidden">
+  <section style="position: relative; border-radius: 4px">
     <section
-      contenteditable="true"
-      data-stylelib-stylename="color"
-      style="position: relative; color: #205792; border-radius: 4px; border-radius: 2px; font-size: 36px"
+      data-stylelib-tpl-stylename="border-color"
+      data-stylelib-tpl-stylevalue="<?= isDarkBgColor ? parseColor(themeColor, 0.45) : themeColor ?>"
+      class="stylelib-list-item x-text-tpl84-padding"
+      style="display: flex;border-color: <%=isDarkBgColor ? parseColor(themeColor, 0.45) : themeColor%>; border-bottom-style: solid;border-bottom-width: 1px;padding: 12px 0px 8px 0;"
     >
-      <p>
-        <strong><span style="font-size: 36px">产品展示</span> </strong>
-      </p>
+      <section
+        class="x-text-tpl84-minWidth"
+        data-stylelib-stylename="color"
+        data-stylelib-varname="themeFontColor"
+        style="font-size: 16px; color: <%=themeFontColor%>; min-width: 36px; display: inline-block; flex-shrink: 0"
+        contenteditable="<%=contentEditable%>"
+      >
+        <p>
+          <span style="font-size: 16px">
+            <strong> 时间 </strong>
+          </span>
+        </p>
+      </section>
+      <section
+        data-stylelib-stylename="color"
+        data-stylelib-varname="themeFontColor"
+        style="font-size: 16px; color: <%=themeFontColor%>; display: inline-block; min-width: 36px"
+        contenteditable="<%=contentEditable%>"
+      >
+        <p>
+          <span style="font-size: 16px"><strong>/ 2023.10.18</strong></span>
+        </p>
+      </section>
     </section>
     <section
-      contenteditable="true"
-      data-stylelib-stylename="background-color"
-      style="position: relative; background-color: #205792; width: 32px; height: 3px; margin-top: 8px; border-radius: 2px"
+      data-stylelib-tpl-stylename="border-color"
+      data-stylelib-tpl-stylevalue="<?= isDarkBgColor ? parseColor(themeColor, 0.45) : themeColor ?>"
+      class="stylelib-list-item x-text-tpl84-padding"
+      style="display: flex;border-color: <%=isDarkBgColor ? parseColor(themeColor, 0.45) : themeColor%>; border-bottom-style: solid;border-bottom-width: 1px;padding: 12px 0 8px 0;"
     >
-      <section style="display: none"><br /></section>
+      <section
+        class="x-text-tpl84-minWidth"
+        data-stylelib-stylename="color"
+        data-stylelib-varname="themeFontColor"
+        style="font-size: 16px; color: <%=themeFontColor%>; min-width: 36px; display: inline-block; min-width: 36px; flex-shrink: 0"
+        contenteditable="<%=contentEditable%>"
+      >
+        <p>
+          <span style="font-size: 16px">
+            <strong>地点</strong>
+          </span>
+        </p>
+      </section>
+      <section
+        data-stylelib-stylename="color"
+        data-stylelib-varname="themeFontColor"
+        style="font-size: 16px; color: <%=themeFontColor%>; display: inline-block"
+        contenteditable="<%=contentEditable%>"
+      >
+        <p>
+          <span style="font-size: 16px">
+            <strong>/ 宁波市海曙区甬水桥科创中心1幢6楼C区</strong>
+          </span>
+        </p>
+      </section>
     </section>
   </section>
 </section>
