@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SSE Chat Demo</title>
+    <style>
+        :root {
+            --chat-bg: #343541;
+            --user-bg: #343541;
+            --assistant-bg: #444654;
+            --text-color: #ECECF1;
+            --border-color: rgba(255,255,255,0.1);
+        }
+        
+        body {
+            font-family: system-ui, -apple-system, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--chat-bg);
+            color: var(--text-color);
+            line-height: 1.6;
+        }
+
+        .chat-container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .message {
+            padding: 24px 0;
+            animation: fadeIn 0.5s ease-out;
+        }
+
+        .message-content {
+            max-width: 800px;
+            margin: 0 auto;
+            display: flex;
+            gap: 20px;
+            padding: 0 20px;
+        }
+
+        .avatar {
+            width: 36px;
+            height: 36px;
+            border-radius: 4px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            flex-shrink: 0;
+        }
+
+        .user-message {
+            background-color: var(--user-bg);
+        }
+
+        .assistant-message {
+            background-color: var(--assistant-bg);
+        }
+
+        .user-avatar {
+            background-color: #9859B7;
+        }
+
+        .assistant-avatar {
+            background-color: #19C37D;
+        }
+
+        .message-body {
+            flex-grow: 1;
+            padding-top: 4px;
+        }
+
+        .message-role {
+            font-weight: bold;
+            margin-bottom: 8px;
+        }
+
+        #response {
+            margin: 0;
+            white-space: pre-wrap;
+            display: inline;
+        }
+
+        .cursor {
+            display: inline-block;
+            width: 6px;
+            height: 16px;
+            background-color: #19C37D;
+            animation: blink 1s infinite;
+            vertical-align: middle;
+            border-radius: 1px;
+            margin-left: 2px;
+        }
+
+        @keyframes blink {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0; }
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+    <div class="chat-container">
+        <div class="message user-message">
+            <div class="message-content">
+                <div class="avatar user-avatar">U</div>
+                <div class="message-body">
+                    <div class="message-role">User</div>
+                    <p>Tell me about SSE (Server-Sent Events)</p>
+                </div>
+            </div>
+        </div>
+        <div class="message assistant-message">
+            <div class="message-content">
+                <div class="avatar assistant-avatar">A</div>
+                <div class="message-body">
+                    <div class="message-role">Assistant</div>
+                    <p id="response"></p>
+                    <span class="cursor" id="cursor"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const responseElement = document.getElementById('response');
+        const cursorElement = document.getElementById('cursor');
+        
+        // 创建 EventSource 连接
+        const eventSource = new EventSource('http://localhost:3000/events');
+        
+        // 监听服务器发送的消息
+        eventSource.onmessage = function(event) {
+            if (event.data === '[DONE]') {
+                // 接收完成，关闭连接
+                eventSource.close();
+                cursorElement.style.display = 'none';
+            } else {
+                // 将接收到的字符添加到响应区域
+                responseElement.textContent += event.data;
+                // 确保内容可见
+                cursorElement.scrollIntoView({ behavior: 'smooth' });
+            }
+        };
+
+        // 处理错误
+        eventSource.onerror = function(error) {
+            console.error('EventSource failed:', error);
+            eventSource.close();
+            cursorElement.style.display = 'none';
+        };
+    </script>
+</body>
+</html>
