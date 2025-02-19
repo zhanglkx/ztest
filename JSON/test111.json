@@ -1534,7 +1534,7 @@
 			"beginVersion": "8.52.6"
 		}
 	],
-	"walletPattern": [
+	"wallet": [
 		{
 			"pattern": ".*/webapp/wallet/accountverified(\\?.*)?",
 			"template": "/rn_wallet/_crn_config?CRNType=1&CRNModuleName=rn_wallet&initialPage=realname$1",
