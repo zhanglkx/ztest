@@ -4,4 +4,4 @@ const first = (second = 1) => {
 
  };
 
- first(null);
+ first(null)
