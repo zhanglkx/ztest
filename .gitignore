@@ -1,0 +1,8 @@
+./node_modules
+.DS_Store
+.idea
+node_modules
+.next
+next.config.js
+release
+package-lock.json
