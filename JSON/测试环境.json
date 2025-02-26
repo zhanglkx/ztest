@@ -1,0 +1,10 @@
+{
+  "walletPattern": [
+    {
+      "pattern": "^wallet/index.html#resetpaypsd\\?[^#]*from=([^&]+)",
+      "template": "https:/secure.fat18.qa.nt.ctripcorp.com/webapp/paywallet/setpassword?backpage=$1&forwardpage=$1",
+      "keycode": "wallet/index.html#resetpaypsd",
+      "beginVersion": "8.78.2"
+    }
+  ]
+}
