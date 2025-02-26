@@ -1,37 +1,60 @@
-<!DOCTYPE html>
-<html lang="en">
+export const TravixCdnBaseUrl = `https://static-assets.travix.com/packages/h5paymentsdk/payment_ares/1.0.38`;
+const TripCdnBaseUrl = 'https://static.tripcdn.com/packages/h5paymentsdk/payment_ares/1.0.38';
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Algorithm Example</title>
-</head>
+const isTravixSite = () =>
+  __CLIENT__ && typeof window !== 'undefined' && PayGlobalData.paySite === PAY_SITE.Travix;
+export const BASE_CDN_URL = isTravixSite() ? TravixCdnBaseUrl : TripCdnBaseUrl;
 
-<body>
-    <h1>Algorithm Example</h1>
-    <script>
-        // Example algorithm: Bubble Sort
-        function bubbleSort(arr) {
-            let n = arr.length;
-            for (let i = 0; i < n - 1; i++) {
-                for (let j = 0; j < n - i - 1; j++) {
-                    if (arr[j] > arr[j + 1]) {
-                        // Swap arr[j] and arr[j+1]
-                        let temp = arr[j];
-                        arr[j] = arr[j + 1];
-                        arr[j + 1] = temp;
-                    }
-                }
-            }
-            return arr;
-        }
+export const ASSETS_IMG_CDN_URL = `${BASE_CDN_URL}/assets/img/`; // NOTE: 存放一些静态文件
+export const THIRD_PAY_ICON_CDN_URL = `${BASE_CDN_URL}/thirdpay/`; // NOTE: 存放三方支付的ICON
+export const LIBS_CDN_URL = `${BASE_CDN_URL}/libs/`; // NOTE: 主要存放的是脚本文件
+export const FONT_CDN_URL = `${BASE_CDN_URL}/font/`; // NOTE: 主要存放的是脚本文件
+export const PAYMENT6_THIRD_PAY_ICON_CDN_URL = `${BASE_CDN_URL}/ibuThirdpay/`; // NOTE: 存放三方支付的ICON
+export const IDEAL_ICON_CDN_URL = `${BASE_CDN_URL}/idealIcon/`; // NOTE: 存放IDEAL银行列表的ICON
+export const FPX_ICON_CDN_URL = `${BASE_CDN_URL}/fpxIcon/`; // NOTE: 存放FPX银行列表的ICON
+export const LOTTIE_CDN_URL = `${BASE_CDN_URL}/lottie/`; // NOTE: 存放Lottie格式的动画
 
-        // Example usage
-        let array = [64, 34, 25, 12, 22, 11, 90];
-        console.log("Unsorted array:", array);
-        let sortedArray = bubbleSort(array);
-        console.log("Sorted array:", sortedArray);
-    </script>
-</body>
+const USPCommonLoading: FC<IUSPLoadingProps> = ({ title }) => (
+  <div className="usp-common-loading-wrapper">
+    <div className="usp-common-loading-box">
+      <div className="usp-common-loading-image">
+        <Lottie path={`${LOTTIE_CDN_URL}usp_common_loading.json`} />
+      </div>
+    </div>
+  </div>
+);
 
-</html>
+
+.usp-common-loading-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  > .usp-common-loading-box {
+    background: #ffffff;
+    border-radius: rem(16px);
+
+    padding: rem(32px);
+    box-shadow: 0 8px 16px 0 rgba(15, 41, 77, 0.1);
+
+    > .usp-common-loading-image {
+      width: rem(136px);
+      height: rem(136px);
+    }
+  }
+  > .usp-common-title {
+    color: rgb(69, 88, 115);
+    font-size: rem(30px);
+    font-weight: normal;
+    letter-spacing: 0px;
+    text-align: center;
+    margin: rem(0 40px);
+  }
+  > .usp-common-desc {
+    color: rgb(69, 88, 115);
+    font-size: rem(26px);
+    font-weight: normal;
+    letter-spacing: 0px;
+    text-align: center;
+    margin: rem(16px 40px 0);
+  }
+}
