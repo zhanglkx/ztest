@@ -1,73 +1,96 @@
-<section
-  class="stylelib-wrapper stylelib-list"
-  contenteditable="false"
-  data-theme-color="<%=themeColor%>"
-  data-is-vip="<%=isVip%>"
-  data-change-color="<%=canChangeColor%>"
-  data-key="text-tpl84"
->
-  <section style="position: relative; border-radius: 4px">
-    <section
-      data-stylelib-tpl-stylename="border-color"
-      data-stylelib-tpl-stylevalue="<?= isDarkBgColor ? parseColor(themeColor, 0.45) : themeColor ?>"
-      class="stylelib-list-item x-text-tpl84-padding"
-      style="display: flex;border-color: <%=isDarkBgColor ? parseColor(themeColor, 0.45) : themeColor%>; border-bottom-style: solid;border-bottom-width: 1px;padding: 12px 0px 8px 0;"
-    >
-      <section
-        class="x-text-tpl84-minWidth"
-        data-stylelib-stylename="color"
-        data-stylelib-varname="themeFontColor"
-        style="font-size: 16px; color: <%=themeFontColor%>; min-width: 36px; display: inline-block; flex-shrink: 0"
-        contenteditable="<%=contentEditable%>"
-      >
-        <p>
-          <span style="font-size: 16px">
-            <strong> 时间 </strong>
-          </span>
-        </p>
-      </section>
-      <section
-        data-stylelib-stylename="color"
-        data-stylelib-varname="themeFontColor"
-        style="font-size: 16px; color: <%=themeFontColor%>; display: inline-block; min-width: 36px"
-        contenteditable="<%=contentEditable%>"
-      >
-        <p>
-          <span style="font-size: 16px"><strong>/ 2023.10.18</strong></span>
-        </p>
-      </section>
-    </section>
-    <section
-      data-stylelib-tpl-stylename="border-color"
-      data-stylelib-tpl-stylevalue="<?= isDarkBgColor ? parseColor(themeColor, 0.45) : themeColor ?>"
-      class="stylelib-list-item x-text-tpl84-padding"
-      style="display: flex;border-color: <%=isDarkBgColor ? parseColor(themeColor, 0.45) : themeColor%>; border-bottom-style: solid;border-bottom-width: 1px;padding: 12px 0 8px 0;"
-    >
-      <section
-        class="x-text-tpl84-minWidth"
-        data-stylelib-stylename="color"
-        data-stylelib-varname="themeFontColor"
-        style="font-size: 16px; color: <%=themeFontColor%>; min-width: 36px; display: inline-block; min-width: 36px; flex-shrink: 0"
-        contenteditable="<%=contentEditable%>"
-      >
-        <p>
-          <span style="font-size: 16px">
-            <strong>地点</strong>
-          </span>
-        </p>
-      </section>
-      <section
-        data-stylelib-stylename="color"
-        data-stylelib-varname="themeFontColor"
-        style="font-size: 16px; color: <%=themeFontColor%>; display: inline-block"
-        contenteditable="<%=contentEditable%>"
-      >
-        <p>
-          <span style="font-size: 16px">
-            <strong>/ 宁波市海曙区甬水桥科创中心1幢6楼C区</strong>
-          </span>
-        </p>
-      </section>
-    </section>
-  </section>
-</section>
+import React, { forwardRef, useEffect, useImperativeHandle, useMemo, useRef } from 'react';
+import './index.css';
+import lottie,{ AnimationItem } from 'lottie-web';
+
+type rendererType = 'svg' | 'canvas' | 'html';
+
+// 常用属性
+interface LottieProps {
+  // 是否循环播放
+  loop?: boolean;
+  // 渲染动画的类型
+  renderer?: rendererType;
+  // 是否自动播放
+  autoplay?: boolean;
+  // 动画渲染数据，与path互斥
+  animationData?: any;
+  // JSON文件路径，与animationData互斥
+  path?: string;
+}
+
+const Lottie = ({
+  loop = true,
+  autoplay = true,
+  animationData = undefined,
+  renderer = 'svg',
+  path = ''
+}:LottieProps, ref: React.Ref<any>) => {
+
+
+  // 设置动画渲染的容器
+  const containerEle = useRef(null);
+  // 对外暴露的ref对象
+  const lottieAnimation = useRef(null);
+  // 指定想父级调用组件暴露的ref对象，方便元素控制当前动画的播放与暂停
+  useImperativeHandle(ref, () => ({
+    // 获取当前动画对象实例
+    getInstance: () => lottieAnimation.current,
+    // 播放，继续播放
+    play: () => {
+      lottieAnimation.current.play();
+    },
+    // 暂停动画
+    pause: () => {
+      lottieAnimation.current.pause();
+    },
+    // 停止动画，区别于暂停动画pause()
+    stop: () => {
+      lottieAnimation.current.stop();
+    }
+  }));
+
+  // 缓存动画的相关配置
+  const animationOptions = useMemo(() => {
+    const options:LottieProps = {
+      loop,
+      renderer,
+      autoplay
+    };
+
+    // 优先取animationData
+    if (animationData) {
+      options.animationData = animationData;
+    } else {
+      options.path = path;
+    }
+
+    return options;
+  }, [loop, renderer, path, animationData, autoplay]);
+
+  useEffect(() => {
+    if (!containerEle.current) {
+      return;
+    }
+
+    // 渲染动画
+    const lottieAnimationItem: AnimationItem = lottie.loadAnimation({
+      container: containerEle.current,
+      ...animationOptions
+    });
+    // 将渲染后的动画示例对象赋值给lottieAnimation.current，对外暴露
+    lottieAnimation.current = lottieAnimationItem;
+
+    // 一定要注意这里的对象销毁，避免内存泄露，以及重复渲染动画
+    return () => {
+      // 重置为null
+      lottieAnimation.current = null;
+      // 销毁动画对象
+      lottieAnimationItem.destroy();
+    };
+  }, [animationOptions]);
+
+
+  return <div ref={containerEle} style={{ width: '100%', height: '100%' }} />;
+};
+
+export default forwardRef<React.Ref<any>,LottieProps>(Lottie);
