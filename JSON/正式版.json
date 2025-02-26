@@ -12,6 +12,20 @@
 			"keycode": "wallet/index.html#accountverified",
 			"beginVersion": "8.78.2"
 		},
+
+		{
+			"pattern": ".*/webapp/wallet/paymentset(\\?.*)?",
+			"template": "https://secure.ctrip.com/webapp/paywallet/paymentset$1",
+			"keycode": "webapp/wallet/paymentset",
+			"beginVersion": "8.78.2"
+		},
+		{
+			"pattern": ".*/wallet/index.html#paymentset",
+			"template": "https://secure.ctrip.com/webapp/paywallet/paymentset",
+			"keycode": "wallet/index.html#paymentset",
+			"beginVersion": "8.78.2"
+		},
+
 		{
 			"pattern": ".*/webapp/wallet/transacthistory(\\?.*)?",
 			"template": "https://secure.ctrip.com/webapp/paywallet/cashbalance$1",
@@ -46,6 +60,25 @@
 			"pattern": ".*/webapp/wallet/chgpwd(\\?.*)?",
 			"template": "https://secure.ctrip.com/webapp/paywallet/setpassword$1",
 			"keycode": "wallet/chgpwd",
+			"beginVersion": "8.78.2"
+		},
+		{
+			"pattern": "^wallet/index.html#setpaypsd2\\?[^#]*from=([^&]+)",
+			"template": "https://secure.ctrip.com/webapp/paywallet/setpassword?backpage=$1&forwardpage=$1",
+			"keycode": "wallet/index.html#setpaypsd2",
+			"beginVersion": "8.78.2"
+		},
+		{
+			"pattern": "^wallet/index.html#resetpaypsd\\?[^#]*from=([^&]+)",
+			"template": "https://secure.ctrip.com/webapp/paywallet/setpassword?backpage=$1&forwardpage=$1",
+			"keycode": "wallet/index.html#resetpaypsd",
+			"beginVersion": "8.78.2"
+		},
+
+		{
+			"pattern": "^wallet/index.html#verfiedpsd\\?[^#]*from=([^&]+)",
+			"template": "https://secure.ctrip.com/webapp/paywallet/setsafephone?backpage=$1&forwardpage=$1",
+			"keycode": "wallet/index.html#verfiedpsd",
 			"beginVersion": "8.78.2"
 		}
 	]
