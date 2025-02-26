@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script>
+        function mainClick() {
+            let source = document.getElementById('source').value;
+            let regex = document.getElementById('regex').value;
+            let template = document.getElementById('template').value;
+            let result = document.getElementById('result');
+            let regexResult = document.getElementById('regexResult');
+            let regex1 = new RegExp(regex, "gm")
+            let w = source.match(regex1)
+            let resultText = source.replace(regex1, template);
+            console.log(resultText)
+            result.textContent = resultText;
+            regexResult.textContent = JSON.stringify(regex);
+            console.log(JSON.stringify(regex))
+        }
+    </script>
+</head>
+
+<body>
+    <h1> 输入源地址：</h1>
+    <input style="width: 80%;" type="text" id="source"
+        value="https://m.ctrip.com/webapp/you/livestream/gsUser?clientAuth=721AC3B2B26C7704F8BDC02201C29F8C&navBarStyle=white&from=https%3A%2F%2Fm.ctrip.com%2Fwebapp%2Fgourmet%2Ffood%2Ffooddetail%2F2458%2F16732175.html%3Fishideheader%3Dtrue%26navBarStyle%3Dwhite%26seo%3D0">
+    <h1>正则pattern：</h1>
+    <input style="width: 80%;" type="text" id="regex" value=".*\/webapp\/you\/livestream\/gsUser\?(.*)">
+    <br>
+    <h1>template</h1>
+    <input style="width: 80%;" type="text" id="template"
+        value="https://m.ctrip.com/webapp/you/tripshoot/user/home?seo=0&isHideHeader=true&isHideNavBar=YES&$1">
+    <br>
+    <h1>
+        <button onclick="javascript:mainClick()">转换</button>
+    </h1>
+    <h1> 结果是：</h1>
+    <br>
+
+    <h2 id="result">
+    </h2>
+    <h1> 配置的正则是：</h1>
+    <br>
+
+    <h2 id="regexResult">
+    </h2>
+
+</body>
+
+</html>
