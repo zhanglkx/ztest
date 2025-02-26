@@ -1,0 +1,6 @@
+{
+    "pattern": ".*/webapp/wallet/paymentset(\\?.*)?",
+    "template": "https://secure.fat18.qa.nt.ctripcorp.com/webapp/paywallet/paymentset$1",
+    "keycode": "wallet/paymentset",
+    "beginVersion": "8.78.2"
+}
