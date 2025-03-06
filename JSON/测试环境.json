@@ -49,19 +49,19 @@
             "beginVersion": "8.78.2"
         },
         {
-            "pattern": "^wallet/index.html#setpaypsd2\\?[^#]*from=([^&]+)",
+            "pattern": ".*/wallet/index.html#setpaypsd2\\?[^#]*from=([^&]+)",
             "template": "https://secure.fat18.qa.nt.ctripcorp.com/webapp/paywallet/setpassword?backpage=$1&forwardpage=$1",
             "keycode": "wallet/index.html#setpaypsd2",
             "beginVersion": "8.78.2"
         },
         {
-            "pattern": "^wallet/index.html#resetpaypsd\\?[^#]*from=([^&]+)",
+            "pattern": ".*/wallet/index.html#resetpaypsd\\?[^#]*from=([^&]+)",
             "template": "https://secure.fat18.qa.nt.ctripcorp.com/webapp/paywallet/setpassword?backpage=$1&forwardpage=$1",
             "keycode": "wallet/index.html#resetpaypsd",
             "beginVersion": "8.78.2"
         },
         {
-            "pattern": "^wallet/index.html#verfiedpsd\\?[^#]*from=([^&]+)",
+            "pattern": ".*/wallet/index.html#verfiedpsd\\?[^#]*from=([^&]+)",
             "template": "https://secure.fat18.qa.nt.ctripcorp.com/webapp/paywallet/setsafephone?backpage=$1&forwardpage=$1",
             "keycode": "wallet/index.html#verfiedpsd",
             "beginVersion": "8.78.2"

@@ -1,32 +1,107 @@
- const replaceSharkStrOrder = (template, subStrings) => {
-  if (!Array.isArray(subStrings)) {
-    subStrings = [subStrings];
+{
+  "name": "nfes-g",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "config": {
+      "env": "fat",
+      "proxy-bypass-list": []
+  },
+  "scripts": {
+      "test": "nfes test NODEENV=Test coverage=true",
+      "start": "nfes start NODE_ENV=production",
+      "dev_no": "nfes start NODE_ENV=development",
+      "dev": "cross-env NODE_OPTIONS=--openssl-legacy-provider nfes start NODE_ENV=development NOOPEN=1",
+      "pub": "nfes pub NODE_ENV=production NOOPEN=1",
+      "inspect": "nodemon",
+      "build": "cross-env NODE_OPTIONS=--openssl-legacy-provider nfes build NODE_ENV=production",
+      "export": "nfes export",
+      "onlinebuild": "cross-env NODE_OPTIONS=--openssl-legacy-provider nfes onlinebuild NODE_ENV=production"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+      "@better-scroll/core": "^2.5.1",
+      "@better-scroll/mouse-wheel": "^2.5.1",
+      "@better-scroll/pull-up": "^2.5.1",
+      "@better-scroll/slide": "^2.5.1",
+      "@ctrip/ares-agent": "^5.2.3",
+      "@ctrip/cargo-nodejs": "3.7.1",
+      "@ctrip/i18nonlineemailchangebindtsdk": "2.0.2",
+      "@ctrip/ibu-ovo-wallet-h5": "0.0.21",
+      "@ctrip/ibu-ovo-wallet-online": "0.0.9",
+      "@ctrip/ibu-pay-password-h5": "2.0.30",
+      "@ctrip/ibu-pay-password-pc": "2.0.27",
+      "@ctrip/nfes": "b5n20",
+      "@ctrip/nfes-ui": "^3.3.35",
+      "@ctrip/nfes-ui-icons": "^1.0.2",
+      "@ctrip/nfes-ui-titlebar": "^2.3.1",
+      "@ctrip/node-vampire-standard-soa-client": "1.0.15",
+      "@ctrip/pay": "^1.0.71",
+      "@ctrip/pay-common": "^0.1.28",
+      "@ctrip/pay-common-online": "^0.2.96",
+      "@ctrip/react16-component": "^1.0.26",
+      "@ctrip/shark-js-sdk": "5.2.0",
+      "@ctrip/shark-l10n": "4.3.0-next.0",
+      "@ctrip/shark-sdk": "5.4.0",
+      "@ctrip/trip-component-context": "^4.1.10",
+      "@ctrip/trip-component-helper": "^4.1.14",
+      "@ctrip/trip-component-platform-h5-empty": "^2.0.0",
+      "@ctrip/trip-component-platform-h5-footer": "6.0.7",
+      "@ctrip/trip-component-platform-h5-header": "^7.0.30",
+      "@ctrip/trip-component-platform-helper": "^4.0.13",
+      "@ctrip/trip-component-platform-online-assets": "^1.1.2",
+      "@ctrip/trip-component-platform-online-footer": "5.0.6",
+      "@ctrip/trip-component-platform-online-header": "9.1.7",
+      "@ctrip/trip-component-platform-online-region-selector": "^6.0.3",
+      "@ctrip/trip-component-ubt": "^3.0.1 || ^4.0.0",
+      "@ctrip/trip-component-utils": "^3.1.3 || ^4.1.3",
+      "antd": "4.20.1",
+      "antd-mobile": "^5.24.1",
+      "babel-polyfill": "^6.26.0",
+      "classnames": "^2.3.1",
+      "core-js": "^2.6.9",
+      "crypto-js": "4.2.0",
+      "encryptlong": "^3.1.4",
+      "immer": "^9.0.15",
+      "install": "^0.13.0",
+      "jsencrypt": "^3.2.1",
+      "lodash": "^4.17.21",
+      "mitt": "^3.0.0",
+      "nfes-g": "file:",
+      "rc-util": "5.23.0",
+      "react": "^17.0.2",
+      "react-content-loader": "^6.2.0",
+      "react-copy-to-clipboard": "^5.1.0",
+      "react-dom": "^17.0.2",
+      "react-fast-compare": "^3.2.0",
+      "react-lines-ellipsis": "^0.15.3",
+      "react-motion": "^0.5.2",
+      "react-redux": "^7.2.8",
+      "redux-devtools-extension": "^2.13.9",
+      "redux-thunk": "^2.4.1",
+      "ts-loader": "^8.0.0"
+  },
+  "devDependencies": {
+      "@ctrip/nfes-types": "^1.1.0",
+      "@types/react-dom": "^17.0.14",
+      "@typescript-eslint/eslint-plugin": "5.19.0",
+      "@typescript-eslint/parser": "5.19.0",
+      "babel-plugin-import": "1.13.3",
+      "babel-types": "^6.26.0",
+      "eslint": "8.12.0",
+      "eslint-config-airbnb": "19.0.4",
+      "eslint-config-prettier": "8.5.0",
+      "eslint-import-resolver-alias": "1.1.2",
+      "eslint-plugin-babel": "5.3.1",
+      "eslint-plugin-compat": "4.0.2",
+      "eslint-plugin-import": "2.25.4",
+      "eslint-plugin-jsx-a11y": "6.5.1",
+      "eslint-plugin-react": "7.29.4",
+      "eslint-plugin-react-hooks": "4.4.0",
+      "eslint-plugin-unicorn": "41.0.1",
+      "husky": "^8.0.2",
+      "prettier": "^2.6.2",
+      "typescript": "^4.6.3"
   }
-
-  return template.replace(/%(\d+)\$s/g, (match, index) => {
-    const valueIndex = parseInt(index, 10) - 1;
-    if (valueIndex >= 0 && valueIndex < subStrings.length) {
-      return subStrings[valueIndex];
-    }
-    // 如果索引超出范围，保留原始匹配项
-    return match;
-  });
-};
-
-// 示例 1: 使用单个字符串作为替换值
-// const template1 = 'Hello, %1$s!  , %2$s!';
-// const subString1 = 'World';
-// const result1 = replaceSharkStrOrder(template1, [subString1, '1']);
-// console.log(result1); // 输出: Hello, World!
-
-// 示例 2: 使用字符串数组作为替换值
-const template2 = 'My name is %1$s and I am %2$s years old.';
-const subStrings2 = ['John', '30'];
-const result2 = replaceSharkStrOrder(template2, subStrings2);
-console.log(result2); // 输出: My name is John and I am 30 years old.
-
-// // 示例 3: 索引超出范围，保留原始匹配项
-// const template3 = 'This is %1$s and %2$s.';
-// const subStrings3 = ['apple'];
-// const result3 = replaceSharkStrOrder(template3, subStrings3);
-// console.log(result3); // 输出: This is apple and %2$s.
+}
