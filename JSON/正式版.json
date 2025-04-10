@@ -2,84 +2,84 @@
 	"walletPattern": [
 		{
 			"pattern": ".*/webapp/wallet/accountverified(\\?.*)?",
-			"template": "/rn_wallet/_crn_config?CRNType=1&CRNModuleName=rn_wallet&initialPage=realname$1",
+			"template": "/rn_wallet/_crn_config?CRNType=1&CRNModuleName=rn_wallet&initialPage=realname&a=1$1",
 			"keycode": "webapp/wallet/accountverified",
-			"beginVersion": "8.78.2"
+			"beginVersion": "8.78.6"
 		},
 		{
 			"pattern": ".*/wallet/index.html#accountverified",
-			"template": "/rn_wallet/_crn_config?CRNType=1&CRNModuleName=rn_wallet&initialPage=realname",
+			"template": "/rn_wallet/_crn_config?CRNType=1&CRNModuleName=rn_wallet&initialPage=realname&a=1",
 			"keycode": "wallet/index.html#accountverified",
-			"beginVersion": "8.78.2"
+			"beginVersion": "8.78.6"
 		},
 
 		{
 			"pattern": ".*/webapp/wallet/paymentset(\\?.*)?",
-			"template": "https://secure.ctrip.com/webapp/paywallet/paymentset$1",
+			"template": "https://secure.ctrip.com/webapp/paywallet/paymentset?a=1$1",
 			"keycode": "webapp/wallet/paymentset",
-			"beginVersion": "8.78.2"
+			"beginVersion": "8.78.6"
 		},
 		{
 			"pattern": ".*/wallet/index.html#paymentset",
-			"template": "https://secure.ctrip.com/webapp/paywallet/paymentset",
+			"template": "https://secure.ctrip.com/webapp/paywallet/paymentset?a=1",
 			"keycode": "wallet/index.html#paymentset",
-			"beginVersion": "8.78.2"
+			"beginVersion": "8.78.6"
 		},
 
 		{
 			"pattern": ".*/webapp/wallet/transacthistory(\\?.*)?",
-			"template": "https://secure.ctrip.com/webapp/paywallet/cashbalance$1",
+			"template": "https://secure.ctrip.com/webapp/paywallet/cashbalance?a=1$1",
 			"keycode": "webapp/wallet/transacthistory",
-			"beginVersion": "8.78.2"
+			"beginVersion": "8.78.6"
 		},
 		{
 			"pattern": ".*/wallet/index.html#transacthistory",
-			"template": "https://secure.ctrip.com/webapp/paywallet/cashbalance",
+			"template": "https://secure.ctrip.com/webapp/paywallet/cashbalance?a=1",
 			"keycode": "wallet/index.html#transacthistory",
-			"beginVersion": "8.78.2"
+			"beginVersion": "8.78.6"
 		},
 		{
 			"pattern": ".*/webapp/wallet/setpaypassword(\\?.*)?",
-			"template": "https://secure.ctrip.com/webapp/paywallet/setpassword$1",
+			"template": "https://secure.ctrip.com/webapp/paywallet/setpassword?a=1$1",
 			"keycode": "wallet/setpaypassword",
-			"beginVersion": "8.78.2"
+			"beginVersion": "8.78.6"
 		},
 		{
 			"pattern": ".*/webapp/wallet/setpaypsd2(\\?.*)?",
-			"template": "https://secure.ctrip.com/webapp/paywallet/setpassword$1",
+			"template": "https://secure.ctrip.com/webapp/paywallet/setpassword?a=1$1",
 			"keycode": "wallet/setpaypsd2",
-			"beginVersion": "8.78.2"
+			"beginVersion": "8.78.6"
 		},
 		{
 			"pattern": ".*/webapp/wallet/resetpaypsd(\\?.*)?",
-			"template": "https://secure.ctrip.com/webapp/paywallet/setpassword$1",
+			"template": "https://secure.ctrip.com/webapp/paywallet/setpassword?a=1$1",
 			"keycode": "wallet/resetpaypsd",
-			"beginVersion": "8.78.2"
+			"beginVersion": "8.78.6"
 		},
 		{
 			"pattern": ".*/webapp/wallet/chgpwd(\\?.*)?",
-			"template": "https://secure.ctrip.com/webapp/paywallet/setpassword$1",
+			"template": "https://secure.ctrip.com/webapp/paywallet/setpassword?a=1$1",
 			"keycode": "wallet/chgpwd",
-			"beginVersion": "8.78.2"
+			"beginVersion": "8.78.6"
 		},
 		{
 			"pattern": "^wallet/index.html#setpaypsd2\\?[^#]*from=([^&]+)",
 			"template": "https://secure.ctrip.com/webapp/paywallet/setpassword?backpage=$1&forwardpage=$1",
 			"keycode": "wallet/index.html#setpaypsd2",
-			"beginVersion": "8.78.2"
+			"beginVersion": "8.78.6"
 		},
 		{
 			"pattern": "^wallet/index.html#resetpaypsd\\?[^#]*from=([^&]+)",
 			"template": "https://secure.ctrip.com/webapp/paywallet/setpassword?backpage=$1&forwardpage=$1",
 			"keycode": "wallet/index.html#resetpaypsd",
-			"beginVersion": "8.78.2"
+			"beginVersion": "8.78.6"
 		},
 
 		{
 			"pattern": "^wallet/index.html#verfiedpsd\\?[^#]*from=([^&]+)",
 			"template": "https://secure.ctrip.com/webapp/paywallet/setsafephone?backpage=$1&forwardpage=$1",
 			"keycode": "wallet/index.html#verfiedpsd",
-			"beginVersion": "8.78.2"
+			"beginVersion": "8.78.6"
 		}
 	]
 }
