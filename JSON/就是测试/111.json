@@ -1,32 +1,24 @@
 {
-  "head": {
-    "syscode": "32",
-    "lang": "01",
-    "auth": "B355EAF92AED32DD648E64A18997AB4349C15C40198DB87CE19715561701F739",
-    "cid": "32001024690373756036",
-    "ctok": "",
-    "cver": "880.006",
-    "sid": "8878",
-    "extension": [
+  "rc": 0,
+  "token": "020965DCAF9BB6734BE5BD4F1F18B612A5FE39",
+  "operateType": 1,
+  "pageSource": "ctrip_prepaypwdcheck_pwdset",
+  "displayConfig": {
+    "guideInfos": [
       {
-        "name": "locale",
-        "value": "zh-CN"
+        "guideType": 1,
+        "guideData": "指纹面容ID支付用户服务协议"
       }
     ]
   },
-  "requestHead": {
-    "serviceCode": "31104404"
-  },
-  "errorType": "o_ibuPayPassword_error_20200",
-  "errorMessage": "No Auth Token(20200)",
-  "extendInfo": {
-    "url": "https://secure.ctrip.com/webapp/paywallet/setsafephone?fromregisterpage=walletPaymentSet&type=change&haspwd=1&sceneid=ctrip_wallet_pc_pwdset&needgoback=1&isHideNavBar=YES&from_native_page=1",
-    "source": "h5",
-    "clientId": "32001024690373756036",
-    "message": "OperationName: checkvercodehttp. Invalid token for authentication. Message: Token无效.",
-    "serviceCode": "32000302",
-    "ack": "Failure",
-    "pwdLogOrder": 9,
-    "theme": "ctrip"
-  }
+  "switchCtripCashier": false,
+  "setPwdWay": 0,
+  "authDataList": [
+    {
+      "authType": 100,
+      "authValue": {}
+    }
+  ],
+  "guideReservedValue": true,
+  "defaultReservedValueInfo": {}
 }
