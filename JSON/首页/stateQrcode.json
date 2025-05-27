@@ -1,0 +1,4831 @@
+{
+  "routing": {
+    "location": {
+      "pathname": "/nedit/3968998",
+      "search": "?tplId=88905&categoryId=46274819&pageFrom=center&originFrom=center",
+      "hash": "",
+      "query": {
+        "categoryId": "46274819",
+        "originFrom": "center",
+        "pageFrom": "center",
+        "tplId": "88905"
+      },
+      "key": "wu80d3"
+    }
+  },
+  "@@dva": 0,
+  "abTest": {
+    "editorUITest": "testHeaderBtn"
+  },
+  "activeCode": {
+    "pageSize": 20,
+    "count": 6,
+    "checkedList": [],
+    "checkAll": false,
+    "isOpenSceneMsg": false,
+    "currentpage": 1,
+    "CatalogTitleName": "全部活码",
+    "CatalogQrcodeCount": 0,
+    "todayscan": [
+      {
+        "CVR4qe": 0
+      },
+      {
+        "Fsc3Mh": 3
+      }
+    ],
+    "hasTopModule": false,
+    "qrCodeBaseSet": {
+      "validateDate": {},
+      "rule": {},
+      "open": {}
+    },
+    "formMeta": {},
+    "childData": {},
+    "fetchRecordsTimeStamp": 0,
+    "codeSetData": {
+      "qrcode_setting_msg": {
+        "org_bottom_setting": {
+          "show_collect": 1,
+          "show_manage": 1,
+          "show_font_size": 2,
+          "show_share": 0,
+          "show_homepage": 1,
+          "show_bottom_homepage": 1,
+          "show_powered_by": 1,
+          "share_style": 0,
+          "dest_qrcode_msg": {
+            "can_show_dest_qrcode": 1,
+            "org_dest_qrcode": 3968743,
+            "show_dest_qrcode": 0,
+            "homepage_qrcode_name": "产品目录",
+            "tpl_qrcode_status": 0,
+            "homepage_qrcode_url": "https://qr46.cn/oQL9HR/qGtinpr",
+            "homepage_qrcode_id": 3968743
+          }
+        },
+        "valid_time": {
+          "start_time": "",
+          "end_time": "",
+          "valid_days_num": -2
+        },
+        "route_type": 3,
+        "subscribe_status": 0,
+        "show_tabbar": 0,
+        "bottom_setting": {
+          "show_collect": 1,
+          "show_share": 0,
+          "share_style": 0,
+          "show_manage": 1
+        },
+        "global_bottom_setting": {
+          "show_collect": 0,
+          "show_share": 0,
+          "show_manage": 0
+        },
+        "open_methods": {
+          "scan": true,
+          "press": true,
+          "share": true,
+          "other_app": true
+        },
+        "show_font_size": 2,
+        "auth_set_info": [],
+        "review_set": {
+          "config_record": {
+            "id": 722,
+            "org_id": 94911424,
+            "code_id": 3968998,
+            "status": 1,
+            "subscribe_status": 0,
+            "review_title": "协作动态",
+            "review_desc": "请输入内容",
+            "review_button_txt": "",
+            "watermark_value": 0,
+            "watermark_extra_msg": [],
+            "mobile_button_option": {
+              "upload_photos": 1,
+              "take_photos": 1,
+              "input_signature": 1,
+              "input_txt": 1,
+              "input_voice": 1,
+              "remind_others": 1
+            },
+            "create_time": 1723029737,
+            "update_time": null
+          },
+          "auth_data": {
+            "auth_set_info": [
+              {
+                "id": 1106433,
+                "data_id": 3968998,
+                "data_type": 15,
+                "privi_type": "edit",
+                "auth_type": 13,
+                "code_id": 3968998,
+                "org_id": 94911424,
+                "limit_id": 0,
+                "update_time": 1723029737,
+                "hide_nopower": 0,
+                "has_detail": false,
+                "encryption": "1c353e9522ea643c545dee7186aa7acf"
+              },
+              {
+                "id": 1106432,
+                "data_id": 3968998,
+                "data_type": 15,
+                "privi_type": "visible",
+                "auth_type": 4,
+                "code_id": 3968998,
+                "org_id": 94911424,
+                "limit_id": 0,
+                "update_time": 1723029737,
+                "hide_nopower": 0,
+                "has_detail": false,
+                "encryption": "3cd873cc179a57b4a4112d28c62ac7c5"
+              }
+            ],
+            "encryption": "8048c7dbc73d12617873239a48f48377"
+          }
+        },
+        "bgimage_set": {},
+        "common_set": [],
+        "initCodeManager": false
+      },
+      "qrcode_record": {
+        "id": 3968998,
+        "coding": "qFYAYR3",
+        "wx_url": "",
+        "web_url": "https://qr46.cn/oQL9HR/qFYAYR3",
+        "wxcode_url": "",
+        "qrcode_url": "https://qrapi.cliim.net/newqr/create?data=https%3A%2F%2Fqr46.cn%2FoQL9HR%2FqFYAYR3&level=H&transparent=&bgcolor=%23ffffff&forecolor=%23000000&blockpixel=12&marginblock=2&logourl=&size=220&kid=bizcliim&time=1723087458&key=b98488b8c635d790c466623907c83447",
+        "list_name": "1电话费刚好是大家发货就",
+        "qrcode_name": "",
+        "scene_module_id": 0,
+        "desc": "",
+        "category_id": 46274819,
+        "tpl_id": 88905,
+        "identity_id": 0,
+        "org_id": 94911424,
+        "update_time": 1723016060,
+        "create_time": 1723016060,
+        "status": 0,
+        "preset_case": 0,
+        "show_org_dest": 0,
+        "can_scan_update": 0,
+        "is_mobile_updated": 0,
+        "create_from": 126,
+        "tpl_qrcode_status": 0,
+        "tpl_qrcode_updated": 0,
+        "batch_id": 0,
+        "log_status": 0,
+        "excel_status": 0,
+        "tpl_name": "",
+        "batch_name": "",
+        "route_type": 3,
+        "record_summary_status": 1,
+        "project_id": 85,
+        "share_qrcode_url": "",
+        "qrstyle_url": "",
+        "top_style": [],
+        "record_add_status": 0,
+        "component_value_empty": 0
+      }
+    },
+    "loadCodeManagerParams": {},
+    "realtimeQrcodeMsg": {
+      "code": 1,
+      "msg": {
+        "text": "操作成功",
+        "code": "0"
+      },
+      "data": {
+        "qrcode_record": {
+          "id": 3968998,
+          "coding": "qFYAYR3",
+          "wx_url": "",
+          "web_url": "https://qr46.cn/oQL9HR/qFYAYR3",
+          "wxcode_url": "",
+          "qrcode_url": "https://qrapi.cliim.net/newqr/create?data=https%3A%2F%2Fqr46.cn%2FoQL9HR%2FqFYAYR3&level=H&transparent=&bgcolor=%23ffffff&forecolor=%23000000&blockpixel=12&marginblock=2&logourl=&size=220&kid=bizcliim&time=1723087458&key=b98488b8c635d790c466623907c83447",
+          "list_name": "1电话费刚好是大家发货就",
+          "qrcode_name": "",
+          "scene_module_id": 0,
+          "desc": "",
+          "category_id": 46274819,
+          "tpl_id": 88905,
+          "identity_id": 0,
+          "org_id": 94911424,
+          "update_time": 1723016060,
+          "create_time": 1723016060,
+          "status": 0,
+          "preset_case": 0,
+          "show_org_dest": 0,
+          "can_scan_update": 0,
+          "is_mobile_updated": 0,
+          "create_from": 126,
+          "tpl_qrcode_status": 0,
+          "tpl_qrcode_updated": 0,
+          "batch_id": 0,
+          "log_status": 0,
+          "excel_status": 0,
+          "tpl_name": "",
+          "batch_name": "",
+          "route_type": 3,
+          "record_summary_status": 1,
+          "project_id": 85,
+          "share_qrcode_url": "",
+          "qrstyle_url": "",
+          "top_style": [],
+          "record_add_status": 0,
+          "component_value_empty": 0
+        },
+        "qrcode_compontent": [
+          {
+            "id": 3712059,
+            "qrcode_id": 3968998,
+            "component_code": "text",
+            "identity_id": 0,
+            "sort": 0,
+            "status": 0,
+            "tpl_com_id": 535900,
+            "org_id": 94911424,
+            "batch_id": 0,
+            "real_group_id": 0,
+            "component_status": 0,
+            "template_component_id": 0,
+            "template_component_info": "",
+            "form_component_id": 0,
+            "form_component_title": "",
+            "attribute_list": [
+              {
+                "content_html": {
+                  "id": 3252140,
+                  "value": "<p style=\"line-height: 3;\">1<span style=\"line-height:3;\" data-lineheight-plugin=\"true\">电话费刚好是大家发货就是的</span></p><p style=\"line-height: 3; text-align: center;\"><span style=\"line-height:3;\" data-lineheight-plugin=\"true\">时代峰峻开始大家风口浪尖</span></p><p style=\"line-height: 3; text-align: right;\"><span style=\"line-height:3;\" data-lineheight-plugin=\"true\">是的分11111手的</span></p><p style=\"line-height: 3; text-align: right;\"><span style=\"line-height:3;\" data-lineheight-plugin=\"true\">是的是的哈是的换个卡三个打卡说过的话噶时代光华睡得更好就</span></p>",
+                  "status": 0,
+                  "attribute_id": 10,
+                  "group_id": 1,
+                  "real_group_id": 1,
+                  "tpl_com_id": 535900,
+                  "name": "文本 html 片段",
+                  "is_default_value": 0,
+                  "multiple_id": "252563",
+                  "attribute_multiple_id": 5
+                }
+              }
+            ],
+            "group_count": 1,
+            "encryption": "d387b7628388b0d05f64df1384e6849d"
+          },
+          {
+            "id": 3712060,
+            "qrcode_id": 3968998,
+            "component_code": "image",
+            "identity_id": 0,
+            "sort": 1,
+            "status": 0,
+            "tpl_com_id": 535901,
+            "org_id": 94911424,
+            "batch_id": 0,
+            "real_group_id": 0,
+            "component_status": 0,
+            "template_component_id": 0,
+            "template_component_info": "",
+            "form_component_id": 0,
+            "form_component_title": "",
+            "attribute_list": [
+              {
+                "image_url": {
+                  "id": 499776,
+                  "value": "https://ncstatic.clewm.net/rsrc/2024/0807/15/a1144e13b49d310bbaa5df154351c396.png",
+                  "status": 0,
+                  "attribute_id": 3,
+                  "group_id": 1,
+                  "real_group_id": 1,
+                  "tpl_com_id": 535901,
+                  "name": "图片地址",
+                  "is_default_value": 0,
+                  "source_id": 7857220
+                },
+                "wxa_path": {
+                  "id": 499777,
+                  "value": "",
+                  "status": 0,
+                  "attribute_id": 12,
+                  "group_id": 1,
+                  "real_group_id": 1,
+                  "tpl_com_id": 535901,
+                  "name": "图片链接",
+                  "is_default_value": 0
+                },
+                "prew_type": {
+                  "id": 499778,
+                  "value": "1",
+                  "status": 0,
+                  "attribute_id": 67,
+                  "group_id": 1,
+                  "real_group_id": 1,
+                  "tpl_com_id": 535901,
+                  "name": "预览效果",
+                  "is_default_value": 0,
+                  "enum_encryption": "10bd893bbb2dec661a797307019b23ce",
+                  "enum_msg": [
+                    {
+                      "id": 532872,
+                      "attribute_value_id": 499778,
+                      "enum_text": "轮播",
+                      "enum_value": 0,
+                      "sort": 0,
+                      "status": 0,
+                      "create_time": 0,
+                      "update_time": 0,
+                      "component_code": "image"
+                    },
+                    {
+                      "id": 532873,
+                      "attribute_value_id": 499778,
+                      "enum_text": "平铺",
+                      "enum_value": 1,
+                      "sort": 1,
+                      "status": 0,
+                      "create_time": 0,
+                      "update_time": 0,
+                      "component_code": "image"
+                    }
+                  ]
+                },
+                "image_size": {
+                  "id": 499779,
+                  "value": "12.33 KB",
+                  "status": 0,
+                  "attribute_id": 68,
+                  "group_id": 1,
+                  "real_group_id": 1,
+                  "tpl_com_id": 535901,
+                  "name": "图片大小",
+                  "is_default_value": 0
+                },
+                "image_width": {
+                  "id": 499780,
+                  "value": "130",
+                  "status": 0,
+                  "attribute_id": 74,
+                  "group_id": 1,
+                  "real_group_id": 1,
+                  "tpl_com_id": 535901,
+                  "name": "图片宽度",
+                  "is_default_value": 0
+                },
+                "image_height": {
+                  "id": 499781,
+                  "value": "154",
+                  "status": 0,
+                  "attribute_id": 75,
+                  "group_id": 1,
+                  "real_group_id": 1,
+                  "tpl_com_id": 535901,
+                  "name": "图片高度",
+                  "is_default_value": 0
+                },
+                "image_style": {
+                  "id": 499782,
+                  "value": "1",
+                  "status": 0,
+                  "attribute_id": 112,
+                  "group_id": 1,
+                  "real_group_id": 1,
+                  "tpl_com_id": 535901,
+                  "name": "图片样式",
+                  "is_default_value": 0,
+                  "enum_encryption": "4584b3544afd27dee70415633605b676",
+                  "enum_msg": [
+                    {
+                      "id": 532874,
+                      "attribute_value_id": 499782,
+                      "enum_text": "样式一",
+                      "enum_value": 1,
+                      "sort": 0,
+                      "status": 0,
+                      "create_time": 0,
+                      "update_time": 0,
+                      "component_code": "image"
+                    },
+                    {
+                      "id": 532875,
+                      "attribute_value_id": 499782,
+                      "enum_text": "样式二",
+                      "enum_value": 2,
+                      "sort": 1,
+                      "status": 0,
+                      "create_time": 0,
+                      "update_time": 0,
+                      "component_code": "image"
+                    },
+                    {
+                      "id": 532876,
+                      "attribute_value_id": 499782,
+                      "enum_text": "样式三",
+                      "enum_value": 3,
+                      "sort": 2,
+                      "status": 0,
+                      "create_time": 0,
+                      "update_time": 0,
+                      "component_code": "image"
+                    }
+                  ]
+                },
+                "auto_play_time": {
+                  "id": 499783,
+                  "value": "0",
+                  "status": 0,
+                  "attribute_id": 130,
+                  "group_id": 1,
+                  "real_group_id": 1,
+                  "tpl_com_id": 535901,
+                  "name": "轮播时间",
+                  "is_default_value": 0
+                },
+                "design_from_api": {
+                  "id": 499784,
+                  "value": "0",
+                  "status": 0,
+                  "attribute_id": 142,
+                  "group_id": 1,
+                  "real_group_id": 1,
+                  "tpl_com_id": 535901,
+                  "name": "第三方平台接口设计来源",
+                  "is_default_value": 0,
+                  "enum_encryption": "0a6472ada03e51bd8286c020b6c4a1ad",
+                  "enum_msg": [
+                    {
+                      "id": 532877,
+                      "attribute_value_id": 499784,
+                      "enum_text": "本地",
+                      "enum_value": 0,
+                      "sort": 0,
+                      "status": 0,
+                      "create_time": 0,
+                      "update_time": 0,
+                      "component_code": "image"
+                    },
+                    {
+                      "id": 532878,
+                      "attribute_value_id": 499784,
+                      "enum_text": "canva",
+                      "enum_value": 1,
+                      "sort": 1,
+                      "status": 0,
+                      "create_time": 0,
+                      "update_time": 0,
+                      "component_code": "image"
+                    },
+                    {
+                      "id": 532879,
+                      "attribute_value_id": 499784,
+                      "enum_text": "canva-素材库",
+                      "enum_value": 2,
+                      "sort": 2,
+                      "status": 0,
+                      "create_time": 0,
+                      "update_time": 0,
+                      "component_code": "image"
+                    }
+                  ]
+                },
+                "design_id": {
+                  "id": 499785,
+                  "value": "",
+                  "status": 0,
+                  "attribute_id": 143,
+                  "group_id": 1,
+                  "real_group_id": 1,
+                  "tpl_com_id": 535901,
+                  "name": "第三方平台接口素材id",
+                  "is_default_value": 0
+                },
+                "is_gradient": {
+                  "id": 499786,
+                  "value": "0",
+                  "status": 0,
+                  "attribute_id": 158,
+                  "group_id": 1,
+                  "real_group_id": 1,
+                  "tpl_com_id": 535901,
+                  "name": "颜色渐变",
+                  "is_default_value": 0
+                },
+                "auto_set_theme_color": {
+                  "id": 499787,
+                  "value": "0",
+                  "status": 0,
+                  "attribute_id": 161,
+                  "group_id": 1,
+                  "real_group_id": 1,
+                  "tpl_com_id": 535901,
+                  "name": "自动取第一张图片的配色作为背景色",
+                  "is_default_value": 0
+                }
+              }
+            ],
+            "group_count": 1,
+            "encryption": "00257bca1f91fc15ffb8895482db2245"
+          },
+          {
+            "id": 3712061,
+            "qrcode_id": 3968998,
+            "component_code": "text",
+            "identity_id": 0,
+            "sort": 2,
+            "status": 0,
+            "tpl_com_id": 535902,
+            "org_id": 94911424,
+            "batch_id": 0,
+            "real_group_id": 0,
+            "component_status": 0,
+            "template_component_id": 0,
+            "template_component_info": "",
+            "form_component_id": 0,
+            "form_component_title": "",
+            "attribute_list": [
+              {
+                "content_html": {
+                  "id": 3252141,
+                  "value": "<p>11111</p>",
+                  "status": 0,
+                  "attribute_id": 10,
+                  "group_id": 1,
+                  "real_group_id": 1,
+                  "tpl_com_id": 535902,
+                  "name": "文本 html 片段",
+                  "is_default_value": 0,
+                  "multiple_id": "252564",
+                  "attribute_multiple_id": 5
+                }
+              }
+            ],
+            "group_count": 1,
+            "encryption": "b9cb7fc35eccb816309af050e8c19495"
+          }
+        ],
+        "qrcode_top_component": [
+          {
+            "id": 3712062,
+            "qrcode_id": 3968998,
+            "component_code": "text",
+            "identity_id": 0,
+            "sort": 3,
+            "status": 0,
+            "tpl_com_id": 535903,
+            "org_id": 94911424,
+            "batch_id": 0,
+            "real_group_id": 0,
+            "component_status": 1,
+            "template_component_id": 0,
+            "template_component_info": "",
+            "form_component_id": 0,
+            "form_component_title": "",
+            "attribute_list": [
+              {
+                "content_html": {
+                  "id": 3252142,
+                  "value": "",
+                  "status": 0,
+                  "attribute_id": 10,
+                  "group_id": 1,
+                  "real_group_id": 1,
+                  "tpl_com_id": 535903,
+                  "name": "文本 html 片段",
+                  "is_default_value": 0,
+                  "multiple_id": "252565",
+                  "attribute_multiple_id": 5
+                }
+              }
+            ],
+            "group_count": 1,
+            "encryption": "b32a250247a7baf1b35c59d3d88c21bd"
+          },
+          {
+            "id": 3712063,
+            "qrcode_id": 3968998,
+            "component_code": "recordlog",
+            "identity_id": 0,
+            "sort": 4,
+            "status": 2,
+            "tpl_com_id": 535904,
+            "org_id": 94911424,
+            "batch_id": 0,
+            "real_group_id": 0,
+            "component_status": 1,
+            "template_component_id": 0,
+            "template_component_info": "",
+            "form_component_id": 0,
+            "form_component_title": ""
+          }
+        ],
+        "used_form_fields": [],
+        "show_collect": 1,
+        "show_manage": 1,
+        "show_font_size": 2,
+        "show_share": 0,
+        "show_homepage": 2,
+        "show_bottom_homepage": 2,
+        "show_powered_by": 1,
+        "share_style": 0,
+        "show_complain": 0,
+        "is_org_dest_qrcode": 0,
+        "log_msg": [],
+        "log_msg_tag": "操作面板",
+        "expand_log": 4,
+        "open_codereview": 0,
+        "open_readregister": 0,
+        "open_direct_preview": 1,
+        "show_record_editlog": 0,
+        "recordview_position": 4,
+        "record_summary_title": "",
+        "state_show_mode": 4,
+        "record_summary_status": 1,
+        "default_qrlabel_show_type": 0,
+        "visible_auth_info": [],
+        "qrcode_setting_msg": {
+          "org_bottom_setting": {
+            "show_collect": 1,
+            "show_manage": 1,
+            "show_font_size": 2,
+            "show_share": 0,
+            "show_homepage": 1,
+            "show_bottom_homepage": 1,
+            "show_powered_by": 1,
+            "share_style": 0,
+            "dest_qrcode_msg": {
+              "can_show_dest_qrcode": 1,
+              "org_dest_qrcode": 3968743,
+              "show_dest_qrcode": 0,
+              "homepage_qrcode_name": "产品目录",
+              "tpl_qrcode_status": 0,
+              "homepage_qrcode_url": "https://qr46.cn/oQL9HR/qGtinpr",
+              "homepage_qrcode_id": 3968743
+            }
+          },
+          "valid_time": {
+            "start_time": "",
+            "end_time": "",
+            "valid_days_num": -2
+          },
+          "route_type": 3,
+          "subscribe_status": 0,
+          "show_tabbar": 0,
+          "bottom_setting": {
+            "show_collect": 1,
+            "show_manage": 1,
+            "show_font_size": 2,
+            "show_share": 0,
+            "show_homepage": 1,
+            "show_bottom_homepage": 1,
+            "show_powered_by": 1,
+            "share_style": 0
+          },
+          "global_bottom_setting": {
+            "show_collect": 0,
+            "show_share": 0,
+            "show_manage": 0
+          },
+          "open_methods": {
+            "scan": true,
+            "press": true,
+            "share": true,
+            "other_app": true
+          },
+          "show_font_size": 2,
+          "auth_set_info": [
+            {
+              "privi_type": "edit",
+              "auth_type": 5
+            },
+            {
+              "id": 1105926,
+              "data_id": 3968998,
+              "data_type": 7,
+              "privi_type": "visible",
+              "auth_type": 1,
+              "code_id": 3968998,
+              "org_id": 94911424,
+              "limit_id": 0,
+              "update_time": 1723016060,
+              "hide_nopower": 1,
+              "has_detail": true,
+              "groups": [87317, 87320],
+              "group_list": [
+                {
+                  "id": 87317,
+                  "org_id": 94911424,
+                  "group_name": "管理组",
+                  "group_type": 6,
+                  "status": 0,
+                  "is_default": 6,
+                  "add_time": 1716258364,
+                  "category_id": 0,
+                  "target_id": 0,
+                  "web_url": "",
+                  "coding": "",
+                  "group_memo": "",
+                  "qrcode_id": 0,
+                  "need_send_tip": 0,
+                  "tpl_id": 0
+                },
+                {
+                  "id": 87320,
+                  "org_id": 94911424,
+                  "group_name": "负责人",
+                  "group_type": 100,
+                  "status": 0,
+                  "is_default": 10,
+                  "add_time": 1716258364,
+                  "category_id": 0,
+                  "target_id": 0,
+                  "web_url": "",
+                  "coding": "",
+                  "group_memo": "",
+                  "qrcode_id": 0,
+                  "need_send_tip": 0,
+                  "tpl_id": 0
+                }
+              ],
+              "encryption": "413a2dc95692bc2a6fd9899cde577c84"
+            }
+          ],
+          "review_set": {
+            "config_record": {
+              "id": 722,
+              "org_id": 94911424,
+              "code_id": 3968998,
+              "status": 1,
+              "subscribe_status": 0,
+              "review_title": "协作动态",
+              "review_desc": "请输入内容",
+              "review_button_txt": "",
+              "watermark_value": 0,
+              "watermark_extra_msg": [],
+              "mobile_button_option": {
+                "upload_photos": 1,
+                "take_photos": 1,
+                "input_signature": 1,
+                "input_txt": 1,
+                "input_voice": 1,
+                "remind_others": 1
+              },
+              "create_time": 1723029737,
+              "update_time": null
+            },
+            "auth_data": {
+              "auth_set_info": [
+                {
+                  "id": 1106433,
+                  "data_id": 3968998,
+                  "data_type": 15,
+                  "privi_type": "edit",
+                  "auth_type": 13,
+                  "code_id": 3968998,
+                  "org_id": 94911424,
+                  "limit_id": 0,
+                  "update_time": 1723029737,
+                  "hide_nopower": 0,
+                  "has_detail": false,
+                  "encryption": "1c353e9522ea643c545dee7186aa7acf"
+                },
+                {
+                  "id": 1106432,
+                  "data_id": 3968998,
+                  "data_type": 15,
+                  "privi_type": "visible",
+                  "auth_type": 4,
+                  "code_id": 3968998,
+                  "org_id": 94911424,
+                  "limit_id": 0,
+                  "update_time": 1723029737,
+                  "hide_nopower": 0,
+                  "has_detail": false,
+                  "encryption": "3cd873cc179a57b4a4112d28c62ac7c5"
+                }
+              ],
+              "encryption": "8048c7dbc73d12617873239a48f48377"
+            }
+          },
+          "bgimage_set": [],
+          "common_set": []
+        },
+        "scan_msg": {
+          "total": "1",
+          "day_total": 0,
+          "review_total": "1",
+          "threshold_tag": "1",
+          "date": "2024-08-07"
+        },
+        "ssid": "kjbp9ha0030mc3k6nep45nq7r1",
+        "preview_token": {
+          "time": 1723087458,
+          "signature": "ea8175ff5a12647a7fc56bdfd58ec9c8"
+        },
+        "case_bg_path": "",
+        "is_special_code": 0,
+        "mobilebuild_qr_edited": 1,
+        "origin_template": [],
+        "is_preset_case": 0,
+        "low_quality": 0,
+        "encoded_user_id": "oQL9HR"
+      },
+      "url": "",
+      "wait": 3
+    },
+    "isLowQuality": 0,
+    "randomKey": "randomKey",
+    "QrcodeMsgLoading": false,
+    "QrcodeMsg": {
+      "code": 1,
+      "msg": {
+        "text": "操作成功",
+        "code": "0"
+      },
+      "data": {
+        "qrcode_record": {
+          "id": 3968998,
+          "coding": "qFYAYR3",
+          "wx_url": "",
+          "web_url": "https://qr46.cn/oQL9HR/qFYAYR3",
+          "wxcode_url": "",
+          "qrcode_url": "https://qrapi.cliim.net/newqr/create?data=https%3A%2F%2Fqr46.cn%2FoQL9HR%2FqFYAYR3&level=H&transparent=&bgcolor=%23ffffff&forecolor=%23000000&blockpixel=12&marginblock=2&logourl=&size=220&kid=bizcliim&time=1723087458&key=b98488b8c635d790c466623907c83447",
+          "list_name": "1电话费刚好是大家发货就",
+          "qrcode_name": "",
+          "scene_module_id": 0,
+          "desc": "",
+          "category_id": 46274819,
+          "tpl_id": 88905,
+          "identity_id": 0,
+          "org_id": 94911424,
+          "update_time": 1723016060,
+          "create_time": 1723016060,
+          "status": 0,
+          "preset_case": 0,
+          "show_org_dest": 0,
+          "can_scan_update": 0,
+          "is_mobile_updated": 0,
+          "create_from": 126,
+          "tpl_qrcode_status": 0,
+          "tpl_qrcode_updated": 0,
+          "batch_id": 0,
+          "log_status": 0,
+          "excel_status": 0,
+          "tpl_name": "",
+          "batch_name": "",
+          "route_type": 3,
+          "record_summary_status": 1,
+          "project_id": 85,
+          "share_qrcode_url": "",
+          "qrstyle_url": "",
+          "top_style": [],
+          "record_add_status": 0,
+          "component_value_empty": 0
+        },
+        "qrcode_compontent": [
+          {
+            "id": 3712059,
+            "qrcode_id": 3968998,
+            "component_code": "text",
+            "identity_id": 0,
+            "sort": 0,
+            "status": 0,
+            "tpl_com_id": 535900,
+            "org_id": 94911424,
+            "batch_id": 0,
+            "real_group_id": 0,
+            "component_status": 0,
+            "template_component_id": 0,
+            "template_component_info": "",
+            "form_component_id": 0,
+            "form_component_title": "",
+            "attribute_list": [
+              {
+                "content_html": {
+                  "id": 3252140,
+                  "value": "<p style=\"line-height: 3;\">1<span style=\"line-height:3;\" data-lineheight-plugin=\"true\">电话费刚好是大家发货就是的</span></p><p style=\"line-height: 3; text-align: center;\"><span style=\"line-height:3;\" data-lineheight-plugin=\"true\">时代峰峻开始大家风口浪尖</span></p><p style=\"line-height: 3; text-align: right;\"><span style=\"line-height:3;\" data-lineheight-plugin=\"true\">是的分11111手的</span></p><p style=\"line-height: 3; text-align: right;\"><span style=\"line-height:3;\" data-lineheight-plugin=\"true\">是的是的哈是的换个卡三个打卡说过的话噶时代光华睡得更好就</span></p>",
+                  "status": 0,
+                  "attribute_id": 10,
+                  "group_id": 1,
+                  "real_group_id": 1,
+                  "tpl_com_id": 535900,
+                  "name": "文本 html 片段",
+                  "is_default_value": 0,
+                  "multiple_id": "252563",
+                  "attribute_multiple_id": 5
+                }
+              }
+            ],
+            "group_count": 1,
+            "encryption": "d387b7628388b0d05f64df1384e6849d"
+          },
+          {
+            "id": 3712060,
+            "qrcode_id": 3968998,
+            "component_code": "image",
+            "identity_id": 0,
+            "sort": 1,
+            "status": 0,
+            "tpl_com_id": 535901,
+            "org_id": 94911424,
+            "batch_id": 0,
+            "real_group_id": 0,
+            "component_status": 0,
+            "template_component_id": 0,
+            "template_component_info": "",
+            "form_component_id": 0,
+            "form_component_title": "",
+            "attribute_list": [
+              {
+                "image_url": {
+                  "id": 499776,
+                  "value": "https://ncstatic.clewm.net/rsrc/2024/0807/15/a1144e13b49d310bbaa5df154351c396.png",
+                  "status": 0,
+                  "attribute_id": 3,
+                  "group_id": 1,
+                  "real_group_id": 1,
+                  "tpl_com_id": 535901,
+                  "name": "图片地址",
+                  "is_default_value": 0,
+                  "source_id": 7857220
+                },
+                "wxa_path": {
+                  "id": 499777,
+                  "value": "",
+                  "status": 0,
+                  "attribute_id": 12,
+                  "group_id": 1,
+                  "real_group_id": 1,
+                  "tpl_com_id": 535901,
+                  "name": "图片链接",
+                  "is_default_value": 0
+                },
+                "prew_type": {
+                  "id": 499778,
+                  "value": "1",
+                  "status": 0,
+                  "attribute_id": 67,
+                  "group_id": 1,
+                  "real_group_id": 1,
+                  "tpl_com_id": 535901,
+                  "name": "预览效果",
+                  "is_default_value": 0,
+                  "enum_encryption": "10bd893bbb2dec661a797307019b23ce",
+                  "enum_msg": [
+                    {
+                      "id": 532872,
+                      "attribute_value_id": 499778,
+                      "enum_text": "轮播",
+                      "enum_value": 0,
+                      "sort": 0,
+                      "status": 0,
+                      "create_time": 0,
+                      "update_time": 0,
+                      "component_code": "image"
+                    },
+                    {
+                      "id": 532873,
+                      "attribute_value_id": 499778,
+                      "enum_text": "平铺",
+                      "enum_value": 1,
+                      "sort": 1,
+                      "status": 0,
+                      "create_time": 0,
+                      "update_time": 0,
+                      "component_code": "image"
+                    }
+                  ]
+                },
+                "image_size": {
+                  "id": 499779,
+                  "value": "12.33 KB",
+                  "status": 0,
+                  "attribute_id": 68,
+                  "group_id": 1,
+                  "real_group_id": 1,
+                  "tpl_com_id": 535901,
+                  "name": "图片大小",
+                  "is_default_value": 0
+                },
+                "image_width": {
+                  "id": 499780,
+                  "value": "130",
+                  "status": 0,
+                  "attribute_id": 74,
+                  "group_id": 1,
+                  "real_group_id": 1,
+                  "tpl_com_id": 535901,
+                  "name": "图片宽度",
+                  "is_default_value": 0
+                },
+                "image_height": {
+                  "id": 499781,
+                  "value": "154",
+                  "status": 0,
+                  "attribute_id": 75,
+                  "group_id": 1,
+                  "real_group_id": 1,
+                  "tpl_com_id": 535901,
+                  "name": "图片高度",
+                  "is_default_value": 0
+                },
+                "image_style": {
+                  "id": 499782,
+                  "value": "1",
+                  "status": 0,
+                  "attribute_id": 112,
+                  "group_id": 1,
+                  "real_group_id": 1,
+                  "tpl_com_id": 535901,
+                  "name": "图片样式",
+                  "is_default_value": 0,
+                  "enum_encryption": "4584b3544afd27dee70415633605b676",
+                  "enum_msg": [
+                    {
+                      "id": 532874,
+                      "attribute_value_id": 499782,
+                      "enum_text": "样式一",
+                      "enum_value": 1,
+                      "sort": 0,
+                      "status": 0,
+                      "create_time": 0,
+                      "update_time": 0,
+                      "component_code": "image"
+                    },
+                    {
+                      "id": 532875,
+                      "attribute_value_id": 499782,
+                      "enum_text": "样式二",
+                      "enum_value": 2,
+                      "sort": 1,
+                      "status": 0,
+                      "create_time": 0,
+                      "update_time": 0,
+                      "component_code": "image"
+                    },
+                    {
+                      "id": 532876,
+                      "attribute_value_id": 499782,
+                      "enum_text": "样式三",
+                      "enum_value": 3,
+                      "sort": 2,
+                      "status": 0,
+                      "create_time": 0,
+                      "update_time": 0,
+                      "component_code": "image"
+                    }
+                  ]
+                },
+                "auto_play_time": {
+                  "id": 499783,
+                  "value": "0",
+                  "status": 0,
+                  "attribute_id": 130,
+                  "group_id": 1,
+                  "real_group_id": 1,
+                  "tpl_com_id": 535901,
+                  "name": "轮播时间",
+                  "is_default_value": 0
+                },
+                "design_from_api": {
+                  "id": 499784,
+                  "value": "0",
+                  "status": 0,
+                  "attribute_id": 142,
+                  "group_id": 1,
+                  "real_group_id": 1,
+                  "tpl_com_id": 535901,
+                  "name": "第三方平台接口设计来源",
+                  "is_default_value": 0,
+                  "enum_encryption": "0a6472ada03e51bd8286c020b6c4a1ad",
+                  "enum_msg": [
+                    {
+                      "id": 532877,
+                      "attribute_value_id": 499784,
+                      "enum_text": "本地",
+                      "enum_value": 0,
+                      "sort": 0,
+                      "status": 0,
+                      "create_time": 0,
+                      "update_time": 0,
+                      "component_code": "image"
+                    },
+                    {
+                      "id": 532878,
+                      "attribute_value_id": 499784,
+                      "enum_text": "canva",
+                      "enum_value": 1,
+                      "sort": 1,
+                      "status": 0,
+                      "create_time": 0,
+                      "update_time": 0,
+                      "component_code": "image"
+                    },
+                    {
+                      "id": 532879,
+                      "attribute_value_id": 499784,
+                      "enum_text": "canva-素材库",
+                      "enum_value": 2,
+                      "sort": 2,
+                      "status": 0,
+                      "create_time": 0,
+                      "update_time": 0,
+                      "component_code": "image"
+                    }
+                  ]
+                },
+                "design_id": {
+                  "id": 499785,
+                  "value": "",
+                  "status": 0,
+                  "attribute_id": 143,
+                  "group_id": 1,
+                  "real_group_id": 1,
+                  "tpl_com_id": 535901,
+                  "name": "第三方平台接口素材id",
+                  "is_default_value": 0
+                },
+                "is_gradient": {
+                  "id": 499786,
+                  "value": "0",
+                  "status": 0,
+                  "attribute_id": 158,
+                  "group_id": 1,
+                  "real_group_id": 1,
+                  "tpl_com_id": 535901,
+                  "name": "颜色渐变",
+                  "is_default_value": 0
+                },
+                "auto_set_theme_color": {
+                  "id": 499787,
+                  "value": "0",
+                  "status": 0,
+                  "attribute_id": 161,
+                  "group_id": 1,
+                  "real_group_id": 1,
+                  "tpl_com_id": 535901,
+                  "name": "自动取第一张图片的配色作为背景色",
+                  "is_default_value": 0
+                }
+              }
+            ],
+            "group_count": 1,
+            "encryption": "00257bca1f91fc15ffb8895482db2245"
+          },
+          {
+            "id": 3712061,
+            "qrcode_id": 3968998,
+            "component_code": "text",
+            "identity_id": 0,
+            "sort": 2,
+            "status": 0,
+            "tpl_com_id": 535902,
+            "org_id": 94911424,
+            "batch_id": 0,
+            "real_group_id": 0,
+            "component_status": 0,
+            "template_component_id": 0,
+            "template_component_info": "",
+            "form_component_id": 0,
+            "form_component_title": "",
+            "attribute_list": [
+              {
+                "content_html": {
+                  "id": 3252141,
+                  "value": "<p>11111</p>",
+                  "status": 0,
+                  "attribute_id": 10,
+                  "group_id": 1,
+                  "real_group_id": 1,
+                  "tpl_com_id": 535902,
+                  "name": "文本 html 片段",
+                  "is_default_value": 0,
+                  "multiple_id": "252564",
+                  "attribute_multiple_id": 5
+                }
+              }
+            ],
+            "group_count": 1,
+            "encryption": "b9cb7fc35eccb816309af050e8c19495"
+          }
+        ],
+        "qrcode_top_component": [
+          {
+            "id": 3712062,
+            "qrcode_id": 3968998,
+            "component_code": "text",
+            "identity_id": 0,
+            "sort": 3,
+            "status": 0,
+            "tpl_com_id": 535903,
+            "org_id": 94911424,
+            "batch_id": 0,
+            "real_group_id": 0,
+            "component_status": 1,
+            "template_component_id": 0,
+            "template_component_info": "",
+            "form_component_id": 0,
+            "form_component_title": "",
+            "attribute_list": [
+              {
+                "content_html": {
+                  "id": 3252142,
+                  "value": "",
+                  "status": 0,
+                  "attribute_id": 10,
+                  "group_id": 1,
+                  "real_group_id": 1,
+                  "tpl_com_id": 535903,
+                  "name": "文本 html 片段",
+                  "is_default_value": 0,
+                  "multiple_id": "252565",
+                  "attribute_multiple_id": 5
+                }
+              }
+            ],
+            "group_count": 1,
+            "encryption": "b32a250247a7baf1b35c59d3d88c21bd"
+          },
+          {
+            "id": 3712063,
+            "qrcode_id": 3968998,
+            "component_code": "recordlog",
+            "identity_id": 0,
+            "sort": 4,
+            "status": 2,
+            "tpl_com_id": 535904,
+            "org_id": 94911424,
+            "batch_id": 0,
+            "real_group_id": 0,
+            "component_status": 1,
+            "template_component_id": 0,
+            "template_component_info": "",
+            "form_component_id": 0,
+            "form_component_title": ""
+          }
+        ],
+        "used_form_fields": [],
+        "show_collect": 1,
+        "show_manage": 1,
+        "show_font_size": 2,
+        "show_share": 0,
+        "show_homepage": 2,
+        "show_bottom_homepage": 2,
+        "show_powered_by": 1,
+        "share_style": 0,
+        "show_complain": 0,
+        "is_org_dest_qrcode": 0,
+        "log_msg": [],
+        "log_msg_tag": "操作面板",
+        "expand_log": 4,
+        "open_codereview": 0,
+        "open_readregister": 0,
+        "open_direct_preview": 1,
+        "show_record_editlog": 0,
+        "recordview_position": 4,
+        "record_summary_title": "",
+        "state_show_mode": 4,
+        "record_summary_status": 1,
+        "default_qrlabel_show_type": 0,
+        "visible_auth_info": [],
+        "qrcode_setting_msg": {
+          "org_bottom_setting": {
+            "show_collect": 1,
+            "show_manage": 1,
+            "show_font_size": 2,
+            "show_share": 0,
+            "show_homepage": 1,
+            "show_bottom_homepage": 1,
+            "show_powered_by": 1,
+            "share_style": 0,
+            "dest_qrcode_msg": {
+              "can_show_dest_qrcode": 1,
+              "org_dest_qrcode": 3968743,
+              "show_dest_qrcode": 0,
+              "homepage_qrcode_name": "产品目录",
+              "tpl_qrcode_status": 0,
+              "homepage_qrcode_url": "https://qr46.cn/oQL9HR/qGtinpr",
+              "homepage_qrcode_id": 3968743
+            }
+          },
+          "valid_time": {
+            "start_time": "",
+            "end_time": "",
+            "valid_days_num": -2
+          },
+          "route_type": 3,
+          "subscribe_status": 0,
+          "show_tabbar": 0,
+          "bottom_setting": {
+            "show_collect": 1,
+            "show_share": 0,
+            "share_style": 0,
+            "show_manage": 1
+          },
+          "global_bottom_setting": {
+            "show_collect": 0,
+            "show_share": 0,
+            "show_manage": 0
+          },
+          "open_methods": {
+            "scan": true,
+            "press": true,
+            "share": true,
+            "other_app": true
+          },
+          "show_font_size": 2,
+          "auth_set_info": [],
+          "review_set": {
+            "config_record": {
+              "id": 722,
+              "org_id": 94911424,
+              "code_id": 3968998,
+              "status": 1,
+              "subscribe_status": 0,
+              "review_title": "协作动态",
+              "review_desc": "请输入内容",
+              "review_button_txt": "",
+              "watermark_value": 0,
+              "watermark_extra_msg": [],
+              "mobile_button_option": {
+                "upload_photos": 1,
+                "take_photos": 1,
+                "input_signature": 1,
+                "input_txt": 1,
+                "input_voice": 1,
+                "remind_others": 1
+              },
+              "create_time": 1723029737,
+              "update_time": null
+            },
+            "auth_data": {
+              "auth_set_info": [
+                {
+                  "id": 1106433,
+                  "data_id": 3968998,
+                  "data_type": 15,
+                  "privi_type": "edit",
+                  "auth_type": 13,
+                  "code_id": 3968998,
+                  "org_id": 94911424,
+                  "limit_id": 0,
+                  "update_time": 1723029737,
+                  "hide_nopower": 0,
+                  "has_detail": false,
+                  "encryption": "1c353e9522ea643c545dee7186aa7acf"
+                },
+                {
+                  "id": 1106432,
+                  "data_id": 3968998,
+                  "data_type": 15,
+                  "privi_type": "visible",
+                  "auth_type": 4,
+                  "code_id": 3968998,
+                  "org_id": 94911424,
+                  "limit_id": 0,
+                  "update_time": 1723029737,
+                  "hide_nopower": 0,
+                  "has_detail": false,
+                  "encryption": "3cd873cc179a57b4a4112d28c62ac7c5"
+                }
+              ],
+              "encryption": "8048c7dbc73d12617873239a48f48377"
+            }
+          },
+          "bgimage_set": {},
+          "common_set": [],
+          "initCodeManager": true
+        },
+        "scan_msg": {
+          "total": "1",
+          "day_total": 0,
+          "review_total": "1",
+          "threshold_tag": "1",
+          "date": "2024-08-07"
+        },
+        "ssid": "kjbp9ha0030mc3k6nep45nq7r1",
+        "preview_token": {
+          "time": 1723087458,
+          "signature": "ea8175ff5a12647a7fc56bdfd58ec9c8"
+        },
+        "case_bg_path": "",
+        "is_special_code": 0,
+        "mobilebuild_qr_edited": 1,
+        "origin_template": [],
+        "is_preset_case": 0,
+        "low_quality": 0,
+        "encoded_user_id": "oQL9HR"
+      },
+      "url": "",
+      "wait": 3
+    }
+  },
+  "api": {},
+  "batch": {
+    "templateCatalog": [],
+    "templateList": [],
+    "templateListPageMsg": {
+      "current_page": 1,
+      "lasted_page": 0,
+      "record_total": 0,
+      "list_size": 20
+    },
+    "tplCatalogSelectedItem": {},
+    "tplRecord": {},
+    "newTplRecordQRCodeMsg": null,
+    "loading": false,
+    "QrcodeMsgLoading": false,
+    "nameRuleOptions": [],
+    "qrcodeTplDemoMsg": null,
+    "qrcodeStyle": null,
+    "QRStyleOptions": []
+  },
+  "business": {
+    "epInfo": {},
+    "wxInfo": {},
+    "subInfo": {},
+    "subImgSrc": "",
+    "cStatus": {}
+  },
+  "case": {
+    "caseList": [],
+    "casePageMsg": {}
+  },
+  "catalogue": {
+    "static": {
+      "tree": []
+    },
+    "active": {
+      "tree": []
+    },
+    "autoRefreshMap": {
+      "static": true,
+      "active": true
+    }
+  },
+  "catelog": {
+    "defaultCatalogId": "",
+    "calogId": "",
+    "orgModuleId": "",
+    "expandedKeys": []
+  },
+  "consoleProject": {
+    "projectList": {},
+    "projectTotalCount": -1,
+    "projectManageCount": -1,
+    "projectViewCount": -1,
+    "orgProjectTotalCount": -1,
+    "defaultEnteredProjectId": null,
+    "currentProject": null,
+    "projectInitialized": false,
+    "idendityGroups": null
+  },
+  "defaultPages": {
+    "countMap": {}
+  },
+  "edit": {
+    "list": [],
+    "loading": false,
+    "currentVideoArray": [],
+    "commtabTpl": {},
+    "commonTabRef": {},
+    "activeKey": "1",
+    "hideSwitchTab": false,
+    "emptyModuleAuth": {
+      "allowEdit": false,
+      "edit": 0,
+      "limit": 0,
+      "groups": []
+    },
+    "codeRecordAuth": {
+      "id": 1105926,
+      "data_id": 3968998,
+      "data_type": 7,
+      "privi_type": "visible",
+      "auth_type": 1,
+      "code_id": 3968998,
+      "org_id": 94911424,
+      "limit_id": 0,
+      "update_time": 1723016060,
+      "hide_nopower": 1,
+      "has_detail": true,
+      "groups": [87317, 87320],
+      "group_list": [
+        {
+          "id": 87317,
+          "org_id": 94911424,
+          "group_name": "管理组",
+          "group_type": 6,
+          "status": 0,
+          "is_default": 6,
+          "add_time": 1716258364,
+          "category_id": 0,
+          "target_id": 0,
+          "web_url": "",
+          "coding": "",
+          "group_memo": "",
+          "qrcode_id": 0,
+          "need_send_tip": 0,
+          "tpl_id": 0
+        },
+        {
+          "id": 87320,
+          "org_id": 94911424,
+          "group_name": "负责人",
+          "group_type": 100,
+          "status": 0,
+          "is_default": 10,
+          "add_time": 1716258364,
+          "category_id": 0,
+          "target_id": 0,
+          "web_url": "",
+          "coding": "",
+          "group_memo": "",
+          "qrcode_id": 0,
+          "need_send_tip": 0,
+          "tpl_id": 0
+        }
+      ],
+      "encryption": "413a2dc95692bc2a6fd9899cde577c84"
+    },
+    "styleLibsHistory": [],
+    "tableModal": {
+      "activeTabKey": "double_column"
+    },
+    "replaceExcelTitle": "",
+    "editFormPreviewWithShellRef": null,
+    "isUsedOrgCard": false,
+    "codeSaving": false,
+    "ckeInited": false,
+    "hasChangeRouteType": false,
+    "formTagsMap": {},
+    "categoryState": {},
+    "homepageModalVisible": false,
+    "batchCompDefault": {
+      "batchText": {
+        "sort": 0,
+        "component_code": "batchText",
+        "attribute_list": {
+          "content_html": {
+            "value": "",
+            "name": "批量文本片段",
+            "attribute_id": 36,
+            "attribute_multiple_id": 7
+          },
+          "title": {
+            "value": "",
+            "name": "标题",
+            "attribute_id": 34,
+            "is_multiple": 0,
+            "is_enum": 0
+          },
+          "place_hover": {
+            "value": "",
+            "name": "提示",
+            "attribute_id": 35,
+            "is_multiple": 0,
+            "is_enum": 0
+          },
+          "hint": {
+            "value": "",
+            "name": "编辑提示",
+            "attribute_id": 117,
+            "is_multiple": 0,
+            "is_enum": 0
+          }
+        }
+      },
+      "batchImage": {
+        "sort": 1,
+        "component_code": "batchImage",
+        "attribute_list": {
+          "title": {
+            "value": "",
+            "name": "标题",
+            "attribute_id": 37,
+            "is_multiple": 0,
+            "is_enum": 0
+          },
+          "watermark": {
+            "value": "1",
+            "name": "水印",
+            "attribute_id": 38,
+            "is_multiple": 0,
+            "is_enum": 1,
+            "enum_msg": [
+              {
+                "enum_text": "开启",
+                "enum_value": 1
+              },
+              {
+                "enum_text": "关闭",
+                "enum_value": 0
+              }
+            ]
+          },
+          "upload_type": {
+            "value": "1",
+            "name": "上传方式",
+            "attribute_id": 39,
+            "is_multiple": 0,
+            "is_enum": 1,
+            "enum_msg": [
+              {
+                "enum_text": "拍摄",
+                "enum_value": 1
+              },
+              {
+                "enum_text": "选择",
+                "enum_value": 2
+              }
+            ]
+          },
+          "image_url": {
+            "value": "",
+            "name": "图片路径",
+            "attribute_id": 40,
+            "is_multiple": 0,
+            "is_enum": 0,
+            "save_key": "",
+            "is_default_value": 1
+          },
+          "image_spec": {
+            "value": "0",
+            "name": "图片规格",
+            "attribute_id": 114,
+            "is_multiple": 0,
+            "is_enum": 1,
+            "enum_msg": [
+              {
+                "enum_text": "默认",
+                "enum_value": 0
+              },
+              {
+                "enum_text": "小尺寸",
+                "enum_value": 1
+              }
+            ]
+          },
+          "hint": {
+            "value": "",
+            "name": "编辑提示",
+            "attribute_id": 118,
+            "is_multiple": 0,
+            "is_enum": 0
+          }
+        }
+      },
+      "batchFile": {
+        "sort": 2,
+        "component_code": "batchFile",
+        "attribute_list": {
+          "title": {
+            "value": "",
+            "name": "标题",
+            "attribute_id": 41,
+            "is_multiple": 0,
+            "is_enum": 0
+          },
+          "file_name": {
+            "value": "",
+            "name": "文件名称",
+            "attribute_id": 42,
+            "is_multiple": 0,
+            "is_enum": 0,
+            "is_default_value": 1
+          },
+          "file_size": {
+            "value": "",
+            "name": "文件大小",
+            "attribute_id": 43,
+            "is_multiple": 0,
+            "is_enum": 0,
+            "is_default_value": 1
+          },
+          "file_url": {
+            "value": "",
+            "name": "文件路径",
+            "attribute_id": 44,
+            "is_multiple": 0,
+            "is_enum": 0,
+            "save_key": "",
+            "is_default_value": 1
+          },
+          "can_download": {
+            "value": "1",
+            "name": "是否允许下载",
+            "attribute_id": 110,
+            "is_multiple": 0,
+            "is_enum": 1,
+            "enum_msg": [
+              {
+                "enum_text": "允许",
+                "enum_value": 1
+              },
+              {
+                "enum_text": "不允许",
+                "enum_value": 0
+              }
+            ]
+          },
+          "hint": {
+            "value": "",
+            "name": "编辑提示",
+            "attribute_id": 119,
+            "is_multiple": 0,
+            "is_enum": 0
+          }
+        }
+      },
+      "batchAudio": {
+        "sort": 3,
+        "component_code": "batchAudio",
+        "attribute_list": {
+          "title": {
+            "value": "",
+            "name": "标题",
+            "attribute_id": 45,
+            "is_multiple": 0,
+            "is_enum": 0
+          },
+          "audio_name": {
+            "value": "",
+            "name": "音频名称",
+            "attribute_id": 46,
+            "is_multiple": 0,
+            "is_enum": 0,
+            "is_default_value": 1
+          },
+          "audio_size": {
+            "value": "",
+            "name": "音频大小",
+            "attribute_id": 47,
+            "is_multiple": 0,
+            "is_enum": 0,
+            "is_default_value": 1
+          },
+          "audio_url": {
+            "value": "",
+            "name": "音频路径",
+            "attribute_id": 48,
+            "is_multiple": 0,
+            "is_enum": 0,
+            "save_key": "",
+            "is_default_value": 1
+          },
+          "audio_long": {
+            "value": "",
+            "name": "音频时长",
+            "attribute_id": 64,
+            "is_multiple": 0,
+            "is_enum": 0,
+            "is_default_value": 1
+          },
+          "hint": {
+            "value": "",
+            "name": "编辑提示",
+            "attribute_id": 120,
+            "is_multiple": 0,
+            "is_enum": 0
+          },
+          "audio_expires": {
+            "value": "",
+            "name": "音频到期时间",
+            "attribute_id": 136,
+            "is_multiple": 0,
+            "is_enum": 0,
+            "is_default_value": 1
+          }
+        }
+      },
+      "batchVideo": {
+        "sort": 4,
+        "component_code": "batchVideo",
+        "attribute_list": {
+          "title": {
+            "value": "",
+            "name": "标题",
+            "attribute_id": 49,
+            "is_multiple": 0,
+            "is_enum": 0
+          },
+          "video_name": {
+            "value": "",
+            "name": "视频名称",
+            "attribute_id": 50,
+            "is_multiple": 0,
+            "is_enum": 0,
+            "is_default_value": 1
+          },
+          "video_size": {
+            "value": "",
+            "name": "视频大小",
+            "attribute_id": 51,
+            "is_multiple": 0,
+            "is_enum": 0,
+            "is_default_value": 1
+          },
+          "preview_url": {
+            "value": "",
+            "name": "视频预览图片",
+            "attribute_id": 52,
+            "is_multiple": 0,
+            "is_enum": 0,
+            "save_key": "",
+            "is_default_value": 1
+          },
+          "video_url": {
+            "value": "",
+            "name": "视频路径",
+            "attribute_id": 53,
+            "is_multiple": 0,
+            "is_enum": 0,
+            "save_key": "",
+            "is_default_value": 1
+          },
+          "video_long": {
+            "value": "",
+            "name": "视频长度",
+            "attribute_id": 66,
+            "is_multiple": 0,
+            "is_enum": 0,
+            "is_default_value": 1
+          },
+          "hint": {
+            "value": "",
+            "name": "编辑提示",
+            "attribute_id": 121,
+            "is_multiple": 0,
+            "is_enum": 0
+          },
+          "video_expires": {
+            "value": "",
+            "name": "视频到期时间",
+            "attribute_id": 137,
+            "is_multiple": 0,
+            "is_enum": 0,
+            "is_default_value": 1
+          }
+        }
+      },
+      "batchTable": {
+        "sort": 5,
+        "component_code": "batchTable",
+        "attribute_list": {
+          "title": {
+            "value": "",
+            "name": "标题",
+            "attribute_id": 54,
+            "is_multiple": 0,
+            "is_enum": 0
+          },
+          "table_text": {
+            "value": "",
+            "name": "表格的字段名称",
+            "attribute_id": 55,
+            "is_multiple": 0,
+            "is_enum": 0
+          },
+          "table_value": {
+            "value": "",
+            "name": "表格的字段值",
+            "attribute_id": 56,
+            "is_multiple": 0,
+            "is_enum": 0,
+            "is_default_value": 1
+          },
+          "table_type": {
+            "value": "1",
+            "name": "字段值的类型",
+            "attribute_id": 57,
+            "is_multiple": 0,
+            "is_enum": 1,
+            "enum_msg": [
+              {
+                "enum_text": "文本",
+                "enum_value": 1
+              },
+              {
+                "enum_text": "单选",
+                "enum_value": 2,
+                "enum_msg": [
+                  {
+                    "enum_text": "单选一",
+                    "enum_value": 1
+                  },
+                  {
+                    "enum_text": "单选二",
+                    "enum_value": 2
+                  }
+                ]
+              },
+              {
+                "enum_text": "多选",
+                "enum_value": 3,
+                "enum_msg": [
+                  {
+                    "enum_text": "多选一",
+                    "enum_value": 1
+                  },
+                  {
+                    "enum_text": "多选二",
+                    "enum_value": 2
+                  }
+                ]
+              },
+              {
+                "enum_text": "日期",
+                "enum_value": 4
+              }
+            ]
+          },
+          "table_title": {
+            "value": "",
+            "name": "表格分隔符",
+            "attribute_id": 58,
+            "is_multiple": 0,
+            "is_enum": 0
+          },
+          "hint": {
+            "value": "",
+            "name": "编辑提示",
+            "attribute_id": 122,
+            "is_multiple": 0,
+            "is_enum": 0
+          }
+        }
+      },
+      "batchLocate": {
+        "sort": 6,
+        "component_code": "batchLocate",
+        "attribute_list": {
+          "title": {
+            "value": "",
+            "name": "标题",
+            "attribute_id": 59,
+            "is_multiple": 0,
+            "is_enum": 0
+          },
+          "locate_name": {
+            "value": "",
+            "name": "位置名称",
+            "attribute_id": 60,
+            "is_multiple": 0,
+            "is_enum": 0,
+            "is_default_value": 1
+          },
+          "longitude": {
+            "value": "",
+            "name": "经度",
+            "attribute_id": 61,
+            "is_multiple": 0,
+            "is_enum": 0,
+            "is_default_value": 1
+          },
+          "latitude": {
+            "value": "",
+            "name": "纬度",
+            "attribute_id": 62,
+            "is_multiple": 0,
+            "is_enum": 0,
+            "is_default_value": 1
+          },
+          "locate_time": {
+            "value": "",
+            "name": "定位时间",
+            "attribute_id": 63,
+            "is_multiple": 0,
+            "is_enum": 0,
+            "is_default_value": 1
+          },
+          "show_locatetime": {
+            "value": "1",
+            "name": "是否显示定位时间",
+            "attribute_id": 65,
+            "is_multiple": 0,
+            "is_enum": 1,
+            "enum_msg": [
+              {
+                "enum_text": "显示",
+                "enum_value": 1
+              },
+              {
+                "enum_text": "不显示",
+                "enum_value": 0
+              }
+            ]
+          },
+          "hint": {
+            "value": "",
+            "name": "编辑提示",
+            "attribute_id": 123,
+            "is_multiple": 0,
+            "is_enum": 0
+          }
+        }
+      },
+      "excelTable": {
+        "sort": 8,
+        "component_code": "excelTable",
+        "attribute_list": {
+          "title": {
+            "value": "",
+            "name": "标题",
+            "attribute_id": 69,
+            "is_multiple": 0,
+            "is_enum": 0
+          },
+          "table_title": {
+            "value": "",
+            "name": "表格分隔符",
+            "attribute_id": 70,
+            "is_multiple": 0,
+            "is_enum": 0
+          },
+          "table_text": {
+            "value": "",
+            "name": "表格的字段名称",
+            "attribute_id": 71,
+            "is_multiple": 0,
+            "is_enum": 0
+          },
+          "table_value": {
+            "value": "",
+            "name": "表格的字段值",
+            "attribute_id": 72,
+            "is_multiple": 0,
+            "is_enum": 0,
+            "is_default_value": 1
+          },
+          "table_type": {
+            "value": "",
+            "name": "字段值的类型",
+            "attribute_id": 73,
+            "is_multiple": 0,
+            "is_enum": 0
+          }
+        }
+      }
+    },
+    "Defaultlist": {
+      "code": 1,
+      "msg": "",
+      "data": {
+        "text": {
+          "sort": 0,
+          "component_code": "text",
+          "attribute_list": {
+            "content_html": {
+              "value": "",
+              "name": "文本 html 片段",
+              "attribute_id": 10,
+              "attribute_multiple_id": 5
+            }
+          }
+        },
+        "image": {
+          "sort": 1,
+          "component_code": "image",
+          "attribute_list": {
+            "image_url": {
+              "value": "",
+              "name": "图片地址",
+              "attribute_id": 3,
+              "is_multiple": 0,
+              "is_enum": 0,
+              "save_key": ""
+            },
+            "wxa_path": {
+              "value": "",
+              "name": "图片链接",
+              "attribute_id": 12,
+              "is_multiple": 0,
+              "is_enum": 0
+            },
+            "prew_type": {
+              "value": "0",
+              "name": "预览效果",
+              "attribute_id": 67,
+              "is_multiple": 0,
+              "is_enum": 1,
+              "enum_msg": [
+                {
+                  "enum_text": "轮播",
+                  "enum_value": 0
+                },
+                {
+                  "enum_text": "平铺",
+                  "enum_value": 1
+                }
+              ]
+            },
+            "image_size": {
+              "value": "",
+              "name": "图片大小",
+              "attribute_id": 68,
+              "is_multiple": 0,
+              "is_enum": 0
+            },
+            "image_width": {
+              "value": "",
+              "name": "图片宽度",
+              "attribute_id": 74,
+              "is_multiple": 0,
+              "is_enum": 0
+            },
+            "image_height": {
+              "value": "",
+              "name": "图片高度",
+              "attribute_id": 75,
+              "is_multiple": 0,
+              "is_enum": 0
+            },
+            "image_style": {
+              "value": "1",
+              "name": "图片样式",
+              "attribute_id": 112,
+              "is_multiple": 0,
+              "is_enum": 1,
+              "enum_msg": [
+                {
+                  "enum_text": "样式一",
+                  "enum_value": 1
+                },
+                {
+                  "enum_text": "样式二",
+                  "enum_value": 2
+                },
+                {
+                  "enum_text": "样式三",
+                  "enum_value": 3
+                }
+              ]
+            },
+            "auto_play_time": {
+              "value": "",
+              "name": "轮播时间",
+              "attribute_id": 130,
+              "is_multiple": 0,
+              "is_enum": 0
+            },
+            "design_from_api": {
+              "value": "0",
+              "name": "第三方平台接口设计来源",
+              "attribute_id": 142,
+              "is_multiple": 0,
+              "is_enum": 1,
+              "enum_msg": [
+                {
+                  "enum_text": "本地",
+                  "enum_value": 0
+                },
+                {
+                  "enum_text": "canva",
+                  "enum_value": 1
+                },
+                {
+                  "enum_text": "canva-素材库",
+                  "enum_value": 2
+                }
+              ]
+            },
+            "design_id": {
+              "value": "",
+              "name": "第三方平台接口素材id",
+              "attribute_id": 143,
+              "is_multiple": 0,
+              "is_enum": 0
+            },
+            "is_gradient": {
+              "value": "",
+              "name": "颜色渐变",
+              "attribute_id": 158,
+              "is_multiple": 0,
+              "is_enum": 1
+            },
+            "auto_set_theme_color": {
+              "value": "",
+              "name": "自动取第一张图片的配色作为背景色",
+              "attribute_id": 161,
+              "is_multiple": 0,
+              "is_enum": 0
+            }
+          }
+        },
+        "table": {
+          "sort": 2,
+          "component_code": "table",
+          "attribute_list": {
+            "table_html": {
+              "value": "",
+              "name": "表格html 片段",
+              "attribute_id": 11,
+              "attribute_multiple_id": 6
+            }
+          }
+        },
+        "file": {
+          "sort": 3,
+          "component_code": "file",
+          "attribute_list": {
+            "file_url": {
+              "value": "",
+              "name": "文件地址",
+              "attribute_id": 9,
+              "is_multiple": 0,
+              "is_enum": 0,
+              "save_key": ""
+            },
+            "file_size": {
+              "value": "",
+              "name": "文件大小",
+              "attribute_id": 13,
+              "is_multiple": 0,
+              "is_enum": 0
+            },
+            "file_name": {
+              "value": "",
+              "name": "文件名称",
+              "attribute_id": 18,
+              "is_multiple": 0,
+              "is_enum": 0
+            },
+            "can_download": {
+              "value": "1",
+              "name": "是否允许下载",
+              "attribute_id": 109,
+              "is_multiple": 0,
+              "is_enum": 1,
+              "enum_msg": [
+                {
+                  "enum_text": "允许",
+                  "enum_value": 1
+                },
+                {
+                  "enum_text": "不允许",
+                  "enum_value": 0
+                }
+              ]
+            },
+            "file_register_time": {
+              "value": "",
+              "name": "文件阅读时长",
+              "attribute_id": 150,
+              "is_multiple": 0,
+              "is_enum": 0
+            },
+            "file_preview_hide_menu": {
+              "value": "0",
+              "name": "文件预览隐藏菜单",
+              "attribute_id": 156,
+              "is_multiple": 0,
+              "is_enum": 1,
+              "enum_msg": [
+                {
+                  "enum_text": "显示",
+                  "enum_value": 0
+                },
+                {
+                  "enum_text": "隐藏",
+                  "enum_value": 1
+                }
+              ]
+            },
+            "file_preview_mode": {
+              "value": "1",
+              "name": "文件预览方式",
+              "attribute_id": 157,
+              "is_multiple": 0,
+              "is_enum": 1,
+              "enum_msg": [
+                {
+                  "enum_text": "高保真",
+                  "enum_value": 1
+                },
+                {
+                  "enum_text": "超清",
+                  "enum_value": 2
+                },
+                {
+                  "enum_text": "微信原生",
+                  "enum_value": 3
+                }
+              ]
+            },
+            "file_style": {
+              "value": "",
+              "name": "文件样式",
+              "attribute_id": 159,
+              "is_multiple": 0,
+              "is_enum": 0
+            },
+            "can_share": {
+              "value": "1",
+              "name": "是否允许分享",
+              "attribute_id": 163,
+              "is_multiple": 0,
+              "is_enum": 1,
+              "enum_msg": [
+                {
+                  "enum_text": "允许",
+                  "enum_value": 1
+                },
+                {
+                  "enum_text": "不允许",
+                  "enum_value": 0
+                }
+              ]
+            },
+            "open_readregister": {
+              "value": "0",
+              "name": "开启文件签阅",
+              "attribute_id": 164,
+              "is_multiple": 0,
+              "is_enum": 1,
+              "enum_msg": [
+                {
+                  "enum_text": "关闭",
+                  "enum_value": 0
+                },
+                {
+                  "enum_text": "开启",
+                  "enum_value": 1
+                }
+              ]
+            }
+          }
+        },
+        "audio": {
+          "sort": 4,
+          "component_code": "audio",
+          "attribute_list": {
+            "audio_url": {
+              "value": "",
+              "name": "音频地址",
+              "attribute_id": 6,
+              "is_multiple": 0,
+              "is_enum": 0,
+              "save_key": ""
+            },
+            "audio_size": {
+              "value": "",
+              "name": "音频大小",
+              "attribute_id": 14,
+              "is_multiple": 0,
+              "is_enum": 0
+            },
+            "audio_long": {
+              "value": "",
+              "name": "音频时长",
+              "attribute_id": 15,
+              "is_multiple": 0,
+              "is_enum": 0
+            },
+            "audio_name": {
+              "value": "",
+              "name": "音频名称",
+              "attribute_id": 19,
+              "is_multiple": 0,
+              "is_enum": 0
+            },
+            "audio_expires": {
+              "value": "",
+              "name": "音频到期时间",
+              "attribute_id": 134,
+              "is_multiple": 0,
+              "is_enum": 0
+            }
+          }
+        },
+        "video": {
+          "sort": 5,
+          "component_code": "video",
+          "attribute_list": {
+            "video_url": {
+              "value": "",
+              "name": "视频地址",
+              "attribute_id": 7,
+              "is_multiple": 0,
+              "is_enum": 0,
+              "save_key": ""
+            },
+            "preview_url": {
+              "value": "",
+              "name": "视频预览图",
+              "attribute_id": 8,
+              "is_multiple": 0,
+              "is_enum": 0,
+              "save_key": ""
+            },
+            "video_size": {
+              "value": "",
+              "name": "视频大小",
+              "attribute_id": 16,
+              "is_multiple": 0,
+              "is_enum": 0
+            },
+            "video_long": {
+              "value": "",
+              "name": "视频时长",
+              "attribute_id": 17,
+              "is_multiple": 0,
+              "is_enum": 0
+            },
+            "video_name": {
+              "value": "",
+              "name": "视频名称",
+              "attribute_id": 20,
+              "is_multiple": 0,
+              "is_enum": 0
+            },
+            "video_expires": {
+              "value": "",
+              "name": "视频到期时间",
+              "attribute_id": 135,
+              "is_multiple": 0,
+              "is_enum": 0
+            },
+            "convert_status": {
+              "value": "",
+              "name": "视频转码状态",
+              "attribute_id": 139,
+              "is_multiple": 0,
+              "is_enum": 0
+            },
+            "draggable": {
+              "value": "1",
+              "name": "是否可拖动进度",
+              "attribute_id": 151,
+              "is_multiple": 0,
+              "is_enum": 1,
+              "enum_msg": [
+                {
+                  "enum_text": "允许",
+                  "enum_value": 1
+                },
+                {
+                  "enum_text": "不允许",
+                  "enum_value": 0
+                }
+              ]
+            },
+            "cover_url": {
+              "value": "",
+              "name": "封面图",
+              "attribute_id": 152,
+              "is_multiple": 0,
+              "is_enum": 0
+            },
+            "cover_filename": {
+              "value": "",
+              "name": "封面文件名",
+              "attribute_id": 153,
+              "is_multiple": 0,
+              "is_enum": 0
+            },
+            "show_flow": {
+              "value": "",
+              "name": "显示流量",
+              "attribute_id": 181,
+              "is_multiple": 0,
+              "is_enum": 0
+            }
+          }
+        },
+        "contactus": {
+          "sort": 6,
+          "component_code": "contactus",
+          "attribute_list": {
+            "contact_weixin": {
+              "value": "",
+              "name": "微信",
+              "attribute_id": 175,
+              "attribute_multiple_id": 8
+            },
+            "contact_phone": {
+              "value": "",
+              "name": "联系电话",
+              "attribute_id": 21,
+              "is_multiple": 0,
+              "is_enum": 0
+            },
+            "contact_mail": {
+              "value": "",
+              "name": "反馈邮箱",
+              "attribute_id": 22,
+              "is_multiple": 0,
+              "is_enum": 0
+            },
+            "work_time": {
+              "value": "",
+              "name": "工作时间",
+              "attribute_id": 23,
+              "is_multiple": 0,
+              "is_enum": 0
+            },
+            "address": {
+              "value": "",
+              "name": "联系地址",
+              "attribute_id": 24,
+              "is_multiple": 0,
+              "is_enum": 0
+            },
+            "longitude": {
+              "value": "",
+              "name": "中心经度",
+              "attribute_id": 25,
+              "is_multiple": 0,
+              "is_enum": 0
+            },
+            "latitude": {
+              "value": "",
+              "name": "中心纬度",
+              "attribute_id": 26,
+              "is_multiple": 0,
+              "is_enum": 0
+            },
+            "selected_phone": {
+              "value": "",
+              "name": "联系电话选择框",
+              "attribute_id": 28,
+              "is_multiple": 0,
+              "is_enum": 0
+            },
+            "selected_mail": {
+              "value": "",
+              "name": "反馈邮箱选择框",
+              "attribute_id": 29,
+              "is_multiple": 0,
+              "is_enum": 0
+            },
+            "selected_wtime": {
+              "value": "",
+              "name": "工作时间选择框",
+              "attribute_id": 30,
+              "is_multiple": 0,
+              "is_enum": 0
+            },
+            "selected_addres": {
+              "value": "",
+              "name": "联系地址选择框",
+              "attribute_id": 31,
+              "is_multiple": 0,
+              "is_enum": 0
+            },
+            "title": {
+              "value": "",
+              "name": "标题",
+              "attribute_id": 113,
+              "is_multiple": 0,
+              "is_enum": 0
+            },
+            "show_type": {
+              "value": "0",
+              "name": "展示方式",
+              "attribute_id": 131,
+              "is_multiple": 0,
+              "is_enum": 1,
+              "enum_msg": [
+                {
+                  "enum_text": "文字",
+                  "enum_value": 0
+                },
+                {
+                  "enum_text": "地图卡片",
+                  "enum_value": 1
+                },
+                {
+                  "enum_text": "卡片样式",
+                  "enum_value": 2
+                }
+              ]
+            },
+            "locate_image": {
+              "value": "",
+              "name": "地图图片路径",
+              "attribute_id": 132,
+              "is_multiple": 0,
+              "is_enum": 0,
+              "save_key": ""
+            },
+            "display_style": {
+              "value": "",
+              "name": "展示样式",
+              "attribute_id": 176,
+              "is_multiple": 0,
+              "is_enum": 0
+            },
+            "avatar": {
+              "value": "",
+              "name": "头像",
+              "attribute_id": 177,
+              "is_multiple": 0,
+              "is_enum": 0
+            },
+            "save_btn": {
+              "value": "",
+              "name": "保存通讯录按钮",
+              "attribute_id": 178,
+              "is_multiple": 0,
+              "is_enum": 0
+            },
+            "jump_homepage": {
+              "value": "",
+              "name": "跳转主页",
+              "attribute_id": 180,
+              "is_multiple": 0,
+              "is_enum": 0
+            },
+            "street_address": {
+              "value": "",
+              "name": "街道地址",
+              "attribute_id": 182,
+              "is_multiple": 0,
+              "is_enum": 0
+            },
+            "raw_coordinate": {
+              "value": "",
+              "name": "原始坐标",
+              "attribute_id": 187,
+              "is_multiple": 0,
+              "is_enum": 0
+            }
+          }
+        },
+        "redirect": {
+          "sort": 7,
+          "component_code": "redirect",
+          "attribute_list": {
+            "web_url": {
+              "value": "",
+              "name": "跳转页面",
+              "attribute_id": 27,
+              "is_multiple": 0,
+              "is_enum": 0
+            },
+            "title": {
+              "value": "",
+              "name": "跳转页面标题",
+              "attribute_id": 32,
+              "is_multiple": 0,
+              "is_enum": 0
+            },
+            "list_name": {
+              "value": "",
+              "name": "码的名称",
+              "attribute_id": 33,
+              "is_multiple": 0,
+              "is_enum": 0
+            },
+            "pic_type": {
+              "value": "0",
+              "name": "图片类型",
+              "attribute_id": 124,
+              "is_multiple": 0,
+              "is_enum": 1,
+              "enum_msg": [
+                {
+                  "enum_text": "默认",
+                  "enum_value": 0
+                },
+                {
+                  "enum_text": "预置图标",
+                  "enum_value": 1
+                },
+                {
+                  "enum_text": "自定义上传",
+                  "enum_value": 2
+                }
+              ]
+            },
+            "pic_value": {
+              "value": "",
+              "name": "图片值",
+              "attribute_id": 125,
+              "is_multiple": 0,
+              "is_enum": 0,
+              "save_key": ""
+            },
+            "display_style": {
+              "value": "0",
+              "name": "展示样式",
+              "attribute_id": 126,
+              "is_multiple": 0,
+              "is_enum": 1,
+              "enum_msg": [
+                {
+                  "enum_text": "文字列表",
+                  "enum_value": 0
+                },
+                {
+                  "enum_text": "带图列表",
+                  "enum_value": 1
+                },
+                {
+                  "enum_text": "大图卡片",
+                  "enum_value": 2
+                },
+                {
+                  "enum_text": "方形按钮",
+                  "enum_value": 3
+                },
+                {
+                  "enum_text": "圆形按钮",
+                  "enum_value": 4
+                }
+              ]
+            },
+            "target_type": {
+              "value": "0",
+              "name": "目标类型",
+              "attribute_id": 127,
+              "is_multiple": 0,
+              "is_enum": 1,
+              "enum_msg": [
+                {
+                  "enum_text": "活码",
+                  "enum_value": 0
+                },
+                {
+                  "enum_text": "管理功能 —— 表单管理",
+                  "enum_value": 14
+                },
+                {
+                  "enum_text": "管理功能 —— 表单管理",
+                  "enum_value": 13
+                },
+                {
+                  "enum_text": "管理功能 —— 工作台",
+                  "enum_value": 12
+                },
+                {
+                  "enum_text": "计划 分组",
+                  "enum_value": 11
+                },
+                {
+                  "enum_text": "管理功能 —— 数据看板",
+                  "enum_value": 15
+                },
+                {
+                  "enum_text": "电话",
+                  "enum_value": 9
+                },
+                {
+                  "enum_text": "资料库",
+                  "enum_value": 16
+                },
+                {
+                  "enum_text": "批量活码-模板码",
+                  "enum_value": 1
+                },
+                {
+                  "enum_text": "批量活码-批次",
+                  "enum_value": 2
+                },
+                {
+                  "enum_text": "批量活码-子码",
+                  "enum_value": 3
+                },
+                {
+                  "enum_text": "目录汇总码",
+                  "enum_value": 4
+                },
+                {
+                  "enum_text": "旧版活码",
+                  "enum_value": 5
+                },
+                {
+                  "enum_text": "网址",
+                  "enum_value": 6
+                },
+                {
+                  "enum_text": "表单",
+                  "enum_value": 7
+                },
+                {
+                  "enum_text": "表单数据汇总",
+                  "enum_value": 8
+                },
+                {
+                  "enum_text": "其他小程序",
+                  "enum_value": 10
+                }
+              ]
+            },
+            "theme_color": {
+              "value": "",
+              "name": "主题色",
+              "attribute_id": 128,
+              "is_multiple": 0,
+              "is_enum": 0
+            },
+            "font_color": {
+              "value": "",
+              "name": "文字颜色",
+              "attribute_id": 129,
+              "is_multiple": 0,
+              "is_enum": 0
+            },
+            "pic_size": {
+              "value": "",
+              "name": "图片大小",
+              "attribute_id": 133,
+              "is_multiple": 0,
+              "is_enum": 0
+            }
+          }
+        },
+        "recordlog": {
+          "sort": 8,
+          "component_code": "recordlog",
+          "attribute_list": {
+            "recordlog_id": {
+              "value": "",
+              "name": "记录写组件ID",
+              "attribute_id": 115,
+              "is_multiple": 0,
+              "is_enum": 0
+            }
+          }
+        },
+        "address": {
+          "sort": 8,
+          "component_code": "address",
+          "attribute_list": {
+            "title": {
+              "value": "",
+              "name": "标题",
+              "attribute_id": 144,
+              "is_multiple": 0,
+              "is_enum": 0
+            },
+            "address": {
+              "value": "",
+              "name": "地址",
+              "attribute_id": 145,
+              "is_multiple": 0,
+              "is_enum": 0
+            },
+            "longitude": {
+              "value": "",
+              "name": "经度",
+              "attribute_id": 146,
+              "is_multiple": 0,
+              "is_enum": 0
+            },
+            "latitude": {
+              "value": "",
+              "name": "纬度",
+              "attribute_id": 147,
+              "is_multiple": 0,
+              "is_enum": 0
+            },
+            "show_type": {
+              "value": "0",
+              "name": "展示方式",
+              "attribute_id": 148,
+              "is_multiple": 0,
+              "is_enum": 1,
+              "enum_msg": [
+                {
+                  "enum_text": "文字",
+                  "enum_value": 0
+                },
+                {
+                  "enum_text": "地图卡片",
+                  "enum_value": 1
+                },
+                {
+                  "enum_text": "简易卡片",
+                  "enum_value": 2
+                }
+              ]
+            },
+            "locate_image": {
+              "value": "",
+              "name": "地图图片路径",
+              "attribute_id": 149,
+              "is_multiple": 0,
+              "is_enum": 0,
+              "save_key": ""
+            },
+            "raw_coordinate": {
+              "value": "",
+              "name": "原始坐标",
+              "attribute_id": 188,
+              "is_multiple": 0,
+              "is_enum": 0
+            }
+          }
+        },
+        "recordview": {
+          "sort": 9,
+          "component_code": "recordview",
+          "attribute_list": {
+            "recordview_id": {
+              "value": "",
+              "name": "记录汇总组件ID",
+              "attribute_id": 116,
+              "is_multiple": 0,
+              "is_enum": 0
+            }
+          }
+        },
+        "category": {
+          "sort": 10,
+          "component_code": "category",
+          "attribute_list": {
+            "category_id": {
+              "value": "",
+              "name": "目录id",
+              "attribute_id": 165,
+              "is_multiple": 0,
+              "is_enum": 0
+            },
+            "display_style": {
+              "value": "",
+              "name": "展示样式",
+              "attribute_id": 166,
+              "is_multiple": 0,
+              "is_enum": 0
+            },
+            "size": {
+              "value": "",
+              "name": "数量",
+              "attribute_id": 167,
+              "is_multiple": 0,
+              "is_enum": 0
+            },
+            "sort": {
+              "value": "",
+              "name": "排序",
+              "attribute_id": 168,
+              "is_multiple": 0,
+              "is_enum": 0
+            },
+            "title": {
+              "value": "",
+              "name": "目录标题",
+              "attribute_id": 169,
+              "is_multiple": 0,
+              "is_enum": 0
+            },
+            "show_cover": {
+              "value": "",
+              "name": "封面图片",
+              "attribute_id": 170,
+              "is_multiple": 0,
+              "is_enum": 0
+            },
+            "list_type": {
+              "value": "",
+              "name": "展示内容",
+              "attribute_id": 171,
+              "is_multiple": 0,
+              "is_enum": 0
+            },
+            "category_type": {
+              "value": "",
+              "name": "目录类型",
+              "attribute_id": 172,
+              "is_multiple": 0,
+              "is_enum": 0
+            },
+            "hidden_more": {
+              "value": "",
+              "name": "隐藏查看全部入口",
+              "attribute_id": 179,
+              "is_multiple": 0,
+              "is_enum": 0
+            }
+          }
+        },
+        "statistic": {
+          "sort": 11,
+          "component_code": "statistic",
+          "attribute_list": {
+            "title": {
+              "value": "",
+              "name": "标题",
+              "attribute_id": 183,
+              "is_multiple": 0,
+              "is_enum": 0
+            },
+            "statistic_type": {
+              "value": "",
+              "name": "统计类型",
+              "attribute_id": 184,
+              "is_multiple": 0,
+              "is_enum": 0
+            },
+            "style_type": {
+              "value": "",
+              "name": "展示样式",
+              "attribute_id": 185,
+              "is_multiple": 0,
+              "is_enum": 0
+            },
+            "config_data": {
+              "value": "",
+              "name": "配置数据",
+              "attribute_id": 186,
+              "is_multiple": 0,
+              "is_enum": 0
+            }
+          }
+        }
+      },
+      "url": "",
+      "wait": 3
+    },
+    "userPersonalSet": {
+      "show_collect": 1,
+      "show_manage": 1,
+      "show_font_size": 2,
+      "show_share": 0,
+      "show_homepage": 1,
+      "show_bottom_homepage": 1,
+      "show_powered_by": 1,
+      "share_style": 0,
+      "dest_qrcode_msg": {
+        "can_show_dest_qrcode": 1,
+        "org_dest_qrcode": 3968743,
+        "show_dest_qrcode": 0,
+        "homepage_qrcode_name": "产品目录",
+        "tpl_qrcode_status": 0,
+        "homepage_qrcode_url": "https://qr46.cn/oQL9HR/qGtinpr",
+        "homepage_qrcode_id": 3968743
+      }
+    }
+  },
+  "editorLoading": {
+    "footerLoading": true
+  },
+  "editTpl": {
+    "selectedBatchId": "",
+    "batchOperatorEnable": false
+  },
+  "formInfo": {
+    "forms": []
+  },
+  "front": {
+    "qrCodeId": ""
+  },
+  "group": {
+    "tagList": {},
+    "groupRelationList": {},
+    "codeTree": [],
+    "searchGroupList": {}
+  },
+  "groupPlatform": {
+    "currentGroup": null,
+    "currentProject": null
+  },
+  "header": {
+    "capacityInfo": null,
+    "noticePopoverVisible": false,
+    "refreshNoticeLists": false
+  },
+  "layout": {
+    "headerFixed": true,
+    "sideMenuVersion": 0
+  },
+  "members": {
+    "loading": false
+  },
+  "memberSelector": {
+    "adminName": "",
+    "adminWxworkUserId": "",
+    "receiverMap": null,
+    "groupMap": null,
+    "seniorGroupMap": null
+  },
+  "mina": {
+    "minaInfo": {}
+  },
+  "myTpl": {
+    "myTplList": [],
+    "myTplPageMsg": {},
+    "selectedBatchId": "",
+    "batchOperatorEnable": false,
+    "qrcodeMsg": null,
+    "defaultComponents": {},
+    "batchExportStatus": null
+  },
+  "placeholder": {
+    "defaultComponents": {},
+    "customInEditData": {},
+    "titleIsPlaceholder": false,
+    "labelStyleSaved": false
+  },
+  "print": {
+    "fastPrintData": {},
+    "a4beatifyMsg": {},
+    "backendPreview": "",
+    "QRStyleOptions": [],
+    "QRStyleOptionsClassify": {},
+    "nameRuleOptions": [],
+    "painterMaterial": {},
+    "labelThemeBgGallary": {},
+    "labelTplDescs": {},
+    "checkMainColor": {
+      "colors": [],
+      "color_num": 0
+    },
+    "autoShowLabelEditorStatus": {},
+    "haveUserStyleTemplateList": false,
+    "initCaseTplInfo": {}
+  },
+  "recentCode": {
+    "showNewCodeModal": false,
+    "codeList": [],
+    "codeListNew": [],
+    "codeListNewCount": 0,
+    "totalCodeCount": 0,
+    "codeListNewHasMore": true,
+    "codes": {
+      "code_count": 0
+    },
+    "searching": false,
+    "searchList": [],
+    "searchListNew": [],
+    "searchListNewCount": 0,
+    "searchListNewHasMore": false,
+    "searchKeyword": "",
+    "curPage": 0,
+    "loading": false,
+    "curSearchPage": 0,
+    "inited": false,
+    "history": null,
+    "singleQrcode": null,
+    "singleLoading": false,
+    "tagList": [],
+    "workbenchTagList": [],
+    "curTagList": [],
+    "auditObjMap": {}
+  },
+  "record": {
+    "loading": false,
+    "hasChangeTpl": false,
+    "baseInfo": {
+      "fields": [
+        {
+          "value": ""
+        },
+        {
+          "value": ""
+        },
+        {
+          "value": ""
+        }
+      ]
+    },
+    "customInEditData": {
+      "edit": "",
+      "style": {}
+    },
+    "recorderInfo": {
+      "components": []
+    },
+    "defaultComponents": {},
+    "customerComponents": {},
+    "customDesc": {},
+    "receiverRecent": {
+      "data": {
+        "list": []
+      }
+    },
+    "limit_msg": {
+      "org_id": "",
+      "user_id": "",
+      "edition_id": "",
+      "limit_type": 0,
+      "custom_type": "",
+      "custom_limit": "",
+      "custom_limit_type": ""
+    },
+    "owner_limit_msg": {
+      "org_id": "",
+      "user_id": "",
+      "edition_id": "",
+      "limit_type": 0,
+      "custom_type": "",
+      "custom_limit": "",
+      "custom_limit_type": ""
+    },
+    "summary": {
+      "defaultFilters": {
+        "memberId": 0,
+        "codeId": 0,
+        "categoryId": "",
+        "tplId": 0,
+        "batchId": 0,
+        "batchCodeTplId": 0,
+        "subCodeId": 0,
+        "tplSubCodeId": "",
+        "operationId": 0,
+        "time": [],
+        "timeType": "",
+        "keyword": "",
+        "tplCodeId": "",
+        "status": "0,2,3,4",
+        "processStatus": "",
+        "resultValue": "",
+        "recordSource": 10
+      },
+      "filters": {
+        "recordSource": 10
+      },
+      "analysisData": null,
+      "shouldRefresh": false,
+      "filterFields": {}
+    },
+    "tplDataDetailSummary": {
+      "defaultFilters": {
+        "time": [],
+        "codeId": "",
+        "categoryId": ""
+      },
+      "filters": {}
+    },
+    "defaultResultSummary": {
+      "defaultFilters": {
+        "time": ["1722528000", "1723132799"],
+        "codeId": "",
+        "categoryId": "",
+        "fields": []
+      },
+      "filters": {
+        "fields": []
+      }
+    },
+    "defaultCountSummary": {
+      "defaultFilters": {
+        "time": ["2024-06-30T16:00:00.000Z", "2024-08-08T15:59:59.999Z"],
+        "codeId": "",
+        "categoryId": ""
+      },
+      "filters": {}
+    },
+    "tplCodes": {},
+    "tplCodesForPlain": {},
+    "tplCodesData": {},
+    "focusTplTitle": false,
+    "usedRule": "noCache",
+    "loginTplDesc": {},
+    "progressModalVisible": false,
+    "progressModalPercent": 0,
+    "recorderManager": {
+      "filters": {
+        "codeId": "",
+        "tplId": "",
+        "keyword": "",
+        "page": 1,
+        "orderBy": "desc"
+      },
+      "page": {
+        "current_page": 1,
+        "lasted_page": 1,
+        "record_total": 0,
+        "list_size": 0
+      },
+      "isSearch": false,
+      "list": []
+    },
+    "template": {
+      "filters": {
+        "time": [],
+        "timeType": "",
+        "codeId": "",
+        "keyword": "",
+        "page": 1,
+        "tplId": ""
+      },
+      "page": {
+        "current_page": 1,
+        "lasted_page": 1,
+        "record_total": 0,
+        "list_size": 0,
+        "cur_max_page": 1
+      },
+      "isSearch": false,
+      "list": []
+    },
+    "tempModule": true,
+    "isUpdate": {
+      "editorRecordData": 0
+    },
+    "hightLight": -1,
+    "showPopover": null,
+    "codeTree": {},
+    "batchTplTree": {},
+    "previewRecordSettingLoading": false,
+    "hightLightFrontTpl": false,
+    "_syncRecordComp": {
+      "range": "",
+      "field": null
+    },
+    "previewExportCount": 0,
+    "cacheTplDescList": [],
+    "logMsgLoaded": true,
+    "statusUpdateTpl": null,
+    "isSpecialSummaryView": false,
+    "lossRecordsDesc": {},
+    "recordMsg": {
+      "code": 1,
+      "msg": {
+        "text": "操作成功",
+        "code": 0
+      },
+      "data": {
+        "log_status": 0,
+        "expand_log": 4,
+        "log_msg_tag": "操作面板",
+        "record_summary_title": null,
+        "open_codereview": 0,
+        "open_readregister": 0,
+        "open_direct_preview": 1,
+        "state_show_mode": 4,
+        "record_summary_status": 1,
+        "expand_btn": "添加记录",
+        "show_record_editlog": 0,
+        "recordview_position": 4,
+        "recordview_extend": {
+          "ext_info": {
+            "recordview_position": 4,
+            "nums": 3,
+            "content_type": [1, 2, 3],
+            "content_position": 1
+          },
+          "operation_ext_info": {
+            "btn_color": "",
+            "btn_border_radius": 4,
+            "btn_background": 0,
+            "btn_color_picker_img": "",
+            "btn_img_main_colors": "",
+            "btn_color_from": 0,
+            "content_position": 1
+          },
+          "statistics_configs": []
+        },
+        "subscribe_status": 0,
+        "operateItems": [],
+        "isRecordCase": ""
+      },
+      "url": "",
+      "wait": 3
+    }
+  },
+  "rules": {
+    "groups": {
+      "data": []
+    },
+    "allMemberGroupInfo": null,
+    "unCompletedNameCount": 0,
+    "identityData": []
+  },
+  "selection": {
+    "static": {},
+    "active": {}
+  },
+  "static": {
+    "staticTplList": {
+      "list": [],
+      "page": {}
+    },
+    "staticTplInfo": {},
+    "selectionInfo": {}
+  },
+  "tencentdoc": {
+    "currentUser": {}
+  },
+  "tplLib": {
+    "keywords": "",
+    "searchData": null
+  },
+  "user": {
+    "list": [],
+    "qrcode_count": 0,
+    "capacityInfo": {},
+    "loading": true,
+    "currentUser": {
+      "code": 1,
+      "msg": {
+        "text": "操作成功",
+        "code": 0
+      },
+      "data": {
+        "user_info": {
+          "user_id": "831891",
+          "account": "18336175747",
+          "mobile": "18336175747",
+          "email": "",
+          "add_time": "2024-05-21 09:51:26",
+          "source_user_id": "831891",
+          "manager_user_id": 0,
+          "bloc_status": 0,
+          "bloc_login_from": "",
+          "bloc_group_id": 0,
+          "bloc_case_id": 0,
+          "bloc_type": 0,
+          "bloc_org_name": "",
+          "user_auth_maps": {
+            "user_id": "831891",
+            "time": 1723078565,
+            "publickey": "d298e713e4d5e59231e95774e282cc76"
+          },
+          "role_list": [],
+          "encoded_user_id": "oQL9HR"
+        },
+        "edition_info": {
+          "edition_id": "44",
+          "name": "行业专属版",
+          "price": "16800.00",
+          "description": "根据行业应用深度定制的使用场景和功能模块",
+          "scan_times": "0",
+          "capacity_img": 644245094400,
+          "capacity_video": 32212254720,
+          "capacity_file": 1098867382681600,
+          "capacity_origin": "2000000",
+          "capacity_batch": "100000",
+          "flow": 322122547200,
+          "active_bottom_tag": "0",
+          "active_bottom_bizlink": "1",
+          "active_file_size": "0",
+          "sucai": "2",
+          "vcard": "1",
+          "is_adrbook": "1",
+          "meihua": "1",
+          "batch_create": "1",
+          "from_edition_id": "44",
+          "image_size_limit": 31457280,
+          "file_size_limit": 10485760,
+          "is_pro_addtime": "1717396785",
+          "is_pro_duetime": "1719590400",
+          "capacity": {
+            "title": "行业专属版",
+            "edition_name": "行业专属版",
+            "expire_time": 1719590400,
+            "end_time": "2024/06/29",
+            "edition_id": "44",
+            "from_edition_id": "44",
+            "remain_day": 0,
+            "is_test": "10",
+            "time_status": 3,
+            "edition_new": [],
+            "edition_old": false,
+            "capacity_packet": {
+              "file_capacity": 0,
+              "origin_code": 0,
+              "idcode": 0,
+              "sub_admin": 0
+            },
+            "capacity_packet_count": [],
+            "codes_count": 1856,
+            "last_7day_scan_count": 23,
+            "sub_admin": 0,
+            "av_flow": {
+              "state": 1,
+              "used": "0KB",
+              "maxsize": "20000G",
+              "used_value": 0,
+              "maxsize_value": 21474836480000,
+              "bar_percent": 0,
+              "used_byte": 0,
+              "maxsize_byte": 21474836480000
+            },
+            "auth_member": {
+              "state": 1,
+              "used": "0人",
+              "maxsize": "170人",
+              "used_value": 0,
+              "maxsize_value": 170,
+              "bar_percent": 0
+            },
+            "idcode": 170,
+            "file_capacity": {
+              "state": 1,
+              "used": "132.59M",
+              "maxsize": "1024000G",
+              "used_value": 139032277,
+              "maxsize_value": 1099511627776000,
+              "bar_percent": 5,
+              "used_byte": 139032277,
+              "maxsize_byte": 1099511627776000
+            },
+            "origin_code": 2000000
+          },
+          "capacity_all": 1099511627776000,
+          "file_limitsize": 524288000,
+          "img_limitsize": 31457280,
+          "video_limitsize": 1073741824,
+          "is_paid_user": 1
+        },
+        "api_token": {
+          "capacity": {
+            "param": {
+              "capacity_all": 1099511627776000
+            },
+            "token": "bbef45eddfc9cbdf71afa7174e6c5e8d"
+          }
+        },
+        "manager_info": {
+          "manager_id": "999999",
+          "vcard_pic": "http://static.clewm.net/cli/images/contact/kefu-default@2x.png",
+          "logo_pic": "http://static.clewm.net/cli/images/contact/logo-default@2x.png",
+          "nickname": "QQ咨询",
+          "realname": "QQ咨询",
+          "star_text": "客户支持",
+          "telphone": "400-002-0232",
+          "qq": "2852398248",
+          "contact_link": "//cli.im/api/soboten/commonlink",
+          "complete": 1,
+          "wechat_link": "//static-develop.clewm.net/cli/images/contact/qiye-wechat-default.png",
+          "wechat_mobile": "13454761701"
+        },
+        "user_config_info": {
+          "nav_version": 3,
+          "user_logo_json": "{\"path\":\"https://ncstatic.clewm.net/rsrc/2024/0523/15/7c08ab6a833cfb8b06dd5264bcfb3388.png\",\"link\":\"//cli.im\",\"text\":\"草料首页\",\"rename_flag\":0,\"checkbox\":1,\"logo_custom\":2}",
+          "user_contact_json": "{\"qq\":{\"text\":\"QQ\\u54a8\\u8be2\",\"link\":\"tencent:\\/\\/message\\/?Menu=yes&uin=938077901&Service=58&SigT=A7F6FEA02730C988784304EFD25E628577962CA57591682DF806DDEAE58B40717BE423AC5D55AE2F81DD3F20E41963E235BAE17C427A9D542084FC1DB948748BF8E82BDACA1669E9970445C189BE5577EC23C00D0C1EA358EAD297E03EFC088558E27B0325526D4B2E8E60A8207D39CC4452ED2EC9FAAD3C&SigU=30E5D5233A443AB28061827407DA538DEFF5442DE99AC879CDC05450C670C1C7204384E753CF1F0DAD0D8E696A1DFE5F1B00CDC72AEE1739C75C5BDF5320CF84392E28C1D8376C43\",\"type\":\"button_qq\",\"rename_flag\":0,\"checkbox\":1},\"custom\":{\"text\":\"\\u54a8\\u8be2\\u70ed\\u7ebf: 4000020232\",\"link\":\"\",\"type\":\"text\",\"icon_class\":\"fa-phone\",\"rename_flag\":0,\"checkbox\":1}}",
+          "user_route_json": "{\"s1000100\":{\"id\":\"1000100\",\"pid\":\"0\",\"name\":\"\\u5de5\\u4f5c\\u53f0\",\"sys\":\"user\",\"route\":\"\\/center\",\"type\":\"link\",\"hl_action\":\"\",\"qr_type_id\":\"0\",\"icon_position\":\"0px\",\"icon_class\":\"cli-last\",\"rename_flag\":0,\"sort\":1,\"deploy\":0,\"link\":\"\\/\\/console.cliim.net\\/center\"},\"s1000200\":{\"id\":\"1000200\",\"pid\":\"0\",\"name\":\"\\u4e8c\\u7ef4\\u7801\",\"sys\":\"\",\"route\":\"\",\"type\":\"guide\",\"hl_action\":\"\",\"qr_type_id\":\"0\",\"icon_position\":\"\",\"icon_class\":\"cli-new-qrcode\",\"rename_flag\":0,\"sort\":2,\"cata\":{\"0\":{\"id\":\"1001000\",\"pid\":\"1000200\",\"name\":\"\\u6d3b\\u7801\",\"sys\":\"console\",\"route\":\"\\/active\\/activecode\",\"type\":\"link\",\"hl_action\":\"\",\"qr_type_id\":\"0\",\"icon_position\":\"\",\"icon_class\":\"\",\"rename_flag\":0,\"sort\":1,\"deploy\":0,\"link\":\"\\/\\/console.cliim.net\\/active\\/activecode\"},\"2\":{\"id\":\"1001250\",\"pid\":\"1000200\",\"name\":\"\\u9759\\u6001\\u7801\",\"sys\":\"console\",\"route\":\"\\/static\\/staticcode\",\"type\":\"link\",\"hl_action\":\"\",\"qr_type_id\":\"0\",\"icon_position\":\"\",\"icon_class\":\"\",\"rename_flag\":0,\"sort\":3,\"deploy\":0,\"link\":\"\\/\\/console.cliim.net\\/static\\/staticcode\"},\"3\":{\"id\":\"1002000\",\"pid\":\"1000200\",\"name\":\"\\u65e7\\u7248\\u6279\\u91cf\\u6d3b\\u7801\",\"sys\":\"console\",\"route\":\"\\/batch\\/batchcode\",\"type\":\"link\",\"hl_action\":\"\",\"qr_type_id\":\"0\",\"icon_position\":\"\",\"icon_class\":\"\",\"rename_flag\":0,\"sort\":4,\"deploy\":0,\"link\":\"\\/\\/console.cliim.net\\/batch\\/batchcode\"},\"4\":{\"id\":\"1004000\",\"pid\":\"1000200\",\"name\":\"\\u540d\\u7247\\u6d3b\\u7801\",\"sys\":\"console\",\"route\":\"\\/company\\/card\",\"type\":\"link\",\"hl_action\":\"\",\"qr_type_id\":\"0\",\"icon_position\":\"\",\"icon_class\":\"\",\"rename_flag\":0,\"sort\":5,\"deploy\":0,\"link\":\"\\/\\/console.cliim.net\\/company\\/card\"}},\"deploy\":0},\"s1000225\":{\"id\":\"1000225\",\"pid\":\"0\",\"name\":\"\\u6211\\u7684\\u6a21\\u677f\",\"sys\":\"\",\"route\":\"\",\"type\":\"guide\",\"hl_action\":\"\",\"qr_type_id\":\"0\",\"icon_position\":\"\",\"icon_class\":\"cli-piliangmuban\",\"rename_flag\":0,\"sort\":3,\"cata\":[{\"id\":\"1001500\",\"pid\":\"1000225\",\"name\":\"\\u6279\\u91cf\\u6d3b\\u7801\\u6a21\\u677f\",\"sys\":\"console\",\"route\":\"\\/template\\/management\",\"type\":\"link\",\"hl_action\":\"\",\"qr_type_id\":\"0\",\"icon_position\":\"\",\"icon_class\":\"\",\"rename_flag\":0,\"sort\":1,\"deploy\":0,\"link\":\"\\/\\/console.cliim.net\\/template\\/management\"},{\"id\":\"1001750\",\"pid\":\"1000225\",\"name\":\"\\u6807\\u7b7e\\u6837\\u5f0f\",\"sys\":\"console\",\"route\":\"\\/static\\/management\",\"type\":\"link\",\"hl_action\":\"\",\"qr_type_id\":\"0\",\"icon_position\":\"\",\"icon_class\":\"\",\"rename_flag\":0,\"sort\":2,\"deploy\":0,\"link\":\"\\/\\/console.cliim.net\\/static\\/management\"},{\"id\":\"1040000\",\"pid\":\"1000225\",\"name\":\"\\u5c0f\\u7a0b\\u5e8f\\u7801\\u6a21\\u677f\",\"sys\":\"console\",\"route\":\"\\/mina\",\"type\":\"link\",\"hl_action\":\"\",\"qr_type_id\":\"0\",\"icon_position\":\"\",\"icon_class\":\"\",\"rename_flag\":0,\"sort\":3,\"deploy\":0,\"link\":\"\\/\\/console.cliim.net\\/mina\"},{\"id\":\"1056001\",\"pid\":\"1000225\",\"name\":\"\\u65e7\\u7248\\u4e8c\\u7ef4\\u7801\\u6837\\u5f0f\",\"sys\":\"console\",\"route\":\"\\/mybeautify\",\"type\":\"link\",\"hl_action\":\"\",\"qr_type_id\":\"0\",\"icon_position\":\"\",\"icon_class\":\"\",\"rename_flag\":0,\"sort\":1056001,\"deploy\":0,\"link\":\"\\/\\/console.cliim.net\\/mybeautify\"}],\"deploy\":0},\"s1000350\":{\"id\":\"1000350\",\"pid\":\"0\",\"name\":\"\\u6570\\u636e\\u7ba1\\u7406\",\"sys\":\"\",\"route\":\"\",\"type\":\"guide\",\"hl_action\":\"\",\"qr_type_id\":\"0\",\"icon_position\":\"\",\"icon_class\":\"cli-data\",\"rename_flag\":0,\"sort\":4,\"cata\":[{\"id\":\"1034000\",\"pid\":\"1000350\",\"name\":\"\\u52a8\\u6001\\u6570\\u636e\\u6c47\\u603b\",\"sys\":\"console\",\"route\":\"\\/record\\/summary\",\"type\":\"link\",\"hl_action\":\"\",\"qr_type_id\":\"0\",\"icon_position\":\"\",\"icon_class\":\"\",\"rename_flag\":0,\"sort\":1,\"deploy\":0,\"link\":\"\\/\\/console.cliim.net\\/record\\/summary\"},{\"id\":\"1035010\",\"pid\":\"1000350\",\"name\":\"\\u8868\\u5355\\u6570\\u636e\",\"sys\":\"console\",\"route\":\"\\/record\\/tpl\",\"type\":\"link\",\"hl_action\":\"\",\"qr_type_id\":\"0\",\"icon_position\":\"\",\"icon_class\":\"\",\"rename_flag\":0,\"sort\":2,\"deploy\":0,\"link\":\"\\/\\/console.cliim.net\\/record\\/tpl\"},{\"id\":\"1035020\",\"pid\":\"1000350\",\"name\":\"\\u72b6\\u6001\\u6570\\u636e\",\"sys\":\"console\",\"route\":\"\\/status\\/by_status\",\"type\":\"link\",\"hl_action\":\"\",\"qr_type_id\":\"0\",\"icon_position\":\"\",\"icon_class\":\"\",\"rename_flag\":0,\"sort\":3,\"deploy\":0,\"link\":\"\\/\\/console.cliim.net\\/status\\/by_status\"},{\"id\":\"1033000\",\"pid\":\"1000350\",\"name\":\"\\u586b\\u8868\\u4eba\\u5217\\u8868\",\"sys\":\"console\",\"route\":\"\\/record\\/user_list\",\"type\":\"link\",\"hl_action\":\"\",\"qr_type_id\":\"0\",\"icon_position\":\"\",\"icon_class\":\"\",\"rename_flag\":0,\"sort\":4,\"deploy\":0,\"link\":\"\\/\\/console.cliim.net\\/record\\/user_list\"},{\"id\":\"1035000\",\"pid\":\"1000350\",\"name\":\"\\u6570\\u636e\\u5ba1\\u6838\",\"sys\":\"console\",\"route\":\"\\/record\\/audit_list\",\"type\":\"link\",\"hl_action\":\"\",\"qr_type_id\":\"0\",\"icon_position\":\"\",\"icon_class\":\"\",\"rename_flag\":0,\"sort\":5,\"deploy\":0,\"link\":\"\\/\\/console.cliim.net\\/record\\/audit_list\"},{\"id\":\"1004500\",\"pid\":\"1000350\",\"name\":\"\\u626b\\u63cf\\u91cf\\u7edf\\u8ba1\",\"sys\":\"console\",\"route\":\"\\/analysis\\/scan\",\"type\":\"link\",\"hl_action\":\"\",\"qr_type_id\":\"0\",\"icon_position\":\"\",\"icon_class\":\"\",\"rename_flag\":0,\"sort\":6,\"deploy\":0,\"link\":\"\\/\\/console.cliim.net\\/analysis\\/scan\"},{\"id\":\"1004600\",\"pid\":\"1000350\",\"name\":\"\\u6536\\u85cf\\u91cf\\u7edf\\u8ba1\",\"sys\":\"console\",\"route\":\"\\/analysis\\/collect\",\"type\":\"link\",\"hl_action\":\"\",\"qr_type_id\":\"0\",\"icon_position\":\"\",\"icon_class\":\"\",\"rename_flag\":0,\"sort\":7,\"deploy\":0,\"link\":\"\\/\\/console.cliim.net\\/analysis\\/collect\"}],\"deploy\":0},\"s1000275\":{\"id\":\"1000275\",\"pid\":\"0\",\"name\":\"\\u9ad8\\u7ea7\\u529f\\u80fd\",\"sys\":\"\",\"route\":\"\",\"type\":\"guide\",\"hl_action\":\"\",\"qr_type_id\":\"0\",\"icon_position\":\"\",\"icon_class\":\"cli-gaojigongneng\",\"rename_flag\":0,\"sort\":5,\"cata\":[{\"id\":\"1032000\",\"pid\":\"1000275\",\"name\":\"\\u8868\\u5355\\u5217\\u8868\",\"sys\":\"console\",\"route\":\"\\/record\\/template\",\"type\":\"link\",\"hl_action\":\"\",\"qr_type_id\":\"0\",\"icon_position\":\"\",\"icon_class\":\"\",\"rename_flag\":0,\"sort\":1,\"deploy\":0,\"link\":\"\\/\\/console.cliim.net\\/record\\/template\"},{\"id\":\"1008500\",\"pid\":\"1000275\",\"name\":\"\\u72b6\\u6001\\u5217\\u8868\",\"sys\":\"console\",\"route\":\"\\/status\",\"type\":\"link\",\"hl_action\":\"\",\"qr_type_id\":\"0\",\"icon_position\":\"\",\"icon_class\":\"\",\"rename_flag\":0,\"sort\":2,\"deploy\":0,\"link\":\"\\/\\/console.cliim.net\\/status\"},{\"id\":\"1008600\",\"pid\":\"1000275\",\"name\":\"\\u8ba1\\u5212\\u7ba1\\u7406\",\"sys\":\"console\",\"route\":\"\\/plantask\",\"type\":\"link\",\"hl_action\":\"\",\"qr_type_id\":\"0\",\"icon_position\":\"\",\"icon_class\":\"\",\"rename_flag\":0,\"sort\":3,\"deploy\":0,\"link\":\"\\/\\/console.cliim.net\\/plantask\"},{\"id\":\"1008550\",\"pid\":\"1000275\",\"name\":\"\\u5206\\u7ec4\\u7ba1\\u7406\",\"sys\":\"console\",\"route\":\"\\/group\",\"type\":\"link\",\"hl_action\":\"\",\"qr_type_id\":\"0\",\"icon_position\":\"\",\"icon_class\":\"\",\"rename_flag\":0,\"sort\":4,\"deploy\":0,\"link\":\"\\/\\/console.cliim.net\\/group\"},{\"id\":\"1006000\",\"pid\":\"1000275\",\"name\":\"\\u9996\\u9875\",\"sys\":\"console\",\"route\":\"\\/homepage\",\"type\":\"link\",\"hl_action\":\"\",\"qr_type_id\":\"0\",\"icon_position\":\"\",\"icon_class\":\"\",\"rename_flag\":0,\"sort\":5,\"deploy\":0,\"link\":\"\\/\\/console.cliim.net\\/homepage\"},{\"id\":\"1008750\",\"pid\":\"1000275\",\"name\":\"\\u6570\\u636eAPI\",\"sys\":\"user\",\"route\":\"\\/opendata\",\"type\":\"link\",\"hl_action\":\"\",\"qr_type_id\":\"0\",\"icon_position\":\"\",\"icon_class\":\"\",\"rename_flag\":0,\"sort\":6,\"deploy\":0,\"link\":\"\\/\\/user.cliim.net\\/opendata\"},{\"id\":\"1008751\",\"pid\":\"1000275\",\"name\":\"\\u4e0b\\u8f7d\\u5bfc\\u51fa\\u5217\\u8868\",\"sys\":\"console\",\"route\":\"\\/downloadExportLists\",\"type\":\"link\",\"hl_action\":\"\",\"qr_type_id\":\"0\",\"icon_position\":\"\",\"icon_class\":\"\",\"rename_flag\":0,\"sort\":7,\"deploy\":0,\"link\":\"\\/\\/console.cliim.net\\/downloadExportLists\"}],\"deploy\":0},\"s1000450\":{\"id\":\"1000450\",\"pid\":\"0\",\"name\":\"\\u6210\\u5458\\u7ba1\\u7406\",\"sys\":\"\",\"route\":\"\",\"type\":\"guide\",\"hl_action\":\"member\",\"qr_type_id\":\"0\",\"icon_position\":\"-72px\",\"icon_class\":\"cli-chengyuanguanli\",\"rename_flag\":0,\"sort\":6,\"cata\":[{\"id\":\"1056000\",\"pid\":\"1000450\",\"name\":\"\\u8eab\\u4efd\\u7ec4\\u7ba1\\u7406\",\"sys\":\"console\",\"route\":\"\\/company\\/memberRule?type=identity\",\"type\":\"link\",\"hl_action\":\"\",\"qr_type_id\":\"0\",\"icon_position\":\"\",\"icon_class\":\"\",\"rename_flag\":0,\"sort\":1,\"deploy\":0,\"link\":\"\\/\\/console.cliim.net\\/company\\/memberRule?type=identity\"},{\"id\":\"1055000\",\"pid\":\"1000450\",\"name\":\"\\u7ec4\\u7ec7\\u67b6\\u6784\",\"sys\":\"console\",\"route\":\"\\/company\\/memberRule?type=department\",\"type\":\"link\",\"hl_action\":\"\",\"qr_type_id\":\"0\",\"icon_position\":\"\",\"icon_class\":\"\",\"rename_flag\":0,\"sort\":2,\"deploy\":0,\"link\":\"\\/\\/console.cliim.net\\/company\\/memberRule?type=department\"}],\"deploy\":0},\"s1000400\":{\"id\":\"1000400\",\"pid\":\"0\",\"name\":\"\\u8bbe\\u7f6e\",\"sys\":\"\",\"route\":\"\",\"type\":\"guide\",\"hl_action\":\"settings\",\"qr_type_id\":\"0\",\"icon_position\":\"-72px\",\"icon_class\":\"cli-new-set\",\"rename_flag\":0,\"sort\":7,\"cata\":[{\"id\":\"1010000\",\"pid\":\"1000400\",\"name\":\"\\u8d26\\u53f7\\u4fe1\\u606f\",\"sys\":\"console\",\"route\":\"\\/userinfo\",\"type\":\"link\",\"hl_action\":\"\",\"qr_type_id\":\"0\",\"icon_position\":\"\",\"icon_class\":\"\",\"rename_flag\":0,\"sort\":1,\"deploy\":0,\"link\":\"\\/\\/console.cliim.net\\/userinfo\"},{\"id\":\"1045000\",\"pid\":\"1000400\",\"name\":\"\\u8ba2\\u9605\\u8bbe\\u7f6e\",\"sys\":\"user\",\"route\":\"\\/center\\/subscriptions\",\"type\":\"link\",\"hl_action\":\"\",\"qr_type_id\":\"0\",\"icon_position\":\"\",\"icon_class\":\"\",\"rename_flag\":0,\"sort\":4,\"deploy\":0,\"link\":\"\\/\\/user.cliim.net\\/center\\/subscriptions\"},{\"id\":\"1008050\",\"pid\":\"1000400\",\"name\":\"\\u64cd\\u4f5c\\u65e5\\u5fd7\",\"sys\":\"console\",\"route\":\"\\/record\\/log\",\"type\":\"link\",\"hl_action\":\"\",\"qr_type_id\":\"0\",\"icon_position\":\"\",\"icon_class\":\"\",\"rename_flag\":0,\"sort\":6,\"deploy\":0,\"link\":\"\\/\\/console.cliim.net\\/record\\/log\"},{\"id\":\"1041000\",\"pid\":\"1000400\",\"name\":\"\\u5220\\u7801\\u6062\\u590d\\u5de5\\u5177\",\"sys\":\"console\",\"route\":\"\\/tools\\/restore\",\"type\":\"link\",\"hl_action\":\"\",\"qr_type_id\":\"0\",\"icon_position\":\"\",\"icon_class\":\"\",\"rename_flag\":0,\"sort\":7,\"deploy\":0,\"link\":\"\\/\\/console.cliim.net\\/tools\\/restore\"},{\"id\":\"1010500\",\"pid\":\"1000400\",\"name\":\"\\u5b9e\\u9a8c\\u5ba4\",\"sys\":\"user\",\"route\":\"\\/center\\/lab\",\"type\":\"link\",\"hl_action\":\"\",\"qr_type_id\":\"0\",\"icon_position\":\"\",\"icon_class\":\"\",\"rename_flag\":0,\"sort\":8,\"deploy\":0,\"link\":\"\\/\\/user.cliim.net\\/center\\/lab\"}],\"deploy\":0},\"s1000500\":{\"id\":\"1000500\",\"pid\":\"0\",\"name\":\"\\u65e7\\u7248\\u6d3b\\u7801\",\"sys\":\"\",\"route\":\"\",\"type\":\"guide\",\"hl_action\":\"\",\"qr_type_id\":\"1\",\"icon_position\":\"-72px\",\"icon_class\":\"cli-old-qrcode\",\"rename_flag\":0,\"sort\":1000500,\"cata\":[{\"id\":\"1011000\",\"pid\":\"1000500\",\"name\":\"\\u6587\\u672c\\u7801\",\"sys\":\"cli\",\"route\":\"\\/user\\/active?t=text\",\"type\":\"link\",\"hl_action\":\"\",\"qr_type_id\":\"0\",\"icon_position\":\"\",\"icon_class\":\"\",\"rename_flag\":0,\"sort\":1011000,\"deploy\":0,\"link\":\"\\/\\/cliim.net\\/user\\/active?t=text\"},{\"id\":\"1012000\",\"pid\":\"1000500\",\"name\":\"\\u56fe\\u6587\\u7801\",\"sys\":\"cli\",\"route\":\"\\/user\\/active?t=imgtext\",\"type\":\"link\",\"hl_action\":\"\",\"qr_type_id\":\"0\",\"icon_position\":\"\",\"icon_class\":\"\",\"rename_flag\":0,\"sort\":1012000,\"deploy\":0,\"link\":\"\\/\\/cliim.net\\/user\\/active?t=imgtext\"},{\"id\":\"1013000\",\"pid\":\"1000500\",\"name\":\"\\u6587\\u4ef6\\u7801\",\"sys\":\"cli\",\"route\":\"\\/user\\/active?t=file\",\"type\":\"link\",\"hl_action\":\"\",\"qr_type_id\":\"0\",\"icon_position\":\"\",\"icon_class\":\"\",\"rename_flag\":0,\"sort\":1013000,\"deploy\":0,\"link\":\"\\/\\/cliim.net\\/user\\/active?t=file\"},{\"id\":\"1014000\",\"pid\":\"1000500\",\"name\":\"\\u5546\\u54c1\\u7801\",\"sys\":\"cli\",\"route\":\"\\/user\\/active\\/pro\",\"type\":\"link\",\"hl_action\":\"\",\"qr_type_id\":\"0\",\"icon_position\":\"\",\"icon_class\":\"\",\"rename_flag\":0,\"sort\":1014000,\"deploy\":0,\"link\":\"\\/\\/cliim.net\\/user\\/active\\/pro\"},{\"id\":\"1015000\",\"pid\":\"1000500\",\"name\":\"\\u540d\\u7247\\u7801\",\"sys\":\"biz\",\"route\":\"\\/vcard\",\"type\":\"link\",\"hl_action\":\"\",\"qr_type_id\":\"0\",\"icon_position\":\"\",\"icon_class\":\"\",\"rename_flag\":0,\"sort\":1015000,\"deploy\":0,\"link\":\"\\/\\/biz.cliim.net\\/vcard\"},{\"id\":\"1016000\",\"pid\":\"1000500\",\"name\":\"\\u8bb0\\u5f55\\u7801\",\"sys\":\"biz\",\"route\":\"\\/Rec\\/reclist\",\"type\":\"link\",\"hl_action\":\"\",\"qr_type_id\":\"0\",\"icon_position\":\"\",\"icon_class\":\"\",\"rename_flag\":0,\"sort\":1016000,\"deploy\":0,\"link\":\"\\/\\/biz.cliim.net\\/Rec\\/reclist\"},{\"id\":\"1017000\",\"pid\":\"1000500\",\"name\":\"\\u6eaf\\u6e90\\u7801\",\"sys\":\"cli\",\"route\":\"\\/user\\/origin\\/category\",\"type\":\"link\",\"hl_action\":\"\",\"qr_type_id\":\"0\",\"icon_position\":\"\",\"icon_class\":\"\",\"rename_flag\":0,\"sort\":1017000,\"deploy\":0,\"link\":\"\\/\\/cliim.net\\/user\\/origin\\/category\"},{\"id\":\"1018000\",\"pid\":\"1000500\",\"name\":\"\\u4f01\\u4e1a\\u7801\",\"sys\":\"biz\",\"route\":\"\\/index\",\"type\":\"link\",\"hl_action\":\"\",\"qr_type_id\":\"0\",\"icon_position\":\"\",\"icon_class\":\"\",\"rename_flag\":0,\"sort\":1018000,\"deploy\":0,\"link\":\"\\/\\/biz.cliim.net\\/index\"}],\"deploy\":0}}",
+          "user_route_b_json": "{\"s2000001\":{\"id\":\"2000001\",\"pid\":\"0\",\"name\":\"\\u5de5\\u4f5c\\u53f0\",\"sys\":\"user\",\"route\":\"\\/center\",\"type\":\"link\",\"hl_action\":\"\",\"qr_type_id\":\"0\",\"icon_position\":\"0px\",\"icon_class\":\"cli-last\",\"rename_flag\":0,\"sort\":1,\"deploy\":0,\"link\":\"\\/\\/console.cliim.net\\/center\"},\"s2001000\":{\"id\":\"2001000\",\"pid\":\"0\",\"name\":\"\\u6d3b\\u7801\",\"sys\":\"console\",\"route\":\"\\/active\\/activecode\",\"type\":\"link\",\"hl_action\":\"\",\"qr_type_id\":\"0\",\"icon_position\":\"-72px\",\"icon_class\":\"erweima\",\"rename_flag\":0,\"sort\":2,\"deploy\":0,\"link\":\"\\/\\/console.cliim.net\\/active\\/activecode\"},\"s2002000\":{\"id\":\"2002000\",\"pid\":\"0\",\"name\":\"\\u9759\\u6001\\u7801\",\"sys\":\"console\",\"route\":\"\\/static\\/staticcode\",\"type\":\"link\",\"hl_action\":\"\",\"qr_type_id\":\"0\",\"icon_position\":\"\",\"icon_class\":\"erweimaxin\",\"rename_flag\":0,\"sort\":5,\"deploy\":0,\"link\":\"\\/\\/console.cliim.net\\/static\\/staticcode\"},\"s2003000\":{\"id\":\"2003000\",\"pid\":\"0\",\"name\":\"\\u6279\\u91cf\\u6d3b\\u7801\\u6a21\\u677f\",\"sys\":\"console\",\"route\":\"\\/template\\/management\",\"type\":\"link\",\"hl_action\":\"\",\"qr_type_id\":\"0\",\"icon_position\":\"\",\"icon_class\":\"xinpiliang\",\"rename_flag\":0,\"sort\":7,\"deploy\":0,\"link\":\"\\/\\/console.cliim.net\\/template\\/management\"},\"s2004000\":{\"id\":\"2004000\",\"pid\":\"0\",\"name\":\"\\u6807\\u7b7e\\u6837\\u5f0f\",\"sys\":\"console\",\"route\":\"\\/static\\/management\",\"type\":\"link\",\"hl_action\":\"\",\"qr_type_id\":\"0\",\"icon_position\":\"\",\"icon_class\":\"biaoqianyangshi\",\"rename_flag\":0,\"sort\":9,\"deploy\":0,\"link\":\"\\/\\/console.cliim.net\\/static\\/management\"},\"s2010000\":{\"id\":\"2010000\",\"pid\":\"0\",\"name\":\"\\u8868\\u5355\",\"sys\":\"console\",\"route\":\"\\/record\\/template\",\"type\":\"link\",\"hl_action\":\"\",\"qr_type_id\":\"0\",\"icon_position\":\"\",\"icon_class\":\"jilu\",\"rename_flag\":0,\"sort\":11,\"deploy\":0,\"link\":\"\\/\\/console.cliim.net\\/record\\/template\"},\"s2005000\":{\"id\":\"2005000\",\"pid\":\"0\",\"name\":\"\\u72b6\\u6001\",\"sys\":\"console\",\"route\":\"\\/status\",\"type\":\"link\",\"hl_action\":\"\",\"qr_type_id\":\"0\",\"icon_position\":\"\",\"icon_class\":\"zhuangtaigengxin\",\"rename_flag\":0,\"sort\":13,\"deploy\":0,\"link\":\"\\/\\/console.cliim.net\\/status\"},\"s2011000\":{\"id\":\"2011000\",\"pid\":\"0\",\"name\":\"\\u5ba1\\u6838\",\"sys\":\"console\",\"route\":\"\\/record\\/audit_list\",\"type\":\"link\",\"hl_action\":\"\",\"qr_type_id\":\"0\",\"icon_position\":\"\",\"icon_class\":\"shujushenhe\",\"rename_flag\":0,\"sort\":14,\"deploy\":0,\"link\":\"\\/\\/console.cliim.net\\/record\\/audit_list\"},\"s2006000\":{\"id\":\"2006000\",\"pid\":\"0\",\"name\":\"\\u6570\\u636e\\u7ba1\\u7406\",\"sys\":\"console\",\"route\":\"\\/data-management\",\"type\":\"link\",\"hl_action\":\"\",\"qr_type_id\":\"0\",\"icon_position\":\"\",\"icon_class\":\"cli-data\",\"rename_flag\":0,\"sort\":15,\"deploy\":0,\"link\":\"\\/\\/console.cliim.net\\/data-management\"},\"s2008000\":{\"id\":\"2008000\",\"pid\":\"0\",\"name\":\"\\u9ad8\\u7ea7\\u529f\\u80fd\",\"sys\":\"console\",\"route\":\"\\/profeature\",\"type\":\"link\",\"hl_action\":\"\",\"qr_type_id\":\"0\",\"icon_position\":\"\",\"icon_class\":\"cli-gaojigongneng\",\"rename_flag\":0,\"sort\":16,\"deploy\":0,\"link\":\"\\/\\/console.cliim.net\\/profeature\"},\"s2007000\":{\"id\":\"2007000\",\"pid\":\"0\",\"name\":\"\\u6210\\u5458\\u7ba1\\u7406\",\"sys\":\"console\",\"route\":\"\\/company\\/member-management?type=identity\",\"type\":\"link\",\"hl_action\":\"\",\"qr_type_id\":\"0\",\"icon_position\":\"\",\"icon_class\":\"cli-chengyuanguanli\",\"rename_flag\":0,\"sort\":19,\"deploy\":0,\"link\":\"\\/\\/console.cliim.net\\/company\\/member-management?type=identity\"},\"s2009000\":{\"id\":\"2009000\",\"pid\":\"0\",\"name\":\"\\u8bbe\\u7f6e\",\"sys\":\"console\",\"route\":\"\\/userinfo\",\"type\":\"link\",\"hl_action\":\"\",\"qr_type_id\":\"0\",\"icon_position\":\"-72px\",\"icon_class\":\"cli-new-set\",\"rename_flag\":0,\"sort\":25,\"deploy\":0,\"link\":\"\\/\\/console.cliim.net\\/userinfo\"},\"s1000500\":{\"id\":\"1000500\",\"pid\":\"0\",\"name\":\"\\u65e7\\u7248\\u6d3b\\u7801\",\"sys\":\"\",\"route\":\"\",\"type\":\"guide\",\"hl_action\":\"\",\"qr_type_id\":\"1\",\"icon_position\":\"-72px\",\"icon_class\":\"cli-old-qrcode\",\"rename_flag\":0,\"sort\":99,\"cata\":[{\"id\":\"1011000\",\"pid\":\"1000500\",\"name\":\"\\u6587\\u672c\\u7801\",\"sys\":\"cli\",\"route\":\"\\/user\\/active?t=text\",\"type\":\"link\",\"hl_action\":\"\",\"qr_type_id\":\"0\",\"icon_position\":\"\",\"icon_class\":\"\",\"rename_flag\":0,\"sort\":1011000,\"deploy\":0,\"link\":\"\\/\\/cliim.net\\/user\\/active?t=text\"},{\"id\":\"1012000\",\"pid\":\"1000500\",\"name\":\"\\u56fe\\u6587\\u7801\",\"sys\":\"cli\",\"route\":\"\\/user\\/active?t=imgtext\",\"type\":\"link\",\"hl_action\":\"\",\"qr_type_id\":\"0\",\"icon_position\":\"\",\"icon_class\":\"\",\"rename_flag\":0,\"sort\":1012000,\"deploy\":0,\"link\":\"\\/\\/cliim.net\\/user\\/active?t=imgtext\"},{\"id\":\"1013000\",\"pid\":\"1000500\",\"name\":\"\\u6587\\u4ef6\\u7801\",\"sys\":\"cli\",\"route\":\"\\/user\\/active?t=file\",\"type\":\"link\",\"hl_action\":\"\",\"qr_type_id\":\"0\",\"icon_position\":\"\",\"icon_class\":\"\",\"rename_flag\":0,\"sort\":1013000,\"deploy\":0,\"link\":\"\\/\\/cliim.net\\/user\\/active?t=file\"},{\"id\":\"1014000\",\"pid\":\"1000500\",\"name\":\"\\u5546\\u54c1\\u7801\",\"sys\":\"cli\",\"route\":\"\\/user\\/active\\/pro\",\"type\":\"link\",\"hl_action\":\"\",\"qr_type_id\":\"0\",\"icon_position\":\"\",\"icon_class\":\"\",\"rename_flag\":0,\"sort\":1014000,\"deploy\":0,\"link\":\"\\/\\/cliim.net\\/user\\/active\\/pro\"},{\"id\":\"1015000\",\"pid\":\"1000500\",\"name\":\"\\u540d\\u7247\\u7801\",\"sys\":\"biz\",\"route\":\"\\/vcard\",\"type\":\"link\",\"hl_action\":\"\",\"qr_type_id\":\"0\",\"icon_position\":\"\",\"icon_class\":\"\",\"rename_flag\":0,\"sort\":1015000,\"deploy\":0,\"link\":\"\\/\\/biz.cliim.net\\/vcard\"},{\"id\":\"1016000\",\"pid\":\"1000500\",\"name\":\"\\u8bb0\\u5f55\\u7801\",\"sys\":\"biz\",\"route\":\"\\/Rec\\/reclist\",\"type\":\"link\",\"hl_action\":\"\",\"qr_type_id\":\"0\",\"icon_position\":\"\",\"icon_class\":\"\",\"rename_flag\":0,\"sort\":1016000,\"deploy\":0,\"link\":\"\\/\\/biz.cliim.net\\/Rec\\/reclist\"},{\"id\":\"1017000\",\"pid\":\"1000500\",\"name\":\"\\u6eaf\\u6e90\\u7801\",\"sys\":\"cli\",\"route\":\"\\/user\\/origin\\/category\",\"type\":\"link\",\"hl_action\":\"\",\"qr_type_id\":\"0\",\"icon_position\":\"\",\"icon_class\":\"\",\"rename_flag\":0,\"sort\":1017000,\"deploy\":0,\"link\":\"\\/\\/cliim.net\\/user\\/origin\\/category\"},{\"id\":\"1018000\",\"pid\":\"1000500\",\"name\":\"\\u4f01\\u4e1a\\u7801\",\"sys\":\"biz\",\"route\":\"\\/index\",\"type\":\"link\",\"hl_action\":\"\",\"qr_type_id\":\"0\",\"icon_position\":\"\",\"icon_class\":\"\",\"rename_flag\":0,\"sort\":1018000,\"deploy\":0,\"link\":\"\\/\\/biz.cliim.net\\/index\"}],\"deploy\":0}}",
+          "user_config_json": "{\"logo\":{\"path\":\"http:\\/\\/static.clewm.net\\/cli\\/images\\/user_plugin_logo_new.png\",\"link\":\"http:\\/\\/user.cli.im\\/center\",\"text\":\"\\u6982\\u51b5\"},\"top_nav\":{\"left\":{\"domain_title\":\"\\u540e\\u53f0\\u7ba1\\u7406\\u7cfb\\u7edf\",\"second_title\":\"\",\"edition_id\":\"44\",\"is_test\":\"10\",\"is_test_remaind_days\":-40,\"edition_name\":\"\\u884c\\u4e1a\\u4e13\\u5c5e\\u7248\",\"is_pro_duetime\":\"1719590400\"},\"right\":[{\"text\":\"\\u8349\\u6599\\u9996\\u9875\",\"link\":\"http:\\/\\/cli.im\",\"icon\":\"\",\"type\":\"link\"}]},\"contact\":[{\"text\":\"\\u8349\\u6599\\u4e13\\u5c5e\\u5ba2\\u670d\",\"link\":\"tencent:\\/\\/message\\/?Menu=yes&amp;uin=938077901&amp;Service=58&amp;SigT=A7F6FEA02730C98828AB9BF289FA5C12072911C22C98D3E1673A17036567228615FCD8D03D37B542CE69297458611A0B0B630C32F6B1FE8AF9B2ECA3BB9A60B1C5D1EC01456A28A1A9F0DDD3C5F28E6B110FE3C61B28FE07C44546B1722E9F7C43A8C2CB0FF7F5403973171F57B37558D93DD03457C428FA&amp;SigU=30E5D5233A443AB260B4789F659A712D65C7786EE2310A18FAC45287AA46E87D81DB384E6C88E08E09D767C04C4F9012A66C734B953EA7BFC99C70381321DCF3CDC28B294936AA0B\",\"type\":\"button_qq\",\"helpline\":\"400-002-0232\"},{\"text\":\"\\u54a8\\u8be2\\u70ed\\u7ebf: 4000020232\",\"link\":\"\",\"type\":\"text\"},{\"text\":\"\\u6536\\u8d39\\u4ea7\\u54c1\\u54a8\\u8be2\\u90ae\\u7bb1: zixun@nears.cn\",\"link\":\"mailto:zixun@nears.cn\",\"type\":\"link\"},{\"text\":\"\\u6295\\u8bc9\\u5efa\\u8bae\\u90ae\\u7bb1\\uff1atousu@nears.cn\",\"link\":\"mailto:tousu@nears.cn\",\"type\":\"link\"}]}"
+        },
+        "org_info": {
+          "org_id": 94911424,
+          "memo": "",
+          "org_name": "开启后1111",
+          "org_code": "oQL9HR",
+          "logo_path": "https://ncstatic.clewm.net/rsrc/2024/0523/15/7c08ab6a833cfb8b06dd5264bcfb3388.png",
+          "is_auth": 1,
+          "private_xcx_status": 0,
+          "edition_limit": {
+            "idcode": 170,
+            "batch_qrcode_num": 20000,
+            "batch_qrcode_excel": 20000,
+            "record_watermark": 1,
+            "project_count": -1
+          },
+          "route_type_map": [
+            {
+              "value": 1,
+              "text": "普通路由"
+            },
+            {
+              "value": 4,
+              "text": "专属小程序"
+            },
+            {
+              "value": 3,
+              "text": "中性路由",
+              "is_selected": 1
+            },
+            {
+              "value": 2,
+              "text": "h5路由"
+            }
+          ],
+          "socket_id": "kjbp9ha0030mc3k6nep45nq7r1",
+          "select_project_id": 85,
+          "user_id": "831891",
+          "record_newversion": false,
+          "created_record_tpl": true,
+          "probation_info": [],
+          "created_master_qrcode": true,
+          "created_batchstatic_master_qrcode": false,
+          "created_state": true,
+          "created_task": false,
+          "register_time": 1716258356,
+          "is_new_account_uncompleted_company": 1,
+          "user_set": {
+            "show_collect": 1,
+            "show_manage": 1,
+            "show_font_size": 2,
+            "show_share": 0,
+            "show_homepage": 1,
+            "show_bottom_homepage": 0,
+            "show_powered_by": 1,
+            "share_style": 0
+          }
+        },
+        "probation_info": {
+          "is_test": 0,
+          "due_day": 0,
+          "start_time": 0,
+          "end_time": 0,
+          "demo_show_guide": "0",
+          "user_id": "831891"
+        },
+        "industry_id": "23",
+        "lab_list": {
+          "1": {
+            "id": 1,
+            "fun_name": "记录功能",
+            "fun_tag": "",
+            "fun_desc": "新版活码支持记录功能了，比老版记录码增加了目录管理、记录导出、权限设置等功能。",
+            "fun_img": "http://ncstatic.clewm.net/img/lab_record_v1.png",
+            "sort": 0,
+            "console_show": 0,
+            "add_time": 0,
+            "is_initialized": false,
+            "is_joined": false
+          },
+          "2": {
+            "id": 2,
+            "fun_name": "生码功能",
+            "fun_tag": "qr_create_quick",
+            "fun_desc": "首页静态码快速生码",
+            "fun_img": "",
+            "sort": 4,
+            "console_show": 0,
+            "add_time": 0,
+            "is_initialized": false,
+            "is_joined": false
+          },
+          "3": {
+            "id": 3,
+            "fun_name": "最近更新 新样式",
+            "fun_tag": "new_release_qr",
+            "fun_desc": "页面更简洁，直观查看扫描量与记录信息",
+            "fun_img": "http://blogcdnimg.clewm.net/2019/10/lablist@2x.png",
+            "sort": 0,
+            "console_show": 0,
+            "add_time": 0,
+            "is_initialized": false,
+            "is_joined": false
+          },
+          "4": {
+            "id": 4,
+            "fun_name": "目录管理功能",
+            "fun_tag": "cata_summary",
+            "fun_desc": "目录汇总码",
+            "fun_img": "",
+            "sort": 0,
+            "console_show": 0,
+            "add_time": 0,
+            "is_initialized": false,
+            "is_joined": true
+          },
+          "5": {
+            "id": 5,
+            "fun_name": "二维码模板",
+            "fun_tag": "qr_template",
+            "fun_desc": "我的模板",
+            "fun_img": "",
+            "sort": 0,
+            "console_show": 0,
+            "add_time": 0,
+            "is_initialized": false,
+            "is_joined": false
+          },
+          "6": {
+            "id": 6,
+            "fun_name": "API",
+            "fun_tag": "record_webhook",
+            "fun_desc": "数据推送API",
+            "fun_img": "",
+            "sort": 0,
+            "console_show": 0,
+            "add_time": 0,
+            "is_initialized": false,
+            "is_joined": false
+          },
+          "7": {
+            "id": 7,
+            "fun_name": "记录可信存证",
+            "fun_tag": "record_notary",
+            "fun_desc": "记录可信存证",
+            "fun_img": "",
+            "sort": 0,
+            "console_show": 0,
+            "add_time": 0,
+            "is_initialized": false,
+            "is_joined": false
+          },
+          "8": {
+            "id": 8,
+            "fun_name": "旧版活码菜单显示",
+            "fun_tag": "old_qr_menu",
+            "fun_desc": "旧版活码菜单显示",
+            "fun_img": "",
+            "sort": 1,
+            "console_show": 1,
+            "add_time": 0,
+            "is_initialized": true,
+            "is_joined": false
+          },
+          "9": {
+            "id": 9,
+            "fun_name": "小程序参数码",
+            "fun_tag": "mina",
+            "fun_desc": "小程序参数码",
+            "fun_img": "",
+            "sort": 0,
+            "console_show": 0,
+            "add_time": 0,
+            "is_initialized": false,
+            "is_joined": false
+          },
+          "10": {
+            "id": 10,
+            "fun_name": "名片活码",
+            "fun_tag": "idcode",
+            "fun_desc": "名片活码菜单显示",
+            "fun_img": "",
+            "sort": 2,
+            "console_show": 1,
+            "add_time": 0,
+            "is_initialized": true,
+            "is_joined": true
+          },
+          "11": {
+            "id": 11,
+            "fun_name": "批量模板",
+            "fun_tag": "spread",
+            "fun_desc": "在线表格批量管理功能",
+            "fun_img": "",
+            "sort": 0,
+            "console_show": 0,
+            "add_time": 0,
+            "is_initialized": false,
+            "is_joined": true
+          },
+          "12": {
+            "id": 12,
+            "fun_name": "空模块",
+            "fun_tag": "kong_module",
+            "fun_desc": "空模块功能",
+            "fun_img": "",
+            "sort": 3,
+            "console_show": 1,
+            "add_time": 0,
+            "is_initialized": true,
+            "is_joined": true
+          },
+          "13": {
+            "id": 13,
+            "fun_name": "记录闭环",
+            "fun_tag": "record_review",
+            "fun_desc": "记录新增备注和处理状态",
+            "fun_img": "",
+            "sort": 5,
+            "console_show": 0,
+            "add_time": 0,
+            "is_initialized": false,
+            "is_joined": false
+          },
+          "14": {
+            "id": 14,
+            "fun_name": "企业卡片",
+            "fun_tag": "org_card",
+            "fun_desc": "企业卡片（勿删）",
+            "fun_img": "",
+            "sort": 0,
+            "console_show": 0,
+            "add_time": 0,
+            "is_initialized": false,
+            "is_joined": false
+          },
+          "15": {
+            "id": 15,
+            "fun_name": "简单记录功能",
+            "fun_tag": "record_active",
+            "fun_desc": "不需要关联表单就能在码上添加文字或图片",
+            "fun_img": "",
+            "sort": 6,
+            "console_show": 0,
+            "add_time": 0,
+            "is_initialized": false,
+            "is_joined": false
+          },
+          "16": {
+            "id": 16,
+            "fun_name": "AI样式功能",
+            "fun_tag": "ai_qrcode",
+            "fun_desc": "AI样式功能",
+            "fun_img": " ",
+            "sort": 7,
+            "console_show": 1,
+            "add_time": 0,
+            "is_initialized": true,
+            "is_joined": true
+          }
+        },
+        "record_info": {
+          "record_category_code_limit_count": 501,
+          "record_export_limit_days": 180,
+          "record_export_limit_date": "2024年02月10日",
+          "record_export_date_limit_tip": "当前版本限导出 近180天（2024年02月10日之后）数据"
+        },
+        "_user_config_json": {
+          "logo": {
+            "path": "http://static.clewm.net/cli/images/user_plugin_logo_new.png",
+            "link": "http://user.cli.im/center",
+            "text": "概况"
+          },
+          "top_nav": {
+            "left": {
+              "domain_title": "后台管理系统",
+              "second_title": "",
+              "edition_id": "44",
+              "is_test": "10",
+              "is_test_remaind_days": -40,
+              "edition_name": "行业专属版",
+              "is_pro_duetime": "1719590400"
+            },
+            "right": [
+              {
+                "text": "草料首页",
+                "link": "http://cli.im",
+                "icon": "",
+                "type": "link"
+              }
+            ]
+          },
+          "contact": [
+            {
+              "text": "草料专属客服",
+              "link": "tencent://message/?Menu=yes&amp;uin=938077901&amp;Service=58&amp;SigT=A7F6FEA02730C98828AB9BF289FA5C12072911C22C98D3E1673A17036567228615FCD8D03D37B542CE69297458611A0B0B630C32F6B1FE8AF9B2ECA3BB9A60B1C5D1EC01456A28A1A9F0DDD3C5F28E6B110FE3C61B28FE07C44546B1722E9F7C43A8C2CB0FF7F5403973171F57B37558D93DD03457C428FA&amp;SigU=30E5D5233A443AB260B4789F659A712D65C7786EE2310A18FAC45287AA46E87D81DB384E6C88E08E09D767C04C4F9012A66C734B953EA7BFC99C70381321DCF3CDC28B294936AA0B",
+              "type": "button_qq",
+              "helpline": "400-002-0232"
+            },
+            {
+              "text": "咨询热线: 4000020232",
+              "link": "",
+              "type": "text"
+            },
+            {
+              "text": "收费产品咨询邮箱: zixun@nears.cn",
+              "link": "mailto:zixun@nears.cn",
+              "type": "link"
+            },
+            {
+              "text": "投诉建议邮箱：tousu@nears.cn",
+              "link": "mailto:tousu@nears.cn",
+              "type": "link"
+            }
+          ]
+        },
+        "_user_logo_json": {
+          "path": "https://ncstatic.clewm.net/rsrc/2024/0523/15/7c08ab6a833cfb8b06dd5264bcfb3388.png",
+          "link": "//cli.im",
+          "text": "草料首页",
+          "rename_flag": 0,
+          "checkbox": 1,
+          "logo_custom": 2
+        },
+        "_user_route_json": {
+          "s1000100": {
+            "id": "1000100",
+            "pid": "0",
+            "name": "工作台",
+            "sys": "user",
+            "route": "/center",
+            "type": "link",
+            "hl_action": "",
+            "qr_type_id": "0",
+            "icon_position": "0px",
+            "icon_class": "cli-last",
+            "rename_flag": 0,
+            "sort": 1,
+            "deploy": 0,
+            "link": "//console.cliim.net/center"
+          },
+          "s1000200": {
+            "id": "1000200",
+            "pid": "0",
+            "name": "二维码",
+            "sys": "",
+            "route": "",
+            "type": "guide",
+            "hl_action": "",
+            "qr_type_id": "0",
+            "icon_position": "",
+            "icon_class": "cli-new-qrcode",
+            "rename_flag": 0,
+            "sort": 2,
+            "cata": {
+              "0": {
+                "id": "1001000",
+                "pid": "1000200",
+                "name": "活码",
+                "sys": "console",
+                "route": "/active/activecode",
+                "type": "link",
+                "hl_action": "",
+                "qr_type_id": "0",
+                "icon_position": "",
+                "icon_class": "",
+                "rename_flag": 0,
+                "sort": 1,
+                "deploy": 0,
+                "link": "//console.cliim.net/active/activecode"
+              },
+              "2": {
+                "id": "1001250",
+                "pid": "1000200",
+                "name": "静态码",
+                "sys": "console",
+                "route": "/static/staticcode",
+                "type": "link",
+                "hl_action": "",
+                "qr_type_id": "0",
+                "icon_position": "",
+                "icon_class": "",
+                "rename_flag": 0,
+                "sort": 3,
+                "deploy": 0,
+                "link": "//console.cliim.net/static/staticcode"
+              },
+              "3": {
+                "id": "1002000",
+                "pid": "1000200",
+                "name": "旧版批量活码",
+                "sys": "console",
+                "route": "/batch/batchcode",
+                "type": "link",
+                "hl_action": "",
+                "qr_type_id": "0",
+                "icon_position": "",
+                "icon_class": "",
+                "rename_flag": 0,
+                "sort": 4,
+                "deploy": 0,
+                "link": "//console.cliim.net/batch/batchcode"
+              },
+              "4": {
+                "id": "1004000",
+                "pid": "1000200",
+                "name": "名片活码",
+                "sys": "console",
+                "route": "/company/card",
+                "type": "link",
+                "hl_action": "",
+                "qr_type_id": "0",
+                "icon_position": "",
+                "icon_class": "",
+                "rename_flag": 0,
+                "sort": 5,
+                "deploy": 0,
+                "link": "//console.cliim.net/company/card"
+              }
+            },
+            "deploy": 0
+          },
+          "s1000225": {
+            "id": "1000225",
+            "pid": "0",
+            "name": "我的模板",
+            "sys": "",
+            "route": "",
+            "type": "guide",
+            "hl_action": "",
+            "qr_type_id": "0",
+            "icon_position": "",
+            "icon_class": "cli-piliangmuban",
+            "rename_flag": 0,
+            "sort": 3,
+            "cata": [
+              {
+                "id": "1001500",
+                "pid": "1000225",
+                "name": "批量活码模板",
+                "sys": "console",
+                "route": "/template/management",
+                "type": "link",
+                "hl_action": "",
+                "qr_type_id": "0",
+                "icon_position": "",
+                "icon_class": "",
+                "rename_flag": 0,
+                "sort": 1,
+                "deploy": 0,
+                "link": "//console.cliim.net/template/management"
+              },
+              {
+                "id": "1001750",
+                "pid": "1000225",
+                "name": "标签样式",
+                "sys": "console",
+                "route": "/static/management",
+                "type": "link",
+                "hl_action": "",
+                "qr_type_id": "0",
+                "icon_position": "",
+                "icon_class": "",
+                "rename_flag": 0,
+                "sort": 2,
+                "deploy": 0,
+                "link": "//console.cliim.net/static/management"
+              },
+              {
+                "id": "1040000",
+                "pid": "1000225",
+                "name": "小程序码模板",
+                "sys": "console",
+                "route": "/mina",
+                "type": "link",
+                "hl_action": "",
+                "qr_type_id": "0",
+                "icon_position": "",
+                "icon_class": "",
+                "rename_flag": 0,
+                "sort": 3,
+                "deploy": 0,
+                "link": "//console.cliim.net/mina"
+              },
+              {
+                "id": "1056001",
+                "pid": "1000225",
+                "name": "旧版二维码样式",
+                "sys": "console",
+                "route": "/mybeautify",
+                "type": "link",
+                "hl_action": "",
+                "qr_type_id": "0",
+                "icon_position": "",
+                "icon_class": "",
+                "rename_flag": 0,
+                "sort": 1056001,
+                "deploy": 0,
+                "link": "//console.cliim.net/mybeautify"
+              }
+            ],
+            "deploy": 0
+          },
+          "s1000350": {
+            "id": "1000350",
+            "pid": "0",
+            "name": "数据管理",
+            "sys": "",
+            "route": "",
+            "type": "guide",
+            "hl_action": "",
+            "qr_type_id": "0",
+            "icon_position": "",
+            "icon_class": "cli-data",
+            "rename_flag": 0,
+            "sort": 4,
+            "cata": [
+              {
+                "id": "1034000",
+                "pid": "1000350",
+                "name": "动态数据汇总",
+                "sys": "console",
+                "route": "/record/summary",
+                "type": "link",
+                "hl_action": "",
+                "qr_type_id": "0",
+                "icon_position": "",
+                "icon_class": "",
+                "rename_flag": 0,
+                "sort": 1,
+                "deploy": 0,
+                "link": "//console.cliim.net/record/summary"
+              },
+              {
+                "id": "1035010",
+                "pid": "1000350",
+                "name": "表单数据",
+                "sys": "console",
+                "route": "/record/tpl",
+                "type": "link",
+                "hl_action": "",
+                "qr_type_id": "0",
+                "icon_position": "",
+                "icon_class": "",
+                "rename_flag": 0,
+                "sort": 2,
+                "deploy": 0,
+                "link": "//console.cliim.net/record/tpl"
+              },
+              {
+                "id": "1035020",
+                "pid": "1000350",
+                "name": "状态数据",
+                "sys": "console",
+                "route": "/status/by_status",
+                "type": "link",
+                "hl_action": "",
+                "qr_type_id": "0",
+                "icon_position": "",
+                "icon_class": "",
+                "rename_flag": 0,
+                "sort": 3,
+                "deploy": 0,
+                "link": "//console.cliim.net/status/by_status"
+              },
+              {
+                "id": "1033000",
+                "pid": "1000350",
+                "name": "填表人列表",
+                "sys": "console",
+                "route": "/record/user_list",
+                "type": "link",
+                "hl_action": "",
+                "qr_type_id": "0",
+                "icon_position": "",
+                "icon_class": "",
+                "rename_flag": 0,
+                "sort": 4,
+                "deploy": 0,
+                "link": "//console.cliim.net/record/user_list"
+              },
+              {
+                "id": "1035000",
+                "pid": "1000350",
+                "name": "数据审核",
+                "sys": "console",
+                "route": "/record/audit_list",
+                "type": "link",
+                "hl_action": "",
+                "qr_type_id": "0",
+                "icon_position": "",
+                "icon_class": "",
+                "rename_flag": 0,
+                "sort": 5,
+                "deploy": 0,
+                "link": "//console.cliim.net/record/audit_list"
+              },
+              {
+                "id": "1004500",
+                "pid": "1000350",
+                "name": "扫描量统计",
+                "sys": "console",
+                "route": "/analysis/scan",
+                "type": "link",
+                "hl_action": "",
+                "qr_type_id": "0",
+                "icon_position": "",
+                "icon_class": "",
+                "rename_flag": 0,
+                "sort": 6,
+                "deploy": 0,
+                "link": "//console.cliim.net/analysis/scan"
+              },
+              {
+                "id": "1004600",
+                "pid": "1000350",
+                "name": "收藏量统计",
+                "sys": "console",
+                "route": "/analysis/collect",
+                "type": "link",
+                "hl_action": "",
+                "qr_type_id": "0",
+                "icon_position": "",
+                "icon_class": "",
+                "rename_flag": 0,
+                "sort": 7,
+                "deploy": 0,
+                "link": "//console.cliim.net/analysis/collect"
+              }
+            ],
+            "deploy": 0
+          },
+          "s1000275": {
+            "id": "1000275",
+            "pid": "0",
+            "name": "高级功能",
+            "sys": "",
+            "route": "",
+            "type": "guide",
+            "hl_action": "",
+            "qr_type_id": "0",
+            "icon_position": "",
+            "icon_class": "cli-gaojigongneng",
+            "rename_flag": 0,
+            "sort": 5,
+            "cata": [
+              {
+                "id": "1032000",
+                "pid": "1000275",
+                "name": "表单列表",
+                "sys": "console",
+                "route": "/record/template",
+                "type": "link",
+                "hl_action": "",
+                "qr_type_id": "0",
+                "icon_position": "",
+                "icon_class": "",
+                "rename_flag": 0,
+                "sort": 1,
+                "deploy": 0,
+                "link": "//console.cliim.net/record/template"
+              },
+              {
+                "id": "1008500",
+                "pid": "1000275",
+                "name": "状态列表",
+                "sys": "console",
+                "route": "/status",
+                "type": "link",
+                "hl_action": "",
+                "qr_type_id": "0",
+                "icon_position": "",
+                "icon_class": "",
+                "rename_flag": 0,
+                "sort": 2,
+                "deploy": 0,
+                "link": "//console.cliim.net/status"
+              },
+              {
+                "id": "1008600",
+                "pid": "1000275",
+                "name": "计划管理",
+                "sys": "console",
+                "route": "/plantask",
+                "type": "link",
+                "hl_action": "",
+                "qr_type_id": "0",
+                "icon_position": "",
+                "icon_class": "",
+                "rename_flag": 0,
+                "sort": 3,
+                "deploy": 0,
+                "link": "//console.cliim.net/plantask"
+              },
+              {
+                "id": "1008550",
+                "pid": "1000275",
+                "name": "分组管理",
+                "sys": "console",
+                "route": "/group",
+                "type": "link",
+                "hl_action": "",
+                "qr_type_id": "0",
+                "icon_position": "",
+                "icon_class": "",
+                "rename_flag": 0,
+                "sort": 4,
+                "deploy": 0,
+                "link": "//console.cliim.net/group"
+              },
+              {
+                "id": "1006000",
+                "pid": "1000275",
+                "name": "首页",
+                "sys": "console",
+                "route": "/homepage",
+                "type": "link",
+                "hl_action": "",
+                "qr_type_id": "0",
+                "icon_position": "",
+                "icon_class": "",
+                "rename_flag": 0,
+                "sort": 5,
+                "deploy": 0,
+                "link": "//console.cliim.net/homepage"
+              },
+              {
+                "id": "1008750",
+                "pid": "1000275",
+                "name": "数据API",
+                "sys": "user",
+                "route": "/opendata",
+                "type": "link",
+                "hl_action": "",
+                "qr_type_id": "0",
+                "icon_position": "",
+                "icon_class": "",
+                "rename_flag": 0,
+                "sort": 6,
+                "deploy": 0,
+                "link": "//user.cliim.net/opendata"
+              },
+              {
+                "id": "1008751",
+                "pid": "1000275",
+                "name": "下载导出列表",
+                "sys": "console",
+                "route": "/downloadExportLists",
+                "type": "link",
+                "hl_action": "",
+                "qr_type_id": "0",
+                "icon_position": "",
+                "icon_class": "",
+                "rename_flag": 0,
+                "sort": 7,
+                "deploy": 0,
+                "link": "//console.cliim.net/downloadExportLists"
+              }
+            ],
+            "deploy": 0
+          },
+          "s1000450": {
+            "id": "1000450",
+            "pid": "0",
+            "name": "成员管理",
+            "sys": "",
+            "route": "",
+            "type": "guide",
+            "hl_action": "member",
+            "qr_type_id": "0",
+            "icon_position": "-72px",
+            "icon_class": "cli-chengyuanguanli",
+            "rename_flag": 0,
+            "sort": 6,
+            "cata": [
+              {
+                "id": "1056000",
+                "pid": "1000450",
+                "name": "身份组管理",
+                "sys": "console",
+                "route": "/company/memberRule?type=identity",
+                "type": "link",
+                "hl_action": "",
+                "qr_type_id": "0",
+                "icon_position": "",
+                "icon_class": "",
+                "rename_flag": 0,
+                "sort": 1,
+                "deploy": 0,
+                "link": "//console.cliim.net/company/memberRule?type=identity"
+              },
+              {
+                "id": "1055000",
+                "pid": "1000450",
+                "name": "组织架构",
+                "sys": "console",
+                "route": "/company/memberRule?type=department",
+                "type": "link",
+                "hl_action": "",
+                "qr_type_id": "0",
+                "icon_position": "",
+                "icon_class": "",
+                "rename_flag": 0,
+                "sort": 2,
+                "deploy": 0,
+                "link": "//console.cliim.net/company/memberRule?type=department"
+              }
+            ],
+            "deploy": 0
+          },
+          "s1000400": {
+            "id": "1000400",
+            "pid": "0",
+            "name": "设置",
+            "sys": "",
+            "route": "",
+            "type": "guide",
+            "hl_action": "settings",
+            "qr_type_id": "0",
+            "icon_position": "-72px",
+            "icon_class": "cli-new-set",
+            "rename_flag": 0,
+            "sort": 7,
+            "cata": [
+              {
+                "id": "1010000",
+                "pid": "1000400",
+                "name": "账号信息",
+                "sys": "console",
+                "route": "/userinfo",
+                "type": "link",
+                "hl_action": "",
+                "qr_type_id": "0",
+                "icon_position": "",
+                "icon_class": "",
+                "rename_flag": 0,
+                "sort": 1,
+                "deploy": 0,
+                "link": "//console.cliim.net/userinfo"
+              },
+              {
+                "id": "1045000",
+                "pid": "1000400",
+                "name": "订阅设置",
+                "sys": "user",
+                "route": "/center/subscriptions",
+                "type": "link",
+                "hl_action": "",
+                "qr_type_id": "0",
+                "icon_position": "",
+                "icon_class": "",
+                "rename_flag": 0,
+                "sort": 4,
+                "deploy": 0,
+                "link": "//user.cliim.net/center/subscriptions"
+              },
+              {
+                "id": "1008050",
+                "pid": "1000400",
+                "name": "操作日志",
+                "sys": "console",
+                "route": "/record/log",
+                "type": "link",
+                "hl_action": "",
+                "qr_type_id": "0",
+                "icon_position": "",
+                "icon_class": "",
+                "rename_flag": 0,
+                "sort": 6,
+                "deploy": 0,
+                "link": "//console.cliim.net/record/log"
+              },
+              {
+                "id": "1041000",
+                "pid": "1000400",
+                "name": "删码恢复工具",
+                "sys": "console",
+                "route": "/tools/restore",
+                "type": "link",
+                "hl_action": "",
+                "qr_type_id": "0",
+                "icon_position": "",
+                "icon_class": "",
+                "rename_flag": 0,
+                "sort": 7,
+                "deploy": 0,
+                "link": "//console.cliim.net/tools/restore"
+              },
+              {
+                "id": "1010500",
+                "pid": "1000400",
+                "name": "实验室",
+                "sys": "user",
+                "route": "/center/lab",
+                "type": "link",
+                "hl_action": "",
+                "qr_type_id": "0",
+                "icon_position": "",
+                "icon_class": "",
+                "rename_flag": 0,
+                "sort": 8,
+                "deploy": 0,
+                "link": "//user.cliim.net/center/lab"
+              }
+            ],
+            "deploy": 0
+          },
+          "s1000500": {
+            "id": "1000500",
+            "pid": "0",
+            "name": "旧版活码",
+            "sys": "",
+            "route": "",
+            "type": "guide",
+            "hl_action": "",
+            "qr_type_id": "1",
+            "icon_position": "-72px",
+            "icon_class": "cli-old-qrcode",
+            "rename_flag": 0,
+            "sort": 1000500,
+            "cata": [
+              {
+                "id": "1011000",
+                "pid": "1000500",
+                "name": "文本码",
+                "sys": "cli",
+                "route": "/user/active?t=text",
+                "type": "link",
+                "hl_action": "",
+                "qr_type_id": "0",
+                "icon_position": "",
+                "icon_class": "",
+                "rename_flag": 0,
+                "sort": 1011000,
+                "deploy": 0,
+                "link": "//cliim.net/user/active?t=text"
+              },
+              {
+                "id": "1012000",
+                "pid": "1000500",
+                "name": "图文码",
+                "sys": "cli",
+                "route": "/user/active?t=imgtext",
+                "type": "link",
+                "hl_action": "",
+                "qr_type_id": "0",
+                "icon_position": "",
+                "icon_class": "",
+                "rename_flag": 0,
+                "sort": 1012000,
+                "deploy": 0,
+                "link": "//cliim.net/user/active?t=imgtext"
+              },
+              {
+                "id": "1013000",
+                "pid": "1000500",
+                "name": "文件码",
+                "sys": "cli",
+                "route": "/user/active?t=file",
+                "type": "link",
+                "hl_action": "",
+                "qr_type_id": "0",
+                "icon_position": "",
+                "icon_class": "",
+                "rename_flag": 0,
+                "sort": 1013000,
+                "deploy": 0,
+                "link": "//cliim.net/user/active?t=file"
+              },
+              {
+                "id": "1014000",
+                "pid": "1000500",
+                "name": "商品码",
+                "sys": "cli",
+                "route": "/user/active/pro",
+                "type": "link",
+                "hl_action": "",
+                "qr_type_id": "0",
+                "icon_position": "",
+                "icon_class": "",
+                "rename_flag": 0,
+                "sort": 1014000,
+                "deploy": 0,
+                "link": "//cliim.net/user/active/pro"
+              },
+              {
+                "id": "1015000",
+                "pid": "1000500",
+                "name": "名片码",
+                "sys": "biz",
+                "route": "/vcard",
+                "type": "link",
+                "hl_action": "",
+                "qr_type_id": "0",
+                "icon_position": "",
+                "icon_class": "",
+                "rename_flag": 0,
+                "sort": 1015000,
+                "deploy": 0,
+                "link": "//biz.cliim.net/vcard"
+              },
+              {
+                "id": "1016000",
+                "pid": "1000500",
+                "name": "记录码",
+                "sys": "biz",
+                "route": "/Rec/reclist",
+                "type": "link",
+                "hl_action": "",
+                "qr_type_id": "0",
+                "icon_position": "",
+                "icon_class": "",
+                "rename_flag": 0,
+                "sort": 1016000,
+                "deploy": 0,
+                "link": "//biz.cliim.net/Rec/reclist"
+              },
+              {
+                "id": "1017000",
+                "pid": "1000500",
+                "name": "溯源码",
+                "sys": "cli",
+                "route": "/user/origin/category",
+                "type": "link",
+                "hl_action": "",
+                "qr_type_id": "0",
+                "icon_position": "",
+                "icon_class": "",
+                "rename_flag": 0,
+                "sort": 1017000,
+                "deploy": 0,
+                "link": "//cliim.net/user/origin/category"
+              },
+              {
+                "id": "1018000",
+                "pid": "1000500",
+                "name": "企业码",
+                "sys": "biz",
+                "route": "/index",
+                "type": "link",
+                "hl_action": "",
+                "qr_type_id": "0",
+                "icon_position": "",
+                "icon_class": "",
+                "rename_flag": 0,
+                "sort": 1018000,
+                "deploy": 0,
+                "link": "//biz.cliim.net/index"
+              }
+            ],
+            "deploy": 0
+          }
+        }
+      },
+      "url": "",
+      "wait": 3
+    },
+    "hasOldCode": false,
+    "userPagePerMissionList": null,
+    "abtpData": null,
+    "isAccountLowQuality": false,
+    "labList": [],
+    "subAccount": {},
+    "accountList": [
+      {
+        "user_id": 831891,
+        "mobile": "18336175747",
+        "email": "",
+        "edition_id": 44,
+        "is_stop": 0,
+        "register_time": "2024-05-21 10:25:56",
+        "user_name": "admin",
+        "user_org_name": "开启后1111",
+        "is_block": false,
+        "auth_type": 1,
+        "logo_path": "https://ncstatic.clewm.net/rsrc/2024/0523/15/7c08ab6a833cfb8b06dd5264bcfb3388.png",
+        "disable_login": 0,
+        "sort": 1,
+        "manger_info": {
+          "name": "admin",
+          "edition_id": 44,
+          "mobile": "18336175747",
+          "email": ""
+        },
+        "member_info": {
+          "name": "admin",
+          "edition_id": 44,
+          "mobile": "18336175747",
+          "email": ""
+        },
+        "project_name": "",
+        "group_id": 0,
+        "org_msg": {
+          "id": 94911424,
+          "user_id": 831891,
+          "name": "开启后1111",
+          "coding": "oQL9HR",
+          "org_dest_qrcode": 0,
+          "status": 0,
+          "is_auth": 1,
+          "show_dest_qrcode": 0,
+          "logo_path": "https://ncstatic.clewm.net/rsrc/2024/0523/15/7c08ab6a833cfb8b06dd5264bcfb3388.png",
+          "memo": "",
+          "auth_type": 0,
+          "auth_used": "",
+          "auth_message": "",
+          "auth_request_time": 0,
+          "auth_file_prove": "",
+          "auth_file_other": "",
+          "open_id": "",
+          "auth_deal_time": 0,
+          "auth_status": 1,
+          "social_code": "",
+          "target_record_id": 0,
+          "route_type": 3,
+          "private_xcx_status": 0,
+          "custom_route_type": 1,
+          "subscribe_wxacode": "",
+          "project_count": 3,
+          "set_default_project": 0
+        },
+        "is_login": true,
+        "is_owner": true,
+        "login_type": "sub_admin",
+        "is_wxwork_member": 0,
+        "wxwork_open_userid": "",
+        "wxwork_userid": "",
+        "wxwork_deptid": "",
+        "wxwork_corpid": "",
+        "auth_status": 0,
+        "jump_page": "/project-management?from=login",
+        "is_probation_expires": 0
+      },
+      {
+        "user_id": 803880,
+        "mobile": "18367819207",
+        "email": "",
+        "edition_id": 4,
+        "is_stop": 0,
+        "register_time": "2019-03-14 15:25:06",
+        "user_name": "18336175747",
+        "user_org_name": "宁波邻家网络科技有限公司",
+        "is_block": false,
+        "auth_type": 3,
+        "logo_path": "https://ncstatic.clewm.net/rsrc/2022/0402/01/b32617a63736b51b2ab179218f136da3.png",
+        "disable_login": 0,
+        "sort": 4,
+        "manger_info": {
+          "name": "小傅123",
+          "edition_id": 4,
+          "mobile": "18367819207",
+          "email": ""
+        },
+        "member_info": {
+          "name": "18336175747",
+          "edition_id": 44,
+          "mobile": "18336175747",
+          "email": ""
+        },
+        "project_name": "",
+        "group_id": 0,
+        "org_msg": {
+          "id": 94884311,
+          "name": "宁波邻家网络科技有限公司",
+          "coding": "o4EGLO",
+          "user_id": 803880,
+          "logo_path": "https://ncstatic.clewm.net/rsrc/2022/0402/01/b32617a63736b51b2ab179218f136da3.png",
+          "build_module_weburl_time": 1723087458,
+          "build_module_weburl_publickey": "3b43176acad9a8089c4dbef8293d345e",
+          "for_external_name": "宁波邻家网络科技有限公司",
+          "project_count": 13,
+          "set_default_project": 0
+        },
+        "is_login": false,
+        "is_owner": false,
+        "login_type": "sub_admin",
+        "is_wxwork_member": 0,
+        "wxwork_open_userid": "",
+        "wxwork_userid": "",
+        "wxwork_deptid": "",
+        "wxwork_corpid": "",
+        "auth_status": 1,
+        "is_probation_expires": 0
+      },
+      {
+        "user_id": 830932,
+        "mobile": "18067517985",
+        "email": "",
+        "edition_id": 3,
+        "is_stop": 0,
+        "register_time": "2024-03-07 10:28:07",
+        "user_name": "科科",
+        "user_org_name": "大公司",
+        "is_block": false,
+        "auth_type": 4,
+        "logo_path": "https://ncstatic.clewm.net/feres/111ba98e_9ed31e16_1658134826.png",
+        "disable_login": 1,
+        "sort": 5,
+        "manger_info": {
+          "name": "hsu",
+          "edition_id": 3,
+          "mobile": "18067517985",
+          "email": ""
+        },
+        "member_info": {
+          "name": "科科",
+          "edition_id": 44,
+          "mobile": "18336175747",
+          "email": ""
+        },
+        "project_name": "",
+        "group_id": 0,
+        "org_msg": {
+          "id": 94910435,
+          "name": "大公司",
+          "coding": "ofii0t",
+          "user_id": 830932,
+          "logo_path": "https://ncstatic.clewm.net/feres/111ba98e_9ed31e16_1658134826.png",
+          "build_module_weburl_time": 1723087458,
+          "build_module_weburl_publickey": "d8af7d07477cba57308cbd094b4f7ca7",
+          "for_external_name": "大公司",
+          "project_count": 0,
+          "set_default_project": 0
+        },
+        "is_login": false,
+        "is_owner": false,
+        "login_type": "sub_admin",
+        "is_wxwork_member": 0,
+        "wxwork_open_userid": "",
+        "wxwork_userid": "",
+        "wxwork_deptid": "",
+        "wxwork_corpid": "",
+        "auth_status": 0,
+        "is_probation_expires": 0
+      }
+    ]
+  },
+  "wxWork": {
+    "inEpConsole": false
+  },
+  "loading": {
+    "global": true,
+    "models": {
+      "user": true,
+      "record": false,
+      "edit": true,
+      "header": true,
+      "abTest": false,
+      "activeCode": true,
+      "consoleProject": true,
+      "rules": true,
+      "business": true,
+      "recentCode": true
+    },
+    "effects": {
+      "user/fetchCurrent": false,
+      "record/getCodeTpls": false,
+      "edit/getDefaultList": false,
+      "user/getAccountList": false,
+      "header/fetchUserCapacity": true,
+      "edit/fetchComponentMsg": false,
+      "abTest/updateTestValue": false,
+      "activeCode/fetchQrcodeMsg": true,
+      "edit/getQrCodeBaseSetInfo": false,
+      "consoleProject/getManagerProjectCount": true,
+      "rules/getTreelist": true,
+      "user/initIsAccountCapacityExpData": true,
+      "business/getCompanyInfo": true,
+      "user/fetchCapacity": true,
+      "recentCode/getObjMap": true,
+      "edit/getIsUsedOrgCard": true,
+      "business/getCertifyStatus": true,
+      "header/fetchUserProductsNews": true,
+      "header/fetchUserNewsUnread": true
+    }
+  }
+}
