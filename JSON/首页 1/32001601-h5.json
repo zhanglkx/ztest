@@ -6,7 +6,7 @@
         "authStatus": 1,
         "idType": 1,
         "weakAuth": false,
-        "userId": "_PAY2265663007",
+        "userId": "_PAY22fcfmi4k4oo",
         "userCertStatus": 1
     },
     "cxfInfo": {
@@ -15,7 +15,7 @@
         "cxfStatus": 0
     },
     "bankCardInfo": {
-        "cardCount": 2,
+        "cardCount": 1,
         "linkTitle": "绑卡享优惠",
         "linkUrl": "https://bindcardcert.beta.qunar.com/webapp/paywallet/mybankcard"
     },
@@ -141,8 +141,21 @@
     ],
     "migrated": false,
     "firstAfterMigrating": false,
-    "guidePayAccountStatus": 3,
-    "bannerInfos": [],
+    "guidePayAccountStatus": 1,
+    "bannerInfos": [
+        {
+            "name": "jqh_banner",
+            "linkUrl": "https://jr.ctrip.com/m/cano/page/qunar/home?mktype=qbbannerq",
+            "img": "https://pages.c-ctrip.com/CtripFinance/Finance_APP/fin_web/allactivity_entrance_ads/Q_wallet_page_banner_20W_new.jpeg",
+            "navibar": "navibar-none"
+        },
+        {
+            "name": "fenqishop_banner",
+            "linkUrl": "https://jr.ctrip.com/m/mall/page/qunar/stagingMall?mktype=walletbanner",
+            "img": "https://pages.c-ctrip.com/stagingmall/activity/fqscwalletbn.jpg",
+            "navibar": "navibar-none"
+        }
+    ],
     "bottomList": [
         {
             "iconUrl": "f45d",

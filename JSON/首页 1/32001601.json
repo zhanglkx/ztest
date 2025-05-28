@@ -22,10 +22,8 @@
     "accountInfo": {
         "returnCash": "0.00",
         "cashTotal": "0.00",
-        "returnLinkUrl": "https://noahk-member.beta.qunar.com/lego/balance/default/cashback/myCash?amount=0&cashAmount=0.00&cashBackAmount=0",
         "cashLinkUrl": "https://noahk-member.beta.qunar.com/lego/balance/default/cash/myCash?amount=0.00&cashAmount=0.00&cashBackAmount=0",
-        "consumeAmount": "0.00",
-        "consumeLinkUrl": "https://noahk-member.beta.qunar.com/lego/balance/default/list/CONSUME"
+        "consumeAmount": "0.00"
     },
     "moduleList": [
         {
@@ -142,7 +140,20 @@
     "migrated": false,
     "firstAfterMigrating": false,
     "guidePayAccountStatus": 3,
-    "bannerInfos": [],
+    "bannerInfos": [
+        {
+            "name": "jqh_banner",
+            "linkUrl": "https://jr.ctrip.com/m/cano/page/qunar/home?mktype=qbbannerq",
+            "img": "https://pages.c-ctrip.com/CtripFinance/Finance_APP/fin_web/allactivity_entrance_ads/Q_wallet_page_banner_20W_new.jpeg",
+            "navibar": "navibar-none"
+        },
+        {
+            "name": "fenqishop_banner",
+            "linkUrl": "https://jr.ctrip.com/m/mall/page/qunar/stagingMall?mktype=walletbanner",
+            "img": "https://pages.c-ctrip.com/stagingmall/activity/fqscwalletbn.jpg",
+            "navibar": "navibar-none"
+        }
+    ],
     "bottomList": [
         {
             "iconUrl": "f45d",
