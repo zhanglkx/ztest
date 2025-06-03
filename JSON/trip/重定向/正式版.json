@@ -25,7 +25,12 @@
       "keycode": "wallet/index.html#paymentset",
       "beginVersion": "8.78.6"
     },
-
+    {
+      "pattern": ".*/wallet/index.html#chgpwd",
+      "template": "https://secure.ctrip.com/webapp/paywallet/paymentset?a=1",
+      "keycode": "wallet/index.html#chgpwd",
+      "beginVersion": "8.78.6"
+    },
     {
       "pattern": ".*/webapp/wallet/transacthistory(\\?.*)?",
       "template": "https://secure.ctrip.com/webapp/paywallet/cashbalance?a=1$1",
