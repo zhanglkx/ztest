@@ -95,12 +95,6 @@
       "pattern": ".*webapp\\/tnt\\/detail(\\/)?\\?(.*)"
     },
     {
-      "template": "/rn_ttd_xtaro/_crn_config?CRNModuleName=rn_ttd_xtaro&CRNType=1&initialPage=new-product-detail&$2",
-      "keycode": "webapp/xtnt/newdetail",
-      "beginVersion": "8.46.4",
-      "pattern": ".*webapp\\/xtnt\\/newdetail(\\/)?\\?(.*)"
-    },
-    {
       "template": "/rn_ttd_xtaro/_crn_config?CRNModuleName=rn_ttd_xtaro&CRNType=1&initialPage=list&$2",
       "keycode": "webapp/tnt/list",
       "beginVersion": "8.68.6",
