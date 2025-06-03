@@ -1,0 +1,21 @@
+{
+	"payload": "{\"csource\":\"CTRIP\",\"walletVersion\":\"2025.05.29a\",\"paymchid\":\"200564\",\"rmstoken\":\"52041013391260518990\",\"walletInternalVer\":\"879.000\",\"ctripInternalVer\":\"881.004\",\"ver\":\"8.81.4\",\"plat\":8,\"clientPlat\":\"IOS\",\"clientAppId\":\"99999999\",\"appClient\":\"ctripApp\",\"token\":\"0201A325FBB39BC14DE88089BE3A274B0DC135\"}",
+	"requestHead": "{\"serviceCode\":\"32005506\",\"loginType\":\"CTRIP\",\"key\":\"200564\",\"extend\":\"{\\\"pageTraceId\\\":\\\"8afd5a37-2c9d-236a-fb73-7b88c870cca5\\\"}\"}",
+	"head": {
+		"sauth": "",
+		"extension": [
+			{
+				"name": "appid",
+				"value": "99999999"
+			}
+		],
+		"lang": "01",
+		"syscode": "12",
+		"appid": "99999999",
+		"sid": "8890",
+		"auth": "578F8886FADBB6DDEAB113CDF3A247026B6D58348EBA48062A4B10DC29DF14E3",
+		"cver": "881.004",
+		"ctok": "b2e4bdd098b42f3c082459e4bbb9fc79db37683ecd3cf97ac12a2b0742549ce1",
+		"cid": "52041013391260518990"
+	}
+}
