@@ -1,0 +1,278 @@
+{
+    "rc": 0,
+    "abTest": "newCard",
+    "popInfo": {
+        "hisPop": "bGlrZXpoYW5nMDAzOmJ1cy0yMDI0OSxmbGFzaGNhcmQtMjAyNDksbnFoLTIwMjQ5LGNyZWRpdGNhcmQtMjAyNDksbGljYWktMjAyNDksbGljYWlfaHVpeXVhbi0yMDI0OSx4c2wtMjAyNDksMS0wLHp6cy0yMDI0OSw2MnlsaGQtMjAyNDksdHJhdmVsNjItMjAyNDksamllcXVodWEtMjAyNDksd2Vha2F1dGgtMjAyNDksY2piLTIwMjQ5LGppZXF1aHVhMS0yMDI0OSxzeWtoeS0yMDI0OToxNzQ5NTYyMTI1NDkxfE0yNTFqa2o0aTFiMjE6YnVzLTIwMjE0LGZsYXNoY2FyZC0yMDIxNCxucWgtMjAyMTQsY3JlZGl0Y2FyZC0yMDIxNCxsaWNhaS0yMDIxNCxsaWNhaV9odWl5dWFuLTIwMjE0LHhzbC0yMDIxNCwxLTAsenpzLTIwMjE0LDYyeWxoZC0yMDIxNCx0cmF2ZWw2Mi0yMDIxNCxqaWVxdWh1YS0yMDIxNCx3ZWFrYXV0aC0yMDIxNCxjamItMjAyMTQsamllcXVodWExLTIwMjE0LHN5a2h5LTIwMjE0OjE3NDY1MzQ3NzcwNzJdMS4w",
+        "category": 1,
+        "popupType": 1,
+        "imgUrl": "",
+        "linkUrl": "realname",
+        "ubtKeySure": "click_realname_h5",
+        "ubtKeyCancel": "click_realname_h5_cancel",
+        "extend": "{\"abresult\":\"A\"}"
+    },
+    "userInfo": {
+        "frozen": false,
+        "authStatus": 0,
+        "idType": 0,
+        "weakAuth": false,
+        "linkUrl": "realname",
+        "linkTitle": "为保障账户及资金安全，{请进行实名认证>}",
+        "userId": "likezhang003",
+        "userCertStatus": 0
+    },
+    "cxfInfo": {
+        "cxfTitle": "我的信用",
+        "cxfUrl": "https://m.ctrip.com/restapi/finance/cuser/clogin.do?isHideNavBar=YES&jumpUrl=https%3A%2F%2Fjr.qunar.com%2Fm%2Fcreno%2Fctrip%2Findex%3Ffrom%3Dctrip_wallet",
+        "needHide": false
+    },
+    "bankCardInfo": {
+        "cardCount": 1,
+        "linkTitle": "绑卡享优惠",
+        "linkUrl": "mybankcardlist",
+        "activity": {
+            "activityType": "act_card_memeber_score",
+            "activityCode": 0
+        }
+    },
+    "accountInfo": {
+        "returnCash": "0.00",
+        "cashTotal": "0.00",
+        "giftCard": "0.00",
+        "returnLinkUrl": "https://secure.fat18.qa.nt.ctripcorp.com/webapp/wallet/useraccount?source=11&from=backtolastpage&navBarStyle=white",
+        "cashLinkUrl": "https://secure.fat18.qa.nt.ctripcorp.com/webapp/wallet/transacthistory?source=11&from=backtolastpage&navBarStyle=white",
+        "giftcardLinkUrl": "https://m.fat120.qa.nt.ctripcorp.com/webapp/lipin/iocard?isHideNavBar=YES",
+        "giftcardAppLinkUrl": "https://m.fat120.qa.nt.ctripcorp.com/webapp/lipin/iocard?from=backtolastpage&isHideNavBar=YES"
+    },
+    "moduleList": [
+        {
+            "iconUrl": "https://dimg04.fws.qa.nt.ctripcorp.com/images/0zs1b1200001vtlmeD541.png",
+            "title": "账单",
+            "linkUrl": "billlist?isHideNavBar=YES",
+            "target": 6,
+            "ubtKey": "wallet_bill",
+            "needAuthCode": false,
+            "tag": "New",
+            "hideHead": 1
+        },
+        {
+            "iconUrl": "https://dimg.fws.qa.nt.ctripcorp.com/images/zs0u1200000009lx697E0.png",
+            "title": "fws",
+            "linkUrl": "https://m.ctrip.com/webapp/xtaro-gshop/home?districtid=0&bid=35&cid=2&pid=15&isHideNavBar=YES ",
+            "target": 2,
+            "ubtKey": "c_wallethome_otherregion_quanqiugou",
+            "needAuthCode": false,
+            "tag": "fws",
+            "hideHead": 2
+        },
+        {
+            "iconUrl": "https://dimg.fws.qa.nt.ctripcorp.com/images/zs0o0z00000009jnd2F1B.png",
+            "title": "礼品卡",
+            "linkUrl": "/rn_xtaro_ccard/_crn_config?CRNModuleName=rn_xtaro_ccard&CRNType=1&bid=28&cid=2&pid=65",
+            "target": 4,
+            "ubtKey": "wallet_money",
+            "needAuthCode": true,
+            "tag": "吃蟹吗",
+            "hideHead": 2
+        },
+        {
+            "iconUrl": "https://dimg.fws.qa.nt.ctripcorp.com/images/zs070z00000009l86F046.png",
+            "title": "H5银行卡中台",
+            "linkUrl": "https://secure.fat819.qa.nt.ctripcorp.com/webapp/paywallet/mybankcard?sceneid=ctrip_wallet_bindcard&paymchid=200564",
+            "target": 2,
+            "ubtKey": "",
+            "needAuthCode": true,
+            "tag": "fat819",
+            "hideHead": 2
+        },
+        {
+            "iconUrl": "https://dimg.fws.qa.nt.ctripcorp.com/images/zs0u1200000009lx697E0.png",
+            "title": "H5银行卡中台（18）",
+            "linkUrl": "https://secure.fat18.qa.nt.ctripcorp.com/webapp/paywallet/mybankcard?sceneid=ctrip_wallet_bindcard&paymchid=200564&subEnv=fat13002",
+            "target": 2,
+            "ubtKey": "wallet_tax",
+            "needAuthCode": false,
+            "tag": "fat13002",
+            "hideHead": 2
+        },
+        {
+            "iconUrl": "https://dimg.fws.qa.nt.ctripcorp.com/images/0zs0x1200000ak02206B8.png",
+            "title": "钱包实名新入口-H5",
+            "linkUrl": "https://secure.fat18.qa.nt.ctripcorp.com/webapp/paywallet/realname?sceneid=ctrip_wallet_realname&source=13&subEnv=fat18",
+            "target": 2,
+            "ubtKey": "",
+            "needAuthCode": false,
+            "tag": "fat18",
+            "hideHead": 2
+        },
+        {
+            "iconUrl": "https://dimg.fws.qa.nt.ctripcorp.com/images/zs0u0z00000009jjqF315.png",
+            "title": "实名-前端18服务13002",
+            "linkUrl": "https://secure.fat18.qa.nt.ctripcorp.com/webapp/paywallet/realname?subenv=fat13002",
+            "target": 2,
+            "ubtKey": "wallet_tax",
+            "needAuthCode": false,
+            "tag": "NEW",
+            "hideHead": 2
+        },
+        {
+            "iconUrl": "https://dimg04.fws.qa.nt.ctripcorp.com/images/0zs5j1200001wpr01E8ED.png",
+            "title": "fat819实名",
+            "linkUrl": "https://secure.fat819.qa.nt.ctripcorp.com/webapp/paywallet/realname?sceneid=ctrip_wallet_realname&source=13&subEnv=fat18",
+            "target": 2,
+            "needAuthCode": false,
+            "tag": "fat819",
+            "hideHead": 2
+        }
+    ],
+    "bankActivityList": [
+        {
+            "title": "优惠测试",
+            "subTitle": "测试",
+            "iconUrl": "https://dimg04.fws.qa.nt.ctripcorp.com/images/0zs471200000wwlt4038A.png",
+            "linkUrl": "https://pages.c-ctrip.com/Finance/201907/media/index.html?navBarStyle=white",
+            "ubtKey": "c_wallethome_bankdiscount1"
+        }
+    ],
+    "bankActivityInfo": {
+        "moreLinkUrl": "https://pages.c-ctrip.com/Finance/201907/media/index.html",
+        "ubtKey": "c_wallethome_bankdiscountall"
+    },
+    "financeList": [
+        {
+            "iconUrl": "https://dimg.fws.qa.nt.ctripcorp.com/images/zs040z00000009k1i6D4D.png",
+            "title": "钱包数币",
+            "linkUrl": "/rn_wallet/_crn_config?CRNModuleName=rn_wallet&CRNType=1&initialPage=digitalcurrencylist",
+            "target": 7,
+            "ubtKey": "C_WALLET_ECNY_CLICK",
+            "needAuthCode": true,
+            "tag": "测试长度问题",
+            "hideHead": 2
+        }
+    ],
+    "consumeList": [
+        {
+            "title": "信用卡",
+            "subTitle": "达标免年费",
+            "iconUrl": "https://webresource.c-ctrip.com/ares/fncmobilewallet/walletstatic/*/default/images/ctrip/home_creditcard.png",
+            "desc": "100,000",
+            "subDesc": "最高额度（元）",
+            "linkText": "免费领",
+            "linkUrl": "https://m.ctrip.com/webapp/ccard/list?isHideNavBar=YES&bid=2&cid=2&pid=1&popup=close",
+            "ubtKey": "c_wallethome_xinyongka",
+            "bgColors": [
+                [
+                    "rgb(202, 235, 253)",
+                    "rgb(233, 250, 255)"
+                ],
+                [
+                    "rgba(202, 235, 253,0.3)",
+                    "rgba(233, 250, 255,0.3)"
+                ],
+                [
+                    "rgba(233, 250, 255,0.2)",
+                    "rgba(202, 235, 253,0.2)"
+                ]
+            ],
+            "fontColor": [
+                "#204D5B",
+                "#B0F1FF"
+            ]
+        },
+        {
+            "title": "信用贷",
+            "subTitle": "随借随还，秒级到账",
+            "iconUrl": "https://webresource.c-ctrip.com/ares/fncmobilewallet/walletstatic/*/default/images/ctrip/spend.png",
+            "desc": "20万",
+            "subDesc": "最高可借(元)",
+            "label": "",
+            "linkText": "查额度",
+            "linkUrl": "https://jr.ctrip.com/m/cano/page/ctrip/home?mktype=cmywalletmaincardde",
+            "ubtKey": "c_wallethome_jiequhua",
+            "bgColors": [
+                [
+                    "#ACCDF8",
+                    "#DEECFF"
+                ],
+                [
+                    "rgba(172, 205, 248,0.3)",
+                    "rgba(222, 236, 255,0.3)"
+                ],
+                [
+                    "rgba(222, 236, 255,0.2)",
+                    "rgba(172, 205, 248,0.2)"
+                ]
+            ],
+            "fontColor": [
+                "#405A9F",
+                "#A7CEFF"
+            ]
+        },
+        {
+            "title": "拿去花",
+            "subTitle": "灵活分期，超低利率",
+            "iconUrl": "https://webresource.c-ctrip.com/ares/fncmobilewallet/walletstatic/*/default/images/ctrip/home_ious.png",
+            "desc": "40天",
+            "subDesc": "最长可享免息",
+            "label": "",
+            "linkText": "去看看",
+            "linkUrl": "　https://jr.ctrip.com/m/nano/page/ctrip/index?mktype=mywallet",
+            "ubtKey": "c_wallethome_naquhua",
+            "bgColors": [
+                [
+                    "rgb(255, 215, 168)",
+                    "rgb(255, 234, 210)"
+                ],
+                [
+                    "rgba(255, 215, 168,0.3)",
+                    "rgba(255, 234, 210,0.3)"
+                ],
+                [
+                    "rgba(255, 234, 210,0.2)",
+                    "rgba(255, 215, 168,0.2)"
+                ]
+            ],
+            "fontColor": [
+                "#702608",
+                "#FFB37D"
+            ]
+        },
+        {
+            "title": "理财",
+            "subTitle": "银行存款,安心之选",
+            "iconUrl": "https://webresource.c-ctrip.com/ares/fncmobilewallet/walletstatic/*/default/images/ctrip/home_eacc.png",
+            "desc": "5.075%",
+            "subDesc": "最高年化",
+            "label": "",
+            "linkText": "去看看",
+            "linkUrl": "https://secure.ctrip.com/webapp/wealth/home?platform=5&isHideNavBar=YES&bustype=1&position=121&bid=1001&cid=1002&pid=1006",
+            "ubtKey": "c_wallethome_licai",
+            "bgColors": [
+                [
+                    "rgb(255, 201, 167)",
+                    "rgb(255, 237, 225)"
+                ],
+                [
+                    "rgba(255, 201, 167,0.3)",
+                    "rgba(255, 237, 225,0.3)"
+                ],
+                [
+                    "rgba(255, 237, 225,0.2)",
+                    "rgba(255, 201, 167,0.2)"
+                ]
+            ],
+            "fontColor": [
+                "#631401",
+                "#FFB898"
+            ]
+        }
+    ],
+    "noticeInfo": {
+        "content": "",
+        "ubtKey": "c_wallethome_announcement"
+    },
+    "migrated": false,
+    "firstAfterMigrating": false,
+    "guidePayAccountStatus": 3,
+    "hideBankBanner": false
+}
