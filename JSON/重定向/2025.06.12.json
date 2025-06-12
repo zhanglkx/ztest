@@ -1,0 +1,1728 @@
+{
+	"tripshoot": [
+		{
+			"template": "/rn_ugc_taro/_crn_config?CRNModuleName=communityTaro&CRNType=1&initialPage=userHome&$1",
+			"keycode": "webapp/you/tripshoot/user/home",
+			"beginVersion": "8.71.6",
+			"pattern": ".*webapp/you/tripshoot/user/home\\?(.*)"
+		}
+	],
+	"travelMap": [
+		{
+			"template": "/rn_xtaro_travel_map/main.js?CRNModuleName=xtaro-travel-map&initialPage=travelMap&CRNType=1&isHideNavBar=YES&hideDefaultLoading=YES&entranceId=Ctriphomenew&source=ctripHome",
+			"keycode": "ctrip://wireless/travel_map",
+			"beginVersion": "8.76.6",
+			"pattern": "^ctrip\\:/\\/wireless\\/travel_map\\?(.*)"
+		}
+	],
+	"things-to-do": [
+		{
+			"template": "/rn_ttd_xtaro/_crn_config?CRNModuleName=rn_ttd_xtaro&CRNType=1&initialPage=new-product-detail&productId=$1",
+			"keycode": "/webapp/things-to-do",
+			"beginVersion": "8.21.0",
+			"pattern": ".*\\/webapp/things-to-do/detail/([\\d]*).*"
+		},
+		{
+			"template": "/rn_ttd_xtaro/_crn_config?CRNModuleName=rn_ttd_xtaro&CRNType=1&initialPage=new-product-detail&productId=$1",
+			"keycode": "m.ctrip.com/webapp/activity/dest/t",
+			"beginVersion": "8.21.0",
+			"pattern": ".*m.ctrip.com/webapp/activity/dest/t([\\d]*).html.*"
+		},
+		{
+			"template": "/rn_ttd_act/_crn_config?CRNModuleName=rn_ttd_act&CRNType=1&initialPage=list&$1pshowcode=1daytrip$2",
+			"keycode": "/webapp/things-to-do",
+			"beginVersion": "8.28.0",
+			"pattern": "^.*webapp\\/things-to-do\\/list\\?(.*)?pshowcode=1daytrip(.*)?"
+		}
+	],
+	"other": [
+		{
+			"template": "/rn_ttd_xtaro/_crn_config?CRNModuleName=rn_ttd_xtaro&CRNType=1&initialPage=new-product-detail&productId=$1",
+			"keycode": "ottd-activity/dest",
+			"beginVersion": "8.21.0",
+			"pattern": ".*/ottd-activity/dest/t([\\d]*)\\.html.*"
+		}
+	],
+	"favoriteCollection": [
+		{
+			"template": "https://m.ctrip.com/webapp/favorite/index?$1",
+			"keycode": "favorite/index.html",
+			"beginVersion": "8.47.0",
+			"pattern": ".*/favorite/index.html#all\\?(.*)"
+		}
+	],
+	"wangpeiqin": [
+		{
+			"keycode": "/webapp/ttdguide/guidedetail",
+			"template": "/rn_ttd_xtaro/_crn_config?CRNModuleName=rn_ttd_xtaro&CRNType=1&initialPage=guide-detail&guideId=$2&$3",
+			"beginVersion": "8.45.2",
+			"pattern": "^.*webapp\\/ttdguide\\/guidedetail(?=.*(?:\\\\?|&)(guideid|guideId)=(\\d*)(?:&|$))(?:\\?(.*)).*"
+		},
+		{
+			"keycode": "/webapp/ttdguide/comment",
+			"template": "/rn_ttd_xtaro/_crn_config?CRNModuleName=rn_ttd_xtaro&CRNType=1&initialPage=sub-guide-detail&guideId=$2&subadvisorId=$4&$5",
+			"beginVersion": "8.45.2",
+			"pattern": "^.*webapp\\/ttdguide\\/comment(?=.*(?:\\\\?|&)(guideid|guideId)=(\\d*)(?:&|$))(?=.*(?:\\\\?|&)(subadvisorid|subadvisorId)=(\\d*)(?:&|$))(?:\\?(.*)).*"
+		},
+		{
+			"keycode": "/webapp/taro/pages/tnt/detail/guide-detail",
+			"template": "/rn_ttd_xtaro/_crn_config?CRNModuleName=rn_ttd_xtaro&CRNType=1&initialPage=guide-detail&$1",
+			"beginVersion": "8.45.2",
+			"pattern": "^.*webapp\\/taro\\/pages\\/tnt\\/detail\\/guide-detail\\/.*(?:\\?(.*)).*"
+		},
+		{
+			"keycode": "/webapp/taro/pages/tnt/detail/sub-guide-detail",
+			"template": "/rn_ttd_xtaro/_crn_config?CRNModuleName=rn_ttd_xtaro&CRNType=1&initialPage=sub-guide-detail&$1",
+			"beginVersion": "8.45.2",
+			"pattern": "^.*webapp\\/taro\\/pages\\/tnt\\/detail\\/sub-guide-detail\\/.*(?:\\?(.*)).*"
+		},
+		{
+			"keycode": "CRNModuleName=rn_ttd",
+			"template": "/rn_ttd_xtaro/_crn_config?CRNModuleName=rn_ttd_xtaro&CRNType=1&initialPage=sub-guide-detail$1",
+			"beginVersion": "8.66.0",
+			"pattern": "\\/rn_ttd_taro_landing\\/_crn_config\\?CRNModuleName=rn_ttd_taro_landing&CRNType=1&initialPage=sub-guide-detail(.*)"
+		},
+		{
+			"template": "/rn_ttd_xtaro/_crn_config?CRNModuleName=rn_ttd_xtaro&CRNType=1&initialPage=new-product-detail&$2",
+			"keycode": "webapp/taro/pages/tnt/detail/product-detail",
+			"beginVersion": "8.46.4",
+			"pattern": ".*taro\\/pages\\/tnt\\/detail\\/product-detail\\/index(\\/)?\\?(.*)"
+		},
+		{
+			"template": "/rn_ttd_xtaro/_crn_config?CRNModuleName=rn_ttd_xtaro&CRNType=1&initialPage=new-product-detail&$2",
+			"keycode": "webapp/tnt/detail",
+			"beginVersion": "8.46.4",
+			"pattern": ".*webapp\\/tnt\\/detail(\\/)?\\?(.*)"
+		},
+		{
+			"template": "/rn_ttd_xtaro/_crn_config?CRNModuleName=rn_ttd_xtaro&CRNType=1&initialPage=new-product-detail&$2",
+			"keycode": "webapp/xtnt/newdetail",
+			"beginVersion": "8.46.4",
+			"pattern": ".*webapp\\/xtnt\\/newdetail(\\/)?\\?(.*)"
+		},
+		{
+			"template": "/rn_ttd_xtaro/_crn_config?CRNModuleName=rn_ttd_xtaro&CRNType=1&initialPage=list&$2",
+			"keycode": "webapp/tnt/list",
+			"beginVersion": "8.68.6",
+			"pattern": ".*webapp\\/tnt\\/list(\\/)?\\?(.*)"
+		},
+		{
+			"template": "/rn_ttd_xtaro/_crn_config?CRNModuleName=rn_ttd_xtaro&CRNType=1&initialPage=guide-detail",
+			"keycode": "CRNModuleName=rn_ttd",
+			"beginVersion": "8.66.0",
+			"pattern": "\\/rn_ttd_taro_landing\\/_crn_config\\?CRNModuleName=rn_ttd_taro_landing&CRNType=1&initialPage=guide-detail"
+		}
+	],
+	"car": [
+		{
+			"template": "/rn_dcs_fusion/_crn_config?CRNModuleName=rn_dcs_fusion&CRNType=1&initialPage=index&s=home&$1",
+			"beginVersion": "8.2.0",
+			"pattern": "https://gateway.m.fws.qa.nt.ctripcorp.com/webapp/carch/chf/index\\?(.*)"
+		}
+	],
+	"tripActivity": [
+		{
+			"template": "/rn_xtaro_trip_activity/main.js?CRNModuleName=rn_xtaro_trip_activity&CRNType=1&hideDefaultLoading=true&$2",
+			"keycode": "webapp/trip-activity/home",
+			"beginVersion": "8.60.6",
+			"pattern": ".*\\/webapp\\/trip-activity\\/home(\\.html)*[/#?]{0,2}(.*?)$"
+		},
+		{
+			"template": "/rn_xtaro_trip_activity/main.js?CRNModuleName=rn_xtaro_trip_activity&CRNType=1&hideDefaultLoading=true&initialPage=channel&channelId=$1&$3",
+			"keycode": "webapp/trip-activity/channel",
+			"beginVersion": "8.60.6",
+			"pattern": ".*\\/webapp\\/trip-activity\\/channel\\/.*?(\\d+?)(\\.html)*[/#?]{0,2}(.*?)$"
+		},
+		{
+			"template": "/rn_xtaro_trip_activity/main.js?CRNModuleName=rn_xtaro_trip_activity&CRNType=1&hideDefaultLoading=true&initialPage=activityDateChoose&$2",
+			"keycode": "webapp/trip-activity/activityDateChoose",
+			"beginVersion": "8.60.6",
+			"pattern": ".*\\/webapp\\/trip-activity\\/activityDateChoose(\\.html)*[/#?]{0,2}(.*?)$"
+		},
+		{
+			"template": "/rn_xtaro_poi/index.main.js?CRNModuleName=rn_xtaro_poi&CRNType=1&hideDefaultLoading=true&initialPage=activityPoiDetail&$3",
+			"keycode": "webapp/you/xgspoi/activityPoi",
+			"beginVersion": "8.60.6",
+			"pattern": ".*\\/webapp\\/you\\/xgspoi\\/activityPoi\\/(\\d+?)\\/(\\d+?)\\.html*[/#?]{0,2}(.*?)$"
+		},
+		{
+			"template": "/rn_xtaro_pgc_ctrip_tripshow/_crn_config?CRNModuleName=rn_xtaro_pgc_ctrip_tripshow&CRNType=1&transparentstatusbar=1&initialPage=userActivity&artistId=$1&$3",
+			"keycode": "webapp/trip-events/channel/userActivity",
+			"beginVersion": "8.52.6",
+			"pattern": ".*\\/webapp\\/trip-events\\/channel\\/userActivity\\/(\\d+)(\\.html)*[/#?]{0,2}(.*?)$"
+		}
+	],
+	"gsttd": [
+		{
+			"template": "/rn_destination_poi/index.main.js?CRNModuleName=rn_destination_poi&CRNType=1&initialPage=sightDetail&districtId=$1&businessId=$2&$3",
+			"keycode": "/destination/ttd/index.html",
+			"beginVersion": "8.22.0",
+			"pattern": ".*\\/destination\\/ttd\\/index\\.html#[Ss]ight\\/(\\w+)\\/(\\d+)\\.html\\??(.*)"
+		}
+	],
+	"hotel": [
+		{
+			"template": "ctrip://wireless/InlandHotel?hotelId=$1&hotelDataType=1",
+			"keycode": "webapp/hotel/hoteldetail",
+			"beginVersion": "8.45.4",
+			"pattern": "https:\\/\\/m\\.ctrip\\.com\\/webapp\\/hotel\\/hoteldetail\\/(\\d+).html.*"
+		},
+		{
+			"template": "ctrip://wireless/InlandHotel?hotelId=$1&hotelDataType=2",
+			"keycode": "webapp/hotel/oversea/hoteldetail",
+			"beginVersion": "8.45.4",
+			"pattern": "https:\\/\\/m\\.ctrip\\.com\\/webapp\\/hotel\\/oversea\\/hoteldetail\\/(\\d+).html.*"
+		},
+		{
+			"template": "/trip_flutter?flutterName=flutter_hotel_selling_point&hotelId=$1&pageIndex=2&subIndex=0",
+			"keycode": "rn_hotelinfo",
+			"beginVersion": "8.50.6",
+			"pattern": "\\/rn_hotelinfo\\/main\\.js\\?CRNModuleName=hotelinfo.*hotelid=(\\d+).*&showtab=isfacility.*"
+		},
+		{
+			"template": "/trip_flutter?flutterName=flutter_hotel_selling_point&hotelId=$1&pageIndex=1&subIndex=1",
+			"keycode": "rn_hotelinfo",
+			"beginVersion": "8.50.6",
+			"pattern": "\\/rn_hotelinfo\\/main\\.js\\?CRNModuleName=hotelinfo.*hotelid=(\\d+).*&showtab=ispolicy.*"
+		},
+		{
+			"template": "/trip_flutter?flutterName=flutter_hotel_selling_point&hotelId=$1&pageIndex=1&subIndex=0",
+			"keycode": "rn_hotelinfo",
+			"beginVersion": "8.50.6",
+			"pattern": "\\/rn_hotelinfo\\/main\\.js\\?CRNModuleName=hotelinfo.*hotelid=(\\d+).*&showtab=isreminder.*"
+		},
+		{
+			"template": "/trip_flutter?flutterName=flutter_hotel_selling_point&hotelId=$1&pageIndex=0&subIndex=0",
+			"keycode": "rn_hotelinfo",
+			"beginVersion": "8.50.6",
+			"pattern": "^(?=\\/rn_hotelinfo\\/main\\.js\\?CRNModuleName=hotelinfo.*hotelid=(\\d+).*)(?:(?!showtab).)*$"
+		},
+		{
+			"template": "/rn_hotelInStoreFlagShip/main.js?CRNModuleName=instoreflagship&CRNType=1&isHideNavBar=YES&$1",
+			"keycode": "flutterName=hotel_in_store_flagship",
+			"beginVersion": "8.52.6",
+			"pattern": "\\/trip_flutter\\?flutterName=hotel_in_store_flagship&(.*)"
+		},
+		{
+			"template": "/rn_c2x_hotelInStoreFlagShip/main.js?CRNModuleName=instoreflagship&CRNType=1&isHideNavBar=YES&$1",
+			"keycode": "rn_hotelInStoreFlagShip",
+			"beginVersion": "8.52.6",
+			"pattern": "\\/rn_hotelInStoreFlagShip\\/main.js\\?CRNModuleName=instoreflagship&(.*)"
+		},
+		{
+			"template": "/rn_hotel_packageShopping/index.ios.bundle?CRNModuleName=hotelpackageshopping&CRNType=1&pageName=homeListPage&isHideNavBar=YES&$1",
+			"keycode": "rn_hotel_packageList",
+			"beginVersion": "8.52.6",
+			"pattern": "\\/rn_hotel_packageList\\/index\\.ios\\.bundle\\?CRNModuleName=hotelpackage&CRNType=1&pageName=homeListPage&isHideNavBar=YES&(.*)"
+		},
+		{
+			"template": "/rn_xtaro_ct/main.js?CRNModuleName=rn_xtaro_ct&CRNType=1&&isHideNavBar=YES&initialPage=HotelStarDiamondDescriptionPage&isMainland=$1&pageName=/pages/starDiamond/index",
+			"keycode": "rn_hotel_ct",
+			"beginVersion": "8.52.6",
+			"pattern": "\\/rn_hotel_ct\\/main.js\\?CRNType=1&initialPage=HotelStarDiamondDescriptionPage&CRNModuleName=RN_CT_Hotel&isHideNavBar=YES&isMainland=(\\d*)"
+		},
+		{
+			"template": "/rn_xtaro_travel_route/main.js?CRNModuleName=rn_xtaro_travel_route&CRNType=1&initialPage=userRouteListPage&source=mytrips",
+			"keycode": "initialPage=CTSTravelLineListPage",
+			"beginVersion": "8.52.6",
+			"pattern": "\\/rn_schedule_add\\/main.js\\?CRNModuleName=ScheduleAddApp&(.*)"
+		}
+	],
+	"oldH5": [
+		{
+			"template": "/rn_ttd/_crn_config?CRNModuleName=rn_ttd&CRNType=1&initialPage=ticket",
+			"aaa": "bbb",
+			"pattern": "ticket/index.html#/ticket",
+			"isNewRule": false
+		},
+		{
+			"template": "/rn_ttd/_crn_config?CRNModuleName=rn_ttd&CRNType=1&initialPage=ticket",
+			"pattern": "ticket/index.html#/index",
+			"isNewRule": false
+		},
+		{
+			"template": "/rn_ttd/_crn_config?CRNModuleName=rn_ttd&CRNType=1&initialPage=ticket",
+			"pattern": "ticket/index.html#index",
+			"isNewRule": false
+		},
+		{
+			"template": "/rn_ttd/_crn_config?CRNModuleName=rn_ttd&CRNType=1&initialPage=ticket",
+			"pattern": "ticket/index.html#/webapp/ticket/index",
+			"isNewRule": false
+		},
+		{
+			"template": "/rn_destination_poi/index.main.js?CRNModuleName=rn_destination_poi&CRNType=1&initialPage=sightList",
+			"pattern": "ticket/index.html#/dest/dt-",
+			"isNewRule": false
+		},
+		{
+			"template": "/rn_destination_poi/index.main.js?CRNModuleName=rn_destination_poi&CRNType=1&initialPage=sightList",
+			"pattern": "ticket/index.html#/webapp/ticket/dest/dt-",
+			"isNewRule": false
+		},
+		{
+			"template": "/rn_destination_poi/index.main.js?CRNModuleName=rn_destination_poi&CRNType=1&initialPage=sightList",
+			"pattern": "ticket/index.html#/dest/n-",
+			"isNewRule": false
+		},
+		{
+			"template": "/rn_destination_poi/index.main.js?CRNModuleName=rn_destination_poi&CRNType=1&initialPage=sightList",
+			"pattern": "ticket/index.html#/webapp/ticket/dest/n-",
+			"isNewRule": false
+		},
+		{
+			"template": "/rn_destination_poi/index.main.js?CRNModuleName=rn_destination_poi&CRNType=1&initialPage=sightList",
+			"pattern": "ticket/index.html#/dest/k-",
+			"isNewRule": false
+		},
+		{
+			"template": "/rn_destination_poi/index.main.js?CRNModuleName=rn_destination_poi&CRNType=1&initialPage=sightList",
+			"pattern": "ticket/index.html#/webapp/ticket/dest/k-",
+			"isNewRule": false
+		},
+		{
+			"template": "/rn_ttd_act/_crn_config?CRNModuleName=rn_ttd_act&CRNType=1&initialPage=mix",
+			"pattern": "activity/index.html#/dest/dt-",
+			"isNewRule": false
+		},
+		{
+			"template": "/rn_ttd_act/_crn_config?CRNModuleName=rn_ttd_act&CRNType=1&initialPage=mix",
+			"pattern": "activity/index.html#/webapp/activity/dest/dt-",
+			"isNewRule": false
+		},
+		{
+			"template": "/rn_ttd_act/_crn_config?CRNModuleName=rn_ttd_act&CRNType=1&initialPage=mix",
+			"pattern": "activity/index.html#/dest/poi-",
+			"isNewRule": false
+		},
+		{
+			"template": "/rn_ttd_act/_crn_config?CRNModuleName=rn_ttd_act&CRNType=1&initialPage=mix",
+			"pattern": "activity/index.html#/webapp/activity/dest/poi-",
+			"isNewRule": false
+		},
+		{
+			"template": "/rn_ttd_act/_crn_config?CRNModuleName=rn_ttd_act&CRNType=1&initialPage=mix",
+			"pattern": "activity/index.html#/dest/k-",
+			"isNewRule": false
+		},
+		{
+			"template": "/rn_ttd_act/_crn_config?CRNModuleName=rn_ttd_act&CRNType=1&initialPage=mix",
+			"pattern": "activity/index.html#/webapp/activity/dest/k-",
+			"isNewRule": false
+		},
+		{
+			"template": "/rn_ttd_act/_crn_config?CRNModuleName=rn_ttd_act&CRNType=1&initialPage=mix",
+			"pattern": "activity/index.html#/dest/ct-",
+			"isNewRule": false
+		},
+		{
+			"template": "/rn_ttd_act/_crn_config?CRNModuleName=rn_ttd_act&CRNType=1&initialPage=mix",
+			"pattern": "activity/index.html#/webapp/activity/dest/ct-",
+			"isNewRule": false
+		},
+		{
+			"template": "/rn_ttd_act/_crn_config?CRNModuleName=rn_ttd_act&CRNType=1&initialPage=mix&pshowcates=40",
+			"pattern": "activity/index.html#/daytour/dt-",
+			"isNewRule": false
+		},
+		{
+			"template": "/rn_ttd_act/_crn_config?CRNModuleName=rn_ttd_act&CRNType=1&initialPage=mix&pshowcates=40",
+			"pattern": "activity/index.html#/webapp/activity/daytour/dt-",
+			"isNewRule": false
+		},
+		{
+			"template": "/rn_ttd_act/_crn_config?CRNModuleName=rn_ttd_act&CRNType=1&initialPage=mix&pshowcates=40",
+			"pattern": "activity/index.html#/daytour/poi-",
+			"isNewRule": false
+		},
+		{
+			"template": "/rn_ttd_act/_crn_config?CRNModuleName=rn_ttd_act&CRNType=1&initialPage=mix&pshowcates=40",
+			"pattern": "activity/index.html#/webapp/activity/daytour/poi-",
+			"isNewRule": false
+		},
+		{
+			"template": "/rn_ttd_act/_crn_config?CRNModuleName=rn_ttd_act&CRNType=1&initialPage=mix&pshowcates=40",
+			"pattern": "activity/index.html#/daytour/k-",
+			"isNewRule": false
+		},
+		{
+			"template": "/rn_ttd_act/_crn_config?CRNModuleName=rn_ttd_act&CRNType=1&initialPage=mix&pshowcates=40",
+			"pattern": "activity/index.html#/webapp/activity/daytour/k-",
+			"isNewRule": false
+		},
+		{
+			"template": "/rn_ttd_act/_crn_config?CRNModuleName=rn_ttd_act&CRNType=1&initialPage=parking",
+			"pattern": "parking/index.html#/webapp/parking/v2/index",
+			"isNewRule": false
+		},
+		{
+			"template": "/rn_ttd_act/_crn_config?CRNModuleName=rn_ttd_act&CRNType=1&initialPage=parking",
+			"pattern": "parking/index.html#/v2/index",
+			"isNewRule": false
+		},
+		{
+			"template": "/activity/index.html#/webapp/activity/dest/t123.html?sourceFrom=crn_detail&DetailNoDirect&minUseablePkgId=1305288",
+			"pattern": "activity/index.html#/webapp/activity/dest/t([\\d]*)\\.html\\?DetailNoDirect[\\&]?(.*)",
+			"isNewRule": false
+		}
+	],
+	"lipin": [
+		{
+			"template": "https://m.ctrip.com/webapp/lipin/money?isHideNavBar=YES",
+			"keycode": "/lipin/index.html#/",
+			"beginVersion": "8.52.6",
+			"pattern": ".*/lipin\\/index.html#\\/.*"
+		}
+	],
+	"hotelnearby": [
+		{
+			"template": "/rn_xtaro_travel_map/main.js?CRNModuleName=xtaro-travel-map&initialPage=nearbyMap&CRNType=1&isHideNavBar=YES&hideDefaultLoading=YES&id=$1&type=hotel&entranceId=nativeSchema",
+			"keycode": "ctrip://wireless/hotel_inland_detailmap",
+			"beginVersion": "8.68.6",
+			"pattern": "^ctrip\\:/\\/wireless\\/hotel_inland_detailmap\\?c5=(\\d*)"
+		},
+		{
+			"template": "/rn_xtaro_travel_map/main.js?CRNModuleName=xtaro-travel-map&initialPage=nearbyMap&CRNType=1&isHideNavBar=YES&hideDefaultLoading=YES&id=$5&type=hotel&entranceId=nativeSchema",
+			"keycode": "ctrip://wireless/hotel_inland_detailmap",
+			"beginVersion": "8.68.6",
+			"pattern": "^ctrip\\:/\\/wireless\\/hotel_inland_detailmap\\?(c1=.*&)?(c2=[%A-Za-z0-9.]*&)(c3=[%A-Za-z0-9.]*&)(c4=.*&)c5=(\\d*)(&c6=1)?(&c6=2)?(&c7=\\d*)(&c8=\\d*)(&c12=0)?(&c12=1)?$"
+		},
+		{
+			"template": "/rn_xtaro_travel_map/main.js?CRNModuleName=xtaro-travel-map&initialPage=nearbyMap&CRNType=1&isHideNavBar=YES&hideDefaultLoading=YES&id=$5&type=hotel&entranceId=nativeSchema",
+			"keycode": "ctrip://wireless/hotel_inland_detailmap",
+			"beginVersion": "8.68.6",
+			"pattern": "^ctrip\\:/\\/wireless\\/hotel_inland_detailmap\\?(c1=.*&)?(c2=[%A-Za-z0-9.]*&)(c3=[%A-Za-z0-9.]*&)(c4=.*&)c5=(\\d*)(&c6=1)?(&c6=2)?(&c7=\\d*)(&c8=\\d*)(&c12=0)?(&c12=1)?(.*)$"
+		},
+		{
+			"template": "/rn_xtaro_travel_map/main.js?CRNModuleName=xtaro-travel-map&initialPage=nearbyMap&CRNType=1&isHideNavBar=YES&hideDefaultLoading=YES&id=$5&type=hotel&entranceId=nativeSchema",
+			"keycode": "ctrip://wireless/hotel_inland_detailmap",
+			"beginVersion": "8.68.6",
+			"pattern": "^ctrip\\:/\\/wireless\\/hotel_inland_detailmap\\?(c1=.*&)?(c2=[%A-Za-z0-9.]*&)(c3=[%A-Za-z0-9.]*&)(c4=.*&)c5=(\\d*)(&c6=1)?(&c6=2)?(&c7=\\d*)(&c8=\\d*)(.*)$"
+		},
+		{
+			"template": "/rn_xtaro_travel_map/main.js?CRNModuleName=xtaro-travel-map&initialPage=nearbyMap&CRNType=1&isHideNavBar=YES&hideDefaultLoading=YES&id=$4&type=hotel&entranceId=nativeSchema",
+			"keycode": "ctrip://wireless/hotel_inland_detailmap",
+			"beginVersion": "8.68.6",
+			"pattern": "^ctrip\\:/\\/wireless\\/hotel_inland_detailmap\\?(c1=.*&)?(c2=[%A-Za-z0-9.]*&)(c3=[%A-Za-z0-9.]*&)c5=(\\d*)(&c6=1)?(&c6=2)?(.*)$"
+		},
+		{
+			"template": "/rn_xtaro_travel_map/main.js?CRNModuleName=xtaro-travel-map&initialPage=nearbyMap&CRNType=1&isHideNavBar=YES&hideDefaultLoading=YES&id=$3&type=hotel&entranceId=nativeSchema",
+			"keycode": "ctrip://wireless/hotel_inland_detailmap",
+			"beginVersion": "8.68.6",
+			"pattern": "^ctrip\\:/\\/wireless\\/hotel_inland_detailmap\\?(c2=.*&)(c3=[%A-Za-z0-9.]*&)c5=(\\d*)(.*)$"
+		}
+	],
+	"flightLayerDomWeb": [
+		{
+			"template": "/rn_flight_layer/_crn_config?CRNModuleName=flight_layer&CRNType=1&initialPage=CompanyCertifyPage&$1",
+			"keycode": "webapp/cw/flight/flightLayerDomWeb/CompanyCertifyPage.html",
+			"beginVersion": "8.52.6",
+			"pattern": ".*\\/webapp\\/cw\\/flight\\/flightLayerDomWeb\\/CompanyCertifyPage\\.html\\??(.*)"
+		}
+	],
+	"new": [
+		{
+			"template": "/rn_ttd_act/$1=rn_ttd_act&$2initialPage=booking$3",
+			"keycode": "CRNModuleName=rn_ttd",
+			"beginVersion": "8.35.0",
+			"pattern": "\\/rn_ttd\\/(\\S*)=rn_ttd&(\\S*)initialPage=booking(&\\S*|$)"
+		},
+		{
+			"template": "/rn_ttd_act/$1initialPage=booking&$2=rn_ttd_act$3",
+			"keycode": "CRNModuleName=rn_ttd",
+			"beginVersion": "8.35.0",
+			"pattern": "\\/rn_ttd\\/(\\S*)initialPage=booking&(\\S*)=rn_ttd(&\\S*|$)"
+		},
+		{
+			"template": "/rn_ttd_xtaro/_crn_config?CRNModuleName=rn_ttd_xtaro&CRNType=1&initialPage=resource-detail&resourceid=$1&$3",
+			"keycode": "webapp/ticket/dest",
+			"beginVersion": "8.58.0",
+			"pattern": "^.*ticket\\/dest\\/r(\\d*).html(\\?(.*))?"
+		},
+		{
+			"template": "/rn_destination_poi/index.main.js?CRNModuleName=rn_destination_poi&CRNType=1&initialPage=sightDetail&businessId=$1&ext=$2&ctm_ref=$3",
+			"keycode": "CRNModuleName=rn_ttd",
+			"beginVersion": "8.22.0",
+			"pattern": "\\/rn_ttd\\/\\S*(?=(?:(?!id=).)*[\\?|&]id=(\\d+)?)\\S*(?=(?:(?!ext=).)*[\\?|&]ext=([^&]*))\\S*(?=(?:(?!ctm_ref=).)*[\\?|&]ctm_ref=([^&]*))\\S*(?=(?:(?!initialPage=).)*[\\?|&]initialPage=detail(&|$))\\S*"
+		},
+		{
+			"template": "/rn_destination_poi/index.main.js?CRNModuleName=rn_destination_poi&CRNType=1&initialPage=sightDetail&businessId=$1&ctm_ref=$2",
+			"keycode": "CRNModuleName=rn_ttd",
+			"beginVersion": "8.22.0",
+			"pattern": "\\/rn_ttd\\/\\S*(?=(?:(?!id=).)*[\\?|&]id=(\\d+)?)\\S*(?=(?:(?!ctm_ref=).)*[\\?|&]ctm_ref=([^&]*))\\S*(?=(?:(?!initialPage=).)*[\\?|&]initialPage=detail(&|$))\\S*"
+		},
+		{
+			"template": "/rn_destination_poi/index.main.js?CRNModuleName=rn_destination_poi&CRNType=1&initialPage=sightDetail&businessId=$1&ext=$2",
+			"keycode": "CRNModuleName=rn_ttd",
+			"beginVersion": "8.22.0",
+			"pattern": "\\/rn_ttd\\/\\S*(?=(?:(?!id=).)*[\\?|&]id=(\\d+)?)\\S*(?=(?:(?!ext=).)*[\\?|&]ext=([^&]*))\\S*(?=(?:(?!initialPage=).)*[\\?|&]initialPage=detail(&|$))\\S*"
+		},
+		{
+			"template": "/rn_destination_poi/index.main.js?CRNModuleName=rn_destination_poi&CRNType=1&initialPage=sightDetail&businessId=$1",
+			"keycode": "CRNModuleName=rn_ttd",
+			"beginVersion": "8.22.0",
+			"pattern": "\\/rn_ttd\\/\\S*(?=(?:(?!id=).)*[\\?|&]id=(\\d+)?)\\S*(?=(?:(?!initialPage=).)*[\\?|&]initialPage=detail(&|$))\\S*"
+		},
+		{
+			"template": "/rn_destination_ugc/main.js?CRNModuleName=rn_destination_ugc&CRNType=1&initialPage=comment_poiListPage&businessId=$1&businessType=11",
+			"keycode": "CRNModuleName=rn_ttd",
+			"beginVersion": "8.22.0",
+			"pattern": "\\/rn_ttd\\/\\S*(?=(?:(?!id=).)*[\\?|&]id=(\\d+)?)\\S*(?=(?:(?!initialPage=).)*[\\?|&]initialPage=commentlist(&|$))\\S*"
+		},
+		{
+			"template": "/rn_destination_poi/index.main.js?CRNModuleName=rn_destination_poi&CRNType=1&initialPage=sightDetail&businessId=$1",
+			"keycode": "ticket/index.html#/dest/t",
+			"beginVersion": "8.21.0",
+			"pattern": "\\S*ticket\\/index\\.html\\#\\/dest\\/t(\\d+).html\\S*"
+		},
+		{
+			"template": "/rn_ttd_xtaro/_crn_config?CRNModuleName=rn_ttd_xtaro&CRNType=1&initialPage=resource-detail&resourceid=$1&$3",
+			"keycode": "webapp/newtntticket/dest",
+			"beginVersion": "8.58.0",
+			"pattern": "^.*ticket\\/dest\\/r(\\d*).html(\\?(.*))?"
+		},
+		{
+			"template": "/rn_ttd_xtaro/_crn_config?CRNModuleName=rn_ttd_xtaro&CRNType=1&initialPage=resource-detail&$2",
+			"keycode": "webapp/taro/pages/tnt/detail/resource-detail",
+			"beginVersion": "8.58.0",
+			"pattern": ".*taro\\/pages\\/tnt\\/detail\\/resource-detail\\/index(\\/)?\\?(.*)"
+		},
+		{
+			"template": "/rn_ttd_xtaro/_crn_config?CRNModuleName=rn_ttd_xtaro&CRNType=1&initialPage=resource-detail&$1",
+			"keycode": "webapp/xtnt/resource-detail",
+			"beginVersion": "8.59.4",
+			"pattern": "^.*xtnt\\/resource-detail\\?(.*)"
+		},
+		{
+			"template": "/rn_ttd_xtaro/_crn_config?CRNModuleName=rn_ttd_xtaro&CRNType=1&initialPage=product-sku&$1",
+			"keycode": "webapp/xtnt/product-sku",
+			"beginVersion": "8.59.4",
+			"pattern": "^.*xtnt\\/product-sku\\?(.*)"
+		},
+		{
+			"template": "/rn_ttd_taro/_crn_config?CRNModuleName=rn_ttd_taro&CRNType=1&initialPage=productSku$1",
+			"keycode": "CRNModuleName=rn_ttd",
+			"beginVersion": "8.52.6",
+			"pattern": "\\/rn_ttd_act\\/_crn_config\\?CRNModuleName=rn_ttd_act&CRNType=1&initialPage=productSku(.*)"
+		},
+		{
+			"template": "/rn_ttd_xtaro/_crn_config?CRNModuleName=rn_ttd_xtaro&CRNType=1&initialPage=product-sku&$1",
+			"keycode": "CRNModuleName=rn_ttd",
+			"beginVersion": "8.52.6",
+			"pattern": "\\/rn_ttd_taro\\/_crn_config\\?CRNModuleName=rn_ttd_taro&CRNType=1&initialPage=productSku&(.*)"
+		}
+	],
+	"gsonsale": [
+		{
+			"template": "ctrip://wireless/destination/hybrid2?tab=hotsale&$1",
+			"keycode": "/webapp/you/xonsale/home",
+			"beginVersion": "8.68.6",
+			"pattern": ".*/webapp\\/you\\/xonsale\\/home\\??(.*)"
+		},
+		{
+			"template": "ctrip://wireless/destination/hybrid2?tab=gmka&_isRedirect=true$1",
+			"keycode": "/destination/hybrid2?tab=gmka",
+			"beginVersion": "8.80.6",
+			"pattern": "ctrip:\\/\\/wireless\\/destination\\/hybrid2\\?tab=gmka(.*)"
+		},
+		{
+			"template": "ctrip://wireless/h5?url=$1&type=2$2",
+			"keycode": "/destination/hybrid2?tab=gmka",
+			"beginVersion": "8.68.6",
+			"pattern": "^ctrip:\\/\\/wireless\\/destination\\/hybrid2\\?tab=gmka(?:&[^=]+=[^&]*)*&originUrl=([^&]+)(.*)"
+		},
+		{
+			"template": "ctrip://wireless/destination/hybrid2?tab=hotsale&$1",
+			"keycode": "/webapp/cw/gs/onsale/boomHome.html",
+			"beginVersion": "8.68.6",
+			"pattern": ".*/webapp\\/cw\\/gs\\/onsale\\/boomHome\\.html\\??(.*)"
+		},
+		{
+			"template": "/rn_destination_onsale_new/main.js?CRNModuleName=rn_destination_onsale_new&initialPage=$1&CRNType=1&isHideNavBar=YES&$2",
+			"keycode": "/webapp/cw/gs/onsale_new/",
+			"beginVersion": "8.61.4",
+			"pattern": ".*/webapp\\/cw\\/gs\\/onsale_new\\/((?:(?!home\\.html)[^/])+).html\\?(.*)"
+		},
+		{
+			"template": "ctrip://wireless/destination/hybrid?tab=hotsale&$1",
+			"keycode": "/webapp/cw/gs/onsale/boomHome.html",
+			"beginVersion": "8.56.0",
+			"pattern": ".*/webapp\\/cw\\/gs\\/onsale\\/boomHome\\.html\\??(.*)"
+		},
+		{
+			"template": "/rn_destination_onsale/main.js?CRNModuleName=rn_destination_onsale&initialPage=boomHome&CRNType=1&isHideNavBar=YES&$1",
+			"keycode": "/webapp/cw/gs/onsale/boomHome.html",
+			"beginVersion": "8.52.6",
+			"pattern": ".*/webapp\\/cw\\/gs\\/onsale\\/boomHome\\.html\\??(.*)"
+		},
+		{
+			"template": "/rn_destination_onsale/main.js?CRNModuleName=rn_destination_onsale&initialPage=rankList&CRNType=1&isHideNavBar=YES&$1",
+			"keycode": "/webapp/cw/gs/onsale/rankList.html",
+			"beginVersion": "8.52.6",
+			"pattern": ".*/webapp\\/cw\\/gs\\/onsale\\/rankList\\.html\\??(.*)"
+		},
+		{
+			"template": "/rn_xtaro_onsale/main.js?CRNModuleName=rn_xtaro_onsale$1&initialPage=home&_isRedirect=true$2",
+			"keycode": "CRNModuleName=rn_xtaro_onsale",
+			"beginVersion": "8.71.4",
+			"pattern": "/rn_xtaro_onsale/main.js\\?CRNModuleName=rn_xtaro_onsale(.*?)&initialPage=home(.*)"
+		},
+		{
+			"template": "/rn_destination_onsale_new/main.js?CRNModuleName=rn_destination_onsale_new$1&initialPage=homeV1$2",
+			"keycode": "CRNModuleName=rn_xtaro_onsale",
+			"beginVersion": "8.63.2",
+			"pattern": "/rn_xtaro_onsale/main.js\\?CRNModuleName=rn_xtaro_onsale(.*?)&initialPage=home(.*)"
+		},
+		{
+			"template": "/rn_destination_onsale/main.js?CRNModuleName=rn_destination_onsale&CRNType=1&initialPage=nationalThemeList&isCanGotoHome=true&$1",
+			"keycode": "/webapp/cw/gs/onsale/nationalThemeList",
+			"beginVersion": "8.68.6",
+			"pattern": ".*/webapp/cw/gs/onsale/nationalThemeList.html\\?(.*)"
+		}
+	],
+	"ticket": [
+		{
+			"template": "/rn_fs_home/_crn_config\\?CRNModuleName=CtripApp&CRNType=1&isHideNavBar=YES&c=10&p=2&bid=2&ctm_ref=M_ps_1home_sl",
+			"pattern": "/rn_ttd/crn_config\\?CRNModuleName=rn_ttd&CRNType=1&initialPage=ticket"
+		},
+		{
+			"template": "/rn_ttd_v2/_crn_config?CRNModuleName=rn_ttd_v2&CRNType=1&initialPage=orderdetail&orderid=$1",
+			"keycode": "ticket/index.html#/orderdetail?orderid",
+			"beginVersion": "8.26.0",
+			"pattern": "\\S*ticket\\/index\\.html\\#\\/orderdetail\\?orderid=(\\d+)\\S*"
+		},
+		{
+			"template": "/rn_ttd_v2/_crn_config?CRNModuleName=rn_ttd_v2&CRNType=1&initialPage=orderdetail&orderid=$1",
+			"keycode": "activity/index.html",
+			"beginVersion": "8.26.0",
+			"pattern": "\\S*activity\\/index\\.html\\#\\/orderdetail\\?orderid=(\\d+)\\S*"
+		},
+		{
+			"template": "/rn_ttd_v2/_crn_config?CRNModuleName=rn_ttd_v2&CRNType=1&initialPage=bookingcomplete&orderid=$1",
+			"keycode": "CRNModuleName=rn_ttd",
+			"beginVersion": "8.37.6",
+			"pattern": "/rn_ttd\\/\\S*(?=(?:(?!orderID=).)*[\\?|&]orderID=(\\d+)?)\\S*(?=(?:(?!initialPage=).)*[\\?|&]initialPage=bookingcomplete(&|$))\\S*"
+		},
+		{
+			"template": "/rn_ttd_v2/_crn_config?CRNModuleName=rn_ttd_v2&CRNType=1&initialPage=invoiceapply&orderid=$1",
+			"keycode": "ticket/index.html#/invoiceapply?orderid",
+			"beginVersion": "8.68.6",
+			"pattern": "\\S*ticket\\/index\\.html\\#\\/invoiceapply\\?orderid=(\\d+)\\S*"
+		},
+		{
+			"template": "/rn_ttd_v2/_crn_config?CRNModuleName=rn_ttd_v2&CRNType=1&initialPage=unsubscribe&$1",
+			"keycode": "tour/order_ttd/unsubscribe",
+			"beginVersion": "8.68.6",
+			"pattern": "^.*/tour\\/order_ttd\\/unsubscribe\\?(.*)"
+		},
+		{
+			"template": "/rn_ttd_taro_landing/_crn_config?CRNModuleName=rn_ttd_taro_landing&CRNType=1&initialPage=product-detail-snapshoot&productId=$1&snapshotId=$2",
+			"keycode": "ctrip://wireless/tour_daytour",
+			"beginVersion": "8.68.6",
+			"pattern": "^ctrip\\:/\\/wireless\\/tour_daytour\\?productId=(\\d+)&snapshotId=(\\S*)$"
+		}
+	],
+	"dingzhi": [
+		{
+			"template": "/rn_dingzhi_group/_crn_config?CRNModuleName=rn_dingzhi_group&CRNType=1&initialPage=tourlineDetail&isHideNavBar=YES&$3",
+			"keycode": "tourlineDetail",
+			"beginVersion": "8.52.6",
+			"pattern": ".*(vacations\\/)?(dingzhi|custom)\\/tourlineDetail\\?(?!.*ctm_ref=(?!vactang_page_129711|vactang_scene_523|vactang_page_130383|vactang_page_14147))(.*)"
+		},
+		{
+			"template": "/rn_dingzhi_order/_crn_config?CRNModuleName=rn_dingzhi_order&CRNType=1&initialPage=orderDetail&isHideNavBar=YES&$2",
+			"keycode": "dingzhi/order",
+			"beginVersion": "8.52.6",
+			"pattern": ".*(vacations/)?dingzhi/order\\?(.*)"
+		},
+		{
+			"template": "/rn_dingzhi_order/_crn_config?CRNModuleName=rn_dingzhi_order&CRNType=1&initialPage=orderDetail&$1",
+			"keycode": "CRNModuleName=rn_dingzhi_group",
+			"beginVersion": "8.52.6",
+			"pattern": "\\/rn_dingzhi_group/_crn_config\\?CRNModuleName=rn_dingzhi_group&CRNType=1&initialPage=orderDetail&(.*)"
+		},
+		{
+			"template": "/rn_dingzhi_order/_crn_config?CRNModuleName=rn_dingzhi_order&CRNType=1&initialPage=journeyDetail&isHideNavBar=YES&$2",
+			"keycode": "dingzhi/journey",
+			"beginVersion": "8.52.6",
+			"pattern": ".*(vacations/)?dingzhi/journey\\?(.*)"
+		}
+	],
+	"promocode": [
+		{
+			"template": "https://smarket.ctrip.com/webapp/promocode/index?$1",
+			"keycode": "promocode/index.html",
+			"beginVersion": "8.42",
+			"pattern": ".*\\/promocode/index.html#index\\?(.*)"
+		},
+		{
+			"template": "https://smarket.ctrip.com/webapp/promocode/add?$1",
+			"keycode": "promocode/index.html",
+			"beginVersion": "8.42",
+			"pattern": ".*\\/promocode/index.html#add\\?(.*)"
+		},
+		{
+			"template": "https://smarket.ctrip.com/webapp/promocode/collect?$1",
+			"keycode": "promocode/index.html",
+			"beginVersion": "8.42",
+			"pattern": ".*\\/promocode/index.html#collect\\?(.*)"
+		},
+		{
+			"template": "https://smarket.ctrip.com/webapp/promocode/history?$1",
+			"keycode": "promocode/index.html",
+			"beginVersion": "8.42",
+			"pattern": ".*\\/promocode/index.html#history\\?(.*)"
+		},
+		{
+			"template": "https://smarket.ctrip.com/webapp/promocode/transfer?$1",
+			"keycode": "promocode/index.html",
+			"beginVersion": "8.42",
+			"pattern": ".*\\/promocode/index.html#transfer\\?(.*)"
+		},
+		{
+			"template": "https://smarket.ctrip.com/webapp/promocode/explain?$1",
+			"keycode": "promocode/index.html",
+			"beginVersion": "8.42",
+			"pattern": ".*\\/promocode/index.html#explain\\?(.*)"
+		}
+	],
+	"gsdestination": [
+		{
+			"template": "/rn_destination_home/index.main.js?CRNModuleName=rn_destination_home&CRNType=1&initialPage=CTDestDestinationPage&districtId=$1&$2",
+			"keycode": "webapp/you/gsdestination/place",
+			"beginVersion": "8.52.6",
+			"pattern": ".*\\/webapp\\/you\\/gsdestination\\/place\\/(\\d+)\\.html\\??(.*)"
+		},
+		{
+			"template": "/rn_destination_home/index.main.js?CRNModuleName=rn_destination_home&CRNType=1&initialPage=CTDestDestinationPage&districtId=$1&$2",
+			"keycode": "webapp/you/place",
+			"beginVersion": "8.52.6",
+			"pattern": ".*\\/webapp\\/you\\/place\\/(\\d+)\\.html\\??(.*)"
+		}
+	],
+	"food": [
+		{
+			"template": "/rn_destination_foods/main.js?CRNModuleName=rn_destination_foods&CRNType=1&initialPage=specialFood&districtId=$1&$2",
+			"keycode": "food/specialFood",
+			"beginVersion": "8.27.0",
+			"pattern": ".*\\/webapp\\/gourmet\\/food\\/specialFood\\/(\\d+)\\.html\\??(.*)"
+		},
+		{
+			"template": "/rn_destination_foods/main.js?CRNModuleName=rn_destination_foods&CRNType=1&initialPage=homeList&$1",
+			"keycode": "food/homeList",
+			"beginVersion": "8.27.0",
+			"pattern": ".*\\/webapp\\/gourmet\\/food\\/homeList\\/address\\.html\\??(.*)"
+		},
+		{
+			"template": "/rn_destination_foods/main.js?CRNModuleName=rn_destination_foods&CRNType=1&initialPage=homeList&districtId=$1&$2",
+			"keycode": "food/homeList",
+			"beginVersion": "8.27.0",
+			"pattern": ".*\\/webapp\\/gourmet\\/food\\/homeList\\/(\\d+)\\.html\\??(.*)"
+		},
+		{
+			"template": "/rn_destination_foods/main.js?CRNModuleName=rn_destination_foods&CRNType=1&initialPage=foodDetail&districtId=$1&restId=$2&$3",
+			"keycode": "food/fooddetail",
+			"beginVersion": "8.27.0",
+			"pattern": ".*\\/webapp\\/gourmet\\/food\\/fooddetail\\/(\\d+)\\/(\\d+)\\.html\\??(.*)"
+		},
+		{
+			"template": "/rn_destination_foods/main.js?CRNModuleName=rn_destination_foods&CRNType=1&initialPage=searchList&$1",
+			"keycode": "food/search",
+			"beginVersion": "8.27.0",
+			"pattern": ".*\\/webapp\\/gourmet\\/food\\/search\\??(.*)"
+		},
+		{
+			"template": "/rn_destination_foods/main.js?CRNModuleName=rn_destination_foods&CRNType=1&initialPage=poiNear&districtId=$1&excludePoiId=$2&$3",
+			"keycode": "food/poiAroundFood",
+			"beginVersion": "8.27.0",
+			"pattern": ".*\\/webapp\\/gourmet\\/food\\/poiAroundFood\\/(\\d+)\\/(\\d+)\\.html\\??(.*)"
+		},
+		{
+			"template": "/rn_destination_foods/main.js?CRNModuleName=rn_destination_foods&CRNType=1&initialPage=epicureCollectionList&districtId=$1&$2",
+			"keycode": "food/getepicurecollectionlist",
+			"beginVersion": "8.27.0",
+			"pattern": ".*\\/webapp\\/you\\/foods\\/getepicurecollectionlist\\/(\\d+)\\.html\\??(.*)"
+		},
+		{
+			"template": "/rn_destination_foods/main.js?CRNModuleName=rn_destination_foods&CRNType=1&initialPage=epicureCollectionDetail&districtId=$1&id=$2&$3",
+			"keycode": "food/getepicurecollectiondetail",
+			"beginVersion": "8.27.0",
+			"pattern": ".*\\/webapp\\/you\\/foods\\/getepicurecollectiondetail\\/(\\d+)\\/(\\d+)\\.html\\??(.*)"
+		},
+		{
+			"template": "/rn_destination_foods/main.js?CRNModuleName=rn_destination_foods&CRNType=1&initialPage=smallList&districtId=$1&rankingId=$2&$3",
+			"keycode": "food/smallList",
+			"beginVersion": "8.27.0",
+			"pattern": ".*\\/webapp\\/you\\/foods\\/smallList\\/(\\d+)\\/(\\d+)\\.html\\??(.*)"
+		},
+		{
+			"template": "/rn_destination_foods/main.js?CRNModuleName=rn_destination_foods&CRNType=1&initialPage=homeList&districtId=$1&$3",
+			"keycode": "food/index.html",
+			"beginVersion": "8.26.2",
+			"pattern": "\\/food\\/index\\.html\\#foods\\/(\\d+).html(\\?)?(.*)/*"
+		},
+		{
+			"template": "/rn_destination_foods/main.js?CRNModuleName=rn_destination_foods&CRNType=1&initialPage=foodDetail&districtId=$3&restId=$4&$6",
+			"keycode": "food/index.html",
+			"beginVersion": "8.26.2",
+			"pattern": "\\/food\\/index\\.html\\#(foods|food)\\/([a-zA-Z]*(\\d+))\\/(\\d+).html(\\?)?(.*)"
+		},
+		{
+			"template": "/rn_destination_foods/main.js?CRNModuleName=rn_destination_foods&CRNType=1&initialPage=poiNear&districtId=$2&excludePoiId=$3&$5",
+			"keycode": "food/index.html",
+			"beginVersion": "8.26.2",
+			"pattern": "\\/food\\/index\\.html\\#(foods|restaurant)\\/\\D*(\\d+)\\/(\\d+)-food.html(\\?)?(.*)/*"
+		},
+		{
+			"template": "/rn_ttd_act/_crn_config?CRNModuleName=rn_ttd_act&CRNType=1&initialPage=list?1=1",
+			"keycode": "food/index.html",
+			"beginVersion": "8.26.2",
+			"pattern": "/food\\/index\\.html\\#foods\\/getepicurecollectionlist\\/(\\d+).html(\\?)?(.*)/*"
+		},
+		{
+			"template": "/rn_destination_foods/main.js?CRNModuleName=rn_destination_foods&CRNType=1&initialPage=epicureCollectionDetail&districtId=$1&id=$2&$4",
+			"keycode": "food/index.html",
+			"beginVersion": "8.26.2",
+			"pattern": "/food\\/index\\.html\\#foods\\/getepicurecollectiondetail\\/(\\d+)\\/(\\d+).html(\\?)?(.*)/*"
+		},
+		{
+			"template": "/rn_destination_foods/main.js?CRNModuleName=rn_destination_foods&CRNType=1&initialPage=specialFood&districtId=$1&foodId=$2&$4",
+			"keycode": "food/index.html",
+			"beginVersion": "8.43.0",
+			"pattern": ".*\\/food\\/index\\.html\\#foods\\/(\\d+)\\/feature\\/(\\d+).html(\\?)?(.*)"
+		},
+		{
+			"template": "/rn_destination_foods/main.js?CRNModuleName=rn_destination_foods&CRNType=1&initialPage=foodDetail&districtId=0&restId=$1&$2",
+			"keycode": "html5/you/foods/restaurant",
+			"beginVersion": "8.27.0",
+			"pattern": ".*\\/html5\\/you\\/foods\\/restaurant\\/(\\d+)\\??(.*)"
+		},
+		{
+			"template": "/rn_destination_foods/main.js?CRNModuleName=rn_destination_foods&CRNType=1&initialPage=foodDetail&districtId=0&restId=$1&$2",
+			"keycode": "html5/you/foods/restaurant",
+			"beginVersion": "8.27.0",
+			"pattern": ".*\\/html5\\/you\\/foods\\/restaurant\\/(\\d+)\\.html\\??(.*)"
+		}
+	],
+	"livestream": [
+		{
+			"template": "https://m.ctrip.com/webapp/you/tripshoot/user/home?seo=0&isHideHeader=true&isHideNavBar=YES&$1",
+			"keycode": "/webapp/you/livestream/gsUser",
+			"beginVersion": "8.43",
+			"pattern": ".*\\/webapp\\/you\\/livestream\\/gsUser\\?(.*)"
+		},
+		{
+			"template": "ctrip://wireless/LiveStream/LiveChannel?source=home_livewindow",
+			"keycode": "/webapp/you/live/webcast/home",
+			"beginVersion": "8.50.0",
+			"pattern": "https://m.ctrip.com/webapp/you/live/webcast/home\\?isHideHeader=true&isHideNavBar=YES&navBarStyle=white&autoawaken=close&popup=close&type=channel&id=2&source=home_livewindow"
+		},
+		{
+			"template": "ctrip://wireless/destination/toLiveStream?liveID=136576&source=zbbanner",
+			"keycode": "/webapp/you/live/share/",
+			"beginVersion": "8.50.0",
+			"pattern": "https://m.ctrip.com/webapp/you/live/share/home\\?liveID=136576&playbackType=-1&autoawaken=close&popup=close&liveAwaken=0&source=zbbanner&webx=0&source=channelbanner_2"
+		},
+		{
+			"template": "ctrip://wireless/destination/toLiveStream?$1",
+			"keycode": "/webapp/you/live/share/",
+			"beginVersion": "8.50.0",
+			"pattern": "https://m.ctrip.com/webapp/you/live/share/home\\?(.*)"
+		}
+	],
+	"tour": [
+		{
+			"template": "ctrip://wireless/tour_vacation_detail?$1",
+			"keycode": "webapp/vacations/tour/detail",
+			"beginVersion": "8.59.0",
+			"pattern": ".*/webapp\\/vacations\\/tour\\/detail\\?(?!.*(?:snapshotId))(.*)"
+		},
+		{
+			"template": "ctrip://wireless/tour_vacation_detail?productId=$1&departCityId=$2",
+			"keycode": "travel/detail",
+			"beginVersion": "8.59.0",
+			"pattern": ".*/vacations\\.ctrip.+?com/travel/detail/p(\\d+)(?:.+?city=(\\d+))?"
+		},
+		{
+			"template": "ctrip://wireless/tour_vacation_detail?productId=$1&departCityId=$2",
+			"keycode": ".com/tour/detail",
+			"beginVersion": "8.59.0",
+			"pattern": ".*/vacations\\.ctrip.+?com\\/tour\\/detail\\/p(\\d+)s(\\d+)\\.html.*"
+		},
+		{
+			"template": "ctrip://wireless/tour_vacation_detail?productId=$1&departCityId=$2",
+			"keycode": "morelinetravel",
+			"beginVersion": "8.59.0",
+			"pattern": ".*/vacations\\.ctrip.+?com\\/morelinetravel\\/p(\\d+)s(\\d+)\\.html.*"
+		},
+		{
+			"template": "ctrip://wireless/tour_vacation_detail?productId=$1&departCityId=$2",
+			"keycode": "grouptravel",
+			"beginVersion": "8.59.0",
+			"pattern": ".*/vacations\\.ctrip.+?com\\/grouptravel\\/p(\\d+)s(\\d+)\\.html.*"
+		},
+		{
+			"template": "ctrip://wireless/tour_vacation_detail?productId=$1&departCityId=$2",
+			"keycode": "freetravel",
+			"beginVersion": "8.59.0",
+			"pattern": ".*/vacations\\.ctrip.+?com\\/freetravel\\/p(\\d+)s(\\d+)\\.html.*"
+		},
+		{
+			"template": "/rn_vacations_order_detail/_crn_config?CRNModuleName=rn_vacations_order_detail&CRNType=1&initialPage=order&orderid=$2$1$3",
+			"keycode": "/tour/order_info/order_detail",
+			"beginVersion": "8.66.0",
+			"pattern": ".*/tour/order_info/order_detail\\?(.*)[oO]{1}rder[iI]{1}d=(\\d+)(.*)"
+		},
+		{
+			"template": "/rn_vac_comment/_crn_config?CRNModuleName=ctrip-app&CRNType=1&initialPage=OrderComment&channel=vacations-visa&$1$2",
+			"keycode": "/webapp/vacations/order/public/order_comment",
+			"beginVersion": "8.68.6",
+			"pattern": ".*/webapp/vacations/order/public/order_comment\\?(.*)channel=vacations-visa(.*)"
+		},
+		{
+			"template": "/rn_vac_comment/_crn_config?CRNModuleName=ctrip-app&CRNType=1&initialPage=OrderAddComment&channel=vacations-visa&$1$2",
+			"keycode": "/webapp/vacations/order/public/order_additional_comment",
+			"beginVersion": "8.68.6",
+			"pattern": ".*/webapp/vacations/order/public/order_additional_comment\\?(.*)channel=vacations-visa(.*)"
+		},
+		{
+			"template": "/rn_vac_comment/_crn_config?CRNModuleName=ctrip-app&CRNType=1&initialPage=OrderComment&channel=vacations-cru&$1$2",
+			"keycode": "/webapp/vacations/order/public/order_comment",
+			"beginVersion": "8.68.6",
+			"pattern": ".*/webapp/vacations/order/public/order_comment\\?(.*)channel=vacations-cru(.*)"
+		},
+		{
+			"template": "/rn_vac_comment/_crn_config?CRNModuleName=ctrip-app&CRNType=1&initialPage=OrderAddComment&channel=vacations-cru&$1$2",
+			"keycode": "/webapp/vacations/order/public/order_additional_comment",
+			"beginVersion": "8.68.6",
+			"pattern": ".*/webapp/vacations/order/public/order_additional_comment\\?(.*)channel=vacations-cru(.*)"
+		},
+		{
+			"template": "/rn_vac_comment/_crn_config?CRNModuleName=ctrip-app&CRNType=1&initialPage=OrderComment&channel=vacations-cus&$1$2",
+			"keycode": "/webapp/vacations/order/public/order_comment",
+			"beginVersion": "8.68.6",
+			"pattern": ".*/webapp/vacations/order/public/order_comment\\?(.*)channel=vacations-cus(.*)"
+		},
+		{
+			"template": "/rn_vac_comment/_crn_config?CRNModuleName=ctrip-app&CRNType=1&initialPage=OrderAddComment&channel=vacations-cus&$1$2",
+			"keycode": "/webapp/vacations/order/public/order_additional_comment",
+			"beginVersion": "8.68.6",
+			"pattern": ".*/webapp/vacations/order/public/order_additional_comment\\?(.*)channel=vacations-cus(.*)"
+		},
+		{
+			"template": "/rn_vac_comment/_crn_config?CRNModuleName=ctrip-app&CRNType=1&initialPage=OrderComment&channel=ttd-gst&$1$2",
+			"keycode": "/webapp/vacations/order/public/order_comment",
+			"beginVersion": "8.68.6",
+			"pattern": ".*/webapp/vacations/order/public/order_comment\\?(.*)channel=ttd-gst(.*)"
+		},
+		{
+			"template": "/rn_vac_comment/_crn_config?CRNModuleName=ctrip-app&CRNType=1&initialPage=OrderAddComment&channel=ttd-gst&$1$2",
+			"keycode": "/webapp/vacations/order/public/order_additional_comment",
+			"beginVersion": "8.68.6",
+			"pattern": ".*/webapp/vacations/order/public/order_additional_comment\\?(.*)channel=ttd-gst(.*)"
+		},
+		{
+			"template": "/rn_vac_comment/_crn_config?CRNModuleName=ctrip-app&CRNType=1&initialPage=OrderComment&channel=vacations-diy&$1$2",
+			"keycode": "/webapp/vacations/order/public/order_comment",
+			"beginVersion": "8.68.6",
+			"pattern": ".*/webapp/vacations/order/public/order_comment\\?(.*)channel=vacations-diy(.*)"
+		},
+		{
+			"template": "/rn_vac_comment/_crn_config?CRNModuleName=ctrip-app&CRNType=1&initialPage=OrderAddComment&channel=vacations-diy&$1$2",
+			"keycode": "/webapp/vacations/order/public/order_additional_comment",
+			"beginVersion": "8.68.6",
+			"pattern": ".*/webapp/vacations/order/public/order_additional_comment\\?(.*)channel=vacations-diy(.*)"
+		},
+		{
+			"template": "/rn_vac_comment/_crn_config?CRNModuleName=ctrip-app&CRNType=1&initialPage=OrderComment&channel=ttd-act&$1$2",
+			"keycode": "/webapp/vacations/order/public/order_comment",
+			"beginVersion": "8.68.6",
+			"pattern": ".*/webapp/vacations/order/public/order_comment\\?(.*)channel=ttd-act(.*)"
+		},
+		{
+			"template": "/rn_vac_comment/_crn_config?CRNModuleName=ctrip-app&CRNType=1&initialPage=OrderAddComment&channel=ttd-act&$1$2",
+			"keycode": "/webapp/vacations/order/public/order_additional_comment",
+			"beginVersion": "8.68.6",
+			"pattern": ".*/webapp/vacations/order/public/order_additional_comment\\?(.*)channel=ttd-act(.*)"
+		},
+		{
+			"template": "/rn_vac_comment/_crn_config?CRNModuleName=ctrip-app&CRNType=1&initialPage=OrderComment&channel=car-rental&$1$2",
+			"keycode": "/webapp/vacations/order/public/order_comment",
+			"beginVersion": "8.68.6",
+			"pattern": ".*/webapp/vacations/order/public/order_comment\\?(.*)channel=car-rental(.*)"
+		},
+		{
+			"template": "/rn_vac_comment/_crn_config?CRNModuleName=ctrip-app&CRNType=1&initialPage=OrderAddComment&channel=car-rental&$1$2",
+			"keycode": "/webapp/vacations/order/public/order_additional_comment",
+			"beginVersion": "8.68.6",
+			"pattern": ".*/webapp/vacations/order/public/order_additional_comment\\?(.*)channel=car-rental(.*)"
+		}
+	],
+	"plathome_entrance": [
+		{
+			"template": "ctrip://wireless/train_plathome?1=1",
+			"keycode": "rn_eurail",
+			"beginVersion": "8.26.0",
+			"pattern": "^\\/rn_eurail\\/(_crn_config|index.ios.js|index.android.js)((?!.*initialPage=)|(?:.*initialPage=index)).*"
+		},
+		{
+			"template": "ctrip://wireless/train_plathome?1=1",
+			"keycode": "rn_bus",
+			"beginVersion": "8.26.0",
+			"pattern": "^\\/rn_bus\\/(((?=.*Page=[iI]ndex)|(?!.*homePage)(?!.*initialPage))(?!.*selectTabIndex=1)).*",
+			"urlEncodeOriginUrl": true
+		},
+		{
+			"template": "ctrip://wireless/train_plathome?1=1",
+			"keycode": "rn_bus",
+			"beginVersion": "8.27.0",
+			"pattern": "^\\/rn_bus\\/(((?=.*Page=[iI]ndex)|(?!.*homePage)(?!.*initialPage))(?=.*selectTabIndex=1)|(?=.*Page=[sS]hipIndex)).*",
+			"urlEncodeOriginUrl": true
+		},
+		{
+			"template": "ctrip://wireless/plathome?groupId=PlatHomeCar&tabId=car$1$2",
+			"keycode": "/rn_car_app/",
+			"beginVersion": "8.42.2",
+			"pattern": "^\\/rn_car_app\\/_crn_config\\?CRNModuleName=rn_car_app&CRNType=1&initialPage=Market(.*)&landingto=Home(.*)"
+		},
+		{
+			"template": "/rn_xtaro_car_main/_crn_config?CRNModuleName=rn_xtaro_car_main$1",
+			"keycode": "/rn_car_app/",
+			"beginVersion": "8.68.6",
+			"pattern": "^\\/rn_car_app\\/_crn_config\\?CRNModuleName=rn_car_app(?!.*\\blandingto=Home\\b)(.*)"
+		},
+		{
+			"template": "/rn_xtaro_car_main/_crn_config?CRNModuleName=rn_xtaro_car_main$1",
+			"keycode": "/rn_car_main/",
+			"beginVersion": "8.68.6",
+			"pattern": "^\\/rn_car_main\\/_crn_config\\?CRNModuleName=rn_car_main(?!.*\\blandingto=Home\\b)(.*)"
+		},
+		{
+			"template": "ctrip://wireless/plathome?groupId=PlatHomeCar&tabId=jnt",
+			"keycode": "/rn_igt_airport/",
+			"beginVersion": "8.42.2",
+			"pattern": "^(/rn_igt_airport/(?=.*[\\?&]initialPage=(newindex|index))(?=.*[\\?&]ptgroup=(17|18|19)).*)"
+		},
+		{
+			"template": "ctrip://wireless/plathome?groupId=PlatHomeCar&tabId=train",
+			"keycode": "/rn_igt_airport/",
+			"beginVersion": "8.42.2",
+			"pattern": "^(/rn_igt_airport/(?=.*[\\?&]initialPage=(newindex|index))(?=.*[\\?&]ptgroup=16).*)"
+		},
+		{
+			"template": "ctrip://wireless/plathome?groupId=PlatHomeCar&tabId=domChartered",
+			"keycode": "/rn_igt_airport/",
+			"beginVersion": "8.42.2",
+			"pattern": "^(/rn_igt_airport/(?=.*[\\?&]initialPage=(newindex|index))(?=.*[\\?&]ptgroup=68).*)"
+		},
+		{
+			"template": "ctrip://wireless/plathome?groupId=PlatHomeCar&tabId=domChartered",
+			"keycode": "/rn_igt_airport/",
+			"beginVersion": "8.42.2",
+			"pattern": "^(/rn_igt_airport/(?=.*[\\?&]ptgroup=68).*)"
+		},
+		{
+			"template": "ctrip://wireless/plathome?groupId=PlatHomeCar&tabId=domChartered$1$3",
+			"keycode": "tabId=day",
+			"beginVersion": "8.42.2",
+			"pattern": "^ctrip:\\/\\/wireless\\/plathome\\?groupId=PlatHomeCar&tabId=day(.*?)(&initialPage=mixinIndex)?(.*)"
+		},
+		{
+			"template": "ctrip://wireless/plathome?groupId=PlatHomeCar&tabId=domChartered",
+			"keycode": "tabId=guide",
+			"beginVersion": "8.42.2",
+			"pattern": "^(ctrip:\\/\\/wireless\\/plathome(?=.*[\\?&]groupId=PlatHomeCar)(?=.*[\\?&]tabId=guide).*)"
+		},
+		{
+			"template": "/rn_xtaro_chartered/_crn_config?CRNModuleName=rn_xtaro_chartered&CRNType=1&initialPage=prdList&",
+			"keycode": "/webapp/zhuanche/xtaro-chartered/prd-list",
+			"beginVersion": "8.42.2",
+			"pattern": "^(https?://)?[^/]+/webapp/zhuanche/xtaro-chartered/prd-list\\?(.*?)"
+		},
+		{
+			"template": "/rn_xtaro_chartered/_crn_config?CRNModuleName=rn_xtaro_chartered&CRNType=1&initialPage=prdDetail&",
+			"keycode": "/webapp/zhuanche/xtaro-chartered/prd-detail",
+			"beginVersion": "8.42.2",
+			"pattern": "^(https?://)?[^/]+/webapp/zhuanche/xtaro-chartered/prd-detail\\?(.*?)"
+		},
+		{
+			"template": "ctrip://wireless/plathome?groupId=PlatHomeCar&tabId=jnt",
+			"keycode": "/rn_igt_airport/",
+			"beginVersion": "8.42.2",
+			"pattern": "^(/rn_igt_airport/(?=.*[\\?&]initialPage=(newindex|index))(?!.*([\\?&]ptgroup|=PlatHomeCar)).*)"
+		},
+		{
+			"template": "/rn_igt_airport/_crn_config?CRNModuleName=rn_igt_airport&CRNType=1&initialPage=UsecarHome",
+			"keycode": "/rn_igt_airport/",
+			"beginVersion": "8.50.0",
+			"pattern": "^(/rn_igt_airport/(?=.*[\\?&]initialPage=(newindex|index))(?=.*[\\?&]ptgroup=(55)).*)"
+		},
+		{
+			"template": "/rn_igt_airport/_crn_config?CRNModuleName=rn_igt_airport&CRNType=1&initialPage=UsecarHome",
+			"keycode": "/rn_hailing/",
+			"beginVersion": "8.50.0",
+			"pattern": "^(/rn_hailing/(?=.*[\\?&]initialPage=(index|mixindex))(?=.*[\\?&]channelid=(235595|235407|235616|90207|235634|235418|235631|235702|235851|235714|235647|235648|235699|90048|235328|235805|235645|235391)).*)"
+		},
+		{
+			"template": "/rn_xtaro_dcs_order/_crn_config?CRNModuleName=rn_xtaro_dcs_order&CRNType=1&initialPage=rtnDetail$2",
+			"keycode": "/rn_usecar/",
+			"beginVersion": "8.68.6",
+			"pattern": "^/rn_usecar/((?=.*?initialPage=OrderDetailV3(&.*)?$)(.*))"
+		},
+		{
+			"template": "/rn_xtaro_dcs_order/_crn_config?CRNModuleName=rn_xtaro_dcs_order&CRNType=1&initialPage=rtnUserAppeal$2",
+			"keycode": "/rn_usecar/",
+			"beginVersion": "8.68.6",
+			"pattern": "^/rn_usecar/((?=.*?initialPage=UserAppeal(&.*)?$)(.*))"
+		},
+		{
+			"template": "/rn_xtaro_dcs_order/_crn_config?CRNModuleName=rn_xtaro_dcs_order&CRNType=1&initialPage=rtnDriverLateAppeal$2",
+			"keycode": "/rn_usecar/",
+			"beginVersion": "8.68.6",
+			"pattern": "^/rn_usecar/((?=.*?initialPage=DriverLateAppealV3(&.*)?$)(.*))"
+		},
+		{
+			"template": "/rn_xtaro_dcs_order/_crn_config?CRNModuleName=rn_xtaro_dcs_order&CRNType=1&initialPage=rtnOrderTips$2",
+			"keycode": "/rn_usecar/",
+			"beginVersion": "8.68.6",
+			"pattern": "^/rn_usecar/((?=.*?initialPage=OrderTips(&.*)?$)(.*))"
+		}
+	],
+	"tangram": [
+		{
+			"template": "/rn_tour_tangram/_crn_config?CRNModuleName=rn_tangram&CRNType=1&initialPage=VacationTangram&pageId=MzA0OQ==&$1",
+			"keycode": "/tangram/",
+			"beginVersion": "8.29",
+			"pattern": ".*\\/tangram/vacations\\?(.*)"
+		},
+		{
+			"template": "/rn_tour_tangram/_crn_config?CRNModuleName=rn_tangram&CRNType=1&initialPage=VacationTangram&pageId=MzA0OQ==&$1",
+			"keycode": "/tangram/",
+			"beginVersion": "8.29",
+			"pattern": ".*\\/tangram/MzA0OQ==\\?(.*)"
+		},
+		{
+			"template": "/rn_tour_tangram/_crn_config?CRNModuleName=rn_tangram&CRNType=1&initialPage=VacationTangram&pageId=MTE0NA==&$1",
+			"keycode": "/tangram/",
+			"beginVersion": "8.29",
+			"pattern": ".*\\/tangram/tour\\?(.*)"
+		},
+		{
+			"template": "/rn_tour_tangram/_crn_config?CRNModuleName=rn_tangram&CRNType=1&initialPage=VacationTangram&pageId=MTE0NA==&$1",
+			"keycode": "/tangram/",
+			"beginVersion": "8.29",
+			"pattern": ".*\\/tangram/MTE0NA==\\?(.*)"
+		},
+		{
+			"template": "/rn_tour_tangram/_crn_config?CRNModuleName=rn_tangram&CRNType=1&initialPage=VacationTangram&pageId=NjA4OQ==&$1",
+			"keycode": "/tangram/",
+			"beginVersion": "8.29",
+			"pattern": ".*\\/tangram/travel-around\\?(.*)"
+		},
+		{
+			"template": "/rn_tour_tangram/_crn_config?CRNModuleName=rn_tangram&CRNType=1&initialPage=VacationTangram&pageId=NjA4OQ==&$1",
+			"keycode": "/tangram/",
+			"beginVersion": "8.29",
+			"pattern": ".*\\/tangram/NjA4OQ==\\?(.*)"
+		},
+		{
+			"template": "/rn_tour_tangram/_crn_config?CRNModuleName=rn_tangram&CRNType=1&initialPage=VacationTangram&pageId=MjczNQ==&$1",
+			"keycode": "/tangram/",
+			"beginVersion": "8.29",
+			"pattern": ".*\\/tangram/idiytour\\?(.*)"
+		},
+		{
+			"template": "/rn_tour_tangram/_crn_config?CRNModuleName=rn_tangram&CRNType=1&initialPage=VacationTangram&pageId=MjczNQ==&$1",
+			"keycode": "/tangram/",
+			"beginVersion": "8.29",
+			"pattern": ".*\\/tangram/MjczNQ==\\?(.*)"
+		},
+		{
+			"template": "/rn_tour_tangram/_crn_config?CRNModuleName=rn_tangram&CRNType=1&initialPage=VacationTangram&pageId=ODAw&$1",
+			"keycode": "/tangram/",
+			"beginVersion": "8.29",
+			"pattern": ".*\\/tangram/minitour\\?(.*)"
+		},
+		{
+			"template": "/rn_tour_tangram/_crn_config?CRNModuleName=rn_tangram&CRNType=1&initialPage=VacationTangram&pageId=ODM1MA==&$1",
+			"keycode": "/tangram/",
+			"beginVersion": "8.32.2",
+			"pattern": ".*\\/tangram/daytour\\?(.*)"
+		},
+		{
+			"template": "/rn_tour_tangram/_crn_config?CRNModuleName=rn_tangram&CRNType=1&initialPage=VacationTangram&pageId=ODM0OQ==&$1",
+			"keycode": "/tangram/",
+			"beginVersion": "8.32.2",
+			"pattern": ".*\\/tangram/ticket\\?(.*)"
+		},
+		{
+			"template": "/rn_tour_tangram/_crn_config?CRNModuleName=rn_tangram&CRNType=1&initialPage=VacationTangram&pageId=NjA5Mw==&$1",
+			"keycode": "/tangram/",
+			"beginVersion": "8.32.2",
+			"pattern": ".*\\/tangram/localguide\\?(.*)"
+		},
+		{
+			"template": "/rn_tour_tangram/_crn_config?CRNModuleName=rn_tangram&CRNType=1&initialPage=VacationTangram&pageId=ODM0OQ==&ctm_ref=vactang_page_8349&coords=1",
+			"keycode": "CRNModuleName=rn_ttd",
+			"beginVersion": "8.37.0",
+			"pattern": "\\/rn_ttd\\/(?!.*(?:\\?|&)districtid=\\d+(?:&|$))(?!.*(?:\\?|&)sourceFrom=dayTrip(?:&|$))(?=.*(?:\\?|&)initialPage=ticket(?:&|$))(?=.*(?:\\?|&)CRNModuleName=rn_ttd(?:&|$)).*"
+		},
+		{
+			"template": "/rn_ttd_act/_crn_config?CRNModuleName=rn_ttd_act&CRNType=1&initialPage=list&citytype=$1&id=$2&name=$3&pshowcode=Ticket2",
+			"keycode": "CRNModuleName=rn_ttd",
+			"beginVersion": "8.37.0",
+			"pattern": "\\/rn_ttd\\/(?=.*(?:\\?|&)type=([\\w-^%@\\x27,;=?$\\x22]+)(?:&|$))(?=.*(?:\\?|&)id=(\\d+)(?:&|$))(?=.*(?:\\?|&)name=(.+)(?:&|$))(?=.*(?:\\?|&)initialPage=list(?:&|$))(?=.*(?:\\?|&)CRNModuleName=rn_ttd(?:&|$)).*"
+		},
+		{
+			"template": "/rn_tour_tangram/_crn_config?CRNModuleName=rn_tangram&CRNType=1&initialPage=VacationTangram&pageId=ODM0OQ==&ctm_ref=vactang_page_8349&coords=1",
+			"keycode": "CRNModuleName=rn_ttd",
+			"beginVersion": "8.37.0",
+			"pattern": "\\/rn_ttd\\/(?=.*(?:\\?|&)ext=source_ttdsms(?:&|$))(?=.*(?:\\?|&)CRNModuleName=rn_ttd(?:&|$))(?=.*(?:\\?|&)initialPage=addremark(?:&|$)).*"
+		},
+		{
+			"template": "/rn_tour_tangram/_crn_config?CRNModuleName=rn_tangram&CRNType=1&initialPage=VacationTangram&pageId=ODM1MA==&ctm_ref=vactang_page_8350&coords=1&districtId=$1",
+			"keycode": "CRNModuleName=rn_ttd",
+			"beginVersion": "8.37.0",
+			"pattern": "\\/rn_ttd\\/(?=.*(?:\\?|&)districtid=(\\d+)(?:&|$))(?=.*(?:\\?|&)sourceFrom=dayTrip(?:&|$))(?=.*(?:\\?|&)initialPage=ticket(?:&|$))(?=.*(?:\\?|&)CRNModuleName=rn_ttd(?:&|$)).*"
+		},
+		{
+			"template": "/rn_tour_tangram/_crn_config?CRNModuleName=rn_tangram&CRNType=1&initialPage=VacationTangram&pageId=ODM0OQ==&ctm_ref=vactang_page_8349&coords=1&districtId=$1",
+			"keycode": "CRNModuleName=rn_ttd",
+			"beginVersion": "8.37.0",
+			"pattern": "\\/rn_ttd\\/(?=.*(?:\\?|&)districtid=(\\d+)(?:&|$))(?!.*(?:\\?|&)sourceFrom=dayTrip(?:&|$))(?=.*(?:\\?|&)initialPage=ticket(?:&|$))(?=.*(?:\\?|&)CRNModuleName=rn_ttd(?:&|$)).*"
+		},
+		{
+			"template": "/rn_ttd_xtaro/_crn_config?CRNModuleName=rn_ttd_xtaro&CRNType=1&initialPage=new-product-detail&productId=$1",
+			"keycode": "CRNModuleName=rn_ttd",
+			"beginVersion": "8.41.2",
+			"pattern": "\\/rn_ttd_act\\/(?=.*(?:\\?|&)productId=(\\d+)(?:&|$))(?=.*(?:\\?|&)initialPage=productdetail(?:&|$)).*"
+		},
+		{
+			"template": "/rn_ttd_xtaro/_crn_config?CRNModuleName=rn_ttd_xtaro&CRNType=1&initialPage=new-product-detail&cmapping_origin_url=$1",
+			"keycode": "CRNModuleName=rn_ttd",
+			"beginVersion": "8.41.6",
+			"pattern": "\\/rn_ttd_act\\/(?=.*(?:\\?|&)cmapping_origin_url=([A-Za-z0-9+\\/=]+)(?:&|$))(?=.*(?:\\?|&)initialPage=productdetail(?:&|$)).*"
+		},
+		{
+			"template": "/rn_ttd_xtaro/_crn_config?CRNModuleName=rn_ttd_xtaro&CRNType=1&initialPage=new-product-detail&productId=$1&$3",
+			"keycode": "activity/index.html",
+			"beginVersion": "8.41.6",
+			"pattern": "/?activity/index.html#/dest/t(?!123\\.)([\\d]*)\\.html(\\?(.*))?"
+		},
+		{
+			"template": "/rn_ttd_xtaro/_crn_config?CRNModuleName=rn_ttd_xtaro&CRNType=1&initialPage=new-product-detail&productId=$1&$3",
+			"keycode": "activity/index.html",
+			"beginVersion": "8.41.6",
+			"pattern": "/?activity/index.html#/webapp/activity/dest/t(?!123\\.)([\\d]*)\\.html(\\?(.*))?"
+		},
+		{
+			"template": "/rn_ttd_xtaro/_crn_config?CRNModuleName=rn_ttd_xtaro&CRNType=1&initialPage=new-product-detail&productId=$1&$3",
+			"keycode": "activity/index.html",
+			"beginVersion": "8.41.6",
+			"pattern": "/?activity/index.html#/webapp/acitivity/dest/t(?!123\\.)([\\d]*)\\.html(\\?(.*))?"
+		},
+		{
+			"template": "/rn_ttd_xtaro/_crn_config?CRNModuleName=rn_ttd_xtaro&CRNType=1&initialPage=resource-detail&resourceid=$1",
+			"keycode": "CRNModuleName=rn_ttd",
+			"beginVersion": "8.58.0",
+			"pattern": "\\/rn_ttd_taro\\/_crn_config\\?CRNModuleName=rn_ttd_taro&CRNType=1&initialPage=resourceDetail&resourceid=(\\d*)"
+		},
+		{
+			"template": "/rn_ttd_xtaro/_crn_config?CRNModuleName=rn_ttd_xtaro&CRNType=1&initialPage=resource-detail&resourceid=$1",
+			"keycode": "CRNModuleName=rn_ttd",
+			"beginVersion": "8.58.0",
+			"pattern": "\\/rn_ttd_act\\/_crn_config\\?CRNModuleName=rn_ttd_act&CRNType=1&initialPage=resourceDetail&resourceid=(\\d*)"
+		},
+		{
+			"template": "/rn_ttd_taro_landing/_crn_config?CRNModuleName=rn_ttd_taro_landing&CRNType=1&initialPage=product-detail-snapshoot&productId=$2&snapshotId=$1",
+			"keycode": "CRNModuleName=rn_ttd",
+			"beginVersion": "8.52.6",
+			"pattern": "\\/rn_ttd_taro/_crn_config\\?snapshotId=(.+)&productId=(\\d+).*&initialPage=product-detail&CRNModuleName=rn_ttd_taro&CRNType=1"
+		},
+		{
+			"template": "/rn_ttd_taro_landing/_crn_config?CRNModuleName=rn_ttd_taro_landing&CRNType=1&initialPage=product-detail-snapshoot&productId=$2&snapshotId=$1",
+			"keycode": "CRNModuleName=rn_ttd",
+			"beginVersion": "8.52.6",
+			"pattern": "\\/rn_ttd_taro\\/_crn_config\\?CRNModuleName=rn_ttd_taro&CRNType=1&initialPage=product-detail.*&snapshotId=(.+).*&productId=(\\d+)"
+		},
+		{
+			"template": "/rn_ttd_xtaro/_crn_config?CRNModuleName=rn_ttd_xtaro&CRNType=1&initialPage=list$3",
+			"keycode": "CRNModuleName=rn_ttd",
+			"beginVersion": "8.59.4",
+			"pattern": "\\/rn_ttd_act\\/(\\S*)=rn_ttd_act(\\S*)initialPage=list(&\\S*|$)"
+		},
+		{
+			"template": "/rn_ttd_taro/_crn_config?CRNModuleName=rn_ttd_taro&CRNType=1&initialPage=searchpage$2",
+			"keycode": "CRNModuleName=rn_ttd",
+			"beginVersion": "8.43.0",
+			"pattern": "(\\/rn_ttd_act\\/_crn_config\\?CRNModuleName=rn_ttd_act&CRNType=1&initialPage=searchpage)(.*)$"
+		},
+		{
+			"keycode": "CRNModuleName=rn_ttd",
+			"template": "/rn_ttd_xtaro/_crn_config?CRNModuleName=rn_ttd_xtaro&CRNType=1&initialPage=list&$2",
+			"beginVersion": "8.59.4",
+			"pattern": "^.*CRNModuleName=rn_ttd_act(?=.*(?:\\?|&)initialPage=(list|mix)(?:&|$)(?=(.*))).*"
+		},
+		{
+			"template": "/rn_ttd_taro/_crn_config?CRNModuleName=rn_ttd_taro&CRNType=1&initialPage=booking&isNew=true&$1",
+			"keycode": "tnt/booking",
+			"beginVersion": "8.52.4",
+			"pattern": ".*\\/webapp\\/taro\\/pages\\/tnt\\/booking\\/index\\?(.*)"
+		},
+		{
+			"template": "/rn_ttd_taro/_crn_config?CRNModuleName=rn_ttd_taro&CRNType=1&initialPage=booking&isNew=true&$1",
+			"keycode": "tnt/booking",
+			"beginVersion": "8.52.4",
+			"pattern": ".*\\/webapp\\/tnt\\/booking\\?(.*)"
+		},
+		{
+			"template": "/rn_ttd_xtaro/_crn_config?CRNModuleName=rn_ttd_xtaro&CRNType=1&initialPage=list$3",
+			"keycode": "CRNModuleName=rn_ttd",
+			"beginVersion": "8.59.4",
+			"pattern": "\\/rn_ttd_taro\\/(\\S*)=rn_ttd_taro(\\S*)initialPage=list(&\\S*|$)"
+		},
+		{
+			"template": "/rn_ttd_xtaro/_crn_config?CRNModuleName=rn_ttd_xtaro&CRNType=1&initialPage=list$3",
+			"keycode": "CRNModuleName=rn_ttd",
+			"beginVersion": "8.59.4",
+			"pattern": "\\/rn_ttd_act\\/(\\S*)=rn_ttd_act(\\S*)initialPage=list(&\\S*|$)"
+		},
+		{
+			"template": "/rn_ttd_xtaro/_crn_config?CRNModuleName=xtaro-tnt&CRNType=1&initialPage=product-detail$1$2&packageDetail=true",
+			"keycode": "CRNModuleName=rn_ttd",
+			"beginVersion": "8.52.6",
+			"pattern": "\\/rn_ttd_taro\\/_crn_config\\?CRNModuleName=rn_ttd_taro&CRNType=1&initialPage=product-detail(.*)&packageDetail=true(.*)"
+		},
+		{
+			"template": "/rn_ttd_xtaro/_crn_config?CRNModuleName=rn_ttd_xtaro&CRNType=1&initialPage=new-product-detail&$3",
+			"keycode": "CRNModuleName=rn_ttd",
+			"beginVersion": "8.68.6",
+			"pattern": "\\/rn_ttd_taro\\/(\\S*)=rn_ttd_taro(\\S*)initialPage=product-detail&(.*)"
+		},
+		{
+			"template": "/rn_ttd_xtaro/_crn_config?CRNModuleName=rn_ttd_xtaro&CRNType=1&initialPage=new-product-detail&$3",
+			"keycode": "CRNModuleName=rn_ttd",
+			"beginVersion": "8.68.6",
+			"pattern": "\\/rn_ttd_taro\\/(\\S*)=rn_ttd_taro(\\S*)initialPage=product-detail-photographytrip&(.*)"
+		},
+		{
+			"template": "/rn_ttd_xtaro/_crn_config?CRNModuleName=rn_ttd_xtaro&CRNType=1&initialPage=new-product-detail&$3",
+			"keycode": "CRNModuleName=rn_ttd",
+			"beginVersion": "8.68.6",
+			"pattern": "\\/rn_ttd_taro\\/(\\S*)=rn_ttd_taro(\\S*)initialPage=product-detail-1daytrip&(.*)"
+		}
+	],
+	"flightCheckIn": [
+		{
+			"template": "$1/webapp/flight/checkinv2/listxs$3",
+			"keycode": "webapp/flight/checkin",
+			"pattern": "(.*)\\/webapp\\/flight\\/checkin\\/(listfork|listnext|listxs)(.*)"
+		}
+	],
+	"flightBundles": [
+		{
+			"template": "/rn_xtaro_fhbundles/_crn_config?CRNModuleName=rn_xtaro_fhbundles&CRNType=1",
+			"keycode": "CRNModuleName=rn_flight_bundles",
+			"beginVersion": "8.52.6",
+			"pattern": "^\\/rn_flight_bundles\\/_crn_config\\?(?=.*CRNModuleName=rn_flight_bundles)(?=.*CRNType=1)(?!.*page_code=.*).*$"
+		},
+		{
+			"template": "/rn_xtaro_fhbundles/_crn_config?CRNModuleName=rn_xtaro_fhbundles&CRNType=1",
+			"keycode": "CRNModuleName=rn_flight_bundles",
+			"beginVersion": "8.52.6",
+			"pattern": "^\\/rn_flight_bundles\\/_crn_config\\?(?=.*CRNModuleName=rn_flight_bundles)(?=.*CRNType=1)(?=.*page_code=10650047512).*$"
+		},
+		{
+			"template": "/rn_xtaro_fhbundles/_crn_config?CRNModuleName=rn_xtaro_fhbundles&CRNType=1",
+			"keycode": "CRNModuleName=rn_flight_bundles",
+			"beginVersion": "8.52.6",
+			"pattern": "^\\/rn_flight_bundles\\/_crn_config\\?(?=.*CRNModuleName=rn_flight_bundles)(?=.*CRNType=1)(?=.*page_code=10650043331).*$"
+		},
+		{
+			"template": "/rn_xtaro_fhbundles/_crn_config?CRNModuleName=rn_xtaro_fhbundles&CRNType=1",
+			"keycode": "CRNModuleName=rn_flight_bundles",
+			"beginVersion": "8.52.6",
+			"pattern": "^\\/rn_flight_bundles\\/_crn_config\\?(?=.*CRNModuleName=rn_flight_bundles)(?=.*CRNType=1)(?=.*page_code=flthotlistnewE).*$"
+		}
+	],
+	"gsranking": [
+		{
+			"template": "/rn_ranking_xtaro/main.js?CRNModuleName=xtaro-cranking&CRNType=1&initialPage=crankingDestination&rankingId=$1&$2",
+			"keycode": "/xranking/crankingDestination",
+			"beginVersion": "8.64.0",
+			"pattern": ".*\\/webapp\\/xranking\\/crankingDestination\\/(\\d+)\\.html\\??(.*)"
+		},
+		{
+			"template": "/rn_ranking_xtaro/main.js?CRNModuleName=xtaro-cranking&CRNType=1&initialPage=crankingDestination&rankingId=$1&$2",
+			"keycode": "/ranking/crankingDestination",
+			"beginVersion": "8.64.0",
+			"pattern": ".*\\/webapp\\/ranking\\/crankingDestination\\/(\\d+)\\.html\\??(.*)"
+		},
+		{
+			"template": "/rn_ranking_xtaro/main.js?CRNModuleName=xtaro-cranking&CRNType=1&initialPage=crankingHome&$2",
+			"keycode": "ranking/crankingHome",
+			"beginVersion": "8.64.0",
+			"pattern": ".*\\/webapp\\/(x)?ranking\\/crankingHome.html\\??(.*)"
+		},
+		{
+			"template": "/rn_ranking_xtaro/main.js?CRNModuleName=xtaro-cranking&CRNType=1&initialPage=crankingCity&rankingId=$1&$2",
+			"keycode": "xranking/cranking/crankingCity",
+			"beginVersion": "8.64.0",
+			"pattern": ".*\\/webapp\\/xranking\\/cranking\\/crankingCity\\/(\\d+)\\.html\\??(.*)"
+		},
+		{
+			"template": "/rn_ranking_xtaro/main.js?CRNModuleName=xtaro-cranking&CRNType=1&initialPage=crankingCity&rankingId=$1&$2",
+			"keycode": "you/cranking/crankingCity",
+			"beginVersion": "8.64.0",
+			"pattern": ".*\\/webapp\\/you\\/cranking\\/crankingCity\\/(\\d+)\\.html\\??(.*)"
+		},
+		{
+			"template": "/rn_ranking_xtaro/main.js?CRNModuleName=xtaro-cranking&CRNType=1&initialPage=crankingCity&rankingId=$1&$2",
+			"keycode": "/cranking/index.html",
+			"beginVersion": "8.64.0",
+			"pattern": ".*\\/cranking\\/index.html#/cranking/crankingCity\\/(\\d+)\\.html\\??(.*)"
+		},
+		{
+			"template": "/rn_ranking_xtaro/main.js?CRNModuleName=xtaro-cranking&CRNType=1&initialPage=crankingCity&rankingId=$1&$2",
+			"keycode": "/cranking/index.html",
+			"beginVersion": "8.64.0",
+			"pattern": ".*\\/cranking\\/index.html#cranking/crankingCity\\/(\\d+)\\.html\\??(.*)"
+		},
+		{
+			"template": "/cranking/index.html#cranking/crankingCity/$1.html?ishideheader=true&isHideNavBar=YES&$2",
+			"keycode": "you/cranking/crankingCity",
+			"beginVersion": "8.62.2",
+			"pattern": ".*\\/webapp\\/you\\/cranking\\/crankingCity\\/(\\d+)\\.html\\??(.*)"
+		},
+		{
+			"template": "/rn_ranking_xtaro/main.js?CRNModuleName=xtaro-cranking&CRNType=1&initialPage=crankingHome&$1",
+			"keycode": "/cranking/index.html",
+			"beginVersion": "8.64.0",
+			"pattern": ".*\\/cranking\\/index.html#cranking/crankingHome.html\\??(.*)"
+		},
+		{
+			"template": "https://m.ctrip.com/webapp/ranking/newPopularRoute/$1.html?seo=0&ishideheader=true&isHideNavBar=YES&$2",
+			"keycode": "/cranking/index.html",
+			"beginVersion": "8.22.0",
+			"pattern": ".*\\/cranking\\/index.html#cranking/newPopular/route/(\\d+)\\.html\\??(.*)"
+		},
+		{
+			"template": "/rn_destination_cranking/index.main.js?CRNModuleName=rn_destination_cranking&CRNType=1&initialPage=homePage&districtId=$1&scene=local&$2",
+			"keycode": "/cranking/index.html",
+			"beginVersion": "8.28.2",
+			"pattern": ".*\\/cranking\\/index.html#cranking/choicenessListHome/(\\d+)\\.html\\??(.*)"
+		},
+		{
+			"template": "/rn_destination_cranking/index.main.js?CRNModuleName=rn_destination_cranking&CRNType=1&initialPage=homePage&districtId=$2&scene=local&$3",
+			"keycode": "/you/cranking/choicenessListHome",
+			"beginVersion": "8.28.2",
+			"pattern": ".*\\/(webapp|html5)\\/you\\/cranking\\/choicenessListHome\\/(\\d+)\\.html\\??(.*)"
+		}
+	],
+	"visa": [
+		{
+			"template": "https://m.ctrip.com/visa/extend/product/detail?$1",
+			"keycode": "tourvisa/index.html#visa_detail",
+			"beginVersion": "8.21.0",
+			"pattern": ".*tourvisa\\/index\\.html\\#visa_detail\\?(.*)"
+		},
+		{
+			"template": "https://m.ctrip.com/visa/extend/product/list?isHideNavBar=yes&$1",
+			"keycode": "tourvisa/index.html#visa_list_b",
+			"beginVersion": "8.66.0",
+			"pattern": ".*tourvisa\\/index\\.html\\#visa_list_b\\?(.*)"
+		},
+		{
+			"template": "/rn_visa/_crn_config?CRNModuleName=xtaro-visa&CRNType=1&initialPage=productDetail&$1",
+			"keycode": "/visa/extend/product/detail",
+			"beginVersion": "8.52.0",
+			"pattern": ".*/visa/extend/product/detail\\?(.*)"
+		},
+		{
+			"template": "/rn_visa/_crn_config?CRNModuleName=xtaro-visa&CRNType=1&initialPage=productDetail&$1",
+			"keycode": "/visa/product/detail",
+			"beginVersion": "8.52.0",
+			"pattern": ".*/visa/product/detail\\?(.*)"
+		},
+		{
+			"template": "/rn_visa/_crn_config?CRNModuleName=xtaro-visa&CRNType=1&initialPage=productDetail&$1",
+			"keycode": "/xvisa/product/detail",
+			"beginVersion": "8.52.6",
+			"pattern": ".*/xvisa/product/detail\\?(.*)"
+		},
+		{
+			"template": "/rn_visa/_crn_config?CRNModuleName=xtaro-visa&CRNType=1&initialPage=orderDetail&$1",
+			"keycode": "/xvisa/order/detail",
+			"beginVersion": "8.52.6",
+			"pattern": ".*/xvisa/order/detail\\?(.*)"
+		},
+		{
+			"template": "/rn_visa/_crn_config?CRNModuleName=xtaro-visa&CRNType=1&initialPage=materialUpload&$1&$2",
+			"keycode": "CRNModuleName=TourVisaApp",
+			"beginVersion": "8.52.6",
+			"pattern": "\\/rn_tour_visa\\/_crn_config\\?(.*?)&CRNModuleName=TourVisaApp&CRNType=1&initialPage=VisaUpload&(.*)"
+		},
+		{
+			"template": "/rn_visa/_crn_config?CRNModuleName=xtaro-visa&CRNType=1&initialPage=materialUpload&$1&$2",
+			"keycode": "CRNModuleName=TourVisaApp",
+			"beginVersion": "8.52.6",
+			"pattern": "\\/rn_tour_visa\\/_crn_config\\?(.*?)&CRNModuleName=TourVisaApp&CRNType=1&initialPage=VisaUploadPage&(.*)"
+		},
+		{
+			"template": "/rn_visa/_crn_config?CRNModuleName=xtaro-visa&CRNType=1&initialPage=materialUpload&$1",
+			"keycode": "CRNModuleName=TourVisaApp",
+			"beginVersion": "8.52.6",
+			"pattern": "\\/rn_tour_visa\\/_crn_config\\?CRNModuleName=TourVisaApp&CRNType=1&initialPage=VisaUpload&(.*)"
+		},
+		{
+			"template": "/rn_visa/_crn_config?CRNModuleName=xtaro-visa&CRNType=1&initialPage=materialUpload&$1",
+			"keycode": "CRNModuleName=TourVisaApp",
+			"beginVersion": "8.52.6",
+			"pattern": "\\/rn_tour_visa\\/_crn_config\\?CRNModuleName=TourVisaApp&CRNType=1&initialPage=VisaUploadPage&(.*)"
+		}
+	],
+	"myctrip": [
+		{
+			"template": "https://contents.ctrip.com/activitysetupapp/mkt/index/cooperation?isHideNavBar=YES",
+			"keycode": "webapp/more/cooperation",
+			"beginVersion": "8.68.6",
+			"pattern": "^https://m.ctrip.com/webapp/more/cooperation.html"
+		}
+	],
+	"cruise": [
+		{
+			"template": "/rn_cruise_webapp/main.js?CRNModuleName=rn_cruise_webapp&CRNType=1&initialPage=PoiShipList",
+			"keycode": "cruise/index.html#",
+			"beginVersion": "8.35.0",
+			"pattern": "\\S*cruise\\/index\\.html\\#\\/webapp\\/cruise\\/poi\\/shiplist\\S*"
+		},
+		{
+			"template": "/rn_cruise_webapp/main.js?CRNModuleName=rn_cruise_webapp&CRNType=1&initialPage=Search",
+			"keycode": "cruise/index.html#",
+			"beginVersion": "8.35.0",
+			"pattern": "\\S*cruise\\/index\\.html\\#\\/webapp\\/cruise\\/search\\S*"
+		},
+		{
+			"template": "/rn_cruise_detail/main.js?CRNModuleName=rn_cruise_detail&CRNType=1&initialPage=Detail&voyaId=$1",
+			"keycode": "cruise/index.html#",
+			"beginVersion": "8.35.0",
+			"pattern": "\\S*cruise\\/index\\.html\\#\\/webapp\\/cruise\\/c\\/(\\d+)\\.html\\S*"
+		},
+		{
+			"template": "/rn_cruise_detail/main.js?CRNModuleName=rn_cruise_detail&CRNType=1&initialPage=Detail&packageId=$1",
+			"keycode": "cruise/index.html#",
+			"beginVersion": "8.35.0",
+			"pattern": "\\S*cruise\\/index\\.html\\#\\/webapp\\/cruise\\/p\\/(\\d+)\\.html\\S*"
+		},
+		{
+			"template": "/rn_cruise_detail/main.js?CRNModuleName=rn_cruise_detail&CRNType=1&initialPage=OrderDetail&oid=$1",
+			"keycode": "cruise/index.html#",
+			"beginVersion": "8.35.0",
+			"pattern": "\\S*cruise\\/index\\.html\\#orderdetail\\?id=(\\d+)\\S*"
+		},
+		{
+			"template": "/rn_xtaro_cruise/main.js?initialPage=detail&CRNModuleName=xtaro-cruise&CRNType=1&voyaId=$1&departdate=$3&sellerId=$2",
+			"keycode": "CRNModuleName=rn_cruise_detail&CRNType=1&initialPage=Detail",
+			"beginVersion": "8.52.6",
+			"pattern": "\\/rn_cruise_detail\\/(?=.*(?:\\?|&)voyaId=(\\d+)(?:&|$))(?=.*(?:\\?|&)initialPage=Detail(?:&|$))(?=.*(?:\\?|&)sellerId=(\\d*)(?:&|$))(?=.*(?:\\?|&)departureDate=((\\d*)|(\\d{4}-\\d{2}-\\d{2}))(?:&|$)).*"
+		},
+		{
+			"template": "/rn_xtaro_cruise/main.js?initialPage=detail&CRNModuleName=xtaro-cruise&CRNType=1&voyaId=$1$3",
+			"keycode": "CRNModuleName=rn_cruise_detail&CRNType=1&initialPage=Detail",
+			"beginVersion": "8.52.6",
+			"pattern": "\\/rn_cruise_detail\\/index.ios.js\\?CRNModuleName=rn_cruise_detail&CRNType=1&initialPage=Detail(?=.*(?:\\?|&)voyaId=(\\d+)(?:&|$))(?!.*(?:\\?|&)departureDate=(\\d{4}-\\d{2}-\\d{2})(?:&|$))(&\\S*|$)"
+		},
+		{
+			"template": "ctrip://wireless/tour_cruise_detail?productId=$1&switchold=1$2",
+			"keycode": "/rn_tour/main.js?initialPage=detail&CRNModuleName=CTTourApp",
+			"beginVersion": "8.72.4",
+			"pattern": "\\/rn_tour\\/main.js\\?initialPage=detail&CRNModuleName=CTTourApp(?=.*(?:\\?|&)productid=(\\d+)(?:&|$))(?!.*(?:\\?|&)switchold=1(?:&|$))(?=.*(?:\\?|&)fromcruise=1(?:&|$))(&\\S*|$)"
+		}
+	],
+	"ttdguide": [
+		{
+			"template": "/rn_ttd_guide_person_list/_crn_config?CRNModuleName=rn_ttd_guide_person_list&initialPage=guidelist&id=$2&CRNType=1",
+			"keycode": "vacations/pguider/gstguide",
+			"beginVersion": "8.25.2",
+			"pattern": ".*\\/vacations\\/pguider\\/gstguide?(.*)districtId=(.*)"
+		}
+	],
+	"gshop": [
+		{
+			"template": "https://m.ctrip.com/webapp/xtaro-gshop/home?$1",
+			"keycode": "shopping/index",
+			"beginVersion": "8.21.0",
+			"pattern": "^/shopping/index.html#index?(.*)"
+		},
+		{
+			"template": "/rn_xtaro_gshop/_crn_config?CRNModuleName=rn_xtaro_gshop&CRNType=1&initialPage=index&$1",
+			"keycode": "webapp/xtaro-gshop/home",
+			"beginVersion": "8.68.6",
+			"pattern": ".*\\/webapp\\/xtaro\\-gshop\\/home\\??(.*)"
+		},
+		{
+			"template": "/rn_xtaro_gshop/_crn_config?CRNModuleName=rn_xtaro_gshop&CRNType=1&initialPage=search&$1",
+			"keycode": "webapp/xtaro-gshop/search",
+			"beginVersion": "8.68.6",
+			"pattern": ".*\\/webapp\\/xtaro\\-gshop\\/search\\??(.*)"
+		},
+		{
+			"template": "/rn_xtaro_gshop/_crn_config?CRNModuleName=rn_xtaro_gshop&CRNType=1&initialPage=shops&businessId=$2&$3",
+			"keycode": "webapp/you/gsshopping/shops",
+			"beginVersion": "8.68.6",
+			"pattern": ".*\\/webapp\\/you\\/gsshopping\\/shops\\/(\\d+)\\/(\\d+)\\.html\\??(.*)"
+		},
+		{
+			"template": "/rn_xtaro_gshop/_crn_config?CRNModuleName=rn_xtaro_gshop&CRNType=1&initialPage=shops&businessId=$2&$3",
+			"keycode": "webapp/you/shops",
+			"beginVersion": "8.68.6",
+			"pattern": ".*\\/webapp\\/you\\/shops\\/(\\d+)\\/(\\d+)\\.html\\??(.*)"
+		},
+		{
+			"template": "/rn_xtaro_gshop/_crn_config?CRNModuleName=rn_xtaro_gshop&CRNType=1&initialPage=malldirectory&$1",
+			"keycode": "webapp/xtaro-gshop/malldirectory",
+			"beginVersion": "8.68.6",
+			"pattern": ".*\\/webapp\\/xtaro\\-gshop\\/malldirectory\\??(.*)"
+		},
+		{
+			"template": "/rn_xtaro_gshop/_crn_config?CRNModuleName=rn_xtaro_gshop&CRNType=1&initialPage=malldirectory&$1",
+			"keycode": "webapp/gshop/malldirectory",
+			"beginVersion": "8.68.6",
+			"pattern": ".*\\/webapp\\/gshop\\/malldirectory\\??(.*)"
+		}
+	],
+	"travel": [
+		{
+			"template": "/rn_destination_travel/main.js?CRNModuleName=rn_destination_travel&CRNType=1&initialPage=travels_home&districtId=$1&$2",
+			"keycode": "destination/travels",
+			"beginVersion": "8.32.2",
+			"pattern": "/destination/travels(?:&page=|/)index.html#travels/?(?:[^/^.^&^?]*?([0-9]+)(?:.html)?)?(?:[?&]?([^/]*?))$"
+		}
+	],
+	"rewards": [
+		{
+			"template": "https://m.ctrip.com/webapp/rewards/mypoint?$1",
+			"keycode": "rewards/index.html",
+			"beginVersion": "8.42",
+			"pattern": ".*\\/rewards/index.html#mypoint\\?(.*)"
+		}
+	],
+	"walletPattern": [
+		{
+			"template": "/rn_wallet/_crn_config?CRNType=1&CRNModuleName=rn_wallet&initialPage=realname&pageName=realname",
+			"keycode": "webapp/wallet/accountverified",
+			"beginVersion": "8.78.6",
+			"pattern": ".*/webapp/wallet/accountverified(\\?.*)?"
+		},
+		{
+			"template": "/rn_wallet/_crn_config?CRNType=1&CRNModuleName=rn_wallet&initialPage=realname&pageName=realname",
+			"keycode": "wallet/index.html#accountverified",
+			"beginVersion": "8.78.6",
+			"pattern": ".*/wallet/index.html#accountverified"
+		},
+		{
+			"template": "https://secure.ctrip.com/webapp/paywallet/paymentset?a=1$1",
+			"keycode": "webapp/wallet/paymentset",
+			"beginVersion": "8.78.6",
+			"pattern": ".*/webapp/wallet/paymentset(\\?.*)?"
+		},
+		{
+			"template": "https://secure.ctrip.com/webapp/paywallet/paymentset?a=1",
+			"keycode": "wallet/index.html#paymentset",
+			"beginVersion": "8.78.6",
+			"pattern": ".*/wallet/index.html#paymentset"
+		},
+		{
+			"template": "https://secure.ctrip.com/webapp/paywallet/cashbalance?a=1$1",
+			"keycode": "webapp/wallet/transacthistory",
+			"beginVersion": "8.78.6",
+			"pattern": ".*/webapp/wallet/transacthistory(\\?.*)?"
+		},
+		{
+			"template": "https://secure.ctrip.com/webapp/paywallet/cashbalance?a=1",
+			"keycode": "wallet/index.html#transacthistory",
+			"beginVersion": "8.78.6",
+			"pattern": ".*/wallet/index.html#transacthistory"
+		},
+		{
+			"template": "https://secure.ctrip.com/webapp/paywallet/setpassword?a=1$1",
+			"keycode": "wallet/setpaypassword",
+			"beginVersion": "8.78.6",
+			"pattern": ".*/webapp/wallet/setpaypassword(\\?.*)?"
+		},
+		{
+			"template": "https://secure.ctrip.com/webapp/paywallet/setpassword?a=1$1",
+			"keycode": "wallet/setpaypsd2",
+			"beginVersion": "8.78.6",
+			"pattern": ".*/webapp/wallet/setpaypsd2(\\?.*)?"
+		},
+		{
+			"template": "https://secure.ctrip.com/webapp/paywallet/setpassword?a=1$1",
+			"keycode": "wallet/resetpaypsd",
+			"beginVersion": "8.78.6",
+			"pattern": ".*/webapp/wallet/resetpaypsd(\\?.*)?"
+		},
+		{
+			"template": "https://secure.ctrip.com/webapp/paywallet/setpassword?a=1$1",
+			"keycode": "wallet/chgpwd",
+			"beginVersion": "8.78.6",
+			"pattern": ".*/webapp/wallet/chgpwd(\\?.*)?"
+		},
+		{
+			"template": "https://secure.ctrip.com/webapp/paywallet/setpassword?backpage=$1&forwardpage=$1",
+			"keycode": "wallet/index.html#setpaypsd2",
+			"beginVersion": "8.78.6",
+			"pattern": "^wallet/index.html#setpaypsd2\\?[^#]*from=([^&]+)"
+		},
+		{
+			"template": "https://secure.ctrip.com/webapp/paywallet/setpassword?backpage=$1&forwardpage=$1",
+			"keycode": "wallet/index.html#resetpaypsd",
+			"beginVersion": "8.78.6",
+			"pattern": "^wallet/index.html#resetpaypsd\\?[^#]*from=([^&]+)"
+		},
+		{
+			"template": "https://secure.ctrip.com/webapp/paywallet/setsafephone?backpage=$1&forwardpage=$1",
+			"keycode": "wallet/index.html#verfiedpsd",
+			"beginVersion": "8.78.6",
+			"pattern": "^wallet/index.html#verfiedpsd\\?[^#]*from=([^&]+)"
+		}
+	],
+	"gspoi": [
+		{
+			"template": "/rn_destination_poi/index.main.js?CRNModuleName=rn_destination_poi&CRNType=1&initialPage=sightDetail&districtId=$1&businessId=$2&$3",
+			"keycode": "webapp/you/gspoi/sight",
+			"beginVersion": "8.52.6",
+			"pattern": ".*\\/webapp\\/you\\/gspoi\\/sight\\/(.+)\\/(\\d+)\\.html\\??(.*)"
+		},
+		{
+			"template": "/rn_destination_poi/index.main.js?CRNModuleName=rn_destination_poi&CRNType=1&initialPage=sightDetail&districtId=$1&businessId=$2&$3",
+			"keycode": "html5/you/sight",
+			"beginVersion": "8.52.6",
+			"pattern": ".*\\/html5\\/you\\/sight\\/(.+)\\/(\\d+)\\.html\\??(.*)"
+		}
+	],
+	"flightBudget": [
+		{
+			"template": "/rn_budget_fare_xtaro/_crn_config?CRNModuleName=rn_budget_fare_xtaro&CRNType=1&minUseablePkgId=247273538$1",
+			"keycode": "CRNModuleName=rn_budget_collection",
+			"beginVersion": "8.68.6",
+			"pattern": "^\\/rn_budget_collection\\/_crn_config\\?CRNModuleName=rn_budget_collection&CRNType=1(.*)"
+		}
+	],
+	"cshop": [
+		{
+			"template": "https://m.ctrip.com/webapp/cshop/vtmportal/triplist?$1",
+			"keycode": "webapp/vacations/vtmportal",
+			"beginVersion": "8.42",
+			"pattern": ".*webapp/vacations/vtmportal/triplist\\?(.*)"
+		}
+	],
+	"user_info_flutter_to_xtaro": [
+		{
+			"template": "/rn_xtaro_user_info/main.js?CRNModuleName=xtaro-user-info&CRNType=1&initialPage=index&$1",
+			"keycode": "flutterName=flutter_userinfo",
+			"beginVersion": "8.68.6",
+			"pattern": "/trip_flutter\\?flutterName=flutter_userinfo\\??(.*?)"
+		}
+	]
+}
