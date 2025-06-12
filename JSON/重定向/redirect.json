@@ -1,0 +1,92 @@
+{
+  "alarm_type": "100040388",
+  "alarm_source": "APPID_New_ErrorCode",
+  "alarm_time": 1748495792078,
+  "alarm_level": "P2",
+  "alarm_code": "100040388-31104404-o_wallet_ibu_nfes_24013",
+  "bank_code": null,
+  "item": {
+    "mid": "100040388",
+    "app_id": "100040388",
+    "transtype": "31104404",
+    "resultcode": "o_wallet_ibu_nfes_24013",
+    "transstatus": null,
+    "description": "",
+    "alarmlevel": "P2",
+    "uid": "",
+    "orderid": "",
+    "eventsource": "common",
+    "datasource": "APP_ErrorCode",
+    "merchantid": "",
+    "logtime": 1748495791488,
+    "extend": {
+      "cat_client_bu": "支付中心",
+      "catandesenable": "true",
+      "gw-trace-id": "09034082318867958188-1748476800173-5700555",
+      "locale": "zh_hk",
+      "paymentappid": "100040255",
+      "result": "o_wallet_ibu_nfes_24013",
+      "datatype": "31104404",
+      "envtype": "PRO",
+      "serverip": "10.42.2.41",
+      "clogenable": "true",
+      "clientesscenario": "fncpayment-backmainclientlog",
+      "cat_client_appid": "100040255",
+      "ip": "10.42.2.41",
+      "messageId": "100028317-0a3e107c-485693-19915",
+      "idc": "SHARB",
+      "gw-entrance": "soa2.26077",
+      "datacenter": "SHARB",
+      "threadid": "218",
+      "@timestamp": 1748495788070,
+      "route": "front",
+      "servicecode": "31104404",
+      "payscence": "1",
+      "loglevel": "INFO",
+      "stored": {
+        "message": {
+          "head": {
+            "syscode": "09",
+            "lang": "01",
+            "auth": "",
+            "cid": "09034082318867958188",
+            "ctok": "",
+            "cver": "1.0",
+            "sid": "8888",
+            "extension": [
+              {
+                "name": "locale",
+                "value": "zh-CN"
+              }
+            ]
+          },
+          "requestHead": {
+            "serviceCode": "31104404"
+          },
+          "errorType": "o_wallet_ibu_nfes_24013",
+          "extendInfo": {
+            "url": "https://secure.trip.com/webapp/iwallet/banklist?locale=zh-HK&curr=HKD",
+            "source": "h5",
+            "clientId": "09034082318867958188",
+            "shark": "key_online_usp_title_trust_payment",
+            "appid": 330153,
+            "desc": "shark获取失败"
+          }
+        }
+      },
+      "gw-entrance-path": "/restful/soa2/26077/json/WriteLog",
+      "az": "SHARB",
+      "region": "SHA",
+      "logtime": "2025-05-29 13:16:28.070",
+      "alarmlevel": "P2"
+    },
+    "localamount": null,
+    "bankcode": null,
+    "cardtype": null,
+    "localcurrency": null,
+    "transid": null,
+    "orderno": null
+  },
+  "ignore_code": "https://authmanage.payment.ctripcorp.com/paymd100037228/appErrCodeSetting/100040388/31104404/o_wallet_ibu_nfes_24013/Remark/common/100040388",
+  "cat_url": "http://bat.fx.ctripcorp.com/logview/None"
+}
