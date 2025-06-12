@@ -1,48 +1,31 @@
 {
-    "rc": 0,
-    "token": "0201046FCAE23DCF41A5884119B5DF9B4C1735",
-    "conflictList": [
-        {
-            "identityType": 1,
-            "nickName": "张理科",
-            "identityCode": "4127XKXum86ktsy01X",
-            "userId": "_XCJR2531yn8qlw7e",
-            "suid": "_XCJR2531yn8qlw7e",
-            "supportClear": true
+    "initialProps": {
+        "isRestoredBySystem": false,
+        "initTimestamp": "1749729335496",
+        "buildId": "",
+        "__crn_fetch_from_cache": false,
+        "webappPath": "/data/user/0/com.pal.train/app_ctripwebapp5",
+        "url": "http://10.32.75.128:5389/index.ios.bundle?CRNModuleName=rn_ibu_wallet&CRNType=1&initialPage=pincodeset&isTransparentBg=YES&isTransparentBgWithNav=YES&haspincode=0&isWalletTransparentBg=1&pwdVerifyToken=02101E5B21C570FC4621AB2A762BD9ABAC6251&tripsignature=AAEAAQAFdG9rZW4NptSew3XBEwGGE9WuDfkBdNPEAHwg0m0KyywXt9wRsQ==-tripsign&sceneid=trainpal_prepay_wallet_pwdset&pageName=pincodese",
+        "__crn_network_error": "Load failed",
+        "isFoldEmbedding": false,
+        "urlQuery": {
+            "isTransparentBgWithNav": "YES",
+            "CRNType": "1",
+            "pageName": "pincodese",
+            "sceneid": "trainpal_prepay_wallet_pwdset",
+            "haspincode": "0",
+            "pwdVerifyToken": "02101E5B21C570FC4621AB2A762BD9ABAC6251",
+            "isWalletTransparentBg": "1",
+            "isTransparentBg": "YES",
+            "tripsignature": "AAEAAQAFdG9rZW4NptSew3XBEwGGE9WuDfkBdNPEAHwg0m0KyywXt9wRsQ==-tripsign",
+            "initialPage": "pincodeset",
+            "CRNModuleName": "rn_ibu_wallet"
         },
-        {
-            "identityType": 1,
-            "nickName": "张理科",
-            "identityCode": "4127XKXum86ktsy01X",
-            "userId": "ZM2531yn8qlw73",
-            "suid": "ZM2531yn8qlw73",
-            "bankMobile": "152****6844",
-            "supportClear": true
-        },
-        {
-            "identityType": 1,
-            "nickName": "张理科",
-            "identityCode": "4127XKXum86ktsy01X",
-            "userId": "likezhang006",
-            "suid": "likezhang006",
-            "supportClear": true
-        },
-        {
-            "identityType": 1,
-            "nickName": "张理科",
-            "identityCode": "4127XKXum86ktsy01X",
-            "userId": "likezhang002",
-            "suid": "likezhang002",
-            "supportClear": true
-        },
-        {
-            "identityType": 1,
-            "nickName": "张理科",
-            "identityCode": "4127XKXum86ktsy01X",
-            "userId": "likezhang001",
-            "suid": "likezhang001",
-            "bankMobile": "183****5747",
-            "supportClear": true
-        }
-    ]
+        "initialProperties": null,
+        "forceSetFont": true,
+        "jsRuntime": "HERMES",
+        "appLaunchId": "e934b217-581e-46c9-842f-96b27381c8c9",
+        "containerSequenceId": "20250612195535.270_37"
+    },
+    "rootTag": 551
 }
