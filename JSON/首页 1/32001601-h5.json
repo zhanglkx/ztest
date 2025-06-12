@@ -141,7 +141,7 @@
     ],
     "migrated": false,
     "firstAfterMigrating": false,
-    "guidePayAccountStatus": 1,
+    "guidePayAccountStatus": 2,
     "bannerInfos": [
         {
             "name": "jqh_banner",
