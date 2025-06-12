@@ -1,0 +1,100 @@
+{
+	"walletPattern": [
+		{
+			"pattern": ".*/webapp/wallet/accountverified(\\?.*)?",
+			"template": "/rn_wallet/_crn_config?CRNType=1&CRNModuleName=rn_wallet&initialPage=realname$1",
+			"keycode": "wallet/accountverified",
+			"beginVersion": "8.78.2"
+		},
+		{
+			"pattern": ".*/wallet/index.html#accountverified",
+			"template": "/rn_wallet/_crn_config?CRNType=1&CRNModuleName=rn_wallet&initialPage=realname",
+			"keycode": "wallet/index/accountverified",
+			"beginVersion": "8.78.2"
+		},
+		{
+			"pattern": ".*/wallet/index.html#transacthistory",
+			"template": "https://secure.ctrip.com/webapp/paywallet/cashbalance",
+			"keycode": "wallet/transacthistory",
+			"beginVersion": "8.78.2"
+		},
+		{
+			"pattern": ".*/wallet/index.html#transacthistory",
+			"template": "https://secure.fat18.qa.nt.ctripcorp.com/webapp/paywallet/cashbalance",
+			"keycode": "webapp/paywallet/cashbalance",
+			"beginVersion": "8.78.2"
+		},
+		{
+			"pattern": "*/webapp/wallet/transacthistory(\\?.*)?",
+			"template": "https://secure.ctrip.com/webapp/paywallet/cashbalance",
+			"keycode": "wallet/transacthistory/1",
+			"beginVersion": "8.78.2"
+		},
+		{
+			"pattern": "*/webapp/wallet/transacthistory(\\?.*)?",
+			"template": "https://secure.fat18.qa.nt.ctripcorp.com/webapp/paywallet/cashbalance",
+			"keycode": "fat18/wallet/transacthistory",
+			"beginVersion": "8.78.2"
+		},
+		{
+			"pattern": ".*/wallet/index.html#paymentset",
+			"template": "https://secure.ctrip.com/webapp/paywallet/paymentset",
+			"keycode": "wallet/paymentset",
+			"beginVersion": "8.78.2"
+		},
+		{
+			"pattern": ".*/wallet/index.html#paymentset",
+			"template": "https://secure.fat18.qa.nt.ctripcorp.com/webapp/paywallet/paymentset",
+			"keycode": "fat18/wallet/accountverified",
+			"beginVersion": "8.78.2"
+		},
+		{
+			"pattern": ".*/webapp/wallet/paymentset(\\?.*)?",
+			"template": "https://secure.ctrip.com/webapp/paywallet/paymentset$1",
+			"keycode": "wallet/paymentset/1",
+			"beginVersion": "8.78.2"
+		},
+		{
+			"pattern": ".*/webapp/wallet/paymentset(\\?.*)?",
+			"template": "https://secure.fat18.qa.nt.ctripcorp.com/webapp/paywallet/paymentset$1",
+			"keycode": "fat18/wallet/paymentset",
+			"beginVersion": "8.78.2"
+		},
+		{
+			"pattern": ".*/webapp/wallet/setpaypassword(\\?.*)?",
+			"template": "https://secure.ctrip.com/webapp/paywallet/setpassword$1",
+			"keycode": "wallet/setpaypassword",
+			"beginVersion": "8.78.2"
+		},
+		{
+			"pattern": ".*/webapp/wallet/setpaypsd2(\\?.*)?",
+			"template": "https://secure.ctrip.com/webapp/paywallet/setpassword$1",
+			"keycode": "wallet/setpaypsd2",
+			"beginVersion": "8.78.2"
+		},
+		{
+			"pattern": ".*/webapp/wallet/resetpaypsd(\\?.*)?",
+			"template": "https://secure.ctrip.com/webapp/wallet/resetpaypsd$1",
+			"keycode": "wallet/resetpaypsd",
+			"beginVersion": "8.78.2"
+		},
+		{
+			"pattern": ".*/webapp/wallet/chgpwd(\\?.*)?",
+			"template": "https://secure.ctrip.com/webapp/wallet/chgpwd$1",
+			"keycode": "wallet/chgpwd",
+			"beginVersion": "8.78.2"
+		},
+		{
+			"pattern": ".*fat18.*/webapp/wallet/setpaypassword(\\?.*)?",
+			"template": "https://secure.fat18.qa.nt.ctripcorp.com/webapp/paywallet/setpassword$1",
+			"keycode": "fat18/wallet/setpaypassword",
+			"beginVersion": "8.78.2"
+		},
+		{
+			"pattern": ".*fat18.*/webapp/wallet/setpaypsd2(\\?.*)?",
+			"template": "https://secure.fat18.qa.nt.ctripcorp.com/webapp/paywallet/setpassword$1",
+			"keycode": "fat18/wallet/resetpaypsd",
+			"beginVersion": "8.78.2"
+		}
+	]
+}
