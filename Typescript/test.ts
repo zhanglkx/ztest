@@ -1,14 +1,19 @@
-type StringOrNumber = string | number;
+import {useHover} from 'react-use';
 
-function isString(value: StringOrNumber): value is string {
-    return typeof value === 'string';
-}
+const App = () => {
+  const element = (hovered: boolean) =>
+    <div>
+      Hover me! {hovered && 'Thanks'}
+    </div>;
 
-const value: StringOrNumber = "hello";
+  const [hoverable, hovered] = useHover(element);
 
-if (isString(value)) {
-    console.log(value.toUpperCase());
-} else {
-    // 在这个分支中，TypeScript 会正确推断 value 是 number 类型
-    console.log(value.toFixed(2));
-}
+  return (
+    <div>
+      {hoverable}
+      <div>{hovered ? 'HOVERED' : ''}</div>
+    </div>
+  );
+};
+
+export default App;

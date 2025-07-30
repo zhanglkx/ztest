@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>浪漫花瓣 💕</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            height: 100vh;
+            background: linear-gradient(135deg, 
+                #667eea 0%, 
+                #764ba2 50%, 
+                #f093fb 100%);
+            overflow: hidden;
+            font-family: 'Arial', sans-serif;
+            position: relative;
+        }
+
+        /* 星空背景 */
+        .stars {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+        }
+
+        .star {
+            position: absolute;
+            background: white;
+            border-radius: 50%;
+            animation: twinkle 2s infinite alternate;
+        }
+
+        @keyframes twinkle {
+            0% { opacity: 0.3; transform: scale(1); }
+            100% { opacity: 1; transform: scale(1.2); }
+        }
+
+        /* 花瓣样式 */
+        .petal {
+            position: absolute;
+            width: 12px;
+            height: 12px;
+            background: linear-gradient(45deg, #ff9a9e, #fecfef);
+            border-radius: 50% 10% 50% 10%;
+            animation: fall linear infinite, rotate linear infinite;
+            opacity: 0.8;
+            box-shadow: 0 0 6px rgba(255, 182, 193, 0.6);
+        }
+
+        .petal::before {
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(45deg, #fecfef, #ff9a9e);
+            border-radius: 10% 50% 10% 50%;
+            transform: rotate(45deg);
+            opacity: 0.7;
+        }
+
+        @keyframes fall {
+            0% {
+                transform: translateY(-100vh) translateX(0) rotate(0deg);
+                opacity: 1;
+            }
+            100% {
+                transform: translateY(100vh) translateX(100px) rotate(360deg);
+                opacity: 0;
+            }
+        }
+
+        @keyframes rotate {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        /* 中心爱心 */
+        .heart-container {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            animation: float 3s ease-in-out infinite;
+        }
+
+        .heart {
+            color: #ff6b9d;
+            font-size: 80px;
+            text-shadow: 0 0 20px rgba(255, 107, 157, 0.8);
+            animation: heartbeat 1.5s ease-in-out infinite;
+            filter: drop-shadow(0 0 10px rgba(255, 182, 193, 0.8));
+        }
+
+        @keyframes heartbeat {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+        }
+
+        @keyframes float {
+            0%, 100% { transform: translate(-50%, -50%) translateY(0px); }
+            50% { transform: translate(-50%, -50%) translateY(-10px); }
+        }
+
+        .love-text {
+            color: white;
+            font-size: 24px;
+            margin-top: 20px;
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+            animation: glow 2s ease-in-out infinite alternate;
+            font-weight: 300;
+            letter-spacing: 2px;
+        }
+
+        @keyframes glow {
+            0% { text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3), 0 0 10px rgba(255, 255, 255, 0.3); }
+            100% { text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3), 0 0 20px rgba(255, 255, 255, 0.6); }
+        }
+
+        /* 月亮 */
+        .moon {
+            position: absolute;
+            top: 10%;
+            right: 10%;
+            width: 80px;
+            height: 80px;
+            background: linear-gradient(135deg, #ffeaa7, #fab1a0);
+            border-radius: 50%;
+            box-shadow: 0 0 30px rgba(255, 234, 167, 0.6);
+            animation: moonGlow 4s ease-in-out infinite;
+        }
+
+        .moon::before {
+            content: '';
+            position: absolute;
+            top: 15px;
+            left: 15px;
+            width: 15px;
+            height: 15px;
+            background: rgba(255, 255, 255, 0.3);
+            border-radius: 50%;
+        }
+
+        .moon::after {
+            content: '';
+            position: absolute;
+            top: 35px;
+            left: 25px;
+            width: 8px;
+            height: 8px;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 50%;
+        }
+
+        @keyframes moonGlow {
+            0%, 100% { box-shadow: 0 0 30px rgba(255, 234, 167, 0.6); }
+            50% { box-shadow: 0 0 50px rgba(255, 234, 167, 0.9); }
+        }
+
+        /* 云朵 */
+        .cloud {
+            position: absolute;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 50px;
+            opacity: 0.6;
+            animation: drift linear infinite;
+        }
+
+        .cloud::before,
+        .cloud::after {
+            content: '';
+            position: absolute;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 50px;
+        }
+
+        .cloud1 {
+            width: 100px;
+            height: 40px;
+            top: 20%;
+            left: -150px;
+            animation-duration: 20s;
+        }
+
+        .cloud1::before {
+            width: 50px;
+            height: 50px;
+            top: -25px;
+            left: 10px;
+        }
+
+        .cloud1::after {
+            width: 60px;
+            height: 20px;
+            top: -10px;
+            right: 10px;
+        }
+
+        .cloud2 {
+            width: 80px;
+            height: 30px;
+            top: 70%;
+            left: -120px;
+            animation-duration: 25s;
+            animation-delay: -10s;
+        }
+
+        .cloud2::before {
+            width: 40px;
+            height: 40px;
+            top: -20px;
+            left: 15px;
+        }
+
+        .cloud2::after {
+            width: 50px;
+            height: 15px;
+            top: -5px;
+            right: 15px;
+        }
+
+        @keyframes drift {
+            0% { transform: translateX(0); }
+            100% { transform: translateX(calc(100vw + 200px)); }
+        }
+
+        /* 粒子效果 */
+        .particle {
+            position: absolute;
+            background: rgba(255, 255, 255, 0.8);
+            border-radius: 50%;
+            pointer-events: none;
+            animation: particleFloat linear infinite;
+        }
+
+        @keyframes particleFloat {
+            0% {
+                transform: translateY(100vh) scale(0);
+                opacity: 0;
+            }
+            10% {
+                opacity: 1;
+            }
+            90% {
+                opacity: 1;
+            }
+            100% {
+                transform: translateY(-100vh) scale(1);
+                opacity: 0;
+            }
+        }
+
+        /* 响应式设计 */
+        @media (max-width: 768px) {
+            .heart {
+                font-size: 60px;
+            }
+            .love-text {
+                font-size: 18px;
+            }
+            .moon {
+                width: 60px;
+                height: 60px;
+                top: 5%;
+                right: 5%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- 星空背景 -->
+    <div class="stars"></div>
+    
+    <!-- 月亮 -->
+    <div class="moon"></div>
+    
+    <!-- 云朵 -->
+    <div class="cloud cloud1"></div>
+    <div class="cloud cloud2"></div>
+    
+    <!-- 中心爱心和文字 -->
+    <div class="heart-container">
+        <div class="heart">💖</div>
+        <div class="love-text">愿所有的美好都与你环环相扣</div>
+    </div>
+
+    <script>
+        // 创建星空
+        function createStars() {
+            const starsContainer = document.querySelector('.stars');
+            const starCount = 100;
+            
+            for (let i = 0; i < starCount; i++) {
+                const star = document.createElement('div');
+                star.className = 'star';
+                star.style.left = Math.random() * 100 + '%';
+                star.style.top = Math.random() * 100 + '%';
+                star.style.width = Math.random() * 3 + 1 + 'px';
+                star.style.height = star.style.width;
+                star.style.animationDelay = Math.random() * 2 + 's';
+                starsContainer.appendChild(star);
+            }
+        }
+
+        // 创建花瓣
+        function createPetal() {
+            const petal = document.createElement('div');
+            petal.className = 'petal';
+            
+            // 随机位置和动画时间
+            petal.style.left = Math.random() * 100 + '%';
+            petal.style.animationDuration = (Math.random() * 3 + 5) + 's';
+            petal.style.animationDelay = Math.random() * 2 + 's';
+            
+            // 随机大小
+            const size = Math.random() * 8 + 8;
+            petal.style.width = size + 'px';
+            petal.style.height = size + 'px';
+            
+            // 随机颜色
+            const colors = [
+                'linear-gradient(45deg, #ff9a9e, #fecfef)',
+                'linear-gradient(45deg, #ffecd2, #fcb69f)',
+                'linear-gradient(45deg, #ff8a80, #ff80ab)',
+                'linear-gradient(45deg, #f8bbd9, #f48fb1)',
+                'linear-gradient(45deg, #e1bee7, #ce93d8)'
+            ];
+            petal.style.background = colors[Math.floor(Math.random() * colors.length)];
+            
+            document.body.appendChild(petal);
+            
+            // 动画结束后移除花瓣
+            setTimeout(() => {
+                if (petal.parentNode) {
+                    petal.parentNode.removeChild(petal);
+                }
+            }, 8000);
+        }
+
+        // 创建粒子效果
+        function createParticle() {
+            const particle = document.createElement('div');
+            particle.className = 'particle';
+            
+            particle.style.left = Math.random() * 100 + '%';
+            particle.style.width = Math.random() * 4 + 2 + 'px';
+            particle.style.height = particle.style.width;
+            particle.style.animationDuration = (Math.random() * 6 + 4) + 's';
+            particle.style.animationDelay = Math.random() * 2 + 's';
+            
+            document.body.appendChild(particle);
+            
+            setTimeout(() => {
+                if (particle.parentNode) {
+                    particle.parentNode.removeChild(particle);
+                }
+            }, 10000);
+        }
+
+        // 鼠标点击创建爱心
+        function createClickHeart(x, y) {
+            const heart = document.createElement('div');
+            heart.innerHTML = '💕';
+            heart.style.position = 'absolute';
+            heart.style.left = x + 'px';
+            heart.style.top = y + 'px';
+            heart.style.fontSize = '20px';
+            heart.style.color = '#ff6b9d';
+            heart.style.pointerEvents = 'none';
+            heart.style.animation = 'heartFloat 2s ease-out forwards';
+            heart.style.zIndex = '1000';
+            
+            // 添加心形飘浮动画
+            const style = document.createElement('style');
+            style.textContent = `
+                @keyframes heartFloat {
+                    0% {
+                        transform: translateY(0) scale(1);
+                        opacity: 1;
+                    }
+                    100% {
+                        transform: translateY(-100px) scale(0.5);
+                        opacity: 0;
+                    }
+                }
+            `;
+            document.head.appendChild(style);
+            
+            document.body.appendChild(heart);
+            
+            setTimeout(() => {
+                if (heart.parentNode) {
+                    heart.parentNode.removeChild(heart);
+                }
+            }, 2000);
+        }
+
+        // 事件监听
+        document.addEventListener('click', (e) => {
+            createClickHeart(e.clientX - 10, e.clientY - 10);
+        });
+
+        // 初始化
+        createStars();
+        
+        // 定期创建花瓣和粒子
+        setInterval(createPetal, 300);
+        setInterval(createParticle, 800);
+        
+        // 动态文字更换
+        const loveTexts = [
+            '愿所有的美好都与你环环相扣',
+            '你是我心中最亮的星',
+            '遇见你是我最美的意外',
+            '愿时光不老，我们不散',
+            '在最美的年华，遇见最好的你',
+            '你是我此生最美的风景'
+        ];
+        
+        let textIndex = 0;
+        setInterval(() => {
+            const loveText = document.querySelector('.love-text');
+            loveText.style.opacity = '0';
+            setTimeout(() => {
+                textIndex = (textIndex + 1) % loveTexts.length;
+                loveText.textContent = loveTexts[textIndex];
+                loveText.style.opacity = '1';
+            }, 500);
+        }, 4000);
+    </script>
+</body>
+</html>

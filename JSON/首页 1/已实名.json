@@ -1,0 +1,187 @@
+{
+  "rc": 0,
+  "userInfo": {
+    "frozen": false,
+    "userName": "*校杰",
+    "authStatus": 1,
+    "idType": 1,
+    "weakAuth": false,
+    "userId": "_PAY2254221033",
+    "userCertStatus": 2
+  },
+  "cxfInfo": {
+    "cxfUrl": "http://jrk.beta.qunar.com/m/quser/qlogin.do?isHideNavBar=YES&so=finance&jumpUrl=http%3A%2F%2Fjr.fat3688.qa.nt.ctripcorp.com%2Fm%2Fcreno%2Fpage%2Fqunar%2Findex%3Ffrom%3Dqunar_wallet",
+    "needHide": false,
+    "cxfStatus": 0
+  },
+  "bankCardInfo": {
+    "cardCount": 7,
+    "linkTitle": "绑卡享优惠",
+    "linkUrl": "https://bindcardcert.beta.qunar.com/webapp/paywallet/mybankcard"
+  },
+  "accountInfo": {
+    "returnCash": 101,
+    "cashTotal": "1,200.50",
+    "returnLinkUrl": "https://noahk-member.beta.qunar.com/lego/balance/default/cashback/myCash?amount=101.00&cashAmount=1200.50&cashBackAmount=101.00",
+    "cashLinkUrl": "https://noahk-member.beta.qunar.com/lego/balance/default/cash/myCash?amount=1200.50&cashAmount=1200.50&cashBackAmount=101.00",
+    "consumeAmount": 300,
+    "consumeLinkUrl": "https://noahk-member.beta.qunar.com/lego/balance/default/list/CONSUME"
+  },
+  "moduleList": [
+    {
+      "iconUrl": "ea69",
+      "title": "财富赚钱",
+      "linkUrl": "https://jr.qunar.com/m/quser/qlogin.do?so=finance&jumpUrl=https%3A%2F%2Fjr.ctrip.com%2Fm%2Fwealth%2Fpage%2Fhome%3Fbid%3D1002%26cid%3D1100%26pid%3D1100%26mktype%3DQmy",
+      "target": 2,
+      "needAuthCode": false,
+      "hideHead": 1,
+      "color": "#FF7E7E,#FF2929",
+      "qrnIconUrl": "https://static.tripcdn.com/packages/fncmobilewallet/walletstatic/1.0.25/images/ctrip/caifuzhuanqian.png"
+    },
+    {
+      "iconUrl": "e098",
+      "title": "拿去花",
+      "linkUrl": "https://jr.qunar.com/m/nano/ious/qunar/index?mktype=mob_wallet",
+      "target": 2,
+      "needAuthCode": false,
+      "tag": "",
+      "hideHead": 2,
+      "color": "#FFD33C,#FF8500",
+      "qrnIconUrl": "https://static.tripcdn.com/packages/fncmobilewallet/walletstatic/1.0.25/images/ctrip/naquhua.png"
+    },
+    {
+      "iconUrl": "e5fe",
+      "title": "信用贷",
+      "linkUrl": "https://jr.qunar.com/m/cano/cash/qunar/home?mktype=mywallet_app",
+      "target": 2,
+      "needAuthCode": false,
+      "tag": "高额",
+      "hideHead": 1,
+      "color": "#FF7E7E,#FF2929",
+      "qrnIconUrl": "https://static.tripcdn.com/packages/fncmobilewallet/walletstatic/1.0.25/images/ctrip/xinyongdai.png"
+    },
+    {
+      "iconUrl": "ebca",
+      "title": "抵押贷",
+      "linkUrl": "https://jr.qunar.com/m/quser/qlogin.do?so=finance&jumpUrl=https%3A%2F%2Fjr.ctrip.com%2Fm%2Fbino%2Fpage%2Fqunar%2Fhome%3Fmktype%3Dwallet_mort%26homeStyle%3Dmortgage&authorized=false",
+      "target": 2,
+      "needAuthCode": false,
+      "tag": "",
+      "hideHead": 1,
+      "color": "#FFD33C,#FF8500",
+      "qrnIconUrl": "https://static.tripcdn.com/packages/fncmobilewallet/walletstatic/1.0.25/images/ctrip/diyadai.png"
+    },
+    {
+      "iconUrl": "ebcc",
+      "title": "生意人贷",
+      "linkUrl": "https://jr.qunar.com/m/quser/qlogin.do?so=finance&jumpUrl=https%3A%2F%2Fjr.ctrip.com%2Fm%2Fsme%2Fpage%2Fqunar%2Fhome%3Fmktype%3DQqianbao",
+      "target": 2,
+      "needAuthCode": false,
+      "tag": "",
+      "hideHead": 1,
+      "color": "#FFD33C,#FF8500",
+      "qrnIconUrl": "https://static.tripcdn.com/packages/fncmobilewallet/walletstatic/1.0.25/images/ctrip/shengyirendai.png"
+    },
+    {
+      "iconUrl": "f213",
+      "title": "借钱优选",
+      "linkUrl": "https://jr.qunar.com/m/marno/market/qunar/index?from=wallet",
+      "target": 2,
+      "needAuthCode": false,
+      "tag": "",
+      "hideHead": 1,
+      "color": "#FF7E7E,#FF2929",
+      "qrnIconUrl": "https://static.tripcdn.com/packages/fncmobilewallet/walletstatic/1.0.25/images/ctrip/jieqianyouxuan.png"
+    },
+    {
+      "iconUrl": "e9dd",
+      "title": "程信分",
+      "linkUrl": "http://jr.fat3688.qa.nt.ctripcorp.com/m/creno/page/qunar/index?from=qunar_wallet",
+      "target": 2,
+      "needAuthCode": false,
+      "tag": "",
+      "hideHead": 1,
+      "color": "#52E7FF,#02BAD8",
+      "qrnIconUrl": "https://static.tripcdn.com/packages/fncmobilewallet/walletstatic/1.0.25/images/ctrip/chengxinfen.png"
+    },
+    {
+      "iconUrl": "eab8",
+      "title": "分期商城",
+      "linkUrl": "https://jr.ctrip.com/m/mall/page/qunar/stagingMall?mktype=wallet",
+      "target": 2,
+      "needAuthCode": false,
+      "tag": "",
+      "hideHead": 1,
+      "color": "#52E7FF,#02BAD8",
+      "qrnIconUrl": "https://static.tripcdn.com/packages/fncmobilewallet/walletstatic/1.0.25/images/ctrip/fenqishangchang.png"
+    },
+    {
+      "iconUrl": "eb0e",
+      "title": "银行福利",
+      "linkUrl": "https://jr.qunar.com/m/quser/qlogin.do?so=finance&jumpUrl=https%3A%2F%2Fjr.ctrip.com%2Fm%2Fwealth%2Fpage%2Fbank%2Fhome%3Fbid%3D1002%26mktype%3Dqwallet",
+      "target": 2,
+      "needAuthCode": false,
+      "tag": "",
+      "hideHead": 1,
+      "color": "#FF7E7E,#FF2929",
+      "qrnIconUrl": "https://static.tripcdn.com/packages/fncmobilewallet/walletstatic/1.0.25/images/ctrip/yinhangfuli.png"
+    },
+    {
+      "iconUrl": "ebc2",
+      "title": "金融服务",
+      "linkUrl": "https://jr.ctrip.com/m/finweb/page/commonMy?clientSource=qunar&mktype=qwallet",
+      "target": 2,
+      "needAuthCode": false,
+      "tag": "更新",
+      "hideHead": 1,
+      "color": "#FFD33C,#FF8500",
+      "qrnIconUrl": "https://static.tripcdn.com/packages/fncmobilewallet/walletstatic/1.0.25/images/ctrip/jinrongfuwu.png"
+    }
+  ],
+  "migrated": false,
+  "firstAfterMigrating": false,
+  "guidePayAccountStatus": 2,
+  "bannerInfos": [
+    {
+      "name": "fenqishop_banner",
+      "linkUrl": "https://jr.ctrip.com/m/mall/page/qunar/stagingMall?mktype=walletbanner",
+      "img": "https://pages.c-ctrip.com/stagingmall/activity/fqscwalletbn.jpg",
+      "navibar": "navibar-none"
+    }
+  ],
+  "bottomList": [
+    {
+      "iconUrl": "f45d",
+      "title": "银行卡立减",
+      "linkUrl": "https://pages.ctrip.com/Finance/Qunar/index.html",
+      "target": 2,
+      "needAuthCode": false,
+      "hideHead": 2,
+      "color": "#FFD33C,#FF8500",
+      "iosVersion": 80011339,
+      "androidVersion": 60001620,
+      "qrnIconUrl": "https://static.tripcdn.com/packages/fncmobilewallet/walletstatic/1.0.25/images/ctrip/yinhangkalijian.png"
+    },
+    {
+      "iconUrl": "f455",
+      "title": "代金券",
+      "linkUrl": "https://support.m.qunar.com/support/voucher/myVoucher?biz=all&couponfrom=usercenter",
+      "target": 2,
+      "needAuthCode": false,
+      "hideHead": 1,
+      "color": "#FF7878,#FF2929",
+      "qrnIconUrl": "https://static.tripcdn.com/packages/fncmobilewallet/walletstatic/1.0.25/images/ctrip/daijinquan.png"
+    },
+    {
+      "iconUrl": "f4a8",
+      "title": "礼品卡",
+      "linkUrl": "https://card.qunar.com/m/index.htm?_v=2",
+      "target": 2,
+      "needAuthCode": false,
+      "hideHead": 2,
+      "color": "#FFC431,#FF9109",
+      "qrnIconUrl": "https://static.tripcdn.com/packages/fncmobilewallet/walletstatic/1.0.25/images/ctrip/lipinka.png"
+    }
+  ],
+  "guideType": 0
+}

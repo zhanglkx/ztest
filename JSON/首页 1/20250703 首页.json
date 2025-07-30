@@ -1,0 +1,166 @@
+{
+  "rc": 0,
+  "userInfo": {
+    "frozen": false,
+    "userName": "*小薇",
+    "authStatus": 1,
+    "idType": 1,
+    "weakAuth": false,
+    "userId": "_PAY2255828595",
+    "userCertStatus": 1
+  },
+  "cxfInfo": {
+    "cxfUrl": "http://jrk.beta.qunar.com/m/quser/qlogin.do?isHideNavBar=YES&so=finance&jumpUrl=http%3A%2F%2Fjr.fat3688.qa.nt.ctripcorp.com%2Fm%2Fcreno%2Fpage%2Fqunar%2Findex%3Ffrom%3Dqunar_wallet",
+    "needHide": false,
+    "cxfStatus": 0
+  },
+  "bankCardInfo": {
+    "cardCount": 3,
+    "linkTitle": "绑卡享优惠",
+    "linkUrl": "https://bindcardcert.beta.qunar.com/webapp/paywallet/mybankcard"
+  },
+  "moduleList": [
+    {
+      "iconUrl": "ea69",
+      "title": "财富赚钱",
+      "linkUrl": "https://jr.qunar.com/m/quser/qlogin.do?so=finance&jumpUrl=https%3A%2F%2Fjr.ctrip.com%2Fm%2Fwealth%2Fpage%2Fhome%3Fbid%3D1002%26cid%3D1100%26pid%3D1100%26mktype%3DQmy",
+      "target": 2,
+      "needAuthCode": false,
+      "hideHead": 1,
+      "color": "#FF7E7E,#FF2929"
+    },
+    {
+      "iconUrl": "e098",
+      "title": "拿去花",
+      "linkUrl": "https://jr.qunar.com/m/nano/ious/qunar/index?mktype=mob_wallet",
+      "target": 2,
+      "needAuthCode": false,
+      "tag": "",
+      "hideHead": 2,
+      "color": "#FFD33C,#FF8500"
+    },
+    {
+      "iconUrl": "e5fe",
+      "title": "信用贷",
+      "linkUrl": "https://jr.qunar.com/m/cano/cash/qunar/home?mktype=mywallet_app",
+      "target": 2,
+      "needAuthCode": false,
+      "tag": "高额",
+      "hideHead": 1,
+      "color": "#FF7E7E,#FF2929"
+    },
+    {
+      "iconUrl": "ebca",
+      "title": "抵押贷",
+      "linkUrl": "https://jr.qunar.com/m/quser/qlogin.do?so=finance&jumpUrl=https%3A%2F%2Fjr.ctrip.com%2Fm%2Fbino%2Fpage%2Fqunar%2Fhome%3Fmktype%3Dwallet_mort%26homeStyle%3Dmortgage&authorized=false",
+      "target": 2,
+      "needAuthCode": false,
+      "tag": "",
+      "hideHead": 1,
+      "color": "#FFD33C,#FF8500"
+    },
+    {
+      "iconUrl": "ebcc",
+      "title": "生意人贷",
+      "linkUrl": "https://jr.qunar.com/m/quser/qlogin.do?so=finance&jumpUrl=https%3A%2F%2Fjr.ctrip.com%2Fm%2Fsme%2Fpage%2Fqunar%2Fhome%3Fmktype%3DQqianbao",
+      "target": 2,
+      "needAuthCode": false,
+      "tag": "",
+      "hideHead": 1,
+      "color": "#FFD33C,#FF8500"
+    },
+    {
+      "iconUrl": "f213",
+      "title": "借钱优选",
+      "linkUrl": "https://jr.qunar.com/m/marno/market/qunar/index?from=wallet",
+      "target": 2,
+      "needAuthCode": false,
+      "tag": "",
+      "hideHead": 1,
+      "color": "#FF7E7E,#FF2929"
+    },
+    {
+      "iconUrl": "e9dd",
+      "title": "程信分",
+      "linkUrl": "http://jr.fat3688.qa.nt.ctripcorp.com/m/creno/page/qunar/index?from=qunar_wallet",
+      "target": 2,
+      "needAuthCode": false,
+      "tag": "",
+      "hideHead": 1,
+      "color": "#52E7FF,#02BAD8"
+    },
+    {
+      "iconUrl": "eab8",
+      "title": "分期商城",
+      "linkUrl": "https://jr.ctrip.com/m/mall/page/qunar/stagingMall?mktype=wallet",
+      "target": 2,
+      "needAuthCode": false,
+      "tag": "",
+      "hideHead": 1,
+      "color": "#52E7FF,#02BAD8"
+    },
+    {
+      "iconUrl": "eb0e",
+      "title": "银行福利",
+      "linkUrl": "https://jr.qunar.com/m/quser/qlogin.do?so=finance&jumpUrl=https%3A%2F%2Fjr.ctrip.com%2Fm%2Fwealth%2Fpage%2Fbank%2Fhome%3Fbid%3D1002%26mktype%3Dqwallet",
+      "target": 2,
+      "needAuthCode": false,
+      "tag": "",
+      "hideHead": 1,
+      "color": "#FF7E7E,#FF2929"
+    },
+    {
+      "iconUrl": "ebc2",
+      "title": "金融服务",
+      "linkUrl": "https://jr.ctrip.com/m/finweb/page/commonMy?clientSource=qunar&mktype=qwallet",
+      "target": 2,
+      "needAuthCode": false,
+      "tag": "更新",
+      "hideHead": 1,
+      "color": "#FFD33C,#FF8500"
+    }
+  ],
+  "migrated": false,
+  "firstAfterMigrating": false,
+  "guidePayAccountStatus": 3,
+  "bannerInfos": [
+    {
+      "name": "fenqishop_banner",
+      "linkUrl": "https://jr.ctrip.com/m/mall/page/qunar/stagingMall?mktype=walletbanner",
+      "img": "https://pages.c-ctrip.com/stagingmall/activity/fqscwalletbn.jpg",
+      "navibar": "navibar-none"
+    }
+  ],
+  "bottomList": [
+    {
+      "iconUrl": "f45d",
+      "title": "银行卡立减",
+      "linkUrl": "https://pages.ctrip.com/Finance/Qunar/index.html",
+      "target": 2,
+      "needAuthCode": false,
+      "hideHead": 2,
+      "color": "#FFD33C,#FF8500",
+      "iosVersion": 80011339,
+      "androidVersion": 60001621
+    },
+    {
+      "iconUrl": "f455",
+      "title": "代金券",
+      "linkUrl": "https://support.m.qunar.com/support/voucher/myVoucher?biz=all&couponfrom=usercenter",
+      "target": 2,
+      "needAuthCode": false,
+      "hideHead": 1,
+      "color": "#FF7878,#FF2929"
+    },
+    {
+      "iconUrl": "f4a8",
+      "title": "礼品卡",
+      "linkUrl": "https://card.qunar.com/m/index.htm?_v=2",
+      "target": 2,
+      "needAuthCode": false,
+      "hideHead": 2,
+      "color": "#FFC431,#FF9109"
+    }
+  ],
+  "guideType": 0
+}

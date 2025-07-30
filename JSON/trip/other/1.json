@@ -1,0 +1,74 @@
+{
+  "rc": 0,
+  "extend": {
+    "userStatus": 1,
+    "advInfo": [
+      {
+        "logo": "https://pages.trip.com/ibupay/ibupayad/insurance_mycards_en-hk.png",
+        "ubt": "travelinsurance",
+        "rnubt": "c_pay_travelinsurance",
+        "linktext": "ctripglobal://crn/rn_ibu_ccard_insurance/_crn_config?bid=1&cid=1&CRNModuleName=rn_ibu_ccard_insurance&CRNType=1&initialPage=productList&pid=5",
+        "itemtype": 0,
+        "status": 0,
+        "plat": 0
+      }
+    ],
+    "advCarouselInterval": 3,
+    "canadd": true,
+    "bindGuidTitle": "添加银行卡",
+    "hasPayPwd": false,
+    "supportAdvCarousel": true,
+    "disableCode": 0,
+    "bindGSubTitle": "请使用持卡人本人的银行卡",
+    "bindGHasDetail": false,
+    "forwardPage": "",
+    "cardDelAb": "B"
+  },
+  "usedcardcount": 1,
+  "maxCardCount": 30,
+  "userAuthInfo": {
+    "authStatus": 0,
+    "idType": 0,
+    "userId": "_TIHKuikq7qedu6q"
+  },
+  "pageSource": "ibupaybind",
+  "mycardlist": [
+    {
+      "cardid": 2.0241025030120012e+31,
+      "logourl": "https://webresource.c-ctrip.com/resh5paymentcommononline/R1/dest/res/bankico/ibu_bankico/pay_ico_bank_BOC.png?t=1750729631326",
+      "cardno": "************0013",
+      "bankname": "Mastercard",
+      "cardTypeName": "Credit Card",
+      "bindstatus": 0,
+      "cardholder": "c*i",
+      "extend": {
+        "candel": true,
+        "isecard": false,
+        "shadowcolor": "#000000",
+        "validitytip": "",
+        "mobileVerified": false,
+        "tocolor": "#3994FA",
+        "bordercolor": "#FFFFFF",
+        "modifymsg": "",
+        "topColor": "#35A0F5",
+        "validityflag": 0,
+        "modifyflag": 0,
+        "fromcolor": "#1983F9",
+        "cardStatus": "T",
+        "bottomColor": "#276DDD"
+      },
+      "cardNoRefId": 151251089037,
+      "pointGuideText": "银行积分抵扣",
+      "cardNoRefidStr": 151251089037
+    }
+  ],
+  "otherlist": [],
+  "pageStyleABResult": "B",
+  "cardRemarkTag": [
+    "工资卡",
+    "商务卡",
+    "消费卡"
+  ],
+  "cftMigrateStatus": 0,
+  "otherPaymentMethodList": []
+}
