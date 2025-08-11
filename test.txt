@@ -1,1 +1,1 @@
-https://secure.fat18.occpayqa.com/webapp/paywallet/cftunfreeze?_pvi=1&bizPreTask=face&bscene=CTRIP_PAY_VERIFY&cffpt=other&needgoback=1&originhost=ctrip&preCashStep=H5_FACE&productNo=PAY&source=CTRIP_PAY_VERIFY&uidhash=07c0534a629d595833c9c15be288df7744cb2a23bb01508c228ad5efde846aaf&walletTraceId=daf5d063-4d41-24b1-acd4-55d50113249d
+https://secure.fat18.qa.nt.ctripcorp.com/webapp/paywallet/realname
