@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>第8课：CSS Grid 练习挑战</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #333;
+            line-height: 1.6;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .back-link {
+            display: inline-block;
+            background: rgba(255, 255, 255, 0.2);
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 25px;
+            margin-bottom: 20px;
+            transition: all 0.3s ease;
+        }
+
+        .back-link:hover {
+            background: rgba(255, 255, 255, 0.3);
+            transform: translateX(-5px);
+        }
+
+        header {
+            text-align: center;
+            background: rgba(255, 255, 255, 0.95);
+            padding: 30px;
+            border-radius: 15px;
+            margin-bottom: 30px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #4a5568;
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            color: #666;
+            font-size: 1.2rem;
+        }
+
+        .section {
+            background: rgba(255, 255, 255, 0.95);
+            margin: 30px 0;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+        }
+
+        .section-header {
+            background: linear-gradient(45deg, #667eea, #764ba2);
+            color: white;
+            padding: 20px 30px;
+            font-size: 1.5rem;
+            font-weight: 600;
+        }
+
+        .section-content {
+            padding: 30px;
+        }
+
+        .exercise {
+            background: white;
+            border: 2px solid #e2e8f0;
+            border-radius: 10px;
+            margin: 25px 0;
+            overflow: hidden;
+        }
+
+        .exercise-header {
+            background: #f8f9ff;
+            padding: 20px;
+            border-bottom: 1px solid #e2e8f0;
+        }
+
+        .exercise-title {
+            font-size: 1.3rem;
+            font-weight: 600;
+            color: #4a5568;
+            margin-bottom: 10px;
+        }
+
+        .exercise-difficulty {
+            display: inline-block;
+            padding: 4px 12px;
+            border-radius: 15px;
+            font-size: 0.9rem;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+
+        .beginner {
+            background: #c6f6d5;
+            color: #22543d;
+        }
+
+        .intermediate {
+            background: #feebc8;
+            color: #c05621;
+        }
+
+        .advanced {
+            background: #fed7d7;
+            color: #c53030;
+        }
+
+        .exercise-content {
+            padding: 20px;
+        }
+
+        .target-layout {
+            border: 2px dashed #667eea;
+            background: #f8f9ff;
+            border-radius: 8px;
+            padding: 15px;
+            margin: 15px 0;
+        }
+
+        .practice-area {
+            background: #fafafa;
+            border: 2px dashed #cbd5e0;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 15px 0;
+            min-height: 200px;
+            position: relative;
+        }
+
+        .practice-area::before {
+            content: "你的代码区域 - 在这里练习";
+            color: #a0aec0;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-style: italic;
+        }
+
+        .hint-toggle {
+            background: #667eea;
+            color: white;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 10px 0;
+            transition: background 0.3s ease;
+        }
+
+        .hint-toggle:hover {
+            background: #5a67d8;
+        }
+
+        .hint {
+            background: #e6fffa;
+            border-left: 4px solid #38b2ac;
+            padding: 15px;
+            border-radius: 0 8px 8px 0;
+            margin: 10px 0;
+            display: none;
+        }
+
+        .hint.show {
+            display: block;
+        }
+
+        .solution-toggle {
+            background: #48bb78;
+            color: white;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 10px 0;
+            transition: background 0.3s ease;
+        }
+
+        .solution-toggle:hover {
+            background: #38a169;
+        }
+
+        .solution {
+            background: #2d3748;
+            color: #e2e8f0;
+            padding: 20px;
+            border-radius: 8px;
+            font-family: 'Courier New', monospace;
+            margin: 15px 0;
+            overflow-x: auto;
+            display: none;
+        }
+
+        .solution.show {
+            display: block;
+        }
+
+        .solution::before {
+            content: "解决方案";
+            display: block;
+            color: #4fd1c7;
+            font-size: 0.9rem;
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+
+        /* 挑战题目布局示例 */
+        .demo-layout-1 {
+            display: grid;
+            grid-template: 
+                "a a b" 80px
+                "c d d" 80px
+                "c e f" 80px
+                / 1fr 1fr 1fr;
+            gap: 10px;
+        }
+
+        .demo-layout-2 {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: repeat(3, 60px);
+            gap: 10px;
+        }
+
+        .demo-layout-3 {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 15px;
+        }
+
+        .demo-item {
+            background: linear-gradient(45deg, #667eea, #764ba2);
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 8px;
+            font-weight: 600;
+        }
+
+        .demo-a { grid-area: a; }
+        .demo-b { grid-area: b; }
+        .demo-c { grid-area: c; }
+        .demo-d { grid-area: d; }
+        .demo-e { grid-area: e; }
+        .demo-f { grid-area: f; }
+
+        .demo-wide { grid-column: span 2; }
+        .demo-tall { grid-row: span 2; }
+
+        .quiz {
+            background: #f8f9ff;
+            border-left: 4px solid #667eea;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 0 10px 10px 0;
+        }
+
+        .quiz-question {
+            font-weight: 600;
+            margin-bottom: 15px;
+            color: #4a5568;
+        }
+
+        .quiz-options {
+            list-style: none;
+        }
+
+        .quiz-option {
+            background: white;
+            margin: 8px 0;
+            padding: 10px;
+            border-radius: 5px;
+            border: 2px solid #e2e8f0;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .quiz-option:hover {
+            border-color: #667eea;
+            background: #f0f8ff;
+        }
+
+        .quiz-option.correct {
+            border-color: #48bb78;
+            background: #f0fff4;
+            color: #22543d;
+        }
+
+        .quiz-option.wrong {
+            border-color: #f56565;
+            background: #fff5f5;
+            color: #c53030;
+        }
+
+        .project-card {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            padding: 30px;
+            border-radius: 15px;
+            margin: 20px 0;
+            box-shadow: 0 8px 25px rgba(102, 126, 234, 0.3);
+        }
+
+        .project-title {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 15px;
+        }
+
+        .project-requirements {
+            list-style: none;
+            margin: 15px 0;
+        }
+
+        .project-requirements li {
+            margin: 8px 0;
+            padding-left: 20px;
+            position: relative;
+        }
+
+        .project-requirements li::before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: #a8edea;
+            font-weight: 600;
+        }
+
+        .navigation {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 40px 0;
+        }
+
+        .nav-link {
+            display: inline-block;
+            background: linear-gradient(45deg, #667eea, #764ba2);
+            color: white;
+            padding: 15px 25px;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        .nav-link:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 25px rgba(102, 126, 234, 0.4);
+        }
+
+        .nav-link.prev {
+            background: linear-gradient(45deg, #74b9ff, #0984e3);
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2rem;
+            }
+
+            .navigation {
+                flex-direction: column;
+                gap: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="grid-learning-demo.html" class="back-link">← 返回目录</a>
+        
+        <header>
+            <h1>🎮 第8课：CSS Grid 练习挑战</h1>
+            <p class="subtitle">通过实际练习巩固你的Grid技能</p>
+        </header>
+
+        <div class="section">
+            <div class="section-header">
+                📝 基础练习题
+            </div>
+            <div class="section-content">
+                <div class="exercise">
+                    <div class="exercise-header">
+                        <div class="exercise-title">练习1：创建简单3x2网格</div>
+                        <span class="exercise-difficulty beginner">初级</span>
+                        <p>创建一个3列2行的网格布局，每个单元格高80px，列宽相等，间距15px。</p>
+                    </div>
+                    <div class="exercise-content">
+                        <div class="target-layout demo-layout-2" style="grid-template-rows: 80px 80px; height: 180px;">
+                            <div class="demo-item">1</div>
+                            <div class="demo-item">2</div>
+                            <div class="demo-item">3</div>
+                            <div class="demo-item">4</div>
+                            <div class="demo-item">5</div>
+                            <div class="demo-item">6</div>
+                        </div>
+                        <div class="practice-area"></div>
+                        <button class="hint-toggle" onclick="toggleHint(1)">💡 提示</button>
+                        <button class="solution-toggle" onclick="toggleSolution(1)">✅ 查看答案</button>
+                        <div class="hint" id="hint1">
+                            <strong>提示：</strong> 使用 grid-template-columns 和 grid-template-rows 定义网格结构。
+                        </div>
+                        <div class="solution" id="solution1">
+<pre>.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 80px);
+    gap: 15px;
+}</pre></div>
+                    </div>
+                </div>
+
+                <div class="exercise">
+                    <div class="exercise-header">
+                        <div class="exercise-title">练习2：复杂区域布局</div>
+                        <span class="exercise-difficulty intermediate">中级</span>
+                        <p>使用grid-template-areas创建下面的布局模式。</p>
+                    </div>
+                    <div class="exercise-content">
+                        <div class="target-layout demo-layout-1">
+                            <div class="demo-item demo-a">A</div>
+                            <div class="demo-item demo-b">B</div>
+                            <div class="demo-item demo-c">C</div>
+                            <div class="demo-item demo-d">D</div>
+                            <div class="demo-item demo-e">E</div>
+                            <div class="demo-item demo-f">F</div>
+                        </div>
+                        <div class="practice-area"></div>
+                        <button class="hint-toggle" onclick="toggleHint(2)">💡 提示</button>
+                        <button class="solution-toggle" onclick="toggleSolution(2)">✅ 查看答案</button>
+                        <div class="hint" id="hint2">
+                            <strong>提示：</strong> A占据两个单元格，C占据两行，D占据两列。
+                        </div>
+                        <div class="solution" id="solution2">
+<pre>.container {
+    display: grid;
+    grid-template: 
+        "a a b" 80px
+        "c d d" 80px
+        "c e f" 80px
+        / 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.a { grid-area: a; }
+.b { grid-area: b; }
+.c { grid-area: c; }
+.d { grid-area: d; }
+.e { grid-area: e; }
+.f { grid-area: f; }</pre></div>
+                    </div>
+                </div>
+
+                <div class="exercise">
+                    <div class="exercise-header">
+                        <div class="exercise-title">练习3：响应式卡片布局</div>
+                        <span class="exercise-difficulty intermediate">中级</span>
+                        <p>创建一个响应式卡片网格，最小宽度150px，自动适应容器宽度。</p>
+                    </div>
+                    <div class="exercise-content">
+                        <div class="target-layout demo-layout-3">
+                            <div class="demo-item">卡片1</div>
+                            <div class="demo-item">卡片2</div>
+                            <div class="demo-item">卡片3</div>
+                            <div class="demo-item">卡片4</div>
+                            <div class="demo-item">卡片5</div>
+                        </div>
+                        <div class="practice-area"></div>
+                        <button class="hint-toggle" onclick="toggleHint(3)">💡 提示</button>
+                        <button class="solution-toggle" onclick="toggleSolution(3)">✅ 查看答案</button>
+                        <div class="hint" id="hint3">
+                            <strong>提示：</strong> 使用 repeat() 函数配合 auto-fit 和 minmax()。
+                        </div>
+                        <div class="solution" id="solution3">
+<pre>.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 15px;
+}</pre></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-header">
+                🧠 理论知识测试
+            </div>
+            <div class="section-content">
+                <div class="quiz">
+                    <div class="quiz-question">1. auto-fit 和 auto-fill 的主要区别是什么？</div>
+                    <ul class="quiz-options">
+                        <li class="quiz-option" onclick="checkAnswer(this, false)">A. 没有区别，只是写法不同</li>
+                        <li class="quiz-option" onclick="checkAnswer(this, true)">B. auto-fit会折叠空轨道，auto-fill会保留空轨道</li>
+                        <li class="quiz-option" onclick="checkAnswer(this, false)">C. auto-fit用于行，auto-fill用于列</li>
+                        <li class="quiz-option" onclick="checkAnswer(this, false)">D. auto-fit性能更好</li>
+                    </ul>
+                </div>
+
+                <div class="quiz">
+                    <div class="quiz-question">2. 以下哪个属性用于设置隐式网格轨道的大小？</div>
+                    <ul class="quiz-options">
+                        <li class="quiz-option" onclick="checkAnswer(this, false)">A. grid-template-rows</li>
+                        <li class="quiz-option" onclick="checkAnswer(this, true)">B. grid-auto-rows</li>
+                        <li class="quiz-option" onclick="checkAnswer(this, false)">C. grid-row-gap</li>
+                        <li class="quiz-option" onclick="checkAnswer(this, false)">D. grid-implicit-rows</li>
+                    </ul>
+                </div>
+
+                <div class="quiz">
+                    <div class="quiz-question">3. 下面哪个值不能用于justify-content属性？</div>
+                    <ul class="quiz-options">
+                        <li class="quiz-option" onclick="checkAnswer(this, false)">A. space-between</li>
+                        <li class="quiz-option" onclick="checkAnswer(this, false)">B. center</li>
+                        <li class="quiz-option" onclick="checkAnswer(this, true)">C. baseline</li>
+                        <li class="quiz-option" onclick="checkAnswer(this, false)">D. space-evenly</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-header">
+                🚀 高级挑战项目
+            </div>
+            <div class="section-content">
+                <div class="project-card">
+                    <div class="project-title">项目1：个人博客布局</div>
+                    <p>创建一个完整的个人博客首页布局，包含以下要求：</p>
+                    <ul class="project-requirements">
+                        <li>头部导航栏固定高度80px</li>
+                        <li>侧边栏宽度200px，包含用户信息和标签云</li>
+                        <li>主内容区域展示文章列表</li>
+                        <li>底部版权信息高度60px</li>
+                        <li>在移动端(≤768px)时转为单列布局</li>
+                        <li>使用语义化的HTML标签</li>
+                    </ul>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-title">项目2：电商产品展示页</div>
+                    <p>设计一个电商网站的产品展示页面：</p>
+                    <ul class="project-requirements">
+                        <li>顶部搜索栏和分类筛选</li>
+                        <li>响应式产品网格(手机2列，平板3列，桌面4列)</li>
+                        <li>每个产品卡片包含图片、标题、价格、评分</li>
+                        <li>右侧购物车侧边栏(桌面端显示)</li>
+                        <li>分页导航组件</li>
+                        <li>添加加载动效和悬停效果</li>
+                    </ul>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-title">项目3：仪表板管理界面</div>
+                    <p>构建一个后台管理系统的仪表板：</p>
+                    <ul class="project-requirements">
+                        <li>顶部统计卡片区域(4个关键指标)</li>
+                        <li>左侧图表区域和右侧数据表格</li>
+                        <li>底部最近活动日志</li>
+                        <li>所有组件在不同屏幕尺寸下合理排列</li>
+                        <li>使用CSS变量实现主题切换</li>
+                        <li>添加数据加载状态和空状态设计</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-header">
+                📚 进阶学习资源
+            </div>
+            <div class="section-content">
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px;">
+                    <div style="background: white; padding: 20px; border-radius: 10px; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);">
+                        <h3 style="color: #4a5568; margin-bottom: 15px;">🔧 实用工具</h3>
+                        <ul style="margin-left: 20px;">
+                            <li>Firefox Grid Inspector - 最佳的Grid调试工具</li>
+                            <li>Chrome DevTools Grid 功能</li>
+                            <li>CSS Grid Generator 在线工具</li>
+                            <li>Grid by Example 网站</li>
+                        </ul>
+                    </div>
+                    <div style="background: white; padding: 20px; border-radius: 10px; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);">
+                        <h3 style="color: #4a5568; margin-bottom: 15px;">📖 推荐阅读</h3>
+                        <ul style="margin-left: 20px;">
+                            <li>MDN CSS Grid Layout 文档</li>
+                            <li>CSS Tricks Complete Guide to Grid</li>
+                            <li>Rachel Andrew 的 Grid 教程</li>
+                            <li>Jen Simmons 的 Layout Land</li>
+                        </ul>
+                    </div>
+                    <div style="background: white; padding: 20px; border-radius: 10px; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);">
+                        <h3 style="color: #4a5568; margin-bottom: 15px;">🎯 下一步</h3>
+                        <ul style="margin-left: 20px;">
+                            <li>学习 CSS 容器查询</li>
+                            <li>探索 CSS Subgrid</li>
+                            <li>掌握 CSS 自定义属性</li>
+                            <li>了解可访问性最佳实践</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-header">
+                🎉 恭喜你完成了CSS Grid学习！
+            </div>
+            <div class="section-content">
+                <div style="text-align: center; padding: 30px;">
+                    <p style="font-size: 1.2rem; margin-bottom: 20px; color: #4a5568;">
+                        你已经掌握了CSS Grid布局的核心知识，从基础概念到高级特性，从简单练习到复杂项目。
+                        现在是时候在真实项目中应用这些技能了！
+                    </p>
+                    <div style="background: linear-gradient(135deg, #667eea, #764ba2); color: white; padding: 20px; border-radius: 15px; margin: 20px 0;">
+                        <h3>🌟 你已经学会了：</h3>
+                        <ul style="text-align: left; margin: 15px 0 0 20px;">
+                            <li>Grid布局的基本概念和术语</li>
+                            <li>核心API的使用方法</li>
+                            <li>网格区域和命名系统</li>
+                            <li>间距和对齐控制</li>
+                            <li>响应式布局技巧</li>
+                            <li>高级特性和最佳实践</li>
+                            <li>实际项目应用场景</li>
+                        </ul>
+                    </div>
+                    <p style="color: #666; font-style: italic;">
+                        继续练习，保持学习，CSS Grid将成为你前端开发的强大武器！
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="navigation">
+            <a href="grid-07-real-world.html" class="nav-link prev">← 上一课：实际应用</a>
+            <a href="grid-learning-demo.html" class="nav-link">🏠 返回首页</a>
+        </div>
+    </div>
+
+    <script>
+        function toggleHint(num) {
+            const hint = document.getElementById(`hint${num}`);
+            hint.classList.toggle('show');
+        }
+
+        function toggleSolution(num) {
+            const solution = document.getElementById(`solution${num}`);
+            solution.classList.toggle('show');
+        }
+
+        function checkAnswer(element, isCorrect) {
+            // 清除所有选项的状态
+            const options = element.parentElement.querySelectorAll('.quiz-option');
+            options.forEach(option => {
+                option.classList.remove('correct', 'wrong');
+            });
+
+            // 设置当前选项的状态
+            if (isCorrect) {
+                element.classList.add('correct');
+            } else {
+                element.classList.add('wrong');
+                // 显示正确答案
+                options.forEach(option => {
+                    if (option.onclick.toString().includes('true')) {
+                        option.classList.add('correct');
+                    }
+                });
+            }
+        }
+    </script>
+</body>
+</html>
