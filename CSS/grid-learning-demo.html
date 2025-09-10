@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Grid 学习指南</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #333;
+            line-height: 1.6;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding: 40px 0;
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 15px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            font-size: 3rem;
+            background: linear-gradient(45deg, #667eea, #764ba2);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            font-size: 1.2rem;
+            color: #666;
+        }
+
+        .lesson-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 25px;
+            margin-bottom: 40px;
+        }
+
+        .lesson-card {
+            background: rgba(255, 255, 255, 0.95);
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .lesson-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 45px rgba(0, 0, 0, 0.15);
+        }
+
+        .lesson-card h3 {
+            color: #4a5568;
+            margin-bottom: 15px;
+            font-size: 1.5rem;
+            display: flex;
+            align-items: center;
+        }
+
+        .lesson-icon {
+            font-size: 1.8rem;
+            margin-right: 10px;
+        }
+
+        .lesson-card p {
+            color: #666;
+            margin-bottom: 20px;
+        }
+
+        .lesson-link {
+            display: inline-block;
+            background: linear-gradient(45deg, #667eea, #764ba2);
+            color: white;
+            padding: 12px 24px;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+            font-weight: 500;
+        }
+
+        .lesson-link:hover {
+            transform: scale(1.05);
+            box-shadow: 0 5px 20px rgba(102, 126, 234, 0.4);
+        }
+
+        .features {
+            background: rgba(255, 255, 255, 0.9);
+            padding: 30px;
+            border-radius: 15px;
+            margin-top: 30px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+        }
+
+        .features h2 {
+            color: #4a5568;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .features ul {
+            list-style: none;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 15px;
+        }
+
+        .features li {
+            padding: 10px 0;
+            border-left: 4px solid #667eea;
+            padding-left: 15px;
+            background: rgba(102, 126, 234, 0.05);
+            border-radius: 0 8px 8px 0;
+        }
+
+        .features li:before {
+            content: "✨";
+            margin-right: 10px;
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2rem;
+            }
+            
+            .lesson-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .container {
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>CSS Grid 完整学习指南</h1>
+            <p class="subtitle">从零开始，循序渐进掌握CSS Grid布局系统</p>
+        </header>
+
+        <div class="lesson-grid">
+            <div class="lesson-card">
+                <h3><span class="lesson-icon">🎯</span>基础概念</h3>
+                <p>了解Grid布局的基本概念：网格容器、网格项目、网格线等核心概念</p>
+                <a href="grid-01-basics.html" class="lesson-link">开始学习</a>
+            </div>
+
+            <div class="lesson-card">
+                <h3><span class="lesson-icon">🔧</span>核心API</h3>
+                <p>掌握display:grid、grid-template-columns/rows等核心属性的使用</p>
+                <a href="grid-02-core-api.html" class="lesson-link">开始学习</a>
+            </div>
+
+            <div class="lesson-card">
+                <h3><span class="lesson-icon">🗺️</span>网格区域</h3>
+                <p>学习使用grid-area和grid-template-areas创建命名网格区域</p>
+                <a href="grid-03-areas.html" class="lesson-link">开始学习</a>
+            </div>
+
+            <div class="lesson-card">
+                <h3><span class="lesson-icon">📐</span>间距对齐</h3>
+                <p>控制网格间距和对齐方式：gap、justify-content、align-content等</p>
+                <a href="grid-04-spacing-alignment.html" class="lesson-link">开始学习</a>
+            </div>
+
+            <div class="lesson-card">
+                <h3><span class="lesson-icon">📱</span>响应式Grid</h3>
+                <p>使用auto-fit、auto-fill、minmax等函数创建响应式网格布局</p>
+                <a href="grid-05-responsive.html" class="lesson-link">开始学习</a>
+            </div>
+
+            <div class="lesson-card">
+                <h3><span class="lesson-icon">🚀</span>高级特性</h3>
+                <p>探索子网格、隐式网格、grid-auto-flow等高级特性</p>
+                <a href="grid-06-advanced.html" class="lesson-link">开始学习</a>
+            </div>
+
+            <div class="lesson-card">
+                <h3><span class="lesson-icon">💼</span>实际应用</h3>
+                <p>常见布局模式：圣杯布局、卡片布局、瀑布流等实际应用案例</p>
+                <a href="grid-07-real-world.html" class="lesson-link">开始学习</a>
+            </div>
+
+            <div class="lesson-card">
+                <h3><span class="lesson-icon">🎮</span>练习挑战</h3>
+                <p>通过实际练习题和挑战项目巩固你的Grid布局技能</p>
+                <a href="grid-08-exercises.html" class="lesson-link">开始学习</a>
+            </div>
+        </div>
+
+        <div class="features">
+            <h2>📚 学习特色</h2>
+            <ul>
+                <li>每个知识点都有详细的代码示例和可视化效果</li>
+                <li>从基础概念到高级特性的完整学习路径</li>
+                <li>丰富的实际应用案例和常见布局模式</li>
+                <li>交互式练习题帮助巩固理解</li>
+                <li>适合不同水平的开发者学习</li>
+                <li>所有示例都经过精心设计和测试</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
