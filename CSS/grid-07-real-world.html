@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>第7课：CSS Grid 实际应用</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #333;
+            line-height: 1.6;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .back-link {
+            display: inline-block;
+            background: rgba(255, 255, 255, 0.2);
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 25px;
+            margin-bottom: 20px;
+            transition: all 0.3s ease;
+        }
+
+        .back-link:hover {
+            background: rgba(255, 255, 255, 0.3);
+            transform: translateX(-5px);
+        }
+
+        header {
+            text-align: center;
+            background: rgba(255, 255, 255, 0.95);
+            padding: 30px;
+            border-radius: 15px;
+            margin-bottom: 30px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #4a5568;
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            color: #666;
+            font-size: 1.2rem;
+        }
+
+        .section {
+            background: rgba(255, 255, 255, 0.95);
+            margin: 30px 0;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+        }
+
+        .section-header {
+            background: linear-gradient(45deg, #667eea, #764ba2);
+            color: white;
+            padding: 20px 30px;
+            font-size: 1.5rem;
+            font-weight: 600;
+        }
+
+        .section-content {
+            padding: 30px;
+        }
+
+        /* 圣杯布局 */
+        .holy-grail {
+            display: grid;
+            grid-template: 
+                "header header header" 80px
+                "nav main aside" 1fr
+                "footer footer footer" 60px
+                / 200px 1fr 150px;
+            gap: 15px;
+            height: 400px;
+            background: #f8f9ff;
+            border-radius: 10px;
+            padding: 15px;
+            margin: 20px 0;
+        }
+
+        .hg-header { grid-area: header; background: #ff6b6b; }
+        .hg-nav { grid-area: nav; background: #4ecdc4; }
+        .hg-main { grid-area: main; background: #ffe66d; }
+        .hg-aside { grid-area: aside; background: #ff6b9d; }
+        .hg-footer { grid-area: footer; background: #a8e6cf; }
+
+        .layout-item {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 8px;
+            color: white;
+            font-weight: 600;
+        }
+
+        /* 卡片网格 */
+        .card-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+            margin: 20px 0;
+        }
+
+        .card {
+            background: white;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card-image {
+            height: 150px;
+            background: linear-gradient(45deg, #667eea, #764ba2);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: 600;
+        }
+
+        .card-content {
+            padding: 20px;
+        }
+
+        .card-title {
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: #4a5568;
+            margin-bottom: 10px;
+        }
+
+        .card-text {
+            color: #666;
+            margin-bottom: 15px;
+        }
+
+        .card-button {
+            background: #667eea;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+
+        .card-button:hover {
+            background: #5a67d8;
+        }
+
+        /* 仪表板布局 */
+        .dashboard {
+            display: grid;
+            grid-template: 
+                "stats stats stats" auto
+                "chart table table" 300px
+                "recent recent logs" 200px
+                / 1fr 1fr 1fr;
+            gap: 20px;
+            background: #f8f9ff;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+
+        .widget {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 600;
+            color: #4a5568;
+        }
+
+        .stats { grid-area: stats; background: linear-gradient(45deg, #ff6b6b, #ee5a52); color: white; }
+        .chart { grid-area: chart; background: linear-gradient(45deg, #4ecdc4, #44a08d); color: white; }
+        .table { grid-area: table; background: linear-gradient(45deg, #ffe66d, #ffb74d); color: white; }
+        .recent { grid-area: recent; background: linear-gradient(45df, #ff6b9d, #c44569); color: white; }
+        .logs { grid-area: logs; background: linear-gradient(45deg, #a8e6cf, #88d8a8); color: white; }
+
+        /* 杂志布局 */
+        .magazine {
+            display: grid;
+            grid-template: 
+                "hero hero sidebar" 200px
+                "article1 article2 sidebar" 150px
+                "article3 article3 sidebar" 150px
+                "footer footer footer" 60px
+                / 1fr 1fr 250px;
+            gap: 20px;
+            background: #f8f9ff;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+
+        .mag-hero { grid-area: hero; background: linear-gradient(45deg, #667eea, #764ba2); }
+        .mag-article1 { grid-area: article1; background: linear-gradient(45deg, #ff6b6b, #ee5a52); }
+        .mag-article2 { grid-area: article2; background: linear-gradient(45deg, #4ecdc4, #44a08d); }
+        .mag-article3 { grid-area: article3; background: linear-gradient(45deg, #ffe66d, #ffb74d); }
+        .mag-sidebar { grid-area: sidebar; background: linear-gradient(45deg, #ff6b9d, #c44569); }
+        .mag-footer { grid-area: footer; background: linear-gradient(45deg, #a8e6cf, #88d8a8); }
+
+        /* 产品展示网格 */
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 20px;
+            margin: 20px 0;
+        }
+
+        .product-item {
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .product-item:hover {
+            transform: scale(1.05);
+        }
+
+        .product-image {
+            height: 120px;
+            background: linear-gradient(45deg, #667eea, #764ba2);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: 600;
+        }
+
+        .product-info {
+            padding: 15px;
+            text-align: center;
+        }
+
+        .product-name {
+            font-weight: 600;
+            color: #4a5568;
+            margin-bottom: 5px;
+        }
+
+        .product-price {
+            color: #667eea;
+            font-weight: 600;
+        }
+
+        .code-example {
+            background: #2d3748;
+            color: #e2e8f0;
+            padding: 20px;
+            border-radius: 8px;
+            font-family: 'Courier New', monospace;
+            margin: 20px 0;
+            overflow-x: auto;
+        }
+
+        .code-example::before {
+            content: "CSS";
+            display: block;
+            color: #4fd1c7;
+            font-size: 0.9rem;
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+
+        .tip {
+            background: #e6fffa;
+            border-left: 4px solid #38b2ac;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 0 8px 8px 0;
+        }
+
+        .tip-title {
+            font-weight: 600;
+            color: #2c7a7b;
+            margin-bottom: 5px;
+        }
+
+        .highlight {
+            background: linear-gradient(120deg, #a8edea 0%, #fed6e3 100%);
+            padding: 3px 8px;
+            border-radius: 4px;
+            font-weight: 600;
+        }
+
+        .navigation {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 40px 0;
+        }
+
+        .nav-link {
+            display: inline-block;
+            background: linear-gradient(45deg, #667eea, #764ba2);
+            color: white;
+            padding: 15px 25px;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        .nav-link:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 25px rgba(102, 126, 234, 0.4);
+        }
+
+        .nav-link.prev {
+            background: linear-gradient(45deg, #74b9ff, #0984e3);
+        }
+
+        @media (max-width: 768px) {
+            .holy-grail {
+                grid-template: 
+                    "header" auto
+                    "nav" auto
+                    "main" 1fr
+                    "aside" auto
+                    "footer" auto
+                    / 1fr;
+                height: auto;
+            }
+
+            .dashboard {
+                grid-template: 
+                    "stats" auto
+                    "chart" auto
+                    "table" auto
+                    "recent" auto
+                    "logs" auto
+                    / 1fr;
+            }
+
+            .magazine {
+                grid-template: 
+                    "hero" auto
+                    "sidebar" auto
+                    "article1" auto
+                    "article2" auto
+                    "article3" auto
+                    "footer" auto
+                    / 1fr;
+            }
+
+            h1 {
+                font-size: 2rem;
+            }
+
+            .navigation {
+                flex-direction: column;
+                gap: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="grid-learning-demo.html" class="back-link">← 返回目录</a>
+        
+        <header>
+            <h1>💼 第7课：CSS Grid 实际应用</h1>
+            <p class="subtitle">常见布局模式和实战案例</p>
+        </header>
+
+        <div class="section">
+            <div class="section-header">
+                🏛️ 圣杯布局 (Holy Grail Layout)
+            </div>
+            <div class="section-content">
+                <p>经典的<span class="highlight">头-导航-主内容-侧边栏-尾</span>五区域布局，Grid让它变得简单。</p>
+
+                <div class="holy-grail">
+                    <div class="layout-item hg-header">Header 头部</div>
+                    <div class="layout-item hg-nav">Navigation 导航</div>
+                    <div class="layout-item hg-main">Main Content 主内容</div>
+                    <div class="layout-item hg-aside">Aside 侧边栏</div>
+                    <div class="layout-item hg-footer">Footer 底部</div>
+                </div>
+
+                <div class="code-example">
+<pre>.holy-grail {
+    display: grid;
+    grid-template: 
+        "header header header" 80px
+        "nav main aside" 1fr
+        "footer footer footer" 60px
+        / 200px 1fr 150px;
+    gap: 15px;
+    min-height: 100vh;
+}
+
+.header { grid-area: header; }
+.nav { grid-area: nav; }
+.main { grid-area: main; }
+.aside { grid-area: aside; }
+.footer { grid-area: footer; }
+
+/* 响应式调整 */
+@media (max-width: 768px) {
+    .holy-grail {
+        grid-template: 
+            "header" auto
+            "nav" auto
+            "main" 1fr
+            "aside" auto
+            "footer" auto
+            / 1fr;
+    }
+}</pre></div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-header">
+                🃏 响应式卡片网格
+            </div>
+            <div class="section-content">
+                <p>最常用的布局模式之一，适用于产品展示、文章列表、用户卡片等场景。</p>
+
+                <div class="card-grid">
+                    <div class="card">
+                        <div class="card-image">产品图片</div>
+                        <div class="card-content">
+                            <div class="card-title">产品标题</div>
+                            <div class="card-text">这是产品的详细描述信息，可以根据需要调整长度。</div>
+                            <button class="card-button">了解更多</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-image">产品图片</div>
+                        <div class="card-content">
+                            <div class="card-title">另一个产品</div>
+                            <div class="card-text">不同长度的描述文本，Grid会自动处理对齐问题。</div>
+                            <button class="card-button">了解更多</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-image">产品图片</div>
+                        <div class="card-content">
+                            <div class="card-title">第三个产品</div>
+                            <div class="card-text">当屏幕宽度改变时，卡片会自动调整布局，无需媒体查询。</div>
+                            <button class="card-button">了解更多</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="code-example">
+<pre>.card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+}
+
+.card {
+    background: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}</pre></div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-header">
+                📊 仪表板布局
+            </div>
+            <div class="section-content">
+                <p>后台管理系统常用的<span class="highlight">仪表板布局</span>，可以灵活安排各种数据图表和信息面板。</p>
+
+                <div class="dashboard">
+                    <div class="widget stats">统计数据</div>
+                    <div class="widget chart">图表区域</div>
+                    <div class="widget table">数据表格</div>
+                    <div class="widget recent">最近活动</div>
+                    <div class="widget logs">系统日志</div>
+                </div>
+
+                <div class="code-example">
+<pre>.dashboard {
+    display: grid;
+    grid-template: 
+        "stats stats stats" auto
+        "chart table table" 300px
+        "recent recent logs" 200px
+        / 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.stats { grid-area: stats; }
+.chart { grid-area: chart; }
+.table { grid-area: table; }
+.recent { grid-area: recent; }
+.logs { grid-area: logs; }</pre></div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-header">
+                📰 杂志式布局
+            </div>
+            <div class="section-content">
+                <p>适合内容丰富的网站，如新闻门户、博客平台等。</p>
+
+                <div class="magazine">
+                    <div class="layout-item mag-hero">主要文章</div>
+                    <div class="layout-item mag-article1">文章1</div>
+                    <div class="layout-item mag-article2">文章2</div>
+                    <div class="layout-item mag-article3">推荐阅读</div>
+                    <div class="layout-item mag-sidebar">侧边内容</div>
+                    <div class="layout-item mag-footer">版权信息</div>
+                </div>
+
+                <div class="code-example">
+<pre>.magazine {
+    display: grid;
+    grid-template: 
+        "hero hero sidebar" 200px
+        "article1 article2 sidebar" 150px
+        "article3 article3 sidebar" 150px
+        "footer footer footer" 60px
+        / 1fr 1fr 250px;
+    gap: 20px;
+}</pre></div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-header">
+                🛍️ 电商产品网格
+            </div>
+            <div class="section-content">
+                <p>电商网站常用的产品展示网格，支持不同屏幕尺寸下的响应式展示。</p>
+
+                <div class="product-grid">
+                    <div class="product-item">
+                        <div class="product-image">产品图</div>
+                        <div class="product-info">
+                            <div class="product-name">产品名称 1</div>
+                            <div class="product-price">¥199</div>
+                        </div>
+                    </div>
+                    <div class="product-item">
+                        <div class="product-image">产品图</div>
+                        <div class="product-info">
+                            <div class="product-name">产品名称 2</div>
+                            <div class="product-price">¥299</div>
+                        </div>
+                    </div>
+                    <div class="product-item">
+                        <div class="product-image">产品图</div>
+                        <div class="product-info">
+                            <div class="product-name">产品名称 3</div>
+                            <div class="product-price">¥399</div>
+                        </div>
+                    </div>
+                    <div class="product-item">
+                        <div class="product-image">产品图</div>
+                        <div class="product-info">
+                            <div class="product-name">产品名称 4</div>
+                            <div class="product-price">¥199</div>
+                        </div>
+                    </div>
+                    <div class="product-item">
+                        <div class="product-image">产品图</div>
+                        <div class="product-info">
+                            <div class="product-name">产品名称 5</div>
+                            <div class="product-price">¥499</div>
+                        </div>
+                    </div>
+                    <div class="product-item">
+                        <div class="product-image">产品图</div>
+                        <div class="product-info">
+                            <div class="product-name">产品名称 6</div>
+                            <div class="product-price">¥599</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="code-example">
+<pre>.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.product-item {
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.product-item:hover {
+    transform: scale(1.05);
+}</pre></div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-header">
+                🎯 实战技巧总结
+            </div>
+            <div class="section-content">
+                <div class="tip">
+                    <div class="tip-title">💡 最佳实践</div>
+                    <ul style="margin-left: 20px; margin-top: 10px;">
+                        <li><strong>移动优先：</strong>从单列布局开始，逐步增加复杂度</li>
+                        <li><strong>语义化命名：</strong>使用有意义的区域名称，便于维护</li>
+                        <li><strong>灵活单位组合：</strong>混合使用fr、px、minmax()等单位</li>
+                        <li><strong>适度使用媒体查询：</strong>Grid本身就很响应式，减少断点数量</li>
+                        <li><strong>考虑可访问性：</strong>确保键盘导航和屏幕阅读器友好</li>
+                    </ul>
+                </div>
+
+                <div class="code-example">
+<pre>/* 通用响应式模板 */
+.layout-container {
+    display: grid;
+    gap: 20px;
+    padding: 20px;
+    min-height: 100vh;
+}
+
+/* 桌面端 */
+@media (min-width: 768px) {
+    .layout-container {
+        grid-template-columns: 250px 1fr 200px;
+        grid-template-rows: auto 1fr auto;
+        grid-template-areas: 
+            "header header header"
+            "sidebar main aside"
+            "footer footer footer";
+    }
+}
+
+/* 平板端 */
+@media (max-width: 767px) and (min-width: 481px) {
+    .layout-container {
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+            "header"
+            "main"
+            "sidebar"
+            "aside"
+            "footer";
+    }
+}
+
+/* 手机端 */
+@media (max-width: 480px) {
+    .layout-container {
+        padding: 10px;
+        gap: 15px;
+    }
+}</pre></div>
+            </div>
+        </div>
+
+        <div class="navigation">
+            <a href="grid-06-advanced.html" class="nav-link prev">← 上一课：高级特性</a>
+            <a href="grid-08-exercises.html" class="nav-link">下一课：练习挑战 →</a>
+        </div>
+    </div>
+</body>
+</html>
