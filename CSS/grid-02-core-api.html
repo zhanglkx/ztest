@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>第2课：CSS Grid 核心API</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #333;
+            line-height: 1.6;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .back-link {
+            display: inline-block;
+            background: rgba(255, 255, 255, 0.2);
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 25px;
+            margin-bottom: 20px;
+            transition: all 0.3s ease;
+        }
+
+        .back-link:hover {
+            background: rgba(255, 255, 255, 0.3);
+            transform: translateX(-5px);
+        }
+
+        header {
+            text-align: center;
+            background: rgba(255, 255, 255, 0.95);
+            padding: 30px;
+            border-radius: 15px;
+            margin-bottom: 30px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #4a5568;
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            color: #666;
+            font-size: 1.2rem;
+        }
+
+        .section {
+            background: rgba(255, 255, 255, 0.95);
+            margin: 30px 0;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+        }
+
+        .section-header {
+            background: linear-gradient(45deg, #667eea, #764ba2);
+            color: white;
+            padding: 20px 30px;
+            font-size: 1.5rem;
+            font-weight: 600;
+        }
+
+        .section-content {
+            padding: 30px;
+        }
+
+        .api-demo {
+            margin: 30px 0;
+            background: #f8f9ff;
+            padding: 25px;
+            border-radius: 10px;
+            border-left: 4px solid #667eea;
+        }
+
+        .demo-grid {
+            display: grid;
+            gap: 15px;
+            margin: 20px 0;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            border: 2px dashed #667eea;
+            position: relative;
+        }
+
+        .demo-grid::before {
+            content: attr(data-label);
+            position: absolute;
+            top: -15px;
+            left: 20px;
+            background: #667eea;
+            color: white;
+            padding: 5px 15px;
+            border-radius: 15px;
+            font-size: 0.9rem;
+            font-weight: 600;
+        }
+
+        .grid-item {
+            background: linear-gradient(45deg, #ff6b6b, #feca57);
+            color: white;
+            padding: 15px;
+            text-align: center;
+            border-radius: 8px;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 60px;
+        }
+
+        .code-example {
+            background: #2d3748;
+            color: #e2e8f0;
+            padding: 20px;
+            border-radius: 8px;
+            font-family: 'Courier New', monospace;
+            margin: 20px 0;
+            overflow-x: auto;
+        }
+
+        .code-example::before {
+            content: "CSS";
+            display: block;
+            color: #4fd1c7;
+            font-size: 0.9rem;
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+
+        .property-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin: 20px 0;
+        }
+
+        .property-card {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            border-left: 4px solid #667eea;
+        }
+
+        .property-title {
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: #4a5568;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+        }
+
+        .property-emoji {
+            margin-right: 10px;
+            font-size: 1.3rem;
+        }
+
+        .property-syntax {
+            background: #f1f5f9;
+            padding: 10px;
+            border-radius: 5px;
+            font-family: monospace;
+            margin: 10px 0;
+            color: #1a202c;
+        }
+
+        .interactive-demo {
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            margin: 20px 0;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .demo-controls {
+            display: flex;
+            gap: 15px;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+        }
+
+        .control-button {
+            background: #667eea;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-weight: 600;
+        }
+
+        .control-button:hover {
+            background: #5a67d8;
+            transform: scale(1.05);
+        }
+
+        .control-button.active {
+            background: #2d3748;
+        }
+
+        .fr-demo {
+            grid-template-columns: 1fr 2fr 1fr;
+        }
+
+        .pixel-demo {
+            grid-template-columns: 200px 150px 100px;
+        }
+
+        .percent-demo {
+            grid-template-columns: 25% 50% 25%;
+        }
+
+        .mixed-demo {
+            grid-template-columns: 100px 1fr 200px;
+        }
+
+        .repeat-demo {
+            grid-template-columns: repeat(4, 1fr);
+        }
+
+        .auto-demo {
+            grid-template-columns: auto 1fr auto;
+        }
+
+        .minmax-demo {
+            grid-template-columns: minmax(100px, 1fr) minmax(200px, 2fr) minmax(100px, 1fr);
+        }
+
+        .rows-demo {
+            grid-template-rows: 100px 150px 100px;
+            height: 350px;
+        }
+
+        .highlight {
+            background: linear-gradient(120deg, #a8edea 0%, #fed6e3 100%);
+            padding: 3px 8px;
+            border-radius: 4px;
+            font-weight: 600;
+        }
+
+        .tip {
+            background: #e6fffa;
+            border-left: 4px solid #38b2ac;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 0 8px 8px 0;
+        }
+
+        .tip-title {
+            font-weight: 600;
+            color: #2c7a7b;
+            margin-bottom: 5px;
+        }
+
+        .navigation {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 40px 0;
+        }
+
+        .nav-link {
+            display: inline-block;
+            background: linear-gradient(45deg, #667eea, #764ba2);
+            color: white;
+            padding: 15px 25px;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        .nav-link:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 25px rgba(102, 126, 234, 0.4);
+        }
+
+        .nav-link.prev {
+            background: linear-gradient(45deg, #74b9ff, #0984e3);
+        }
+
+        @media (max-width: 768px) {
+            .demo-controls {
+                flex-direction: column;
+            }
+            
+            .property-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            h1 {
+                font-size: 2rem;
+            }
+
+            .navigation {
+                flex-direction: column;
+                gap: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="grid-learning-demo.html" class="back-link">← 返回目录</a>
+        
+        <header>
+            <h1>🔧 第2课：CSS Grid 核心API</h1>
+            <p class="subtitle">掌握Grid布局的核心属性和方法</p>
+        </header>
+
+        <div class="section">
+            <div class="section-header">
+                🎯 display: grid - 启用网格布局
+            </div>
+            <div class="section-content">
+                <div class="api-demo">
+                    <p>要使用Grid布局，首先需要在容器上设置 <span class="highlight">display: grid</span> 或 <span class="highlight">display: inline-grid</span>。</p>
+                    
+                    <div class="property-grid">
+                        <div class="property-card">
+                            <div class="property-title">
+                                <span class="property-emoji">🏗️</span>
+                                display: grid
+                            </div>
+                            <div class="property-syntax">display: grid;</div>
+                            <p>创建一个块级网格容器</p>
+                        </div>
+                        <div class="property-card">
+                            <div class="property-title">
+                                <span class="property-emoji">📦</span>
+                                display: inline-grid
+                            </div>
+                            <div class="property-syntax">display: inline-grid;</div>
+                            <p>创建一个行内网格容器</p>
+                        </div>
+                    </div>
+
+                    <div class="code-example">
+<pre>.container {
+    display: grid;  /* 启用网格布局 */
+}</pre></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-header">
+                📏 grid-template-columns - 定义列
+            </div>
+            <div class="section-content">
+                <p>这是最重要的Grid属性之一，用来定义网格的列数和每列的大小。</p>
+
+                <div class="interactive-demo">
+                    <h3 style="margin-bottom: 15px;">🎮 交互式演示</h3>
+                    <div class="demo-controls">
+                        <button class="control-button active" onclick="changeDemo('fr')">fr 单位</button>
+                        <button class="control-button" onclick="changeDemo('pixel')">像素 (px)</button>
+                        <button class="control-button" onclick="changeDemo('percent')">百分比 (%)</button>
+                        <button class="control-button" onclick="changeDemo('mixed')">混合单位</button>
+                        <button class="control-button" onclick="changeDemo('repeat')">repeat() 函数</button>
+                        <button class="control-button" onclick="changeDemo('auto')">auto 关键字</button>
+                        <button class="control-button" onclick="changeDemo('minmax')">minmax() 函数</button>
+                    </div>
+                    <div class="demo-grid fr-demo" id="demoGrid" data-label="1fr 2fr 1fr">
+                        <div class="grid-item">1</div>
+                        <div class="grid-item">2</div>
+                        <div class="grid-item">3</div>
+                    </div>
+                    <div class="code-example" id="demoCode">
+<pre>grid-template-columns: 1fr 2fr 1fr;</pre></div>
+                </div>
+
+                <div class="property-grid">
+                    <div class="property-card">
+                        <div class="property-title">
+                            <span class="property-emoji">🔢</span>
+                            fr 单位 (fraction)
+                        </div>
+                        <div class="property-syntax">grid-template-columns: 1fr 2fr 1fr;</div>
+                        <p>表示可用空间的分数。上例中第二列是第一、三列的两倍宽。</p>
+                    </div>
+                    <div class="property-card">
+                        <div class="property-title">
+                            <span class="property-emoji">📐</span>
+                            固定单位
+                        </div>
+                        <div class="property-syntax">grid-template-columns: 200px 150px 100px;</div>
+                        <p>使用px、em、rem等固定单位定义列宽。</p>
+                    </div>
+                    <div class="property-card">
+                        <div class="property-title">
+                            <span class="property-emoji">📊</span>
+                            百分比
+                        </div>
+                        <div class="property-syntax">grid-template-columns: 25% 50% 25%;</div>
+                        <p>基于容器宽度的百分比。</p>
+                    </div>
+                    <div class="property-card">
+                        <div class="property-title">
+                            <span class="property-emoji">🔄</span>
+                            repeat() 函数
+                        </div>
+                        <div class="property-syntax">grid-template-columns: repeat(4, 1fr);</div>
+                        <p>等同于 1fr 1fr 1fr 1fr，用于创建重复的列。</p>
+                    </div>
+                    <div class="property-card">
+                        <div class="property-title">
+                            <span class="property-emoji">🤖</span>
+                            auto 关键字
+                        </div>
+                        <div class="property-syntax">grid-template-columns: auto 1fr auto;</div>
+                        <p>根据内容自动调整大小。</p>
+                    </div>
+                    <div class="property-card">
+                        <div class="property-title">
+                            <span class="property-emoji">📏</span>
+                            minmax() 函数
+                        </div>
+                        <div class="property-syntax">grid-template-columns: minmax(100px, 1fr);</div>
+                        <p>定义大小的最小值和最大值范围。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-header">
+                📐 grid-template-rows - 定义行
+            </div>
+            <div class="section-content">
+                <div class="api-demo">
+                    <p><span class="highlight">grid-template-rows</span> 的用法与 grid-template-columns 类似，用于定义行的数量和高度。</p>
+
+                    <div class="demo-grid rows-demo" data-label="100px 150px 100px" style="grid-template-columns: repeat(3, 1fr);">
+                        <div class="grid-item">A</div>
+                        <div class="grid-item">B</div>
+                        <div class="grid-item">C</div>
+                        <div class="grid-item">D</div>
+                        <div class="grid-item">E</div>
+                        <div class="grid-item">F</div>
+                        <div class="grid-item">G</div>
+                        <div class="grid-item">H</div>
+                        <div class="grid-item">I</div>
+                    </div>
+
+                    <div class="code-example">
+<pre>.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);  /* 3列等宽 */
+    grid-template-rows: 100px 150px 100px;  /* 3行不等高 */
+    gap: 15px;
+}</pre></div>
+
+                    <div class="tip">
+                        <div class="tip-title">💡 提示</div>
+                        如果不指定 grid-template-rows，行高会根据内容自动调整。
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-header">
+                🎨 grid-template 简写属性
+            </div>
+            <div class="section-content">
+                <div class="api-demo">
+                    <p><span class="highlight">grid-template</span> 是 grid-template-rows 和 grid-template-columns 的简写形式。</p>
+
+                    <div class="code-example">
+<pre>/* 完整写法 */
+.grid-container {
+    grid-template-rows: 100px 150px;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+/* 简写形式 */
+.grid-container {
+    grid-template: 100px 150px / 1fr 2fr 1fr;
+    /*             行高度      /   列宽度    */
+}</pre></div>
+
+                    <div class="property-grid">
+                        <div class="property-card">
+                            <div class="property-title">
+                                <span class="property-emoji">✏️</span>
+                                语法规则
+                            </div>
+                            <div class="property-syntax">grid-template: [rows] / [columns];</div>
+                            <p>行和列的定义用斜杠 (/) 分隔。</p>
+                        </div>
+                        <div class="property-card">
+                            <div class="property-title">
+                                <span class="property-emoji">🎯</span>
+                                实际示例
+                            </div>
+                            <div class="property-syntax">grid-template: repeat(3, 1fr) / 200px 1fr;</div>
+                            <p>3行等高，2列（固定宽度+弹性宽度）。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-header">
+                🔧 实战技巧与最佳实践
+            </div>
+            <div class="section-content">
+                <div class="property-grid">
+                    <div class="property-card">
+                        <div class="property-title">
+                            <span class="property-emoji">⚡</span>
+                            性能优化
+                        </div>
+                        <p>尽量使用 fr 单位而不是百分比，fr 单位性能更好且更灵活。</p>
+                    </div>
+                    <div class="property-card">
+                        <div class="property-title">
+                            <span class="property-emoji">📱</span>
+                            响应式设计
+                        </div>
+                        <p>结合媒体查询，在不同屏幕尺寸下使用不同的列数和大小。</p>
+                    </div>
+                    <div class="property-card">
+                        <div class="property-title">
+                            <span class="property-emoji">🎨</span>
+                            设计一致性
+                        </div>
+                        <p>使用 repeat() 函数创建规律的网格，保持视觉一致性。</p>
+                    </div>
+                    <div class="property-card">
+                        <div class="property-title">
+                            <span class="property-emoji">🔍</span>
+                            调试技巧
+                        </div>
+                        <p>使用浏览器开发者工具的Grid检查器查看网格结构。</p>
+                    </div>
+                </div>
+
+                <div class="tip">
+                    <div class="tip-title">🚀 进阶技巧</div>
+                    <p>可以混合使用不同的单位类型，如：<code>grid-template-columns: 250px 1fr minmax(200px, 300px)</code>，这样可以创建更灵活的布局。</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="navigation">
+            <a href="grid-01-basics.html" class="nav-link prev">← 上一课：基础概念</a>
+            <a href="grid-03-areas.html" class="nav-link">下一课：网格区域 →</a>
+        </div>
+    </div>
+
+    <script>
+        function changeDemo(type) {
+            const grid = document.getElementById('demoGrid');
+            const code = document.getElementById('demoCode');
+            const buttons = document.querySelectorAll('.control-button');
+            
+            // 移除所有按钮的active状态
+            buttons.forEach(btn => btn.classList.remove('active'));
+            
+            // 移除所有demo类
+            grid.className = 'demo-grid';
+            
+            // 根据类型设置新的类和代码
+            switch(type) {
+                case 'fr':
+                    grid.classList.add('fr-demo');
+                    grid.setAttribute('data-label', '1fr 2fr 1fr');
+                    code.innerHTML = '<pre>grid-template-columns: 1fr 2fr 1fr;</pre>';
+                    buttons[0].classList.add('active');
+                    break;
+                case 'pixel':
+                    grid.classList.add('pixel-demo');
+                    grid.setAttribute('data-label', '200px 150px 100px');
+                    code.innerHTML = '<pre>grid-template-columns: 200px 150px 100px;</pre>';
+                    buttons[1].classList.add('active');
+                    break;
+                case 'percent':
+                    grid.classList.add('percent-demo');
+                    grid.setAttribute('data-label', '25% 50% 25%');
+                    code.innerHTML = '<pre>grid-template-columns: 25% 50% 25%;</pre>';
+                    buttons[2].classList.add('active');
+                    break;
+                case 'mixed':
+                    grid.classList.add('mixed-demo');
+                    grid.setAttribute('data-label', '100px 1fr 200px');
+                    code.innerHTML = '<pre>grid-template-columns: 100px 1fr 200px;</pre>';
+                    buttons[3].classList.add('active');
+                    break;
+                case 'repeat':
+                    grid.classList.add('repeat-demo');
+                    grid.setAttribute('data-label', 'repeat(4, 1fr)');
+                    code.innerHTML = '<pre>grid-template-columns: repeat(4, 1fr);</pre>';
+                    buttons[4].classList.add('active');
+                    // 需要添加第四个项目
+                    if (grid.children.length === 3) {
+                        const newItem = document.createElement('div');
+                        newItem.className = 'grid-item';
+                        newItem.textContent = '4';
+                        grid.appendChild(newItem);
+                    }
+                    break;
+                case 'auto':
+                    grid.classList.add('auto-demo');
+                    grid.setAttribute('data-label', 'auto 1fr auto');
+                    code.innerHTML = '<pre>grid-template-columns: auto 1fr auto;</pre>';
+                    buttons[5].classList.add('active');
+                    // 移除第四个项目如果存在
+                    if (grid.children.length > 3) {
+                        grid.removeChild(grid.lastChild);
+                    }
+                    break;
+                case 'minmax':
+                    grid.classList.add('minmax-demo');
+                    grid.setAttribute('data-label', 'minmax(100px, 1fr) minmax(200px, 2fr) minmax(100px, 1fr)');
+                    code.innerHTML = '<pre>grid-template-columns: minmax(100px, 1fr) minmax(200px, 2fr) minmax(100px, 1fr);</pre>';
+                    buttons[6].classList.add('active');
+                    // 移除第四个项目如果存在
+                    if (grid.children.length > 3) {
+                        grid.removeChild(grid.lastChild);
+                    }
+                    break;
+            }
+        }
+    </script>
+</body>
+</html>
