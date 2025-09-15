@@ -464,15 +464,19 @@ class P extends React.Component {
                 }
             }
     
-            const { key } = data || {}
-    
+            const { key,noSendWatcher } = data || {}
+            sendUbtWrap(send => send(reportData));
             // 安全地调用sendWatcher，避免复杂对象序列化问题
-            this.sendWatcher(key, reportData);
+            if (!noSendWatcher) {
+                const watchData = {
+                    ...reportData,
+                    extend: {}
+                }
+                this.sendWatcher(key, watchData);
+            }
         } catch (error) {
             console.warn('sendWatcher error:', error);
         }
-
-        sendUbtWrap(send => send(reportData));
     }
 
     sendRequest = (serverCode, data) => {
@@ -582,7 +586,8 @@ class P extends React.Component {
                                     level: 'p3',
                                     extend: {
                                         messageStr, onceLogin, serverCode, data, res
-                                    }
+                                    },
+                                    noSendWatcher: true
                                 });
                                 return;
                             }
@@ -597,7 +602,8 @@ class P extends React.Component {
                                     level: 'p3',
                                     extend: {
                                         messageStr, onceLogin, serverCode, data, res
-                                    }
+                                    },
+                                    noSendWatcher: true
                                 });
                             } else {
 
@@ -609,7 +615,8 @@ class P extends React.Component {
                                     level: 'p3',
                                     extend: {
                                         messageStr, serverCode, data, res
-                                    }
+                                    },
+                                    noSendWatcher: true
                                 });
                             }
                             reject(res);
@@ -975,7 +982,8 @@ class P extends React.Component {
                             chainName: 'c_wallet_mini_WalletCheckAgeModelSuccess',
                             extend: {
                                 ...data,
-                            }
+                            },
+                            noSendWatcher: true
                         });
 
                         if (data.rc === 0) {
@@ -996,7 +1004,8 @@ class P extends React.Component {
                             extend: {
                                 idNo: idNo,
                                 error: e
-                            }
+                            },
+                            noSendWatcher: true
                         });
                         reject({
                             rc: 10001,
@@ -1227,19 +1236,7 @@ class P extends React.Component {
                 }
             });
         } else {
-            that.reportUbtLog({
-                key: 'c_wallet_mini_abnormal_confirm',
-                type: 'chain',
-                desc: '用户点击了alert-确认按钮',
-                chainName: 'c_wallet_mini_abnormal_confirm',
-                level: 'p3',
-                extend: {
-                    func: "againSubmit",
-                    desc: "姓名与身份证服务校验失败，用户修改再次校操作",
-                    status: "当前实名状态：",
-                    realNames
-                }
-            });
+ 
             that.formSubmiting();
         }
     };
@@ -1309,7 +1306,8 @@ class P extends React.Component {
             extend: {
                 func: "doSignGet",
                 desc: "默认获取token服务失败，用户点击确定按钮再次获取token服务",
-            }
+            },
+            noSendWatcher: true
         });
         that.signGet((data = {}) => {
             const { code, needAuth, authStatus } = data;
@@ -1683,6 +1681,7 @@ class P extends React.Component {
             desc: '提交验证实名信息',
             chainName: 'c_wallet_mini_submit',
             level: 'p3',
+            noSendWatcher: true
         });
         const { canSubmit, inputKeys, realNames, weakAuthData } = that.state;
         if (canSubmit) {
@@ -1729,7 +1728,8 @@ class P extends React.Component {
                                 level: 'p3',
                                 extend: {
                                     ...data,
-                                }
+                                },
+                                noSendWatcher: true
                             });
                             that.setState({
                                 canSubmit: false,
@@ -1756,7 +1756,8 @@ class P extends React.Component {
                                         level: 'p3',
                                         extend: {
                                             ...data,
-                                        }
+                                        },
+                                        noSendWatcher: true
                                     });
                                 });
                             } else {
@@ -1778,7 +1779,11 @@ class P extends React.Component {
                                         desc: 'ctripwechatmini_paymentNavBack_redirectTo',
                                         chainName: 'c_wallet_mini_ctripwechatmini_paymentNavBack_redirectTo',
                                         level: 'p3',
-                                        
+                                        extend: {
+                                            ...data,
+                                        },
+                                        noSendWatcher: true
+
                                     });
                                 });
                             }
@@ -1809,7 +1814,8 @@ class P extends React.Component {
                                 level: 'p3',
                                 extend: {
                                     ...data
-                                }
+                                },
+                                noSendWatcher: true
                             });
 
                             let returnUrlStr = that.getReturnUrl(
@@ -1853,7 +1859,8 @@ class P extends React.Component {
                                 level: 'p3',
                                 extend: {
                                     msg
-                                }
+                                },
+                                noSendWatcher: true
                             });
                         } else {
 
@@ -1865,7 +1872,8 @@ class P extends React.Component {
                                 level: 'p3',
                                 extend: {
                                     msg
-                                }
+                                },
+                                noSendWatcher: true
                             });
                         }
                         that.signGet();
