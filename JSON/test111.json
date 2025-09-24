@@ -1,913 +1,124 @@
 {
-	"rc": 0,
-	"extend": {
-	  "bindGuidTitle": "请绑定本人银行卡",
-	  "complianceText": "根据相关法律法规的要求，您需提供姓名、证件号、手机号和银行卡号进行身份验证和绑卡",
-	  "bindGHasDetail": false,
-	  "forwardPage": "",
-	  "showQuickBindBankCount": true,
-	  "inputDesc": "点击输入*理科的银行卡号"
-	},
-	"pageSource": "ctrip_wallet_bindcard",
-	"userAuthInfo": {
-	  "authStatus": 1,
-	  "idNo": "4****************X",
-	  "idType": 1,
-	  "idNoCrypt": "4127XKXum86ktsy01X",
-	  "idTypeName": "身份证",
-	  "userName": "张理科",
-	  "userNameMask": "*理科"
-	},
-	"scenceCode": "general",
-	"oneKeyBindText": "免输卡号，快速绑定te333",
-	"oneKeyBankList": [
-	  {
-		"bankName": "建设银行",
-		"bankCode": "CCB",
-		"logoUrl": "https://webresource.c-ctrip.com/resh5paymentcommononline/R1/dest/res/bankico/pay_ico_bank_CCB.png?t=1753356344707",
-		"desc": "",
-		"descType": 0,
-		"initial": "J",
-		"recommend": true,
-		"existAmountLimit": false,
-		"allAmountLimit": false,
-		"supportPoints": false,
-		"payRecomm": false,
-		"brandList": [
-		  {
-			"bankCode": "CCB",
-			"collectionId": "CQ.CTRIP.TRIPPAY.BIND",
-			"channelId": 1213,
-			"cardType": 2,
-			"brandId": "QBD_CCB",
-			"status": 0,
-			"selected": true,
-			"agreementList": [
-			  {
-				"agreementId": "QuickPayProtoClient",
-				"agreementtitle": "《携程旅行网支付服务协议》",
-				"agreementurl": "https://secure.fat18.qa.nt.ctripcorp.com/webapp/paywallet/protocol?payagreeId=QuickPayProtoClient",
-				"version": "V0.4"
-			  },
-			  {
-				"agreementId": "CQ.CTRIP.TRIPPAY.BIND-CCB-DCard",
-				"agreementtitle": "《建设银行一键绑卡储蓄卡协议》",
-				"agreementurl": "https://secure.fat18.qa.nt.ctripcorp.com/webapp/paywallet/protocol?payagreeId=CQ.CTRIP.TRIPPAY.BIND-CCB-DCard",
-				"version": "V2.0"
-			  }
-			],
-			"couponList": [],
-			"unionPay": false,
-			"payAmountLimit": 10002,
-			"supportPoints": false,
-			"agreementCategoryList": [
-			  {
-				"categoryName": "用户服务协议",
-				"agreementList": [
-				  {
-					"agreementtitle": "《携程旅行网支付服务协议》",
-					"agreementurl": "https://secure.fat18.qa.nt.ctripcorp.com/webapp/paywallet/protocol?payagreeId=QuickPayProtoClient",
-					"agreementId": "QuickPayProtoClient",
-					"version": "V0.4"
-				  },
-				  {
-					"agreementtitle": "《建设银行一键绑卡储蓄卡协议》",
-					"agreementurl": "https://secure.fat18.qa.nt.ctripcorp.com/webapp/paywallet/protocol?payagreeId=CQ.CTRIP.TRIPPAY.BIND-CCB-DCard",
-					"agreementId": "CQ.CTRIP.TRIPPAY.BIND-CCB-DCard",
-					"version": "V2.0"
-				  }
-				]
-			  }
-			]
-		  },
-		  {
-			"bankCode": "CCB",
-			"collectionId": "CQ.CTRIP.TRIPPAY.BIND",
-			"channelId": 1213,
-			"cardType": 1,
-			"brandId": "QBC_CCB",
-			"status": 0,
-			"selected": false,
-			"agreementList": [
-			  {
-				"agreementId": "QuickPayProtoClient",
-				"agreementtitle": "《携程旅行网支付服务协议》",
-				"agreementurl": "https://secure.fat18.qa.nt.ctripcorp.com/webapp/paywallet/protocol?payagreeId=QuickPayProtoClient",
-				"version": "V0.4"
-			  },
-			  {
-				"agreementId": "CQ.CTRIP.TRIPPAY.BIND-CCB-CCard",
-				"agreementtitle": "《建设信用一键绑卡》",
-				"agreementurl": "https://secure.fat18.qa.nt.ctripcorp.com/webapp/paywallet/protocol?payagreeId=CQ.CTRIP.TRIPPAY.BIND-CCB-CCard",
-				"version": "V1.0"
-			  }
-			],
-			"couponList": [],
-			"unionPay": false,
-			"payAmountLimit": 10003,
-			"supportPoints": false,
-			"agreementCategoryList": [
-			  {
-				"categoryName": "用户服务协议",
-				"agreementList": [
-				  {
-					"agreementtitle": "《携程旅行网支付服务协议》",
-					"agreementurl": "https://secure.fat18.qa.nt.ctripcorp.com/webapp/paywallet/protocol?payagreeId=QuickPayProtoClient",
-					"agreementId": "QuickPayProtoClient",
-					"version": "V0.4"
-				  },
-				  {
-					"agreementtitle": "《建设信用一键绑卡》",
-					"agreementurl": "https://secure.fat18.qa.nt.ctripcorp.com/webapp/paywallet/protocol?payagreeId=CQ.CTRIP.TRIPPAY.BIND-CCB-CCard",
-					"agreementId": "CQ.CTRIP.TRIPPAY.BIND-CCB-CCard",
-					"version": "V1.0"
-				  }
-				]
-			  }
-			]
-		  }
-		]
-	  },
-	  {
-		"bankName": "农业银行",
-		"bankCode": "ABC",
-		"logoUrl": "https://webresource.c-ctrip.com/resh5paymentcommononline/R1/dest/res/bankico/pay_ico_bank_ABC.png?t=1753356344708",
-		"desc": "",
-		"descType": 0,
-		"initial": "J",
-		"recommend": true,
-		"existAmountLimit": false,
-		"allAmountLimit": false,
-		"supportPoints": false,
-		"payRecomm": false,
-		"brandList": [
-		  {
-			"bankCode": "ABC",
-			"collectionId": "CQ.CTRIP.TRIPPAY.BIND",
-			"channelId": 1213,
-			"cardType": 1,
-			"brandId": "QBC_ABC",
-			"status": 0,
-			"selected": true,
-			"agreementList": [
-			  {
-				"agreementId": "QuickPayProtoClient",
-				"agreementtitle": "《携程旅行网支付服务协议》",
-				"agreementurl": "https://secure.fat18.qa.nt.ctripcorp.com/webapp/paywallet/protocol?payagreeId=QuickPayProtoClient",
-				"version": "V0.4"
-			  }
-			],
-			"couponList": [],
-			"unionPay": false,
-			"payAmountLimit": 0,
-			"supportPoints": false,
-			"agreementCategoryList": [
-			  {
-				"categoryName": "用户服务协议",
-				"agreementList": [
-				  {
-					"agreementtitle": "《携程旅行网支付服务协议》",
-					"agreementurl": "https://secure.fat18.qa.nt.ctripcorp.com/webapp/paywallet/protocol?payagreeId=QuickPayProtoClient",
-					"agreementId": "QuickPayProtoClient",
-					"version": "V0.4"
-				  }
-				]
-			  }
-			]
-		  },
-		  {
-			"channelId": 0,
-			"cardType": 2,
-			"status": 2,
-			"displayText": "需手动输入卡号",
-			"selected": false,
-			"agreementList": [
-			  {
-				"agreementId": "QuickPayProtoClient",
-				"agreementtitle": "《携程旅行网支付服务协议》",
-				"agreementurl": "https://secure.fat18.qa.nt.ctripcorp.com/webapp/paywallet/protocol?payagreeId=QuickPayProtoClient",
-				"version": "V0.4"
-			  }
-			],
-			"agreementCategoryList": [
-			  {
-				"categoryName": "用户服务协议",
-				"agreementList": [
-				  {
-					"agreementtitle": "《携程旅行网支付服务协议》",
-					"agreementurl": "https://secure.fat18.qa.nt.ctripcorp.com/webapp/paywallet/protocol?payagreeId=QuickPayProtoClient",
-					"agreementId": "QuickPayProtoClient",
-					"version": "V0.4"
-				  }
-				]
-			  }
-			]
-		  }
-		]
-	  },
-	  {
-		"bankName": "工商银行",
-		"bankCode": "ICBC",
-		"logoUrl": "https://webresource.c-ctrip.com/resh5paymentcommononline/R1/dest/res/bankico/pay_ico_bank_ICBC.png?t=1753356344708",
-		"desc": "",
-		"descType": 0,
-		"initial": "G",
-		"recommend": true,
-		"existAmountLimit": false,
-		"allAmountLimit": false,
-		"supportPoints": false,
-		"payRecomm": false,
-		"brandList": [
-		  {
-			"bankCode": "ICBC",
-			"collectionId": "CQ.CTRIP.TRIPPAY.BIND",
-			"channelId": 1213,
-			"cardType": 1,
-			"brandId": "QBD_ICBC",
-			"status": 0,
-			"selected": true,
-			"agreementList": [
-			  {
-				"agreementId": "QuickPayProtoClient",
-				"agreementtitle": "《携程旅行网支付服务协议》",
-				"agreementurl": "https://secure.fat18.qa.nt.ctripcorp.com/webapp/paywallet/protocol?payagreeId=QuickPayProtoClient",
-				"version": "V0.4"
-			  },
-			  {
-				"agreementId": "CQ.CTRIP.TRIPPAY.BIND-ICBC",
-				"agreementtitle": "《中国工商银行非银行支付机构快捷支付业务客户授权协议》",
-				"agreementurl": "https://secure.fat18.qa.nt.ctripcorp.com/webapp/paywallet/protocol?payagreeId=CQ.CTRIP.TRIPPAY.BIND-ICBC",
-				"version": 0.7
-			  }
-			],
-			"couponList": [],
-			"unionPay": false,
-			"payAmountLimit": 0,
-			"supportPoints": false,
-			"agreementCategoryList": [
-			  {
-				"categoryName": "用户服务协议",
-				"agreementList": [
-				  {
-					"agreementtitle": "《携程旅行网支付服务协议》",
-					"agreementurl": "https://secure.fat18.qa.nt.ctripcorp.com/webapp/paywallet/protocol?payagreeId=QuickPayProtoClient",
-					"agreementId": "QuickPayProtoClient",
-					"version": "V0.4"
-				  },
-				  {
-					"agreementtitle": "《中国工商银行非银行支付机构快捷支付业务客户授权协议》",
-					"agreementurl": "https://secure.fat18.qa.nt.ctripcorp.com/webapp/paywallet/protocol?payagreeId=CQ.CTRIP.TRIPPAY.BIND-ICBC",
-					"agreementId": "CQ.CTRIP.TRIPPAY.BIND-ICBC",
-					"version": 0.7
-				  }
-				]
-			  }
-			]
-		  },
-		  {
-			"channelId": 0,
-			"cardType": 2,
-			"status": 2,
-			"displayText": "需手动输入卡号",
-			"selected": false,
-			"agreementList": [
-			  {
-				"agreementId": "QuickPayProtoClient",
-				"agreementtitle": "《携程旅行网支付服务协议》",
-				"agreementurl": "https://secure.fat18.qa.nt.ctripcorp.com/webapp/paywallet/protocol?payagreeId=QuickPayProtoClient",
-				"version": "V0.4"
-			  }
-			],
-			"agreementCategoryList": [
-			  {
-				"categoryName": "用户服务协议",
-				"agreementList": [
-				  {
-					"agreementtitle": "《携程旅行网支付服务协议》",
-					"agreementurl": "https://secure.fat18.qa.nt.ctripcorp.com/webapp/paywallet/protocol?payagreeId=QuickPayProtoClient",
-					"agreementId": "QuickPayProtoClient",
-					"version": "V0.4"
-				  }
-				]
-			  }
-			]
-		  }
-		]
-	  },
-	  {
-		"bankName": "招商银行",
-		"bankCode": "CMB",
-		"logoUrl": "https://webresource.c-ctrip.com/resh5paymentcommononline/R1/dest/res/bankico/pay_ico_bank_CMB.png?t=1753356344707",
-		"desc": "",
-		"descType": 0,
-		"initial": "Z",
-		"recommend": true,
-		"existAmountLimit": false,
-		"allAmountLimit": false,
-		"supportPoints": false,
-		"payRecomm": false,
-		"brandList": [
-		  {
-			"bankCode": "CMB",
-			"collectionId": "CQ.CTRIP.TRIPPAY.BIND",
-			"channelId": 1213,
-			"cardType": 1,
-			"brandId": "QBC_CMB",
-			"status": 0,
-			"selected": true,
-			"agreementList": [
-			  {
-				"agreementId": "QuickPayProtoClient",
-				"agreementtitle": "《携程旅行网支付服务协议》",
-				"agreementurl": "https://secure.fat18.qa.nt.ctripcorp.com/webapp/paywallet/protocol?payagreeId=QuickPayProtoClient",
-				"version": "V0.4"
-			  }
-			],
-			"couponList": [],
-			"unionPay": false,
-			"payAmountLimit": 0,
-			"supportPoints": false,
-			"agreementCategoryList": [
-			  {
-				"categoryName": "用户服务协议",
-				"agreementList": [
-				  {
-					"agreementtitle": "《携程旅行网支付服务协议》",
-					"agreementurl": "https://secure.fat18.qa.nt.ctripcorp.com/webapp/paywallet/protocol?payagreeId=QuickPayProtoClient",
-					"agreementId": "QuickPayProtoClient",
-					"version": "V0.4"
-				  }
-				]
-			  }
-			]
-		  },
-		  {
-			"channelId": 0,
-			"cardType": 2,
-			"status": 2,
-			"displayText": "需手动输入卡号",
-			"selected": false,
-			"agreementList": [
-			  {
-				"agreementId": "QuickPayProtoClient",
-				"agreementtitle": "《携程旅行网支付服务协议》",
-				"agreementurl": "https://secure.fat18.qa.nt.ctripcorp.com/webapp/paywallet/protocol?payagreeId=QuickPayProtoClient",
-				"version": "V0.4"
-			  }
-			],
-			"agreementCategoryList": [
-			  {
-				"categoryName": "用户服务协议",
-				"agreementList": [
-				  {
-					"agreementtitle": "《携程旅行网支付服务协议》",
-					"agreementurl": "https://secure.fat18.qa.nt.ctripcorp.com/webapp/paywallet/protocol?payagreeId=QuickPayProtoClient",
-					"agreementId": "QuickPayProtoClient",
-					"version": "V0.4"
-				  }
-				]
-			  }
-			]
-		  }
-		]
-	  },
-	  {
-		"bankName": "中国银行",
-		"bankCode": "BOC",
-		"logoUrl": "https://webresource.c-ctrip.com/resh5paymentcommononline/R1/dest/res/bankico/pay_ico_bank_BOC.png?t=1753356344708",
-		"desc": "",
-		"descType": 0,
-		"initial": "",
-		"recommend": true,
-		"existAmountLimit": false,
-		"allAmountLimit": false,
-		"supportPoints": false,
-		"payRecomm": false,
-		"brandList": [
-		  {
-			"bankCode": "BOC",
-			"collectionId": "CQ.CTRIP.TRIPPAY.BIND",
-			"channelId": 1213,
-			"cardType": 1,
-			"brandId": "QBC_BOC",
-			"status": 0,
-			"selected": true,
-			"agreementList": [
-			  {
-				"agreementId": "QuickPayProtoClient",
-				"agreementtitle": "《携程旅行网支付服务协议》",
-				"agreementurl": "https://secure.fat18.qa.nt.ctripcorp.com/webapp/paywallet/protocol?payagreeId=QuickPayProtoClient",
-				"version": "V0.4"
-			  }
-			],
-			"couponList": [],
-			"unionPay": false,
-			"payAmountLimit": 0,
-			"supportPoints": false,
-			"agreementCategoryList": [
-			  {
-				"categoryName": "用户服务协议",
-				"agreementList": [
-				  {
-					"agreementtitle": "《携程旅行网支付服务协议》",
-					"agreementurl": "https://secure.fat18.qa.nt.ctripcorp.com/webapp/paywallet/protocol?payagreeId=QuickPayProtoClient",
-					"agreementId": "QuickPayProtoClient",
-					"version": "V0.4"
-				  }
-				]
-			  }
-			]
-		  },
-		  {
-			"channelId": 0,
-			"cardType": 2,
-			"status": 2,
-			"displayText": "需手动输入卡号",
-			"selected": false,
-			"agreementList": [
-			  {
-				"agreementId": "QuickPayProtoClient",
-				"agreementtitle": "《携程旅行网支付服务协议》",
-				"agreementurl": "https://secure.fat18.qa.nt.ctripcorp.com/webapp/paywallet/protocol?payagreeId=QuickPayProtoClient",
-				"version": "V0.4"
-			  }
-			],
-			"agreementCategoryList": [
-			  {
-				"categoryName": "用户服务协议",
-				"agreementList": [
-				  {
-					"agreementtitle": "《携程旅行网支付服务协议》",
-					"agreementurl": "https://secure.fat18.qa.nt.ctripcorp.com/webapp/paywallet/protocol?payagreeId=QuickPayProtoClient",
-					"agreementId": "QuickPayProtoClient",
-					"version": "V0.4"
-				  }
-				]
-			  }
-			]
-		  }
-		]
-	  },
-	  {
-		"bankName": "邮储银行",
-		"bankCode": "PSBC",
-		"logoUrl": "https://webresource.c-ctrip.com/resh5paymentcommononline/R1/dest/res/bankico/pay_ico_bank_PSBC.png?t=1753356344709",
-		"desc": "",
-		"descType": 0,
-		"initial": "",
-		"recommend": true,
-		"existAmountLimit": false,
-		"allAmountLimit": false,
-		"supportPoints": false,
-		"payRecomm": false,
-		"brandList": [
-		  {
-			"bankCode": "PSBC",
-			"collectionId": "CQ.CTRIP.TRIPPAY.BIND",
-			"channelId": 1213,
-			"cardType": 2,
-			"brandId": "QBD_PSBC",
-			"status": 0,
-			"selected": true,
-			"agreementList": [
-			  {
-				"agreementId": "QuickPayProtoClient",
-				"agreementtitle": "《携程旅行网支付服务协议》",
-				"agreementurl": "https://secure.fat18.qa.nt.ctripcorp.com/webapp/paywallet/protocol?payagreeId=QuickPayProtoClient",
-				"version": "V0.4"
-			  }
-			],
-			"couponList": [],
-			"unionPay": false,
-			"payAmountLimit": 0,
-			"supportPoints": false,
-			"agreementCategoryList": [
-			  {
-				"categoryName": "用户服务协议",
-				"agreementList": [
-				  {
-					"agreementtitle": "《携程旅行网支付服务协议》",
-					"agreementurl": "https://secure.fat18.qa.nt.ctripcorp.com/webapp/paywallet/protocol?payagreeId=QuickPayProtoClient",
-					"agreementId": "QuickPayProtoClient",
-					"version": "V0.4"
-				  }
-				]
-			  }
-			]
-		  },
-		  {
-			"bankCode": "PSBC",
-			"collectionId": "CQ.CTRIP.TRIPPAY.BIND",
-			"channelId": 1213,
-			"cardType": 1,
-			"brandId": "QBC_PSBC",
-			"status": 0,
-			"selected": false,
-			"agreementList": [
-			  {
-				"agreementId": "QuickPayProtoClient",
-				"agreementtitle": "《携程旅行网支付服务协议》",
-				"agreementurl": "https://secure.fat18.qa.nt.ctripcorp.com/webapp/paywallet/protocol?payagreeId=QuickPayProtoClient",
-				"version": "V0.4"
-			  }
-			],
-			"couponList": [],
-			"unionPay": false,
-			"payAmountLimit": 0,
-			"supportPoints": false,
-			"agreementCategoryList": [
-			  {
-				"categoryName": "用户服务协议",
-				"agreementList": [
-				  {
-					"agreementtitle": "《携程旅行网支付服务协议》",
-					"agreementurl": "https://secure.fat18.qa.nt.ctripcorp.com/webapp/paywallet/protocol?payagreeId=QuickPayProtoClient",
-					"agreementId": "QuickPayProtoClient",
-					"version": "V0.4"
-				  }
-				]
-			  }
-			]
-		  }
-		]
-	  },
-	  {
-		"bankName": "交通银行",
-		"bankCode": "BOCOM",
-		"logoUrl": "https://webresource.c-ctrip.com/resh5paymentcommononline/R1/dest/res/bankico/pay_ico_bank_BOCOM.png?t=1753356344707",
-		"desc": "",
-		"descType": 0,
-		"initial": "",
-		"recommend": true,
-		"existAmountLimit": false,
-		"allAmountLimit": false,
-		"supportPoints": false,
-		"payRecomm": false,
-		"brandList": [
-		  {
-			"bankCode": "BOCOM",
-			"collectionId": "CQ.CTRIP.TRIPPAY.BIND",
-			"channelId": 1213,
-			"cardType": 2,
-			"brandId": "QBD_COMM",
-			"status": 0,
-			"selected": true,
-			"agreementList": [
-			  {
-				"agreementId": "QuickPayProtoClient",
-				"agreementtitle": "《携程旅行网支付服务协议》",
-				"agreementurl": "https://secure.fat18.qa.nt.ctripcorp.com/webapp/paywallet/protocol?payagreeId=QuickPayProtoClient",
-				"version": "V0.4"
-			  }
-			],
-			"couponList": [],
-			"unionPay": false,
-			"payAmountLimit": 0,
-			"supportPoints": false,
-			"agreementCategoryList": [
-			  {
-				"categoryName": "用户服务协议",
-				"agreementList": [
-				  {
-					"agreementtitle": "《携程旅行网支付服务协议》",
-					"agreementurl": "https://secure.fat18.qa.nt.ctripcorp.com/webapp/paywallet/protocol?payagreeId=QuickPayProtoClient",
-					"agreementId": "QuickPayProtoClient",
-					"version": "V0.4"
-				  }
-				]
-			  }
-			]
-		  },
-		  {
-			"bankCode": "BOCOM",
-			"collectionId": "CQ.CTRIP.TRIPPAY.BIND",
-			"channelId": 1213,
-			"cardType": 1,
-			"brandId": "QBC_COMM",
-			"status": 0,
-			"selected": false,
-			"agreementList": [
-			  {
-				"agreementId": "QuickPayProtoClient",
-				"agreementtitle": "《携程旅行网支付服务协议》",
-				"agreementurl": "https://secure.fat18.qa.nt.ctripcorp.com/webapp/paywallet/protocol?payagreeId=QuickPayProtoClient",
-				"version": "V0.4"
-			  }
-			],
-			"couponList": [],
-			"unionPay": false,
-			"payAmountLimit": 0,
-			"supportPoints": false,
-			"agreementCategoryList": [
-			  {
-				"categoryName": "用户服务协议",
-				"agreementList": [
-				  {
-					"agreementtitle": "《携程旅行网支付服务协议》",
-					"agreementurl": "https://secure.fat18.qa.nt.ctripcorp.com/webapp/paywallet/protocol?payagreeId=QuickPayProtoClient",
-					"agreementId": "QuickPayProtoClient",
-					"version": "V0.4"
-				  }
-				]
-			  }
-			]
-		  }
-		]
-	  },
-	  {
-		"bankName": "广发银行",
-		"bankCode": "GDB",
-		"logoUrl": "https://webresource.c-ctrip.com/resh5paymentcommononline/R1/dest/res/bankico/pay_ico_bank_GDB.png?t=1753356344708",
-		"desc": "",
-		"descType": 0,
-		"initial": "",
-		"recommend": true,
-		"existAmountLimit": false,
-		"allAmountLimit": false,
-		"supportPoints": false,
-		"payRecomm": false,
-		"brandList": [
-		  {
-			"bankCode": "GDB",
-			"collectionId": "CQ.CTRIP.TRIPPAY.BIND",
-			"channelId": 1213,
-			"cardType": 1,
-			"brandId": "QBC_GDB",
-			"status": 0,
-			"selected": true,
-			"agreementList": [
-			  {
-				"agreementId": "QuickPayProtoClient",
-				"agreementtitle": "《携程旅行网支付服务协议》",
-				"agreementurl": "https://secure.fat18.qa.nt.ctripcorp.com/webapp/paywallet/protocol?payagreeId=QuickPayProtoClient",
-				"version": "V0.4"
-			  }
-			],
-			"couponList": [],
-			"unionPay": false,
-			"payAmountLimit": 0,
-			"supportPoints": false,
-			"agreementCategoryList": [
-			  {
-				"categoryName": "用户服务协议",
-				"agreementList": [
-				  {
-					"agreementtitle": "《携程旅行网支付服务协议》",
-					"agreementurl": "https://secure.fat18.qa.nt.ctripcorp.com/webapp/paywallet/protocol?payagreeId=QuickPayProtoClient",
-					"agreementId": "QuickPayProtoClient",
-					"version": "V0.4"
-				  }
-				]
-			  }
-			]
-		  },
-		  {
-			"channelId": 0,
-			"cardType": 2,
-			"status": 2,
-			"displayText": "需手动输入卡号",
-			"selected": false,
-			"agreementList": [
-			  {
-				"agreementId": "QuickPayProtoClient",
-				"agreementtitle": "《携程旅行网支付服务协议》",
-				"agreementurl": "https://secure.fat18.qa.nt.ctripcorp.com/webapp/paywallet/protocol?payagreeId=QuickPayProtoClient",
-				"version": "V0.4"
-			  }
-			],
-			"agreementCategoryList": [
-			  {
-				"categoryName": "用户服务协议",
-				"agreementList": [
-				  {
-					"agreementtitle": "《携程旅行网支付服务协议》",
-					"agreementurl": "https://secure.fat18.qa.nt.ctripcorp.com/webapp/paywallet/protocol?payagreeId=QuickPayProtoClient",
-					"agreementId": "QuickPayProtoClient",
-					"version": "V0.4"
-				  }
-				]
-			  }
-			]
-		  }
-		]
-	  },
-	  {
-		"bankName": "平安银行",
-		"bankCode": "PAB",
-		"logoUrl": "https://webresource.c-ctrip.com/resh5paymentcommononline/R1/dest/res/bankico/pay_ico_bank_PAB.png?t=1753356344708",
-		"desc": "",
-		"descType": 0,
-		"initial": "",
-		"recommend": true,
-		"existAmountLimit": false,
-		"allAmountLimit": false,
-		"supportPoints": false,
-		"payRecomm": false,
-		"brandList": [
-		  {
-			"bankCode": "PAB",
-			"collectionId": "CQ.CTRIP.TRIPPAY.BIND",
-			"channelId": 1213,
-			"cardType": 1,
-			"brandId": "QBC_SPABANK",
-			"status": 0,
-			"selected": true,
-			"agreementList": [
-			  {
-				"agreementId": "QuickPayProtoClient",
-				"agreementtitle": "《携程旅行网支付服务协议》",
-				"agreementurl": "https://secure.fat18.qa.nt.ctripcorp.com/webapp/paywallet/protocol?payagreeId=QuickPayProtoClient",
-				"version": "V0.4"
-			  }
-			],
-			"couponList": [],
-			"unionPay": false,
-			"payAmountLimit": 0,
-			"supportPoints": false,
-			"agreementCategoryList": [
-			  {
-				"categoryName": "用户服务协议",
-				"agreementList": [
-				  {
-					"agreementtitle": "《携程旅行网支付服务协议》",
-					"agreementurl": "https://secure.fat18.qa.nt.ctripcorp.com/webapp/paywallet/protocol?payagreeId=QuickPayProtoClient",
-					"agreementId": "QuickPayProtoClient",
-					"version": "V0.4"
-				  }
-				]
-			  }
-			]
-		  },
-		  {
-			"channelId": 0,
-			"cardType": 2,
-			"status": 2,
-			"displayText": "需手动输入卡号",
-			"selected": false,
-			"agreementList": [
-			  {
-				"agreementId": "QuickPayProtoClient",
-				"agreementtitle": "《携程旅行网支付服务协议》",
-				"agreementurl": "https://secure.fat18.qa.nt.ctripcorp.com/webapp/paywallet/protocol?payagreeId=QuickPayProtoClient",
-				"version": "V0.4"
-			  }
-			],
-			"agreementCategoryList": [
-			  {
-				"categoryName": "用户服务协议",
-				"agreementList": [
-				  {
-					"agreementtitle": "《携程旅行网支付服务协议》",
-					"agreementurl": "https://secure.fat18.qa.nt.ctripcorp.com/webapp/paywallet/protocol?payagreeId=QuickPayProtoClient",
-					"agreementId": "QuickPayProtoClient",
-					"version": "V0.4"
-				  }
-				]
-			  }
-			]
-		  }
-		]
-	  },
-	  {
-		"bankName": "民生银行",
-		"bankCode": "CMBC",
-		"logoUrl": "https://webresource.c-ctrip.com/resh5paymentcommononline/R1/dest/res/bankico/pay_ico_bank_CMBC.png?t=1753356344708",
-		"desc": "",
-		"descType": 0,
-		"initial": "",
-		"recommend": true,
-		"existAmountLimit": false,
-		"allAmountLimit": false,
-		"supportPoints": false,
-		"payRecomm": false,
-		"brandList": [
-		  {
-			"bankCode": "CMBC",
-			"collectionId": "CQ.CTRIP.TRIPPAY.BIND",
-			"channelId": 1213,
-			"cardType": 1,
-			"brandId": "QBC_CMBC",
-			"status": 0,
-			"selected": true,
-			"agreementList": [
-			  {
-				"agreementId": "QuickPayProtoClient",
-				"agreementtitle": "《携程旅行网支付服务协议》",
-				"agreementurl": "https://secure.fat18.qa.nt.ctripcorp.com/webapp/paywallet/protocol?payagreeId=QuickPayProtoClient",
-				"version": "V0.4"
-			  }
-			],
-			"couponList": [],
-			"unionPay": false,
-			"payAmountLimit": 0,
-			"supportPoints": false,
-			"agreementCategoryList": [
-			  {
-				"categoryName": "用户服务协议",
-				"agreementList": [
-				  {
-					"agreementtitle": "《携程旅行网支付服务协议》",
-					"agreementurl": "https://secure.fat18.qa.nt.ctripcorp.com/webapp/paywallet/protocol?payagreeId=QuickPayProtoClient",
-					"agreementId": "QuickPayProtoClient",
-					"version": "V0.4"
-				  }
-				]
-			  }
-			]
-		  },
-		  {
-			"channelId": 0,
-			"cardType": 2,
-			"status": 2,
-			"displayText": "需手动输入卡号",
-			"selected": false,
-			"agreementList": [
-			  {
-				"agreementId": "QuickPayProtoClient",
-				"agreementtitle": "《携程旅行网支付服务协议》",
-				"agreementurl": "https://secure.fat18.qa.nt.ctripcorp.com/webapp/paywallet/protocol?payagreeId=QuickPayProtoClient",
-				"version": "V0.4"
-			  }
-			],
-			"agreementCategoryList": [
-			  {
-				"categoryName": "用户服务协议",
-				"agreementList": [
-				  {
-					"agreementtitle": "《携程旅行网支付服务协议》",
-					"agreementurl": "https://secure.fat18.qa.nt.ctripcorp.com/webapp/paywallet/protocol?payagreeId=QuickPayProtoClient",
-					"agreementId": "QuickPayProtoClient",
-					"version": "V0.4"
-				  }
-				]
-			  }
-			]
-		  }
-		]
-	  },
-	  {
-		"bankName": "宁波银行",
-		"bankCode": "NBCB",
-		"logoUrl": "https://webresource.c-ctrip.com/resh5paymentcommononline/R1/dest/res/bankico/pay_ico_bank_NBCB.png?t=1753356344707",
-		"desc": "",
-		"descType": 0,
-		"initial": "N",
-		"existAmountLimit": false,
-		"allAmountLimit": false,
-		"supportPoints": false,
-		"payRecomm": false,
-		"brandList": [
-		  {
-			"bankCode": "NBCB",
-			"collectionId": "CQ.QUNAR.TRIPPAY.0047",
-			"channelId": 1387,
-			"cardType": 2,
-			"brandId": "QBD_NBBANK",
-			"status": 0,
-			"selected": true,
-			"agreementList": [
-			  {
-				"agreementId": "QuickPayProtoClient",
-				"agreementtitle": "《携程旅行网支付服务协议》",
-				"agreementurl": "https://secure.fat18.qa.nt.ctripcorp.com/webapp/paywallet/protocol?payagreeId=QuickPayProtoClient",
-				"version": "V0.4"
-			  }
-			],
-			"couponList": [],
-			"unionPay": false,
-			"payAmountLimit": 0,
-			"supportPoints": false,
-			"agreementCategoryList": [
-			  {
-				"categoryName": "用户服务协议",
-				"agreementList": [
-				  {
-					"agreementtitle": "《携程旅行网支付服务协议》",
-					"agreementurl": "https://secure.fat18.qa.nt.ctripcorp.com/webapp/paywallet/protocol?payagreeId=QuickPayProtoClient",
-					"agreementId": "QuickPayProtoClient",
-					"version": "V0.4"
-				  }
-				]
-			  }
-			]
-		  }
-		]
-	  }
-	],
-	"oneKeyABResult": "B",
-	"pageStyleABResult": "B",
-	"oneKeyRemindInfo": {
-	  "title": "此服务由{程付通}提供",
-	  "protocolText": "用户服务协议",
-	  "complianceText": "确保您完全同意并遵守其中的条款，并同意将本人留存在携程平台的{姓名、证件类型、证件号}提供给程付通用于银行卡支付绑卡",
-	  "providerInfo": {
-		"title": "服务提供方说明",
-		"company": "公司：上海程付通支付有限公司\n地址：上海市长宁区金钟路968号16号楼\n电话：400-828-8776"
-	  }
-	},
-	"styleABResult": "B",
-	"recommBankList": [],
-	"token": "02022510270BC12D49ADBA6473717419E8CE56",
-	"showBankList": true,
-	"oneKeyABResultV2": "A"
+    "ResponseStatus": {
+      "Timestamp": "/Date(1758031071507+0800)/",
+      "Ack": "Success",
+      "Errors": [],
+      "Extension": [
+        {
+          "Id": "CLOGGING_TRACE_ID",
+          "Value": 37391059029308380
+        },
+        {
+          "Id": "RootMessageId",
+          "Value": "100028317-0a775bd8-488341-8547"
+        }
+      ]
+    },
+    "header": {
+      "rc": 0,
+      "serviceCode": 32005453
+    },
+    "payload": {
+      "rc": 0,
+      "extend": {
+        "hotelGuarantee": false,
+        "canChangeIdType": false,
+        "bindGuidTitle": "添加银行卡",
+        "accessType": 0,
+        "bindGSubTitle": "请使用持卡人本人的银行卡",
+        "bindGHasDetail": false,
+        "showdesc": true,
+        "forwardPage": "",
+        "bindModel": 2,
+        "agreementExplain": "Ensure you fully agree and comply with the terms",
+        "desc": [
+          "Trip.com is in compliance with PCI DSS requirements, your payment information is secured.",
+          "Your newly added card is currently unverified. We'll verify your card during the payment process."
+        ]
+      },
+      "token": "020267A71F6E199B4A8ABA7CEB59466DEAC418",
+      "authType": "AUTH",
+      "displayMsg": "To verify your bank card information, we may initiate a small amount deduction. The amount will be refunded in real-time upon successful verification.",
+      "displayCode": 3,
+      "cardTypeName": "Credit Card",
+      "bankName": "EAST WEST BANKING CORPORATION",
+      "cardno": "4009 92***01",
+      "logoUrl": "https://webresource.c-ctrip.com/resh5paymentcommononline/R1/dest/res/bankico/ibu_bankico/pay_ico_bank_VISA.png?t=1758031071479",
+      "userAuthInfo": {
+        "authStatus": 0,
+        "idType": 0,
+        "userId": "_TIHK1m43czqxj6dw"
+      },
+      "authItems": [
+        "validity",
+        "verifyNo",
+        "cardholder"
+      ],
+      "cardHolderIdType": 0,
+      "cardExtend": {
+        "isAECard": false,
+        "isForeignCard": true,
+        "cardType": "CREDIT"
+      },
+      "agreementList": [
+        {
+          "agreementId": "QuickPayProto",
+          "agreementtitle": "《快捷支付协议》",
+          "agreementurl": "https://secure.fat103.qa.nt.ctripcorp.com/webapp/paywallet/protocol?payagreeId=QuickPayProto&navBarStyle=white",
+          "version": "V0.1"
+        }
+      ],
+      "idTypeList": [],
+      "nonIdTypeList": [],
+      "pageSource": "trip_wallet_bindcard",
+      "scenceCode": "ibupaybind",
+      "checkAuthConflict": false,
+      "flowCtrlInfo": {
+        "skipAddCardInfoPage": false,
+        "stayErrSmsVerifyPage": false
+      },
+      "authFields": [
+        {
+          "key": "validity",
+          "name": "",
+          "value": "",
+          "regex": "^\\d{2}/\\d{2}$",
+          "errorMsg": "Incorrect expiration date, please check and try again.",
+          "len": 5,
+          "editable": true
+        },
+        {
+          "key": "verifyNo",
+          "name": "",
+          "value": "",
+          "regex": "^\\d{3}$",
+          "errorMsg": "Please enter a valid security code",
+          "len": 3,
+          "editable": true
+        },
+        {
+          "key": "cardholder",
+          "name": "",
+          "value": "",
+          "regex": "",
+          "errorMsg": "Please enter cardholder's name",
+          "len": 60,
+          "editable": true
+        }
+      ],
+      "addedAuthFields": [],
+      "agreementCategoryList": [
+        {
+          "categoryName": "User service agreement",
+          "agreementList": [
+            {
+              "agreementtitle": "《快捷支付协议》",
+              "agreementurl": "https://secure.fat103.qa.nt.ctripcorp.com/webapp/paywallet/protocol?payagreeId=QuickPayProto&navBarStyle=white",
+              "agreementId": "QuickPayProto",
+              "version": "V0.1"
+            }
+          ]
+        }
+      ]
+    }
   }
