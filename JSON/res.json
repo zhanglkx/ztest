@@ -1,0 +1,142 @@
+{
+    "ResponseStatus": {
+      "Timestamp": "/Date(1758031139717+0800)/",
+      "Ack": "Success",
+      "Errors": [],
+      "Extension": [
+        {
+          "Id": "CLOGGING_TRACE_ID",
+          "Value": 2514246226796180000
+        },
+        {
+          "Id": "RootMessageId",
+          "Value": "100028317-0a76fce3-488341-8493"
+        }
+      ]
+    },
+    "header": {
+      "rc": 0,
+      "serviceCode": 32005453
+    },
+    "payload": {
+      "rc": 0,
+      "extend": {
+        "hotelGuarantee": false,
+        "canChangeIdType": false,
+        "bindGuidTitle": "添加银行卡",
+        "accessType": 0,
+        "bindGSubTitle": "请使用持卡人本人的银行卡",
+        "bindGHasDetail": false,
+        "showdesc": true,
+        "forwardPage": "",
+        "bindModel": 2,
+        "agreementExplain": "Ensure you fully agree and comply with the terms",
+        "desc": [
+          "Trip.com is in compliance with PCI DSS requirements, your payment information is secured.",
+          "Your newly added card is currently unverified. We'll verify your card during the payment process."
+        ]
+      },
+      "token": "0202FB7FBA03C8664EF288B93F61547149F918",
+      "authType": "AUTH",
+      "displayMsg": "To verify your bank card information, we may initiate a small amount deduction. The amount will be refunded in real-time upon successful verification.",
+      "displayCode": 3,
+      "cardTypeName": "Credit Card",
+      "bankName": "EAST WEST BANKING CORPORATION",
+      "cardno": "4009 92***01",
+      "logoUrl": "https://webresource.c-ctrip.com/resh5paymentcommononline/R1/dest/res/bankico/ibu_bankico/pay_ico_bank_VISA_CARTESBANCAIRES.png?t=1758031139710",
+      "userAuthInfo": {
+        "authStatus": 0,
+        "idType": 0,
+        "userId": "_TIHK1m43czqxj6dw"
+      },
+      "authItems": [
+        "validity",
+        "verifyNo",
+        "cardholder"
+      ],
+      "cardHolderIdType": 0,
+      "cardExtend": {
+        "isAECard": false,
+        "isForeignCard": true,
+        "cardType": "CREDIT"
+      },
+      "agreementList": [
+        {
+          "agreementId": "QuickPayProto",
+          "agreementtitle": "《快捷支付协议》",
+          "agreementurl": "https://secure.fat103.qa.nt.ctripcorp.com/webapp/paywallet/protocol?payagreeId=QuickPayProto&navBarStyle=white",
+          "version": "V0.1"
+        }
+      ],
+      "idTypeList": [],
+      "nonIdTypeList": [],
+      "pageSource": "trip_wallet_bindcard",
+      "scenceCode": "ibupaybind",
+      "checkAuthConflict": false,
+      "flowCtrlInfo": {
+        "skipAddCardInfoPage": false,
+        "stayErrSmsVerifyPage": false
+      },
+      "authFields": [
+        {
+          "key": "validity",
+          "name": "",
+          "value": "",
+          "regex": "^\\d{2}/\\d{2}$",
+          "errorMsg": "Incorrect expiration date, please check and try again.",
+          "len": 5,
+          "editable": true
+        },
+        {
+          "key": "verifyNo",
+          "name": "",
+          "value": "",
+          "regex": "^\\d{3}$",
+          "errorMsg": "Please enter a valid security code",
+          "len": 3,
+          "editable": true
+        },
+        {
+          "key": "cardholder",
+          "name": "",
+          "value": "",
+          "regex": "",
+          "errorMsg": "Please enter cardholder's name",
+          "len": 60,
+          "editable": true
+        }
+      ],
+      "addedAuthFields": [],
+      "cardOrgList": [
+        {
+          "brandId": "CC_VISA",
+          "cardOrg": "VISA",
+          "cardOrgName": "VISA",
+          "cardOrgLogo": "https://webresource.c-ctrip.com/resh5paymentcommononline/R1/dest/res/bankico/ibu_bankico/pay_ico_bank_VISA.png?t=1758031139710",
+          "selected": true,
+          "enable": true
+        },
+        {
+          "brandId": "CC_CARTESBANCAIRES",
+          "cardOrg": "CARTESBANCAIRES",
+          "cardOrgName": "Cartes Bancaires",
+          "cardOrgLogo": "https://webresource.c-ctrip.com/resh5paymentcommononline/R1/dest/res/bankico/ibu_bankico/pay_ico_bank_CARTESBANCAIRES.png?t=1758031139710",
+          "selected": false,
+          "enable": true
+        }
+      ],
+      "agreementCategoryList": [
+        {
+          "categoryName": "User service agreement",
+          "agreementList": [
+            {
+              "agreementtitle": "《快捷支付协议》",
+              "agreementurl": "https://secure.fat103.qa.nt.ctripcorp.com/webapp/paywallet/protocol?payagreeId=QuickPayProto&navBarStyle=white",
+              "agreementId": "QuickPayProto",
+              "version": "V0.1"
+            }
+          ]
+        }
+      ]
+    }
+  }
