@@ -1,0 +1,408 @@
+# GraphQL 查询示例
+# 可以在 Apollo Studio (http://localhost:4000/graphql) 中运行这些查询
+
+# ========================================
+# 基础查询 (Queries)
+# ========================================
+
+# 1. 获取所有用户
+query GetAllUsers {
+  users {
+    id
+    name
+    email
+    role
+    createdAt
+  }
+}
+
+# 2. 获取单个用户及其项目和任务
+query GetUserWithDetails($userId: ID!) {
+  user(id: $userId) {
+    id
+    name
+    email
+    role
+    projects {
+      id
+      title
+      status
+      taskCount
+    }
+    assignedTasks {
+      id
+      title
+      status
+      priority
+      project {
+        title
+      }
+    }
+  }
+}
+
+# 3. 获取所有项目
+query GetAllProjects {
+  projects {
+    id
+    title
+    description
+    status
+    creator {
+      name
+      email
+    }
+    taskCount
+    createdAt
+    updatedAt
+  }
+}
+
+# 4. 获取项目详情及其任务
+query GetProjectWithTasks($projectId: ID!) {
+  project(id: $projectId) {
+    id
+    title
+    description
+    status
+    creator {
+      name
+      email
+    }
+    tasks {
+      id
+      title
+      description
+      status
+      priority
+      assignee {
+        name
+      }
+      createdAt
+      updatedAt
+    }
+  }
+}
+
+# 5. 获取任务列表（带分页和过滤）
+query GetTasksWithFilters(
+  $filters: TaskFilters
+  $sort: TaskSort
+  $first: Int
+  $after: String
+) {
+  tasks(filters: $filters, sort: $sort, first: $first, after: $after) {
+    edges {
+      node {
+        id
+        title
+        description
+        status
+        priority
+        assignee {
+          id
+          name
+        }
+        project {
+          id
+          title
+        }
+        createdAt
+        updatedAt
+      }
+      cursor
+    }
+    pageInfo {
+      hasNextPage
+      hasPreviousPage
+      startCursor
+      endCursor
+    }
+    totalCount
+  }
+}
+
+# ========================================
+# 变更操作 (Mutations)
+# ========================================
+
+# 1. 创建用户
+mutation CreateUser($input: CreateUserInput!) {
+  createUser(input: $input) {
+    id
+    name
+    email
+    role
+    createdAt
+  }
+}
+
+# 示例变量:
+# {
+#   "input": {
+#     "name": "新用户",
+#     "email": "newuser@example.com",
+#     "role": "DEVELOPER"
+#   }
+# }
+
+# 2. 创建项目
+mutation CreateProject($input: CreateProjectInput!) {
+  createProject(input: $input) {
+    id
+    title
+    description
+    status
+    creator {
+      name
+    }
+    createdAt
+    updatedAt
+  }
+}
+
+# 示例变量:
+# {
+#   "input": {
+#     "title": "新项目",
+#     "description": "这是一个新项目的描述",
+#     "creatorId": "用户ID"
+#   }
+# }
+
+# 3. 创建任务
+mutation CreateTask($input: CreateTaskInput!) {
+  createTask(input: $input) {
+    id
+    title
+    description
+    status
+    priority
+    assignee {
+      name
+    }
+    project {
+      title
+    }
+    createdAt
+    updatedAt
+  }
+}
+
+# 示例变量:
+# {
+#   "input": {
+#     "title": "新任务",
+#     "description": "这是一个新任务的描述",
+#     "priority": "HIGH",
+#     "assigneeId": "用户ID",
+#     "projectId": "项目ID"
+#   }
+# }
+
+# 4. 更新任务状态
+mutation UpdateTaskStatus($taskId: ID!, $status: TaskStatus!) {
+  updateTaskStatus(id: $taskId, status: $status) {
+    id
+    title
+    status
+    updatedAt
+  }
+}
+
+# 示例变量:
+# {
+#   "taskId": "任务ID",
+#   "status": "IN_PROGRESS"
+# }
+
+# 5. 更新任务
+mutation UpdateTask($taskId: ID!, $input: UpdateTaskInput!) {
+  updateTask(id: $taskId, input: $input) {
+    id
+    title
+    description
+    status
+    priority
+    assignee {
+      name
+    }
+    updatedAt
+  }
+}
+
+# 示例变量:
+# {
+#   "taskId": "任务ID",
+#   "input": {
+#     "title": "更新后的标题",
+#     "description": "更新后的描述",
+#     "priority": "URGENT"
+#   }
+# }
+
+# 6. 删除任务
+mutation DeleteTask($taskId: ID!) {
+  deleteTask(id: $taskId)
+}
+
+# 示例变量:
+# {
+#   "taskId": "任务ID"
+# }
+
+# ========================================
+# 订阅 (Subscriptions)
+# ========================================
+
+# 1. 订阅任务创建
+subscription OnTaskCreated {
+  taskCreated {
+    id
+    title
+    description
+    status
+    priority
+    assignee {
+      name
+    }
+    project {
+      title
+    }
+    createdAt
+  }
+}
+
+# 2. 订阅任务更新
+subscription OnTaskUpdated {
+  taskUpdated {
+    id
+    title
+    status
+    priority
+    assignee {
+      name
+    }
+    project {
+      title
+    }
+    updatedAt
+  }
+}
+
+# 3. 订阅任务删除
+subscription OnTaskDeleted {
+  taskDeleted
+}
+
+# 4. 订阅项目更新
+subscription OnProjectUpdated {
+  projectUpdated {
+    id
+    title
+    status
+    creator {
+      name
+    }
+    updatedAt
+  }
+}
+
+# ========================================
+# 高级查询示例
+# ========================================
+
+# 1. 复杂的嵌套查询
+query ComplexNestedQuery {
+  users {
+    id
+    name
+    role
+    projects {
+      id
+      title
+      status
+      tasks {
+        id
+        title
+        status
+        priority
+      }
+    }
+    assignedTasks {
+      id
+      title
+      status
+      project {
+        title
+        creator {
+          name
+        }
+      }
+    }
+  }
+}
+
+# 2. 带多个过滤条件的任务查询
+query FilteredTasks {
+  tasks(
+    filters: {
+      status: IN_PROGRESS
+      priority: HIGH
+    }
+    sort: {
+      field: priority
+      direction: DESC
+    }
+    first: 5
+  ) {
+    edges {
+      node {
+        id
+        title
+        status
+        priority
+        assignee {
+          name
+        }
+        project {
+          title
+        }
+      }
+    }
+    totalCount
+  }
+}
+
+# 3. 获取用户的所有相关数据
+query UserDashboard($userId: ID!) {
+  user(id: $userId) {
+    id
+    name
+    email
+    role
+    projects {
+      id
+      title
+      status
+      taskCount
+      tasks {
+        id
+        title
+        status
+        assignee {
+          name
+        }
+      }
+    }
+    assignedTasks {
+      id
+      title
+      status
+      priority
+      project {
+        title
+      }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* 自定义样式 */
+.task-card {
+  @apply bg-white rounded-lg shadow-md p-4 border border-gray-200 hover:shadow-lg transition-shadow;
+}
+
+.priority-low {
+  @apply border-l-4 border-green-400;
+}
+
+.priority-medium {
+  @apply border-l-4 border-yellow-400;
+}
+
+.priority-high {
+  @apply border-l-4 border-orange-400;
+}
+
+.priority-urgent {
+  @apply border-l-4 border-red-400;
+}
+
+.status-todo {
+  @apply bg-gray-100 text-gray-800;
+}
+
+.status-in-progress {
+  @apply bg-blue-100 text-blue-800;
+}
+
+.status-in-review {
+  @apply bg-purple-100 text-purple-800;
+}
+
+.status-completed {
+  @apply bg-green-100 text-green-800;
+}
