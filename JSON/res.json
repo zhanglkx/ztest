@@ -1,142 +1,190 @@
 {
-    "ResponseStatus": {
-      "Timestamp": "/Date(1758031139717+0800)/",
-      "Ack": "Success",
-      "Errors": [],
-      "Extension": [
-        {
-          "Id": "CLOGGING_TRACE_ID",
-          "Value": 2514246226796180000
-        },
-        {
-          "Id": "RootMessageId",
-          "Value": "100028317-0a76fce3-488341-8493"
-        }
-      ]
+  "header": {
+    "rc": 0,
+    "serviceCode": 32005453
+  },
+  "payload": {
+    "rc": 0,
+    "extend": {
+      "bindGuidTitle": "添加银行卡",
+      "accessType": 0,
+      "hotelGuarantee": false,
+      "bindGSubTitle": "请使用持卡人本人的银行卡",
+      "canChangeIdType": false,
+      "bindGHasDetail": false,
+      "forwardPage": "",
+      "bindModel": 2,
+      "agreementExplain": "确保您完全同意并遵守其中的条款"
     },
-    "header": {
-      "rc": 0,
-      "serviceCode": 32005453
+    "token": "0202640C4712AED44680AA613F701E8AD21E28",
+    "authType": "AUTH",
+    "displayCode": 0,
+    "cardTypeName": "信用卡",
+    "bankName": "平安银行",
+    "cardno": 6888,
+    "logoUrl": "https://webresource.c-ctrip.com/resh5paymentcommononline/R1/dest/res/bankico/pay_ico_bank_PAB.png?t=1761716135010",
+    "userAuthInfo": {
+      "authStatus": 1,
+      "idNo": "0*******#",
+      "idType": 8,
+      "idNoCrypt": "02PsfG47#",
+      "idTypeName": "台湾居民来往大陆通行证",
+      "userId": "M5042867866",
+      "userName": "陈颖奇",
+      "userNameMask": "*颖奇"
     },
-    "payload": {
-      "rc": 0,
-      "extend": {
-        "hotelGuarantee": false,
-        "canChangeIdType": false,
-        "bindGuidTitle": "添加银行卡",
-        "accessType": 0,
-        "bindGSubTitle": "请使用持卡人本人的银行卡",
-        "bindGHasDetail": false,
-        "showdesc": true,
-        "forwardPage": "",
-        "bindModel": 2,
-        "agreementExplain": "Ensure you fully agree and comply with the terms",
-        "desc": [
-          "Trip.com is in compliance with PCI DSS requirements, your payment information is secured.",
-          "Your newly added card is currently unverified. We'll verify your card during the payment process."
+    "authItems": [
+      "cardholder",
+      "identityType",
+      "identityCode",
+      "vcode",
+      "mobile"
+    ],
+    "cardHolderIdType": 0,
+    "cardExtend": {
+      "isAECard": false,
+      "isForeignCard": false,
+      "cardType": "CREDIT"
+    },
+    "agreementList": [
+      {
+        "agreementId": "QuickPayProtoClient",
+        "agreementtitle": "《携程旅行网支付服务协议》",
+        "agreementurl": "https://secure.ctrip.com/webapp/paywallet/protocol?payagreeId=QuickPayProtoClient&navBarStyle=white",
+        "version": "V0.4"
+      },
+      {
+        "agreementId": "cftQuick",
+        "agreementtitle": "《程付通快捷支付服务协议》",
+        "agreementurl": "https://secure.ctrip.com/webapp/paywallet/protocol?payagreeId=cftQuick"
+      },
+      {
+        "agreementId": "grxxbhzc",
+        "agreementtitle": "《程付通个人信息保护政策》",
+        "agreementurl": "https://secure.ctrip.com/webapp/paywallet/protocol?payagreeId=grxxbhzc"
+      },
+      {
+        "agreementId": "cftpersonauth",
+        "agreementtitle": "《程付通个人信息授权声明》",
+        "agreementurl": "https://secure.ctrip.com/webapp/paywallet/protocol?payagreeId=cftpersonauth"
+      },
+      {
+        "agreementId": "cftchild",
+        "agreementtitle": "《程付通儿童个人信息保护规则及监护人须知》",
+        "agreementurl": "https://secure.ctrip.com/webapp/paywallet/protocol?payagreeId=cftchild"
+      },
+      {
+        "agreementId": "cftQuickforbank-PAB-CCard-BankProto",
+        "agreementtitle": "《平安银行快捷支付服务协议》",
+        "agreementurl": "https://secure.ctrip.com/webapp/paywallet/protocol?payagreeId=cftQuickforbank-PAB-CCard",
+        "version": "V1.0"
+      }
+    ],
+    "idTypeList": [
+      {
+        "idType": 1,
+        "idName": "身份证",
+        "regex": ""
+      }
+    ],
+    "nonIdTypeList": [],
+    "pageSource": "ctrip_prepay_main_newcard_bindcard",
+    "scenceCode": "pay",
+    "checkAuthConflict": true,
+    "couponInfoV2Dto": {
+      "showPop": false
+    },
+    "authFields": [
+      {
+        "key": "cardholder",
+        "name": "",
+        "value": "",
+        "regex": "",
+        "errorMsg": "",
+        "len": 60,
+        "editable": true
+      },
+      {
+        "key": "identityType",
+        "name": "",
+        "value": "",
+        "regex": "",
+        "errorMsg": "",
+        "len": 2,
+        "editable": true
+      },
+      {
+        "key": "identityCode",
+        "name": "",
+        "value": "",
+        "regex": "",
+        "errorMsg": "请输入正确的证件号",
+        "len": 60,
+        "editable": true
+      },
+      {
+        "key": "vcode",
+        "name": "",
+        "value": "",
+        "regex": "",
+        "errorMsg": "",
+        "len": 6,
+        "editable": true
+      },
+      {
+        "key": "mobile",
+        "name": "",
+        "value": "",
+        "regex": "^1\\d{10}$",
+        "errorMsg": "",
+        "len": 13,
+        "editable": true
+      }
+    ],
+    "addedAuthFields": [],
+    "agreementCategoryList": [
+      {
+        "categoryName": "用户服务协议",
+        "agreementList": [
+          {
+            "agreementtitle": "《携程旅行网支付服务协议》",
+            "agreementurl": "https://secure.ctrip.com/webapp/paywallet/protocol?payagreeId=QuickPayProtoClient&navBarStyle=white",
+            "agreementId": "QuickPayProtoClient",
+            "version": "V0.4"
+          },
+          {
+            "agreementtitle": "《程付通快捷支付服务协议》",
+            "agreementurl": "https://secure.ctrip.com/webapp/paywallet/protocol?payagreeId=cftQuick",
+            "agreementId": "cftQuick"
+          },
+          {
+            "agreementtitle": "《平安银行快捷支付服务协议》",
+            "agreementurl": "https://secure.ctrip.com/webapp/paywallet/protocol?payagreeId=cftQuickforbank-PAB-CCard",
+            "agreementId": "cftQuickforbank-PAB-CCard-BankProto",
+            "version": "V1.0"
+          }
         ]
       },
-      "token": "0202FB7FBA03C8664EF288B93F61547149F918",
-      "authType": "AUTH",
-      "displayMsg": "To verify your bank card information, we may initiate a small amount deduction. The amount will be refunded in real-time upon successful verification.",
-      "displayCode": 3,
-      "cardTypeName": "Credit Card",
-      "bankName": "EAST WEST BANKING CORPORATION",
-      "cardno": "4009 92***01",
-      "logoUrl": "https://webresource.c-ctrip.com/resh5paymentcommononline/R1/dest/res/bankico/ibu_bankico/pay_ico_bank_VISA_CARTESBANCAIRES.png?t=1758031139710",
-      "userAuthInfo": {
-        "authStatus": 0,
-        "idType": 0,
-        "userId": "_TIHK1m43czqxj6dw"
-      },
-      "authItems": [
-        "validity",
-        "verifyNo",
-        "cardholder"
-      ],
-      "cardHolderIdType": 0,
-      "cardExtend": {
-        "isAECard": false,
-        "isForeignCard": true,
-        "cardType": "CREDIT"
-      },
-      "agreementList": [
-        {
-          "agreementId": "QuickPayProto",
-          "agreementtitle": "《快捷支付协议》",
-          "agreementurl": "https://secure.fat103.qa.nt.ctripcorp.com/webapp/paywallet/protocol?payagreeId=QuickPayProto&navBarStyle=white",
-          "version": "V0.1"
-        }
-      ],
-      "idTypeList": [],
-      "nonIdTypeList": [],
-      "pageSource": "trip_wallet_bindcard",
-      "scenceCode": "ibupaybind",
-      "checkAuthConflict": false,
-      "flowCtrlInfo": {
-        "skipAddCardInfoPage": false,
-        "stayErrSmsVerifyPage": false
-      },
-      "authFields": [
-        {
-          "key": "validity",
-          "name": "",
-          "value": "",
-          "regex": "^\\d{2}/\\d{2}$",
-          "errorMsg": "Incorrect expiration date, please check and try again.",
-          "len": 5,
-          "editable": true
-        },
-        {
-          "key": "verifyNo",
-          "name": "",
-          "value": "",
-          "regex": "^\\d{3}$",
-          "errorMsg": "Please enter a valid security code",
-          "len": 3,
-          "editable": true
-        },
-        {
-          "key": "cardholder",
-          "name": "",
-          "value": "",
-          "regex": "",
-          "errorMsg": "Please enter cardholder's name",
-          "len": 60,
-          "editable": true
-        }
-      ],
-      "addedAuthFields": [],
-      "cardOrgList": [
-        {
-          "brandId": "CC_VISA",
-          "cardOrg": "VISA",
-          "cardOrgName": "VISA",
-          "cardOrgLogo": "https://webresource.c-ctrip.com/resh5paymentcommononline/R1/dest/res/bankico/ibu_bankico/pay_ico_bank_VISA.png?t=1758031139710",
-          "selected": true,
-          "enable": true
-        },
-        {
-          "brandId": "CC_CARTESBANCAIRES",
-          "cardOrg": "CARTESBANCAIRES",
-          "cardOrgName": "Cartes Bancaires",
-          "cardOrgLogo": "https://webresource.c-ctrip.com/resh5paymentcommononline/R1/dest/res/bankico/ibu_bankico/pay_ico_bank_CARTESBANCAIRES.png?t=1758031139710",
-          "selected": false,
-          "enable": true
-        }
-      ],
-      "agreementCategoryList": [
-        {
-          "categoryName": "User service agreement",
-          "agreementList": [
-            {
-              "agreementtitle": "《快捷支付协议》",
-              "agreementurl": "https://secure.fat103.qa.nt.ctripcorp.com/webapp/paywallet/protocol?payagreeId=QuickPayProto&navBarStyle=white",
-              "agreementId": "QuickPayProto",
-              "version": "V0.1"
-            }
-          ]
-        }
-      ]
-    }
+      {
+        "categoryName": "个人信息保护指引",
+        "agreementList": [
+          {
+            "agreementtitle": "《程付通个人信息保护政策》",
+            "agreementurl": "https://secure.ctrip.com/webapp/paywallet/protocol?payagreeId=grxxbhzc",
+            "agreementId": "grxxbhzc"
+          },
+          {
+            "agreementtitle": "《程付通个人信息授权声明》",
+            "agreementurl": "https://secure.ctrip.com/webapp/paywallet/protocol?payagreeId=cftpersonauth",
+            "agreementId": "cftpersonauth"
+          },
+          {
+            "agreementtitle": "《程付通儿童个人信息保护规则及监护人须知》",
+            "agreementurl": "https://secure.ctrip.com/webapp/paywallet/protocol?payagreeId=cftchild",
+            "agreementId": "cftchild"
+          }
+        ]
+      }
+    ]
   }
+}
