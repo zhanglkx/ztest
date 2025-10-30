@@ -73,7 +73,29 @@ class DataStore {
           email: 'wangwu@example.com',
           role: UserRole.DEVELOPER,
           createdAt: new Date().toISOString()
+        },
+        {
+          id: uuidv4(),
+          name: '赵六',
+          email: 'zhaoliu@example.com',
+          role: UserRole.DEVELOPER,
+          createdAt: new Date().toISOString()
+        },
+        {
+          id: uuidv4(),
+          name: '孙七',
+          email: 'sunqi@example.com',
+          role: UserRole.DEVELOPER,
+          createdAt: new Date().toISOString()
+        },
+        {
+          id: uuidv4(),
+          name: '周八',
+          email: 'zhouba@example.com',
+          role: UserRole.DEVELOPER,
+          createdAt: new Date().toISOString()
         }
+
       ]
       this.users = defaultUsers
     }
