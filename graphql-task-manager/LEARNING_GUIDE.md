@@ -23,7 +23,7 @@
 - GraphQL: 单一端点，灵活查询
 
 **实践**：
-1. 启动项目后，访问 http://localhost:4000/graphql
+1. 启动项目后，访问 http://localhost:5353/graphql
 2. 尝试运行 `examples/queries.graphql` 中的基础查询
 3. 对比如果用REST API需要多少个请求
 
@@ -257,12 +257,12 @@ subscription TaskUpdated {
 ```typescript
 // HTTP链接用于查询和变更
 const httpLink = new HttpLink({
-  uri: 'http://localhost:4000/graphql',
+  uri: 'http://localhost:5353/graphql',
 })
 
 // WebSocket链接用于订阅
 const wsLink = new GraphQLWsLink(createClient({
-  url: 'ws://localhost:4000/graphql',
+  url: 'ws://localhost:5353/graphql',
 }))
 
 // 根据操作类型分割链接
@@ -356,7 +356,7 @@ const client = new ApolloClient({
 ## 🔍 调试技巧
 
 ### 1. 使用Apollo Studio
-- 访问 http://localhost:4000/graphql
+- 访问 http://localhost:5353/graphql
 - 使用内置的查询编辑器
 - 查看Schema文档
 - 测试各种查询和变更

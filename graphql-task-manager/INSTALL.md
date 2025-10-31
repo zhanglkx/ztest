@@ -36,14 +36,14 @@ npm install --legacy-peer-deps
 cd ../server
 npm run dev
 ```
-✅ 服务器将在 http://localhost:4000/graphql 启动
+✅ 服务器将在 http://localhost:5353/graphql 启动
 
 #### 5. 启动客户端（新终端窗口）
 ```bash
 cd graphql-task-manager/client
 npm start
 ```
-✅ 客户端将在 http://localhost:3000 启动
+✅ 客户端将在 http://localhost:5354 启动
 
 ### 方法二：一键启动脚本
 
@@ -74,12 +74,12 @@ sudo npm install --legacy-peer-deps --unsafe-perm=true --allow-root
 ### 3. 端口占用
 ```bash
 # 检查端口占用
-lsof -ti:4000  # 服务器端口
-lsof -ti:3000  # 客户端端口
+lsof -ti:5353  # 服务器端口
+lsof -ti:5354  # 客户端端口
 
 # 杀死占用进程
-kill -9 $(lsof -ti:4000)
-kill -9 $(lsof -ti:3000)
+kill -9 $(lsof -ti:5353)
+kill -9 $(lsof -ti:5354)
 ```
 
 ### 4. React Scripts 错误
@@ -94,13 +94,13 @@ npm start
 ## ✅ 验证安装
 
 ### 1. 检查服务器
-访问 http://localhost:4000/graphql
+访问 http://localhost:5353/graphql
 - 应该看到 Apollo Studio 界面
 - 可以查看 GraphQL Schema
 - 可以运行查询
 
 ### 2. 检查客户端  
-访问 http://localhost:3000
+访问 http://localhost:5354
 - 应该看到任务管理界面
 - 可以查看默认的示例数据
 - 可以创建、编辑、删除任务
@@ -108,7 +108,7 @@ npm start
 ## 🎯 开始学习
 
 ### 1. 探索 GraphQL Playground
-- 打开 http://localhost:4000/graphql
+- 打开 http://localhost:5353/graphql
 - 运行 `examples/queries.graphql` 中的示例查询
 - 查看 Schema 文档
 

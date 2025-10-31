@@ -56,7 +56,7 @@ async function startServer() {
   app.use(
     '/graphql',
     cors<cors.CorsRequest>({
-      origin: ['http://localhost:3000', 'http://localhost:3001'],
+      origin: ['http://localhost:5354', 'http://localhost:3001'],
       credentials: true,
     }),
     json(),
@@ -65,7 +65,7 @@ async function startServer() {
     }),
   );
 
-  const PORT = process.env.PORT || 4000;
+  const PORT = process.env.PORT || 5353;
 
   // 启动HTTP服务器
   httpServer.listen(PORT, () => {

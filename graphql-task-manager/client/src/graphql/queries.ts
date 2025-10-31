@@ -25,12 +25,16 @@ export const GET_USER = gql`
         id
         title
         status
+        taskCount
       }
       assignedTasks {
         id
         title
         status
         priority
+        project {
+          title
+        }
       }
     }
   }
@@ -48,9 +52,9 @@ export const GET_PROJECTS = gql`
         id
         name
       }
+      taskCount
       createdAt
       updatedAt
-      taskCount
     }
   }
 `;
@@ -65,23 +69,19 @@ export const GET_PROJECT = gql`
       creator {
         id
         name
-        email
       }
-      createdAt
-      updatedAt
       tasks {
         id
         title
-        description
         status
         priority
         assignee {
-          id
           name
         }
-        createdAt
-        updatedAt
       }
+      taskCount
+      createdAt
+      updatedAt
     }
   }
 `;
@@ -137,12 +137,10 @@ export const GET_TASK = gql`
       assignee {
         id
         name
-        email
       }
       project {
         id
         title
-        description
       }
       createdAt
       updatedAt

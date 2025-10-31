@@ -38,7 +38,7 @@
 
 2. **准备工具**
    - VS Code + GraphQL 扩展
-   - Apollo Studio (http://localhost:4000/graphql)
+   - Apollo Studio (http://localhost:5353/graphql)
    - 浏览器开发者工具
 
 ### 学习资源
@@ -85,7 +85,7 @@ GraphQL是一种**查询语言**和**运行时**，用于API的数据查询和�
    ```
 
 2. **访问Apollo Studio**
-   - 打开 http://localhost:4000/graphql
+   - 打开 http://localhost:5353/graphql
    - 查看右侧的Schema文档
 
 3. **运行第一个查询**
@@ -1574,12 +1574,12 @@ const client = new ApolloClient({
 ```typescript
 // HTTP链接 - 用于查询和变更
 const httpLink = new HttpLink({
-  uri: 'http://localhost:4000/graphql'
+  uri: 'http://localhost:5353/graphql'
 });
 
 // WebSocket链接 - 用于订阅
 const wsLink = new GraphQLWsLink(createClient({
-  url: 'ws://localhost:4000/graphql'
+  url: 'ws://localhost:5353/graphql'
 }));
 
 // 分割链接 - 根据操作类型选择链接

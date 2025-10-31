@@ -1,5 +1,5 @@
 # GraphQL 查询示例
-# 可以在 Apollo Studio (http://localhost:4000/graphql) 中运行这些查询
+# 可以在 Apollo Studio (http://localhost:5353/graphql) 中运行这些查询
 
 # ========================================
 # 基础查询 (Queries)

@@ -1,4 +1,8 @@
 @echo off
+
+REM 切换到脚本所在目录
+cd /d "%~dp0"
+
 echo 🚀 启动GraphQL任务管理系统...
 
 REM 检查是否安装了依赖
@@ -32,8 +36,8 @@ start "React Client" cmd /k "npm start"
 cd ..
 
 echo ✅ 系统启动完成！
-echo 📊 GraphQL服务器: http://localhost:4000/graphql
-echo 🌐 React应用: http://localhost:3000
+echo 📊 GraphQL服务器: http://localhost:5353/graphql
+echo 🌐 React应用: http://localhost:5354
 echo.
 echo 关闭命令行窗口来停止服务
 pause

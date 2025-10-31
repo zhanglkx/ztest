@@ -10,12 +10,12 @@ import './index.css'
 
 // HTTP链接用于查询和变更
 const httpLink = new HttpLink({
-  uri: 'http://localhost:4000/graphql',
+  uri: 'http://localhost:5353/graphql',
 })
 
 // WebSocket链接用于订阅
 const wsLink = new GraphQLWsLink(createClient({
-  url: 'ws://localhost:4000/graphql',
+  url: 'ws://localhost:5353/graphql',
 }))
 
 // 根据操作类型分割链接

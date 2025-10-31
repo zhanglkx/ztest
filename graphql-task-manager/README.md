@@ -54,18 +54,18 @@ npm install
 cd server
 npm run dev
 ```
-服务器将在 http://localhost:4000/graphql 启动
+服务器将在 http://localhost:5353/graphql 启动
 
 #### 启动前端应用
 ```bash
 cd client
 npm start
 ```
-前端应用将在 http://localhost:3000 启动
+前端应用将在 http://localhost:5354 启动
 
 ### 3. 访问GraphQL Playground
 
-打开浏览器访问 http://localhost:4000/graphql 可以使用Apollo Studio进行GraphQL查询测试。
+打开浏览器访问 http://localhost:5353/graphql 可以使用Apollo Studio进行GraphQL查询测试。
 
 ## GraphQL学习要点
 
@@ -212,7 +212,7 @@ graphql-task-manager/
 
 ### 常见问题
 
-1. **端口冲突**: 确保4000和3000端口未被占用
+1. **端口冲突**: 确保5353和5354端口未被占用
 2. **依赖问题**: 删除node_modules重新安装
 3. **WebSocket连接失败**: 检查防火墙设置
 
