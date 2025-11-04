@@ -21,3 +21,6 @@
 
 const name = require('../package.json')
 console.log('🚀日志=====name', name);
+debugger
+// console.log('🚀日志=====name', global); 
+console.log(Object.getOwnPropertyNames(global))
