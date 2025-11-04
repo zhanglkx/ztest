@@ -1,33 +1,601 @@
-<!doctype html>
-<html lang="zh.">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
-<div id="app">
-  111
-</div>
-</body>
-<style>
-
-  #app{
-    background-color: red;
-    width: 100px;
-    height: 100px;
-
-  }
-
-  #app:hover{
-    background-color: green;
-  }
-
-  #app:active{
-    background-color: blue;
-  }
-
-</style>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="next-head-count" content="1" />
+    <title></title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta content="telephone=yes" name="format-detection" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta charset="utf-8" />
+    <style>
+      #__next {
+        height: 100%;
+      }
+    </style>
+    <link
+      rel="preload"
+      as="script"
+      href="https://static.tripcdn.com/packages/fncmobilewallet/walletstatic/1.0.43/js/hysdk@1.3.52.js"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="preload"
+      as="script"
+      href="https://static.tripcdn.com/packages/fncmobilewallet/walletstatic/1.0.43/js/hysdk-ctrip@0.2.2.js"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="preload"
+      as="script"
+      href="https://static.tripcdn.com/packages/fncmobilewallet/walletstatic/1.0.43/js/cfsdk.hy@4.39.0.js"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="preload"
+      as="font"
+      href="https://static.tripcdn.com/packages/fncmobilewallet/walletstatic/1.0.43/font/CtripNumber_bold1@1.0.0.3f675b24a976c896585eb3d9d5039ac8.ttf"
+      crossorigin="anonymous"
+    />
+    <style type="text/css">
+      @font-face {
+        font-family: "CtripNumber_bold";
+        src: url(https://static.tripcdn.com/packages/fncmobilewallet/walletstatic/1.0.43/font/CtripNumber_bold1@1.0.0.3f675b24a976c896585eb3d9d5039ac8.ttf);
+      }
+    </style>
+    <script>
+      try {
+        window.__QueryObj__ = {};
+        window.__WALLET_CONFIG_DATA__ = {
+          supportUnloginCode: "[32005601,32005450,32005457,32005453,32005449,32005451,32005456]",
+          CTRIP_SUPPORT_CFT_VERSION: "8.78.6",
+          QUNAE_SUPPORT_CFT_IOS_VERSION: "80011347",
+          QUNAE_SUPPORT_CFT_ANDROID_VERSION: "60001658",
+          QUNAE_SUPPORT_CFT_HOS_VERSION: "50000103",
+          CBP_SUPPORT_CFT_HOS_VERSION: "4.0.0",
+          CBP_SUPPORT_CFT_IOS_VERSION: "4.0.0",
+          CBP_SUPPORT_CFT_ANDROID_VERSION: "4.0.2",
+          ZHIXING_PASSWORD_CODE: "b43f61f4a3e5456b820e728eb2fea7b3",
+          QUNAE_QRN_INDEX_IOS_VERSION: "80011347",
+          QUNAE_QRN_INDEX_ANDROID_VERSION: "60001650",
+          QUNAE_QRN_INDEX_HOS_VERSION: "70000000",
+          STATIC_RESOURCE_VERSION: "1.0.43",
+          CTRIP_SUPPORT_PAYWAYLIST_VERSION: "8.84.6",
+          QUNAE_SUPPORT_PAYWAYLIST_IOS_VERSION: "80011347",
+          QUNAE_SUPPORT_PAYWAYLIST_ANDROID_VERSION: "60001658",
+          QUNAE_SUPPORT_PAYWAYLIST_HOS_VERSION: "50000103",
+        };
+        window.__AUTH_WALLET__ = "";
+        window.__PAYUID_WALLET__ = "";
+      } catch (e) {
+        console.error("Failed to initialize wallet config:", e);
+        window.__QueryObj__ = {};
+        window.__WALLET_CONFIG_DATA__ = {};
+        window.__AUTH_WALLET__ = "";
+        window.__PAYUID_WALLET__ = "";
+      }
+    </script>
+    <script type="text/javascript">
+      window['cashier_g']={VERSION:};
+    </script>
+    <script type="text/javascript">
+      try {
+        window.enterTime = new Date();
+      } catch (e) {
+        console.log(e);
+      }
+    </script>
+    <script
+      type="text/javascript"
+      src="//webresource.fws.qa.nt.ctripcorp.com/NFES/paywallet/1761974203903/_next/serverStatic/errorhandler.js"
+    ></script>
+    <script>
+      // Initialize hysdk fallback to prevent "hysdk is not defined" errors
+      // This will be replaced when the real hysdk SDK loads
+      if (typeof window !== "undefined" && typeof window.hysdk === "undefined") {
+        window.hysdk = {
+          sniff: {
+            ios: /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream,
+            android: /android/i.test(navigator.userAgent),
+            isApp: false,
+            qunarApp: false,
+            ctripApp: false,
+            iphoneX: false,
+          },
+          onBack: function () {},
+          config: function () {},
+          ready: function () {},
+          register: function () {},
+        };
+      }
+    </script>
+    <link
+      rel="preload"
+      href="//webresource.fws.qa.nt.ctripcorp.com/NFES/paywallet/1761974203903/_next/static/css/pages/_app.css"
+      as="style"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="//webresource.fws.qa.nt.ctripcorp.com/NFES/paywallet/1761974203903/_next/static/css/pages/_app.css"
+      crossorigin="anonymous"
+      data-n-g=""
+    />
+    <link
+      rel="preload"
+      href="//webresource.fws.qa.nt.ctripcorp.com/NFES/paywallet/1761974203903/_next/static/css/16adae3484e17fe2.css"
+      as="style"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="//webresource.fws.qa.nt.ctripcorp.com/NFES/paywallet/1761974203903/_next/static/css/16adae3484e17fe2.css"
+      crossorigin="anonymous"
+      data-n-p=""
+    />
+    <noscript data-n-css=""></noscript>
+    <script
+      defer=""
+      crossorigin="anonymous"
+      nomodule=""
+      src="//webresource.fws.qa.nt.ctripcorp.com/NFES/paywallet/1761974203903/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js"
+    ></script>
+    <script
+      src="//webresource.fws.qa.nt.ctripcorp.com/NFES/paywallet/1761974203903/_next/static/chunks/webpack-ce138a4da200bcb2.js"
+      defer=""
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="//webresource.fws.qa.nt.ctripcorp.com/NFES/paywallet/1761974203903/_next/static/chunks/nfes-018d16ad66b2adaf.js"
+      defer=""
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="//webresource.fws.qa.nt.ctripcorp.com/NFES/paywallet/1761974203903/_next/static/chunks/framework-bb118e1a95ea12d8.js"
+      defer=""
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="//webresource.fws.qa.nt.ctripcorp.com/NFES/paywallet/1761974203903/_next/static/chunks/main-c3c8cc6a29e3b479.js"
+      defer=""
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="//webresource.fws.qa.nt.ctripcorp.com/NFES/paywallet/1761974203903/_next/static/chunks/pages/_app-ef6157af87038ec6.js"
+      defer=""
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="//webresource.fws.qa.nt.ctripcorp.com/NFES/paywallet/1761974203903/_next/static/chunks/pages/paymentset-58481b9e7a08dac2.js"
+      defer=""
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="//webresource.fws.qa.nt.ctripcorp.com/NFES/paywallet/1761974203903/_next/static/xxx/_buildManifest.js"
+      defer=""
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="//webresource.fws.qa.nt.ctripcorp.com/NFES/paywallet/1761974203903/_next/static/xxx/_ssgManifest.js"
+      defer=""
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body class="search-body">
+    <div id="__next">
+      <div>
+        <div class="m-wallet-white">
+          <div id="wallet-h5-header" class="wallet-header-container" style="height: 44px; background-color: #ffffff; box-sizing: border-box"></div>
+          <div class="loading-no-mask" style="background: #fff; min-height: 100vh">
+            <style>
+              @keyframes rainbow {
+                0% {
+                  left: -20%;
+                }
+                100% {
+                  left: 120%;
+                }
+              }
+            </style>
+            <div
+              style="
+                transform: rotate(20deg);
+                width: 20px;
+                min-height: 110vh;
+                background: #ffffff;
+                box-shadow: 0 0 8px 8px #ffffff inset;
+                position: absolute;
+                top: 0;
+                left: -6%;
+                right: 0;
+                bottom: 0;
+                opacity: 0.5;
+                animation: rainbow 1s infinite forwards;
+              "
+            ></div>
+            <div style="padding: 29px 16px 29px 16px">
+              <div style="background-color: #eef1f6; height: 29px; margin-bottom: 8px"></div>
+              <div style="background-color: #eef1f6; height: 13px; width: 300px; margin-bottom: 60px"></div>
+              <div style="background-color: #eef1f6; width: 225px; height: 29px; margin-bottom: 28px"></div>
+              <div style="background-color: #eef1f6; width: 225px; height: 29px; margin-bottom: 28px"></div>
+              <div style="background-color: #eef1f6; width: 225px; height: 29px; margin-bottom: 28px"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="trip-pay-h5-mask-wrapper" style="z-index: 2001; height: 0; transition: height 0s ease-in-out 0.5s">
+          <div class="trip-pay-h5-mask-box" style="opacity: 0"></div>
+          <div
+            class="trip-pay-h5-semi-router-fade-wrapper"
+            style="
+              transform: translate(0%, 100%);
+              -webkit-transform: translate(0%, 100%);
+              z-index: 2001;
+              transition: transform 120ms ease-in-out, height 120ms ease-in-out;
+            "
+          >
+            <div class="trip-pay-h5-semi-router-bg-wrapper" style="height: 0px; border-radius: 0.5rem 0.5rem 0 0"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="pay_wallet_outbindcardForm" style="overflow: hidden"></div>
+    <div
+      id="floating-layer"
+      style="position: fixed; top: 100px; right: 0px; width: 40px; height: 40px; background: rgba(255, 0, 0, 0.1); z-index: 999999; display: none"
+    ></div>
+    <script>
+      (function () {
+        document.addEventListener("DOMContentLoaded", function () {
+          var floatingLayer = document.getElementById("floating-layer");
+          var clickCount = 0;
+          var isTestEnv = /dev|beta|fat|fws|ctripcorp|localhost|192\.168\.2\.139/.test(window.location.href);
+          if (floatingLayer && isTestEnv) {
+            floatingLayer.style.display = "block";
+            floatingLayer.addEventListener("click", function () {
+              clickCount++;
+              if (clickCount === 10) {
+                var vid = (window && window.__WALLET_UBTBFA && window.__WALLET_UBTBFA.vid) || "VID not available";
+                var toast = document.createElement("div");
+                toast.style.position = "fixed";
+                toast.style.bottom = "60px";
+                toast.style.left = "50%";
+                toast.style.transform = "translateX(-50%)";
+                toast.style.backgroundColor = "rgba(0, 0, 0, 0.7)";
+                toast.style.color = "white";
+                toast.style.padding = "10px 20px";
+                toast.style.borderRadius = "5px";
+                toast.style.zIndex = "10000";
+                toast.textContent = vid;
+                document.body.appendChild(toast);
+                setTimeout(function () {
+                  document.body.removeChild(toast);
+                  clickCount = 0;
+                }, 30000);
+              }
+            });
+          }
+        });
+      })();
+    </script>
+    <script src="https://static.tripcdn.com/packages/fncmobilewallet/walletstatic/1.0.43/js/hysdk@1.3.52.js" crossorigin="anonymous"></script>
+    <script src="https://static.tripcdn.com/packages/fncmobilewallet/walletstatic/1.0.43/js/hysdk-ctrip@0.2.2.js" crossorigin="anonymous"></script>
+    <script src="https://static.tripcdn.com/packages/fncmobilewallet/walletstatic/1.0.43/js/cfsdk.hy@4.39.0.js" crossorigin="anonymous"></script>
+    <script async="" src="https://webresource.c-ctrip.com/code/lizard/2.2/web/3rdlibs/bridge.js?v=2025111"></script>
+    <script src="https://webresource.c-ctrip.com/ares2/fx/nfesHybrid/*/default/hybridInit.js?expires=1d&amp;timespan=1"></script>
+    <script>
+      window._pageBeginTime = window._beginTime = new Date().getTime();
+      window.mcdAppID = "5275";
+      window.nfesVersion = "6.9.1";
+      try {
+        if (window["$_bf"]) {
+          window["$_bf"]["loaded"] = true;
+        } else {
+          window["$_bf"] = { loaded: true };
+        }
+      } catch (e) {}
+      window["downMap"] = {
+        allowLists: {
+          "bd-s.tripcdn.cn": "ares-i18n-cn",
+          "ws-s.tripcdn.cn": "ares-i18n-cn",
+          "ak-s.tripcdn.com": "ares-i18n-oversea",
+          "aw-s.tripcdn.com": "ares-i18n-oversea",
+          "webresource.c-ctrip.com": "webresource",
+          "webresource.ctrip.com": "webresource",
+          "webresource.english.c-ctrip.com": "webresource.english",
+          "webresource.english.ctrip.com": "webresource.english",
+          "pic.c-ctrip.com": "pic",
+          "pic.ctrip.com": "pic",
+          "pic.english.c-ctrip.com": "pic.english",
+          "pic.english.ctrip.com": "pic.english",
+          "dimg01.c-ctrip.com": "dimg-cn",
+          "dimg02.c-ctrip.com": "dimg-cn",
+          "dimg03.c-ctrip.com": "dimg-cn",
+          "dimg04.c-ctrip.com": "dimg-cn",
+          "dimg05.c-ctrip.com": "dimg-cn",
+          "dimg06.c-ctrip.com": "dimg-cn",
+          "dimg07.c-ctrip.com": "dimg-cn",
+          "dimg08.c-ctrip.com": "dimg-cn",
+          "dimg09.c-ctrip.com": "dimg-cn",
+          "dimg10.c-ctrip.com": "dimg-cn",
+          "dimg11.c-ctrip.com": "dimg-cn",
+          "dimg12.c-ctrip.com": "dimg-cn",
+          "dimg13.c-ctrip.com": "dimg-cn",
+          "dimg14.c-ctrip.com": "dimg-cn",
+          "dimg15.c-ctrip.com": "dimg-cn",
+          "dimg16.c-ctrip.com": "dimg-cn",
+          "dimg17.c-ctrip.com": "dimg-cn",
+          "dimg18.c-ctrip.com": "dimg-cn",
+          "dimg19.c-ctrip.com": "dimg-cn",
+          "dimg20.c-ctrip.com": "dimg-cn",
+          "images4.c-ctrip.com": "dimg-cn",
+          "images5.c-ctrip.com": "dimg-cn",
+          "images6.c-ctrip.com": "dimg-cn",
+          "images7.c-ctrip.com": "dimg-cn",
+          "images8.c-ctrip.com": "dimg-cn",
+          "image.kztpms.com": "dimg-cn",
+          "bd-d.tripcdn.cn": "dimg-ctrip-cn",
+          "ws-d.tripcdn.cn": "dimg-ctrip-cn",
+          "ak-d.tripcdn.cn": "dimg-ctrip-oversea",
+          "aw-d.tripcdn.cn": "dimg-ctrip-oversea",
+          "bd-d.tripcdn.com": "dimg-trip-cn",
+          "ws-d.tripcdn.com": "dimg-trip-cn",
+          "ak-d.tripcdn.com": "dimg-trip-oversea",
+          "aw-d.tripcdn.com": "dimg-trip-oversea",
+          "download2.ctrip.com": "download-cn",
+          "ws-p.tripcdn.cn": "download-cn",
+          "bd-p.tripcdn.cn": "download-cn",
+          "ct-p.tripcdn.cn": "download-cn",
+          "ali-p.tripcdn.cn": "download-cn",
+          "ak-p.tripcdn.cn": "download-cn",
+          "aw-p.tripcdn.cn": "download-cn",
+          "download.trip.com": "download-oversea",
+          "ws-p.tripcdn.com": "download-oversea",
+          "bd-p.tripcdn.com": "download-oversea",
+          "ct-p.tripcdn.com": "download-oversea",
+          "ali-p.tripcdn.com": "download-oversea",
+          "ak-p.tripcdn.com": "download-oversea",
+          "aw-p.tripcdn.com": "download-oversea",
+          "static.assets.travix.com": "travix",
+          "cf-s.assets.travix.com": "travix",
+          "pages.c-ctrip.com": "pages",
+        },
+        rules: {
+          "ares-i18n-cn": ["bd-s.tripcdn.cn", "ws-s.tripcdn.cn", "static.tripcdn.com"],
+          "ares-i18n-oversea": ["ak-s.tripcdn.com", "aw-s.tripcdn.com", "static.tripcdn.com"],
+          webresource: ["webresource.c-ctrip.com", "webresource.ctrip.com"],
+          "webresource.english": ["webresource.english.c-ctrip.com", "webresource.english.ctrip.com"],
+          pic: ["pic.c-ctrip.com", "pic.ctrip.com"],
+          "pic.english": ["pic.english.c-ctrip.com", "pic.english.ctrip.com"],
+          "dimg-cn": ["ws-d.tripcdn.cn", "bd-d.tripcdn.cn"],
+          "dimg-ctrip-cn": ["bd-d.tripcdn.cn", "ws-d.tripcdn.cn", "dimg04.c-ctrip.com"],
+          "dimg-ctrip-oversea": ["ak-d.tripcdn.cn", "aw-d.tripcdn.cn", "dimg04.c-ctrip.com"],
+          "dimg-trip-cn": ["ws-d.tripcdn.com", "bd-d.tripcdn.com", "dimg04.c-ctrip.com"],
+          "dimg-trip-oversea": ["ak-d.tripcdn.com", "aw-d.tripcdn.com", "dimg04.c-ctrip.com"],
+          "download-cn": ["ws-p.tripcdn.cn", "bd-p.tripcdn.cn", "ali-p.tripcdn.cn"],
+          "download-oversea": ["ak-p.tripcdn.com", "aw-p.tripcdn.com"],
+          travix: ["static.assets.travix.com", "cf-s.assets.travix.com"],
+          pages: [],
+        },
+      };
+    </script>
+    <script id="webcore_internal" type="application/json" crossorigin="anonymous">
+      { "rootMessageId": "100025626-0a78472e-489438-3107" }
+    </script>
+    <script id="__NEXT_DATA__" type="application/json" crossorigin="anonymous">
+      {
+        "props": {
+          "pageProps": {
+            "initialState": {
+              "showLoadingPage": true,
+              "showErrorPage": false,
+              "rmsg": "网络不给力，请稍候重试",
+              "paySetInfoList": [],
+              "fingerStatus": 0,
+              "faceStatus": 0,
+              "needRefresh": false,
+              "actionList": {},
+              "needPageReload": false,
+              "isSsr": true
+            },
+            "key": "/webapp/paywallet/paymentset",
+            "pathname": "/paymentset",
+            "query": {
+              "renderPlatform": "",
+              "seo": 1,
+              "envObj": {
+                "env": "fat",
+                "isCtrip": true,
+                "pro": true,
+                "dev": false,
+                "plat": "unknow",
+                "phoneModel": "",
+                "isSupportWebP": true,
+                "configData": null
+              }
+            },
+            "asPath": "/webapp/paywallet/paymentset",
+            "hPageId": "10650163154",
+            "pageId": "10650163156",
+            "realPath": "/webapp/paywallet/paymentset",
+            "loginFlag": 0
+          },
+          "initialReduxState": {
+            "bindcard": {
+              "hasAppointBankInited": false,
+              "codeCounting": 0,
+              "showOnekeyList": true,
+              "sortToken": "",
+              "userName": "",
+              "idType": "",
+              "idTypeName": "",
+              "isShowCardHolder": false,
+              "extendInfo": {},
+              "idNo": "",
+              "showLoadingPage": true,
+              "cardIdentity": "",
+              "cardholder": { "cardholderValid": true, "cardholderErrorTips": "" },
+              "checkbinInfo": {},
+              "cardnoBottomTip": "",
+              "isNewCard": false,
+              "storageValues": {},
+              "isShowModifyView": false,
+              "modifyIdenityClicked": false,
+              "curfocus": "",
+              "cardno": {
+                "title": "请输入本人的银行卡号",
+                "value": "",
+                "canEditable": true,
+                "checkValue": "",
+                "cardnoValid": true,
+                "maxCheckLength": 16,
+                "cardnoErrorTips": "请输入完整卡号",
+                "cardnoNormalTip": "",
+                "cardnoTipLogo": ""
+              },
+              "canClickSubmitButton": false,
+              "hasAgreeProtocols": false,
+              "cardExtendInfo": {},
+              "extendData": {},
+              "isCheckbinSuccess": false,
+              "submitCheckbinSuccess": false,
+              "submitFailMessage": ""
+            },
+            "formCheck": {
+              "name": { "value": "", "errorTip": "", "isValid": false },
+              "nameHkmt": { "value": "", "errorTip": "", "isValid": false },
+              "protectorName": { "value": "", "errorTip": "", "isValid": false },
+              "familyName": { "value": "", "errorTip": "", "isValid": false },
+              "firstName": { "value": "", "errorTip": "", "isValid": false },
+              "idNoPassport": { "value": "", "errorTip": "", "isValid": false },
+              "idNo": { "value": "", "errorTip": "", "length": 18, "isValid": false },
+              "protectorIdNo": { "value": "", "errorTip": "", "length": 18, "isValid": false },
+              "idNoHkmt": { "value": "", "errorTip": "", "isValid": false },
+              "idType": { "value": "", "errorTip": "", "isValid": false },
+              "mobile": { "value": "", "errorTip": "", "isValid": false },
+              "mobileG": { "value": "", "errorTip": "", "isValid": false },
+              "email": { "value": "", "errorTip": "", "isValid": false },
+              "formValid": false
+            },
+            "myBankCard": {
+              "usedcardcount": 0,
+              "myCardList": [],
+              "otherList": [],
+              "extendInfo": {},
+              "curTabIndex": 0,
+              "showErrorPage": false,
+              "showLoadingPage": true
+            },
+            "realnameConflict": {
+              "name": { "value": "", "errorTip": "", "isValid": false },
+              "nameHkmt": { "value": "", "errorTip": "", "isValid": false },
+              "protectorName": { "value": "", "errorTip": "", "isValid": false },
+              "familyName": { "value": "", "errorTip": "", "isValid": false },
+              "firstName": { "value": "", "errorTip": "", "isValid": false },
+              "idNoPassport": { "value": "", "errorTip": "", "isValid": false },
+              "idNo": { "value": "", "errorTip": "", "length": 18, "isValid": false },
+              "protectorIdNo": { "value": "", "errorTip": "", "length": 18, "isValid": false },
+              "idNoHkmt": { "value": "", "errorTip": "", "isValid": false },
+              "idType": { "value": "", "errorTip": "", "isValid": false },
+              "mobile": { "value": "", "errorTip": "", "isValid": false },
+              "mobileG": { "value": "", "errorTip": "", "isValid": false },
+              "email": { "value": "", "errorTip": "", "isValid": false },
+              "formValid": false
+            },
+            "realnamehkmt": {
+              "name": { "value": "", "errorTip": "", "isValid": false },
+              "nameHkmt": { "value": "", "errorTip": "", "isValid": false },
+              "protectorName": { "value": "", "errorTip": "", "isValid": false },
+              "familyName": { "value": "", "errorTip": "", "isValid": false },
+              "firstName": { "value": "", "errorTip": "", "isValid": false },
+              "idNoPassport": { "value": "", "errorTip": "", "isValid": false },
+              "idNo": { "value": "", "errorTip": "", "length": 18, "isValid": false },
+              "protectorIdNo": { "value": "", "errorTip": "", "length": 18, "isValid": false },
+              "idNoHkmt": { "value": "", "errorTip": "", "isValid": false },
+              "idType": { "value": "", "errorTip": "", "isValid": false },
+              "mobile": { "value": "", "errorTip": "", "isValid": false },
+              "mobileG": { "value": "", "errorTip": "", "isValid": false },
+              "email": { "value": "", "errorTip": "", "isValid": false },
+              "formValid": false
+            },
+            "realnamepassport": {
+              "name": { "value": "", "errorTip": "", "isValid": false },
+              "nameHkmt": { "value": "", "errorTip": "", "isValid": false },
+              "protectorName": { "value": "", "errorTip": "", "isValid": false },
+              "familyName": { "value": "", "errorTip": "", "isValid": false },
+              "firstName": { "value": "", "errorTip": "", "isValid": false },
+              "idNoPassport": { "value": "", "errorTip": "", "isValid": false },
+              "idNo": { "value": "", "errorTip": "", "length": 18, "isValid": false },
+              "protectorIdNo": { "value": "", "errorTip": "", "length": 18, "isValid": false },
+              "idNoHkmt": { "value": "", "errorTip": "", "isValid": false },
+              "idType": { "value": "", "errorTip": "", "isValid": false },
+              "mobile": { "value": "", "errorTip": "", "isValid": false },
+              "mobileG": { "value": "", "errorTip": "", "isValid": false },
+              "email": { "value": "", "errorTip": "", "isValid": false },
+              "formValid": false
+            },
+            "realnamemodify": {
+              "name": { "value": "", "errorTip": "", "isValid": false },
+              "nameHkmt": { "value": "", "errorTip": "", "isValid": false },
+              "protectorName": { "value": "", "errorTip": "", "isValid": false },
+              "familyName": { "value": "", "errorTip": "", "isValid": false },
+              "firstName": { "value": "", "errorTip": "", "isValid": false },
+              "idNoPassport": { "value": "", "errorTip": "", "isValid": false },
+              "idNo": { "value": "", "errorTip": "", "length": 18, "isValid": false },
+              "protectorIdNo": { "value": "", "errorTip": "", "length": 18, "isValid": false },
+              "idNoHkmt": { "value": "", "errorTip": "", "isValid": false },
+              "idType": { "value": "", "errorTip": "", "isValid": false },
+              "mobile": { "value": "", "errorTip": "", "isValid": false },
+              "mobileG": { "value": "", "errorTip": "", "isValid": false },
+              "email": { "value": "", "errorTip": "", "isValid": false },
+              "formValid": false
+            }
+          }
+        },
+        "page": "/paymentset",
+        "query": {
+          "renderPlatform": "",
+          "seo": 1,
+          "envObj": {
+            "env": "fat",
+            "isCtrip": true,
+            "pro": true,
+            "dev": false,
+            "plat": "unknow",
+            "phoneModel": "",
+            "isSupportWebP": true,
+            "configData": null
+          }
+        },
+        "buildId": "xxx",
+        "assetPrefix": "//webresource.fws.qa.nt.ctripcorp.com/NFES/paywallet/1761974203903",
+        "runtimeConfig": { "appPrefix": "/webapp/paywallet", "routerConfig": [], "limitLiveNum": 20, "AppID": "100025626" },
+        "isFallback": false,
+        "customServer": true,
+        "gip": true,
+        "appGip": true,
+        "isSSR": true,
+        "isForceRender": false,
+        "isServerGetData": true,
+        "__pd": "{\"pd\":{\"r\":18,\"_d\":1,\"_p\":6}}",
+        "version": "6.9.1",
+        "i18nCaptchaURL": "https://static-fws.ares.ctripcorp.com/modules/infosec/jigsawCaptcha/jigsaw-captcha.min.ad84ffaf62b8f2d5c67dee07f2cd2d6d.macro.js",
+        "__nfesGlobalDatas": {
+          "nfesSharkData": {
+            "key.nfes.errorPage.back": "Back",
+            "key.nfes.errorPage.retry": "Retry",
+            "key.nfes.errorPage.tip": "Failed to load. Please try again later."
+          }
+        },
+        "company": "",
+        "fullUrl": "https://secure.fat18.qa.nt.ctripcorp.com/webapp/paywallet/paymentset",
+        "isRTL": ""
+      }
+    </script>
+    <link
+      href="https://static-fws.ares.ctripcorp.com/modules/infosec/jigsawCaptcha/jigsaw-captcha.min.ad84ffaf62b8f2d5c67dee07f2cd2d6d.macro.js"
+      rel="prefetch"
+    />
+  </body>
 </html>
