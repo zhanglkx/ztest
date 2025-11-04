@@ -8,11 +8,11 @@
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "runtimeArgs": [
-                "-r",
-                "ts-node/register"
-            ],
-            "program": "${workspaceFolder}/Typescript/test.ts",
+            // "runtimeArgs": [
+            //     "-r",
+            //     "ts-node/register"
+            // ],
+            "program": "${workspaceFolder}/node/lear.js",
         }
     ]
 }
