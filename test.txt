@@ -1,1 +1,2 @@
-https://secure.fat18.qa.nt.ctripcorp.com/webapp/paywallet/realname
+https://gateway.m.fws.qa.nt.ctripcorp.com/restapi/soa2/25927/serviceDo?serviceCode=32002020&subEnv=fat256&__gw_os=IOS&__gw_platform=APP&__gw_appid=37&__gw_ver=838.000
+https://gateway.m.fws.qa.nt.ctripcorp.com/restapi/soa2/25927/serviceDo?subEnv=fat256&__gw_os=IOS&__gw_platform=APP&__gw_appid=37&__gw_ver=838.000
