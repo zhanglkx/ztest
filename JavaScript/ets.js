@@ -1,83 +1,158 @@
-
-// 1. 参数名遮蔽（Variable Shadowing）
-
-//   在 try-catch 中的区别
-async function test() {
-  try {
-    return Promise.reject('error');  // ❌ 不会被 catch 捕获
-  } catch (e) {
-    console.log('caught:', e);
-  }
-}
-
-async function test2() {
-  try {
-    return await Promise.reject('error');  // ✅ 会被 catch 捕获
-  } catch (e) {
-    console.log('caught:', e);
-  }
-}
-
-
-// ❌ 不会按预期工作
-// async function fn() {
-//   [1, 2, 3].forEach(async (item) => {
-//     await delay(1000);
-//     console.log(item);
-//   });
-//   console.log('done');  // 会立即执行
-// }
-
-// // ✅ 正确方式
-// async function fn() {
-//   for (const item of [1, 2, 3]) {
-//     await delay(1000);
-//     console.log(item);
-//   }
-//   console.log('done');  // 等待所有完成后执行
-// }
-
-
-function promiseAll(reject) {
-    return new Promise((resolve, reject) => {
-      // reject(new Error('error'));
-      reject(1);
-    });
-}
-
-async function test() {
- try {
-  const res = await promiseAll(1);  
-  console.log('🚀日志=====try ', res);
- } catch (error) {
-  console.log('🚀日志=====catch ', error);
- }
-}
-
-function test2() {
-  promiseAll(1).then(res => {
-    console.log('🚀日志=====then2 ', res);
-  }).catch(error => {
-    console.log('🚀日志=====catch2 ', error);
-  });
-}
-
-// test();
-// test2();
-
-// 只能捕获前面的错误
-Promise.reject(1)
-  .then(res => console.log(res))
-  .catch(err => console.log('catch1:', err)) // 会执行
-  .then(() => {
-    console.log('🚀日志=====then3 ');
- throw new Error('error2'); 
-})
-  .catch(err => console.log('catch2:', err)); // 也会执行
-
-// 输出: catch1: 1
-//       catch2: Error: error2
-
-
-
-// 
+const q = {
+  pageParam: {},
+  billList: [
+    {
+      yearMonth: "2025-05",
+      yearMonthText: "2025年05月",
+      bills: [
+        {
+          id: "99262384",
+          billType: "PAY",
+          billTypeName: "消费",
+          billMemoType: "酒店QTA",
+          billMemoDesc: "艺龙安云酒店(苏州十全街南门地铁站店)",
+          billTime: "05月31日 14:48:50",
+          billMoney: 297,
+          billMoneyStr: "-297.00",
+          status: 1,
+          statusText: "成功",
+        },
+      ],
+    },
+    {
+      yearMonth: "2025-03",
+      yearMonthText: "2025年03月",
+      bills: [
+        {
+          id: "96555748",
+          billType: "REFUND",
+          billTypeName: "退款",
+          billMemoType: "酒店QTA",
+          billMemoDesc: "如家精选酒店(宁波火车站天一阁月湖店)",
+          billTime: "03月28日 20:02:36",
+          billMoney: 194,
+          billMoneyStr: "+194.00",
+          status: 1,
+          statusText: "成功",
+        },
+        {
+          id: "96555709",
+          billType: "PAY",
+          billTypeName: "消费",
+          billMemoType: "酒店QTA",
+          billMemoDesc: "蔷薇艺术酒店(宁波北仑银泰城店)",
+          billTime: "03月28日 20:01:40",
+          billMoney: 185,
+          billMoneyStr: "-185.00",
+          status: 1,
+          statusText: "成功",
+        },
+        {
+          id: "96396307",
+          billType: "PAY",
+          billTypeName: "消费",
+          billMemoType: "酒店QTA",
+          billMemoDesc: "如家精选酒店(宁波火车站天一阁月湖店)",
+          billTime: "03月24日 15:11:43",
+          billMoney: 194,
+          billMoneyStr: "-194.00",
+          status: 1,
+          statusText: "成功",
+        },
+      ],
+    },
+    {
+      yearMonth: "2024-08",
+      yearMonthText: "2024年08月",
+      bills: [
+        {
+          id: "87732655",
+          billType: "PAY",
+          billTypeName: "消费",
+          billMemoType: "汽车票TTS",
+          billMemoDesc: "象山-宁波南",
+          billTime: "08月11日 11:32:02",
+          billMoney: 87,
+          billMoneyStr: "-87.00",
+          status: 1,
+          statusText: "成功",
+        },
+        {
+          id: "87685135",
+          billType: "PAY",
+          billTypeName: "消费",
+          billMemoType: "汽车票TTS",
+          billMemoDesc: "宁波-象山",
+          billTime: "08月10日 12:33:14",
+          billMoney: 92,
+          billMoneyStr: "-92.00",
+          status: 1,
+          statusText: "成功",
+        },
+      ],
+    },
+    {
+      yearMonth: "2024-07",
+      yearMonthText: "2024年07月",
+      bills: [
+        {
+          id: "86463526",
+          billType: "PAY",
+          billTypeName: "消费",
+          billMemoType: "机票TTS",
+          billMemoDesc: "去哪儿订单",
+          billTime: "07月17日 08:18:36",
+          billMoney: 688,
+          billMoneyStr: "-688.00",
+          status: 1,
+          statusText: "成功",
+        },
+      ],
+    },
+    {
+      yearMonth: "2024-04",
+      yearMonthText: "2024年04月",
+      bills: [
+        {
+          id: "82988166",
+          billType: "REFUND",
+          billTypeName: "退款",
+          billMemoType: "酒店QTA",
+          billMemoDesc: "瑞鹿电竞酒店",
+          billTime: "04月17日 19:40:33",
+          billMoney: 201,
+          billMoneyStr: "+201.00",
+          status: 1,
+          statusText: "成功",
+        },
+        {
+          id: "82983357",
+          billType: "PAY",
+          billTypeName: "消费",
+          billMemoType: "酒店QTA",
+          billMemoDesc: "瑞鹿电竞酒店",
+          billTime: "04月17日 18:15:19",
+          billMoney: 201,
+          billMoneyStr: "-201.00",
+          status: 1,
+          statusText: "成功",
+        },
+        {
+          id: "82935837",
+          billType: "REFUND",
+          billTypeName: "退款",
+          billMemoType: "酒店QTA",
+          billMemoDesc: "苏州晨枫精致酒店",
+          billTime: "04月16日 21:13:58",
+          billMoney: 167,
+          billMoneyStr: "+167.00",
+          status: 1,
+          statusText: "成功",
+        },
+      ],
+    },
+  ],
+  status: 0,
+  errorMsg: "成功",
+  pageNo: 1,
+};
