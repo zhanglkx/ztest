@@ -1,3 +1,6 @@
+// 使此文件成为模块，避免全局作用域冲突
+export { };
+
 function testFu(a: number, b: number): number {
   return a + b;
 }
@@ -30,11 +33,27 @@ function getFirstElement<T>(arr: T[]): T | undefined {
   return arr[0];
 }
 
-const firstNum = getFirstElement([1, 2, 3]); // number | undefined
+const firstNum = getFirstElement([1, '1', 3]); // 实际类型: string | number | undefined
 const firstName = getFirstElement(["Alice", "Bob"]); // string | undefined
 const firstObj = getFirstElement([{ id: 1 }, { id: 2 }]); // { id: number } | undefined
 
 console.log("数组第一个元素:", firstNum, firstName, firstObj);
+
+// 演示：混合类型数组的类型推断
+const mixedResult = getFirstElement([1, '1', 3]);
+console.log("混合数组结果:", mixedResult, "类型:", typeof mixedResult);
+
+// 如果使用混合类型的结果，需要类型判断
+if (typeof mixedResult === 'number') {
+  console.log("是数字，可以进行数学运算:", mixedResult * 2);
+} else if (typeof mixedResult === 'string') {
+  console.log("是字符串，可以转大写:", mixedResult.toUpperCase());
+}
+
+// 如果想要严格类型，需要显式指定
+const strictNumber = getFirstElement<number>([1, 2, 3]); // 只能是 number | undefined
+// const strictError = getFirstElement<number>([1, '1', 3]); // ❌ 这会报错！
+console.log("严格数字类型:", strictNumber);
 
 // 1.3 泛型函数 - 返回数组
 function createArray<T>(length: number, value: T): T[] {
@@ -44,6 +63,19 @@ function createArray<T>(length: number, value: T): T[] {
 const numArray = createArray(3, 0); // number[]
 const strArray = createArray(3, "x"); // string[]
 console.log("创建数组:", numArray, strArray);
+
+// 1.3.5 严格类型版本的 getFirstElement（使用函数重载）
+function getFirstStrict1(arr: number[]): number | undefined;
+function getFirstStrict1(arr: string[]): string | undefined;
+function getFirstStrict1<T>(arr: T[]): T | undefined {
+  return arr[0];
+}
+
+const strictNum1 = getFirstStrict1([1, 2, 3]); // number | undefined ✅
+const strictStr1 = getFirstStrict1(['a', 'b']); // string | undefined ✅
+// const strictMixed = getFirstStrict1([1, '1', 3]); // ❌ 编译错误！不允许混合类型
+
+console.log("严格类型函数:", strictNum1, strictStr1);
 
 // 1.4 泛型函数 - 交换元组
 function swap<T, U>(tuple: [T, U]): [U, T] {
